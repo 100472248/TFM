@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/risks.css') }}">
+    <title>Resultados por riesgo</title>
+</head>
+<body>
+  <header>
+    <div class= "home-button">
+       <button id="home-button" onclick="window.location.href='/'">MENÚ PRINCIPAL</button>
+    </div>
+    <h1 class="webtitle">MODEL-TESTER</h1>
+    <aside class="userpanel">
+        <button id="up_button" onclick="window.location.href='/ask'">AÑADIR MÁS MODELOS</button>
+    </aside>
+  </header>
+
+    <main>
+        <section class="descripcion-riesgo">
+            <p>{{ descripcion }}</p>
+        </section>
+
+        {% if riesgo == "lim_dominio" %}
+            {% if tablas_por_tema %}
+                {% for tema, filas_tema in tablas_por_tema.items() %}
+                    <section class="tabla-tema">
+                        <h2>{{ tema }}</h2>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Modelo</th>
+                                    <th>SBert</th>
+                                    <th>Bleurt</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for fila in filas_tema %}
+                                    <tr>
+                                        <td>{{ fila.modelo }}</td>
+                                        <td>{{ fila.calificacion_sbert }}</td>
+                                        <td>{{ fila.calificacion_bleurt }}</td>
+                                    </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </section>
+                {% endfor %}
+            {% else %}
+                <p>No hay resultados disponibles para este riesgo.</p>
+            {% endif %}
+
+        {% else %}
+            {% if filas %}
+                <section class="tabla-riesgo">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Modelo</th>
+                                <th>SBert</th>
+                                <th>Bleurt</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for fila in filas %}
+                                <tr>
+                                    <td>{{ fila.modelo }}</td>
+                                    <td>{{ fila.calificacion_sbert }}</td>
+                                    <td>{{ fila.calificacion_bleurt }}</td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </section>
+            {% else %}
+                <p>No hay resultados disponibles para este riesgo.</p>
+            {% endif %}
+        {% endif %}
+    </main>
+
+    <footer>
+        <p>TFM - Evaluación de modelos</p>
+    </footer>
+</body>
+</html>

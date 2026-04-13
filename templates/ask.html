@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>InitPage</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/main.css') }}">
+</head>
+<body>
+  <header>
+    <div class= "home-button">
+       <button id="home-button" onclick="window.location.href='/'">MENÚ PRINCIPAL</button>
+    </div>
+    <h1 class="webtitle">MODEL-TESTER</h1>
+  </header>
+  <h2 class="subtitle">Introduce nuevos modelos</h2>
+    <div class="container">
+<div class="container">
+    <form method="post">
+        <label for="usuario">Identificador usuario:</label><br>
+        <input type="text" id="usuario" name="usuario"><br>
+        <label for="gmail">Correo electrónico:</label><br>
+        <input type="email" id="gmail" name="gmail"><br>
+        <label for="modelo">Nombre modelo (solo modelos locales de Ollama):</label><br>
+        <input type="text" id="modelo" name="modelo">
+        <input type="submit" value="Submit">
+    </form>
+{% if error %}
+<script>
+    alert("{{ error }}");
+</script>
+{% endif %}
+{% if success %}
+<script>
+    alert("{{ success }}");
+</script>
+{% endif %}
+</div>
+    </div>
+  <footer class="footer">
+    <p>Model tester</p>
+  </footer>
+</body>
+
+</html>

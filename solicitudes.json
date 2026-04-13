@@ -1,0 +1,15 @@
+{
+    "procesar": [],
+    "enviadas": [
+        {
+            "usuario": "Jorge",
+            "modelo": "mistral:7b",
+            "mensaje": "Su modelo mistral:7b ha sido procesado correctamente. Puede consultar los resultados en la sección de riesgos."
+        },
+        {
+            "usuario": "Jorge",
+            "modelo": "mistral:7b",
+            "mensaje": "Su modelo mistral:7b ha sido procesado correctamente. Puede consultar los resultados en la sección de riesgos."
+        }
+    ]
+}
