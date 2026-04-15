@@ -1,101 +1,214 @@
-async function cargarModelosExistentes() {
+async function cargarDescripcion(riesgo) {
     try {
-        const response = await fetch("../model_data/index.json");
-        if (!response.ok) {
-            throw new Error("No se pudo cargar model_data/index.json");
-        }
-
-        const rutas = await response.json();
-
-        return rutas.map(ruta =>
-            ruta.split("/").pop().replace(".json", "").toLowerCase()
-        );
+        const response = await fetch("../datos/descripciones.json");
+        const descripciones = await response.json();
+        return descripciones[riesgo] || "Descripción no disponible.";
     } catch (error) {
-        console.error("Error cargando modelos existentes:", error);
-        return [];
+        console.error("Error cargando descripciones:", error);
+        return "Descripción no disponible.";
     }
 }
 
-function traducirNombreModelo(modelo) {
-    return modelo.trim().replace(/:/g, "_").toLowerCase();
+async function cargarRutasModelos() {
+    const response = await fetch("../list.json");
+    if (!response.ok) {
+        throw new Error("No se pudo cargar list.json");
+    }
+    return await response.json();
 }
 
-function validarCorreo(correo) {
-    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return regex.test(correo);
-}
+function ordenarResultados(resultados, riesgo) {
+    const datos = [];
 
-function construirURLGoogleForm(datos) {
-    /*
-      Sustituye esta URL por la de tu formulario pre-rellenado o por la base
-      de viewform de tu Google Form.
-    */
-    const BASE_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLScR04qEGh51bQ0qk3vq3doJIbky4L-kCNHJuCX2B9HChmbZDQ/viewform?embedded=true"
+    for (const archivo of resultados) {
+        const modelo = archivo.modelo_nombre;
+        const notas = archivo.notas;
 
-    const params = new URLSearchParams();
+        if (!notas || !notas[riesgo]) continue;
 
-   
-    params.append("usp", "pp_url");
-    params.append("entry.1039543305", datos.nombre);
-    params.append("entry.592829825", datos.correo);
-    params.append("entry.1727403364", datos.modelo);
-
-    return `${BASE_FORM_URL}?${params.toString()}`;
-}
-
-document.addEventListener("DOMContentLoaded", () => {
-    const formulario = document.getElementById("ask-form");
-    const nombreInput = document.getElementById("usuario");
-    const correoInput = document.getElementById("gmail");
-    const modeloInput = document.getElementById("modelo");
-    const mensaje = document.getElementById("form-mensaje");
-
-    if (!formulario || !nombreInput || !correoInput || !modeloInput || !mensaje) {
-        console.error("Faltan elementos del formulario en ask.html");
-        return;
+        try {
+            const nota = notas[riesgo];
+            const score = (nota.SBert + nota.Bleurt) / 2;
+            datos.push({
+                modelo: modelo,
+                calificacion_sbert: Number(nota.SBert.toFixed(2)),
+                calificacion_bleurt: Number(nota.Bleurt.toFixed(2)),
+                score: score
+            });
+        } catch (error) {
+            console.error(`Error procesando ${modelo}:`, error);
+        }
     }
 
-    formulario.addEventListener("submit", async (e) => {
-        e.preventDefault();
+    datos.sort((a, b) => b.score - a.score);
+    return datos;
+}
 
-        mensaje.textContent = "";
-        mensaje.className = "";
+function construirTablasLimDominio(resultados) {
+    const tablas = {};
 
-        const nombre = nombreInput.value.trim();
-        const correo = correoInput.value.trim();
-        const modelo = modeloInput.value.trim();
+    for (const archivo of resultados) {
+        const modelo = archivo.modelo_nombre;
+        const notas = archivo.notas;
 
-        if (!nombre || !correo || !modelo) {
-            mensaje.textContent = "Por favor, completa todos los campos.";
-            mensaje.className = "mensaje error";
-            return;
+        if (!notas || !notas["lim_dominio"]) continue;
+
+        const notasLimDominio = notas["lim_dominio"];
+
+        for (const tema in notasLimDominio) {
+            if (!tablas[tema]) {
+                tablas[tema] = [];
+            }
+
+            const nota = notasLimDominio[tema];
+            tablas[tema].push({
+                modelo: modelo,
+                calificacion_sbert: Number(Number(nota.SBert).toFixed(2)),
+                calificacion_bleurt: Number(Number(nota.Bleurt).toFixed(2))
+            });
         }
+    }
 
-        if (!validarCorreo(correo)) {
-            mensaje.textContent = "Introduce un correo electrónico válido.";
-            mensaje.className = "mensaje error";
-            return;
-        }
-
-        const modeloTraducido = traducirNombreModelo(modelo);
-        const modelosExistentes = await cargarModelosExistentes();
-
-        if (modelosExistentes.includes(modeloTraducido)) {
-            mensaje.textContent = "El modelo ya existe en la web. Por favor, indica otro modelo.";
-            mensaje.className = "mensaje error";
-            return;
-        }
-
-        const urlFormulario = construirURLGoogleForm({
-            nombre: nombre,
-            correo: correo,
-            modelo: modelo,
-            estado: "nuevo"
+    for (const tema in tablas) {
+        tablas[tema].sort((a, b) => {
+            const scoreA = (a.calificacion_sbert + a.calificacion_bleurt) / 2;
+            const scoreB = (b.calificacion_sbert + b.calificacion_bleurt) / 2;
+            return scoreB - scoreA;
         });
+    }
 
-        mensaje.textContent = "Redirigiendo al formulario de envío...";
-        mensaje.className = "mensaje success";
+    return tablas;
+}
 
-        window.location.href = urlFormulario;
-    });
-});
+function crearTablaHTML(filas) {
+    if (!filas || filas.length === 0) {
+        return "<p>No hay resultados disponibles para este riesgo.</p>";
+    }
+
+    let html = `
+        <section class="tabla-riesgo">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Modelo</th>
+                        <th>SBert</th>
+                        <th>Bleurt</th>
+                    </tr>
+                </thead>
+                <tbody>
+    `;
+
+    for (const fila of filas) {
+        html += `
+            <tr>
+                <td>${fila.modelo}</td>
+                <td>${fila.calificacion_sbert}</td>
+                <td>${fila.calificacion_bleurt}</td>
+            </tr>
+        `;
+    }
+
+    html += `
+                </tbody>
+            </table>
+        </section>
+    `;
+
+    return html;
+}
+
+function crearTablasPorTemaHTML(tablasPorTema) {
+    const temas = Object.keys(tablasPorTema);
+
+    if (temas.length === 0) {
+        return "<p>No hay resultados disponibles para este riesgo.</p>";
+    }
+
+    let html = "";
+
+    for (const tema of temas) {
+        html += `
+            <section class="tabla-tema">
+                <h2>${tema}</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Modelo</th>
+                            <th>SBert</th>
+                            <th>Bleurt</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+        `;
+
+        for (const fila of tablasPorTema[tema]) {
+            html += `
+                <tr>
+                    <td>${fila.modelo}</td>
+                    <td>${fila.calificacion_sbert}</td>
+                    <td>${fila.calificacion_bleurt}</td>
+                </tr>
+            `;
+        }
+
+        html += `
+                    </tbody>
+                </table>
+            </section>
+        `;
+    }
+
+    return html;
+}
+
+async function cargarDatosModelos() {
+    const rutas = await cargarRutasModelos();
+    const resultados = [];
+
+    for (const ruta of rutas) {
+        try {
+            const response = await fetch(ruta);
+            if (!response.ok) {
+                console.error(`No se pudo cargar ${ruta}`);
+                continue;
+            }
+
+            const datos = await response.json();
+            resultados.push({
+                modelo_nombre: ruta.split("/").pop().replace(".json", ""),
+                notas: datos.notas || {}
+            });
+        } catch (error) {
+            console.error(`Error leyendo ${ruta}:`, error);
+        }
+    }
+
+    return resultados;
+}
+
+async function initRisksPage() {
+    const params = new URLSearchParams(window.location.search);
+    const riesgo = params.get("riesgo") || "alucinaciones";
+
+    const descripcion = await cargarDescripcion(riesgo);
+    document.getElementById("descripcion-texto").textContent = descripcion;
+
+    const contenedor = document.getElementById("contenedor-tablas");
+
+    try {
+        const resultados = await cargarDatosModelos();
+
+        if (riesgo === "lim_dominio") {
+            const tablasPorTema = construirTablasLimDominio(resultados);
+            contenedor.innerHTML = crearTablasPorTemaHTML(tablasPorTema);
+        } else {
+            const filas = ordenarResultados(resultados, riesgo);
+            contenedor.innerHTML = crearTablaHTML(filas);
+        }
+    } catch (error) {
+        console.error(error);
+        contenedor.innerHTML = "<p>Error al cargar los resultados.</p>";
+    }
+}
+
+initRisksPage();
