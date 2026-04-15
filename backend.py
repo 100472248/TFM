@@ -11,7 +11,7 @@ from datetime import date
 #VARIABLES GLOBALES
 URL = "https://wiig.dia.fi.upm.es/ollama/v1/chat/completions"
 MODELS = "./model_data"
-QUESTIONS = "./preguntas.json"
+QUESTIONS = "./datos/preguntas.json"
 DOMINIOS = ["Salud", "Deportes"]
 
 CORRECTOR1 = SentenceTransformer("sentence-transformers/paraphrase-multilingual-mpnet-base-v2")
@@ -28,7 +28,7 @@ t_risk = {"alucinaciones": 0.6, "lim_temporal": 0.7, "falta_contexto": 0.6, "lim
 
 #FUNCIONES DE MANTENIMIENTO
 def mantenimiento_tiempo():
-    with open("./preguntas.json", "r", encoding='utf-8') as f:
+    with open(QUESTIONS, "r", encoding='utf-8') as f:
         archivo = json.load(f)
     fecha = date.today()
     dia = fecha.day
@@ -47,7 +47,7 @@ def mantenimiento_tiempo():
                 resto = year_hoy % 4
                 archivo[n]["cuestiones"][2]["respuesta_esperada"] = f"Estamos en {year_hoy}. Este año no es bisiesto. El siguiente es {year_hoy + (4 - resto)}"
             break
-    with open("./preguntas.json", 'w', encoding='utf-8') as f:
+    with open(QUESTIONS, 'w', encoding='utf-8') as f:
         json.dump(archivo, f, indent=4, ensure_ascii=False)
         print(f"Archivo actualizado.")
     return True
@@ -103,6 +103,7 @@ def len_prompt(prompt):
     return len(texto.split())
 
 def general_tests(model, dataframe, risk, ruta):
+    print(dataframe)
     resultado = []
     for i in range(len(dataframe)):
         fila = {}
@@ -315,6 +316,11 @@ def process(model, risk):
     if not os.path.exists(ruta):
         with open(ruta, "w") as f:
             f.write("")
+        with open("./list.json", "r") as f:
+            lista = json.load(f)
+        lista.append(ruta)
+        with open("./list.json", "w") as f:
+            json.dump(lista, f, indent=4, ensure_ascii=False)     
     if os.path.exists(ruta) and os.path.getsize(ruta) > 0:
         with open(ruta, 'r', encoding='utf-8') as f:
             archivo = json.load(f)
@@ -350,30 +356,37 @@ def process(model, risk):
     return True
 
 def procesar_solicitudes():
-    with open("solicitudes.json", "r", encoding="utf-8") as f:
-        try:
-            solicitudes = json.load(f)
-        except json.JSONDecodeError:
-            print("Error leyendo solicitudes.json")
-            return []
-    tareas = solicitudes["procesar"].copy()
-    json_test = pd.read_json("preguntas.json")
-    for i in range (len(tareas)):
-        print(f"Procesando modelo {tareas[i]['modelo']} para el usuario {tareas[i]['usuario']}")
-        mensaje = ""
+    solicitudes = pd.read_csv("./datos/Solicitudes.csv")
+    json_test = pd.read_json(QUESTIONS)
+    lista = list(pd.read_json("list.json"))
+
+    for i, fila in solicitudes.iterrows():
+        if fila["Realizado"] != 0:
+            continue
+
+        modelo = MODELS + "./" + nombre_archivo_valido(fila["Modelo"]) + ".json"
+
+        if modelo in lista:
+            print(f"El modelo {fila['Modelo']} ya existe")
+            solicitudes.loc[i, "Realizado"] = 2
+            continue
+
+        print(f"Procesando modelo {fila['Modelo']}")
+
+        correcto = True
         for j in range(len(json_test)):
             riesgo = json_test.iloc[j]["riesgo"]
-            resultado = process(tareas[i]['modelo'], riesgo)
+            resultado = process(fila["Modelo"], riesgo)
             if not resultado:
-                mensaje += f"Sentimos las molestias {tareas[i]['usuario']}, pero su modelo {tareas[i]['modelo']} no se pudo procesar.\n"
+                print(f"Error al procesar modelo {fila['Modelo']} del usuario {fila['Nombre']}")
+                correcto = False
                 break
-        if mensaje == "":
-            mensaje = f"Su modelo {tareas[i]['modelo']} ha sido procesado correctamente. Puede consultar los resultados en la sección de riesgos."
-        diccionario = {"usuario": tareas[i]['usuario'], "modelo": tareas[i]['modelo'], "mensaje": mensaje}
-        solicitudes["enviadas"].append(diccionario)
-        solicitudes["procesar"].remove(tareas[i])  
-    with open("solicitudes.json", "w", encoding="utf-8") as f:
-        json.dump(solicitudes, f, indent=4, ensure_ascii=False)
+
+        if correcto:
+            print(f"El modelo {fila['Modelo']} ha sido procesado correctamente.")
+            solicitudes.loc[i, "Realizado"] = 1
+
+    solicitudes.to_csv("./datos/Solicitudes.csv", index=False)
     return True
-# procesar_solicitudes()
-#process("qwen3:30b", "lim_dominio")
+
+procesar_solicitudes()
