@@ -10,7 +10,7 @@ async function cargarDescripcion(riesgo) {
 }
 
 async function cargarRutasModelos() {
-    const response = await fetch("../list.json");
+    const response = await fetch("./list.json");
     if (!response.ok) {
         throw new Error("No se pudo cargar list.json");
     }
