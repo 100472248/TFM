@@ -1,6 +1,6 @@
 async function cargarDescripcion(riesgo) {
     try {
-        const response = await fetch("../datos/descripciones.json");
+        const response = await fetch("datos/descripciones.json");
         const descripciones = await response.json();
         return descripciones[riesgo] || "Descripción no disponible.";
     } catch (error) {
@@ -10,7 +10,7 @@ async function cargarDescripcion(riesgo) {
 }
 
 async function cargarRutasModelos() {
-    const response = await fetch("../list.json");
+    const response = await fetch("list.json");
     if (!response.ok) {
         throw new Error("No se pudo cargar list.json");
     }
