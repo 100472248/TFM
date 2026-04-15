@@ -11,10 +11,21 @@ async function cargarDescripcion(riesgo) {
 
 async function cargarRutasModelos() {
     const response = await fetch("list.json");
+    console.log("URL:", response.url);
+    console.log("Status:", response.status);
+
     if (!response.ok) {
-        throw new Error("No se pudo cargar list.json");
+        throw new Error(`No se pudo cargar list.json: HTTP ${response.status}`);
     }
-    return await response.json();
+
+    const texto = await response.text();
+    console.log("Contenido recibido:", texto);
+
+    try {
+        return JSON.parse(texto);
+    } catch (e) {
+        throw new Error("list.json existe, pero no es JSON válido: " + e.message);
+    }
 }
 
 function ordenarResultados(resultados, riesgo) {
