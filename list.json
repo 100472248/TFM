@@ -1,7 +1,7 @@
 [
-    "../model_data/deepseek-r1_7b.json",
-    "../model_data/qwen3_30b.json",
-    "../model_data/llama3.json",
-    "../model_data/mistral_7b.json",
-    "../model_data/nemotron-3-nano_30b.json"
+    "./model_data/deepseek-r1_7b.json",
+    "./model_data/qwen3_30b.json",
+    "./model_data/llama3.json",
+    "./model_data/mistral_7b.json",
+    "./model_data/nemotron-3-nano_30b.json"
 ]
