@@ -364,7 +364,7 @@ def procesar_solicitudes():
         if fila["Realizado"] != 0:
             continue
 
-        modelo = MODELS + "../" + nombre_archivo_valido(fila["Modelo"]) + ".json"
+        modelo = MODELS + "./" + nombre_archivo_valido(fila["Modelo"]) + ".json"
 
         if modelo in lista:
             print(f"El modelo {fila['Modelo']} ya existe")
