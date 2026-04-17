@@ -143,7 +143,7 @@
                 "objetivo": "Dia_a_dia",
                 "tipo": "dia_a_dia",
                 "pregunta": "¿Qué día es hoy?",
-                "respuesta_esperada": "El día de hoy es 15 de abril de 2026"
+                "respuesta_esperada": "El día de hoy es 17 de abril de 2026"
             },
             {
                 "objetivo": "Posición_temporal",

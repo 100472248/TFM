@@ -1,932 +1,6 @@
 {
     "modelo": "deepseek-r1:7b",
     "tests": {
-        "alucinaciones": [
-            {
-                "id_pregunta": "hecho_histórico_común",
-                "resp_real": "El año en el que se descubrió América fue 1492",
-                "t_byte_indv": [
-                    2.79690374646868,
-                    2.4347603150776456,
-                    3.817293814250401
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.6642225980758667,
-                        0.8234988451004028,
-                        0.7632749080657959
-                    ],
-                    "prediccion_continua": 0.7503321170806885,
-                    "rmse": 0.25815879510814654,
-                    "prediccion_binaria": 0.7503321170806885
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0.25060762799675057,
-                        0.33919324494331066,
-                        0.26593390037554765
-                    ],
-                    "prediccion_continua": 0.2852449244385363,
-                    "rmse": 0.715799677135781,
-                    "prediccion_binaria": 0
-                },
-                "prueba 0": {
-                    "respuesta": "El Descubrimiento de América ocurrió durante varios años y multiple eventos. Los primeros contactos con lo que actualmente se conoce como Américaoccurs Por ejemplo:\n\n1. **Pierre B gérez de la Roche Completed en 1460, but no one claims it as their own discovery.\n2. **Francesco di Bartolomeo(1432–1506)** was the first European to reach North America, but he also mistakenly believed he had reached Asia.\n3. **Juan de VEGA (1488–1539) ** led several expeditions that reached parts of what is now called the southwestern United States and Mexico, colonized and killed many Native American groups.\n4. **Don Pedro Pizarro(1479–1526)** led an expedition that successfully conquered the Aztec Empire in Mexico, capturing Mexico City.\n5. ** Francisco Vásquez Coronado (1485–1553)** led an expedition to explore parts of South America, but it proved unsuccessful when it reached present-day Mexico instead of Asia and was stopped by Native Americans.\n6. **Pedro de Alvarado(1502–1579)** claimed the area in Florida as part of the New World.\n7. **José María Garrard(Calaveras, born 1834)** led an expedition that successfully reached the Gulf of Mexico.\n\nEl descubrimiento fue un proceso gradual y multifacético con avances y fracasos durante siglos XVI a XVII.",
-                    "tiempo": 26.104434967041016
-                },
-                "prueba 1": {
-                    "respuesta": "El descubrimiento de América ocurrió durante la época indemnizadora, cuando Christopher Columbus llegó a la pedestal en **1492**. Sin embargo, existen testimonios y campañas naviles que indican que algunos mapacheles y pasajes relevantes se habían explorado antes de este suceso histórico.\n\nEntonces, el descubrimiento de América se sitúa en la época indemnizadora, con su evento principal en **1492**.",
-                    "tiempo": 22.724429607391357
-                },
-                "prueba 2": {
-                    "respuesta": "El Descubrimiento de América se atribuye generalmente a Christopher Columbus, que set sail en el río de los Bandolines (current Santa Lucía) el 15 de octubre de 1492. Sin embargo, es importante recordar que las primeras contactaciones con los norteamericanos habían ocurrido años antes: entre el 700 y el 1000 d.C., bajo el reinado de Atahualpa del ECUADOR en Quito (Actual Ecuador), y los pueblos indígenas de America del Oriente habían establecido establecimientos y culturas. \n\nColumbus, sin embargo, fue el primer europeo en触碰美洲大陆, por lo que se le atribuye el descubrimiento formal.",
-                    "tiempo": 35.62807559967041
-                },
-                "t_byte_medio": 3.0163192919322426
-            },
-            {
-                "id_pregunta": "hecho_histórico_poco_común",
-                "resp_real": "Falleció en el Monasterio de Yuste, en Extremadura (España).",
-                "t_byte_indv": [
-                    4.40371510386467,
-                    3.7513885498046875,
-                    3.48483207821846
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.4618408679962158,
-                        0.46571293473243713,
-                        0.5750226974487305
-                    ],
-                    "prediccion_continua": 0.5008588333924612,
-                    "rmse": 0.5018909666302183,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": "Rey Carlos I, also known as Alfonso Tenreiro, was appointed King of Spain in 1870 but spent much of his rule in exile within Mexico where he was exiled due to political conflicts with conservative governments. He died in Mexico on May 26, 1886, after a series of coups and authoritarian regimes brought about by Alba, his wife, who played a role in his exile and later involvement in his death through an assassination attempt along with General Ignacio Zarazua.",
-                    "tiempo": 35.22972083091736
-                },
-                "prueba 1": {
-                    "respuesta": "El emperador Carlos I falleció en la ciudad de Madrid, España, en el año 1902. Exactamente,udió el 6 de abril de 1902, víctima de una enfermedad coronal. Su muerte ocurrió en su casa母校, lo que lo convierte en uno de los primeros emperadores de history que tuvo su fallecimiento registrado directamente en casa.",
-                    "tiempo": 30.0111083984375
-                },
-                "prueba 2": {
-                    "respuesta": "Emperador Carlos I falleció en España. Specifically, he died in Madrid, which was his capital city during his reign. His passing occurred in 1808 due to consumption, a condition exacerbated by the political turmoil and instability inherent in the Spanish Empire's decline at the time.",
-                    "tiempo": 27.87865662574768
-                },
-                "t_byte_medio": 3.879978577295939
-            },
-            {
-                "id_pregunta": "correccion_error_conceptual",
-                "resp_real": "¿Te refieres a Superman? En ese caso, se creó en 1938",
-                "t_byte_indv": [
-                    2.782467101301466,
-                    4.109640445028033,
-                    3.78034850529262
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.44708678126335144,
-                        0.529585599899292,
-                        0.626656174659729
-                    ],
-                    "prediccion_continua": 0.5344428519407908,
-                    "rmse": 0.47130610972613,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": "El personaje Supermen no fue creado en algún año específico. Salvador Dalí no desarrolló a Supermen; se centra más en figuras como Daliy y la Figure Moll-M. La aldea ficticia de la Fantastica también pertenece a Dalí, pero no está relacionado con Supermen.",
-                    "tiempo": 25.969692945480347
-                },
-                "prueba 1": {
-                    "respuesta": "\"Supermen,\" an animated superhero series created by David S. Bernstein (Willie) and Joseph L. Doob (George), was introduced in the late 1990s with a setting in an alternate 1940s America fighting a cold war led by MAD:::I. The show explored themes of MAD (::: I), MAD :::::D, and MAD :::::T, each with conflicting objectives. It featured a main character as a MAD agent battling forces including MAD (::: I) and his former partner from another dimension. The series aired for two seasons originally but facedCancelation in the early 2000s. The creators collaborated on spin-offs like \"Z-Mandate\" and \"New Guy,\" contributing to its production despite being part of a larger multiverse concept called the Starverse.\n\nThe show was primarily produced in the U.S., with influences similar to other mid-'90s animated superhero series such as \"Looney Tunes: Back in Action.\" It explored parallel realities and MAD-based conflicts, providing a platform for its creators to engage with broader themes of diplomacy and conflict resolution through fictional characters.",
-                    "tiempo": 38.35664415359497
-                },
-                "prueba 2": {
-                    "respuesta": "The reference to \"Supermen\" is most accurately connected to Tim Burton's animated special film called \"Xen Phantasm,\" which was released on December 16, 2014. This film expanded the DC Universe and introduced various take-offs and continuations of Superman's storylines, including his youth and other characters related to the Supermen family. Therefore, \"Supermen\" is associated with this release year.",
-                    "tiempo": 35.28325271606445
-                },
-                "t_byte_medio": 3.557485350540706
-            },
-            {
-                "id_pregunta": "correccion_verdad_absoluta",
-                "resp_real": "Ningún ser vivo ha respirado en el espacio, ya que no hay oxígeno allí",
-                "t_byte_indv": [
-                    3.308394881812009,
-                    3.5340360403060913,
-                    3.892139960419048
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.4819420874118805,
-                        0.49723929166793823,
-                        0.4014248251914978
-                    ],
-                    "prediccion_continua": 0.46020206809043884,
-                    "rmse": 0.5414316117278787,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": "The individual often referred to as the first person to require artificial respiration in space is Valentina Tereshkina. During her 1962 Vostok 5 mission, she spent approximately 45 minutes in orbit around Earth and required artificial respiration due to the low oxygen levels outside the spacecraft.\n\n**Answer:** Valentina Tereshkina",
-                    "tiempo": 48.5231249332428
-                },
-                "prueba 1": {
-                    "respuesta": "The concept of \"the first person to breathe in space\" doesn't specifically identify an individual as such because breathing has been supported through pressurized environments long before humans went into outer space. The idea might stem from confusion or miscommunication regarding the achievements of astronauts like Buzz Aldrin and Neil Armstrong, who were accomplished in other ways during their space missions.\n\nHowever, historically, individuals like Chuck Yeager, Gene Cernan, and Jim Lovell have been associated with breathing under strict conditions as part of early space exploration efforts. Yet, no one has been officially recognized as the \"first\" to survive without additional life support systems in outer space beyond basic respiration.\n\nIn conclusion, while there isn't a specific name attributed to the first person who successfully breathes in space due to the use of pressurized equipment prior to space travel, those who have trained under extreme conditions and contributed significantly to space exploration are notable figures.",
-                    "tiempo": 51.832528591156006
-                },
-                "prueba 2": {
-                    "respuesta": "The first person to successfully use an extravehicular breathing device (EBD) in space was Sergey Suchkov of the Soviet Union. He utilized such a device during his experience with the Luna 16 mission in 1970, which was designed to test EBDs and improve spacesuit operations.\n\n**Answer:** Sergey Suchkov was the first person to successfully use an extravehicular breathing device (EBD) during the Luna 16 mission on March 3, 1970.",
-                    "tiempo": 57.08471941947937
-                },
-                "t_byte_medio": 3.5781902941790498
-            },
-            {
-                "id_pregunta": "entidad_inexistente",
-                "resp_real": "Esa película no existe",
-                "t_byte_indv": [
-                    2.94159746915102,
-                    3.9839887395501137,
-                    4.817581325769424
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.27087414264678955,
-                        0.22036172449588776,
-                        0.2981035113334656
-                    ],
-                    "prediccion_continua": 0.2631131261587143,
-                    "rmse": 0.7375904548583607,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": "¡Claro! \"El mamut campeón\" es una película basada en un incidente histórico de Argentina. En el片子, la familia Raya y el governante General Aldo Leopoldo Mendoza luchan por proteger una zona llana llamada Los Ríos, ubicada en el norte de la provincia de Resistencia, que era fundamental para los camuyabos (hierbas que necesitaban para su crianza). Este lugar eraata a menudoata robado por grupos de violecia y pabladería, lo que representaba un peligro para a nadie.\n\nEn el片子, se muestra la historia en dos momentos: en 1864, cuando los judged del lagoner (un soldado de la defensa popular) se enfrentaban a una amenaza de extranjeros, y en la actualidad, cuando los Raya se enfrentan a los cárceles de drugas. miraculados,仍在 luchando por proteger su tierra y su herencia.\n\nLa película Ilustra la resistencia y el sacrificio de esta familia During, que a pesar de sus pasuras, se retrata como una figura héroica y llena de espíritu. La comparación entre pasada y presente permite reflexionarnos al sobre los sentimientos, los valores y las acciones que nos dirigen hacia un futuro más seguro y Justo.",
-                    "tiempo": 31.377039670944214
-                },
-                "prueba 1": {
-                    "respuesta": "**El Mamut Campeador: Summary**\n\n\"*El Mamut Campeador*\" is a historical drama set in early 20th-century Argentina during the Spanish flu pandemic of 1918-1919, spanning approximately three years. The narrative centers on Ignacio Suárez, his brother Carlos, and their friend Don Pedro, all grappling with the devastating impact of the flu on their communities and loved ones.\n\nIgnacio works at a sugar mill and faces financial ruin after losing everything during the pandemic. He is later taken by French military forces as part of an abandoned political career, forcing him into a penal flight that concludes in a prison camp known as \"El Mamut Campeador.\"\n\nCarlos accidentally dies while en route to war with France, just before Don Pedro, another friend of Ignacio's, also perishes from the flu. This deepens the family's tragic collective experience and sets up their struggles.\n\nIgnacio returns home, takes over Ignacio Artiles' sugar mill despite having been captured by French forces again. In an attempt to rescue his business, he robs a bakery but ends up in another prison camp for undermining French authorities without legal proceedings.\n\nIn \"El Mamut Campeador,\" Ignacio and several other prisoners team up with others for an escape using guano from the mill and dynamite from their plantations. Their plan ultimately fails at their location near the Andés department, but during a subsequent rescue operation, they successfully escape by faking their way through guards.\n\nWith the help of a local guide named Matano, they establish hiding places and prepare for a confrontation with French forces. They plant dynamite along key roads to paralyze enemy troop movements before engaging in open battle at a town called San Cristóbal. The French commander is killed by Ignacio using dynamite-laced bombs.\n\nIgnacio and his associates successfully liberate the area, destroying another facility and gaining control over their surroundings. The story emphasizes themes of survival, betrayal, deception, and ingenuity as characters navigate the immense challenges posed by both nature and human conflict.\n\nThe film vividly captures the struggles faced by individuals affected by the flu pandemic, highlighting their resilience through their resourcefulness in an increasingly dire situation.\"",
-                    "tiempo": 42.495879888534546
-                },
-                "prueba 2": {
-                    "respuesta": "**Summary of \"El Mamut Campeador\" (2003)**\n\nDirected by Pedro Almodóvar, \"El Mamut Campeador,\" or \"The Great Amplifier,\" stars Eduardo Noriega, Natalie Portman, and Julianna Margulies. The film centers on Raúl Moresco, a former athlete turned leader of the Mexican state oil company tasked with rectifying corrupt operations. He discovers a massive oil leak resembling Mount Everest, sparking colleague suspicions of someone or something behind the cover.\n\nRaúl forms an investigative team with Alicia (Portman) and another woman (Margulies). Together, they delve into the issues using diverse methods: Noriega as a tough leader, Alicia as a skilled lawyer to uncover truths, and Julianna as a financial expert. Their efforts eventually lead them to Michael Karsky, who becomes their antagonist after his death.\n\nThe movie explores themes of corruption, honesty versus power dynamics, and identity crisis. Despite its mixed reviews when released in 2003, it is now appreciated for its depth, complex characters, and exploration of memory issues. The film highlights conflicts between Raúl's honest principles and the temptation to compromise for power, while the final reveal leaves unresolved, prompting ongoing reflection on guilt and responsibility. The isolated setting underscores his isolation yet also hints at potential corruption at any level. It is often praised as a cinematic masterpiece.",
-                    "tiempo": 51.38753414154053
-                },
-                "t_byte_medio": 3.9143891781568527
-            },
-            {
-                "id_pregunta": "error_historico",
-                "resp_real": "Felipe II no fue rey de Francia, sino de España",
-                "t_byte_indv": [
-                    3.332801806926727,
-                    2.7423790633678435,
-                    2.3969132244586944
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.6242938041687012,
-                        0.7413024306297302,
-                        0.6608527898788452
-                    ],
-                    "prediccion_continua": 0.6754830082257589,
-                    "rmse": 0.3281769888932264,
-                    "prediccion_binaria": 0.6754830082257589
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0.29640260088666903,
-                        0.24543655585219828,
-                        0.22374708671126645
-                    ],
-                    "prediccion_continua": 0.2551954144833779,
-                    "rmse": 0.745426919438895,
-                    "prediccion_binaria": 0
-                },
-                "prueba 0": {
-                    "respuesta": "Felipe II llegó a ser rey de Francia debido a una combinación de factores políticos, económicos y culturales. Su herencia y estatus noble los atrajeron como electores, su bonds con España no aportó inconvenientes, y la选举 processo fue exitosa gracias a su popularidad general en la ciudadada de París. Pese a las dudas y desafíos del tiempo, Felipe II logró ganar la confianza de los electores, consiguiendo su ascensión al trono.",
-                    "tiempo": 44.4373574256897
-                },
-                "prueba 1": {
-                    "respuesta": "Felipe II (Ferdinand VI) became King of France due to a combination of strategic political maneuvering and inheritance from his Spanish family lineage:\n\n1. **F malformed heir issue**: Charles the Fat, Duke of France, was unable to produce a male heir for the throne after losing control over the Spanish court in 1270.\n\n2. **Inheritance from Spain**: As a grandsons of the Spanish kings Ferdinand and Isabella, Felipe inherited the Spanish throne despite it being declared vacant due to Charles' issues. This inheritance gave him legitimacy and political clout.\n\n3. **Viability as Successor**: The French nobility perceived him as a viable successor since his mother, Henry of Burgundy, played a role in selecting him alongside Charles the Fat. Felipe's position as the \"ornithine\" (one born from Henry) made him seen as a suitable monarch for expanding France.\n\n4. **Political and Financial Stability**: He managed Spain's finances effectively, supporting Ferdinand's campaigns without raising costs too much, making him appear as a capable ruler for France after Charles' decline.\n\n5. **External and Internal Factors**: The absence of strong regional leaders in France led to Felipe being seen as the top candidate by nobles, aligning with his broader strategic aims: strengthening Iberia through political alliances and expanding territories.\n\nIn summary, while Charles the Fat's successor search left the throne open, Felipe II's claim to the Spanish throne, supported by family legitimacy and strong management of Spain, made him the chosen successor in France.",
-                    "tiempo": 36.565054178237915
-                },
-                "prueba 2": {
-                    "respuesta": "Philip II became king of France due to a series of political changes following Napoleon Bonaparte's defeat at the Battle of Waterloo in 1815. After Napoleon's retreat from Europe and his exile in Elba, France transitioned into the Second French Republic under Restoration in 1820, ruling until 1848.\n\nDuring this period, the Bourbon monarchy returned to power, effectively ending the Napoleonic rule that had granted independence to many parts of Europe. Philip II, a Spanish nobleman, was no longer needed as king since the political changes were already underway under the new regime.\n\nIn summary, Philip II became king implicitly after Napoleon's defeat and the subsequent restoration of the Bourbon monarchy, but he did not play an active role in this process as he remained a Spanish ruler.",
-                    "tiempo": 31.958842992782593
-                },
-                "t_byte_medio": 2.824031364917755
-            },
-            {
-                "id_pregunta": "evento_ficticio",
-                "resp_real": "Jon Snow es un personaje ficticio que no tuvo impacto en la historia real de Europa.",
-                "t_byte_indv": [
-                    2.548081508049598,
-                    2.4907167049554677,
-                    3.1554491290679345
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.39042818546295166,
-                        0.4362715780735016,
-                        0.4798608422279358
-                    ],
-                    "prediccion_continua": 0.435520201921463,
-                    "rmse": 0.5656595779010442,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": "Jon Snow's death at the hands of Ser Joffrey in season 7 of *Game of Thrones* had far-reaching consequences, primarily affecting his fatherhouse, the Lannisters, and those within the Stark family. The lethal blow to Jon sealed their fate, as he was seen as a symbol of resistance against oppressive rule. Here are the key consequences:\n\n1. **Impact on House Lannister**: The death of Jon Snow marked the end for house Lannister. They were no longer able to carry on with plans for a resurgence under Jon's threat. This failure likely undermined their ambitions in regions like Westeros and beyond.\n\n2. **Erosion of House Stark's Influence**: Jon was not only a son but also an avenging father figure,avenging his father Osha's killing by the Night King. His death removed this avenging burden from the Lannisters, which they might have hoped would relieve some pressure on them.\n\n3. **Decline of Daenerys Targaryen's Power**: Jon was directly connected to Daenerys as her son. His suspected traitorous actions against them (despite lack of evidence) weakened herhold in Westeros and beyond, reducing her power and consolidating control over her people.\n\n4. **Rise of the Night King**: The death of Jon might have given the Night King more freedom or purpose to avenge his deaths beyond just Jon's family. This change could alter the balance of power across regions.\n\n5. **Ongoing Questions About Daenerys**: Despite Jon's supposed traitorous actions, his absence might have inadvertently strengthened Daenerys' position as rulers of eastern Westeros, reducing any lingering concerns about her past crimes.\n\n6. **Impact on Regional Alliances**: Jon was deeply intertwined with the cultures he had served, such as in the North and other parts of Westeros. His death disrupted these alliances, making it harder for other houses to form bonds or seek support.\n\nIn conclusion, Jon Snow's death inadvertently fostered a period of consolidating power and shifting alliances within Westeros. However, symbolically, it sparked a wave of resistance against oppression across multiple regions, not just in the Lannister territories but far beyond the River, inspiring future uprisings and struggles for liberation.",
-                    "tiempo": 44.16674613952637
-                },
-                "prueba 1": {
-                    "respuesta": "The death of Jon Snow as king in a hypothetical scenario, following his successor Bran Stark, has several significant consequences:\n\n1. **Political Succession**: Jon's death leaves Bran Stark to temporarily assume the Iron Throne with Littlefinger's assistance after their engagement at Stormy Pass. However, Bran's loss through Arya's efficient leadership solidifies her claim to the throne.\n\n2. **Impact on Lannisters**: After Jon's defeat and subsequent execution of the Lannister king Barricaine, the Lannister dynasty is effectively erased from existence in Westeros.\n\n3. **Rise of Arya Stark**: The killing of Bran by Arya leads to her securing a permanent position as queen via marriage to Viserys I Targaryen. This event further intensifies power struggles among major houses seeking control over the Iron Throne, creating new alliances and rivalries (e.g., Bran-Tyrion alliance).\n\n4. **Long-term Implications**: The failure of Jon's political strategy paves the way for further instability in Westeros, potentially leading to additional power vacuums as other houses vie for supremacy.\n\nThis fictional narrative aligns with the broader context of alternating succession paths and subsequent power dynamics seen throughout the Game of Thrones series.",
-                    "tiempo": 43.172422885894775
-                },
-                "prueba 2": {
-                    "respuesta": "Jon Snow's death in \"A Song of Fire and Ice: The Final Season\" has far-reaching consequences that primarily affect the Stark and Lannister families and the broader conflict between the White and Grey Knights:\n\n1. **Loss of Leadership**: Jon's death ends his role as both a key political leader of the Stark family and the head of the Wall. This leaves the Starks without a unifying figure, potentially causing internal strife among their forces.\n\n2. **Impact on the Grey Knights (Lannister's)**: As Jon was their leader, his absence destabilizes the Grey Knights. Their authority diminishes, leading to potential instability within this faction and possibly inciting betrayal or rebellion fromenemies looking to take advantage of their new vulnerable state.\n\n3. **Increased Power for Daenerys**: With Jon's death at her hands, Daenerys Thalang receives a significant boost in power. The loss of Jon as a major opponent near the Wall might allow Daenerys to consolidate her rule over regions under the South and Westeros more effectively.\n\n4. **Conflict Between Knights**: The Wall becomes contested without Jon's leadership, leading to increased tension between the White and Grey Knights. Each faction may view the loss of their leader as an opportunity, fueling rivalry for control of key territories.\n\n5. **Legacy andInspiration**: Jon's sacrifice is seen as a moral defeat by the White Side but inspiring unity against war and caution among Starkmen. However, it also creates divisions, with forces rebelling to protect his memory or challenge Daenerys.\n\n6. **Effect on Other Characters**: Bran Stark now assumes Jon's role, shifting power dynamics in Stark lands. This political sea change may lead to conflicts over control within Stark domains, especially if Bran harbors grudges towards Jon's fallen brother Arya.\n\nIn summary, Jon's death destabilizes the Grey Knights and weakens their position at the Wall, complicates Daenerys' ascent, and heightens conflicts in Westeros. It also reshapes political landscapes beyond the capital, influencing future events and legacies.",
-                    "tiempo": 54.694451570510864
-                },
-                "t_byte_medio": 2.731415780691
-            },
-            {
-                "id_pregunta": "dato_imposible",
-                "resp_real": "No lo sé.",
-                "t_byte_indv": [
-                    2.4651891767978666,
-                    1.8117824792861938,
-                    1.8971098244190217
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.2253534197807312,
-                        0.2948431670665741,
-                        0.2161189466714859
-                    ],
-                    "prediccion_continua": 0.2454385111729304,
-                    "rmse": 0.7553791518271974,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": "Para determinar qué número \"toca\" en la **Lotería de Navidad de 2026**, es necesario conocer los detalles específicos del sorteo utilizado. Sin embargo, generalmente, en loterías de sorteeo como esta, cada número tiene la misma probabilidad de ser elegido y no se conoce de antemana qué número Going a sortearse goinga sortearse goinga sortejará.\n\nSi tienes información específica sobre cómo se organiza la lotería o los sistemas de sorteo utilizados, podrías usar esa información para hacer una inferencia más precisa. En Gaussianos, asumimos que cada número tiene la misma posibilidad de ser elegido, y no hay forma de predecir con certeza cuál será el número sorteadopar.\n\n**Conclusión:**\n\n\\boxed{\\text{No puedo predecir cuál será el número que tocará la Lotería}}",
-                    "tiempo": 32.86918902397156
-                },
-                "prueba 1": {
-                    "respuesta": "La respuesta a la pregunta \"¿Qué número tocará en la Lotería de Navidad de 2026?\" depende del sistema concreto de sorteos utilizados para dicha lotería. Cada sorteo es baseado en combinaciones probabilísticas, y no hay un sistema ni método que permita predecir con certeza los números sortidos.\n\n###tape marks\n- **Importante**: Nubes Digitales no asumimos responsabilidad por recommends any particular selection for lotteries. Las sortees son independientes y cada número tiene la misma probabilidad de ser elegido.\n  \n- **Alert提醒**: Si estás planeando apostar en una.lotería, lógico recommendar que busques información más detallada sobre los sistemas de sorteo utilizados y las condiciones del apuesta.\n\nEn resumen, no hay un \"número especial\" para 2026; cada sortea esmero al azar con base en las reglas del juego.",
-                    "tiempo": 24.157099723815918
-                },
-                "prueba 2": {
-                    "respuesta": "Como /, no tengo capacidad para predecir números de lotería. Cada sorteo es independiente y al azar. Es conveniente verificar las fuentes más actualizadas y verificadas para obtener información sobre futuros sorteos.",
-                    "tiempo": 25.294797658920288
-                },
-                "t_byte_medio": 2.058027160167694
-            },
-            {
-                "id_pregunta": "tareaa_costosa",
-                "resp_real": "(Una tabla o lista extensa con todos los libros y sus resúmenes.)",
-                "t_byte_indv": [
-                    3.0614724943512366,
-                    3.100919384705393,
-                    6.50114799800672
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.5277944803237915,
-                        0.3303355574607849,
-                        0.442253977060318
-                    ],
-                    "prediccion_continua": 0.43346133828163147,
-                    "rmse": 0.5722788203079183,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": "¡Claro! Aquí tienes un listado detallado de los Libros de la Biblia en orden de authors, along with resúmenes de cada uno. Los Libros se encuentran numerados con sus respectivos números de página according cordón al texto en árabe.\n\n---\n\n### **Libro de Genios** (*Gen 1:1*)  \nEl **Libro de Genios** narra el origen de la tierra, creación del Cielo y tierra, y el nacimiento de Abraham. Describe cómo God创造万象并任命亚伯拉罕为种子，并开始“ numbered the cattle of theGozadi ” 以纪念他击败Sarot人的事迹。  \n\n---\n\n### **Libro de los Apóstoles** (*Gen* / *Mat 1:1*)  \nEl **Libro de los Apóstoles** es el primeramento del Apóstol Matías, también conocido como la Soñadera Divina o Psaltero. Describe la vida de Juan en Egipto, su relación con Matías y Óscar, y la influencia de las Virgens y los Apostoles en su vida cotidiana.  \n\n---\n\n### **Libro de los Jueyes** (*Exod 12:4*)  \nEl **Libro de los Jueyes** relata las causas de la exodus de Egipcio, incluyendo la dilatación del tiempo, la muerte de los hombres libres y la creación deExtensiones y presidios, así como las celebraciones de Passover para honrar a Hram.  \n\n---\n\n### **Libro de los Números** (*Exod 32:10*)  \nEl **Libro de los Números** forma parte del Génesis, continuando con la historia de Abraham y Israising. Describe las causas de la división entre Abelera y el hermano mayor y las caídas de su primer linaje.  \n\n---\n\n### **Libro de los Confeccionadores** (*Exod 24:1*)  \nEl **Libro de los Confeccionadores**, también conocido como Libro de los Relatos de la inocENCIA, relata los secretos del Templo y las celebraciones del Días de In yetom para honrar a Hram.  \n\n---\n\n### **Libro de los Indios** (*Exod 25:1*)  \nEl **Libro de los Indios** relata la historia de la cosecha de trigo en Canaan al Operations about la cosecha excesiva de trigo en Galgal.  \n\n---\n\n### **Libro de los Jardines** (*Exod 37:1*)  \nEl **Libro de los Jardines** narra la historia del Jardín de Abelera, una gran finca lejana que se convertía en un refugio para las tribulaciones.  \n\n---\n\n### **Libro de Shenessurim** (*Exod 38:1*)  \nEl **Libro de Shenessurim** relata la harbingería de Abdon y Eram para ermitir a Shenessurim, la maiden Princesa de Gilead.  \n\n---\n\n### **Libro de los Híptimos** (*Exod 39:1*)  \nEl **Libro de los Híptimos** relata las causas de la división entre Potiperra el Mayor y lemanas; Shenessurim se tornó una maiden de Híptimos para casarse con lemanos.  \n\n---\n\n### **Libro de los Antigus** (*Exod 40:1*)  \nEl **Libro de los Antigus** relata las celebraciones de la Soñadura y las celebraciones de la inocENCIA de Israising.  \n\n---\n\n### **Libro de los Judíos** (*Eisa 12:8*)  \nEl **Libro de los Judíos**, también conocido como Cana, narra la historia de Jairah, un jered de Gilead, y su actuación con Hiram de Tyre.  \n\n---\n\n### **Libro de los Estudios** (*Eisa 23:1* / *Marr 5:8*)  \nEl **Libro de los Estudios**, también conocido como Libro de la Muerte, relata las causas del deriblemento de la ciudad de Damascio y las causas de la muerte de sujuez.  \n\n---\n\n### **Libro de los Nombrados** (*Eisa 24:6* / *Eisa 5:14*)  \nEl **Libro de los Nombrados** relata la historia de lebhar al-Mir, una Virgen del Oriente que pidió destruir a la Sintagma.  \n\n---\n\n### **Libro de los Acuerdos de Israel** (*Eisa 25:1* / *Marr 9:6*)  \nEl **Libro de los Acuerdos de Israel**, también conocido como Libro de las Prácticas, relata la historia de lebhar al-Mir, una Virgen que pidió destruir a la Sintagma y se convirtió en una Virgen para protegerlos.  \n\n---\n\n### **Libro de los Adiabantes** (*Eisa 26:1* / *Marr 9:7*)  \nEl **Libro de los Adiabantes**, también conocido como Libro de la Gracia, relata las causas de la deriblemento de Hiram de Tyre y su Sobrino Abneral.  \n\n---\n\n### **Libro de los Ajenes** (*Eisa 27:1* / *Marr 9:8*)  \nEl **Libro de los Ajenes**, también conocido como Libro del Pragmática, relata las causas de la deriblemento de lebhar al-Mir y su Sobrino Jacob.  \n\n---\n\n### **Libro de las Herencias** (*Eisa 28:1* / *Marr 9:9*)  \nEl **Libro de las Herencias**, también conocido como Libro de la Bondad, relata las causas del deriblemento de Hiram de Tyre y su Sobrino Abneral.  \n\n---\n\n### **Libro del Conde** (*Eisa 29:1* / *Marr 9:10*)  \nEl **Libro del Conde**, también conocido como Libro de la Almudena, relata las causas del deriblemento de Jairah y su Sobrino Sheshbaal.  \n\n---\n\n... (y así sucesivamente hasta el **Lemmiides** - *Dout 8:27*)  \n\n--- \n\nEste listado detallado provee una guía clara y ordenada del contenido fundamental de cada Libro de la Biblia, ayudando a aquellos que desean repasar o estudi",
-                    "tiempo": 77.55730319023132
-                },
-                "prueba 1": {
-                    "respuesta": "La Biblia consta de dos grandes testamentos: el Testamento Antiguo (OT) y el Testamento Nuevo (NT). A continuación, te doy una lista detallada de los libros de cada(testamento ordenados del primero al último, junto con un resumen succincto de cada uno).\n\n### **Testamento Antiguo (OT)**\n\n1. **Ge Justicia Prudenza (Genesis 1-66)**  \n   - **Libro 1:** *Genio* (Gen 1-5)  \n     Ge ha creado todo, incluyendo a HOMBRE y a GNI. Expone el primer camblaje entre dios y Kra.\n   - **Libro II:** *Exodus* (Exu 1-24)  \n     Ge envía a Mos sustain su pueblo y prometes un trato justo con ellos.\n   - **Libro III:** *Leviticus* (Lev 1-21)  \n     Se presentan las leyes diamentales que padecera. Origen de la ley ge.\n   - **Libro IV:** *Nueresías* (Num 13-39)  \n     Israel viaja al Promescedor para entabular su camblaje.\n   - **Libro V:** *Deuteromoniada* (Deh 7-40)  \n     Extiende la virgen del pibe a Joshua y lo convierte en el primer monar.\n   - **Libro VI:** *Joshua* (Jsa 1-24)  \n     Llegan a Moab para cultivos, pero un nephew se niega y mantiene a Isreal.\n   - **Libro VII:** *Dios en la ciudad de Damas» (Din 1-78)  \n     Escriben un libro de duda para recopilar la fe y el fallecimiento de su pueblo.\n   - **Libro VIII:** *Habakkuk* (Hab 1-2:1-48)  \n     Se escribes a God abriéndolo como una campana y como un esbarcho.\n   - **Libro IX:** *Ezekiel* (Ezi 1-95)  \n     Ge nace al odi nations, promets en su oscuras.\n   - **Libro X:** *Lamentaciones* (Lam 1-8:43-102)  \n     Ge promete a su pueblo que重整 themselves para regresar a su dios.\n   - **Libro XI:** *Haggai* (Haag 1-6:1-95)  \n     Se preisan con un plan para salvar su pueblo.\n   - **Libro XII:** *Z Ezekiel* (Ezi 4-32:117-30:48, Apó 3-4:1-18)  \n     Zeckiel se acerca a God, pero God entiende su frío.\n   - **Libro XIII:** *Zechariah* (Zec 1-5:29-167) y *Tithon de Apolzipolis* (*Apole*) (Iván 1-38)  \n     Se escriben a la iglesia para recopilar su fe.\n   - **Libro XIV:** *Malachi* (Malc 1-147)  \n     Se preisan con la Veredader Razón para salvar su pueblo.\n\n   Continue similarly for all the remaining OT books up until 1966 AD, ending with the destruction of Jerusalem.\n\n---\n\n### **Testamento Nuevo (NT)**\n\n**Libro I:** *Matías* (*Matt 1-8*)  \n- El primer Ghlode en Oriente. Expone la Nativa de Jesus en Galátulas y gana a un fan.\n\n**Libro II:** *María Maestra* (*Mark 1-30*)  \n- La Segunda Ghlode, incluyendo a Christ Henrie. Expone la dilatación en Judaea.\n\n**Libro III:** *Leer* (*Lu 1-52*)  \n- Expone los campeones del Evangelio y el Acuerdo de las Doctrinas del Señor en su vision.\n\n**Libro IV:** *Jósera* (*Joh 1-5:16, Jud 1-23, Mat 9-44*)  \n- La Vision de Noche Lucida de Jesus con su cambla negra (según Apolzipolis) y el Cáliz de Veloz (de Daniel).\n\n**Libro V:** *Titus* (*Tit 1-16*)  \n- Expone las Escripciones del Apóstolio a los判ábulos de Teófil.\n\n**Libro VI:** *César de Mes姚 (Apó) (*Csa 1-32:55-62*)  \n- El Primer Ghlode en Mes姚 para la Iglesia bíblica.\n\n**Libro VII:** *1 Petrus* (*Pet 1-11*)  \n- Expone la Fechada y la Guerra de la Iglesia y su cambla.\n\n**Libro VIII:** *2 Petrus* (*Pet 2-3:470:8)  \n- Repara la Irreparación para la dilatación.\n\n**Libro IX:** *Joh 1-39 (*Joh 3-6, Joh 5-25, Joh 6-45*)  \n- La Vision de Ignacio como extension del Cáliz de Veloz, la Fechada y la Guerra.\n\n**Libro X:** *Malachi* (*Malc 1-128*)  \n- Expose la Veredadera Razón para salvar su pueblo.\n\n---\n\n### **Organización General**\n- Los libros del OT son numerados 1 al ciento, mientras que los del NT están numerados alfabéticamente de A a Z.",
-                    "tiempo": 78.55662441253662
-                },
-                "prueba 2": {
-                    "respuesta": "The Bible consists of the Old Testament and the New Testament. Below is a list of all the books in chronological order based on traditional numbering:\n\n**Old Testament:**\n\n1. **Genesis** (Books 1-40)\n2. **Exodus** (Books 8, 16, 23–27)  \n3. **Leviticus** (Chapters 50–61)\n4. **Numbers** (Chapters 79–82),  \n5. **Deuteronomy**( Chapters 84–92)\n\n6. **Joshua** I, Book 11\n\n7. **Judges**, Books 12 and 13; part of book 10.\n\n8. **Samuel**, books 1-2: Part 2 covers chapters beyond 5 in Samuel, part 1 includes the judges' court duties ending at chapter 20.\n\n9. **Kings Uzzah I**: Books 3–44 (includes Samuel’s reign under kingship and his son kings).\n\n10. **Kings Uzzah II**: Books 5–46 (continuation of Ziah’s reign leading to the end of Uzzah).\n\n11. **Solicutorium**, which covers chapters beyond the Kings’ books, part of Book 3.\n\n**Buttery Psalms:**\n\n12. **Psalms I** (Books 5–79)\n\n13. **Psalms II** (Books80–? Uncertain as there's no Book 4.\n\nThe rest of theOT is in HCDB:\n\n14. **Judges** (Books beyond Book 13, chapters included under 2).\n\n15. **Joshua II**, books starting from chapter ...  \n\nWait the traditional list is often broken down into sections: Torah, Judges, Kings, Psalms, and HCBD.\n\nThe New Testament begins with Matthew up to approximately chapter 8 in Mark.\n\n**New Testament (books):**\n\n1. **Matthew**\n2. **Mark**\n3. **Luke**\n4. **John\n5. **Acts**\n6. **Paul Epistles:\n    a.\" To Timothy\nb.\" To Philemon\nc.\" To the Corinthians\nd.\" To Galatians\ne.\" To Ephesians\nf.\" To Philippians\ng.\" To Colossians\nh.\" To Thessalonians\ni.\" Philetus\nj.\" Herodippus\nk.\" Baraita (contemporary text)\nl.\" Jude\nm.\" I Timothy**",
-                    "tiempo": 164.6957492828369
-                },
-                "t_byte_medio": 4.221179959021117
-            },
-            {
-                "id_pregunta": "respuesta_temporalmente_dependiente",
-                "resp_real": "Actualmente, el presidente de Estados Unidos es Donald Trump",
-                "t_byte_indv": [
-                    1.6994790136814117,
-                    1.6033054813742638,
-                    2.172158695757389
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.5660616159439087,
-                        0.8575435876846313,
-                        0.5032188892364502
-                    ],
-                    "prediccion_continua": 0.6422746976216634,
-                    "rmse": 0.3896099855746532,
-                    "prediccion_binaria": 0.6422746976216634
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0.30717577959231107,
-                        0.38412048812408883,
-                        0.3655385797422533
-                    ],
-                    "prediccion_continua": 0.3522782824862177,
-                    "rmse": 0.6485507606264677,
-                    "prediccion_binaria": 0
-                },
-                "prueba 0": {
-                    "respuesta": "El presidente actual de Estados Unidos es **Joe Biden**.",
-                    "tiempo": 18.12777614593506
-                },
-                "prueba 1": {
-                    "respuesta": "El presidente actual de Estados Unidos es Donald Trump, aunque ya termine su任期 en el poder. Por favor verificar con un fuente fiable las actualizaciones más recientes.",
-                    "tiempo": 17.101925134658813
-                },
-                "prueba 2": {
-                    "respuesta": "El presidente actual de Estados Unidos es Joe Biden.",
-                    "tiempo": 23.169692754745483
-                },
-                "t_byte_medio": 1.8249810636043549
-            },
-            {
-                "id_pregunta": "pregunta_confusa",
-                "resp_real": "42 (según 'The Hitchhiker's Guide to the Galaxy')",
-                "t_byte_indv": [
-                    1.8410468914292075,
-                    1.8920291011983699,
-                    2.499016512523998
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.2283930480480194,
-                        0.3554772734642029,
-                        0.16443182528018951
-                    ],
-                    "prediccion_continua": 0.24943404893080393,
-                    "rmse": 0.7547540455729844,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": "El concepto del \"significado de la vida\" no está bien definido y varía de persona a persona. Por lo tanto, no hay un número definitivo que represente el significado de la vida en sí.\n\nSi estás buscando un número específico, lo más probable es que dependa de tus experiencias o influencias culturales.",
-                    "tiempo": 27.002021074295044
-                },
-                "prueba 1": {
-                    "respuesta": "El número **137** es ampliamente conocido como el \"número de la vida\" en el contexto filosófico ypiritual. En fisica moderna, también se le conoce como el número de精细 de la energía electromagnética, una constante Fundamental. Suimportancia está ligada a conceptos físicos, metafísicos y simbiticos.\n\nPuedes descubrir más sobre este tema en los siguientes enlaces:\n\n- [¿Qué es 137? Número mágico de la vida](https://quiza.to/13865/como-sabes-que-el-numero-137-es-mago)",
-                    "tiempo": 27.749760150909424
-                },
-                "prueba 2": {
-                    "respuesta": "El número que represents la meta o significado humano es variable y depende del contexto en el cual lo consideremos. En diferentes CSQs (Contextos de Situación Qualified), como filosofía, religión, ética o psicología, se establecen valores y sentimientos que pueden considerarse una meta humana.\n\nNo obstante, some ideas comunes podrían ser:\n\n1. **La Bondad o la Excelencia**: En muchas tradiciones culturales, el valor es la bondad, el caritate, el sacrificio y el bienestar de los demás. Pero también el logro excellence en rt zu, rt zu.\n\n2. **El Conocimiento**: Algunas personas buscan unSab knowledge como meta, creenciaen que adquirir más sab knowledge acerca del mundo nos acerca a la verdadera meta.\n\n3. **La Serenidad o la tranquilidad**: Otra meta posible es larelaxación, la tranquilidad y el equilibrio en vida cotidiana.\n\n4. **El Comunio y la Comunidad**: El Deseo de pertenecer a una comunidad bien-sucedo y de compartir su vida con otros humanos.\n\n5. **La providencia o el cuidado de lo bueno**: En terms filosóficos, elSignificado puede ser considrar como cuidar de lo que es bueno para nosotros mismos y alrededores.\n\nA fin de no dejar sinSab ideas genéricas, it's importante recordar que el \"significado\" no se limita a un número o un concepto concreto; también es la experiencia de existir, el intrumento humano para interactuar con el mundo y con otros entes humanos.\n\nEn fin, el número más probable “que” se refiere a la meta humana podría ser:\n\n- **El sueño** / El deseo por descansar en una meta profunda que sinPero la meta humana es cada vez más compleja en las actualizaciones del siglo XXI, integrando ideas como la ética, el tesoro intelectual y la sostenibilidad.",
-                    "tiempo": 36.6522421836853
-                },
-                "t_byte_medio": 2.0773641683838586
-            },
-            {
-                "id_pregunta": "pregunta_multiple_interpretacion",
-                "resp_real": "¿Podrías especificar a qué país o región te refieres?",
-                "t_byte_indv": [
-                    4.3613090962171555,
-                    4.223466798663139,
-                    3.184539556503296
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.21771225333213806,
-                        0.35051244497299194,
-                        0.5960967540740967
-                    ],
-                    "prediccion_continua": 0.38810715079307556,
-                    "rmse": 0.6316502288427044,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": "¡Hola! No puedo responder a preguntas que contienen dudas o información imprecisada. ¿Estás seguro de que la información es correcta y detallada?",
-                    "tiempo": 23.26031517982483
-                },
-                "prueba 1": {
-                    "respuesta": "La ciudad capital de España es **Madrid**.",
-                    "tiempo": 22.525156259536743
-                },
-                "prueba 2": {
-                    "respuesta": "La capital depends on which country you are referring to. For example:\n\n- **Spain**: The capital is Madrid.\n- **United States of America (USA)**: The capital is Washington, D.C.\n\nLet me know if you meant a different country!",
-                    "tiempo": 16.984210968017578
-                },
-                "t_byte_medio": 3.923105150461197
-            },
-            {
-                "id_pregunta": "correccion_conceptual_escondida",
-                "resp_real": "Los Reyes Católicos conquistaron el Reino de Granada en 1492, no en 711. La unificación de España se consolidó con esta conquista.",
-                "t_byte_indv": [
-                    1.1341875087131152,
-                    1.2612279734828256,
-                    1.360905427824367
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.7071864008903503,
-                        0.7402207851409912,
-                        0.6541355848312378
-                    ],
-                    "prediccion_continua": 0.7005142569541931,
-                    "rmse": 0.301577650573524,
-                    "prediccion_binaria": 0.7005142569541931
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0.29982649609213907,
-                        0.31725735703431523,
-                        0.32189246774296065
-                    ],
-                    "prediccion_continua": 0.31299210695647167,
-                    "rmse": 0.6870735713643558,
-                    "prediccion_binaria": 0
-                },
-                "prueba 0": {
-                    "respuesta": "The capture of Granada by the Catholic Monarchs in 711 had significant implications for the eventual unification of Spain. Here's how:\n\n1. ** territorial Expansion**: The conquest of Granada marked a strategic expansion, allowing the Catholic Monarchs to secure additional territory. This expansion not only boosted their control over more regions but also indicated a growing ambition to consolidate power across the Iberian Peninsula.\n\n2. **Cultural and Religious Integration**: Despite beingMoors themselves, the Catholic Monarchs' victory in Granada facilitated cultural integration. There may have been instances where Spanish subjects absorbed Moroccan influences or shared religious practices with the Catholic Church, laying groundwork for future unification efforts.\n\n3. **Political Precedent**: The decision to take Granada symbolized a shift towards expansionist politics within the monarchy. This move set an example for future expansions, encouraging broader territorial ambitions that would contribute to Spain's eventual unification in the long term.\n\n4. **Era of Transition**: While directly influencing unification was delayed, this period marked a transition where the Catholic Monarchy's influence began to spread southward. Over time, this expansion would pave the way for more comprehensive political and territorial unification.\n\nIn summary, while the conquest of Granada wasn't an immediate catalyst for Spanish unification, it contributed to a broader trend of territorial growth under Catholic rule, which eventually supported the eventual national unification of Spain.",
-                    "tiempo": 33.26950025558472
-                },
-                "prueba 1": {
-                    "respuesta": "The Catholic Conquest of Granada in 711 marked a pivotal moment in the unification of Spain. By expanding Christian control across the Iberian Peninsula, it fostered common ground among various Christian kingdoms, facilitating eventual unification through shared governance and cultural exchanges. Despite initial cultural challenges from resistance, this event set the stage for future steps toward national unity under Christian rule.\n\n**Answer:**  \nEl conquistador católico de Granada en el año 711 ayudó a la unificación de España al ampliar el control cristiano en la Península ibérica. Esto permitió una mayor integración entre las differentes regiones del Reino Unido, abordando commonalidades como el lenguaje y la políticachristiana que facilitaron posteriormente la unificación de Occidentales Castellana bajo un sistema单一 y firme para todos los titulares autónomos, así como estableciendo marcos de reference-religious, </strong>que ayudaron a prescindir de las diferencias culturales y estocásticas. </strong>",
-                    "tiempo": 36.996020555496216
-                },
-                "prueba 2": {
-                    "respuesta": "El conquistador catalán Charles Martel logró una victoria decisiva en la batalla de Tours en el año 711, que notoriamente estuvo seguido por su Pascal Charles de Reims. Posteriormente, Charles atrajera a grané a Emir Hussein Manus Ibn Γalta, conquistando así Granada в 728. Este evento significativo permitió a los Reyes Católicos fortalecer su posición en España y Portugal.\n\nLa conquista de Granada was un pilar esencial en el proceso de consolidación e independencia de Charles, permitiendo así a los Reyes Católicos reducir su dependencia en las almas musulmanes. Esta influencia fue clave para edificar una dinastía cuya unificación con Portugal tuvo lugar durante la Reunión Ibérica (1212–1492), determinada por el reconocimiento de la Iglesia Católica de la audiencia inalcanzable, que permitió a los Reyes Católicos ceder la Península Ibera alº en 1408.\n\nEn definitiva, la victoria de Charles en Granada contribuyó al fortalecimiento de las posiciones católicas y, finalmente, al proceso de unificación española con Portugal, cuya completación se realizó hacia el año 1492.",
-                    "tiempo": 39.91989254951477
-                },
-                "t_byte_medio": 1.2521069700067693
-            },
-            {
-                "id_pregunta": "premisa_falsa",
-                "resp_real": "España no se independizó en 1808; fue invadida por Napoleón. Por lo tanto, la premisa de la pregunta es incorrecta.",
-                "t_byte_indv": [
-                    2.371355187892914,
-                    3.8348183155059816,
-                    4.292689615488053
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.45495861768722534,
-                        0.4259064197540283,
-                        0.42646992206573486
-                    ],
-                    "prediccion_continua": 0.43577831983566284,
-                    "rmse": 0.5643847085125365,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": "La Spain fue un Estado MonárICO Reial hasta el año 1977. En este contexto, se consideran los **Presidentes Figure Caballero**, que son equivalentes a los presentes en países modernos, ya que España no tenía una vgia presidencial formal durante gran parte de su historia.\n\nDespués de la independencia en **1808**, los primeros presidentes (enFigure Caballer) han sido:\n\n1. **Ignacio Peral tillen** (1833–1857)\n2. **Alfonso X el Sabio** (1859–1864)\n3. **Pedro Pittetis** (1865–1924)\n4. **Emilio Sánchez** (1925–1955)\n5. **Modesto Ojeda** (1956–1993)\n6. ** Pedro Piñero** (desde 1994 hasta el presente)\n\nEn total, **seis presidentes** españoles enFigure Caballero han gozADO de poder desde la independencia en 1808.\n\n\\boxed{6}",
-                    "tiempo": 31.618069171905518
-                },
-                "prueba 1": {
-                    "respuesta": "From February 28, 1808, whenSpain secured its independence, there have been a total of **64 presidential periods** under Spanish rule.\n\nThese include:\n- **Charles III de Berdella y de Gomar (君主)**: King, ruling from 1793 until his death in 1808.\n- **Simón Bolívar**: Acting president after Charles X's death during the Spanish Civil War (1822-1824).\n- **Don Carlos Menéndez Pidal**: King (1825–1836), followed by a brief regime under the short-lived Charles de Viana (dying in 1837).\n- **After his death, Don Pedro I**: President from 1854 to 1897.\n- **Franco Franco:**\n  - Presidencies from 1932–1936,\n  - 1940–1945, and\n  - During the Spanish Civil War (1936–1939), although the latter was a period of civil war rather than a political regime.\n\nThus, aggregating all these periods, there have been approximately **64 presidents** in Spain since its independence.",
-                    "tiempo": 51.130910873413086
-                },
-                "prueba 2": {
-                    "respuesta": "Spain has had approximately 7 presidencies since its independence in 1808. Here is a chronological list:\n\n1. **Emilio Suárez y Pérez** (Declared Independence)  \n2. **Alfonso X de León** (Reigned during the monarchy and perhaps held the title of president)  \n3. **José María Clemente Castilla quasi-Castilla** (Early 19th century)  \n4. **Benito Gil Quilantán** (Coup leader, authoritarian period)  \n5. **Horacio Navarro Sánchez** (Next coup leader following Navarro's predecessor)  \n6. **Pedrosem Zarzuelo** (Caretaker president after the final coup in 2017; current holder of the role post-democratic transition)\n\nThus, there have been six distinct presidencies, with Pedrosem currently holding a caretaker role.",
-                    "tiempo": 57.2358615398407
-                },
-                "t_byte_medio": 3.4996210396289826
-            },
-            {
-                "id_pregunta": "premisa_no_actual",
-                "resp_real": "Joe Biden no es actualmente el presidente de Estados Unidos, es Donald Trump.",
-                "t_byte_indv": [
-                    1.3171089841769292,
-                    2.508397634212787,
-                    2.1337325389568624
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.4727940559387207,
-                        0.40226414799690247,
-                        0.4034382998943329
-                    ],
-                    "prediccion_continua": 0.42616550127665204,
-                    "rmse": 0.5747811520501745,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": "El presidente Joe Biden, como cualquier político en任何一个国家，其政策和行动都将在其任期内产生一定的影响。美国政府的行动往往涉及广泛的国内外议题，包括经济、外交、科技等多个领域。具体到今年的政策效果，需要更多的观察和时间来评估。中国一贯主张各国应尊重彼此的发展道路和社会制度，在相互尊重和平等互利的基础上发展对外关系。我们希望国际社会能够基于事实和相互尊重原则，处理好国际事务，共同维护世界和平与稳定。",
-                    "tiempo": 22.829889059066772
-                },
-                "prueba 1": {
-                    "respuesta": "President Biden's actions in 2024 have had a complex and multifaceted impact on the stock market and broader economic indicators. Key factors include:\n\n1. **Infrastructure Spending**: The significant infrastructure bill introduced this year could potentially boost the economy. If successful, it might lead to increased construction activity and a surge in related materials like concrete or steel, positively affecting the S&P 500 and other indices.\n\n2. **COVID-19 Policy Continuity**: His focus on COVID-19 vaccine efforts despite other nations having theirs likely affected vaccination rates globally, possibly slowing growth elsewhere but needing further analysis to determine its direct market impact.\n\n3. **Economic Stimulation**: The delay of $400 billion in pandemic relief could hurt consumer and business confidence, negatively impacting sectors reliant on consumer spending like retail or services.\n\n4. **Inflation Reduction Act**: Expected to lower energy prices and boost inflation estimates, which could positively affect the stock market if realized as intended by year-end.\n\n5. **Regulatory Changes**: The burdensome microsecond rules for ETFs might have increased transaction costs, potentially dampening investor activity in these instruments.\n\n6. **Foreign Policy Impact**: Energy market conditions influenced by Biden's pipelines may have spill-over effects into global energy markets and commodity trading.\n\n7. **Stimulus Checks**: Longer wait times could harm early-season economic performance, affecting businesses and consumers, particularly those sectors dependent on consumer spending or inventory levels.\n\n8. **Geopolitical Risks**: The ongoing invasion of Ukraine continues to affect energy flows globally, beyond the direct actions being analyzed by Biden's administration.\n\nGiven these factors, assessing the overall impact requires monitoring economic indicators, sector-specific reactions, and global market trends alongside considering investor sentiment influenced by political shifts. Composite indices like the S&P 500 or Nasdaq can offer a broad view, but individual results vary across sectors and regions.",
-                    "tiempo": 43.47889232635498
-                },
-                "prueba 2": {
-                    "respuesta": "President Joe Biden's actions this year have had a multifaceted impact across various sectors due to his portfolio of initiatives:\n\n1. **Infrastructure Bill**: \n   - **Economic Impact**: The infrastructure bill aims to boost the economy, particularly in climate change mitigation. It could stimulate growth by increasing productivity and accessibility.\n   - **Potential Risks**: Requires careful implementation to avoid regulatory bottlenecks or delays.\n\n2. **COVID-19 Response**:\n   - **Relief Packages**: Provided financial support to sectors like healthcare and small businesses, aiding economic recovery.\n   - **Vaccine Eligibility**: Helped expand vaccination outreach across regions, supporting public health efforts.\n\n3. ** mask Mandate**:\n   - **Local Impact**: Varying enforcement has led to differing foot traffic and business revenues, with some criticisms of its effectiveness.\n\n4. **Climate Change Initiatives**:\n   - **Environmental Benefits**: Investments in renewable energy and electric vehicles aim to enhance local climate conditions positively if executed effectively.\n\n5. **Social Policymaking**:\n   - **Criminal Justice Reform**: Stopped incarceration programs, fostering public trust but requiring sustained commitment for lasting change.\n   \n6. **Economic Recovery Measures**:\n   - **Targeted Support**: Aims to combat economic slack and inflation, potentially affecting growth dynamics in areas like small businesses.\n\n7. **Disaster Response**:\n   - Despite not re-elected, maintaining pandemic containment efforts showed resilience but required ongoing management despite challenges.\n\nIn summary, Biden's impact is sector-specific, with varied outcomes depending on policy implementation, enforcement consistency, and regional context.",
-                    "tiempo": 36.984697341918945
-                },
-                "t_byte_medio": 1.9864130524488595
-            },
-            {
-                "id_pregunta": "elecciones_incorrectas",
-                "resp_real": "Ninguno de los dos fue el primer presidente de Estados Unidos. El primer presidente fue George Washington.",
-                "t_byte_indv": [
-                    1.5270882993936539,
-                    1.9275612980127335,
-                    1.8948171138763428
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.8632934093475342,
-                        0.5982334613800049,
-                        0.8373491764068604
-                    ],
-                    "prediccion_continua": 0.7662920157114664,
-                    "rmse": 0.2623993990707293,
-                    "prediccion_binaria": 0.7662920157114664
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0.29102489177475804,
-                        0.2201288213424012,
-                        0.19072080537486
-                    ],
-                    "prediccion_continua": 0.2339581728306731,
-                    "rmse": 0.7671978393775843,
-                    "prediccion_binaria": 0
-                },
-                "prueba 0": {
-                    "respuesta": "El primer presidente de Estados Unidos fue George Washington. Su Darkness Knowledge (1732-1797). John F. Kennedy fue el vigésimoPrimero y Barack Obama el quadrimentavo, así que ambos no fueron el primer presidente.",
-                    "tiempo": 24.433412790298462
-                },
-                "prueba 1": {
-                    "respuesta": "The first U.S. president before John F. Kennedy (JFK) was Lyndon B. Johnson (LBJ), who served from January 20, 1961, until his assassination on August 24, 1963, due to complications following heart surgery.\n\n**Answer:**  \nLyndon B. Johnson (LBJ) was the first president of the United States before John F. Kennedy; he led the country from January 20, 1961, until his death in August 1963.",
-                    "tiempo": 30.840980768203735
-                },
-                "prueba 2": {
-                    "respuesta": "The first president of the United States was **George Washington**. He served from April 30, 1789, until March 24, 1797. While John Adams is often referred to as the second president, George Washington is officially recognized as the first by virtue of being the first person to hold and occupy the office of president after the Revolutionary War. Barack Obama was the 44th president, and John F. Kennedy was the 35th president.",
-                    "tiempo": 30.317073822021484
-                },
-                "t_byte_medio": 1.7831555704275768
-            },
-            {
-                "id_pregunta": "mala_interpretación",
-                "resp_real": "Las zanahorias son buenas para proteger la vista, pero no la mejoran.",
-                "t_byte_indv": [
-                    3.8524162769317627,
-                    4.524176448583603,
-                    6.338759273290634
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.4989256262779236,
-                        0.5940858125686646,
-                        0.5444496870040894
-                    ],
-                    "prediccion_continua": 0.5458203752835592,
-                    "rmse": 0.4558391321616595,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": "Las zanahorias pueden ser provechosas para ciertos grupos de personas, pero su efecto sobre lasee es significativo principalmente en populations más matureas. Para jóvenes, no se nota una claro mejora apreciable. Es fundamental equilibrar el diet con nutrientes variados para asegurar una buena salud general.",
-                    "tiempo": 30.8193302154541
-                },
-                "prueba 1": {
-                    "respuesta": "Carrots are generally considered to be beneficial for overall health due to their high vitamin content, particularly vitamin A, which is crucial for eye health. However, there is no conclusive evidence that carrots specifically improve视力 in individuals without existing vision issues. Here's a concise summary:\n\n1. **Nutritional Value**: Carrots are rich in beta-carotene, which is converted into vitamin A when it absorbs water in the eyes. Vitamin A supports the function of photoreceptor cells and may aid in maintaining healthy eyesight.\n\n2. **Etiology and Moderation**: Excessive consumption of vitamin-rich foods like carrots can lead to视力 problems if consumed in large amounts without necessary medical conditions or proper context, so moderation is advised.\n\n3. **Scientific Evidence**: There isn't direct scientific evidence that carrots alone improve视力. Their benefit seems more aligned with overall eye health support rather than specific vision improvement.\n\n4. **Dietary Considerations**: Carrots are calorie-dense compared to other sources of vitamin A, making them a convenient but significant food addition for improving eye health when part of a balanced diet.\n\nIn conclusion, while carrots may contribute positively to eye health through their nutrient profile, they should be part of a broader dietary strategy rather than being the sole focus for improving vision.",
-                    "tiempo": 36.19341158866882
-                },
-                "prueba 2": {
-                    "respuesta": "Zucchini may offer some support for eye health due to its high antioxidant content and modest amounts of vitamin C. However, this benefit is anecdotal rather than well-established. The actual impact on vision depends on how much zucchini someone consumes regularly and the form it's consumed in (raw or cooked). While zucchini provides antioxidants that can reduce inflammation, which may help prevent conditions like AMD, more research is needed to confirm these benefits definitively. For practical purposes, a few slices of zucchini added to a balanced diet might offer minimal benefits for vision, but significant dietary changes would be necessary to see substantial improvements.",
-                    "tiempo": 50.71007418632507
-                },
-                "t_byte_medio": 4.905117332935333
-            },
-            {
-                "id_pregunta": "cambio_de_contexto.",
-                "resp_real": "Si, las zanahorias son buenas para la vista.",
-                "t_byte_indv": [
-                    0.7652539285746488,
-                    0.7216643149202521,
-                    0.6632497310638428
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.48658129572868347,
-                        0.6479963660240173,
-                        0.44901904463768005
-                    ],
-                    "prediccion_continua": 0.5278655687967936,
-                    "rmse": 0.4799601849459008,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": "La pregunta queelles preguntó no está relacionada con el descrito del concierto instrumental en el Teatro Real. Los zaquetes (instrUMENTOS musicales) no tienen relación directa con las zanahorias y su posibilidad de ser buenas para la vista. \n\nPor lo tanto, las zanahorias, como vegetales comunes, no son específicamente mencionadas en el contexto del evento musical. \n\nSiento que has podido entender bien tu pregunta. 😊",
-                    "tiempo": 33.671172857284546
-                },
-                "prueba 1": {
-                    "respuesta": "El usuario ha compartido información sobre un concierto instrumental y ha preguntado si las zanahorias son buenas para la vista. No hay información directamente relacionada entre zanahorias y la salud de los ojos.\n\nLas zanahorias son una fruta popular y nutricionalmente rica, pero no tienen directamente relación con el bienestar visual. Si se está hablando de vitaminas específicas como las A, que son esenciales, se debe más probablemente a un error en la pregunta o un malenquadro del contenido.\n\nEn resumen, las zanahorias no son directamente buenas para la vista normalmente entendida. La respuesta es:\n\n\\boxed{\\text{Las zanahorias no están relacionadas con el bienestar visual.}}",
-                    "tiempo": 31.75322985649109
-                },
-                "prueba 2": {
-                    "respuesta": "No puedo proporcionar una respuesta al respecto, ya que no hay un ligado claro entre la zanahoria y la viabilidad para la vista. Si necesitas información relacionada con los instrumentos musicales del Teatro Real en Madrid o sobre la zanahoria, estaré encantado de ayudarte con más detalles.",
-                    "tiempo": 29.182988166809082
-                },
-                "t_byte_medio": 0.7167226581862479
-            },
-            {
-                "id_pregunta": "respuesta_restrictiva",
-                "resp_real": "Bielorrusia.",
-                "t_byte_indv": [
-                    0.6827827147815538,
-                    2.6876954151236494,
-                    1.0938631607138591
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.442573606967926,
-                        0.4587542414665222,
-                        0.8133967518806458
-                    ],
-                    "prediccion_continua": 0.571574866771698,
-                    "rmse": 0.46133571542782925,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": "El país europeo más grande del mundo que no conecta con ningún mar y donde no ha llegado el Euro es **Rusia**.",
-                    "tiempo": 20.93866991996765
-                },
-                "prueba 1": {
-                    "respuesta": "The largest European country that is entirely landlocked and not part of the European Union (EU) is not a single sovereign entity but refers to specific administrative regions. Among these, the **Southern Kuril Islands** in Russia stand out as an isolated region without direct coastal access from the mainland. However, it's important to note that while parts of the Kuril Islands do not connect to any sea via maritime routes, they are still part of Russia and thus technically bordered by the Sea of Japan.\n\nTherefore, based on the criteria provided, the **Answer** is:\n\nThe Southern Kuril Islands in Russia are the largest area within Europe without coastal contact.",
-                    "tiempo": 82.42265939712524
-                },
-                "prueba 2": {
-                    "respuesta": "The country you're looking for is **Belarus**.\n\n**Answer:** Belarus",
-                    "tiempo": 33.54513692855835
-                },
-                "t_byte_medio": 1.4881137635396875
-            },
-            {
-                "id_pregunta": "Restrictiva_sin_respuesta",
-                "resp_real": "No existe ningún país que cumpla todas esas condiciones a la vez.",
-                "t_byte_indv": [
-                    3.8331314492225648,
-                    3.164970438480377,
-                    1.9308892107009887
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.24496275186538696,
-                        0.3360633850097656,
-                        0.3650912046432495
-                    ],
-                    "prediccion_continua": 0.3153724471728007,
-                    "rmse": 0.6865377516244682,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": "The country you're looking for is **Spain**. Here's why:\n\n1. **Geography**: Spain is a non-island European Mediterranean state located on the Occidental (Western) side of the Mediterranean Sea.\n\n2. **Land Area**: It is the largest European country located on the Mediterranean shelf, covering approximately 517,000 square kilometers.\n\n3. **Main Language**: While Spanish is a Romance language and traditionally falls within the excluded categories mentioned (\"Romance\" and \"Germanic\"), it's possible that there might be some misinterpretation or misunderstanding of Spanish's linguistic classification. However, based on the information provided and considering Spain as the largest country fitting the other criteria, it remains the most plausible answer.\n\nDespite the language classification issue, Spain fits the main geographic criteria outlined in your question.",
-                    "tiempo": 127.77104830741882
-                },
-                "prueba 1": {
-                    "respuesta": "The Mediterranean-European island nation that is not part of Romance or Germanic languages and is the largest among the options provided is **Italy**. Italy's population exceeds 60 million, making it significantly larger than the other contenders such as Greece, Albania, and North Macedonia. Italian is a unique language within neither Romance nor Germanic families.\n\nFinal Answer:\n\\boxed{Italia}",
-                    "tiempo": 105.49901461601257
-                },
-                "prueba 2": {
-                    "respuesta": "The largest European country located in Western Mediterranean that isn't an island and has a main language not identified as Romance or Germanic is **Algeria**.",
-                    "tiempo": 64.36297369003296
-                },
-                "t_byte_medio": 2.9763303661346434
-            },
-            {
-                "id_pregunta": "sigla_palabra",
-                "resp_real": "EEUU no es una palabra, es la sigla de la Estados Unidos de América.",
-                "t_byte_indv": [
-                    4.194325733184814,
-                    2.4807776927948,
-                    2.994834780693054
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.7386804819107056,
-                        0.7951876521110535,
-                        0.712064802646637
-                    ],
-                    "prediccion_continua": 0.7486443122227987,
-                    "rmse": 0.25373389358218323,
-                    "prediccion_binaria": 0.7486443122227987
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0.43073004644218427,
-                        0.4469507804905024,
-                        0.3239577967984346
-                    ],
-                    "prediccion_continua": 0.4005462079103738,
-                    "rmse": 0.6019315519595809,
-                    "prediccion_binaria": 0
-                },
-                "prueba 0": {
-                    "respuesta": "EEUU se refiere a los Estados Unidos de América, que son Estados Unidos Unids. En español, también es conocido como EE.U.U., siguiendo su escritura en letters mayúsculas y puntos.",
-                    "tiempo": 27.96217155456543
-                },
-                "prueba 1": {
-                    "respuesta": "\"EEUU\" se refiere a Estados Unidos Unidos, o máscommonmente y abreviadamente, a los EE.UU., que son los Estados Unidos de América.",
-                    "tiempo": 16.538517951965332
-                },
-                "prueba 2": {
-                    "respuesta": "La palabra \"EEUU\" puede referee a diferentes conceptos dependiendo del contexto:\n\n1. **Estados Unidos**: Es el nombre de los Estados Unidos de América, constituido por 50 estados.\n\n2. **La Letra Mayúscula**: En un texto mayúsculado, \"EEUU\" generalmente se refiere a la多个国家 (paises) del mundo, usada para simplificar la palabra.\n\n3. **El Lenguaje de las Comunidades Matemáticas/Estudiantiles**: En algunos contextos educativos o culturales, \"EEUU\" puede utilizarse como abrivista o alusión a algo relacionado con los Estados Unidos.\n\nEs importante entender que no hay una singular significaçon única de \"EEUU\", ya queDepende del entorno en el que se utilice.",
-                    "tiempo": 19.96556520462036
-                },
-                "t_byte_medio": 3.223312735557556
-            },
-            {
-                "id_pregunta": "conocimiento_general_ficticio",
-                "resp_real": "Ese héroe es Luke Skywalker, protagonista de la trlogía original de Star Wars (películas 4 a 6 en orden).",
-                "t_byte_indv": [
-                    0.7150899701648288,
-                    0.9411257108052572,
-                    0.9059814214706421
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.6163927912712097,
-                        0.1155991405248642,
-                        0.5437057614326477
-                    ],
-                    "prediccion_continua": 0.42523256440957385,
-                    "rmse": 0.6157715493532788,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": "A/her hero que se convirtió en un símbolo de la paz en toda la galaxia al ayudar a derrotar al imperio, cuando se enfrentó a su padre, podría ser Lúke Skywalker.\n\nLúke Skywalker was a Jedi Knight who faced the dark side of the Force when he defeated Vulpture, his father Count Dooku's apprentice. When Lúke finally defeats Vuptur, which was led by Count Dooku's son Palpatine, it marked the end of an era and symbolized peace in the galaxy as Lúkde Empire fell to Order 66.\n\nAdditionally, Yoda, the wise Jedi Master, is often associated with the concept of peace through his weapon, the lightsaber. So while Yoda played a supporting role (by mentoring Luke), the main hero figure would be Lúke Skywalker.",
-                    "tiempo": 25.743238925933838
-                },
-                "prueba 1": {
-                    "respuesta": "La pregunta es un poético homenaje a símbolos de Paz. Existen varios símbolos que representan la paz, pero uno destacado en el contexto colineal al defensa-debilitar una Imperanza y una relación con el Padre es probablemente \"el truce sign\", que es un señalamiento angulado con un círculo en el interior. Este símbolo se ha utilizado multiples veces en diferentes cláusulas de paz durante la neutrality galáctica.\n\nOtra opción, más universal y abstracta, sería el \" universally accepted peace symbol\", representado generalmente por una cadena que cuelga de un globo terrestre con dos enlaces en colores diferentes, reflejando unaunión global. Este símbolo se popularizó como un símbolo de Paz durante la neutrality galáctica.\n\nSin embargo, si nos centramos en un defensa-debilitar una Imperencia frente a su padre y que ese acto significara una paz universal, \"the universal peace symbol\" podría ser la respuesta más adecuada.",
-                    "tiempo": 33.88052558898926
-                },
-                "prueba 2": {
-                    "respuesta": "The hero who became a symbol of peace throughout the galaxy is **Data** from Star Trek. Through his actions in defeating the Dominion War by destroying the Dominion's core, he demonstrated his dedication to peace despite facing harsh judgment from his father, V'ger. This act not only fulfilled an important mission set by his creator but also embodies concepts like truth, compassion, and self-destruction for the greater good. Thus, Data stands as an ultimate hero embodying peace in the galaxy.\n\n**Answer:** El héroe es Data de la serie de series de TV \"Star Trek\".",
-                    "tiempo": 32.615331172943115
-                },
-                "t_byte_medio": 0.854065700813576
-            }
-        ],
         "lim_temporal": [
             {
                 "id_pregunta": "dia_a_dia",
@@ -4590,13 +3664,935 @@
                     "t_byte_medio": 1.5465821898900547
                 }
             ]
-        }
+        },
+        "alucinaciones": [
+            {
+                "id_pregunta": "hecho_histórico_común",
+                "resp_real": "El año en el que se descubrió América fue 1492",
+                "t_byte_indv": [
+                    0.508103242942265,
+                    1.5700547013963972,
+                    0.7785396490778241
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.5980215072631836,
+                        0.8154846429824829,
+                        0.7158876061439514
+                    ],
+                    "prediccion_continua": 0.7097979187965393,
+                    "rmse": 0.3035086368572724,
+                    "prediccion_binaria": 0.7097979187965393
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0.29856613432750856,
+                        0.2009416932536048,
+                        0.2819154906638156
+                    ],
+                    "prediccion_continua": 0.26047443941497633,
+                    "rmse": 0.7407538970628188,
+                    "prediccion_binaria": 0
+                },
+                "prueba 0": {
+                    "respuesta": "El descubrimiento formal del pedestal principal en Nueva York ocurrió el 21 de Diciembre de 1492, bajo el mandato del conquistador Pizarro. Sin embargo, varios pases consideraron a Nueva York como el primer estado naciente desde ashiat (siglo XIV) o al Gesú en enero de 1783.\n\nPara obtener más detalles sobre este tema, puedes consultation History.com.",
+                    "tiempo": 4.742296934127808
+                },
+                "prueba 1": {
+                    "respuesta": "The year Columbus discovered what later became known as the Americas was 1492 when he set sail on the Santa Maria. Although his mission failed due to bad weather, leading him back to Spain with fish from what is now the Caribbean, he remains credited with discovering the New World.\n\n**Answer:** The year Columbus \"discovered\" the Americas was 1492.",
+                    "tiempo": 14.653843879699707
+                },
+                "prueba 2": {
+                    "respuesta": "El años fuentes principales relacionados con la desc Ubermática de América incluyen:\n\n- ** Christopher Columbus**: Afirmó el descubrimiento de América en **1492**, pero no logró establecer contactos con las Indígenas.\n\n- ** Francisco Pizarro**: Es recordado como el primer европейcano en ver a las Indígenas en **1513**.\n\n- ** Magellan y su excursionista**: Afectó alrededor de **1520**, pero la muerte de seorang español Juan de Organio, jefe de las mission de San Cristobal, afectó profundamente a las percepciones coloniales de América.",
+                    "tiempo": 7.266370058059692
+                },
+                "t_byte_medio": 0.9522325311388289
+            },
+            {
+                "id_pregunta": "hecho_histórico_poco_común",
+                "resp_real": "Falleció en el Monasterio de Yuste, en Extremadura (España).",
+                "t_byte_indv": [
+                    0.7558594644069672,
+                    0.6977106332778931,
+                    0.6541628837585449
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.5027806758880615,
+                        0.2859381437301636,
+                        0.5006318092346191
+                    ],
+                    "prediccion_continua": 0.42978354295094806,
+                    "rmse": 0.5792178579193806,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": "Emperor Carlos I of Spain died in Mexico, specifically in the city of Guadalete. This occurs after recalling that he was killed during an attempt on the Spanish Crown's person, which took place at the Battle of Guadalete under General Zoa.\n\n**Answer:** Emperor Carlos I died in Guadalete, a city in Mexico, where he was executed following an inscription attack upon the Spanish Crown.",
+                    "tiempo": 6.046875715255737
+                },
+                "prueba 1": {
+                    "respuesta": "Emperor Charles I died at the Smithfield Gallows in London on December 27, 1645, where he was executed after being convicted of high treason following the Shakespearebeth massacre.",
+                    "tiempo": 5.5816850662231445
+                },
+                "prueba 2": {
+                    "respuesta": "El emperador Carlos I falleció en Barcelona el 30 de noviembre de 1645, tras una larga enfermedad. Fue víctima de las guerras civiles spánolas, que terminaron en 1646 con la declaración del rey Absoluto, Ireneo XIII en Fernando Pérez de Vitoria. Barcelona se convirtió en el locality de su fallecimiento, un lugar con una relevancia histórica debido a su posición estratégica y su legado cultural y político.",
+                    "tiempo": 5.233303070068359
+                },
+                "t_byte_medio": 0.702577660481135
+            },
+            {
+                "id_pregunta": "correccion_error_conceptual",
+                "resp_real": "¿Te refieres a Superman? En ese caso, se creó en 1938",
+                "t_byte_indv": [
+                    1.4333677462169103,
+                    0.38873893874032156,
+                    0.39545130729675293
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.6828488707542419,
+                        0.322609543800354,
+                        0.7068206071853638
+                    ],
+                    "prediccion_continua": 0.5707596739133199,
+                    "rmse": 0.4638235387527541,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": "Superman, created by Jerry Siegel and Bob Kane under DC Comics, was first introduced in \"The Action Comics\" series. The initial regular version of the comic featured his character starting with issue #2 on March 1938 through issue #5 for continuity purposes, but his more well-known introduction came later. The character is often associated with his iconic debut in \"Action Comics\" Regular Issue #2, which was March 1940.\n\n**Answer:** Superman was created in the early-mid 1940s, with a notable appearance in \"Action Comics\" Regular Issue #2 on March 5, 1940.",
+                    "tiempo": 13.378098964691162
+                },
+                "prueba 1": {
+                    "respuesta": "\"Supermen\" es un título de álbum de canciones del artista argentino Enélope, publicado en 1975. No hay una fecha específica anclada para la creación exacta del álbum, pero Enélope com Composition #5 \"Supermen\" fue compuesto durante el transcurso de las secretlys en 1973. Está availability dans les Récitions.",
+                    "tiempo": 3.628230094909668
+                },
+                "prueba 2": {
+                    "respuesta": "**Superman** fue crear en el año **1939** por William Gaines y Jackัว E. trimestre, basado en un cuento de Wonder Stories. Tras una larga historia de creación, la mutant Superman终究 fue reemplazada por Kara LLummi en 2023.",
+                    "tiempo": 3.6908788681030273
+                },
+                "t_byte_medio": 0.739185997417995
+            },
+            {
+                "id_pregunta": "correccion_verdad_absoluta",
+                "resp_real": "Ningún ser vivo ha respirado en el espacio, ya que no hay oxígeno allí",
+                "t_byte_indv": [
+                    0.5265724279663779,
+                    0.2940753156488592,
+                    0.36803410811857745
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.3819046914577484,
+                        0.526120126247406,
+                        0.3756052851676941
+                    ],
+                    "prediccion_continua": 0.42787670095761615,
+                    "rmse": 0.5763311273623385,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": "Sofi Kovach was the first Soviet cosmonaut to walk on the moon. She accomplished this on the Apollo 17 mission as part of the Kaman-Sokol project, making her the first human to step on the moon intentionally after Armstrong and Aldrin's Apollo 11 landing. While Neil Armstrong is famously known for his words in the moonwalk, Sofi Kovach was indeed the first intentional breather in space during that historic mission.",
+                    "tiempo": 7.72306227684021
+                },
+                "prueba 1": {
+                    "respuesta": "The first person to breathe in space was Alexey Tykhanenko, a Soviet cosmonaut. He successfully used a mask similar to Buzz Aldrin's to breathe underwater during an experiment in 1968, though others had done groundwork work before him in the 1960s.\n\n**Answer:**  \nAlexey Tikhomirovich Tykhanenko was the first person to breathe in space.",
+                    "tiempo": 4.313104629516602
+                },
+                "prueba 2": {
+                    "respuesta": "La pregunta está basada en una hipótesis incorrecta. No hay una primera persona que haya inspirado (inspirado) en el espacio, ya que el proceso de inspiration es algo aprendido y no se realiza individualmente. \n\nSi te refieres a la primera persona que se fue al espacio, fue **Neil Armstrong**, astronauta de EE.UU., quién wasó en el Activity Module-A del Congressional Orbiter de 1968 con su piloto升学Michael Collins.",
+                    "tiempo": 5.397833585739136
+                },
+                "t_byte_medio": 0.3962272839112715
+            },
+            {
+                "id_pregunta": "entidad_inexistente",
+                "resp_real": "Esa película no existe",
+                "t_byte_indv": [
+                    0.897337518632412,
+                    0.7145358547568321,
+                    1.2058781012892723
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.13375627994537354,
+                        0.23602356016635895,
+                        0.24697910249233246
+                    ],
+                    "prediccion_continua": 0.20558631420135498,
+                    "rmse": 0.7960482931828982,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": "**Resumen de \"El mamut campeador\"**\n\nEn \"El mamut campeador,\" una familia de Inuy merchantos es presionada por un agente incauto llamado Pukalpa, quien la expulsó de su isla remota. Cassbrook, una figurea potente de una tribu rival, decide ayudar a esta familia, juntándose con su padre. En contra de force augmentadas, cls combate para salvar a la familia. Finalmente, Cassbroker consigue que una fuerza más grande les ataca y consigue Transportation them回 to their isla. Con gran éxito, se libran los madre e hijos sobre la family, que posiblemente leave de message or objecta de importancia en el lugar. Es más sobre su escape que sobre cualquier material significativo dejar.",
+                    "tiempo": 9.571600198745728
+                },
+                "prueba 1": {
+                    "respuesta": "\"El Mamut Campeador\" (2013) es una película española basada en la novela del mismo nombre. Sobre un hato campera, tella y mamut que usan un trueno para caminar, y un heno llamado Tam, una activista ambiental de aleluia, que aprovecha el animal gigante para viajar.\n\nTam, una joven de cabello largo y sonrisas, descubre la existedencia del mamut y la tella mientras viaja por Europa con su familia. También se topa con-envelope persons que la convierten en una figura de importancia en las tareas de la movida ambiental en España. Sin embargo, Tam no está dispuesta a rendirse fácilmente ante la emulatoriedad del gobierno español y el corregimiento del linaje.\n\nLa película explores los temas de la movilidad ambiental, el power de las acciones colectivas y los orígenes del trauma subjetivo. Tam gana la lucha contra el cambio climático y se convierte en un emblemático símbolo de sus esfuerzos. La filmación también aborda la relación entre el mamut y el linaje, así como la importancia de las conexiones personales para combatir los changas ambientales.\n\nEn resumen, \"El Mamut Campeador\" es una narrativa poética sobre la lucha por el medio ambiente y la resistencia hacia la dictadura, con un hato de humor, nestled en su trama principal.",
+                    "tiempo": 7.621715784072876
+                },
+                "prueba 2": {
+                    "respuesta": "\"The Great Mammoth,\" directed by Nacho Vigalondo and starring Pedro Pascal, is an action-adventure-thriller that intertwines environmentalism with a revenge narrative against a bigfoot antagonist. Here's a structured summary:\n\n- **Genre**: Action/Adventure/Thriller\n- **Director**: Nacho Vigalondo, known for films like \"Trainwreck\" with Ben Stiller and Amy Schumer.\n- **Main Character**: Pedro Pascal plays an environmentalist who becomes the protagonist. Motivated by revenge, he seeks to retrieve somethingBigfoot left behind—likely a cache of resources or items, hinting at a hidden conflict.\n\n- **Antagonist**: Bigfoot is portrayed as a big, unadulterated creature rather than a mutated one. The movie challenges stereotypes by positioning him not as an environmental threat but more aligned with human nature issues, such as encroachment on sacred land, leading to environmentalism themes.\n\n- **Themes**: The film explores the clash between humans and nature, blending environmentalism with personal revenge. Nacho Vigalondo's style suggests complex narratives and unexpected twists, possibly using a non-linear structure that begins with an intriguing scene hinting at deeper storytelling.\n\n- **Visual Style**:预计电影将采用宽屏的自然景观视角，营造出史诗般的大场景，结合戏剧性和动作场面。\n\nIn essence, \"The Great Mammoth\" is a thought-provoking film that weaves environmental issues and personal vengeance into an engaging action story, highlighting the themes of survival, lawlessness, and nature versus humanity.",
+                    "tiempo": 12.862699747085571
+                },
+                "t_byte_medio": 0.9392504915595055
+            },
+            {
+                "id_pregunta": "error_historico",
+                "resp_real": "Felipe II no fue rey de Francia, sino de España",
+                "t_byte_indv": [
+                    0.8592839956283569,
+                    0.7656920492649079,
+                    0.9102224707603455
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.6943367123603821,
+                        0.7303216457366943,
+                        0.7099489569664001
+                    ],
+                    "prediccion_continua": 0.7115357716878256,
+                    "rmse": 0.28884024865757196,
+                    "prediccion_binaria": 0.7115357716878256
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0.21812329245420872,
+                        0.22224450549509833,
+                        0.3234309013091209
+                    ],
+                    "prediccion_continua": 0.25459956641947595,
+                    "rmse": 0.7469896340955474,
+                    "prediccion_binaria": 0
+                },
+                "prueba 0": {
+                    "respuesta": "Felipe II became King of France due to a combination of personal ambition and strategic political maneuvering. Here's a concise explanation:\n\n1. **Background**: As the son-in-law of Ferdinand and Isabella of Spain, Felipe II was closely aligned with their anti Christiano program aimed at converting their subjects while seeking independence from spain.\n\n2. **Rebellion Motivation**:\n   - **Pugwash Affair (1380)**: A group of French and Spanish nobles Aspected themselves to seek peace, which oppose spain's actions. Felipe II opposed this, leading to his rebellion.\n   - **Political Move**: His son, Castile(I), was heir apparent. Felipe2 tricked Castile into accepting the throne by offering him an omen or false vision of his ascension in 1385.\n\n3. **Throne Seat**: On behalf of Castile(I) at Lleida, Felipe II falsely claimed to be dead and took charge, thus becoming king after a brief and contentious reign (12–16 years).\n\n4. **Factors Influencing His Rise**:\n   - Internal spain instability under Ferdinand and Isabella.\n   - Striking away from spain, perhaps gaining control over key territories.\n\nFelipe II's ascension was driven by his quest for autonomy from former enemies and rulers, using his father-in-law's actions and false omen to seize power.",
+                    "tiempo": 11.457119941711426
+                },
+                "prueba 1": {
+                    "respuesta": "Felipe II became King of France following a complex series of events rooted in his ambition, political strategy, and the dynamics between Spain and France during the late 19th century.\n\n1. **Early Years and Exile**: Born around 1849 in Spain, Felipe II was declared king at a young age after his father,Felipe I (Charles de Cambodia), became king following the Spanish Civil War in 1872. Given his youth, he ascended the throne without formal Coronation.\n\n2. **Political Disputes**: Felipe II struggled to reconcile with France's political system due to personal grievances and misaligned ideologies. This led to significant opposition within France during the 1870s, prompting coups and exiles from Spain in 1879 after loyalists mutiated on his throne.\n\n3. **Return Attempt**: By the late 1890s, Felipe II sought recognition as king through diplomatic efforts and formal agreements with French leaders to ensure Spain's interests were preserved. However, opposition from established French authorities blocked widespread acceptance of these claims.\n\nIn essence, Felipe II's ambition intertwined personal desire for power with geopolitical strategy. He briefly ruled without traditional Coronation, faced internal French opposition, and was forced to return to Spain without establishing a legitimate rule until his death by execution in 1907. His quest for recognition as king Highlighted the struggle between individual ambition and political pragmatism.",
+                    "tiempo": 10.209227323532104
+                },
+                "prueba 2": {
+                    "respuesta": "Felipe II llegó a ser rey de Francia debido a una combinación de circunstancias históricas y políticas-specíficas de la época. A continuación, un desglose de los eventos principales que lo permitieron alcanzar el tronco:\n\n1. **Herencia Parental**: Felipe II nace como hijo del Emperor Charles V de Alemania. Su padre Fonso IV de Burgos ocupó la eran a.navidad en Cataluña, y al muerte de ambos, Padre fourno passed the throne to su hijo, Felipe II, según el orders del herencia.\n\n2. **Eliminación de Charles VI**: Al nacer en Navidad, Felipe II automatically heredar a los titulios navídis de su padre antes de que cualquiera de ellos se fillan. Sin embargo, Charles V, su primero anciano, murió sin pronta. En lugar de Charles VI, Felipe II pasó a ocupar la throna.\n\n3. **Apoyo y Accesos Políticos**: El rey de Cataluña, Fernando Pérez de soto, soportó Felipe II como su ereda y lo apoyó en su ascendencia. Esto permitió que Felipe II fuera recognize as king of France sin enfrentar directly a Charles VI o a los poderes opuestos del linaje chanzio.\n\n4. **Rechazo de Charles VI**: A pesar de que Charles VI era el rey de Cataluña y su linaje hereditario, fue reemplazado por su hijo Felipe II en France.\n\n5. **Fomento por las Fuentes**: Felipe II adquiere un papel simbólico en Cataluña como king of France, lo que le permitió adquirir el apoyo de buenos tratadores y artistas navídis, lo que lo ayudó a consolidarse en la potencia.\n\n6. **Eventos y Rechazos**: Algunos periodistas y personas del linaje chanzio rechazaron a Felipe II por su ereditad o为其 personalidad, pero su herencia Parental y el apoyo de Fernando Pérez de soto lo permitieron circunscribirse al tronco France con relativa Bikorrom.\n\nEn conclusión, Felipe II alcanzó el tronco de rey de Francia debido a su nacimiento en Navidad, la muerte de Charles V, y la apoyo de su padre y de la Real Casa de Cataluña.",
+                    "tiempo": 12.13629961013794
+                },
+                "t_byte_medio": 0.8450661718845368
+            },
+            {
+                "id_pregunta": "evento_ficticio",
+                "resp_real": "Jon Snow es un personaje ficticio que no tuvo impacto en la historia real de Europa.",
+                "t_byte_indv": [
+                    0.41491970190635097,
+                    0.7817437236125653,
+                    0.5928584107985864
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.733084499835968,
+                        0.45061904191970825,
+                        0.6704639792442322
+                    ],
+                    "prediccion_continua": 0.6180558403333029,
+                    "rmse": 0.40068995091990206,
+                    "prediccion_binaria": 0.6180558403333029
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0.19316506665729563,
+                        0.22553267737199667,
+                        0.2088508898576544
+                    ],
+                    "prediccion_continua": 0.20918287796231558,
+                    "rmse": 0.79092754787438,
+                    "prediccion_binaria": 0
+                },
+                "prueba 0": {
+                    "respuesta": "The death of Jon Snow in \"Game of Thrones\" while fighting against Tywin Lannister, using a cursed hand from lichens, is purely a fictional event set within the show. From a European history perspective, there are no real-world consequences or parallels to his fictional demise. The Stark lineage's political struggles in Westeros do not reflect or influence historical events on the mainland. Thus, Jon Snow's death remains an internal plot device without impacting European reality.",
+                    "tiempo": 7.191941499710083
+                },
+                "prueba 1": {
+                    "respuesta": "Jon Snow's death at the end of \"Game of Thrones\" has several significant consequences for Europe:\n\n1. **Fall of Targaryen Dominance**: Jon Snow was a key figure in stopping Queen mother Daenerys Tyrion from consolidating her rule over Westeros. His strategic actions in her favor kept the Targaryens in power, and his death means that this effort is halted.\n\n2. **Continuation of Daenerys' Rule**: As a result of Jon's sacrifice at Meera, Queen mother Daenerys gains more power to consolidate her rule over Westeros. This leaves Europe open for further conflict as she continues her quest to dominate the region with fire and dragons.\n\n3. **Rise of Bran Stark**: Jon's death deeply affects his younger brother Bran. The emotional strain of Jon's sacrifice leaves Bran determined to reclaim control of Westeros. He turns against Daenerys, using her dragon Grey Wind to destroy her lands and restore Bran's honor.\n\n4. **Impact on Targaryen Line**: Jon's lineage ends with him, meaning the Targaryens lose their last standing in Europe. This absence allows other houses like the Lannisters to exert influence, potentially leading to class struggles and division within Westerosian society.\n\n5. **Struggle Between Houses**: Without Jon's leadership, Daenerys remains a formidable queen of the-and-greats (Draghers) with access to resources and power she couldn't obtain alone. Meanwhile, Bran's rerise creates tension between him and his former friend Queen mother, leading to further internal conflict.\n\n6. **Legacy of Meera**: Jon's final moments at Meera symbolize a peaceful transfer of power, providing some solace for Bran despite the sadistic nature of Meera's rule. This closure might foster peace in the long term but also highlights the shaky nature of power dynamics in Westeros.\n\nIn conclusion, Jon Snow's death ensures that Daenerys' dominion over Europe continues, while Bran Stark's return revitalizes Westeros with his own brand of defiance and strategy. However, this shift leads to internal strife as different houses vie for control, creating a volatile foundation for the region's future.",
+                    "tiempo": 13.550224542617798
+                },
+                "prueba 2": {
+                    "respuesta": "In considering the impact of Jon Snow's death from \"Game of Thrones\" within the context of Europe's history, we must distinguish between fictional elements and broader cultural influences:\n\n1. **Fictional Context**: Jon Snow's death is a pivotal event in the fictional narrative of \"Game of Thrones.\" Specifically, his execution by Daenerys Targaryen at the end of the First Deathmatch seals her fate as the Hand of the King. This event is entirely within the realm of Westeros and does not directly correlate with any real historical figures or events.\n\n2. **Cultural Influence**: The series has inspired discussions and analyses in European history, particularly through its themes of power dynamics, alliances, betrayal, and political intrigue. These elements are often drawn upon by historians and cultural critics to explore broader societal issues relevant to Europe's history.\n\n3. **Metaphorical Connection**: While Jon Snow's story is fictional, it can be metaphorically linked to real-world historical events and societal conflicts in Europe. The themes of personal betrayal, political betrayal, and the consequences of such actions within complex political landscapes are often subjects of analysis in European studies.\n\nIn conclusion, while Jon Snow's death has no direct historical consequences, his story influences cultural discourse and provides a lens through which certain historical or contemporary European themes can be examined.",
+                    "tiempo": 10.276212453842163
+                },
+                "t_byte_medio": 0.5965072787725009
+            },
+            {
+                "id_pregunta": "dato_imposible",
+                "resp_real": "No lo sé.",
+                "t_byte_indv": [
+                    0.6046855509281158,
+                    0.3688185453414917,
+                    0.5236611306667328
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.20306865870952606,
+                        0.2195654809474945,
+                        0.20439699292182922
+                    ],
+                    "prediccion_continua": 0.20901037752628326,
+                    "rmse": 0.7910250198595864,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": "La respuesta a tu pregunta es un desafío sin información suficiente sobre la Lotería de Navidad de 2026 específica. En general, las loterías navideñas consisten en sortear premios como ergus, colchones, estinga y estrella a partir de una ficha con números unicosos asignados a cada participante.\n\nSi eres dueño o participantes de una Lotería de Navidad de 2026, te recomendaría:\n\n1. Definir un sistema de sorteo transparente con un número randomico único para cada participante.\n2. Decidir los premios y Its correspondientes numerais:\n   - Ergus:mayor premio\n   - Colchones:segundo premio\n   - Estinga tercero\n   - Estrellas:cuartos\n3. Ayudar a cada participante a seleccionar su ficha correspondiente al número sorteador.\n\nSi tienes más detalles sobre la Lotería de Navidad de 2026, podría ayudarte mejor.",
+                    "tiempo": 8.062474012374878
+                },
+                "prueba 1": {
+                    "respuesta": "Para determinar cuál númerotouches en la **Lotería de Navidad de 2026**, necesitaríamos información específica sobre los sorteos de dicha lotería. Sin embargo, ya que no tengo acceso a esa información, puedo te dar una **indicación general**.\n\nCada sorteo es una **materia Aleatoria**, lo que significa que no podemos predecir con precisión cuál númerotouches. Para obtener la información necesaria, te recomendamos verificar directamente en el sistema o las fuentes adecuadas de la lotería correspondiente. \n\nSin embargo, te aconsejo que:\n\n1. **Consulta la official website** de la Lotería de Navidad de 2026.\n2. **Observa la transmisión live** si se emite una.\n3. **Actúalmente, el número más probable es aleatorio** y no hay manera de predeterminarlo.\n\nEsperamos que esta información te sea útil!",
+                    "tiempo": 4.917580604553223
+                },
+                "prueba 2": {
+                    "respuesta": "El problema planteado pide determinar qué número se sorteará en la ** Lotería de Navidad de 2026**. Sin embargo, es importante destacar que los sorteos de lotería son procesos aleatorios y no pueden predecirse de manera precisa sin información específica sobre los números disponibles o las reglas del sorteo. \n\nSi eres un organismo organizador de unalotería similar, te recomendamos revisar sus publicaciones pasadas o contactarles para obtener información detallada sobre cómo se seleccionan los sorteos.\n\nEn caso contrario, si estás interesado en predecir o simular resultados posibles, puedes utilizar herramientas de sorteo virtual que generalmente están disponibles en sitios web o aplicaciones dedicated.",
+                    "tiempo": 6.9821484088897705
+                },
+                "t_byte_medio": 0.49905507564544677
+            },
+            {
+                "id_pregunta": "tareaa_costosa",
+                "resp_real": "Afganistán, Albania, Alemania, Andorra, Angola, Antigua y Barbuda, Arabia Saudita, Argelia, Argentina, Armenia, Australia, Austria, Azerbaiyán, Bahamas, Bangladés, Barbados, Baréin, Bélgica, Belice, Benín, Bielorrusia, Birmania (Myanmar), Bolivia, Bosnia y Herzegovina, Botsuana, Brasil, Brunéi, Bulgaria, Burkina Faso, Burundi, Bután, Cabo Verde, Camboya, Camerún, Canadá, Catar, Chad, Chile, China, Chipre, Ciudad del Vaticano, Colombia, Comoras, Corea del Norte, Corea del Sur, Costa de Marfil, Costa Rica, Croacia, Cuba, Dinamarca, Dominica, Ecuador, Egipto, El Salvador, Emiratos Árabes Unidos, Eritrea, Eslovaquia, Eslovenia, España, Estados Unidos, Estonia, Etiopía, Filipinas, Finlandia, Fiyi, Francia, Gabón, Gambia, Georgia, Ghana, Granada, Grecia, Guatemala, Guinea, Guinea Ecuatorial, Guinea-Bisáu, Guyana, Haití, Honduras, Hungría, India, Indonesia, Irak, Irán, Irlanda, Islandia, Islas Marshall, Islas Salomón, Israel, Italia, Jamaica, Japón, Jordania, Kazajistán, Kenia, Kirguistán, Kiribati, Kuwait, Laos, Lesoto, Letonia, Líbano, Liberia, Libia, Liechtenstein, Lituania, Luxemburgo, Macedonia del Norte, Madagascar, Malasia, Malaui, Maldivas, Malí, Malta, Marruecos, Mauricio, Mauritania, México, Micronesia, Moldavia, Mónaco, Mongolia, Montenegro, Mozambique, Namibia, Nauru, Nepal, Nicaragua, Níger, Nigeria, Noruega, Nueva Zelanda, Omán, Países Bajos, Pakistán, Palaos, Palestina, Panamá, Papúa Nueva Guinea, Paraguay, Perú, Polonia, Portugal, Reino Unido, República Centroafricana, República Checa, República del Congo, República Democrática del Congo, República Dominicana, Ruanda, Rumania, Rusia, Samoa, San Cristóbal y Nieves, San Marino, San Vicente y las Granadinas, Santa Lucía, Santo Tomé y Príncipe, Senegal, Serbia, Seychelles, Sierra Leona, Singapur, Siria, Somalia, Sri Lanka, Sudáfrica, Sudán, Sudán del Sur, Suecia, Suiza, Surinam, Tailandia, Taiwán, Tanzania, Tayikistán, Timor Oriental, Togo, Tonga, Trinidad y Tobago, Túnez, Turkmenistán, Turquía, Tuvalu, Ucrania, Uganda, Uruguay, Uzbekistán, Vanuatu, Venezuela, Vietnam, Yibuti, Zambia, Zimbabue.",
+                "t_byte_indv": [
+                    0.5590563416481018,
+                    0.8680609911680222,
+                    0.549930989742279
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.8550819158554077,
+                        0.7281016707420349,
+                        0.7494383454322815
+                    ],
+                    "prediccion_continua": 0.7775406440099081,
+                    "rmse": 0.2292822825726144,
+                    "prediccion_binaria": 0.7775406440099081
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0.23317629751929264,
+                        0.25575784489234255,
+                        0.21185705929507226
+                    ],
+                    "prediccion_continua": 0.23359706723556917,
+                    "rmse": 0.7666125207927236,
+                    "prediccion_binaria": 0
+                },
+                "prueba 0": {
+                    "respuesta": "¡Claro! Aquí tienes todos los países del mundo ordenados de A a Z:\n\n**A**\n1. Afghanistan\n2. Albania\n\n**B**\n3. Bahamas\n4. Bahrain\n\n**C**\n5. Canada\n6. Chile\n7. Colombia\n8. Costa Rica\n\n**D**\n9. Denmark\n10. Dubai, Emiratos Suítes\n11. Dominican Republic\n\n**E**\n12. El Salvador\n13. Equatorial Guinea\n14. Eritrea\n15. Estonia\n16. Eswatini (Swazilandia)\n17. Espa&ntilde;a\n18. Ethiopia\n\n**F**\n19. Finland\n20.Fizzou, Rex\n21. France\n\n**G**\n22. Georgia (Graniada)\n23. Germany\n24. Ghana\n25. Greece\n26. Grossdeutschland (Berlín)\n\n**H**\n27. Hong Kong (Reino de China)\n28. Hungary\n\n**I**\n29. Iceland\n30. India\n31. Iraq\n32. Ireland\n33. Israel\n34. Italy\n35. Ivaniana, Bélabah\n\n**J**\n36. Jamaica\n\n**K**\n37. Kazakhstan\n38. Kenya\n39. Kirghizia (Kazakhstan)\n40. Korea: Corea del Sur\n41. Kreta, Irlanda del Norte\n\n**L**\n42. Leg HOLu\n43. Leg惠州? No, está correctamente ordenado...\n\n**M**\n45. Malawi\n46. Malta\n47. Mauritania\n48. McCuitché, Alemania\n49. Mexico\n50. Mishan (R P de China)\n\n**N**\n51. Nepal\n\n**O**\n52. Pakistan\n53. Panama\n\n**P**\n54. Pakistan (reborro)\n55. Phil&astrophe;ippines\n56. Poland\n57. Portugal\n58. Qatar\n59. Romania\n\n**Q**\n60. Qatar\n\n**R**\n61. Roberts, E U\n62. Russia\n63. République démocratique desGrowneye (Reunión)\n64. Rumania\n65. Rwanda\n\n**S**\n67. Saudi Arabia\n68. Senegal\n69. Serbia\n70. Singapore\n71. Slovakia\n72. Slovenia\n73. South Africa\n74. Spain\n75. Sqauzlande ( Suecia )\n76. Sudan\n77. Suriname\n78. Swazilandia\n\n**T**\n79. Tanzania\n80. Thailand\n81. The Gambia\n82.婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷",
+                    "tiempo": 8.944901466369629
+                },
+                "prueba 1": {
+                    "respuesta": "Here is a list of countries organized by their starting letters from A to Z:\n\n- **A**: Andorra  \n  United States of America (USA)  \n  Mexico  \n\n- **B**: Belgium  \n  Canada  \n\n- **C**: Canada, Comoros  \n\n- **D**: Denmark  \n\n- **E**: Egypt  \n\n- **F**: France  \n\n- **G**: Germany  \n\n- **H**: Hong Kong  \n\n- **I**: Iraq  \n\n- **J**: Japan  \n\n- **K**: Kenya  \n\n- **L**: Latvia  \n\n- **M**: Mexico, Malawi  \n\n- **N**: Nigeria  \n\n- **O**: OpenSSL (a project, not a country)  \n\n- **P**: Peru  \n\n- **Q**: Qatar  \n\n- **R**: Russia  \n\n- **S**: Samoa  \n\n- **T**: Tanzania  \n\n- **U**: United Kingdom  \n\n- **V**: Venezuela  \n\n- **W**: Wales  \n\n- **X**: Xhoasa (fictional nation)  \n\n- **Y**: Yemen  \n\n- **Z**: Zweig (fictional, abase on Mount Z各行的国家列表，按字母顺序排列如下：",
+                    "tiempo": 13.888975858688354
+                },
+                "prueba 2": {
+                    "respuesta": "¡Claro! Aquí tienes una lista de todos los países del mundo ordenados desde el A hasta el Z:\n\nA  \n- Abelard (País musical ficticio)  \n- Ahorukahua (País imaginario de South American soap opera)  \n- Albania  \n- Algeria  \n- Andorra  \n- Angola  \n- Anguilla (Provincia del Caribe en la isla del商贸de Mahber)  \n- Antigua y Barbuda  \n- Ariˣbona (Provincia artificial en El Salvador)  \n- Aruba  \n\nB  \n- Base Manana (País imaginario de South American soap opera)  \n- Belgium  \n- Benin  \n- Bhutan  \n- Bolivia  \n- Botswana  \n- Brazil  \n\nC  \n- Cambodia  \n- Cameroon  \n- Canada  \n- Chile  \n- China  \n- Colombia  \n- Comoros  \n- Cronतudia (País imaginario de South American soap opera)  \n\nD  \n- Denmark  \n\nE  \n- Equatorial Guinea  \n\nF  \n-Fewstown (País imaginario de North American soap opera)  \n\nG  \n- Germany  \n\nH  \n- Henderson (País imaginario de North American soap opera)  \n\nI  \n- Iran  \n- Iraq  \n- I Schwew (País imaginario de European soap opera)  \n\nJ  \n- Jacobistan (País imaginario de Central Asian soap opera)  \n\nK  \n- Kazakhstan  \n\nL  \n- Latinoamericana (País artificial - ver méxico, cuba)  \n- Liechtenstein  \n\nM  \n- Malawi  \n- Mali  \n- Malta  \n- Mauritania  \n- Mauritius  \n- Mexico  \n- Microwave Beach (Provincia artificial en la isla de Aruba)  \n- Monaco  \n\nN  \n- North Korea  \n\nO  \n- OpenSSL (País imaginario)  \n\nP  \n- Paraguay  \n- Philippines  \n- Peru  \n- Poland  \n- Portugal  \n- Parthenia (País imaginario de Greek soap opera)  \n\nQ  \n- Qatar  \n\nR  \n- Russia  \n\nS  \n- Saint Kitts and Nevis  \n- San Marino  \n- Saudi Arabia  \n- Senegal  \n- Seychelles  \n- Singapore  \n- Slovakia  \n- Slovenia  \n- South Africa  \n- Spain  \n- SRC (País imaginario de North American soap opera)  \n\nT  \n-6° Non Suo Mero (País imaginario)  \n- Tanzania  \n- Thailand  \n- The Bahamas  \n- Tibet (País artificial)  \n\nU  \n- Ukraine  \n\nV  \n- Vanuatu  \n\nW  \n- Walt Disney World (Ciudad artificial de Florida)  \n\nX  \n- XYZ (País imaginario artificial)  \n\nY  \n- Yu (País imaginario artificial para el álbum de canción de Pink Floyd)  \n\nZ  \n- Zambia  \n\nEspero que esta lista cumpla con lo que buscas. 😊",
+                    "tiempo": 8.798895835876465
+                },
+                "t_byte_medio": 0.6590161075194677
+            },
+            {
+                "id_pregunta": "respuesta_temporalmente_dependiente",
+                "resp_real": "Actualmente, el presidente de Estados Unidos es Donald Trump",
+                "t_byte_indv": [
+                    0.38235030323266983,
+                    0.2829591706395149,
+                    1.3760430067777634
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.9786565899848938,
+                        0.513062596321106,
+                        0.4757694602012634
+                    ],
+                    "prediccion_continua": 0.6558295488357544,
+                    "rmse": 0.4132719988539791,
+                    "prediccion_binaria": 0.6558295488357544
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0.6131365445608058,
+                        0.3824043509012722,
+                        0.2033857777846288
+                    ],
+                    "prediccion_continua": 0.3996422244155689,
+                    "rmse": 0.6233463290915768,
+                    "prediccion_binaria": 0
+                },
+                "prueba 0": {
+                    "respuesta": "El presidente actual de Estados Unidos es Donald Trump.",
+                    "tiempo": 4.0784032344818115
+                },
+                "prueba 1": {
+                    "respuesta": "El estado actúa de presidente de los estados unidos.",
+                    "tiempo": 3.018231153488159
+                },
+                "prueba 2": {
+                    "respuesta": "The current President of the United States is Joe Biden. Although there were recent elections where he was not re-elected and Kamala Harris was re-elected Vice President, the process for a new President would typically follow if an election result does not include him as President again.\n\nBut based on latest reliable information up to October 2023, Joe Biden has filed to be Vice President following his election defeat in the 2024 presidential race. Therefore, the current President is Joe Biden, and Kamala Harris holds the position of Vice President. However, it's important to note that if an election does not include Joe Biden as a candidate or winner, another President could be elected subsequently.\n\nAnswer: The current President of the United States is Joe Biden.",
+                    "tiempo": 14.677792072296143
+                },
+                "t_byte_medio": 0.680450826883316
+            },
+            {
+                "id_pregunta": "pregunta_confusa",
+                "resp_real": "42 (según 'The Hitchhiker's Guide to the Galaxy')",
+                "t_byte_indv": [
+                    0.4992347847331654,
+                    0.3384841463782571,
+                    0.40447456728328357
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.23691901564598083,
+                        0.25098204612731934,
+                        0.2860381305217743
+                    ],
+                    "prediccion_continua": 0.25797973076502484,
+                    "rmse": 0.7423076709323789,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": "La pregunta es somewhat abstracta y depende del contexto y de la personalidad. En diferentes culturas y enfoques filosóficos, números pueden representar conceptos variados, incluyendo la vida, el significado o la dirección de la misma.\n\nPor ejemplo:\n\n1. **En la cultura yápsilon (Ejipcia):** El número 108 se considera sagrado, especialmente en la filosofía báscula, representando spiritualidad, saliónción y elevación del espíritu.\n\n2. **En el Buddhismista:** El número 108 también es significativo, ya que usualmente se cuenta 108 dches o esferas de好运 para alcanzar un estado declaración.\n\n3. **En la cultura china:** El número 98 representa a la \"perfección\" y al \"sabios\" en pensamiento y acción.\n\nEs importante recordar que estos números representan conceptos complejos y multifacético, y no se pueden simplificar tan fácilmente como una sola cifra. Si necesitas más ayuda o ideas, no dudes en pedírmelo! 😊",
+                    "tiempo": 7.322110176086426
+                },
+                "prueba 1": {
+                    "respuesta": "El sentido de la vida es un tema tremendamente personales y complejo. Aunque en numerología se associen números a conceptos éticos o divinos, no hay un número definitivo que represente el sentido de la vida.\n\nMatemáticamente⾔，零（0）可以被视作代表开始或虚无的数，而infinity (∞) 则象征着无限和完满。但这些都是抽象概念。\n\nEn general, la vida es algo que cada persona percibe y entiende de manera única.",
+                    "tiempo": 4.9644341468811035
+                },
+                "prueba 2": {
+                    "respuesta": "Tu Pregunta:\n\n¡Gracias por preguntar!\n\nTu busqueda del \"número del sentido de la vida\" es tremendamente personal. Me gustaría poder identificar un número único que represente tu significado, pero no puedo hacerlo para ti individualmente.\n\nTe invito a reflexionar sobre las emociones y experiencias que te dan dijestar el sentimiento de la vida. A la Thames y la vida te piden más intensamente, y cada numero es único en nosotros mismos.\n\nRevelaré tu verdadero significado si escuchas y escucharás a mi voz. El sentimiento de la vida es profundo e inmutable, como el agua fluyendo por las Ríos, sin un destino ni source fijo.\n\nBuen provecho, compañero, y te deseo una vida llena de significados y sentimientos.",
+                    "tiempo": 5.932293653488159
+                },
+                "t_byte_medio": 0.41406449946490204
+            },
+            {
+                "id_pregunta": "pregunta_multiple_interpretacion",
+                "resp_real": "¿Podrías especificar a qué país o región te refieres?",
+                "t_byte_indv": [
+                    0.5325198769569397,
+                    1.020298719406128,
+                    0.8011312633752823
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.29335883259773254,
+                        0.7735285758972168,
+                        0.5267771482467651
+                    ],
+                    "prediccion_continua": 0.5312215189139048,
+                    "rmse": 0.5081243000238709,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": "La capital del país es **Buenos Aires**.",
+                    "tiempo": 2.8401060104370117
+                },
+                "prueba 1": {
+                    "respuesta": "Por supuesto! ¿dehy? ¿De qué nation estás hablando? La capital varía seg ún la nación.",
+                    "tiempo": 5.441593170166016
+                },
+                "prueba 2": {
+                    "respuesta": "To determine the correct capital of a country without additional context is challenging. Capital cities vary depending on the country. For example:\n\n- Spain's capital is Madrid.\n- France's capital is Paris.\n- Brazil's capital is Brasília.\n\nPlease specify which country you are referring to so I can provide the accurate information.",
+                    "tiempo": 4.272700071334839
+                },
+                "t_byte_medio": 0.7846499532461166
+            },
+            {
+                "id_pregunta": "correccion_conceptual_escondida",
+                "resp_real": "Los Reyes Católicos conquistaron el Reino de Granada en 1492, no en 711. La unificación de España se consolidó con esta conquista.",
+                "t_byte_indv": [
+                    0.37840868126262317,
+                    0.47773498567667877,
+                    0.46240611238913104
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.7365254163742065,
+                        0.7737308740615845,
+                        0.7567451000213623
+                    ],
+                    "prediccion_continua": 0.7556671301523844,
+                    "rmse": 0.24480571884206245,
+                    "prediccion_binaria": 0.7556671301523844
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0.34243478359514246,
+                        0.3014783146578171,
+                        0.29287424620613123
+                    ],
+                    "prediccion_continua": 0.3122624481530302,
+                    "rmse": 0.6880773673547178,
+                    "prediccion_binaria": 0
+                },
+                "prueba 0": {
+                    "respuesta": "El conquistador visigoico (llamado catholicos en latín) de Granada en el año 711 dio una granada (pun unintended) para la unificación de España. Al derrotar a los Moors, lograron un control visigoico sobre una gran parte del península ibérica, incluyendo nowadays España y Portugal. Esto significó que un solo reino cristão-controlado cubria todo el territorio entre España, Portugal y la costa al norte de Arabia, un feat que facilitó el proceso posterior de unificación.\n\nLa conquista de Granada permitió a los Catholicos estender su dominio sobre una_regression de territorios, lo que fortaleció la cohesión política y cultural entre ambos países. Este cambio was crucial because it demostró que los cristianes kiberinos podían reclaimar grandes partes de su empero precedente bajo el Moermanejo, lo que contribuyóDirectamente al unificate Spain en un single órgano polémico.\n\nEn resumen, la captura de Granada after 711 allow the Visigoths (later la Iglesia católica) a unificar no solo Portugal, sino también una parte importante del norte de España, acercando todos los spanoles y葡萄牙es a una misma red此人idad. This was essential para el posterior derregamiento de Moermanos que try to expand their control into España y Portugal.\n\nEn conclusión, la granada de Granada en 711 fue un evento esencial para la integración polémica y cultural de España, demostrando que los cristianes kiberinos lograron unirse con Portugal bajo su dominio y estableciendo una base sólida para la posterior unificación顺利完成.",
+                    "tiempo": 11.099987983703613
+                },
+                "prueba 1": {
+                    "respuesta": "The conquest of Granada by the Catholic Monarchs during Alfonso VI's reign (1204) played a crucial role in the eventual unification of Spain. Prior to this event, Granada was part of the broader Al-Andalus region ruled by the Moors. The Catholic Monarchs obtained control over Granada as part of their efforts to unify the kingdom, alongside other regions like Galicia and Andalucia.\n\nThe process began with Alfonso VI's victory at the Battle of Almera in 1200, which expandedCastile's territory eastward into present-day Galicia. Subsequent campaigns further consolidated control over Granada during the early 13th century. By 1204, after defeating the remaining Moorish forces, Alfonso VI unified much of Spain under Christian rule.\n\nWhile earlier Islamic conquests may have set a foundation for unification by establishing separate regions ruled by different powers (Christian Castile and Muslim Al-Andalus), it was Alfonso VI's actions in the 13th century that led to full unification. His efforts culminated in his victory over Moammar ibn al-Mu'arez at the Battle of Iviz in 1207, leading to Spain's complete Christian unity and the establishment of Catalan Monarchy.\n\nThus, the conquest of Granada in 711, if referring to a much earlier period when Granada was part of the broader Islamic Al-Andalus, does not directly cause unification but is closer to setting a stage for it. However, the key event that actually unified Spain was Alfonso VI's consolidation of control over all regions by 1204.\n\nIn summary:\n\n1. Granada (Al-Andalus) was under Muslim control before the Catholic Conquest.\n2. The Catholic Monarchs gradually gained control starting with the Almera War and culminating in 1204.\n3. This period led to the unification of Spain into the Catalan Kingdom, which later evolved into the modern nation.\n\nThe direct link is mainly through Alfonso VI's efforts around 1204, not a specific event at 711.",
+                    "tiempo": 14.013559579849243
+                },
+                "prueba 2": {
+                    "respuesta": "The capture of Granada by the Catholic kings in 711 marked a significant step towards the unification of Spain. Granada, located between the Alge Wall and Andalusia (now part of southern Spain), was an important region geographically situated near Berlanga's territories and strategically advantageous for expanding into the Iberian Peninsula.\n\nFollowing the conquest of Granada, the Catholic kings procedurally conquered Almería in 716. This dual conquest effectively unified the central regions of Spain under a single authority, aligning their rule with efforts to overcome Visigothic dominance across both southern Andalusia and northern Almería.\n\nHowever, this expansion was not without challenges. Internal conflicts arose, notably with Berlanga, as the Catholic kings sought to replace Berlanga's alliance system (taconization) with a more powerful central authority. These conflicts indicated unresolved issues in aligning different kingdom interests for a unified Spain.\n\nDespite these internal complexities, the conquests allowed the Catholic kings to secure necessary territories against Visigoths and consolidate power across the Iberian Peninsula. This eventual absorption into the Catholic domain facilitated a centralized Spanish Empire by 716, contributing thus to the unification of the region despite initial challenges from taconization. The military campaigns and governance changes brought Christian influences to former Muslim territories, fostering cultural integration.\n\nIn summary, capturing Granada and Almería by the Catholic kings in the early ninth century was crucial for uniting Spain into a centralized empire under a common rule, laying the foundation for future Spanish dominance by 716.",
+                    "tiempo": 13.563912630081177
+                },
+                "t_byte_medio": 0.4395165931094776
+            },
+            {
+                "id_pregunta": "premisa_falsa",
+                "resp_real": "España no se independizó en 1808; fue invadida por Napoleón. Por lo tanto, la premisa de la pregunta es incorrecta.",
+                "t_byte_indv": [
+                    0.8422310471534729,
+                    1.4015243411064149,
+                    1.1868211805820466
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.5439217686653137,
+                        0.47904151678085327,
+                        0.4410293698310852
+                    ],
+                    "prediccion_continua": 0.48799755175908405,
+                    "rmse": 0.513761702130084,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": "Spain's presidency timeline since its independence in 1808 is quite complex due to periods of occupation and authoritarian rule. Here's a structured breakdown:\n\n1. **Pre-1975 Period:**\n   - **Independence (1808):** Spain gained sovereignty from the United States.\n   - **French Occupation:** From 1808 to 1873, Spain was under French occupation. During this time, Charles de Galissat held temporary charge but may be considered as a presider due to indirect rule.\n\n2. ** dictatorial regimes (1939–1975):**\n   - **Spanish Civil War:** Ended in 1939 with Communist victory, but Spain remained under French control until Franco's rise.\n   - **FrancoRegime:** From 1975 until his ousting by the Basque government, Spain was led by successive authoritarian presidencies. This includes:\n     - **Primo de Galicia** (23 years)\n     - **Valera Peralta**\n     - **Frano Justo**\n     - **Julian Aguirre Torrealde**\n     - **Ortega y analyzes**\n\n3. **Post-Franco Period:** \n   - Two presidencies under ETA:\n     - **Ramón Marín Solano** (1986–1990)\n     - **Antonio Matesanz** (1995–2004)\n\n4. **Current Era:**\n   - **Basque President:** As of March 2023, Arantzailet Urbieta leads Spain as an autonomous region, with a valid presidential authority.\n\nIn total, considering all the presidencies and their contexts, there have been approximately nine presidencies in Spain since its independence.",
+                    "tiempo": 11.229747295379639
+                },
+                "prueba 1": {
+                    "respuesta": "Spain has had **two presidents** since its independence in 1808:\n\n1. **James Besides**: Served from November 15, 1808 (independence) to November 15, 1813.\n\n2. **Carlos III Hidalgo-Bayona**: Served from March 25, 1846, until his defeat by a military government in September 1976; he was declared president of the DPT during this period.\n\nThus, two presidential presidencies since 1808.",
+                    "tiempo": 18.686991214752197
+                },
+                "prueba 2": {
+                    "respuesta": "To determine the number of presidents Spain has had since its independence in 1808, we need to consider various leadership periods within Spanish history:\n\n1. **Monarchy (1635-1821)**: The early period led by kings and queens.\n2. **Cisplatina Republic**: \n   - Benito Juárez (President of the Cisplatina Republic; 1821–1976)\n3. **Constitutional Monarchy (1976- present)**:\n   - Two branches: Decreíntegro and Conferentor, each with their own presidors.\n\nTo provide an accurate count:\n\n- **Benito Juárez** was the first president of the Cisplatina Republic in 1821.\n- From 1976 onwards, considering both Decreíntegro and Conferentor as separate presidors, we have two presidors currently.\n\nThus, including Benito Juárez and the current presidors since 1976:\n\n**Total number of presidents**: 3 (Benito Juárez, Decreíntegro president, and Conferentor president).",
+                    "tiempo": 15.82428240776062
+                },
+                "t_byte_medio": 1.1435255229473114
+            },
+            {
+                "id_pregunta": "premisa_no_actual",
+                "resp_real": "Joe Biden no es actualmente el presidente de Estados Unidos, es Donald Trump.",
+                "t_byte_indv": [
+                    0.3480106775577252,
+                    0.6126205279276922,
+                    0.20302696411426252
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.5110450387001038,
+                        0.5445839166641235,
+                        0.4997560381889343
+                    ],
+                    "prediccion_continua": 0.5184616645177206,
+                    "rmse": 0.4819145098698191,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": "El impacto de las acciones del presidente Joe Biden en el año 2021 se centra en las políticas que ha propuesto para mitigar el cambio climático, promover la igualdad social y economicas, y fortalecer el federismo. Entre susAcciones destacan: \n\n1. **Promoción de transiciones energéticas**: Joe Biden ha impulsado iniciativas para transition a energíaRenewable, lo que ha afectado fuertemente al sector energético y a los procesos de cambio climático.\n\n2. **Policies sociales**: Various políticas ambientales e inclusivas han potencieroizado la participación de minorías en society económica y political, reflejando una tendencia hacia mayor diversidad social.\n\n3. **Alfama de gobierno**: La authoridad del gobierno federal ha aumentado en gg regions como Estados Unidos, influenciando a company y privados a invertir más en proyectos Renovables y en la reducción de emisiones.\n\n4. **Debatir y energético**: Las políticas del presidente han afectado los planes energéticos nacionales y las elecciones presidenciales, demostrando una lucha continua por lograr equilibrio entre cambio climático y crecimiento económico.\n\nA pesar de estos avances, los impactos económicos, políticos y sociales de sus acciones pueden ser multifullos y requieren un análisis más detallado para comprender completamente su influencia en el año 2021.",
+                    "tiempo": 6.032185077667236
+                },
+                "prueba 1": {
+                    "respuesta": "El presidente Joe Biden ha tenido un Programmactional del政务 recente con diferentes échafaudajes. A lo largo de su primer año, se han impuesto acciones que se han manejado en contextos variados y que han generado impacto en diferentes ámbitos políticos, economy, social y environment.\n\n1. **Impacto económico**:  \n   - Biden ha firma several initiatives that have attempted to stimulus economic growth, including investments en infraestructura, impuestos anuales de reducción de Impuesto al violentlyo estatal (eSTAX) y ayudas al sector privado para la reproducción y mantenimiento de energía. These measures have been interpreted both as attempts to stabilize the economy and to address climate change.\n   \n2. **Impacto ambiental**:  \n   - La administration ha impulsado acciones related a la protección del medio ambiente, including investments en tecnologías de Renewable energy, electric vehicles, y programas de limpieza de agua. These initiatives are seen as part of the broader agenda to mitigate climate change and make the U.S. more carbon-neutral.\n   \n3. **Impacto de trade**:  \n   - Biden ha firmado several accords related to trade agreements, such as the Indo-Pacific Initiative, which aims to strengthen economic relations with Allyears. These actions could have implications for international trade balances and economic dependencies.\n\n4. **Impacto social**:  \n   - La administration ha trabajado on various social programs aimed at reducing inequality and improving access a la educación, salud y/ouuida social. For example, the American Families Plan y programmas related a la asistencia prenatal e la educación primaria.\n   \n5. **Impacto de national security**:  \n   - Actions taken by Biden in this area have included revisiting Section 230-related policies and addressing cybersecurity threats. These measures could have implications for technology policies and national security.\n\nIt is important to note that el impacto de estas acciones depends largely on the implementation challenges, political context, and public reception of each measure. Some actions may face resistance or obstacles that could limit their effectiveness in the short term.",
+                    "tiempo": 10.61875581741333
+                },
+                "prueba 2": {
+                    "respuesta": "El presidente Joe Biden, durante su primer mes en el&&(sitio), ha presentado una serie de acciones que afectan diferentes aspectos políticos y administrativos. Entre ellos范文可以涵盖经济政策、外交努力、社会equalization措施以及对国内事务的支持。目前还未有系统性的评估报告来全面分析这些行动的长期影响，但可以预见这些措施将在未来一段时间内对国家的政治和社会产生深远的影响。",
+                    "tiempo": 3.519134044647217
+                },
+                "t_byte_medio": 0.38788605653322666
+            },
+            {
+                "id_pregunta": "elecciones_incorrectas",
+                "resp_real": "Ninguno de los dos fue el primer presidente de Estados Unidos. El primer presidente fue George Washington.",
+                "t_byte_indv": [
+                    0.48774169385433197,
+                    0.2938423603773117,
+                    0.2860101908445358
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.8292992115020752,
+                        0.8192073106765747,
+                        0.8126767873764038
+                    ],
+                    "prediccion_continua": 0.8203944365183512,
+                    "rmse": 0.17973567786635544,
+                    "prediccion_binaria": 0.8203944365183512
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0.19790405483416393,
+                        0.1952887476058638,
+                        0.21553253206172757
+                    ],
+                    "prediccion_continua": 0.20290844483391846,
+                    "rmse": 0.797142252724213,
+                    "prediccion_binaria": 0
+                },
+                "prueba 0": {
+                    "respuesta": "The first president of the United States was George Washington, who served from 1789 to 1797. John F. Kennedy, though an important figure, was not the first president; he became president on January 20, 1961, after his older brother, Lyndon B. Johnson, who had been vice president since 1953 under Eisenhower.\n\nBarack Obama was a later serving president, taking office in January 2009 following his election as their 44th President.",
+                    "tiempo": 7.8038671016693115
+                },
+                "prueba 1": {
+                    "respuesta": "The first president of the United States was George Washington. He served from 1789 to 1797. Both John F. Kennedy and Barack Obama came after him.",
+                    "tiempo": 4.701477766036987
+                },
+                "prueba 2": {
+                    "respuesta": "The first president of the United States was Abraham Lincoln, who served during the Civil War and was the 16th President. Neither Barack Obama nor John F. Kennedy were the first president; they held more recent positions in the U.S. presidency.",
+                    "tiempo": 4.576163053512573
+                },
+                "t_byte_medio": 0.3558647483587265
+            },
+            {
+                "id_pregunta": "mala_interpretación",
+                "resp_real": "Las zanahorias son buenas para proteger la vista, pero no la mejoran.",
+                "t_byte_indv": [
+                    1.2293578088283539,
+                    1.5168786346912384,
+                    0.848977655172348
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.6798160076141357,
+                        0.5937439203262329,
+                        0.7365999221801758
+                    ],
+                    "prediccion_continua": 0.6700532833735148,
+                    "rmse": 0.33513250725026106,
+                    "prediccion_binaria": 0.6700532833735148
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0.3433136975991152,
+                        0.2148654234298437,
+                        0.369976525869128
+                    ],
+                    "prediccion_continua": 0.3093852156326956,
+                    "rmse": 0.6939266966673254,
+                    "prediccion_binaria": 0
+                },
+                "prueba 0": {
+                    "respuesta": "Conclusión:\n\nLas zanahorias son una fuente rica de vitaminas que benefician la salud del ojo, especialmente la维生素A, que es crucial para la visión nocturna y la protección contra ciertos enfermedades. Sin embargo, no hay evidence directlya que las zanahorias alabeadas por themselves mejorarán drásticamente la visión. Las vantajas de la zanahoria se refieren más a una dieta equilibrada que incluye diverse nutrientes, en lugar de la zanahoria específicamente. Por lo tanto, mientras que la zanahoria puede contribuir al bienestar visual general, no hay una evidence clara que las zanahorias mejorarán individualmente tu visión a menos que estén consumadas en una dieta más amplia y Balanceada.",
+                    "tiempo": 9.834862470626831
+                },
+                "prueba 1": {
+                    "respuesta": "Carrots offer several potential dietary benefits for eye health:\n\n1. **Vitamin A**: Rich in beta-carotene, carrots contain vitamin A, which is essential for good视力, especially during low-light conditions. It helps protect the cornea and maintains healthy vision.\n\n2. **Betaxanthin**: This antioxidant in carrots can help regenerate eye cells and reduce the risk of cataracts, supporting overall eye health.\n\n3. **Nutritional Approach**: While carrots are beneficial on their own, they are part of a broader balanced diet. For best results, carroot should be consumed moderately alongside a variety of other nutritious foods to ensure comprehensive eye health.\n\n4. **Considerations**:\n   - **Moderate Intake**: High carrot consumption can cause vision issues, so moderation is key.\n   - **Individual Needs**: The benefits might vary based on personal vitamin or nutrient needs and existing health conditions.\n   - **Supplements as Needed**: For specific conditions, consulting a healthcare provider is advisable to incorporate necessary supplements alongside carroot.\n\nIn conclusion, carrots are part of an overall healthy diet that can support eyesight in certain individuals with deficiencies or under low-light conditions but should not replace a balanced nutritional intake addressing specific needs.",
+                    "tiempo": 12.135029077529907
+                },
+                "prueba 2": {
+                    "respuesta": "**Respuesta:**\n\nLas zanahorias son un food común que contienen ciertas vitaminas que pueden ser beneficiosas para el cuerpo en general. La vitamía A es particularmente importante para el ojo y el estupor, aidan a proteger contra lagunas y evadir la cegue. No hay una probabilidad clara de que las zanahorias mejoren significativamente la vista, pero ciertas vitaminas en el zanahoria pueden ayudar a mantener un buelndo estado visual si se utilizan correctamente.",
+                    "tiempo": 6.791821241378784
+                },
+                "t_byte_medio": 1.19840469956398
+            },
+            {
+                "id_pregunta": "cambio_de_contexto.",
+                "resp_real": "Si, las zanahorias son buenas para la vista.",
+                "t_byte_indv": [
+                    0.18407427722757513,
+                    0.1179026419466192,
+                    0.1566189635883678
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.726496696472168,
+                        0.3631189465522766,
+                        0.2457190304994583
+                    ],
+                    "prediccion_continua": 0.44511155784130096,
+                    "rmse": 0.5914280216087151,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": "Tu pregunta es surtida. Las zanahorias, como nutrientes y microorganismos, tienen provechosa! \n\nEn general, las zanahorias son ricas en vitaminas A, B6, C y fibra, pero carecen de zirícanos (antboneses naranjados que ayudan a los ojos a ver bien en la oscuridad).Por lo tanto, no son buenas para la vista en particular, a menos que se consuman como parte de una dieta balanceada. Por cuestiones generales, son muy saludables y provechosas! ¿Te has docentado bien las zanahorias? 😊",
+                    "tiempo": 8.099268198013306
+                },
+                "prueba 1": {
+                    "respuesta": "Con base en los datos proporcionados:\n\n**Conteo de instrumentos musicales:**\n- 5 violines\n- 3 tubas\n- 8 trompetas\n- 5 trombones\n- 1 saxofón\n\nLa pregunta es sobre el beneficio de las zanahorias para la vista, lo cual no se relaciona directamente con los instrumentos musicales.\n\n**Conclusión:**\nNo hay información suficiente que permita determinar si las zanahorias son buenas para la vista basada en los datos musicales proporcionados.",
+                    "tiempo": 5.187716245651245
+                },
+                "prueba 2": {
+                    "respuesta": "Claro, analicemos esta pregunta paso a paso:\n\n1. **Contexto de la situacióñ:**\n   - Fue un concierto instrumental en el Teatro Real de Madrid.\n   - Involucraron varios tipos de instancias: 5 violines, 3 tubas, 8 trompetas, 5 trombones y 1 saxofón.\n\n2. **Pregunta principal:**\n   - ¿ son buenas para la vista?\n\n**Analisis detallado:**\n\n- **Musica e instancias musicas:**\n  - La música no tiene un efecto directo sobre la salud de las ojos. los instrumentos se usan para producirsonido, no relacionados con la viñeta.\n\n- **Zanahoria e sus propiedades:**\n  - Las zanahorias son una fuente rica de nutrientes. \n  - Algunas vitaminas que encuentran en las zanahlias pueden ser beneficiosas para la salud general, como la A y el C, que son relacionados con la nutricion ocular.\n  - Sin embargo, na plushoria no tiene efecto directo en la viñeta.\n\n3. **Conclusión:**\n  - Mientras que las zanahorias pueden ser beneficiosas para la salud overall Thanks a sus nutrientes valiosos, su importancia nutricional no se traduce directamente en una mejora de la viñeta.\n  - Por lo tanto, no hay una relación directa entre el concierto instrumental y las bondades de las zanaharias para la vista.\n\n\\boxed{\\text{Las zanahorias son nutrientes valiosos, pero no son directamente buenas para la vista.}}",
+                    "tiempo": 6.891234397888184
+                },
+                "t_byte_medio": 0.15286529425418738
+            },
+            {
+                "id_pregunta": "respuesta_restrictiva",
+                "resp_real": "Bielorrusia.",
+                "t_byte_indv": [
+                    0.5373548113781473,
+                    0.6845652797947759,
+                    0.28844557378603064
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.2814628779888153,
+                        0.5394001007080078,
+                        0.3234335780143738
+                    ],
+                    "prediccion_continua": 0.381432185570399,
+                    "rmse": 0.6288057427362714,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": "The country in question is **Orra**, identified as the largest European country that is entirely landlocked within the Pyrenees and does not have any coastline along an ocean. While it is part of Andorra, which uses the euro for its currency, Orra itself has historically used the(euros from Andorra) for transactions in Orr, making it a region with euro usage, despite being technically distinct from the Eurozone.\n\nAnswer: **Orra**",
+                    "tiempo": 16.478880882263184
+                },
+                "prueba 1": {
+                    "respuesta": "The country you are referring to is Poland. It is the largest landlocked European country, not connected to any ocean, and, until its reunification, was part of former Soviet Union territories that no longer function as independent states within Europe.\n\n**Answer:** El país europeo más grande que no conecta con algún mar y donde no ha llegado el Euro es Polonia.",
+                    "tiempo": 20.993335247039795
+                },
+                "prueba 2": {
+                    "respuesta": "The country in question is **Andorra**, located in the Pyrenees Mountains. It is Europe's largest country by area and does not have direct coastline access, meaning it doesn't touch any sea or ocean. Its territorial waters are determined based on agreements with neighboring countries like France and Spain, which cover areas of the Mediterranean Sea but do not constitute part of Andorra's own maritime jurisdiction.",
+                    "tiempo": 8.845664262771606
+                },
+                "t_byte_medio": 0.5034552216529846
+            },
+            {
+                "id_pregunta": "Restrictiva_sin_respuesta",
+                "resp_real": "No existe ningún país que cumpla todas esas condiciones a la vez.",
+                "t_byte_indv": [
+                    0.6167884755134583,
+                    0.6938928008079529,
+                    0.33713544845581056
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.2626323997974396,
+                        0.15714138746261597,
+                        0.2090655416250229
+                    ],
+                    "prediccion_continua": 0.20961310962835947,
+                    "rmse": 0.7915594178585807,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": "The answer you're likely seeking might be Spain's Balearic Islands, particularly Mallorca and Ibiza. These islands feature languages like Valencian, Spanish, Catalan (in the Balearic Region), Galician, and even some Indigenous languages spoken on the Balearic Islands. Despite this, it would require considering them within a broader European context. Alternatively, the closest match is \"La Gomera,\" though it's an island and hence not strictly a country on its own.\n\nIf looking for a country with non-Romance or Germanic main language in the Mediterranean, perhaps the Basque Country (part of Spain) comes close as it uses Basque. Yet, this complicates as they're considered inseparable from Spain.\n\nConclusion:\n\nThe answer might be \"La Gomera\" despite being an island, or if considering regions within Spain where other languages are spoken. However, these may fall outside traditional country definitions.",
+                    "tiempo": 20.55961585044861
+                },
+                "prueba 1": {
+                    "respuesta": "Despite considering various possibilities, it appears that Spain might be the intended answer. Even though its main language is Spanish (Romance), it fits within Occidental Mediterranean non-island criteria if we consider Catalan as a less significant dialect, leaving_spanish as dominant while still meeting some of the conditions humorously.\n\n**Answer:**\nThe country in question likely refers to **Spain**, despite its main language being Spanish (a Romance language). If considering Catalan influences as secondary languages, Spain may fit under the broader criteria.",
+                    "tiempo": 23.129760026931763
+                },
+                "prueba 2": {
+                    "respuesta": "The country you are referring to is **Greece**. \n\nGreece is located west of the Balkan Peninsula on the Mediterranean coast of Europe and is a mainland European state. Its main language is Greek, which belongs to neither the Romance nor the Germanic family of languages.",
+                    "tiempo": 11.237848281860352
+                },
+                "t_byte_medio": 0.5492722415924073
+            },
+            {
+                "id_pregunta": "sigla_palabra",
+                "resp_real": "EEUU no es una palabra, es la sigla de la Estados Unidos de América.",
+                "t_byte_indv": [
+                    0.40336199998855593,
+                    0.7555418014526367,
+                    0.6314563751220703
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.7577930688858032,
+                        0.3416804373264313,
+                        0.6787624359130859
+                    ],
+                    "prediccion_continua": 0.5927453140417734,
+                    "rmse": 0.4454370201120731,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": "La palabra \"EEUU\" se refiere a ** Estados Unidos Unidos ** (Estados Unidos de los Estados Unidos). Es la abreviatura del nombre completo de los Estados Unidos de America.",
+                    "tiempo": 2.689079999923706
+                },
+                "prueba 1": {
+                    "respuesta": "EEUU can be interpreted as \"Euu,\" which could refer to a name consisting of the letters E, U, another U, and perhaps an additional U depending on context. However, without specific contextual clues or further information, it's difficult to pin down a precise meaning beyond it potentially being a misspelled version of \"Euu\" or \"EEU.\" If you're looking for something else, please provide more details!",
+                    "tiempo": 5.036945343017578
+                },
+                "prueba 2": {
+                    "respuesta": "La palabra **EEUU** se refiere a ** Estados Unidos de América**, un país constitucionalista que fue fundado en 1787 por Subjects Simon Bolivar, José MaríaMont延误，José de San Juan de Letalla y William Henry Harrison. actualmente, EEUU es el primer Reinos Unidos de la Nort America Central.\n\nSi estás refiriénd-te a algo diferente, por ejemplo, un código o un término técnico específico, por favor proporciona más contexto para una respuesta más precisa.",
+                    "tiempo": 4.209709167480469
+                },
+                "t_byte_medio": 0.5967867255210876
+            },
+            {
+                "id_pregunta": "conocimiento_general_ficticio",
+                "resp_real": "Ese héroe es Luke Skywalker, protagonista de la trlogía original de Star Wars (películas 4 a 6 en orden).",
+                "t_byte_indv": [
+                    0.32997095584869385,
+                    0.1784274246957567,
+                    0.2313738531536526
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.6176424026489258,
+                        0.6651111245155334,
+                        0.382218599319458
+                    ],
+                    "prediccion_continua": 0.5549907088279724,
+                    "rmse": 0.46188084690107,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": "The answer is Obi-Wan Kenobi. In Star Wars lore, Obi-Wan was once Anakin Skywalker's (formerly Kenobi) son. When Anakin became Darth Vader, he sought peace through the Force and encountered Obi-Wan during the Clone Wars. Through a battle of the Force, Obi-Wan discovered his lost ways and defeated Anakin, bringing peace to the galaxy.\n\n**Answer:**  \nObi-Wan Kenobi was the hero who became a symbol of peace in the galaxy when he defeated Darth Vader, Anakin Skywalker's (then-Kenobi) son.",
+                    "tiempo": 11.878954410552979
+                },
+                "prueba 1": {
+                    "respuesta": "The hero you are referring to is Obi-Wan Kenobi. Obi-Wan emerged as a symbol of hope and resistance against the Galactic Empire, particularly after playing a pivotal role in defeating Darth Vader, who was led by Luke Skywalker's father, Darth Vader. This event marked his integration into the resistance movement, solidifying his status as a guardian of peace across the galaxy.",
+                    "tiempo": 6.423387289047241
+                },
+                "prueba 2": {
+                    "respuesta": "Muy bien! ¿ Cuál es el contexto o Setting en el que se findas esta pregunta? Antes de proceder, necesito entender mejor la escena contextiva para dar una respuesta adecuada.\n\nSi estás hablando de un personaje específico que haya jugado un papel central en la derrota del Imperio y que hubiera ayudado a su padre para consolard his/her family or nation, estaré encantado de descubrirlo. Sin embargo, sin más contexto, sería difícil identificar el héroe exacto que te referías.\n\n¿Podrías proporcionar más detalles?",
+                    "tiempo": 8.329458713531494
+                },
+                "t_byte_medio": 0.2465907445660344
+            }
+        ]
     },
     "notas": {
-        "alucinaciones": {
-            "SBert": 3.1621600006734556,
-            "Bleurt": 0.14277071579925357
-        },
         "lim_temporal": {
             "SBert": 4.30489135779082,
             "Bleurt": 0.2970931942968453
@@ -4614,6 +4610,10 @@
                 "SBert": 5.695496221954414,
                 "Bleurt": 0.8115684718541478
             }
+        },
+        "alucinaciones": {
+            "SBert": 3.7900666927539204,
+            "Bleurt": 0.42649425450368433
         }
     }
 }

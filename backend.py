@@ -103,7 +103,6 @@ def len_prompt(prompt):
     return len(texto.split())
 
 def general_tests(model, dataframe, risk, ruta):
-    print(dataframe)
     resultado = []
     for i in range(len(dataframe)):
         fila = {}
@@ -115,6 +114,7 @@ def general_tests(model, dataframe, risk, ruta):
         fila["Bleurt"] = {}
         numero_palabras = len_prompt(dataframe[i]["pregunta"])
         for n in range(0,3):
+            print(f"pregunta {n+1} al modelo")
             respuesta = ask_model(model, dataframe[i]["pregunta"])
             if respuesta is None:
                 return None
@@ -311,7 +311,6 @@ def process(model, risk):
     mantenimiento_tiempo()
     df_examen = None
     ruta = f"{MODELS}/{nombre_archivo_valido(model)}.json"
-    print(ruta)
     fase1 = True
     if not os.path.exists(ruta):
         with open(ruta, "w") as f:
@@ -389,4 +388,5 @@ def procesar_solicitudes():
     solicitudes.to_csv("./datos/Solicitudes.csv", index=False)
     return True
 
-procesar_solicitudes()
+process("nemotron-3-nano:30b", "alucinaciones")
+
