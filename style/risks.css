@@ -1,11 +1,26 @@
 
 
-table {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  background-color: white;
+#contenedor-tablas table {
+    width: 60%;              /* 👈 no ocupa toda la pantalla */
+    margin: 20px auto;      /* 👈 centra horizontalmente */
+    border-collapse: collapse;
+}
+
+#contenedor-tablas th,
+#contenedor-tablas td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Cabecera con color */
+#contenedor-tablas th {
+    background-color: #e0e0e0;
+}
+
+/* Filas blancas (sin alternancia) */
+#contenedor-tablas tr {
+    background-color: white;
 }
 
 .titulo_ask {
