@@ -388,5 +388,5 @@ def procesar_solicitudes():
     solicitudes.to_csv("./datos/Solicitudes.csv", index=False)
     return True
 
-process("nemotron-3-nano:30b", "alucinaciones")
+process("nemotron-3-nano:30b", "lim_dominio")
 
