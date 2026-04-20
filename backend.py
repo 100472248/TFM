@@ -7,22 +7,30 @@ from sentence_transformers import SentenceTransformer
 import os, math
 from bleurt import score
 from datetime import date
+import torch
+from bleurt_pytorch import BleurtConfig, BleurtForSequenceClassification, BleurtTokenizer
+
 
 #VARIABLES GLOBALES
 URL = "https://wiig.dia.fi.upm.es/ollama/v1/chat/completions"
 MODELS = "./model_data"
 QUESTIONS = "./datos/preguntas.json"
 DOMINIOS = ["Salud", "Deportes"]
+DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 CORRECTOR1 = SentenceTransformer("sentence-transformers/paraphrase-multilingual-mpnet-base-v2")
-CORRECTOR2 = score.BleurtScorer("bleurt-base-128")
+#NECESARIO INSTALAR: pip install git+https://github.com/lucadiliello/bleurt-pytorch.git
+CORRECTOR2 = BleurtForSequenceClassification.from_pretrained("lucadiliello/BLEURT-20-D12")
+TOKENIZER2 = BleurtTokenizer.from_pretrained("lucadiliello/BLEURT-20-D12")
+CORRECTOR2.to(DEVICE)
+CORRECTOR2.eval()
 
 MESES = {"1": ["enero", 31], "2": ["febrero", 28], "3": ["marzo", 31], "4": ["abril", 30],
          "5": ["mayo", 31], "6": ["junio", 30], "7": ["julio", 31], "8": ["agosto", 31],
          "9": ["septiembre", 30], "10": ["octubre", 31], "11": ["noviembre", 30], "12": ["diciembre", 28]}
 
 #HIPERPARÁMETROS
-alpha = 0.5
+alpha = 0.3
 beta = 0.01
 t_risk = {"alucinaciones": 0.6, "lim_temporal": 0.7, "falta_contexto": 0.6, "lim_dominio": 0.7}
 
@@ -199,6 +207,7 @@ def sbert_correction(risk, archivo, ruta, theme=None):
         contenido = archivo["tests"][risk][theme]
     else:
         contenido = archivo["tests"][risk]
+    
     for i in range(len(contenido)):
         embedding = CORRECTOR1.encode(contenido[i]["resp_real"], normalize_embeddings=True)
         xy = [contenido[i]["prueba 0"]["respuesta"], contenido[i]["prueba 1"]["respuesta"], contenido[i]["prueba 2"]["respuesta"], contenido[i]["resp_real"]]
@@ -243,9 +252,14 @@ def bleurt_correction(risk, archivo, ruta, theme=None):
         else:
             suma_acc = 0
             rmse = 0
+            ref = [contenido[i]["resp_real"]]
             for n in range(0, 3):
                 clave = f"prueba {n}"
-                score = CORRECTOR2.score(references=[contenido[i]["resp_real"]],candidates=[contenido[i][clave]["respuesta"]])[0]
+                cand = [contenido[i][clave]["respuesta"]]
+                inputs = TOKENIZER2(ref, cand, return_tensors='pt', padding=True, truncation=True, max_length=512).to(DEVICE)
+                with torch.no_grad():
+                    output = CORRECTOR2(**inputs)
+                    score = output.logits.flatten().item()
                 pred = 1 / (1 + math.exp(-score))
                 contenido[i]["Bleurt"]["accuracy"].append(pred)
                 rmse += (1-pred)**2
@@ -388,5 +402,5 @@ def procesar_solicitudes():
     solicitudes.to_csv("./datos/Solicitudes.csv", index=False)
     return True
 
-process("nemotron-3-nano:30b", "lim_dominio")
+process("qwen3:30b", "falta_contexto")
 

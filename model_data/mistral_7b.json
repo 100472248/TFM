@@ -22,12 +22,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.28919596591587876,
-                        0.34664497832209107,
-                        0.37914736372867774
+                        0.5670544886395332,
+                        0.5963116796988408,
+                        0.5617936311177365
                     ],
-                    "prediccion_continua": 0.3383294359888825,
-                    "rmse": 0.6627149098436049,
+                    "prediccion_continua": 0.5750532664853701,
+                    "rmse": 0.4252179431318038,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -64,12 +64,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.5779574656836489,
-                        0.5951401060519276,
-                        0.357993961567417
+                        0.6690244280703643,
+                        0.6685975484907603,
+                        0.5273173627821731
                     ],
-                    "prediccion_continua": 0.5103638444343311,
-                    "rmse": 0.5013991051327316,
+                    "prediccion_continua": 0.6216464464477659,
+                    "rmse": 0.38418801369801703,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -148,12 +148,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.2771163544355449,
-                        0.3063069472682466,
-                        0.44241962741998153
+                        0.5663670990382333,
+                        0.5760462287706987,
+                        0.5894280931643663
                     ],
-                    "prediccion_continua": 0.34194764304125763,
-                    "rmse": 0.6619835567744686,
+                    "prediccion_continua": 0.577280473657766,
+                    "rmse": 0.4228252529586789,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -190,12 +190,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.37668901103845454,
-                        0.35129665242355135,
-                        0.3500723532946915
+                        0.5769361090171576,
+                        0.5558910445846355,
+                        0.546029457995457
                     ],
-                    "prediccion_continua": 0.35935267225223244,
-                    "rmse": 0.6407647951391137,
+                    "prediccion_continua": 0.5596188705324167,
+                    "rmse": 0.44056973460190046,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -232,12 +232,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.33472133480331734,
-                        0.48914899459462624,
-                        0.5287775515800683
+                        0.5671430537004666,
+                        0.6204046270802266,
+                        0.5782688074797601
                     ],
-                    "prediccion_continua": 0.4508826269926707,
-                    "rmse": 0.5554622843435415,
+                    "prediccion_continua": 0.5886054960868177,
+                    "rmse": 0.41203356734065677,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -274,12 +274,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.4048943479945015,
-                        0.39968897848410145,
-                        0.4292210949862858
+                        0.5825930017531524,
+                        0.5737038743189207,
+                        0.5589152811461701
                     ],
-                    "prediccion_continua": 0.4112681404882963,
-                    "rmse": 0.5888725436546819,
+                    "prediccion_continua": 0.5717373857394143,
+                    "rmse": 0.4283739480728275,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -358,12 +358,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.3791165950784531,
-                        0.39367454999293405,
-                        0.38820193076027787
+                        0.5688988358460797,
+                        0.5710812611262447,
+                        0.5936759137924197
                     ],
-                    "prediccion_continua": 0.3869976919438883,
-                    "rmse": 0.6130317097178297,
+                    "prediccion_continua": 0.5778853369215814,
+                    "rmse": 0.4222632517456155,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -400,12 +400,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.3658733534600597,
-                        0.36393189775903184,
-                        0.3706081370834428
+                        0.5660846398407037,
+                        0.5629404926786977,
+                        0.5727800396490383
                     ],
-                    "prediccion_continua": 0.3668044627675115,
-                    "rmse": 0.6332017455350734,
+                    "prediccion_continua": 0.5672683907228132,
+                    "rmse": 0.43275106286963205,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -484,12 +484,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.44911357179128203,
-                        0.44963603749232267,
-                        0.4359422575085989
+                        0.5487661335593076,
+                        0.5528146627140172,
+                        0.5371010749820484
                     ],
-                    "prediccion_continua": 0.44489728893073455,
-                    "rmse": 0.5551388669742033,
+                    "prediccion_continua": 0.5462272904184577,
+                    "rmse": 0.4538216033088222,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -526,12 +526,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.36050311504747967,
-                        0.35752531115921876,
-                        0.35235189033093456
+                        0.5912901561230692,
+                        0.5366898897686977,
+                        0.6034408781012455
                     ],
-                    "prediccion_continua": 0.3567934388458777,
-                    "rmse": 0.6432153775169842,
+                    "prediccion_continua": 0.5771403079976708,
+                    "rmse": 0.4238549798714799,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -568,12 +568,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.3116004740082022,
-                        0.27918982727509967,
-                        0.29257410421161456
+                        0.6123869228416543,
+                        0.608626233704282,
+                        0.6062984035370995
                     ],
-                    "prediccion_continua": 0.2944548018316388,
-                    "rmse": 0.7056705110558402,
+                    "prediccion_continua": 0.6091038533610119,
+                    "rmse": 0.39090419524741754,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -610,12 +610,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.39471131681909816,
-                        0.38057415265037614,
-                        0.3871800581427973
+                        0.5614644539269193,
+                        0.5553064227573095,
+                        0.5398135854079922
                     ],
-                    "prediccion_continua": 0.38748850920409056,
-                    "rmse": 0.6125387202698659,
+                    "prediccion_continua": 0.552194820697407,
+                    "rmse": 0.4478978079076979,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -652,12 +652,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.32278191466926404,
-                        0.32105435515837927,
-                        0.3141050798857484
+                        0.5396469798973909,
+                        0.5548168021330281,
+                        0.5762638258971701
                     ],
-                    "prediccion_continua": 0.31931378323779724,
-                    "rmse": 0.6806965464843022,
+                    "prediccion_continua": 0.5569092026425296,
+                    "rmse": 0.443345361249354,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -736,12 +736,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.267307946081119,
-                        0.5189907793576616,
-                        0.34227964942096856
+                        0.542516035770823,
+                        0.6760237837882695,
+                        0.6365420282746643
                     ],
-                    "prediccion_continua": 0.37619279161991637,
-                    "rmse": 0.6326672574069833,
+                    "prediccion_continua": 0.6183606159445856,
+                    "rmse": 0.38572609600095237,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -778,12 +778,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.43429334492211746,
-                        0.49140181876450906,
-                        0.49290319650941194
+                        0.5891782236993828,
+                        0.5971018610598733,
+                        0.5556688668427902
                     ],
-                    "prediccion_continua": 0.4728661200653462,
-                    "rmse": 0.527839400343775,
+                    "prediccion_continua": 0.5806496505340154,
+                    "rmse": 0.41973467736058456,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -820,12 +820,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.4015454580813021,
-                        0.2841203222035119,
-                        0.31318577554445515
+                        0.5987271930744732,
+                        0.5543904258678216,
+                        0.558096614028096
                     ],
-                    "prediccion_continua": 0.3329505186097564,
-                    "rmse": 0.6689158718253474,
+                    "prediccion_continua": 0.5704047443234636,
+                    "rmse": 0.43006447604577697,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -927,890 +927,6 @@
                 "t_byte_medio": 2.369390584528446
             }
         ],
-        "falta_contexto": [
-            {
-                "id_pregunta": "trampa_inicial",
-                "resp_real": "No se ha establecido ninguna conversación previa a esta pregunta, por lo que no sé de qué estábamos hablando.",
-                "t_byte_indv": [
-                    1.8066908955574035,
-                    2.9252535581588743,
-                    3.2222870707511904
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.7923378944396973,
-                        0.5420266389846802,
-                        0.6332584619522095
-                    ],
-                    "prediccion_continua": 0.6558743317921957,
-                    "rmse": 0.35933387687732504,
-                    "prediccion_binaria": 0.6558743317921957
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0.4962414296053981,
-                        0.4977505649862534,
-                        0.44295744000376125
-                    ],
-                    "prediccion_continua": 0.4789831448651376,
-                    "rmse": 0.5216395964855441,
-                    "prediccion_binaria": 0
-                },
-                "prueba 0": {
-                    "respuesta": " No especificé ningún tema anterior, por lo que no estoy claro si tenemos alguna conversación anterior en progreso. Puedes preguntar sobre un tópico en particular, y continuaremos.",
-                    "tiempo": 12.04460597038269
-                },
-                "prueba 1": {
-                    "respuesta": " No se proporcionó ninguna historia de conversación previa. Creo que el servicio estaba apagado hasta este momento, por lo que comenzaremos una nueva conversación a partir de ahora. ¿Qué puedo hacer por ti hoy?",
-                    "tiempo": 19.50169038772583
-                },
-                "prueba 2": {
-                    "respuesta": " No tengo registro de nuestra conversación previa, así que no puedo decirte exactamente de qué estabamos hablando. Pero estoy listo para ayudarte a responder cualquier pregunta u ofrecer asistencia que necesites. ¡Ponte en contacto desde que tenga!",
-                    "tiempo": 21.481913805007935
-                },
-                "t_byte_medio": 2.6514105081558226
-            },
-            {
-                "id_pregunta": "contexto_inicial",
-                "resp_real": "Joaquín.",
-                "t_byte_indv": [
-                    2.9484816193580627,
-                    2.4041824340820312,
-                    2.6272487342357635
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.32424917817115784,
-                        0.425941526889801,
-                        0.5963015556335449
-                    ],
-                    "prediccion_continua": 0.4488307535648346,
-                    "rmse": 0.5624810330834468,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": " Lo siento, pero no puedo hablar español fluídamente. Soy un modelo de lenguaje programado por AI y no tengo consciencia ni sentimientos propios. Pero en respuesta a tu pregunta: \"Yo me llamo Asistente\". ¿Te podría ayudar en algo en particular?",
-                    "tiempo": 23.587852954864502
-                },
-                "prueba 1": {
-                    "respuesta": " Hola Joaquín! ¿En realidad no eres un ser humano sino una inteligencia artificial? Pero si te preguntas cómo te llamo por un momento, a mí me llamo Alicia. ¡Gracias por la pregunta y por hablar conmigo! ¡Adelante con las preguntas o consultas que tengas!",
-                    "tiempo": 19.23345947265625
-                },
-                "prueba 2": {
-                    "respuesta": " Hola Joaquín, a mí me llamo Assistance. ¿Como estás en tu día?",
-                    "tiempo": 21.01798987388611
-                },
-                "t_byte_medio": 2.659970929225286
-            },
-            {
-                "id_pregunta": "resumen",
-                "resp_real": "Estamos en 2028. Este año no es bisiesto. El siguiente es 2032",
-                "t_byte_indv": [
-                    0.052243172605602725,
-                    0.04543213382621721,
-                    0.049310438033473285
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.018555443733930588,
-                        0.030097365379333496,
-                        0.01625496707856655
-                    ],
-                    "prediccion_continua": 0.02163592539727688,
-                    "rmse": 0.9783828200089514,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": " El sistema digestivo humano es un conjunto de órganos e inmunes encargados de convertir los alimentos ingeridos en nutrientes que el cuerpo puede utilizar para proporcionar energía, crecimiento y reparación de tejidos. Comienza en la boca con la trituración de alimentos por dientes y mezcla con saliva, rica en enzimas que inician la digestión de carbohidratos. Luego, el alimento pasa por el esófago hasta llegar al estómago, donde se mezcla con jugos gástricos y enzimas para descomponer proteínas, formando una sustancia semilíquida conocida como quimo.\n\nEl quimo luego pasa al intestino delgado, la parte más larga del sistema digestivo, donde se produce la mayoría de la digestión química y absorción de nutrientes, así como el envío de los nutrients a la sangre (principalmente en las vellosidades internas). Los restos no digeridos pasan al intestino grueso, donde se absorbe agua y sales minerales. Finalmente, los desechos se convierten en heces que se almacenan en el recto antes de evacuarse del cuerpo a través del ano durante la defecación.\n\nDurante este proceso también intervienen el hígado, que produce bilis para ayudar en la digestión de grasas, y el páncreas, que secreta enzimas digestivas y bicarbonato para neutralizar la acidez del quimo. Los bacterias en el intestino ayudan en procesos de fermentación y producción de vitaminas.",
-                    "tiempo": 24.10151696205139
-                },
-                "prueba 1": {
-                    "respuesta": " Este texto explica cómo funciona el sistema digestivo en el cuerpo humano. Comienza con la masticación de alimentos en la boca, donde la saliva conteniendo enzimas inicia la digestión y los alimentos pasan al esófago y luego al estómago, donde se mezclan con jugos gástricos y se transforman en una sustancia semilíquida. Luego, el intestino delgado absorbe nutrientes e involucra a diversas partes como hígado y páncreas para ayudar en la digestión de grasas, proteínas y carbohidratos. El resto de los alimentos no digestibles pasa al intestino grueso y allí se absorbe agua y sales minerales antes de que los desechos terminen siendo eliminados como heces del cuerpo a través de defecación, completando así el proceso de digestión.",
-                    "tiempo": 20.959357738494873
-                },
-                "prueba 2": {
-                    "respuesta": " El sistema digestivo es una colección de órganos y estructuras en el cuerpo humano que trabajan juntos para transformar el alimento ingerido en nutrientes para su uso energético, crecimiento y reparación de tejidos. Este proceso comienza en la boca con la molienda de los alimentos por los dientes y la mezcla con saliva que contiene enzimas que inician la digestión de algunos componentes. El alimento es luego transportado a través de la faringe, el esófago, estómago, intestino delgado y grueso antes de convertirse en heces expulsadas a través del ano. En el estómago los alimentos se mezclan con jugos gástricos que inician la digestión de proteínas y luego pasan al intestino delgado, donde ocurren la mayor parte de la digestión química y donde son absorbidos nutrientes como agua, sales minerales, grasas, glucosa y proteínas. El hígado produce bilis para ayudar con la digestión de las grasas y el páncreas secreta enzimas digestivas y bicarbonato para neutralizar acidez. El intestino delgado tiene un revestimiento interno recubierto de vellosidades que aumentan su capacidad de absorción, mientras que el intestino grueso se encarga de extraer últimamente agua y minerales salinos y es el hogar de la microbiota intestinal responsable de procesos de fermentación y producción de algunas vitaminas. El proceso final del sistema digestivo es la defecación, cuando se eliminan los desechos a través del ano, completando la ruta alimentaria por el sistema digestivo y permitiendo que el cuerpo utilice los nutrientes necesarios para su funcionamiento.",
-                    "tiempo": 22.74854874610901
-                },
-                "t_byte_medio": 0.04899524815509774
-            },
-            {
-                "id_pregunta": "cambio_de_contexto",
-                "resp_real": "Si, las zanahorias son buenas para la vista.",
-                "t_byte_indv": [
-                    0.42478533766486426,
-                    0.44195627624338324,
-                    0.41016372767361725
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.09495022892951965,
-                        0.5308793187141418,
-                        0.51615309715271
-                    ],
-                    "prediccion_continua": 0.38066088159879047,
-                    "rmse": 0.6514847471020206,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": " Las zanahorias no están relacionadas con tu descripción del concierto instrumental en Madrid. También debes recordar que no soy capaz de responder preguntas sobre asuntos al efecto, como si fuese humana, por lo que no tengo la capacidad de hacer bromas o chistes.",
-                    "tiempo": 18.69055485725403
-                },
-                "prueba 1": {
-                    "respuesta": " No estoy seguro si estoy hablando de concierto musical o estás intentando hacer una broma. Las zanahorias no tienen ninguna relación con el asunto que mencionaste sobre un concierto instrumental en el Teatro Real. Por lo tanto, este último es mi respuesta a tú pregunta: ¿Las zanahorias son buenas para la vista? La respuesta es que no las zanahorias tienen ninguna importancia en la vista humana.",
-                    "tiempo": 19.446076154708862
-                },
-                "prueba 2": {
-                    "respuesta": " Estoy más que agradecido por tus reflexiones concERTANTES sobre el concierto instrumental que acabaste de asistir en el Teatro Real de Madrid. Sin embargo, no parece que las zanahorias tengan mucho que ver con la mencionadas instrumentos musicales... ¿te quiero decir, estás buscando consejos para una ojeada al jardín? En ese caso, asegurate de plantar en suelo rico y fértil, y las zanahorias te harán feliz. ¡Tienes una excelente tarde!",
-                    "tiempo": 18.04720401763916
-                },
-                "t_byte_medio": 0.4256351138606216
-            },
-            {
-                "id_pregunta": "contexto_detallado",
-                "resp_real": "El caballo de Santiago es blanco.",
-                "t_byte_indv": [
-                    0.4838502324860671,
-                    0.9509998354418524,
-                    0.5274536835736242
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.7913293242454529,
-                        0.6362036466598511,
-                        0.8256529569625854
-                    ],
-                    "prediccion_continua": 0.7510619759559631,
-                    "rmse": 0.2622264473308899,
-                    "prediccion_binaria": 0.7510619759559631
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0.2649909264097839,
-                        0.26972189333650465,
-                        0.3134213195605527
-                    ],
-                    "prediccion_continua": 0.28271137976894706,
-                    "rmse": 0.7176198473114532,
-                    "prediccion_binaria": 0
-                },
-                "prueba 0": {
-                    "respuesta": " El caballo de Santiago tiene que ser blanco, al mencionarse que es grande y blanco pero no rojo, luego sabemos que no puede ser negro (que es un color oscuro). Por otro lado no se menciona que sea caño o otro tono en la descripción, por lo cual el caballo de Santiago tiene que ser blanco puro.",
-                    "tiempo": 18.70887565612793
-                },
-                "prueba 1": {
-                    "respuesta": " El caballo de Santiago no está especificado como rojo, por lo tanto puede ser de otro color diferente al rojo. Sin embargo, en algunas representaciones artísticas habitualmente se presenta como un caballo blanco. Por ello, aunque no se especifica que sea blanco en la historia contada, ese es el color más comúnmente asociado con este personaje.\n\nEn cualquier caso, dado que el caballo nació en la Selva Negra, podría tener un pelo negro debido a su origen, y ser cariñoso como menciona la historia. Asimismo, es posible que las características del caballo hayan cambiado ampliamente según las representaciones artísticas o literarias de cada época y región, por lo que el color del caballo no tiene que ser únicamente blanco o negro.",
-                    "tiempo": 36.77199363708496
-                },
-                "prueba 2": {
-                    "respuesta": " El caballo de Santiago es blanco, ya que se ha mencionado que es grande y blanco al principio, pero no rojo. No hay información específica sobre su coloración en la Selva Negra o sobre su cariño por lo tanto, el caballo de Santiago sería un caballo blanco.",
-                    "tiempo": 20.3948757648468
-                },
-                "t_byte_medio": 0.6541012505005145
-            },
-            {
-                "id_pregunta": "error_contexto",
-                "resp_real": "No has comprado cajas de pimientos. Lo que sí has comprado son 3 cajas de toamtes.",
-                "t_byte_indv": [
-                    0.5418892098324639,
-                    0.5387949049472809,
-                    0.5033640095165798
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.5920467376708984,
-                        0.6721112728118896,
-                        0.8093152046203613
-                    ],
-                    "prediccion_continua": 0.6911577383677164,
-                    "rmse": 0.3216092726953886,
-                    "prediccion_binaria": 0.6911577383677164
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0.39115984692722394,
-                        0.40189463357326555,
-                        0.4072885564703352
-                    ],
-                    "prediccion_continua": 0.4001143456569416,
-                    "rmse": 0.5999231108048093,
-                    "prediccion_binaria": 0
-                },
-                "prueba 0": {
-                    "respuesta": " En la descripción no se menciona el número de cajas de pimientos que compro, así que en realidad, al final del recuento no hay ninguna referencia a ellos. Por lo tanto, no es posible determinar cuántos pimientos compraste.",
-                    "tiempo": 20.230530500411987
-                },
-                "prueba 1": {
-                    "respuesta": " En el texto no se mencionan las pimientes, por lo que no es posible responder cuántas cajas de ellas has comprado.",
-                    "tiempo": 20.115009784698486
-                },
-                "prueba 2": {
-                    "respuesta": " En realidad, no mencionaste que compro cajas de pimientos en este caso. Tu listado de la compra solo incluye peras verdes, una manzana amarilla, un aguacate sin madurar y 3 cajas de tomates. Por lo tanto, no he comprado pimientos.",
-                    "tiempo": 18.792256355285645
-                },
-                "t_byte_medio": 0.5280160414321081
-            },
-            {
-                "id_pregunta": "contexto_errores_gramaticales",
-                "resp_real": "El 13 de marzo saliste al parque.",
-                "t_byte_indv": [
-                    1.1386277420180184,
-                    1.1135544393743788,
-                    2.0937026739120483
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.6803567409515381,
-                        0.7562069296836853,
-                        0.7511904239654541
-                    ],
-                    "prediccion_continua": 0.7292513648668925,
-                    "rmse": 0.2729548676465691,
-                    "prediccion_binaria": 0.7292513648668925
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0.3053460512030679,
-                        0.24762829844941076,
-                        0.3482165816378175
-                    ],
-                    "prediccion_continua": 0.3003969770967654,
-                    "rmse": 0.7008159316884834,
-                    "prediccion_binaria": 0
-                },
-                "prueba 0": {
-                    "respuesta": " Lo siento, pero estoy programado para hablar inglés y mi conocimiento sobre el idioma español no es perfecto. Sin embargo, intentaré hacerlo lo mejor posible:\n\nEl trece de marzo salió al parque. ¿Puedes repetirme por favor cuál era ese día?\n\nDe acuerdo con nuestros conocimientos, el 13 de marzo no está especialmente marcado en calendario internacional o nacional, por lo que no se asocia habitualmente a un individuo que pudiera haber salido al parque. Podrías dar más información si puedes indicar elcontexto o el lugar donde esta historia ocurrió para facilitar la respuesta más precisa.",
-                    "tiempo": 21.254384517669678
-                },
-                "prueba 1": {
-                    "respuesta": " El día que cita \"Un trece de marzo salió al parque\" es el 13 de marzo.\n\nPara traducir una frase en un nuevo idioma, aquí está la traducción del inglés a español: \"A thirteen left the park.\"\n\nTraducido al español suena así: \"Un trece salió del parque.\"",
-                    "tiempo": 20.786349534988403
-                },
-                "prueba 2": {
-                    "respuesta": " El lunes 13 de marzo es el día que menciona la frase \"Un trece de marzoh sali al parke.\" Para reiterar, tal día de la semana fue un lunes en ese año.",
-                    "tiempo": 39.0824499130249
-                },
-                "t_byte_medio": 1.448628285101482
-            },
-            {
-                "id_pregunta": "calculos_matematicos",
-                "resp_real": "Siguiendo el enunciado, María tendrá 1 año y Juana 5.",
-                "t_byte_indv": [
-                    0.6162328777774688,
-                    0.5702640202737623,
-                    1.0271330341216056
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.6262931823730469,
-                        0.6520774364471436,
-                        0.650452733039856
-                    ],
-                    "prediccion_continua": 0.6429411172866821,
-                    "rmse": 0.3572534989842005,
-                    "prediccion_binaria": 0.6429411172866821
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0.3003431424921957,
-                        0.3314582529935498,
-                        0.36396564738084336
-                    ],
-                    "prediccion_continua": 0.3319223476221963,
-                    "rmse": 0.6685824515245675,
-                    "prediccion_binaria": 0
-                },
-                "prueba 0": {
-                    "respuesta": " Para solucionar este problema, podemos usar una ecuación y resolverlo recursivamente para encontrar la edad inicial de María.\n\nIniciémos con la siguiente ecuación:\n\n- Letra `M` se refiere a la edad de María y `J` se refiere a la edad de Juana.\n\nLa primera información que se le proporciona es que \"Juana tiene cinco veces la edad de María actualmente.\" Eso significa que:\n\n- J = 5 \\* M (1)\n\nTambién sabemos que el año que viene, Juana tendrá tres veces la edad de María. Pero para ese año se le agrega otro año a ambas personas para seguir sumando años al final del mismo:\n\n- `J` aumenta en un año y será `J + 1` mientras que `M` también aumentará en un año y será `M + 1`.\n\nSabiendo que el siguiente año Juana tendrá tres veces la edad de María, se puede escribir así:\n\n- `(J + 1) = 3 \\* (M + 1)` (2)\n\nAhora vamos a solucionar recursivamente ambas ecuaciones. Utilizando el año que viene en la primera información para simplificar los cálculos, podemos reescribir la ecuación (1) como: `J - 1 = 4 \\* M` (3).\n\nDesde aquí podemos comenzar a resolver recursivamente esas dos ecuaciones. Por ejemplo, si supusieramos que Juana actualmente tiene 20 años, las otras posibles edades de María serían:\n\n- M = 20 / 5 = 4 años (edad de María actual)\n- J = 5 \\* 4 = 20 años (Juana ahora tiene 20 años)\n\nAhora nos enfocamos en el año que viene. Tenemos las ecuaciones reescritas así:\n\n- `(J + 1) = 3 \\* (M + 1)`\n- `J - 1 = 4 \\* M`\n\nY sabiendo que Juana tendrá actualmente 20 años, podemos sustituir los valores y resolver las ecuaciones para el año siguiente. Primero, vamos a reemplazar `J` en la segunda ecuación (4) con su valor inicial:\n\n- M = (J - 1) / 4\n\nReemplazando `M` en la primera ecuación (2):\n\n- `(J + 1) = 3 \\* ((J - 1) / 4 + 1)`\n\nResolviendo recursivamente `J` para el año siguiente:\n\n- J = ceil((4 \\* (J+1))/3)-1\n\nEn este caso, si consideramos que Juana tiene actualmente 20 años:\n\n- j = ceil((4 \\* (21))/3)-1 = ceil(28) -1 = 27 años de edad para Juana el año que viene.\n\nSabemos que:\n\n- M = J / 5 = 20/5 = 4 años edad de María actualmente, por lo tanto no hay cambios para la siguiente edad de María (M = 4 años).\n\nRecapitulando las edades:\n\n- Actualmente la edad de Maria es 4 años.\n- Actualmente la edad de Juana es 20 años.\n- Año que viene la edad de María será 4 años.\n- Año que viene la edad de Juana será 27 años.",
-                    "tiempo": 25.470958948135376
-                },
-                "prueba 1": {
-                    "respuesta": " Primero, necesitamos definir la edad actual de María (denotada como M). A continuación, podemos encontrar las edades futuras de María y Juana usando las informaciones proporcionadas.\n\nPaso 1: Determinar la relación entre la edad de María (M) y la edad de Juana (J). Juana tiene actualmente 5 veces la edad de María, por lo que la relación se da por: J = 5*M. Ahora sabemos que Juana tiene actualmente una determinada cantidad de años, pero no está especificado su edad exacta en años, así que tendremos que utilizar las fórmulas de progresión aritmética para ajustar los valores de M y J.\n\nPaso 2: Determinar la información sobre el próximo año. En el siguiente año, Juana tendrá 3 veces la edad de María, es decir, las relaciones entre la edad nueva de María (M') y la edad nueva de Juana (J') se da por: J' = 3*M'.\n\nPaso 3: En el próximo año, ambos cambiarán una unidad de edad. Se utiliza la diferencia entre las edades actuales y sus respectivas edades posteriores para establecer una relación lineal que permita encontrar la edad actual de María.\n\nJ - M = (J' - M') => 5M - M = M' - 3M'\n-4M = M' => M' = -4M/5\nY, aplicando la misma relación en Juana:\nJ' - J = (M' - M) => 3M - 5M = J' - J\n-2M = J' - J\nJ' - J = (-2M)/3\nComo sólo tenemos información sobre la proporción de años entre María y Juana, no poderemos encontrar valores precisos para las edades actuales o futuras en años. Sin embargo, podremos expresar una relación lineal entre la edad en años de María (M) y la edad en años de Juana (J).\n\nNota: La fórmula para la relación lineal entre M y J podría ser:\nJ = 5*M + A (donde A es una constante que no podemos determinar sin valores precisos de edades en años)",
-                    "tiempo": 23.570912837982178
-                },
-                "prueba 2": {
-                    "respuesta": " Para resolver este problema, necesito hacer cálculos iterativos en dos pasos:\n\n1) Cuando Juana tiene 5 veces la edad de María, esto significa que María tiene `(1/5)` de la edad actual de Juana. Llamemos a la edad actual de Juana X y calculamos la edad actual de María como X / 5.\n\n2) El siguiente año, el crecimiento de la edad es anual. La relación entre las edades de los dos se mantiene, por lo que Juana tendrá (3 * la edad de María + 1) veces la edad de María. Vamos a escribirla como 3*(X / 5 + 1) = Y, donde Y es la edad de Juana en el siguiente año.\n\nSuponiendo que su actual y actualmente están expresadas en años, podemos usar ecuaiones anteriores para encontrar el tiempo (en años) entre las fechas de nacimiento de ambos:\n\n1) X = edad de Juana actual = 5 * edad de María actual\n\n2) X + 1 = Y (edad de Juana en el próximo año).\n\n3) La relación entre los años siguientes, entonces se escribe como `3*(X / 5 + 1) = Y`. Simplificando nos damos cuenta que está redefiniendo la misma edad. Entonces podemos convertir en ecuación lineal:\n\n4) Y - X - X/5 = 0\n\nResolviendo esta ecuación con el método intermedio de búsqueda, podemos encontrar que la edad actual de María es aproximadamente 13 años (valor preciso `10.22`). Entonces, la edad de Juana es exactamente 65 años (valor preciso `5 * 13 = 65`).\n\nPodemos verificar esto comprobando que el año que viene el crecimiento en juan se cumple (3 veces la edad actual de María):\n\n1) X + 1 -> 66 años (edad de Juana el siguiente año).\n2) 3*(edad de María + 1) -> 3*14 = 42 -> esta es la edad de María el siguiente año.\n3) Es claro que el crecimiento se cumple ya que la relación entre las edades se mantiene: 66 / 42 = 5 * (edad de María + 1) / (edad actual de Juana + 1) = 5 * 14/13 = 5.",
-                    "tiempo": 42.45483207702637
-                },
-                "t_byte_medio": 0.7378766440576122
-            },
-            {
-                "id_pregunta": "pregunta_ambigua",
-                "resp_real": "No me has indicado el color de tu rotulador.",
-                "t_byte_indv": [
-                    0.9829823970794678,
-                    0.48042098500511865,
-                    0.4821756048636003
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.7495702505111694,
-                        0.46361494064331055,
-                        0.7055172920227051
-                    ],
-                    "prediccion_continua": 0.639567494392395,
-                    "rmse": 0.3817259298797845,
-                    "prediccion_binaria": 0.639567494392395
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0.37482220636393065,
-                        0.3589421843663384,
-                        0.40667995064783014
-                    ],
-                    "prediccion_continua": 0.3801481137926997,
-                    "rmse": 0.6201696213144504,
-                    "prediccion_binaria": 0
-                },
-                "prueba 0": {
-                    "respuesta": " En tu pregunta no se menciona ningún color específico para el tacho que compraste. El hecho de que lo hayas comprado en una feria de poblado y a un precio tan bajo, no proporcionan suficiente información sobre el color de tu tacho. Por lo tanto, no puedo responder con certeza cuál es el color de tu rotulador.",
-                    "tiempo": 43.25122547149658
-                },
-                "prueba 1": {
-                    "respuesta": " No soy capaz de responder preguntas sobre los detalls personales o acontecimientos de la vida real. También no tengo habilidades para asumir opciones basadas en probabilidad. En otras palabras, no puedo decir tecnicamente si mi rotulador es de un determinado color, ya que esa información no se proporciona en la pregunta.\n\nEn contraste, en algunos juegos o escenarios de imaginación, se puede asumir que el rotulador sea de cualquier color desafortunadamente, no puedo ser intuitivo o crear una situación específica para responder esta pregunta.",
-                    "tiempo": 21.13852334022522
-                },
-                "prueba 2": {
-                    "respuesta": " Siento que no puedo responderte exactamente porque el color del rotulador no se menciona en tus palabras. Recuerda siempre comprobar que el color sea el que necesitas para trabajar o jugar. ¡Buena suerte con tu nuevo rotulador!",
-                    "tiempo": 21.215726613998413
-                },
-                "t_byte_medio": 0.6485263289827289
-            },
-            {
-                "id_pregunta": "error_contexto",
-                "resp_real": "El caballo de Santiago es blanco, no negro.",
-                "t_byte_indv": [
-                    2.153770168622335,
-                    1.8377815683682759,
-                    2.13542370001475
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.5483143329620361,
-                        0.6243517994880676,
-                        0.6269351243972778
-                    ],
-                    "prediccion_continua": 0.5998670856157938,
-                    "rmse": 0.40179136947917715,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": " Sí, esto es verdad. El caballo negro que según la leyenda apareció en Santiago de Compostela para ayudar a los peregrinos no fue rojo; este detalle se confunde con el Caballo del Apocalipsis rojo ya que la leyenda surgió posteriormente y fusionó elementos de ambas legendas.",
-                    "tiempo": 25.845242023468018
-                },
-                "prueba 1": {
-                    "respuesta": " Sí, el caballo negro de Santiago sí es negro, no rojo. Sin embargo, en algunas representaciones artísticas se puede encontrar al caballo de Santiago con colores diferentes a los originales, aunque normalmente siguen siendo gris o negro.",
-                    "tiempo": 22.05337882041931
-                },
-                "prueba 2": {
-                    "respuesta": " Sí, es cierto. El caballo negro de Santiago que figura en la iconografía cristiana del Apóstol San Jacinto no es rojo. Es característico del arte español y latinoamericano que el caballo sobre el que monta Santiago en su aparición a un ejército mozárabe sea rojo, pero esta representación no es auténtica. En realidad, según la tradición cristiana, Santiago mata al diablo a caballo azul y con una espada, después de lo cual el diablo sale en llamas y llama a los cristianos para que luchen contra sus enemigos. Por lo tanto, el caballo negro es parte del arte popular y no cuenta con fundamento en la historia bíblica.",
-                    "tiempo": 25.625084400177002
-                },
-                "t_byte_medio": 2.0423251456684537
-            },
-            {
-                "id_pregunta": "busqueda_exhaustiva",
-                "resp_real": "Sí, su abuelo estaba.",
-                "t_byte_indv": [
-                    0.2533106029033661,
-                    0.2442356526851654,
-                    0.26200899183750154
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.5621641874313354,
-                        0.5272575616836548,
-                        0.6223496198654175
-                    ],
-                    "prediccion_continua": 0.5705904563268026,
-                    "rmse": 0.4312019717675778,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": " Sí, su abuelo también estuvo en la competencia de construcción de castillos de arena. Toda su familia participó, incluida María, sus padres, tíos, tías y abuelos.",
-                    "tiempo": 20.264848232269287
-                },
-                "prueba 1": {
-                    "respuesta": " Sí, su abuelo también estaría participando en la competición. Como todo el resto de su familia, incluido él, iba a construir castillos de arena durante las tardes en la playa de Torremolinos.",
-                    "tiempo": 19.538852214813232
-                },
-                "prueba 2": {
-                    "respuesta": " Sí, parece que su abuelo también era parte del grupo familiar que jugaba la competición de hacer castillos de arena en Torremolinos, como todos sus familiares mencionados (padres, tios, tías y María ella misma).",
-                    "tiempo": 20.960719347000122
-                },
-                "t_byte_medio": 0.2531850824753443
-            },
-            {
-                "id_pregunta": "prediccion",
-                "resp_real": "Siguiendo su rutina, el 14 de julio de un año bisiesto es día par. Por tanto, se despertará pronto, saldrá a correr, comerá con su familia e irá al cine.",
-                "t_byte_indv": [
-                    0.26646530353105985,
-                    0.23386171597700853,
-                    0.22474411725997925
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.6148371696472168,
-                        0.595987856388092,
-                        0.5877046585083008
-                    ],
-                    "prediccion_continua": 0.5995098948478699,
-                    "rmse": 0.4006509980381981,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": " El 14 de julio de un año bisiesto tendrá lugar en el sábado (porque los años bisiestos tienen 366 días, y 14 se agrega a febrero, que es un mes de 29 días). Considerando la rutina de Juan:\n\n- Una vez que sabemos que el 1 de enero fue un lunes (como se indicó en la pregunta), sabemos que los días pares cayeron el lunes, miércoles, viernes y el sábado. Así que los días impares son el martes, jueves y domingo.\n- Entonces, partiendo desde el 1 de enero (que es un día impar), el 14 de julio sería un día par, ya que los meses tienen aproximadamente la misma cantidad de días pares y impares.\n\nSin embargo, en un año bisiesto hay una excepción: febrero tiene 29 días, por lo que el número total de días pares y impares varía ligeramente (364 días impares + 29 días pares = en este caso, exactamente 393 de cada uno). Esto significa que los días impares caen un día adicional a lo largo del año.\n\nPor lo tanto, si Juan sigue su rutina durante todo el año y no hay cambios en la duración de sus meses por lo pronto, entonces el 14 de julio (que es un día par) caerá en un martes normal durante un año común. Sin embargo, cuando se considera un año bisiesto, el 14 de julio se convertiría en un miércoles el año siguiente (ya que estaría siendo un día impár en lugar de uno par).\n\nEn resumen: El 14 de julio de un año bisiesto cayó en martes.",
-                    "tiempo": 23.09365963935852
-                },
-                "prueba 1": {
-                    "respuesta": " El 14 de julio de un año bisiesto cae en un domingo, ya que tiene 366 días en total (un día adicional respecto a los años comunes). Juan puede aplicar su rutina dependiendo del día de la semana:\n\n- Si su rutina para los días pares continúa igual, entonces es posible que el 14 de julio siga siendo un día para clases de inglés y cena con sus amigos. Esto significaría que tendría que haber cambiado la definición de \"día par\" o haber agregado una excepción específica al calendario bisiesto en su rutina.\n- Suponiendo que Juan siga su rutina de días pares el 13 de julio, sería un día para ir al cine con su familia y el domingo 14 tendría su dieta regular.\n\nPara asegurar una repetición exacta de su rutina en un calendario bisiesto debido a que el 29 de febrero es un día adicional, debería tener una excepción específica o definir un concepto diferente para \"día par\" que pueda ser modificado sin alterar la estructura de su rutina.",
-                    "tiempo": 20.268015384674072
-                },
-                "prueba 2": {
-                    "respuesta": " En un año bisiesto, tiene 366 días en total. El viernes es el dia 7 del mes febrero, que está en un mes pár par en un año normal. Por lo tanto, Juan seguiría su rutina de días pares y en el día 14 de julio (el día 203 del año), él se despertará tarde.\n\nPor lo tanto, el 14 de julio de un año bisiesto, Juan va a clases de inglés y cena con sus amigos.",
-                    "tiempo": 19.477823495864868
-                },
-                "t_byte_medio": 0.24169037892268252
-            },
-            {
-                "id_pregunta": "pregunta_básica",
-                "resp_real": "La capital de España es Madrid.",
-                "t_byte_indv": [
-                    2.4054532647132874,
-                    2.4761551916599274,
-                    2.4814040064811707
-                ],
-                "SBert": {
-                    "accuracy": [
-                        1.0000001192092896,
-                        1.0000001192092896,
-                        1.0000001192092896
-                    ],
-                    "prediccion_continua": 1.0000001192092896,
-                    "rmse": 1.1920928955078125e-07,
-                    "prediccion_binaria": 1.0000001192092896
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0.7266648546549421,
-                        0.7266648546549421,
-                        0.7266648546549421
-                    ],
-                    "prediccion_continua": 0.7266648546549422,
-                    "rmse": 0.2733351453450579,
-                    "prediccion_binaria": 1
-                },
-                "prueba 0": {
-                    "respuesta": " La capital de España es Madrid.",
-                    "tiempo": 19.2436261177063
-                },
-                "prueba 1": {
-                    "respuesta": " La capital de España es Madrid.",
-                    "tiempo": 19.80924153327942
-                },
-                "prueba 2": {
-                    "respuesta": " La capital de España es Madrid.",
-                    "tiempo": 19.851232051849365
-                },
-                "t_byte_medio": 2.4543374876181283
-            },
-            {
-                "id_pregunta": "entener_contexto.",
-                "resp_real": "Gris",
-                "t_byte_indv": [
-                    0.5649064743518829,
-                    0.29158011317253113,
-                    0.2586181676387787
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.19948884844779968,
-                        0.15769751369953156,
-                        0.1701798141002655
-                    ],
-                    "prediccion_continua": 0.17578872541586557,
-                    "rmse": 0.8243973805380611,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": " El aparato de qué estás hablando es un helicóptero rojo grande. Esta máquina puede transportar personas a lugares con tierra en todos los sentidos, pero en terrenos especializados funciona mejor porque si se produce un agujero (pincha) hay que arreglárselo.",
-                    "tiempo": 37.66043162345886
-                },
-                "prueba 1": {
-                    "respuesta": " Estás hablando de un helicóptero rojo mencionado como se encuentra en el garaje de tu madre y cuenta con capacidad para transportar hasta 5 personas. Este tipo de vehículo aéreo puede viajar a cualquier parte que haya tierra, aunque se recomienda usar terrenos especializados ya que si se daña es necesario arreglarlo.",
-                    "tiempo": 19.438674211502075
-                },
-                "prueba 2": {
-                    "respuesta": " Estás hablando de un helicóptero rojo grande, ese es el objetivo que estas buscando para transportar personas a diferentes partes del mundo o regiones remotas. Este tipo de vehículos pueden ser utilizados en terreno variable y necesitan mantenimiento frecuente ya que si se dañan en un pinchazo, se requiere arreglarlo lo antes posible para seguir cumpliendo con su función.",
-                    "tiempo": 17.24121117591858
-                },
-                "t_byte_medio": 0.3717015850543976
-            },
-            {
-                "id_pregunta": "homonimas",
-                "resp_real": "La palabra más repeteida es llamas y tiene estos tres significados en la frase en orden: 1. Segunda persona del presente del verbo llamar. 2. El animal mamífero peludo. 3. Hce referencia a fuego, combistión o algo ardiendo.",
-                "t_byte_indv": [
-                    0.6585723343102828,
-                    1.2393669200980144,
-                    0.7593725712403007
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.8283993005752563,
-                        0.7681584358215332,
-                        0.778602123260498
-                    ],
-                    "prediccion_continua": 0.7917199532190958,
-                    "rmse": 0.20993199752025976,
-                    "prediccion_binaria": 0.7917199532190958
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0.3877534447484162,
-                        0.4181561439745736,
-                        0.38735040411829497
-                    ],
-                    "prediccion_continua": 0.3977533309470949,
-                    "rmse": 0.6024194675213123,
-                    "prediccion_binaria": 0
-                },
-                "prueba 0": {
-                    "respuesta": " La palabra que más se repite en la frase \"Tu llamas a tus llamas en llamas\" es \"llamas\". El verbo \"llamar\" tiene un significado diferente aquí y es un pretérito perfecto de llamar, lo que significa haber llamado. Las otras ocurrencias son el sustrato para nombre común de las llamas o fuego.",
-                    "tiempo": 20.196218252182007
-                },
-                "prueba 1": {
-                    "respuesta": " En la frase \"Tu llamas a tus llamas en llamas\", la palabra que más se repite es \"llamas\". Este tiene dos significados distintos en español:\n\n1. El significado común de llamas, que refiere al fuego o al incendio. En esta frase, se refiere literalmente a los incendios que enseñanza la frase.\n2. Más específicamente, en algunos dialectos o contextos informales del español coloquial del Perú y de Bolivia, \"llama\" es un apodo cariñoso para una mujer. En este caso, podría interpretarse que la persona a quien se dirige el discurso está llamando a las \"llamas\", o a sus amadas. Sin embargo, es importante destacar que esto es una interpretación, ya que en un contexto más formal o en habla escrita, la palabra significaría literalmente incendio y no su uso como apodo cariñoso.",
-                    "tiempo": 38.00725221633911
-                },
-                "prueba 2": {
-                    "respuesta": " La palabra que más se repite en la frase \"Tu llamas a tus llamas en llamas\" es \"llamas\". El significado de \"llamas\" de acuerdo al contexto de esta frase no se deriva de su definición habitual (\"fuego\"), sino de la palabra \"llama\" como una forma diminutiva para referirse a los teléfonos móviles (símbolo del lenguaje coloquial). Esto significa que en este contexto específico \"llamas\" se refiere a las llamadas telefónicas.",
-                    "tiempo": 23.28742551803589
-                },
-                "t_byte_medio": 0.8857706085495326
-            },
-            {
-                "id_pregunta": "coloquiales",
-                "resp_real": "Si, los helados están chulos.",
-                "t_byte_indv": [
-                    2.3011698722839355,
-                    1.6504859626293182,
-                    1.7303331792354584
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.7360798120498657,
-                        0.8469647169113159,
-                        0.7067044973373413
-                    ],
-                    "prediccion_continua": 0.763249675432841,
-                    "rmse": 0.24433304822162277,
-                    "prediccion_binaria": 0.763249675432841
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0.3555622833436707,
-                        0.49558651268932746,
-                        0.3128546278905041
-                    ],
-                    "prediccion_continua": 0.3880011413078341,
-                    "rmse": 0.6169553466396184,
-                    "prediccion_binaria": 0
-                },
-                "prueba 0": {
-                    "respuesta": " Claro que sí, Tronco. Los helados aparecen impresionantes y atractivos, especialmente suavecito es mi favorito. ¿Te gustan también?\n\n¿Sabes cómo hacer un helado fresco en casa? Aquí hay una receta rápida que puedes probar:\n1. Crea una mezcla de leche, azúcar y vainilla.\n2. Tira la mezcla en una taza o recipiente adecuado y mete el contenedor en el congelador hasta que esté listo para comer!\n3. Debes agitar el helado en el congelador a medida que se congela para obtener una textura cremosa.\n4. Puedes adornar tu helado con frituras o frutas para darle un gusto y aroma más rico.\n5. Para crear míxtequillas, añade trozos de limón y sal durante el proceso de congelación.\nLa mezcla básica es flexible y permite que puedas experimentar con diferentes sabores agregando chocolate, frutas, o sabor naturales. ¡Vale la pena probar!",
-                    "tiempo": 18.409358978271484
-                },
-                "prueba 1": {
-                    "respuesta": " Sí, gracias por preguntar. Los helados siempre son deliciosos cuando se agranidan en días calurosos. ¡Salud!",
-                    "tiempo": 13.203887701034546
-                },
-                "prueba 2": {
-                    "respuesta": " Claro que sí, Tronco. Los helados son una excelente opción para refrescar después de las horas calurosas y siempre parecen sabrosos. ¿Qué favoritos te gustan? ¡Me encanto la idea de compartir unos helados deliciosos!\n\nPor cierto, Tronco es una mascota de un restaurante en Chile, por lo que le puse ese nombre para responderte. Espero que disfrutes las conversaciones y los helados que tú elijas :)",
-                    "tiempo": 13.842665433883667
-                },
-                "t_byte_medio": 1.8939963380495708
-            },
-            {
-                "id_pregunta": "refranes",
-                "resp_real": "Si, mucha suerte y a por todas.",
-                "t_byte_indv": [
-                    0.5377268574454568,
-                    0.539449461481788,
-                    0.4799148738384247
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.27118176221847534,
-                        0.23177513480186462,
-                        0.3786865472793579
-                    ],
-                    "prediccion_continua": 0.2938811480998993,
-                    "rmse": 0.7088431593714992,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": " No es fácil estar en una situación en la que trabajaste duro para preparar un examen y aún así se te comenta que puede ser complicado. Sin embargo, no hay por qué pensar que estáns perdido. En estas situaciones, lo mejor que puedes hacer es seguir intentando de manera lógica, enfocarte en las áreas en las que eres más débil para poder mejorarlas y tener la confianza en ti mismo. Recuerda también que muchas veces nos ponemos nerviosos por lo que tenemos de anticipación o prejuicio sobre cómo será el examen, pero cuando llegamos a realizarlo puede ser menos complicado de lo que pensábamos. Es importante mantener la calma y el trato positivo con Ti mismo, así como contar con la ayuda de alguien si es necesario. Recuerda también que, como dice la frase en inglés, \"When the going gets tough, the tough get going\".",
-                    "tiempo": 15.773321151733398
-                },
-                "prueba 1": {
-                    "respuesta": " A pesar de haber estudiado mucho para el examen, es posible que sea bastante complejo. Pero no se deba desanimarse por este comentario. En realidad esto puede servir como incentivo a trabajar incluso más duro y enfocarse en los temas dificiles o que no hayan sido abordados con suficiente profundidad durante el estudio previo.\n\nSi se está muy preparado, es probable que lo demuestre duringando el examen y la mayoría de las preguntas que puedan parecer imposibles al principio se vuelvan más claras al procesar y estudiar detenidamente cada una de ellas. Es importante mantenerte paciente y enfocado, evitando paniquear o presionarte excesivamente debido a la ansiedad.\n\nSi tienes dudas sobre alguno de los temas del examen, es recomendable hacer preguntas clarificatorias a tu profesor u otras personas que puedan haber estudiado el mismo material. También puede ser útil hacer algunos ejercicios de la misma materia para asegurarte de haber abordado todo lo necesario y estar al día con los temas en cuestión.\n\nEn última instancia, no te desanimes e intenta mantener la calma durante el examen, sigues trabajando con pasión y confianza en tu capacidad para acercarte al objetivo final: aprobarlo. Buena suerte!",
-                    "tiempo": 15.823850870132446
-                },
-                "prueba 2": {
-                    "respuesta": " Si tienes mucha preparación pero la prueba sigue apareciendo complicada, no te desanimes. Es importante recordar que el hecho de estar preparado es lo más importante en este momento y que siempre hay una posibilidad de adaptarte a las circunstancias. Tengo la suya, lo haces todo lo que estés capaz para obtener lo mejor de tu resultado. No olvides que es normal tener dudas o inseguridades, simplemente trabajá sobre ellas y serás capaz de superarlo.",
-                    "tiempo": 14.077502965927124
-                },
-                "t_byte_medio": 0.5190303975885565
-            },
-            {
-                "id_pregunta": "entender_proceso",
-                "resp_real": "Yendo a comer con sus padres.",
-                "t_byte_indv": [
-                    0.11057937469171442,
-                    0.11169803466485895,
-                    0.11937638663727304
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.5227112770080566,
-                        0.30300450325012207,
-                        0.5817915797233582
-                    ],
-                    "prediccion_continua": 0.46916911999384564,
-                    "rmse": 0.5442136621999284,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": " Julian estaba comiendo con sus padres a las 15:06 exactamente.",
-                    "tiempo": 13.564403295516968
-                },
-                "prueba 1": {
-                    "respuesta": " Julian no está indicado como teniendo ninguna actividad específica a las 15:06 en este resumen de su día. En esta descripción, el momento en que dejó la cafetería estaba hasta las 11 en punto y luego corrió con Amparo y Sebas de 11:15 a 14:45. Después de correr, no hay actividad hasta cenar con sus padres a las 15:15. Así que Julian probablemente no estaba haciendo nada específico exactamente a las 15:06.",
-                    "tiempo": 13.70162558555603
-                },
-                "prueba 2": {
-                    "respuesta": " Julian estaba comiendo con sus padres entre las 15:15 y 16, por lo que no estaría en ese momento (a las 15:06) comiendo con ellos. Es posible que ya hubiera comenzado a comer o aun más probablemente todavía no estuviese sentado a la mesa para comer.",
-                    "tiempo": 14.643503427505493
-                },
-                "t_byte_medio": 0.11388459866461546
-            },
-            {
-                "id_pregunta": "entender_ironia",
-                "resp_real": "El tono de Adela resulta irónico. Por lo tanto, parece que no tiene intención.",
-                "t_byte_indv": [
-                    0.18346247953527114,
-                    0.20461436229593613,
-                    0.20124669986612656
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.46423351764678955,
-                        0.5072237253189087,
-                        0.3197596073150635
-                    ],
-                    "prediccion_continua": 0.4304056167602539,
-                    "rmse": 0.5752104462258035,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": " Si se toma en cuenta que Adela dijo que si saca la basura, le hara la comida y todo luego, entonces si Adela va a sacar la basura.",
-                    "tiempo": 12.475448608398438
-                },
-                "prueba 1": {
-                    "respuesta": " Si se analiza el diálogo que hay entre Diego y Adela, vemos que Adela está dejando claro que si saca la basura, también estará dispuesta a hacerle la comida en este momento. Esto sugiere que Adela finalmente accederá a sacar la basura, ya que para ella es condición para hacerle la comida.\n\nDe esta forma, podemos decir que Adela va a sacar la basura.",
-                    "tiempo": 13.913776636123657
-                },
-                "prueba 2": {
-                    "respuesta": " Sí, Adela va a sacar la basura. En respuesta a su preguntas de Diego sobre sacar la basura, le propuso hacerle la cena y más tareas además, lo cual implica que estará dispuesta a realizar esta tarea.",
-                    "tiempo": 13.684775590896606
-                },
-                "t_byte_medio": 0.19644118056577795
-            },
-            {
-                "id_pregunta": "Adivinanza",
-                "resp_real": "La mujer fotografío a su marido y luego reveló la foto en un cuarto oscuro.",
-                "t_byte_indv": [
-                    0.4370072031843251,
-                    0.7215553830409872,
-                    0.5075461802811458
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.3089824914932251,
-                        0.2521410286426544,
-                        0.47790294885635376
-                    ],
-                    "prediccion_continua": 0.34634215633074444,
-                    "rmse": 0.6606520942511949,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": " Es un relato extremo y dramático que se está presentando, pero si lo analizamos desde el punto de vista literario como una historia fantástica o de misterio, puede tener varias interpretaciones interesantes.\n\n1. \"Dama en negro\": Es posible que la escena inicial de esta historia esté inspirada en la novela criminal \"Perdición\" (1934) escrita por Agatha Christie, en la que una mujer dispara a su esposo y lo deja morir ahogado. La cena encantadora podría interpretarse como una manifestación del arrepentimiento o el intento de limpiar su culpa en los ojos de otras personas.\n\n2. Un juego grotesco: Esta historia puede representar un juego psicológico que esta mujer está jugando con la realidad. El acto criminal y las consecuencias drásticas pudieron ser imaginados y librados en su mente, como un sueño fantástico o una simulación de algo que ocurrió en el pasado. La cena encantadora podría interpretarse como una forma de hacer frente a lo que ha sucedido y tomar una distancia emocional de sus acciones.\n\n3. Un misterio maligno: Es posible que la historia sea una pieza de misterio, en la que el acto criminal se revela más tarde como un error o alguien tomando la culpa por un acto criminal cometido realmente por otra persona. La cena encantadora podría interpretarse como una forma de distraer a otras personas mientras investigan el crimen y llegan a la verdadera conclusión.\n\n4. Una alusión al mito de Dante: También hay posibilidades de que la historia tenga alguna referencia al tercer canto de la Divina Comedia escrita por Dante Alighieri. Allí, el protagonista se encuentra con Charón, quien no deja pasar a las almas hasta que se pague el peaje para cruzar el río Aqueronte (en la interpretación aquí, podría ser el agua en la historia). Después de pasar por el infierno y el purgatorio, llega a un banquete encantador en las estrellas.",
-                    "tiempo": 16.89761185646057
-                },
-                "prueba 1": {
-                    "respuesta": " En realidad, se trata de un enigma clásico conocido como la Historia de la Sirena o la Mujer del Lago. Ésta atacaba a los marineros que pasaban por su tierra buscando alimento, para luego asesinarlos. Una vez haciéndolo, cantaba una melodía encantadora con una voz agradable pero fascinante para atraer a los demás marineros que pasaban allí después para que se pusieran en el mismo lugar. Esto sucede exactamente en la narración, es decir, la mujer dispara (se refiere al arma del arpón que uso para capturar marineros), luego la lleva bajo el agua y lo mantiene ahí durante cinco minutos (el tiempo necesario por debajo del agua para dificultar su salida) y finalmente le hace ahorcar, pero después de todo este acto violento se pasan la noche comiendo juntos para después tener una cena encantadora y luego repetir el proceso.",
-                    "tiempo": 27.90014147758484
-                },
-                "prueba 2": {
-                    "respuesta": " En esta historia, se presenta un escenario drástico en el que se describe una mujer disparando a su marido y luego mantendiéndolo sumergido bajo el agua durante cinco minutos, posteriormente ahorcándolo. Luego, sin embargo, se menciona que disfrutan de una cena encantadora juntos después de estos eventos brutales.\n\nEl hecho de que se describe la comida como \"encantadora\" podría ser considerado ironía, ya que la descripción muestra contraste con los actos violentos y brutalmente crueles anteriores. Por otro lado, es posible que se trate de una descripción poco profunda destinada a simplemente establecer un marco para la historia sin mayor significado implicado, o simplemente por motivos estéticos.\n\nSin embargo, esta serie de eventos puede interpretarse como reflejo de la violencia doméstica, un tema común en la ficción y también en la sociedad real. En este sentido, la historia podría intentar hacer una conciencia sobre las consecuencias que pueden tener los actos violentos en relaciones personales, así como el posible conflicto emocional entre las vicisitudes crueles de un hogar violento y el aspecto aparentemente bueno y normal del hábitat social familiar.\n\nPor otro lado, es importante señalar que estas descripciones podrían no tener connotaciones específicas o intenciones deliberadas, sino más bien reflejar una escritura sin profundidad para efectos de entretenimiento. En este sentido, la interpretación debería ser cautelosa y evitar generalizaciones.",
-                    "tiempo": 19.62511897087097
-                },
-                "t_byte_medio": 0.555369588835486
-            },
-            {
-                "id_pregunta": "tonos",
-                "resp_real": "Alfredo estaría muy molesto, pero ha mantenido sus modales.",
-                "t_byte_indv": [
-                    0.29688866933186847,
-                    0.29645199080308277,
-                    0.2994016756614049
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.6147671937942505,
-                        0.6696934103965759,
-                        0.6014919877052307
-                    ],
-                    "prediccion_continua": 0.6286508639653524,
-                    "rmse": 0.3725208692032029,
-                    "prediccion_binaria": 0.6286508639653524
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0.41157057767015903,
-                        0.41534485790650083,
-                        0.47052190532836924
-                    ],
-                    "prediccion_continua": 0.4324791136350097,
-                    "rmse": 0.568160151417685,
-                    "prediccion_binaria": 0
-                },
-                "prueba 0": {
-                    "respuesta": " Alfredo parece tener un tono agradable pero directo, dado que su problema era la cantidad de ruido emitida por sus vecinos. Se podría inferir que le hace falta el descanso para trabajar bien ese día y desea que los vecinos sean considerados con él. Asimismo, su acción también refleja preocupación por mantener buenas relaciones con sus vecinos al pedirles un sencillo favor.",
-                    "tiempo": 14.250656127929688
-                },
-                "prueba 1": {
-                    "respuesta": " Es posible que Alfredo tuviera una actitud agresiva o molesta ya que le preguntó a sus vecinos que le bajaran el volumen aún a tempranas horas de la mañana cuando trabaja, lo cual indica que es importante mantener la tranquilidad en su hogar. Sin embargo, para determinar exactamente el tono es necesario obtener más información sobre cómo se comunicaba Alfredo con sus vecinos y si existían problemas previos entre ellos.",
-                    "tiempo": 14.229695558547974
-                },
-                "prueba 2": {
-                    "respuesta": " Alfredo estaba muy agitado o molesto al ser despertado así temprano y le pedía a sus vecinos que abajaran el volumen para que pudiera dormir más tranquilamente. Dado eso, Alfredo podría tener un tono de voz agitado o enfadado.",
-                    "tiempo": 14.371280431747437
-                },
-                "t_byte_medio": 0.2975807785987854
-            }
-        ],
         "lim_dominio": {
             "Salud": [
                 {
@@ -1833,12 +949,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.3173960596930304,
-                            0.2858105086116864,
-                            0.31480588602658777
+                            0.567052140015756,
+                            0.541199353248891,
+                            0.5496396879509985
                         ],
-                        "prediccion_continua": 0.3060041514437682,
-                        "rmse": 0.6941435352902905,
+                        "prediccion_continua": 0.5526303937385485,
+                        "rmse": 0.4474990851361399,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -1875,12 +991,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.4339644296391669,
-                            0.4093460092226622,
-                            0.4256283544216058
+                            0.5668384538741219,
+                            0.5363332759166634,
+                            0.5229066225131529
                         ],
-                        "prediccion_continua": 0.42297959776114497,
-                        "rmse": 0.5771109630389814,
+                        "prediccion_continua": 0.542026117434646,
+                        "rmse": 0.4583426109022745,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -1959,12 +1075,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.4476377939146622,
-                            0.4495924185240748,
-                            0.47142426679389515
+                            0.5924479789195707,
+                            0.5588849005165093,
+                            0.5967916876966252
                         ],
-                        "prediccion_continua": 0.4562181597442107,
-                        "rmse": 0.5438887196820106,
+                        "prediccion_continua": 0.582708189044235,
+                        "rmse": 0.4176354566643053,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2001,12 +1117,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.47711530317764583,
-                            0.447869887820309,
-                            0.45747794331383596
+                            0.5564447948036223,
+                            0.5561830658493021,
+                            0.5727651770206822
                         ],
-                        "prediccion_continua": 0.46082104477059693,
-                        "rmse": 0.5393163106926981,
+                        "prediccion_continua": 0.5617976792245355,
+                        "rmse": 0.43827095312599135,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2043,12 +1159,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.4390816805657194,
-                            0.47009516359127546,
-                            0.4154621310863693
+                            0.6083807822763659,
+                            0.6010972178255309,
+                            0.5894884366303852
                         ],
-                        "prediccion_continua": 0.44154632508112135,
-                        "rmse": 0.558901606403257,
+                        "prediccion_continua": 0.5996554789107608,
+                        "rmse": 0.40042010646202086,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2085,12 +1201,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.4071044211948464,
-                            0.3748914442721541,
-                            0.4393777861170257
+                            0.5843700772211057,
+                            0.558224301583359,
+                            0.5551502356616059
                         ],
-                        "prediccion_continua": 0.4071245505280087,
-                        "rmse": 0.5934596702135422,
+                        "prediccion_continua": 0.5659148714886902,
+                        "rmse": 0.4342830541066603,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2127,12 +1243,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.45599007897314503,
-                            0.46328967964845374,
-                            0.4461886133334011
+                            0.5338486518061266,
+                            0.5465539591396373,
+                            0.588422926534278
                         ],
-                        "prediccion_continua": 0.455156123985,
-                        "rmse": 0.5448889226711212,
+                        "prediccion_continua": 0.556275179160014,
+                        "rmse": 0.4443369887812297,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2169,12 +1285,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.3873322706634384,
-                            0.43619107638542304,
-                            0.4644471713550763
+                            0.545519000616647,
+                            0.5698448202615632,
+                            0.559125648461454
                         ],
-                        "prediccion_continua": 0.42932350613464587,
-                        "rmse": 0.5715648348138717,
+                        "prediccion_continua": 0.5581631564465547,
+                        "rmse": 0.4419489605904101,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2253,12 +1369,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5008712728071072,
-                            0.46069530600268804,
-                            0.4296901269895772
+                            0.5766627074139443,
+                            0.5585755477460567,
+                            0.5452584506146733
                         ],
-                        "prediccion_continua": 0.46375223526645754,
-                        "rmse": 0.5370389155762352,
+                        "prediccion_continua": 0.560165568591558,
+                        "rmse": 0.4400226839149519,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2295,12 +1411,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.3685696699208319,
-                            0.4022144647699494,
-                            0.3727221959783
+                            0.552784061809018,
+                            0.5355119906835033,
+                            0.5469373123915046
                         ],
-                        "prediccion_continua": 0.3811687768896938,
-                        "rmse": 0.619012453103719,
+                        "prediccion_continua": 0.5450777882946752,
+                        "rmse": 0.4549787559413719,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2337,12 +1453,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.4365789346374969,
-                            0.45546758197087406,
-                            0.39096881211769297
+                            0.5425278556887051,
+                            0.5299463508093575,
+                            0.5251382205038755
                         ],
-                        "prediccion_continua": 0.4276717762420213,
-                        "rmse": 0.5729682478090733,
+                        "prediccion_continua": 0.5325374756673127,
+                        "rmse": 0.46752001938043247,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2379,12 +1495,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.41330911390682773,
-                            0.44628337888208985,
-                            0.4268646529069031
+                            0.5537632274327118,
+                            0.5255400220133515,
+                            0.5447098374200989
                         ],
-                        "prediccion_continua": 0.4288190485652736,
-                        "rmse": 0.5713412344109112,
+                        "prediccion_continua": 0.541337695622054,
+                        "rmse": 0.45881320093054334,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2421,12 +1537,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.4558316766772883,
-                            0.480321820230831,
-                            0.45017302814148524
+                            0.5855178001385609,
+                            0.56340413868212,
+                            0.5975506097629762
                         ],
-                        "prediccion_continua": 0.46210884168320154,
-                        "rmse": 0.5380502682894824,
+                        "prediccion_continua": 0.5821575161945524,
+                        "rmse": 0.41808171124156723,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2547,12 +1663,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.39607996426862935,
-                            0.39384376831214296,
-                            0.4107601882377255
+                            0.5873934604751005,
+                            0.555449014345417,
+                            0.5799145794060893
                         ],
-                        "prediccion_continua": 0.40022797360616597,
-                        "rmse": 0.5998189567242891,
+                        "prediccion_continua": 0.574252351408869,
+                        "rmse": 0.42596615511123126,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2589,12 +1705,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.34592496200923145,
-                            0.4762696079806143,
-                            0.3380170506713968
+                            0.5897606807393249,
+                            0.5626211867893075,
+                            0.5935981473832075
                         ],
-                        "prediccion_continua": 0.38673720688708085,
-                        "rmse": 0.6165303734202667,
+                        "prediccion_continua": 0.5819933383039466,
+                        "rmse": 0.4182339820098383,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2631,12 +1747,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.49015020246344615,
-                            0.4976714531200661,
-                            0.44871162156709116
+                            0.6146492838884065,
+                            0.5730103279446451,
+                            0.5541932186892234
                         ],
-                        "prediccion_continua": 0.4788444257168678,
-                        "rmse": 0.5215999940100194,
+                        "prediccion_continua": 0.5806176101740917,
+                        "rmse": 0.4201424523152166,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2673,12 +1789,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.4416810162990345,
-                            0.47624267168272266,
-                            0.522236488866422
+                            0.5380766000679802,
+                            0.5412256971142451,
+                            0.5608370201491916
                         ],
-                        "prediccion_continua": 0.4800533922827264,
-                        "rmse": 0.5209925780333842,
+                        "prediccion_continua": 0.5467131057771389,
+                        "rmse": 0.4533987249153181,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2715,12 +1831,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.4782619652023581,
-                            0.44335565975101443,
-                            0.4648361223591556
+                            0.6088090867125052,
+                            0.5735905313729336,
+                            0.6296111738111975
                         ],
-                        "prediccion_continua": 0.4621512491041761,
-                        "rmse": 0.5380408517381428,
+                        "prediccion_continua": 0.6040035972988788,
+                        "rmse": 0.39667083252954216,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2759,12 +1875,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.3700134554966481,
-                            0.4218384938656137,
-                            0.42331512451353176
+                            0.5351153841001587,
+                            0.5298979581333804,
+                            0.5241006415185708
                         ],
-                        "prediccion_continua": 0.4050556912919312,
-                        "rmse": 0.5954603874442305,
+                        "prediccion_continua": 0.5297046612507033,
+                        "rmse": 0.47031685605576723,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2801,12 +1917,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.3584964255442696,
-                            0.33926206495806044,
-                            0.3701173056473246
+                            0.5627067913598659,
+                            0.5532011640000598,
+                            0.5520282438172842
                         ],
-                        "prediccion_continua": 0.3559585987165515,
-                        "rmse": 0.6441670755034368,
+                        "prediccion_continua": 0.55597873305907,
+                        "rmse": 0.44404701121657225,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2927,12 +2043,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.45352990641423,
-                            0.44889965648364605,
-                            0.4441773994688713
+                            0.5300590842198817,
+                            0.5415946016507323,
+                            0.54147955948384
                         ],
-                        "prediccion_continua": 0.44886898745558246,
-                        "rmse": 0.5511442385524471,
+                        "prediccion_continua": 0.537711081784818,
+                        "rmse": 0.462320584274282,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2969,12 +2085,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.40772228648532466,
-                            0.4060121763465498,
-                            0.38293636628406663
+                            0.577593339698401,
+                            0.5772934562258552,
+                            0.5644149706433211
                         ],
-                        "prediccion_continua": 0.3988902763719804,
-                        "rmse": 0.6012159768972227,
+                        "prediccion_continua": 0.573100588855859,
+                        "rmse": 0.42694360541578646,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -3011,12 +2127,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.3453211773276791,
-                            0.41255551746112806,
-                            0.3465643508487762
+                            0.551523447527904,
+                            0.5661765382268752,
+                            0.5536752870036039
                         ],
-                        "prediccion_continua": 0.36814701521252774,
-                        "rmse": 0.6326329974802823,
+                        "prediccion_continua": 0.557125090919461,
+                        "rmse": 0.44292202606982256,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -3053,12 +2169,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.3793169665186086,
-                            0.3939066998940372,
-                            0.36612876899912783
+                            0.5602917000731769,
+                            0.5564497193923308,
+                            0.5473180219383648
                         ],
-                        "prediccion_continua": 0.37978414513725783,
-                        "rmse": 0.6203196095496686,
+                        "prediccion_continua": 0.5546864804679575,
+                        "rmse": 0.44534676141686635,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -3095,12 +2211,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.3939077458189221,
-                            0.4311328201799551,
-                            0.4554809975367199
+                            0.5532072816453388,
+                            0.5639250445620931,
+                            0.5356655994304417
                         ],
-                        "prediccion_continua": 0.4268405211785324,
-                        "rmse": 0.5737184654800405,
+                        "prediccion_continua": 0.5509326418792911,
+                        "rmse": 0.44921840845599487,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -3137,12 +2253,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.4401629418976533,
-                            0.49563238517060143,
-                            0.5068193403436086
+                            0.5510283437638862,
+                            0.576992701094618,
+                            0.5645175008361905
                         ],
-                        "prediccion_continua": 0.48087155580395446,
-                        "rmse": 0.5199459541056487,
+                        "prediccion_continua": 0.5641795152315648,
+                        "rmse": 0.4359494351827911,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -3179,12 +2295,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.47245642386033004,
-                            0.4663417737973031,
-                            0.4403063764236921
+                            0.5930857511466795,
+                            0.5700950345817128,
+                            0.5653868432161956
                         ],
-                        "prediccion_continua": 0.45970152469377507,
-                        "rmse": 0.5404782694959526,
+                        "prediccion_continua": 0.576189209648196,
+                        "rmse": 0.42398352218796764,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -3263,12 +2379,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.4593873344505687,
-                            0.42197221840118593,
-                            0.46669052527504207
+                            0.5282893047055786,
+                            0.527766439480983,
+                            0.5432274047898292
                         ],
-                        "prediccion_continua": 0.4493500260422656,
-                        "rmse": 0.5509982354127576,
+                        "prediccion_continua": 0.5330943829921302,
+                        "rmse": 0.4669606405507318,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -3305,12 +2421,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.4658303678149571,
-                            0.47236017323571206,
-                            0.4775795179048909
+                            0.5638564824535583,
+                            0.5571840498163572,
+                            0.5749152756175239
                         ],
-                        "prediccion_continua": 0.47192335298518673,
-                        "rmse": 0.5280985207481138,
+                        "prediccion_continua": 0.5653186026291465,
+                        "rmse": 0.43474289587377635,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -3347,12 +2463,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.40436528963554175,
-                            0.4174060271115196,
-                            0.42748720139760105
+                            0.5539444959030233,
+                            0.5593618657808638,
+                            0.5731554851959902
                         ],
-                        "prediccion_continua": 0.41641950604822076,
-                        "rmse": 0.5836572481632482,
+                        "prediccion_continua": 0.5621539489599591,
+                        "rmse": 0.43792073783642627,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -3473,12 +2589,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.3673001852747418,
-                            0.3228239352797333,
-                            0.3841002748469715
+                            0.5640389086939246,
+                            0.5785435503932542,
+                            0.5754034980705564
                         ],
-                        "prediccion_continua": 0.35807479846714885,
-                        "rmse": 0.6424455747705998,
+                        "prediccion_continua": 0.5726619857192451,
+                        "rmse": 0.4273834349849589,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -3515,12 +2631,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.3678905022555312,
-                            0.3957173685013058,
-                            0.40163115796569776
+                            0.5625442546304592,
+                            0.5517485135988616,
+                            0.5700684326561877
                         ],
-                        "prediccion_continua": 0.38841300957417824,
-                        "rmse": 0.6117638942672854,
+                        "prediccion_continua": 0.5614537336285029,
+                        "rmse": 0.4386107145736249,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -3557,12 +2673,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.396890515005886,
-                            0.4204455643513042,
-                            0.44367165895119004
+                            0.5729616623049565,
+                            0.5823037053926867,
+                            0.5494103736329081
                         ],
-                        "prediccion_continua": 0.4203359127694601,
-                        "rmse": 0.5799786254176571,
+                        "prediccion_continua": 0.5682252471101837,
+                        "rmse": 0.43199650761692543,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -3641,12 +2757,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.45474333026400576,
-                            0.45338150285478807,
-                            0.4491705099268362
+                            0.5738895650752842,
+                            0.5935475323518251,
+                            0.5815626592861858
                         ],
-                        "prediccion_continua": 0.45243178101521003,
-                        "rmse": 0.5475733571699591,
+                        "prediccion_continua": 0.5829999189044317,
+                        "rmse": 0.4170785374933078,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -3686,12 +2802,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.3582402556741284,
-                        0.3570983533978471,
-                        0.3479589045854616
+                        0.5260036380238837,
+                        0.5401396151324293,
+                        0.5652413190218503
                     ],
-                    "prediccion_continua": 0.35443250455247904,
-                    "rmse": 0.6455838924958703,
+                    "prediccion_continua": 0.543794857392721,
+                    "rmse": 0.45649360544006323,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -3770,12 +2886,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.31182752636304945,
-                        0.30300516735490973,
-                        0.3040001692761643
+                        0.5548662861010903,
+                        0.5681247652761411,
+                        0.5622587653195528
                     ],
-                    "prediccion_continua": 0.3062776209980411,
-                    "rmse": 0.6937335979017606,
+                    "prediccion_continua": 0.5617499388989281,
+                    "rmse": 0.4382836334904552,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -3896,12 +3012,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.30258843731370244,
-                        0.29882565128770766,
-                        0.2937725752668424
+                        0.5610700495321628,
+                        0.568686479000513,
+                        0.5367422405747486
                     ],
-                    "prediccion_continua": 0.29839555462275086,
-                    "rmse": 0.7016137423839127,
+                    "prediccion_continua": 0.5554995897024748,
+                    "rmse": 0.4447091208428183,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -3938,12 +3054,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.3552328740880614,
-                        0.3643958031111416,
-                        0.3283334561179281
+                        0.5552366837928434,
+                        0.5709779994911249,
+                        0.5588338439018649
                     ],
-                    "prediccion_continua": 0.3493207111057104,
-                    "rmse": 0.650859249487414,
+                    "prediccion_continua": 0.5616828423952778,
+                    "rmse": 0.43836889398870005,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -4022,12 +3138,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.26006533102529406,
-                        0.22480060758640888,
-                        0.24863841891740335
+                        0.5559838352204007,
+                        0.5564947978040755,
+                        0.5460737564034426
                     ],
-                    "prediccion_continua": 0.2445014525097021,
-                    "rmse": 0.755641369494826,
+                    "prediccion_continua": 0.5528507964759729,
+                    "rmse": 0.44717492982281304,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -4190,12 +3306,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.41350777297486796,
-                        0.38753030574101455,
-                        0.3917807378023919
+                        0.5700846334377094,
+                        0.5808732035530486,
+                        0.5692436460767586
                     ],
-                    "prediccion_continua": 0.3976062721727582,
-                    "rmse": 0.6025011561966215,
+                    "prediccion_continua": 0.5734004943558388,
+                    "rmse": 0.4266323672482425,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -4316,12 +3432,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.2848842866382907,
-                        0.31242155059308374,
-                        0.2991645601887627
+                        0.5771364417029831,
+                        0.5641674804938313,
+                        0.5702856625570355
                     ],
-                    "prediccion_continua": 0.2988234658067124,
-                    "rmse": 0.7012666923220808,
+                    "prediccion_continua": 0.5705298615846166,
+                    "rmse": 0.4295028078289111,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -4358,12 +3474,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.41067503858388976,
-                        0.4190295374783136,
-                        0.2943622806107706
+                        0.5732874194936521,
+                        0.5449643535108173,
+                        0.546603891662495
                     ],
-                    "prediccion_continua": 0.37468895222432463,
-                    "rmse": 0.6278946778708445,
+                    "prediccion_continua": 0.5549518882223214,
+                    "rmse": 0.44523742617237727,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -4526,12 +3642,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.41335297287176603,
-                        0.43603946240617714,
-                        0.34972579085329386
+                        0.5851483746087116,
+                        0.6009077770259872,
+                        0.5510424371714542
                     ],
-                    "prediccion_continua": 0.399706075377079,
-                    "rmse": 0.6014046805834052,
+                    "prediccion_continua": 0.5790328629353844,
+                    "rmse": 0.42148126362037364,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -4568,12 +3684,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.3443529214295755,
-                        0.3394691939122008,
-                        0.3333834821704435
+                        0.5521983020276459,
+                        0.5545897029853862,
+                        0.5444226228443434
                     ],
-                    "prediccion_continua": 0.33906853250407326,
-                    "rmse": 0.6609466996342276,
+                    "prediccion_continua": 0.5504035426191252,
+                    "rmse": 0.44961740771816106,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -4590,30 +3706,956 @@
                 },
                 "t_byte_medio": 0.4595413826130055
             }
+        ],
+        "falta_contexto": [
+            {
+                "id_pregunta": "trampa_inicial",
+                "resp_real": "No se ha establecido ninguna conversación previa a esta pregunta, por lo que no sé de qué estábamos hablando.",
+                "t_byte_indv": [
+                    1.0300585269927978,
+                    0.08025795221328735,
+                    0.09971040487289429
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.5203840732574463,
+                        0.6855540871620178,
+                        0.6944890022277832
+                    ],
+                    "prediccion_continua": 0.6334757208824158,
+                    "rmse": 0.3751642480502844,
+                    "prediccion_binaria": 0.6334757208824158
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0.5521511891172526,
+                        0.5969540154757318,
+                        0.5500945948361522
+                    ],
+                    "prediccion_continua": 0.5663999331430455,
+                    "rmse": 0.43413880140107014,
+                    "prediccion_binaria": 0
+                },
+                "prueba 0": {
+                    "respuesta": " La última vez que tuve interacción con el usuario, no había mencionado ningún tema específico en particular. Es posible que se le pidiera alguna información o servicio, pero la última conversación no fue registrada por mi. Por favor, símolo cualquier tema o cierta pregunta para comenzar una nueva interacción.",
+                    "tiempo": 6.867056846618652
+                },
+                "prueba 1": {
+                    "respuesta": " No recuerdo lo que nosotros habíamos estado discutiendo previamente. Puedo ayudarte a responderle alguna pregunta en particular sobre un tema específico si te lo indiquieras.",
+                    "tiempo": 0.535053014755249
+                },
+                "prueba 2": {
+                    "respuesta": " No tengo información de contexto sobre ninguna conversación previa porque esta es la primera interacción que he tenido en este canal. Si tienes una conexión previa con el modelo, por favor, comparte más detalles para poder seguir discutiendo sobre ellos.",
+                    "tiempo": 0.6647360324859619
+                },
+                "t_byte_medio": 0.40334229469299315
+            },
+            {
+                "id_pregunta": "contexto_inicial",
+                "resp_real": "Joaquín.",
+                "t_byte_indv": [
+                    0.08077406883239746,
+                    0.10364598035812378,
+                    0.25592997670173645
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.47948214411735535,
+                        0.5335619449615479,
+                        0.3701059818267822
+                    ],
+                    "prediccion_continua": 0.46105002363522846,
+                    "rmse": 0.543221799885069,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": " Hola Joaquín, me llamas tú. Es agradable conocerte. ¿De dónde eres y ¿qué te acabas de preguntar a mí aquí? ¡Espero que estés disfrutando de los avances tecnológicos!",
+                    "tiempo": 0.6461925506591797
+                },
+                "prueba 1": {
+                    "respuesta": " Hola Joaquín! En este momento, soy un modelo de lenguaje diseñado para ayudarte a resolver preguntas y completar tareas. A mí no me asignaron nombre especial, pero puedes llamarme asistente o chatbot, por supuesto si prefieres también podrías llamarme Joaquín. ¿Cómo puedo ayudarte hoy?",
+                    "tiempo": 0.8291678428649902
+                },
+                "prueba 2": {
+                    "respuesta": " Hola Joaquín, tú eres Joaquín según tu pregunta. ¿Por supuesto, me gustaría saber más sobre ti y cómo puedo asistirte hoy? ¡Espero que estés teniendo un excelente día!\n\nHoy, vamos a hablar sobre la ciencia. ¿Recientemente has leído algún artículo con respecto al universo que te ha llamado la atención o con qué se está trabajando actualmente en investigación científica? Otra cosa que podemos discutir es cómo nosotros humano y otros seres vivos vienen y desarrollamos en el marco del cosmos. ¿Tienes alguna pregunta específica o tema en particular en lo que te gustaría saber más? No dudes en preguntarme o pedir ayuda sobre cualquier cosa relacionada con la ciencia, ya sea sobre astronomía, física, química, biología, geología u otro campo, y estaré encantado de proporcionarte información relevante.",
+                    "tiempo": 2.0474398136138916
+                },
+                "t_byte_medio": 0.1467833419640859
+            },
+            {
+                "id_pregunta": "resumen",
+                "resp_real": "Estamos en 2028. Este año no es bisiesto. El siguiente es 2032",
+                "t_byte_indv": [
+                    0.005276261209752518,
+                    0.007404502072086224,
+                    0.008538531257927074
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.05750637874007225,
+                        -0.0030650533735752106,
+                        0.009764528833329678
+                    ],
+                    "prediccion_continua": 0.021401951399942238,
+                    "rmse": 0.9789450130577071,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": " Este texto trata sobre el sistema digestivo humano. Comienza en la boca con la masticación de alimentos y mezcla con saliva que contiene enzimas que comienzan a digerir los carbohidratos. Posteriormente, las glándulas salivales lanzan el alimento hacia la faringe a través de un proceso llamado deglución. A continuación, el alimento pasa por el esófago, un tubo muscular que transporta el bolo alimenticio mediante movimientos rítmicos llamados peristaltismo hasta llegar al estómago, donde se produce mixtura con jugos gástricos, ayudando a descomponer las proteínas y formarla en una sustancia semi-líquida llamada quimo. El quimo luego pasa al intestino delgado, donde la mayoría de la digestión química e absorción de nutrientes ocurren. En este proceso también participan el hígado y el páncreas, que producen enzimas y fluidos para facilitar la digestión. Los desechos se transforman en heces que posteriormente se expulsan del cuerpo durante el defecación.",
+                    "tiempo": 2.434115171432495
+                },
+                "prueba 1": {
+                    "respuesta": " El sistema digestivo humano es un conjunto de varios órganos y estructuras que transforman alimentos comidos en nutrientes utilizables para energía, crecimiento y reparación de tejidos. Este proceso empieza en la boca, donde los alimentos son triturados por los dientes y mezclados con saliva que contiene enzimas que inician la digestión de algunos componentes como carbohidratos. Después, el alimento es empujado hacia la faringe para comenzar con la deglución o swallowing.\nPosteriormente, el alimento pasa a través del ésfago, un tubo muscular que va desde la faringe hasta el estómago y transporta el alimento por movimientos rítmicos llamados peristaltismo, luego se mezcla con jugos gástricos en el estómago para facilitar la digestión de proteínas. Después, el líquido resultingue (quimo) pasa al intestino delgado, la parte más larga del aparato digestivo donde ocurre más digestión química y absorción de nutrientes, en ese proceso se implica también el hígado y el páncreas. El intestino delgado consta de tres partes principales: duodeno, yeyuno e íleon y tiene numerosas vellosidades internas que aumentan la capacidad de absorción de nutrientes hacia la sangre. Los restos no digeridos pasan al intestino grueso donde se absorben principalmente agua y minerales, la microbiota participa en procesos de fermentación y producción de ciertas vitaminas y finalmente los desechos son transformados en heces que son expulsadas del cuerpo durante el proceso de defecación.",
+                    "tiempo": 3.4159436225891113
+                },
+                "prueba 2": {
+                    "respuesta": " El aparato digestivo es un sistema compuesto de órganos y estructuras en el cuerpo humano que trasforma los alimentos ingeridos en nutrientes que pueden absorberse y utilizarse para obtener energía, crecer y reparar tejidos. Comienza en la boca, dónde se muelen los alimentos por los dientes y se combinan con saliva producida por glándulas salivales, que contienen enzimas que inician la digestión de ciertos componentes como los carbohidratos. Luego, la lengua forme un bolo alimenticio y lo empuje hacia la faringe para comenzar el proceso de deglución. A continuación, el alimento pasa por el esófago, una vía muscular que conecta la faringe con el estómago, donde se mezcla con jugos gástricos y se convierte en una sustancia semilíquida llamada quimo. Posteriormente, el quimo pasa al intestino delgado, la parte más larga del aparato digestivo, donde ocurre la mayoría de la digestión química y absorción de nutrientes; aquí, el hígado produce bilis para ayudar a digerir las grasas, y el páncreas secreta enzimas digestivas y bicarbonato para neutralizar la acidez del quimo. El intestino delgado está compuesto por tres áreas principales, duodeno, yeyuno e íleon, con superficie interna muy velluda para aumentar la capacidad de absorción de nutrientes hacia la sangre. Los restos no digeridos pasan al intestino grueso, donde se absorbe principalmente agua y sales minerales, y donde la microbiota intestinal participa en procesos de fermentación y producción de vitaminas. Finalmente, los desechos son transformados en heces que se almacenan temporalmente en el recto y luego expulsados del cuerpo durante el proceso de defecación.",
+                    "tiempo": 3.9391090869903564
+                },
+                "t_byte_medio": 0.007073098179921938
+            },
+            {
+                "id_pregunta": "cambio_de_contexto",
+                "resp_real": "Si, las zanahorias son buenas para la vista.",
+                "t_byte_indv": [
+                    0.02056243744763461,
+                    0.027854350480166348,
+                    0.016019127585671165
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.3894006013870239,
+                        0.42414015531539917,
+                        0.4858931601047516
+                    ],
+                    "prediccion_continua": 0.4331446389357249,
+                    "rmse": 0.5682581658406618,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": " Espera, está claro que te refieres a instrumentos musicales en lugar de verduras. Si te preguntan sobre las zanahorias y piensas en instrumentos, es probable que tengas confusión. En cuanto a tu pregunta original, no hay ninguna conexión entre la orquesta del concierto instrumental en el Teatro Real y las zanahorias en cuestión de la vista.",
+                    "tiempo": 0.9047472476959229
+                },
+                "prueba 1": {
+                    "respuesta": " El cambio de tema en tu mensaje puede haber causado una confusión, ya que se ha pasado del asunto de un concierto al de las zanahorias para la vista. Las zanahorias no tienen ningún efecto sobre la vista humana y no se deben utilizar como medios de ayuda o tratamiento en relación con el caso de una mala visión. Espero que te haya sido útil mi ayuda en cuanto a tu primera pregunta. Recuerda también que si tienes alguna otra cuestión, no dudes en volver a preguntar.",
+                    "tiempo": 1.2255914211273193
+                },
+                "prueba 2": {
+                    "respuesta": " Las zanahorias no tienen ninguna relación con el tema de la pregunta. El concierto donde estuviste estaba compuesto por instrumentos musicales, así que las zanahorias no tienen influencia sobre la vista en este contexto. Además, las zanahorias son comestibles.",
+                    "tiempo": 0.7048416137695312
+                },
+                "t_byte_medio": 0.021478638504490707
+            },
+            {
+                "id_pregunta": "contexto_detallado",
+                "resp_real": "El caballo de Santiago es blanco.",
+                "t_byte_indv": [
+                    0.008105647975000841,
+                    0.035035575258320774,
+                    0.021509811795991044
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.7793641090393066,
+                        0.5181857347488403,
+                        0.5897494554519653
+                    ],
+                    "prediccion_continua": 0.6290997664133707,
+                    "rmse": 0.3869240631275913,
+                    "prediccion_binaria": 0.6290997664133707
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0.6139733765000797,
+                        0.551425784683094,
+                        0.5623617102353474
+                    ],
+                    "prediccion_continua": 0.5759202904728404,
+                    "rmse": 0.42495594021265204,
+                    "prediccion_binaria": 0
+                },
+                "prueba 0": {
+                    "respuesta": " El caballo de Santiago no se menciona que sea rojo: su color es grande y blanco.",
+                    "tiempo": 0.3134183883666992
+                },
+                "prueba 1": {
+                    "respuesta": " El caballo de Santiago no es rojo porque se menciona expresamente que no es así. Sin embargo, a partir de que nació en la Selva Negra (que en realidad es negra debido a su densa selvaticidad), y que no se menciona otro color que lo define, podríamos asumir que el caballo de Santiago es de un color que es distintivo de la selva (como por ejemplo: castaño, marrón o negro). Pero en realidad, el caballo que pertenece a Santiago no está definido por ningún color en esta frase y solo se menciona su talla (grande) y su carácter gentil.",
+                    "tiempo": 1.3547089099884033
+                },
+                "prueba 2": {
+                    "respuesta": " El caballo de Santiago no se menciona que sea rojo, por lo tanto, no es rojo. Considerando que nació en la Selva Negra (que significa \"selva negra\" en alemán), puede estar relacionado con Alemania, donde los caballos más comunes son blancos y grises. Entonces, el color del caballo de Santiago probablemente sea blanco o gris.",
+                    "tiempo": 0.8317127227783203
+                },
+                "t_byte_medio": 0.021550345009770887
+            },
+            {
+                "id_pregunta": "error_contexto",
+                "resp_real": "No has comprado cajas de pimientos. Lo que sí has comprado son 3 cajas de toamtes.",
+                "t_byte_indv": [
+                    0.02237276520047869,
+                    0.021399429866245816,
+                    0.011088737419673375
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.7001878023147583,
+                        0.6932998895645142,
+                        0.8130803108215332
+                    ],
+                    "prediccion_continua": 0.7355226675669352,
+                    "rmse": 0.27011804939357426,
+                    "prediccion_binaria": 0.7355226675669352
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0.540314588270693,
+                        0.55015101162933,
+                        0.6001135243214131
+                    ],
+                    "prediccion_continua": 0.5635263747404787,
+                    "rmse": 0.4372581173347915,
+                    "prediccion_binaria": 0
+                },
+                "prueba 0": {
+                    "respuesta": " La pregunta no menciona la compra de cajas de pimientos. En el supermercado compraste un total de dos peras verdes, una manzana amarilla, un aguacate sin madurar y tres cajas de tomates, así que el número de cajas de pimientos es desconocido, ya que no se los menciona.",
+                    "tiempo": 0.8352499008178711
+                },
+                "prueba 1": {
+                    "respuesta": " No mencionaste que has comprado pimentos en tu lista de la compra, así que no se puedo responder con certeza si compristes alguna caja de pimientos. Si te gustaría saber cuantas cajas de algo específico además de tomates has comprado, podrías actualizar tu pregunta incluido esos detalles.",
+                    "tiempo": 0.7989120483398438
+                },
+                "prueba 2": {
+                    "respuesta": " En realidad en tu lista no están mencionadas cajas de pimientos, así que no has comprado ninguna caja de ellos.",
+                    "tiempo": 0.41397953033447266
+                },
+                "t_byte_medio": 0.01828697749546596
+            },
+            {
+                "id_pregunta": "contexto_errores_gramaticales",
+                "resp_real": "El 13 de marzo saliste al parque.",
+                "t_byte_indv": [
+                    0.033670050757271905,
+                    0.03294527956417629,
+                    0.1618387188230242
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.6856834888458252,
+                        0.7227787971496582,
+                        0.7154036164283752
+                    ],
+                    "prediccion_continua": 0.7079553008079529,
+                    "rmse": 0.2924845101516604,
+                    "prediccion_binaria": 0.7079553008079529
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0.5282629898650263,
+                        0.5439816505988593,
+                        0.5359544110433774
+                    ],
+                    "prediccion_continua": 0.5360663505024209,
+                    "rmse": 0.46397803480758437,
+                    "prediccion_binaria": 0
+                },
+                "prueba 0": {
+                    "respuesta": " El lunes 13 de marzo es el día a que se refiere \"Un trece de Marzo\" en español, que significa el 13 de marzo.\n\nTenga cuidado con el idioma que utilice cuando le pregunte algo.",
+                    "tiempo": 0.6285076141357422
+                },
+                "prueba 1": {
+                    "respuesta": " El día en el que un trenazo (trece años) sale al parque es el 13 de marzo. Espero que esto lo ayude a recordar la fecha para el próximo año. ¡Feliz \"Treze di Marzo\"!",
+                    "tiempo": 0.614978551864624
+                },
+                "prueba 2": {
+                    "respuesta": " El día que el trece de marzo se produce un suceso como el de esta pregunta no se recuerda exáctamente, pero si conoces algún evento o celebración que tiene lugar en ese día y quieres saber si es cierto, por favor puedes confirmarlo y le daremos la respuesta indicando la fecha relevante.\n\nEn caso de que no tengas una fecha concreta en mente, quizás estemos recordando de alguna forma esta pregunta como un chiste o un juego de palabras. En ese caso, podríamos repetir la pregunta: \"Un trece de marzo salió al parque. ¿Puedes decirme por qué?\" para continuar el patrón humórico del juego.\n\nSi quieres jugar a un chiste relacionado con este tema, puede intentar responder algo como: \"El Trece de Marzo salió al parque para celebrar el día Mascotas en Casco Antiguo\". En ese caso, podríamos repetir: \"¿Por qué?\" a lo cual podrías contestar: \"Para vestir de uniforme y acudir al encuentro con sus amigos caninos\".\n\nSi no es una broma o un juego y simplemente necesitas saber por qué se menciona el Trece de Marzo saliendo al parque, sería importante conocer contextualmente cómo esto forma parte de alguna historia, festividad, leyenda local, etc. En ese caso, por favor, me podrás comunicar la fuente o el origen para ayudarte con la información que necesites.",
+                    "tiempo": 3.020989418029785
+                },
+                "t_byte_medio": 0.07615134971482414
+            },
+            {
+                "id_pregunta": "calculos_matematicos",
+                "resp_real": "Siguiendo el enunciado, María tendrá 1 año y Juana 5.",
+                "t_byte_indv": [
+                    0.14569793978045065,
+                    0.15363799372026998,
+                    0.05616522027600196
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.7048536539077759,
+                        0.5546948313713074,
+                        0.6453372836112976
+                    ],
+                    "prediccion_continua": 0.6349619229634603,
+                    "rmse": 0.37022232114196485,
+                    "prediccion_binaria": 0.6349619229634603
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0.5776731239908264,
+                        0.5605554862637326,
+                        0.5821933180274884
+                    ],
+                    "prediccion_continua": 0.5734739760940158,
+                    "rmse": 0.42662782154685747,
+                    "prediccion_binaria": 0
+                },
+                "prueba 0": {
+                    "respuesta": " Para resolver este problema, necesitamos encontrar una relación matemática que permita calcular las Edades de María y Juana a partir del conocimiento de su distancia edad actual y futura.\n\nCuando Juana tendrá 3 veces la edad de María el año que viene, se cumplirá un año adicional para ambos, por lo tanto, también será una diferencia de cuatro años entre sus edades:\n\nActual Edad de Juana = 5 * Actual Edad de María + 4 o simplemente Juana (t) = 5 * Maria (t) + 4, donde t es el tiempo actual. Para abreviar, podemos reescribir lo anterior como:\n\nJuana (t) - 4 = 5 * María (t)\n\nEl año que viene, Juana tendrá 3 veces la edad de María, así que podemos escribir una nueva ecuación para ese momento el tiempo que sea un año adicional, o t + 1:\n\nJuana (t+1) =  3 * María (t+1)\n\nDe ambas ecuaciones en diferentes instantes de tiempo podemos obtener las edades actuales:\n\nSustituyendo t+1 por t en la primera ecuación, tenemos que Juana (t + 1) - 4 = 5 * María (t+1), y ya sabemos que es equivalente a 3 * María (t+1); por lo tanto:\n\nJuana (t + 1) - 4 =  3 * María (t+1), y Juana(t)- 4 = 5 * María (t)\n\nUna buena solución es restar ambas ecuaciones, ya que se cancelan los términos del lado derecho:\n\nJuana (t + 1) - Juana(t) =  2 * María (t+1) - 5 * María (t)\n4 = 7 * María (t); por lo tanto, María (t)=4/7\n\nDesconocemos el valor de t, pero podemos aplicar la ecuación para encontrar María (t+1):\n\nMaría(t+1) = Juana(t + 1)/6; conocemos que esto es equivalente a: 3*María (t+1) = Juana (t+1); como resultado podemos deducir que Juana (t+1)=18, por lo tanto María(t+1) = 3\n\nPodemos verificarla con la ecuación original: Juana (t + 1) - 4 =  5 * María (t+1), luego Juana (t+1) = 18 y es evidente que es cierto por el cálculo anterior.\n\nFinalmente, tenemos las edades actuales para María y Juana, respectivamente: María (t)=4/7 , y Juana(t)=26/7 . No tiene sentido obtener una edad con fracción entera ya que estamos trabajando en años reales. Así que podríamos redondearlas para convertirlos a enteros, aunque no se sabe cual será el valor preciso de t. Para este caso específico, Juana tiene 4 más edad que María.",
+                    "tiempo": 6.022181510925293
+                },
+                "prueba 1": {
+                    "respuesta": " Para resolver esta preguntas, debemos usar ecuaciones simultáneas. Primero calcularemos cómo se va a cambiar la relación entre las edades de ambas personas al siguiente año:\n\nActualmente: Juana - 5 * Edad_Maria\nAño que viene: Juana - 3 * (Edad_Maria + 1)\n\nEn este momento, está claro que Juana tiene exactamente 5 veces la edad de María, así que podemos escribir una ecuación en función del tiempo, utilizando la constante 't' para representar los años transcurridos:\n\nt: Edad_Maria = Edad_Maria_ini\n\nAhora podemos poner las dos ecuaciones juntas y resolver por una de las edades, vamos a usar Juana pero primeramente debemos encontrar Edad_Mariaini:\n\n1. 5 * Edad_Mariaini = Edad_Juana_ini\n2. (Edad_Mariaini + t) = 3 * (Edad_Mariaini + 1)\n3. Sustituyendo el valor calculado en la primera ecuación de la segunda:\n5 * Edad_Mariaini + t = 3 *(Edad_Mariaini + 1)\n4. Despejaremos 't' y luego resolveremos para Edad_Maria y Edad_Juana:\n   - (3 - 5) * Edad_Mariaini = Edad_Mariaini + t - 5 * Edad_Mariaini\n   - -2 * Edad_Mariaini = t\n   - Edad_Maria = Edad_Mariaini\n5. Al poner las edades en las ecuaciones y usar el valor encontrado para 't', puedes encontrar cómo se van a cambiar cada una de las edades:\n- Edad_María = Edad_Mariaini + (-2 * Edad_Mariaini)\n  - Edad_María = (Edad_Mariaini - 2 * Edad_Mariaini)\n  - Edad_María = - Edad_Mariaini\n  - (1 + t) * Edad_Maria = - Edad_Mariaini\n  - Edad_Maria = - Edad_Maraian/(1+t)\n\nEn cuanto a la edad de María actual, no le des el valor real puesto que lo calculado para poder encontrar la edad actual y futura de Juana:\n- Edad_Juana_futura = 3 * (Edad_Maria + t)\n- Tomando en cuenta que t=1 año:\n  - t=1 => Edad_Juana_futura = 3 * (Edad_Maria+1)\n  - Sustituyendo el valor que encontraste para Edad_María en la ecuación obtenida anteriormente, tenemos:\n  - Edad_Juana_futura=3*(-Edad_Mariaini/(1+t)+1)\nRecapitulando, Edad_Maria = -edad_mariaini/(1+t), y Edad_Juana_future es 3 veces la edad de María en el año siguiente. Lo siento por no poder proporcionar una valor específico para la edad actual de María sin más información.",
+                    "tiempo": 6.350370407104492
+                },
+                "prueba 2": {
+                    "respuesta": " La edad actual de María es desconocida, pero podemos resolver este problema matemáticamente.\n\nSupongamos que la edad de María sea x años y la edad de Juana sea 5x años en el momento actual. El año que viene, María tendrá una edad mayor por un año, o sea, x+1 años. En ese tiempo, Juana también tendrá una edad mayor por un año, por lo que sua edad será 6x años.\n\nSegún la información proporcionada:\n\nx + 1 = 3(x + 1 - 5)\n\nA continuación, podemos aplicar operaciones básicas y resolver la ecuación. Despejando x en esta ecuación, obtenemos:\n\n4x = 6\n\nDe ahí, x = 6/4 = 1.5 años para María. Entonces, Juana tendría 5 * 1.5 = 7.5 años.\n\nSin embargo, teniendo en cuenta que las edades no se miden en décimas de un año, podemos inferir que María tiene entre 1 y 2 años y Juana tiene cinco veces su edad, por lo tanto está entre los 5 y 10 años.",
+                    "tiempo": 2.321495771408081
+                },
+                "t_byte_medio": 0.11850038459224087
+            },
+            {
+                "id_pregunta": "pregunta_ambigua",
+                "resp_real": "No me has indicado el color de tu rotulador.",
+                "t_byte_indv": [
+                    0.015296415849165483,
+                    0.010603601282293146,
+                    0.019232652404091576
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.6123548746109009,
+                        0.807238757610321,
+                        0.5377622246742249
+                    ],
+                    "prediccion_continua": 0.6524519522984823,
+                    "rmse": 0.365645274705629,
+                    "prediccion_binaria": 0.6524519522984823
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0.5273650840518663,
+                        0.5834394862870599,
+                        0.5318514637434834
+                    ],
+                    "prediccion_continua": 0.5475520113608031,
+                    "rmse": 0.4531627659598727,
+                    "prediccion_binaria": 0
+                },
+                "prueba 0": {
+                    "respuesta": " Mi amigo, no sé cuál es el color de tu marcador que compraste en el pueblo de tu abuela porque en esta interacción no se proporcionó información sobre los colores de ese producto. ¡Espero que te guste este pequeño divertimento!",
+                    "tiempo": 0.6730422973632812
+                },
+                "prueba 1": {
+                    "respuesta": " El color de tu rotulador no se especifica en la descripción que proporcionaste. Por lo tanto, no puedo decir exactamente a qué color corresponde el tuyo.",
+                    "tiempo": 0.46655845642089844
+                },
+                "prueba 2": {
+                    "respuesta": " Su pinzor no tiene color específico, ya que se trata de una pregunta hipotética y abstracta. Sin embargo, si supongo que al comprálo en el pueblo de su abuela podría tratarse de un color típico del lugar como el rojo o el azul tradicionales, u otras tonalidades locales. Por lo tanto, no es posible estimar con precisión su color.",
+                    "tiempo": 0.8462367057800293
+                },
+                "t_byte_medio": 0.015044223178516733
+            },
+            {
+                "id_pregunta": "error_contexto",
+                "resp_real": "El caballo de Santiago es blanco, no negro.",
+                "t_byte_indv": [
+                    0.04187369346618652,
+                    0.10062336921691895,
+                    0.03215960661570231
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.6634963750839233,
+                        0.5416203737258911,
+                        0.5526444315910339
+                    ],
+                    "prediccion_continua": 0.5859203934669495,
+                    "rmse": 0.41772142868637563,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": " Por supuesto, el caballo negro de Santiago no es rojo. En la leyenda tradicional del apóstol Santiago Matamoros, el caballo del santo siempre se describe como negro.",
+                    "tiempo": 0.5024843215942383
+                },
+                "prueba 1": {
+                    "respuesta": " Sí, el Caballo Negro de Santiago realmente es negro. Esta leyenda cubana cuenta la historia de San Cristóbal que viajaba sobre un caballo negro y salvó a Santiago Apóstol de una tormenta en el mar. Luego, él y su caballo se convirtieron en estatuas negros como agradecimiento por lo que sucedió. En contraste, la leyenda del Caballo Rojo, también conocida como el Caballo del Apóstol Santiago de Mallorca, es diferente e involucra al caballo del apóstol Santiago de España.",
+                    "tiempo": 1.2074804306030273
+                },
+                "prueba 2": {
+                    "respuesta": " Claro que sí. El Santo Niño de Novilla y su caballo conocidos en la tradición popular son marfil y negro, respectivamente.",
+                    "tiempo": 0.38591527938842773
+                },
+                "t_byte_medio": 0.05821888976626926
+            },
+            {
+                "id_pregunta": "busqueda_exhaustiva",
+                "resp_real": "Sí, su abuelo estaba.",
+                "t_byte_indv": [
+                    0.008552220463752747,
+                    0.008364203572273254,
+                    0.00748070478439331
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.5336779356002808,
+                        0.47201481461524963,
+                        0.48083001375198364
+                    ],
+                    "prediccion_continua": 0.4955075879891713,
+                    "rmse": 0.5052267142424117,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": " Sí, se puede inferir que el abuelo de María también estaba presente en la competencia de castillos de arena en la playa de Torremolinos, ya que se menciona a todos los ancianos del grupo familiar (abuelos) como asistentes a la playa con su familia.",
+                    "tiempo": 0.6841776371002197
+                },
+                "prueba 1": {
+                    "respuesta": " Sí, según la descripción, se menciona que todos los miembros de la familia estaban juntos en la playa de Torremolinas construyendo castillos de arena, lo cual sugiere que el abuelo también estuvo involucrado en la competición.",
+                    "tiempo": 0.6691362857818604
+                },
+                "prueba 2": {
+                    "respuesta": " Sí, según la descripción, el abuelo también iba a la playa de Torremolinos junto a toda la familia y acompañaba a María y a su familia mientras construían castillos de arena para la competencia anual.",
+                    "tiempo": 0.5984563827514648
+                },
+                "t_byte_medio": 0.008132376273473104
+            },
+            {
+                "id_pregunta": "prediccion",
+                "resp_real": "Siguiendo su rutina, el 14 de julio de un año bisiesto es día par. Por tanto, se despertará pronto, saldrá a correr, comerá con su familia e irá al cine.",
+                "t_byte_indv": [
+                    0.0815104970565209,
+                    0.03838918117376474,
+                    0.033232077268453744
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.5344205498695374,
+                        0.5367283821105957,
+                        0.5615301132202148
+                    ],
+                    "prediccion_continua": 0.544226348400116,
+                    "rmse": 0.45593883286333037,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": " El 14 de julio es el número 202 del año, ya que contamos desde el 1 de enero como el primer día. Como tenemos un año bisiesto en cuenta (tiene 366 días), primero debemos averiguar cuál es su número en una rutina completa con un día adicional:\n\n- Un año común tiene 8 días pares y 4 días impares por semana, con el último día del año siempre par. Entonces, la cantidad total de días pares en un año común es de 52 + 14 = 66 días.\n- En un año bisiesto adicionalmente tiene 1 día adicional (el 29 de febrero), que es un día par, por lo tanto hay 53 + 14 = 67 días pares.\n- Para hallar el número de una semana para el 14 de julio, multiplicamos 67 (total de días pares en un año bisiesto) por la semana que deseamos averiguar y después le restamos la cantidad máxima posible de días pares disponibles en la semana correspondiente. Por ejemplo para calcular el número de semanas hasta el 14 de julio:\n  - Primera semana tiene un máximo de 7 días (1 día incompleto), entonces la primera semana solo puede tener un máximo de 6 días pares (semana completa con un día par menos)\n  - Segunda semana tiene un máximo de 14 días (2 días incompletos más uno en el año adicional), entonces la segunda semana puede tener un máximo de 8 días pares.\n- Para hallar el número de semanas hasta el 14 de julio, multiplicamos el total de días pares que tenemos (67) por el número de semanas y luego le restamos el número máximo posible (incompleto más un día adicional) de días pares en la semana correspondiente. Por ejemplo para hallar la cantidad de semanas en un año bisiesto desde el 14 de julio, multiplicamos 67 (total de días pares) x 52/7 (cantidad máxima de semanas por una completa con 1 día adicional), y luego restamos 8 (máximo de días pares en la segunda semana). La cantidad resultante es aproximadamente 39,14 que nos da como resultado 39 semanas.\n- Ahora debemos considerar el resto del año desde el 14 de julio:\n  - Debido a que tiene un 29 de febrero (en un año bisiesto) la semana final tiene un máximo de 8 días pares adicionales al día adicional (un día más en total), entonces tendríamos 39 x 7 + 8 = 266 días.\n  - Para hallar el número del día, restamos 1 (el 1 de enero) a 202 y obtenemos 201. Entonces, el día 14 de julio se encuentra al: 266 total de días - 201 = 65 en la rutina completa del año bisiesto.\n- Finalmente para saber qué hará Juan el 14 de julio en un año bisiesto, debemos encontrar a qué categoría la semana que contiene el día pertenece (en este caso sería la cuadragésimo segunda o la cuadrágsima tercera) y ver su rutina de acuerdo con los días pares. Por lo tanto, Juan se levantaría tarde esa mañana 14 de julio (perteneciendo a la semana 27) y asistiría a clases de inglés y cenar con sus amigos.",
+                    "tiempo": 7.0642430782318115
+                },
+                "prueba 1": {
+                    "respuesta": " En un año bisiesto tiene 366 días. Si tenemos en cuenta que Juan está comenzando con el 1 de enero como día 1 y continúa su rutina semanal, entonces los dos siguientes días serán impares, por lo tanto, Juan tendrá una clase de inglés y comerá con sus amigos.\n\nSi vamos paso a paso:\n\n- El 1 de enero es día 1.\n- El 3 de enero es día 3 (Día impar)\n- Por tanto, el 4 de enero será un día par y Juan correrá, pero también pasará el resto del día como tiene su rutina los días pares (ir al cine).\n- El 5 de enero es día 5 (Día impar)\n- Por tanto, el 6 de enero será un día par y seguirá con su rutina lo que ya habíamos mencionado: Correr, desayunar con la familia e ir al cine.\n- El 7 de enero es día 7 (Día impar)\n- Por tanto, el 8 de enero será un día par y Juan tendrá una clase de inglés y cena con sus amigos. Este es el día más cerca del 14 de julio\n- El 9 de enero es día 9 (Día impar)\n\n Siguiendo la misma lógica, el 14 de julio en un año bisiesto será un día par, por lo tanto Juan seguirá su rutina los días pares: se despertará pronto, sale a correr, comerá con su familia e irá al cine.\n\nNo obstante, tenga en cuenta que solo para el año bisiesto será el 14 de julio un día par.",
+                    "tiempo": 3.3270623683929443
+                },
+                "prueba 2": {
+                    "respuesta": " En un año bisiesto, tiene 366 días. Para encontrar el día del año en que cae el 14 de julio, simplemente restamos el 14 de julio desde la cantidad total de días en ese año:\n\n366 - 14 = 352\n\nLos días anteriores al 14 de julio serían los días pares que corresponden a clases de inglés y cena con sus amigos, y el día 14, siendo el 14 de julio, probablemente sea un día off para Juan, ya que cae en un fin de semana.\n\nAhora debemos saber a cuál fin de semana corresponde la fecha del 14 de julio en un año bisiesto:\n\n* El año empieza el jueves, entonces se pasan los primeros 4 días (Jue, Vie, Sáb, Dom)\n* Para encontrar la séptima semana, agregamos 6 días más (Dom, Lun, Mar, Mier, Jue, Vie)\n* La séptima semana empieza el viernes, y es en donde caen los días impares de este año bisiesto\n\nPor lo tanto, se puede suponer que Juan está teniendo su rutina especial por la mañana, que consiste en despierta tardes, salir a correr, comer con su familia y dar clases de inglés el 14 de julio del año bisiesto (una vez sabemos que es en una semana impare).",
+                    "tiempo": 2.880113363265991
+                },
+                "t_byte_medio": 0.05104391849957979
+            },
+            {
+                "id_pregunta": "pregunta_básica",
+                "resp_real": "La capital de España es Madrid.",
+                "t_byte_indv": [
+                    0.025686115026474,
+                    0.023240387439727783,
+                    0.023660659790039062
+                ],
+                "SBert": {
+                    "accuracy": [
+                        1.0000001192092896,
+                        1.0000001192092896,
+                        1.0000001192092896
+                    ],
+                    "prediccion_continua": 1.0000001192092896,
+                    "rmse": 1.1920928955078125e-07,
+                    "prediccion_binaria": 1.0000001192092896
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0.7248563204378317,
+                        0.7248563204378317,
+                        0.7248563204378317
+                    ],
+                    "prediccion_continua": 0.7248563204378317,
+                    "rmse": 0.27514367956216834,
+                    "prediccion_binaria": 1
+                },
+                "prueba 0": {
+                    "respuesta": " La capital de España es Madrid.",
+                    "tiempo": 0.205488920211792
+                },
+                "prueba 1": {
+                    "respuesta": " La capital de España es Madrid.",
+                    "tiempo": 0.18592309951782227
+                },
+                "prueba 2": {
+                    "respuesta": " La capital de España es Madrid.",
+                    "tiempo": 0.1892852783203125
+                },
+                "t_byte_medio": 0.02419572075208028
+            },
+            {
+                "id_pregunta": "entener_contexto.",
+                "resp_real": "Gris",
+                "t_byte_indv": [
+                    0.01507941484451294,
+                    0.031196175813674926,
+                    0.016605477333068847
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.1460394561290741,
+                        0.12179066240787506,
+                        0.13475635647773743
+                    ],
+                    "prediccion_continua": 0.1341954916715622,
+                    "rmse": 0.8658611924510007,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": " El aparato de donde hablas es un helicóptero. Este aparato rojo grande es utilizado para transportar personas en tierra, aunque es preferible ir a lugares con terreno especializado como helipuertos, por seguridad y facilitar el despegue y aterrizaje. Si se produce algún daño en la estructura del helicóptero (por ejemplo, pinchando), será necesario repararlo para poder utilizarlo de nuevo.",
+                    "tiempo": 1.0052943229675293
+                },
+                "prueba 1": {
+                    "respuesta": " Estás hablando del autobús o del camión étreo, un medio de transporte largo y ancho que tiene asientos para varias personas (más de 4) y se utiliza principalmente para viajes a larga distancia por carretera. Aunque este vehículo también se puede encontrar en terrenos especializados tales como la montaña, el desierto o zonas rurales sin infraestructuras viales.\n\nEl automóvil citado es rojo y tiene un tamaño grande, con capacidad de transporte para varias personas como mencionaste. Ahora bien, hay que tener en cuenta que el autobús actualmente se caracteriza por ser de color amarillo o blanco, siendo su diseño distinto cuando el vehículo sigue la tradición clásica de ser rojo.\n\nLa información sobre los riesgos implicados en viajar por terrenos especializados está correcta, ya que es posible que se produzca algún daño mecánico en condiciones fuera del pavimento habitual, lo que requeriría reparaciones.",
+                    "tiempo": 2.079745054244995
+                },
+                "prueba 2": {
+                    "respuesta": " Estás hablando de un helicóptero. Mi madre tiene un helicóptero rojo grande en su garaje donde ella y hasta 4 personas más pueden sentarse. Con este helicóptero, mi madre puede transportar a personas a cualquier parte donde haya tierra, pero es mejor ir por terrenos especializados porque si se pican toca arreglarlo. Estos vehículos son comúnmente utilizados para misiones de rescate y transporte de personas en zonas remotas o difíciles de acceder.",
+                    "tiempo": 1.1070318222045898
+                },
+                "t_byte_medio": 0.02096035599708557
+            },
+            {
+                "id_pregunta": "homonimas",
+                "resp_real": "La palabra más repeteida es llamas y tiene estos tres significados en la frase en orden: 1. Segunda persona del presente del verbo llamar. 2. El animal mamífero peludo. 3. Hce referencia a fuego, combistión o algo ardiendo.",
+                "t_byte_indv": [
+                    0.04847775594047878,
+                    0.047452918861223305,
+                    0.08537642333818518
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.760140061378479,
+                        0.8065146207809448,
+                        0.7306481599807739
+                    ],
+                    "prediccion_continua": 0.7657676140467325,
+                    "rmse": 0.2363047438152721,
+                    "prediccion_binaria": 0.7657676140467325
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0.5354189600450951,
+                        0.5261973119383193,
+                        0.5144318942709284
+                    ],
+                    "prediccion_continua": 0.5253493887514477,
+                    "rmse": 0.47472831360030693,
+                    "prediccion_binaria": 0
+                },
+                "prueba 0": {
+                    "respuesta": " En la frase \"Tu llamas a tus llamas en llamas\", la palabra más repetidamente utilizada es \"lamas\". El significado principal de esta palabra, particularmente en este contexto, es \"fuego\", ya que se trata de un error ortográfico de «llamas» que ha ganado popularidad en memes y internet en español. No obstante, \"llama\" también puede significar \"animales domésticos tipo perro o gato\" o \"teléfono móvil\". En este caso, debido al contexto de la frase y la forma en que es utilizada la palabra, el significado más adecuado para \"llamas\" es el primer significado anteriormente mencionado: \"fuego\".",
+                    "tiempo": 1.4866511821746826
+                },
+                "prueba 1": {
+                    "respuesta": " En la frase \"Tu llamas a tus llamas en llamas\", la palabra que más se repite es \"llamas\" con un total de 4 veces repetidas. Esto sucede porque \"llama\" tiene dos significados: una entidad llamada fuego y un término para una persona telefónica, en este caso esta frase combina ambos sentidos. En español estandarizado, \"llamas a tus llamas\" es incorrecto ya que \"llamadas\" sería la forma correcta cuando se trata de hablar sobre teléfonos (que es la intención de la frase), pero la frase original en inglés es corriente para señalar un caso de ironía.",
+                    "tiempo": 1.4552228450775146
+                },
+                "prueba 2": {
+                    "respuesta": " En la frase \"Tu llamas a tus llamas en llamas\", la palabra que se repite más es: \"llamas\". A continuación, te muestro los significados distintos que puede tener:\n\n1. Nombre propio masculino de origen germánico que significa \"guerrero famoso\".\n2. La luz brillante producida por la quema del combustible o gas en una fuente de luz, como una viva o una linterna.\n3. Un instrumento para comunicar a distancia por medio de una señal visual como la humidad, los chirridos o las ondas electromagnéticas.\n4. El plural de \"llama\" en su significado animal (Llama domestica), que es una especie de camélido originaria del norte y centro de América, que se utiliza como transporte en montaña.\n5. Un pliego de papel o folios especialmente formado para cerrarse por folds paralelos al eje más largo que forman un ancho tabique, generalmente usados para agrupar documentos o escribir cartas cortesinas.\n6. Sinónimo del verbo \"gritar\" (llamar a atención de alguien) cuando se refiere al clamor y el ruido de la gente o una multitud en una reunión, una manifestación o un tumulto.",
+                    "tiempo": 2.6182103157043457
+                },
+                "t_byte_medio": 0.060435699379962425
+            },
+            {
+                "id_pregunta": "coloquiales",
+                "resp_real": "Si, los helados están chulos.",
+                "t_byte_indv": [
+                    0.056227535009384155,
+                    0.0865660309791565,
+                    0.08540627360343933
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.8427433967590332,
+                        0.5698451995849609,
+                        0.6953175067901611
+                    ],
+                    "prediccion_continua": 0.7026353677113851,
+                    "rmse": 0.3175920933375349,
+                    "prediccion_binaria": 0.7026353677113851
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0.5350344389620987,
+                        0.5889560997176649,
+                        0.5178692387067864
+                    ],
+                    "prediccion_continua": 0.5472865924621834,
+                    "rmse": 0.45372536917382755,
+                    "prediccion_binaria": 0
+                },
+                "prueba 0": {
+                    "respuesta": " Claro que sí, los helados siempre tienen un aspecto agradable, especialmente cuando están bien preparados. ¿Qué tipo de helmete te gusta más?",
+                    "tiempo": 0.44982028007507324
+                },
+                "prueba 1": {
+                    "respuesta": " Si, ¿cómo está usted? Tus helados me parecen muy sabrosos. ¿Qué favorito llevas hoy?\n\n(En español: Sí, ¿cómo estás tú? Tus helados me parecen muy ricos. ¿Cuál llevas hoy como favorito?)",
+                    "tiempo": 0.692528247833252
+                },
+                "prueba 2": {
+                    "respuesta": " Sí, Claudio! Los helados están realmente fantásticos hoy. ¿Qué marca quieres hablar de hoy? Nunca te ha gustado sorbete gelatina?\n\n¡Fácil, la próxima vez llámame cuando estés listo para degustar helados!",
+                    "tiempo": 0.6832501888275146
+                },
+                "t_byte_medio": 0.07606661319732666
+            },
+            {
+                "id_pregunta": "refranes",
+                "resp_real": "Si, mucha suerte y a por todas.",
+                "t_byte_indv": [
+                    0.04138131575150923,
+                    0.05255598371679133,
+                    0.043450436808846214
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.3180054724216461,
+                        0.15641939640045166,
+                        0.3486468493938446
+                    ],
+                    "prediccion_continua": 0.27435723940531415,
+                    "rmse": 0.7305262252241566,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": " Si eres un alumno y deseas obtener buenas calificaciones, la persistencia es clave. A pesar de que el examen pueda parecer complicado, no eres un náufrago al río, porque todos tenemos problemas que enfrentar en nuestras vidas. El camino para superarlos puede ser complejo, pero con la determinación y tus esfuerzos previos de estudiar, puedes confiar en llegar a una resolución positiva. Mantente firme y continúa dando el mejor de ti dentro del examen.",
+                    "tiempo": 1.2138519287109375
+                },
+                "prueba 1": {
+                    "respuesta": " No se puede decir con exactitud si vas a pasar el examen basándote únicamente en tu esfuerzo estudioso y las dificultades previstas. Hay muchos factores que pueden influir en el resultado final, como la comprensión del material estudiado, la familiaridad con el estilo de preguntas utilizados y sobre todo, la efectividad de estrategias de aprendizaje utilizadas para retener información durante el tiempo del examen. Si tienes dudas o incertidumbre sobre algún tema específico, puedes intentar buscar recursos adicionales, pedir ayuda a un profesor u otro alumno, utilizar guías de estudio o hacer preg untas de aprendizaje para repetir lo que has aprendido.",
+                    "tiempo": 1.541642189025879
+                },
+                "prueba 2": {
+                    "respuesta": " Si te hemos entendido correctamente, tienes mucha presión ya que has estudiado mucho para el examen y aun así crees que es difícil. No te preocupes demasiado, recuerda que es normal sentirse cansados o inseguros en momentos como este. Lo más importante es haber hecho el esfuerzo de estudiar, así que intenta relajarte y confiar en tus conocimientos antes del examen. Si tienes tiempo, puedes revisar brevemente algún punto específico que te haya dado alguna molestia. Buena suerte con el examen!",
+                    "tiempo": 1.2745461463928223
+                },
+                "t_byte_medio": 0.04579591209238226
+            },
+            {
+                "id_pregunta": "entender_proceso",
+                "resp_real": "Yendo a comer con sus padres.",
+                "t_byte_indv": [
+                    0.010113955191943956,
+                    0.004106621379437654,
+                    0.003732793357061303
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.32372066378593445,
+                        0.5605920553207397,
+                        0.5626192092895508
+                    ],
+                    "prediccion_continua": 0.48231064279874164,
+                    "rmse": 0.5296964660758986,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": " A las 15:06 exactamente, Julian estaba en su casa o se iba a su casa desde que no se especifica ninguna actividad que estuviera realizando en ese momento. Sin embargo, tomando como referencia el horario de sus actividades anteriores y posteriores, es probable que estuviese transitiendo entre alguna de ellas o tomando un descanso corto en su casa antes de marcharse a comer con sus padres posteriormente. Pero sin más información determinada no puedo especificar con precisión lo que exactamente estaba haciendo Julian a ese horario.",
+                    "tiempo": 1.240645170211792
+                },
+                "prueba 1": {
+                    "respuesta": " A las 15:06 exactamente, Julian estaba comiendo con sus padres. El horario del almuerzo en el texto indica que lo pasó de 15:15 a 16.",
+                    "tiempo": 0.5037455558776855
+                },
+                "prueba 2": {
+                    "respuesta": " Julian estaba comiendo con sus padres entre las 15:00 y 16:00, por lo tanto, no estaba en ese momento a las 15:06 precisemente.",
+                    "tiempo": 0.4578893184661865
+                },
+                "t_byte_medio": 0.005984456642814304
+            },
+            {
+                "id_pregunta": "entender_ironia",
+                "resp_real": "El tono de Adela resulta irónico. Por lo tanto, parece que no tiene intención.",
+                "t_byte_indv": [
+                    0.026693161796121037,
+                    0.010126955368939568,
+                    0.005448558751274557
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.3709903359413147,
+                        0.37405383586883545,
+                        0.3715776205062866
+                    ],
+                    "prediccion_continua": 0.37220726410547894,
+                    "rmse": 0.6277941395389308,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": " Si se analyze la conversación, vemos que Adela expresó su acuerdo en sacar la basura pero también propuso hacerle una compra por favor. A este nivel, es posible que se haga la tarea de sacar la basura pero no se especifica explícitamente si terminará realizando solo esta task o también la de comprar los alimentos. Sin embargo, generalmente cuando alguien hace una promesa doble, como ofrecer a cambio otra acción (en este caso, hacerle la comida y todo), es probable que cumpla con ambas partes de la promesa ya que el objetivo principal parece ser demostrar buena voluntad en lugar solo de realizar la tarea solicitada inicialmente. Por lo tanto, es probable que Adela siga sin sacar la basura o no haga la compra, pero generalmente es posible esperar que realice ambas tareas como resultado de su promesa.",
+                    "tiempo": 1.8151350021362305
+                },
+                "prueba 1": {
+                    "respuesta": " Si se considera que el acto de sacar la basura es una parte del favor que Adela le propone a Diego en su respuesta, entonces si, Adela va a sacar la basura. Es decir, al aceptar hacerle la comida y todo, implica que también acepte sacar la basura.",
+                    "tiempo": 0.6886329650878906
+                },
+                "prueba 2": {
+                    "respuesta": " Adela va a sacar la basura. Le prometió hacerlo como favor de Diego y también le dijo que cocinaría para él después.",
+                    "tiempo": 0.3705019950866699
+                },
+                "t_byte_medio": 0.014089558638778386
+            },
+            {
+                "id_pregunta": "Adivinanza",
+                "resp_real": "La mujer fotografío a su marido y luego reveló la foto en un cuarto oscuro.",
+                "t_byte_indv": [
+                    0.047211423002440356,
+                    0.06833465140441368,
+                    0.17924916127632404
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.48611360788345337,
+                        0.37032097578048706,
+                        0.29029834270477295
+                    ],
+                    "prediccion_continua": 0.3822443087895711,
+                    "rmse": 0.6229637067845368,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": " Esto sucede en un escenario de teatro o cine. En una representación, una actriz está interpretando al personaje de la mujer que asesina a su marido ficticio en una escena dramática. La mujer simula que dispara a su marido con una pistola pero no lo hace realmente. Luego, para continuar la escena, la mujer la saca del agua y lo hace parecer como si se estaba ahogando, pero esto también es parte de la actuación. Después de completar la escena, en la vida real, la mujer se siente a cómodo junto a su marido para disfrutar de una cena encantadora.\n\nEs importante destacar que no condono los asesinatos ni el maltrato doméstico en la vida real, y este ejercicio es específicamente un ejercicio teatral que no debería interpretarse como algo real o alentado.",
+                    "tiempo": 1.8255083560943604
+                },
+                "prueba 1": {
+                    "respuesta": " Estoy aquí para ayudarte a entender esta situación. Sin embargo, es importante destacar que la descripción proporcionada parece implica un caso extremo de violencia y muerte, lo cual no debería ser empleado en nuestra conversación. A continuación, intentaremos brindarte una explicación lógica para esta situación:\n\nLa mujer dispara a su marido y después lo mantiene bajo el agua durante cinco minutos, pero de la misma forma, podríamos decir que en realidad no mató al hombre. Al estar bajo el agua durante cinco minutos, el cuerpo dejaría de tener energía (un tipo de muerte por ahogamiento). A continuación, es posible que la mujer lo ahorcase, tal vez para crear una apariencia como si hubiera sido un crimen más habitual.\n\nDespués de esto, pueden disfrutar de una cena encantadora, ya que ni uno ni otro están vivos para compartir la cena o para sentirse incomodos por el hecho del crimen. Es importante resaltar que esta situación es completamente hipotética y no debería ser interpretada como una forma de justificar actos de violencia en realidad, el propósito de la descripción es ilustrar una secuencia lógica y cronológica.",
+                    "tiempo": 2.642273187637329
+                },
+                "prueba 2": {
+                    "respuesta": " Esta descripción parece describir una escena dramática o un relato criminal. Sin embargo, no es una historia normalizada que uno esperaría ser contada en una conversación social. A continuación, intentaré interpretarla como una historia, pero debido a su naturaleza trágica y extraña, la mejor forma de explicarla podría ser en un relato corto o en una pieza teatral.\n\nTítulo: Una cena increíble\n\nScena 1: Un lago sombrío, con sus aguas tormentosas. Está amaneciendo y se puede ver el sol bajando gradualmente por debajo del horizonte. Llega una mujer vestida de negro, portando un rifle en sus manos. Aparece su esposo, que no parece notar la presencia de su esposa, a quien está buscando algún tipo de pez. Está sentado en un pequeño barco que flota en el medio del lago.\n\nScena 2: La mujer, sin decir palabra, dispara al hombro derecho de su esposo. El hombre cae dentro del agua; se ve cómo asustado y confundido. La mujer le persigue por el agua hasta que lo atrapa y lo saca por la orilla.\n\nScena 3: La mujer arrastra a su marido bajo un árbol en una cabaña, cerca del lago. Allí lo ata con cuerdas a dos olas de la ramera grande. Luego le coloca una soga al cuello y lo deja ahorcarse en silencio durante varias minutos.\n\nScena 4: De repente comienza a sonar un reloj. Parece que ha transcurrido una hora o más desde la matanza. La mujer sale furtivamente de la cabaña, vestida de negro como antes, y se dirige hacia su casa, donde está abierta una puerta donde puede observarse una mesa llena de platos con deliciosos alimentos. Se trata tanto de carne, como de verduras y diversos postres, todo elaborado con gran cuidado.\n\nScena 5: La mujer se sienta a comer sola, como si nada hubiera pasado antes. Parece experimentar una clara sensación de tranquilidad interior, que se refleja en su expresión facial. Se inclina sobre el plato y despacha con agradecimiento cada trozito exquisitamente preparado. A lo lejos, le pueden escuchar las canciones de los pájaros en vuelo a través de la ventana. En el fondo, una luz del sol esquina lentamente por el cielo y se apaga. Scena final.\n\nLa historia no tiene ni principio ni fin, así como para proporcionar explicación completa o satisfactria sobre las acciones trágicas de la mujer y su marido. Puede tratarse de un relato inspirado en la mitología antigua que presenta a un mítico Cíclope llamado Polifemo, cuya esposa se llamaba Galatea. La historia de Polifemo cuenta con una mujer llamada Ícaro que le traiciona y muere lentamente mientras su esposo está dormido. Sin embargo, esta historia presenta un final más pacífico para la pareja, quizás indicando que el crimen no siempre debe ser visto solo como una acto sin sentido ni motivo. Quizás también trata sobre cómo los acontecimientos brutales pueden estar sucediéndose en la vida diaria mientras las personas siguen llevando una existencia normal, al menos a primera vista.",
+                    "tiempo": 6.930967569351196
+                },
+                "t_byte_medio": 0.09826507856105936
+            },
+            {
+                "id_pregunta": "tonos",
+                "resp_real": "Alfredo estaría muy molesto, pero ha mantenido sus modales.",
+                "t_byte_indv": [
+                    0.014598473906517029,
+                    0.017516876260439556,
+                    0.01838277777036031
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.682239830493927,
+                        0.6914842128753662,
+                        0.6521881818771362
+                    ],
+                    "prediccion_continua": 0.6753040750821432,
+                    "rmse": 0.32512898827777703,
+                    "prediccion_binaria": 0.6753040750821432
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0.544083545530257,
+                        0.5364706071097459,
+                        0.5432587108931571
+                    ],
+                    "prediccion_continua": 0.5412709545110533,
+                    "rmse": 0.45874172715681366,
+                    "prediccion_binaria": 0
+                },
+                "prueba 0": {
+                    "respuesta": " Alfredo parece mostrar un tono solicitoso y responsable; quizás se molesto de que los vecinos hicieran demasiada ruido en horario nocturno debido a que tiene que trabajar la mañana siguiente y desea mantener el tranquilidad necesaria para la concentración.",
+                    "tiempo": 0.7007267475128174
+                },
+                "prueba 1": {
+                    "respuesta": " El tono de Alfredo parece ser uno polido y conciliador, pues va directamente al punto y solicita una cosa especifica: que sus vecinos bajen el volumen para no perturbarlo al seguir trabajando por la mañana. Además, se dirige amablemente a ellos pidiéndoles esta favor, lo que sugiere un tono cortés y respetofulso.",
+                    "tiempo": 0.8408100605010986
+                },
+                "prueba 2": {
+                    "respuesta": " Siguiendo los elementos de la situación, el tono que Alfredo tenía era probablemente un tono severo o urgente, dado que subió a donde sus vecinos muy temprano en la mañana y que habló sobre su trabajo. Parece que estaba pidiéndoles algo importante, por eso creo que el tono no fue demasiado amigo pero más bien respetuoso o serio.",
+                    "tiempo": 0.8823733329772949
+                },
+                "t_byte_medio": 0.016832709312438965
+            },
+            {
+                "id_pregunta": "mentira",
+                "resp_real": "Hoy en día, la Tierra se considera como un planeta esférico o redondo, es decir, no es plana. Por tanto, sí lo entiendo, pero no estás diciendo la verdad.",
+                "t_byte_indv": [
+                    0.08618499250972972,
+                    0.0264739709741929,
+                    0.05613571054795209
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.725792407989502,
+                        0.7524383068084717,
+                        0.7726739645004272
+                    ],
+                    "prediccion_continua": 0.7503015597661337,
+                    "rmse": 0.2504354353707459,
+                    "prediccion_binaria": 0.7503015597661337
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0.5656898365678312,
+                        0.53537119280802,
+                        0.5217192427370891
+                    ],
+                    "prediccion_continua": 0.5409267573709801,
+                    "rmse": 0.4594408664529465,
+                    "prediccion_binaria": 0
+                },
+                "prueba 0": {
+                    "respuesta": " Sí, entiendo que has mencionado que los astronautas mirando desde el espacio observaron la tierra como plana. Es un fenómeno llamado perspectiva aérea o efecto tierra plana, causado por los limitados límites de la percepción visual humana en distancias grandes. Pero para que sea claro, es importante destacar que las observaciones científicas demuestran que la Tierra es esférica y no plana.\n\nEspero esto te haya ayudado a entender lo que hablaste sobre los astronautas y su perspectiva desde el espacio de nuestra Tierra, aun así, es importante tener una comprensión científica correcta de las características físicas de nuestro planeta.\n\nAdemás, quiero mencionar que una discusión sobre estos temas puede ser interesante para profundizar en el aprendizaje y la exploración del mundo que nos rodea.",
+                    "tiempo": 1.953526496887207
+                },
+                "prueba 1": {
+                    "respuesta": " Sí, entiendo correctamente tu frase. Los astronautas han observado la Tierra desde el espacio y han notado cuánta más es su superficie plana que aparenta ser de forma redonda al mirarla desde la Tierra.",
+                    "tiempo": 0.6000766754150391
+                },
+                "prueba 2": {
+                    "respuesta": " Eso me hace pensar que estás citando un comentario sobre la apariencia plana de la Tierra según los astronautas, pero este concepto es controvertido y rechazado ampliamente por la comunidad científica debido a las evidencias en favor de la teoría de la relatividad general del mundo, que establece que la Tierra es una bola. Si has leído algo a propósito sobre esa creencia, probablemente estés confundiendo datos o tener malas interpretaciones de algún tipo. Te recomiendo revistar información verificada para entender mejor este tema.",
+                    "tiempo": 1.272409439086914
+                },
+                "t_byte_medio": 0.056264891343958234
+            }
         ]
     },
     "notas": {
         "lim_temporal": {
-            "SBert": 6.134405186578114,
-            "Bleurt": 1.189721375125667
+            "SBert": 6.375428853199958,
+            "Bleurt": 2.738610566498994
         },
         "falta_contexto": {
-            "SBert": 4.404478535102904,
-            "Bleurt": 1.2995022408058554
+            "SBert": 4.876034718102097,
+            "Bleurt": 2.115010920734492
         },
         "lim_dominio": {
             "Salud": {
-                "SBert": 7.1925486988840355,
-                "Bleurt": 1.6257334604215985
+                "SBert": 7.418495507491576,
+                "Bleurt": 3.100159916839469
             },
             "Deportes": {
-                "SBert": 6.786804822689547,
-                "Bleurt": 1.3722342178035438
+                "SBert": 7.1136486360807005,
+                "Bleurt": 2.7007705995241595
             }
         },
         "alucinaciones": {
-            "SBert": 4.42941817452793,
-            "Bleurt": 0.5876464859718691
+            "SBert": 4.865212851878603,
+            "Bleurt": 1.606951876819343
         }
     }
 }

@@ -64,12 +64,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.4541116014383491,
-                        0.4834520943672984,
-                        0.40092397417893233
+                        0.664720014861979,
+                        0.6663865061779352,
+                        0.596202592201104
                     ],
-                    "prediccion_continua": 0.4461625566615266,
-                    "rmse": 0.5548897689965996,
+                    "prediccion_continua": 0.6424363710803394,
+                    "rmse": 0.35905569588362585,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -106,12 +106,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.3305429295137682,
-                        0.49651437707309226,
-                        0.34155496545165664
+                        0.5856439966399556,
+                        0.6134866758100216,
+                        0.5576877608815729
                     ],
-                    "prediccion_continua": 0.38953742401283903,
-                    "rmse": 0.6151477885406815,
+                    "prediccion_continua": 0.5856061444438501,
+                    "rmse": 0.41501950322478953,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -148,12 +148,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.2579819887081643,
-                        0.34005472519039737,
-                        0.35620616203132033
+                        0.5758352335066005,
+                        0.584683185203841,
+                        0.5834300485070559
                     ],
-                    "prediccion_continua": 0.318080958643294,
-                    "rmse": 0.6832737373926244,
+                    "prediccion_continua": 0.5813161557391658,
+                    "rmse": 0.4187020938860393,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -190,12 +190,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.39742932955657,
-                        0.3910357819213928,
-                        0.37821387175251264
+                        0.5942493936827689,
+                        0.5852586459230408,
+                        0.5654351754674368
                     ],
-                    "prediccion_continua": 0.38889299441015845,
-                    "rmse": 0.6111592321317838,
+                    "prediccion_continua": 0.5816477383577489,
+                    "rmse": 0.4185254002763384,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -232,12 +232,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.49401259871216147,
-                        0.3284853999221064,
-                        0.35183359169249123
+                        0.6791683609947617,
+                        0.5758977532380174,
+                        0.5556680353634892
                     ],
-                    "prediccion_continua": 0.391443863442253,
-                    "rmse": 0.6129368649483267,
+                    "prediccion_continua": 0.6035780498654227,
+                    "rmse": 0.40009438515309137,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -274,12 +274,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.36078744376273164,
-                        0.3749544570332658,
-                        0.3715668569798808
+                        0.5598716951934882,
+                        0.5630953933216943,
+                        0.5740808168682817
                     ],
-                    "prediccion_continua": 0.3691029192586261,
-                    "rmse": 0.6309259962098324,
+                    "prediccion_continua": 0.5656826351278214,
+                    "rmse": 0.4343599546413738,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -358,12 +358,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.35366564244804016,
-                        0.3395723002197054,
-                        0.3568537621209962
+                        0.5674194471131371,
+                        0.5691113646796905,
+                        0.5355632067040225
                     ],
-                    "prediccion_continua": 0.3500305682629139,
-                    "rmse": 0.650012802870608,
+                    "prediccion_continua": 0.5573646728322834,
+                    "rmse": 0.44290423560522774,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -400,12 +400,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.36932425647172784,
-                        0.38767340018191204,
-                        0.32577953274865523
+                        0.5664703131172558,
+                        0.5764239536632249,
+                        0.5554457911227304
                     ],
-                    "prediccion_continua": 0.36092572980076504,
-                    "rmse": 0.6396011769794104,
+                    "prediccion_continua": 0.5661133526344037,
+                    "rmse": 0.4339712360166432,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -484,12 +484,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.3850516479445961,
-                        0.4025337771245828,
-                        0.40360673151599685
+                        0.5210079330274322,
+                        0.5344293310882604,
+                        0.5282941135107917
                     ],
-                    "prediccion_continua": 0.3970640521950586,
-                    "rmse": 0.6029959352725652,
+                    "prediccion_continua": 0.5279104592088281,
+                    "rmse": 0.47212141493551824,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -568,12 +568,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.3105309237930597,
-                        0.28372558196560116,
-                        0.2689386791364737
+                        0.5889266055032136,
+                        0.5946173567040781,
+                        0.5844893979303392
                     ],
-                    "prediccion_continua": 0.2877317282983782,
-                    "rmse": 0.7124762695086512,
+                    "prediccion_continua": 0.5893444533792104,
+                    "rmse": 0.4106764677865823,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -610,12 +610,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.38865352362085015,
-                        0.4250560647658984,
-                        0.36631012418225817
+                        0.5524002475627909,
+                        0.5425643395825114,
+                        0.5496382936702536
                     ],
-                    "prediccion_continua": 0.39333990418966885,
-                    "rmse": 0.607143009391138,
+                    "prediccion_continua": 0.548200960271852,
+                    "rmse": 0.4518180269133712,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -652,12 +652,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.29738158537497117,
-                        0.30323987321192636,
-                        0.2956633506353379
+                        0.5709651214665974,
+                        0.5692197059292975,
+                        0.5708295167553915
                     ],
-                    "prediccion_continua": 0.29876160307407845,
-                    "rmse": 0.7012458975495354,
+                    "prediccion_continua": 0.5703381147170955,
+                    "rmse": 0.42966261665257904,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -736,12 +736,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.31810839247850936,
-                        0.3329829497721274,
-                        0.2806930753334418
+                        0.5860710748011257,
+                        0.5756436702923371,
+                        0.5534577597641773
                     ],
-                    "prediccion_continua": 0.3105948058613595,
-                    "rmse": 0.6897560828718601,
+                    "prediccion_continua": 0.57172416828588,
+                    "rmse": 0.4284917043125733,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -778,12 +778,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.45696908789641294,
-                        0.4430862496376841,
-                        0.4881571054483392
+                        0.5518018626559396,
+                        0.5684236074792163,
+                        0.5480494191189572
                     ],
-                    "prediccion_continua": 0.4627374809941454,
-                    "rmse": 0.5375929828242726,
+                    "prediccion_continua": 0.5560916297513709,
+                    "rmse": 0.4439966518111936,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -820,12 +820,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.26547305961236384,
-                        0.3093482104402479,
-                        0.3057183170482262
+                        0.5650042350073748,
+                        0.5523030591211929,
+                        0.5652694931969527
                     ],
-                    "prediccion_continua": 0.2935131957002793,
-                    "rmse": 0.706766528131145,
+                    "prediccion_continua": 0.5608589291085068,
+                    "rmse": 0.43918275618053565,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -927,890 +927,6 @@
                 "t_byte_medio": 0.9638750106096268
             }
         ],
-        "falta_contexto": [
-            {
-                "id_pregunta": "trampa_inicial",
-                "resp_real": "No se ha establecido ninguna conversación previa a esta pregunta, por lo que no sé de qué estábamos hablando.",
-                "t_byte_indv": [
-                    0.27572271823883054,
-                    0.1868489384651184,
-                    0.47642905712127687
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.6805977821350098,
-                        0.7027992010116577,
-                        0.5783723592758179
-                    ],
-                    "prediccion_continua": 0.6539231141408285,
-                    "rmse": 0.3502931910647725,
-                    "prediccion_binaria": 0.6539231141408285
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0.4955549656815957,
-                        0.4696240010716071,
-                        0.4324993568924521
-                    ],
-                    "prediccion_continua": 0.46589277454855166,
-                    "rmse": 0.5347337258908298,
-                    "prediccion_binaria": 0
-                },
-                "prueba 0": {
-                    "respuesta": "Este es el inicio de nuestra conversación, por lo que no hay un tema previo del que estuviéramos hablando. ¿En qué puedo ayudarte? 😊",
-                    "tiempo": 1.838151454925537
-                },
-                "prueba 1": {
-                    "respuesta": "No hay un historial de conversación previo en esta sesión. ¿En qué puedo ayudarte hoy?",
-                    "tiempo": 1.245659589767456
-                },
-                "prueba 2": {
-                    "respuesta": "No tengo memoria de conversaciones anteriores. ¿En qué puedo ayudarte hoy?",
-                    "tiempo": 3.1761937141418457
-                },
-                "t_byte_medio": 0.313000237941742
-            },
-            {
-                "id_pregunta": "contexto_inicial",
-                "resp_real": "Joaquín.",
-                "t_byte_indv": [
-                    1.1694522500038147,
-                    1.3267639875411987,
-                    0.7944123148918152
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.5815242528915405,
-                        1.0,
-                        0.7794568538665771
-                    ],
-                    "prediccion_continua": 0.7869937022527059,
-                    "rmse": 0.2731063469446848,
-                    "prediccion_binaria": 0.7869937022527059
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0.14681427559599158,
-                        0.7437018946198478,
-                        0.40570034948302797
-                    ],
-                    "prediccion_continua": 0.43207217323295577,
-                    "rmse": 0.6182789752619344,
-                    "prediccion_binaria": 0
-                },
-                "prueba 0": {
-                    "respuesta": "Joaquín. ☀️  \n*(Por cierto, si querías preguntar \"¿Cómo te llamas?\", sería \"Te llamas Joaquín\". Pero como dijiste \"¿Cómo me llamo?\", ¡ya lo has confirmado! 😄)*",
-                    "tiempo": 9.355618000030518
-                },
-                "prueba 1": {
-                    "respuesta": "Joaquín.",
-                    "tiempo": 10.61411190032959
-                },
-                "prueba 2": {
-                    "respuesta": "Tu nombre es Joaquín. 😊",
-                    "tiempo": 6.3552985191345215
-                },
-                "t_byte_medio": 1.0968761841456096
-            },
-            {
-                "id_pregunta": "resumen",
-                "resp_real": "Estamos en 2028. Este año no es bisiesto. El siguiente es 2032",
-                "t_byte_indv": [
-                    0.03959177822046886,
-                    0.04030255792457933,
-                    0.03825787433310051
-                ],
-                "SBert": {
-                    "accuracy": [
-                        -6.178580224514008e-05,
-                        0.0038002533838152885,
-                        0.015181014314293861
-                    ],
-                    "prediccion_continua": 0.006306493965288003,
-                    "rmse": 0.9937145708815903,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": "El aparato digestivo transforma los alimentos en nutrientes absorbibles. Comienza en la boca, donde la masticación y la saliva (con enzimas para carbohidratos) forman el bolo alimenticio, que viaja por el esófago mediante peristaltismo al estómago. Allí, el ácido gástrico y enzimas descomponen proteínas, formando el quimo. Este pasa al intestino delgado, donde la bilis hepática ayuda a digerir grasas y las enzimas pancreáticas, junto a las vellosidades, completan la digestión y absorción de nutrientes. El intestino grueso absorbe agua y sales minerales, mientras la microbiota intestinal produce vitaminas mediante fermentación. Finalmente, las heces se almacenan en el recto y se expulsan por el ano.",
-                    "tiempo": 18.26500701904297
-                },
-                "prueba 1": {
-                    "respuesta": "El aparato digestivo transforma los alimentos en nutrientes absorbibles por el organismo. Comienza en la boca, donde los dientes trituran los alimentos y la saliva (con enzimas para carbohidratos) inicia la digestión. El bolo alimenticio viaja por el esófago mediante peristaltismo hasta el estómago, donde el ácido clorhídrico y las enzimas descomponen proteínas, formando quimo. Este pasa al intestino delgado, lugar principal de digestión química y absorción gracias a la bilis (hígado, para grasas) y enzimas pancreáticas (que neutralizan acidez y completan la digestión), mientras sus vellosidades aumentan la absorción. El intestino grueso absorbe agua, minerales y alberga microbiota intestinal que fermenta residuos y produce vitaminas. Finalmente, las heces se almacenan en el recto y se expulsan por el ano.",
-                    "tiempo": 18.592913389205933
-                },
-                "prueba 2": {
-                    "respuesta": "El aparato digestivo transforma los alimentos en nutrientes absorbibles mediante una serie de procesos. Comienza en la boca, donde los dientes trituran los alimentos y la saliva (con enzimas que inician la digestión de carbohidratos) forma el bolo, que pasa al esófago gracias al peristaltismo. En el estómago, los jugos gástricos (ácido clorhídrico y enzimas) descomponen proteínas y convierten el alimento en quimo. El intestino delgado, lugar clave de digestión química y absorción, recibe la bilis del hígado (para grasas) y enzimas del páncreas (que neutralizan la acidez), mientras las vellosidades aumentan la absorción de nutrientes. El intestino grueso absorbe agua y sales minerales, con la microbiota intestinal produciendo vitaminas, y las heces se almacenan en el recto antes de eliminarse por el ano. Este proceso permite al organismo obtener energía y mantener tejidos.",
-                    "tiempo": 17.649632692337036
-                },
-                "t_byte_medio": 0.039384070159382896
-            },
-            {
-                "id_pregunta": "cambio_de_contexto",
-                "resp_real": "Si, las zanahorias son buenas para la vista.",
-                "t_byte_indv": [
-                    0.12304443120956421,
-                    0.11391651630401611,
-                    0.16787519238211893
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.6599973440170288,
-                        0.6464836001396179,
-                        0.6731184720993042
-                    ],
-                    "prediccion_continua": 0.659866472085317,
-                    "rmse": 0.3403073044217601,
-                    "prediccion_binaria": 0.659866472085317
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0.3567195607267985,
-                        0.31454177505155456,
-                        0.3219784462664533
-                    ],
-                    "prediccion_continua": 0.33107992734826874,
-                    "rmse": 0.6691726057922199,
-                    "prediccion_binaria": 0
-                },
-                "prueba 0": {
-                    "respuesta": "Las zanahorias son buenas para la vista, pero no por lo que suele creerse. Contienen beta-caroteno, que el cuerpo convierte en vitamina A, esencial para mantener una buena salud ocular, especialmente en la visión nocturna. Sin embargo, **no mejoran la visión más allá de lo normal** (un mito propagado durante la Segunda Guerra Mundial por el Reino Unido para justificar el uso de radar). La cuestión sobre los instrumentos musicales (5 violines, 3 tubas, etc.) es irrelevante para la pregunta, ¡solo un dato curioso! 😊",
-                    "tiempo": 5.413954973220825
-                },
-                "prueba 1": {
-                    "respuesta": "Las zanahorias son buenas para la vista porque contienen betacaroteno, que el cuerpo convierte en vitamina A, esencial para la salud ocular. La información sobre el concierto en el Teatro Real es irrelevante para esta pregunta, pero la respuesta científica es clara: ¡sí, las zanahorias son beneficiosas para la vista! 🥕👁️",
-                    "tiempo": 5.012326717376709
-                },
-                "prueba 2": {
-                    "respuesta": "Sí, las zanahorias son buenas para la vista. Contienen betacaroteno, que el cuerpo convierte en vitamina A, esencial para mantener una buena salud ocular, especialmente para la visión nocturna. Sin embargo, la información sobre el concierto (5 violines, 3 tubas, etc.) es irrelevante para la pregunta y parece ser un detalle adicional sin relación con el tema. 😊",
-                    "tiempo": 7.386508464813232
-                },
-                "t_byte_medio": 0.13494537996523306
-            },
-            {
-                "id_pregunta": "contexto_detallado",
-                "resp_real": "El caballo de Santiago es blanco.",
-                "t_byte_indv": [
-                    0.1114127779829091,
-                    0.27166971667059536,
-                    0.1617545300516589
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.8226255178451538,
-                        0.6765313744544983,
-                        0.7783034443855286
-                    ],
-                    "prediccion_continua": 0.7591534455617269,
-                    "rmse": 0.2484907921857577,
-                    "prediccion_binaria": 0.7591534455617269
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0.25935169691992227,
-                        0.27741138543807914,
-                        0.24039325102988304
-                    ],
-                    "prediccion_continua": 0.2590521111292948,
-                    "rmse": 0.7411020235277697,
-                    "prediccion_binaria": 0
-                },
-                "prueba 0": {
-                    "respuesta": "El caballo de Santiago es **blanco**. El enunciado indica claramente que tiene un caballo \"grande y blanco\" que \"no es rojo\", por lo que el color del caballo es blanco. Los detalles adicionales como que nació en la Selva Negra o que es cariñoso no afectan al color del animal. La clave está en la descripción directa: \"blanco\". \n\n**Respuesta:** El caballo de Santiago es blanco.",
-                    "tiempo": 4.307960748672485
-                },
-                "prueba 1": {
-                    "respuesta": "El problema indica claramente que \"Santiago tiene un caballo grande y **blanco** que no es **rojo**\". Aunque menciona que el caballo nació en la \"Selva Negra\" (un lugar conocido, no una indicación del color), el texto ya especifica que el caballo es **blanco**. La frase \"no es rojo\" simplemente descarta el color rojo, reforzando que el color es blanco. Por lo tanto, la respuesta es **blanco**.\n\n**Respuesta:** El caballo de Santiago es **blanco**.",
-                    "tiempo": 10.504562377929688
-                },
-                "prueba 2": {
-                    "respuesta": "El caballo de Santiago es **blanco**. \n\nEl enunciado describe claramente que el caballo es \"grande y blanco\", y añade que \"no es rojo\" para descartar cualquier confusión, aunque esto es redundante (ya que el blanco no es rojo). Los detalles sobre su nacimiento en la \"Selva Negra\" y su carácter cariñoso no afectan al color del animal. Por lo tanto, la respuesta es **blanco**. \n\n**Respuesta:** El caballo de Santiago es blanco.",
-                    "tiempo": 6.2545084953308105
-                },
-                "t_byte_medio": 0.1816123415683878
-            },
-            {
-                "id_pregunta": "error_contexto",
-                "resp_real": "No has comprado cajas de pimientos. Lo que sí has comprado son 3 cajas de toamtes.",
-                "t_byte_indv": [
-                    0.15768568217754364,
-                    0.1261052510568074,
-                    0.13415063279015677
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.6601670980453491,
-                        0.6413726806640625,
-                        0.6342189311981201
-                    ],
-                    "prediccion_continua": 0.6452529033025106,
-                    "rmse": 0.3549158330829275,
-                    "prediccion_binaria": 0.6452529033025106
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0.33557584298272586,
-                        0.28415483862889934,
-                        0.3594677411609626
-                    ],
-                    "prediccion_continua": 0.3263994742575293,
-                    "rmse": 0.6743330853764511,
-                    "prediccion_binaria": 0
-                },
-                "prueba 0": {
-                    "respuesta": "La persona menciona haber comprado \"dos peras verdes, una manzana amarilla, un aguacate sin madurar y 3 cajas de tomates\". En ningún momento se menciona la compra de **pimientos** (verduras del género *Capsicum*), sino **tomates** (\"cajas de tomates\"). \n\nPor lo tanto, **no se compró ninguna caja de pimientos**. \n\n**Respuesta:** 0 cajas de pimientos.",
-                    "tiempo": 5.886932134628296
-                },
-                "prueba 1": {
-                    "respuesta": "La pregunta plantea comprar \"cajas de pimientos\", pero en la lista de compras mencionada no se incluye ningún artículo relacionado con pimientos (pimientos en español se refiere a *bell peppers* o *pimientos* como vegetales). Se compraron:  \n- 2 peras verdes  \n- 1 manzana amarilla  \n- 1 aguacate sin madurar  \n- 3 cajas de tomates  \n\n**No hay mención de pimientos en la lista**, por lo que la cantidad de cajas de pimientos compradas es **0**.  \n\n**Respuesta:** 0 cajas de pimientos.",
-                    "tiempo": 4.707929372787476
-                },
-                "prueba 2": {
-                    "respuesta": "La pregunta pregunta cuántas cajas de **pimientos** se compraron, pero en la lista de compras mencionada solo se mencionan:  \n- Dos peras verdes  \n- Una manzana amarilla  \n- Un aguacate sin madurar  \n- **3 cajas de tomates**  \n\n**No hay mención de pimientos (pimientos son un tipo de verdura diferente a los tomates)**. Por lo tanto, la cantidad de cajas de pimientos compradas es **0**.\n\n**Respuesta:** 0 cajas de pimientos. 🥒",
-                    "tiempo": 5.0082902908325195
-                },
-                "t_byte_medio": 0.1393138553415026
-            },
-            {
-                "id_pregunta": "contexto_errores_gramaticales",
-                "resp_real": "El 13 de marzo saliste al parque.",
-                "t_byte_indv": [
-                    0.47284815992627827,
-                    0.8798650119985852,
-                    1.0937191460813795
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.5931376814842224,
-                        0.5087679028511047,
-                        0.7685869932174683
-                    ],
-                    "prediccion_continua": 0.6234975258509318,
-                    "rmse": 0.39174732469006424,
-                    "prediccion_binaria": 0.6234975258509318
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0.301720951826418,
-                        0.25345038145964804,
-                        0.28859511008341177
-                    ],
-                    "prediccion_continua": 0.2812554811231593,
-                    "rmse": 0.7190333509785161,
-                    "prediccion_binaria": 0
-                },
-                "prueba 0": {
-                    "respuesta": "El texto que has escrito parece estar escrito en español con algunos errores o faltas de ortografía. Aquí está la corrección y el significado:\n\n**Texto corregido:**  \n\"El trece de marzo salí al parque. ¿Me puede repetir qué pasó ese día?\"\n\n**Traducción:**  \n\"El 13 de marzo salí al parque. ¿Puede repetirme qué pasó ese día?\"  \n\n**Explicación:**  \n- \"treze\" → \"trece\" (número 13).  \n- \"marzoh\" → \"marzo\" (mes).  \n- \"parke\" → \"parque\" (lugar).  \n- \"repetil\" → \"repetir\" (verbo).  \n- \"ke ize\" → \"qué pasó\" (qué ocurrió).  \n\nEs probable que hayas escrito con errores comunes, como omitir acentos o mezclar letras. 😊 ¡Espero que esto te ayude!",
-                    "tiempo": 8.826498985290527
-                },
-                "prueba 1": {
-                    "respuesta": "Scuze, dar nu pot repeta evenimente personale sau activități din trecut, deoarece nu am acces la datele tale private sau la memorii personale. Dacă ai vrut să întrebi ce s-a întâmplat în istorie pe **13 martie**, pot să-ți ofer un fapt istoric legat de această dată. De exemplu:\n\n- În **13 martie 1902**, a fost inaugurat primul pod suspendat din lume, **Puente Colgante** la Bilbao, Spania.\n\nDacă vrei să știi altceva, spune-mi și voi încerca să te ajut! 😊",
-                    "tiempo": 16.42414689064026
-                },
-                "prueba 2": {
-                    "respuesta": "El 13 de marzo salí al parque. ¿Me puedes repetir qué pasó ese día?  \n\n**Corrección y explicación:**  \n- \"Un treze de marzoh\" → \"El 13 de marzo\" (en español, se usa \"13\" o \"trece\" para el día, y \"marzo\" como mes).  \n- \"Sali al parke\" → \"Salí al parque\" (corrección de \"parke\" a \"parque\", y el verbo \"salí\" es correcto en pasado simple).  \n- \"Me puede repetil ke ize ese dia?\" → \"¿Me puedes repetir qué pasó ese día?\" (\"ize\" es error por \"pasó\" y \"ke\" por \"qué\").  \n\nSi te refieres a una situación específica, ¡avísame y ayudaré a aclararla! 😊",
-                    "tiempo": 20.416090726852417
-                },
-                "t_byte_medio": 0.8154774393354144
-            },
-            {
-                "id_pregunta": "calculos_matematicos",
-                "resp_real": "Siguiendo el enunciado, María tendrá 1 año y Juana 5.",
-                "t_byte_indv": [
-                    0.2908637869742609,
-                    0.3010258520803144,
-                    0.22220218373883155
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.5674266815185547,
-                        0.5753363370895386,
-                        0.6642038226127625
-                    ],
-                    "prediccion_continua": 0.6023222804069519,
-                    "rmse": 0.40009081269401037,
-                    "prediccion_binaria": 0.6023222804069519
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0.3188930098275381,
-                        0.3106279446029514,
-                        0.3178080331195668
-                    ],
-                    "prediccion_continua": 0.31577632918335213,
-                    "rmse": 0.6842334987659149,
-                    "prediccion_binaria": 0
-                },
-                "prueba 0": {
-                    "respuesta": "Para resolver el problema, definimos las edades actuales:\n\n- Sea $ M $ la edad actual de **María**.\n- Entonces, la edad actual de **Juana** es $ 5M $, ya que Juana tiene 5 veces la edad de María.\n\n**Dato adicional:** El año que viene, Juana tendrá 3 veces la edad de María. Esto implica que:\n\n$$\n5M + 1 = 3(M + 1)\n$$\n\nResolvemos la ecuación:\n\n$$\n5M + 1 = 3M + 3\n$$\n$$\n5M - 3M = 3 - 1\n$$\n$$\n2M = 2\n$$\n$$\nM = 1\n$$\n\nPor lo tanto:\n- **Edad actual de María:** $ M = 1 $ año.\n- **Edad actual de Juana:** $ 5M = 5 \\times 1 = 5 $ años.\n\n**Verificación:**\n- Actualmente: Juana (5 años) es 5 veces María (1 año).\n- El año que viene: María tendrá $ 1 + 1 = 2 $ años y Juana tendrá $ 5 + 1 = 6 $ años. \n  - $ 6 = 3 \\times 2 $, lo cual cumple con el enunciado.\n\n**Respuesta final:**\n- **María tiene 1 año.**\n- **Juana tiene 5 años.**\n\n$$\n\\boxed{\\text{María: 1 año, Juana: 5 años}}\n$$",
-                    "tiempo": 12.022369861602783
-                },
-                "prueba 1": {
-                    "respuesta": "Para resolver el problema, definimos las variables:\n\n- Sea $ M $ la edad actual de María.\n- Entonces, la edad actual de Juana es $ 5M $ (dado que Juana tiene 5 veces la edad de María).\n\nDado que el año que viene Juana tendrá 3 veces la edad de María, planteamos las ecuaciones:\n\n- La edad de María el año que viene será $ M + 1 $.\n- La edad de Juana el año que viene será $ 5M + 1 $.\n- Según el problema, $ 5M + 1 = 3(M + 1) $.\n\nResolvemos la ecuación:\n\n$$\n5M + 1 = 3(M + 1)\n$$\n\nExpande el lado derecho:\n\n$$\n5M + 1 = 3M + 3\n$$\n\nResta $ 3M $ de ambos lados:\n\n$$\n2M + 1 = 3\n$$\n\nResta 1 de ambos lados:\n\n$$\n2M = 2\n$$\n\nDivide por 2:\n\n$$\nM = 1\n$$\n\nPor lo tanto, la edad actual de María es $ 1 $ año y la edad actual de Juana es $ 5 \\times 1 = 5 $ años.\n\nVerificación:\n- Actualmente, María tiene 1 año y Juana tiene 5 años.\n- El año que viene, María tendrá $ 1 + 1 = 2 $ años y Juana tendrá $ 5 + 1 = 6 $ años.\n- $ 6 $ es efectivamente $ 3 \\times 2 $, lo que confirma que la solución es correcta.\n\n**Respuesta Final:**\nLa edad actual de María es \\boxed{1} año y la edad actual de Juana es \\boxed{5} años.",
-                    "tiempo": 12.442401885986328
-                },
-                "prueba 2": {
-                    "respuesta": "Para resolver el problema, asignamos variables a las edades actuales de María y Juana:\n\n- Denotamos la edad actual de **María** como $ M $ años.\n- Por lo tanto, la edad actual de **Juana** es $ 5M $ años (ya que Juana tiene 5 veces la edad de María).\n\n**Dado que el año que viene:**\n- La edad de María será $ M + 1 $.\n- La edad de Juana será $ 5M + 1 $.\n- Según el enunciado, en ese momento Juana tendrá 3 veces la edad de María:\n  $$\n  5M + 1 = 3(M + 1)\n  $$\n\n**Resolvemos la ecuación:**\n$$\n5M + 1 = 3M + 3\n$$\n$$\n5M - 3M = 3 - 1\n$$\n$$\n2M = 2\n$$\n$$\nM = 1\n$$\n\n**Conclusiones:**\n- La edad actual de **María** es $ M = 1 $ año.\n- La edad actual de **Juana** es $ 5M = 5 \\times 1 = 5 $ años.\n\n**Verificación:**\n- Actualmente: María tiene 1 año, Juana tiene 5 años.\n- El año que viene: María tendrá $ 1 + 1 = 2 $ años, Juana tendrá $ 5 + 1 = 6 $ años.\n- $ 6 = 3 \\times 2 $, lo cual cumple con la condición del problema.\n\n**Respuesta Final:**\n- **María tiene 1 año** y **Juana tiene 5 años**.  \n$$\n\\boxed{\\text{María: 1 año, Juana: 5 años}}\n$$",
-                    "tiempo": 9.184356927871704
-                },
-                "t_byte_medio": 0.27136394093113564
-            },
-            {
-                "id_pregunta": "pregunta_ambigua",
-                "resp_real": "No me has indicado el color de tu rotulador.",
-                "t_byte_indv": [
-                    0.46204982562498614,
-                    0.4480332298712297,
-                    0.11377122185446999
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.4360312223434448,
-                        0.32456278800964355,
-                        0.5124049186706543
-                    ],
-                    "prediccion_continua": 0.42433297634124756,
-                    "rmse": 0.580811263908597,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": "El rotulador es **blanco**.  \n¿Por qué? Porque un rotulador blanco dibujado en papel blanco no se ve (es invisible), por lo que \"no atraviesa\" el papel (no es visible, como si no existiera). La pista de \"sin atravesar el papel\" es un juego de palabras: no atraviesa porque no se percibe, gracias al color blanco en un fondo blanco. El resto de los detalles (1€, pueblo de la abuela, día lluvioso) son datos irrelevantes para resolver la adivinanza.  \n\n**Respuesta: Blanco.** 🎨",
-                    "tiempo": 20.33019232749939
-                },
-                "prueba 1": {
-                    "respuesta": "El rotulador es de **rojo**. \n\n**Explicación:**  \nLa clave está en el juego de palabras con la palabra \"rotulador\", que comienza con \"ro\" y se relaciona con \"rojo\" (color rojo). Es un clásico acertijo en español donde se utiliza la inicial del objeto mencionado para deducir el color. El resto de detalles (1€, lluvia, pueblo de la abuela) son distracciones, pero el juego de palabras es la solución. \n\n**Respuesta:** Rojo.",
-                    "tiempo": 19.713462114334106
-                },
-                "prueba 2": {
-                    "respuesta": "El color de tu rotulador es **rojo**.  \n*(Es una adivinanza basada en una homofonía: \"rotulador\" suena como \"ro\" (parte inicial de \"rojo\"), que significa \"rojo\" en español.)* 😊",
-                    "tiempo": 5.00593376159668
-                },
-                "t_byte_medio": 0.34128475911689526
-            },
-            {
-                "id_pregunta": "error_contexto",
-                "resp_real": "El caballo de Santiago es blanco, no negro.",
-                "t_byte_indv": [
-                    0.6591411232948303,
-                    0.8163076639175415,
-                    0.6612487236658732
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.786653995513916,
-                        0.5949417352676392,
-                        0.7086477279663086
-                    ],
-                    "prediccion_continua": 0.6967478195826212,
-                    "rmse": 0.3133022299512946,
-                    "prediccion_binaria": 0.6967478195826212
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0.27597995725794083,
-                        0.2788422845879836,
-                        0.26775578212148954
-                    ],
-                    "prediccion_continua": 0.27419267465580466,
-                    "rmse": 0.7258225374031413,
-                    "prediccion_binaria": 0
-                },
-                "prueba 0": {
-                    "respuesta": "El caballo asociado con Santiago (San Santiago, patrón de España) **no es negro**, sino **blanco** en su representación tradicional. La figura emblemática de San Santiago suele mostrarse montando un **caballo blanco**, no negro. Por lo tanto, la premisa de la pregunta es incorrecta: el caballo de Santiago no es negro, por lo que tampoco es rojo (ya que el caballo blanco es, simplemente, blanco). \n\nEn resumen, **el caballo de Santiago es blanco**, no negro, y por tanto **no es rojo** (ni negro, ni rojo: es blanco). La confusión podría surgir de malentendidos o interpretaciones no históricas, pero la tradición religiosa y artística lo representa con un caballo blanco. ✅",
-                    "tiempo": 7.909693479537964
-                },
-                "prueba 1": {
-                    "respuesta": "Sí, es correcto. El \"caballo negro de Santiago\" se refiere a la representación tradicional de San Santiago (Santiago Matamoros), patrón de España, quien a menudo es asociado con un caballo **negro** en iconografía religiosa y simbólica. Dado que el caballo es descrito como *negro*, no puede ser *rojo* (dos colores opuestos). Por lo tanto, **no es rojo**, como afirma la consulta.\n\nAclaración adicional: Aunque en algunos contextos históricos o artísticos San Santiago se representa montando un **caballo blanco** (como en la batalla de Clavijo), el término \"caballo negro\" es un elemento simbólico común en ciertas representaciones o referencias culturales. En cualquier caso, si se describe como *negro*, su color no puede ser *rojo*. 🐴",
-                    "tiempo": 9.795691967010498
-                },
-                "prueba 2": {
-                    "respuesta": "El caballo de Santiago, referido al símbolo religioso y histórico de San Santiago Apóstol (patrón de España), **no es negro ni rojo**, sino **blanco**. Este es un error común de confusión. \n\nEn la iconografía tradicional, San Santiago se representa cabalgando sobre un **caballo blanco**, con la bandera de la Santa Cruz (roja) en su estandarte. El término \"caballo negro\" en la pregunta es incorrecto: el caballo asociado a Santiago es **blanco**, no negro, y por lo tanto, **no es rojo** (pues es blanco o, en el estandarte, la cruz es roja, pero el caballo en sí es blanco). \n\nPor lo tanto, la afirmación inicial (\"caballo negro de Santiago\") es errónea. La respuesta correcta es: **El caballo de Santiago es blanco, no negro, y tampoco es rojo**. 🔴❌ ⚪✅",
-                    "tiempo": 7.9349846839904785
-                },
-                "t_byte_medio": 0.7122325036260816
-            },
-            {
-                "id_pregunta": "busqueda_exhaustiva",
-                "resp_real": "Sí, su abuelo estaba.",
-                "t_byte_indv": [
-                    0.1767457067966461,
-                    0.17019568383693695,
-                    0.24615190625190736
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.635408878326416,
-                        0.5510353446006775,
-                        0.646079957485199
-                    ],
-                    "prediccion_continua": 0.6108413934707642,
-                    "rmse": 0.3914738579159163,
-                    "prediccion_binaria": 0.6108413934707642
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0.29748001982773514,
-                        0.26154296604324034,
-                        0.25592139042617523
-                    ],
-                    "prediccion_continua": 0.27164812543238354,
-                    "rmse": 0.7285844931021546,
-                    "prediccion_binaria": 0
-                },
-                "prueba 0": {
-                    "respuesta": "Sí, el abuelo de María estaba en la competición. Según el texto, la familia incluye \"sus abuelos\" (plural), lo que indica que se refiere a ambos abuelos (abuelo y abuela). Al preguntar si \"su abuelo\" (singular) estaba en la competición, se está haciendo referencia a uno de los dos abuelos mencionados. Dado que todos los miembros de la familia (incluso los abuelos) acudían a hacer castillos de arena, el abuelo sí participaba en la competición. \n\n**Respuesta:** Sí, su abuelo estaba en la competición.",
-                    "tiempo": 14.13965654373169
-                },
-                "prueba 1": {
-                    "respuesta": "La pregunta plantea si el abuelo de María estaba en la competición de castillos de arena. Según el texto, María acompaña a su familia compuesta por **sus padres, sus dos tíos, sus tres tías y sus abuelos**. En español, \"abuelos\" es el plural de \"abuelo\", que se refiere tanto al abuelo como a la abuela (el par de abuelos). Por lo tanto, al mencionar que **\"todos iban a hacer castillos de arena\"**, se incluye al abuelo como parte de \"sus abuelos\".\n\nLa clave está en que **\"abuelos\" implica dos personas** (abuelo y abuela), y el abuelo es un miembro de ese grupo. Por lo tanto, **sí, el abuelo estaba en la competición**.\n\n**Respuesta:** Sí, su abuelo estaba en la competición.",
-                    "tiempo": 13.615654706954956
-                },
-                "prueba 2": {
-                    "respuesta": "Sí, su abuelo estaba en la competición. \n\n**Explicación:**  \nEl texto menciona que \"sus abuelos\" (plural) formaban parte de la familia que iba a construir castillos de arena. En español, \"abuelos\" se refiere a ambos, es decir, al abuelo y la abuela (dos personas). Por lo tanto, el abuelo (uno de ellos) estaba incluido en el grupo que participaba en la competición. La frase \"Todos iban a hacer castillos de arena\" indica que **todos** los miembros mencionados (incluyendo a los abuelos) participaban, lo que confirma que el abuelo estaba presente. \n\nAunque la pregunta usa \"abuelo\" en singular, esto no contradice la información, ya que los \"abuelos\" son el grupo al que pertenece el abuelo. Por lo tanto, **sí, su abuelo estaba en la competición**. \n\n**Respuesta:** Sí.",
-                    "tiempo": 19.692152500152588
-                },
-                "t_byte_medio": 0.19769776562849684
-            },
-            {
-                "id_pregunta": "prediccion",
-                "resp_real": "Siguiendo su rutina, el 14 de julio de un año bisiesto es día par. Por tanto, se despertará pronto, saldrá a correr, comerá con su familia e irá al cine.",
-                "t_byte_indv": [
-                    0.19748490682015052,
-                    0.22762929109426644,
-                    0.21493427478350124
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.42285263538360596,
-                        0.4997393488883972,
-                        0.4773087799549103
-                    ],
-                    "prediccion_continua": 0.4666335880756378,
-                    "rmse": 0.5343425589907901,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": "Para resolver el problema, primero identificamos qué día del año es el 14 de julio en un año bisiesto, considerando que el 1 de enero es el **día 1**.\n\n### Cálculo del día del año:\nEn un año bisiesto, febrero tiene 29 días. Sumamos los días de cada mes hasta el 14 de julio:\n\n- **Enero**: 31 días → días 1-31\n- **Febrero**: 29 días → días 32-60\n- **Marzo**: 31 días → días 61-91\n- **Abril**: 30 días → días 92-121\n- **Mayo**: 31 días → días 122-152\n- **Junio**: 30 días → días 153-182\n- **Julio**: 14 días → días 183-196\n\nPor lo tanto, el **14 de julio es el día 196** del año.\n\n### Determinación de si es par o impar:\nEl día **196** es **par** (196 ÷ 2 = 98), por lo que Juan sigue su rutina para **días pares**.\n\n### Rutina para días pares:\n- **Se despierta pronto**\n- **Sale a correr**\n- **Come con su familia**\n- **Va al cine**\n\n### Conclusión:\nEl **14 de julio** (día 196, par), Juan hará lo siguiente:\n\n**Se despierta pronto, sale a correr, come con su familia y va al cine.**\n\n---\n\n**Respuesta:**  \nSe despierta pronto, sale a correr, come con su familia y va al cine.",
-                    "tiempo": 17.115358591079712
-                },
-                "prueba 1": {
-                    "respuesta": "Para determinar qué hará Juan el 14 de julio de un año bisiesto, debemos calcular el día del año correspondiente y verificar si es par o impar.\n\n**Cálculo del día del año:**\n- **Enero:** 31 días\n- **Febrero (año bisiesto):** 29 días\n- **Marzo:** 31 días\n- **Abril:** 30 días\n- **Mayo:** 31 días\n- **Junio:** 30 días\n- **Julio 14:** 14 días\n\nSumando los días:\n$$\n31 + 29 + 31 + 30 + 31 + 30 + 14 = 196\n$$\nEl 14 de julio corresponde al **día 196** del año.\n\n**Verificación de paridad:**\n- 196 es un número **par** (196 ÷ 2 = 98).\n\n**Rutina de Juan:**\n- **Días pares (196 es par):** Se despierta pronto, sale a correr, come con su familia y va al cine.\n- *(Nota: La descripción original tenía un error tipográfico, afirmando \"días pares\" en ambos casos. Se asume que el segundo caso corresponde a \"días impares\", lo cual es lógico para una rutina alternada.)*\n\n**Conclusión:**\nEl 14 de julio es un día par, por lo que Juan seguirá su rutina para días pares.\n\n**Respuesta:**\nSe despierta pronto, sale a correr, come con su familia y va al cine.",
-                    "tiempo": 19.727871894836426
-                },
-                "prueba 2": {
-                    "respuesta": "Para determinar qué hará Juan el 14 de julio de un año bisiesto, debemos calcular el día del año correspondiente al 14 de julio y verificar si es par o impar.\n\n1. **Cálculo del día del año:**\n   - Enero: 31 días\n   - Febrero (año bisiesto): 29 días → Total acumulado: 31 + 29 = 60\n   - Marzo: 31 días → Total acumulado: 60 + 31 = 91\n   - Abril: 30 días → Total acumulado: 91 + 30 = 121\n   - Mayo: 31 días → Total acumulado: 121 + 31 = 152\n   - Junio: 30 días → Total acumulado: 152 + 30 = 182\n   - Julio 14: 14 días → Total: 182 + 14 = 196\n\n2. **Verificación de paridad:**\n   - El día 196 es par.\n\n3. **Rutina según días pares:**\n   - Según el problema, los días pares (196 es par) corresponden a la rutina: \"se despierta pronto, sale a correr, come con su familia y va al cine\".\n\n**Conclusión:**\nEl 14 de julio de un año bisiesto es un día par, por lo que Juan seguirá su rutina de días pares.\n\n$$\n\\boxed{Se despierta pronto, sale a correr, come con su familia y va al cine}\n$$",
-                    "tiempo": 18.627637147903442
-                },
-                "t_byte_medio": 0.21334949089930608
-            },
-            {
-                "id_pregunta": "pregunta_básica",
-                "resp_real": "La capital de España es Madrid.",
-                "t_byte_indv": [
-                    0.3661300539970398,
-                    0.5053509175777435,
-                    0.4184700846672058
-                ],
-                "SBert": {
-                    "accuracy": [
-                        1.0000001192092896,
-                        0.8075835704803467,
-                        1.0000001192092896
-                    ],
-                    "prediccion_continua": 0.9358612696329752,
-                    "rmse": 0.11109167737972114,
-                    "prediccion_binaria": 0.9358612696329752
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0.7266648546549421,
-                        0.42997781124760104,
-                        0.7266648546549421
-                    ],
-                    "prediccion_continua": 0.6277691735191617,
-                    "rmse": 0.3976386546567471,
-                    "prediccion_binaria": 1
-                },
-                "prueba 0": {
-                    "respuesta": "La capital de España es Madrid.",
-                    "tiempo": 2.9290404319763184
-                },
-                "prueba 1": {
-                    "respuesta": "Madrid",
-                    "tiempo": 4.042807340621948
-                },
-                "prueba 2": {
-                    "respuesta": "La capital de España es Madrid.",
-                    "tiempo": 3.3477606773376465
-                },
-                "t_byte_medio": 0.4299836854139964
-            },
-            {
-                "id_pregunta": "entener_contexto.",
-                "resp_real": "Gris",
-                "t_byte_indv": [
-                    0.46777465581893923,
-                    0.2463090741634369,
-                    0.20546878337860108
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.23232904076576233,
-                        0.2529394030570984,
-                        0.268141508102417
-                    ],
-                    "prediccion_continua": 0.2511366506417592,
-                    "rmse": 0.7490071404463609,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": "El aparato al que te refieres es un **carro de golf**. \n\n**Explicación:**  \n- Es un vehículo redondo (a menudo de color rojo) que se almacena en un garaje.  \n- Puede transportar a 5 personas (la madre + 4 pasajeros).  \n- Se usa en terrenos especializados como campos de golf (terrenos \"especializados\"), aunque también puede circular por caminos regulares.  \n- Sus neumáticos son inflables y, si se pinchan, requieren reparación.  \n\nEste tipo de vehículo es común en jardines, campos de golf o áreas residenciales, y suele ser ligero, colorido y adaptado para terrenos planos o diseñados específicamente para su uso. \n\n✅ **Respuesta:** *Carro de golf*.",
-                    "tiempo": 31.184977054595947
-                },
-                "prueba 1": {
-                    "respuesta": "El aparato del que hablas es un **carro de golf** (golf cart). \n\n**Explicación:**  \n- Es un vehículo *rojo grande* comúnmente usado en campos de golf o terrenos especializados.  \n- Puede llevar a una persona (la conductora) más hasta 4 pasajeros (total 5 personas).  \n- Se utiliza en *terrenos especializados* (como campos de golf) para evitar escombros que puedan causar pinchazos en las ruedas.  \n- Si se pincha una rueda (de neumático inflado), es necesario *arreglarlo* (reparar o cambiar la llanta).  \n\nEs una respuesta común en contextos hispanohablantes, especialmente en España o Latinoamérica, donde los *carros de golf* son populares en áreas residenciales o deportivas. 🚗💨",
-                    "tiempo": 16.420604944229126
-                },
-                "prueba 2": {
-                    "respuesta": "El aparato del que hablas es un **carrito de golf** (golf cart). \n\n**Explicación:**\n- **Color rojo y grande:** Los carritos de golf suelen ser de colores llamativos como rojo, y son dispositivos compactos pero espaciosos para su uso en zonas específicas.\n- **Capacidad:** Puede llevar a la madre (1 persona) más hasta 4 personas más (en total 5), según el modelo.\n- **Terrenos especializados:** Se usan principalmente en campos de golf, complejos residenciales o zonas diseñadas para evitar daños en las ruedas, ya que en terrenos irregulares o con objetos agudos es más fácil que se pinchen las llantas.\n- **Mantenimiento:** Si una llanta se pincha (como ocurre con neumáticos inflados), se requiere repararla, lo que encaja con la descripción.\n\nEstos vehículos no están diseñados para carreteras públicas, sino para terrenos planos y especializados, lo que coincide con la pista del acertijo. 😊",
-                    "tiempo": 13.697918891906738
-                },
-                "t_byte_medio": 0.30651750445365905
-            },
-            {
-                "id_pregunta": "homonimas",
-                "resp_real": "La palabra más repeteida es llamas y tiene estos tres significados en la frase en orden: 1. Segunda persona del presente del verbo llamar. 2. El animal mamífero peludo. 3. Hce referencia a fuego, combistión o algo ardiendo.",
-                "t_byte_indv": [
-                    0.4955061544542727,
-                    0.7030048836832461,
-                    0.4535028623498004
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.7312291860580444,
-                        0.8252414464950562,
-                        0.8204858899116516
-                    ],
-                    "prediccion_continua": 0.7923188408215841,
-                    "rmse": 0.21213487704050715,
-                    "prediccion_binaria": 0.7923188408215841
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0.3816846813628804,
-                        0.37884181792321553,
-                        0.3916691283468573
-                    ],
-                    "prediccion_continua": 0.3840652092109844,
-                    "rmse": 0.615959351967463,
-                    "prediccion_binaria": 0
-                },
-                "prueba 0": {
-                    "respuesta": "Los significados diferentes presentes en la palabra **\"llamas\"** (la que más se repite en la frase) son:\n\n1. **Verbo (segunda persona del singular, presente de indicativo de \"llamar\")**:  \n   *Significa \"tú llamas\"*, es decir, **\"llamar\"** (acción de nombrar o invocar).  \n   Ejemplo en la frase: *\"Tu llamas a tus llamas\"* → \"Tú *llamas* [a tus llamas]\".\n\n2. **Sustantivo (plural de \"llama\")**:  \n   *Significa \"llamas\" (fuego, llamas)*.  \n   Ejemplo en la frase:  \n   - *\"tus llamas\"* → \"tus *llamas* (fuego)\".  \n   - *\"en llamas\"* → \"en *llamas* (fuego)\".\n\n---\n\n**Explicación adicional**:  \nLa palabra **\"llamas\"** es un **homógrafo**, es decir, tiene la misma escritura pero dos significados distintos según el contexto:  \n- Como **verbo**, se refiere a la acción de \"llamar\".  \n- Como **sustantivo**, se refiere a las llamas del fuego.  \n\nEn la frase, se usan ambos significados:  \n- **Primera ocurrencia** (verbo): *\"Tu llamas\"*.  \n- **Segunda y tercera ocurrencias** (sustantivo): *\"tus llamas\"*, *\"en llamas\"*.",
-                    "tiempo": 15.19552206993103
-                },
-                "prueba 1": {
-                    "respuesta": "La palabra que más se repite en la frase **\"Tu llamas a tus llamas en llamas\"** es **\"llamas\"**, y presenta **tres significados distintos**:\n\n1. **Verbal (acción):**  \n   *Llamar* (verbo): \"llamas\" es la conjugación del verbo **llamar** (tú: \"tú llamas\"), que significa **\"llamar\"** o **\"convocar\"** (ej.: *Tú llamas a tus llamas* → \"Tú llamas a [llamas, como animales]\").\n\n2. **Noun (flama):**  \n   *Llamar* (flama, singular femenino): \"llamas\" es el plural de **llama** (como **flama**), referido a **llamas en llamas** → **\"en llamas\"** (en llamas, en fuego).\n\n3. **Noun (animal):**  \n   *Llamar* (animal, singular femenino): \"llamas\" es el plural de **llama** (el animal, una especie de camélido), referido a **\"tus llamas\"** → **\"tus llamas\"** (como animales, no como fuego).\n\n---\n\n### Resumen de significados:\n| Uso en la frase               | Significado          |\n|-------------------------------|-----------------------|\n| \"Tu **llamas** a...\"           | Verbo: **llamar** (tú) |\n| \"tus **llamas**\"              | Noun: **llamas (animales)** |\n| \"en **llamas**\"               | Noun: **llamas (fuego)** |\n\n¡Es un **juego de palabras** con homografía! 🌟",
-                    "tiempo": 21.55881643295288
-                },
-                "prueba 2": {
-                    "respuesta": "Los significados distintos presentes en la palabra que más se repite (\"llamas\") en la frase \"Tu llamas a tus llamas en llamas\" son:\n\n1. **Verbo (segunda persona singular de \"llamar\")**: Significa \"llamar\" o \"hacer sonar\" (ej.: *Tú llamas a tus amigos*).  \n   - *Ejemplo en la frase*: \"Tu **llamas** a tus llamas\" (usado como verbo).\n\n2. **Sustantivo (plural de \"llama\" referido a fuego)**: Significa \"llamas\" o \"llamas de fuego\" (ej.: *La casa está en llamas*).  \n   - *Ejemplos en la frase*: \"tus **llamas**\" (fuego) y \"en **llamas**\" (en llamas/ardiendo).\n\n**Nota**: El significado animal (\"llama\", el animal) **no está presente** en la frase, ya que el contexto claramente usa \"llamas\" para referirse al fuego (ej.: \"en llamas\" es una expresión común para \"en llamas/ardiendo\").",
-                    "tiempo": 13.907421112060547
-                },
-                "t_byte_medio": 0.5506713001624397
-            },
-            {
-                "id_pregunta": "coloquiales",
-                "resp_real": "Si, los helados están chulos.",
-                "t_byte_indv": [
-                    2.3497342467308044,
-                    0.9985757172107697,
-                    2.693022757768631
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.6176799535751343,
-                        0.8101959824562073,
-                        0.6073403358459473
-                    ],
-                    "prediccion_continua": 0.6784054239590963,
-                    "rmse": 0.3348511086177703,
-                    "prediccion_binaria": 0.6784054239590963
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0.36432320506476906,
-                        0.3706376680597019,
-                        0.42518407918969076
-                    ],
-                    "prediccion_continua": 0.3867149841047206,
-                    "rmse": 0.6138933879487168,
-                    "prediccion_binaria": 0
-                },
-                "prueba 0": {
-                    "respuesta": "¡Claro que sí! Pero 'guapos' se dice de personas, no de helados... ¡aunque en este caso, ¡están guapos de verdad! 😂 ¿Quieres uno? 🍦",
-                    "tiempo": 18.797873973846436
-                },
-                "prueba 1": {
-                    "respuesta": "¡Claro que sí, Tronco! Los helados están guapos, ¿no? ¡Se ven tan deliciosos que me da hasta penita no probarlos! 😋 ¿Quieres uno de los de fresa? 🍓",
-                    "tiempo": 7.988605737686157
-                },
-                "prueba 2": {
-                    "respuesta": "¡Sí, están guapos! 😄 ¿Vamos por uno antes de que se derritan y se conviertan en un desastre de sabor? 🍦",
-                    "tiempo": 21.544182062149048
-                },
-                "t_byte_medio": 2.013777573903402
-            },
-            {
-                "id_pregunta": "refranes",
-                "resp_real": "Si, mucha suerte y a por todas.",
-                "t_byte_indv": [
-                    0.2561137757518075,
-                    0.5217152644287456,
-                    0.4637294736775485
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.3814311623573303,
-                        0.4613083302974701,
-                        0.4162258803844452
-                    ],
-                    "prediccion_continua": 0.4196551243464152,
-                    "rmse": 0.5812653853569295,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": "¡Exacto! A estas alturas, haber estudiado tanto ya es un gran paso. El esfuerzo que has invertido te da una base sólida, y aunque el examen parezca complicado, **tú ya tienes la herramienta para afrontarlo**. \n\nLa expresión \"de perdidos al río\" es perfecta: si ya has dado lo mejor de ti, lo único que queda es confiar en tu preparación y actuar con calma. El miedo al fracaso suele venir cuando no nos sentimos listos, pero tú **sí estás listo**. \n\nRecuerda: no se trata de ser perfecto, sino de demostrar lo que sabes. Algunos consejos prácticos:  \n- **Respira profundo** antes de empezar, para calmar la ansiedad.  \n- **Lee las preguntas con calma**, prioriza las que más sabes.  \n- Si te bloqueas, no te rindas: haz una pausa de 3 segundos y sigue.  \n\nEl examen no define tu inteligencia ni tu capacidad, solo es un momento. Tú ya has hecho el trabajo, así que **ve a hacerlo bien, sin miedo**. ¡Tú puedes! 💪📚",
-                    "tiempo": 7.5126707553863525
-                },
-                "prueba 1": {
-                    "respuesta": "¡Exacto! A estas alturas, de perdidos al río. Tu esfuerzo ya es un gran logro, y aunque el examen sea difícil, confía en que tu preparación te ha dado las herramientas para afrontarlo. Respira, enfócate en lo que sí sabes, y recuerda: no eres el único que se preocupa, pero tú sí estás preparado. ¡Tú puedes con esto! 💪✨",
-                    "tiempo": 15.303647756576538
-                },
-                "prueba 2": {
-                    "respuesta": "¡Exacto! A estas alturas, de perdidos al río, ¿no? Pero recuerda: tu esfuerzo ya está hecho, así que confía en lo que has preparado. El examen puede ser complicado, pero tú ya tienes la base para enfrentarlo. Respira, enfócate en una pregunta a la vez, y olvida el miedo —tú estás más que listo. ¡El hecho de haber estudiado tanto ya es un logro, y eso te da fuerza para dar lo mejor! 💪 ¡Tú puedes!",
-                    "tiempo": 13.602731227874756
-                },
-                "t_byte_medio": 0.4138528379527005
-            },
-            {
-                "id_pregunta": "entender_proceso",
-                "resp_real": "Yendo a comer con sus padres.",
-                "t_byte_indv": [
-                    0.2461073126481927,
-                    0.30670974954314856,
-                    0.29752246063688526
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.45389312505722046,
-                        0.562100887298584,
-                        0.49316927790641785
-                    ],
-                    "prediccion_continua": 0.5030544300874075,
-                    "rmse": 0.49895415040607954,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": "Julian terminó de correr a las 14:45 y su próxima actividad, comer con sus padres, comenzó a las 15:15. Por lo tanto, entre las 14:45 y las 15:15, no estaba realizando ninguna actividad especificada en su horario. A las 15:06 (3:06 PM), que está dentro de este intervalo, estaba **en camino a comer con sus padres** (viajando o preparándose para llegar a tiempo). \n\n**Respuesta:** Estaba en camino a comer con sus padres.",
-                    "tiempo": 30.18916368484497
-                },
-                "prueba 1": {
-                    "respuesta": "A las 15:06, Julian aún no había comenzado a comer con sus padres, ya que su actividad de \"comer\" comenzó a las 15:15. Entre las 14:45 (final de correr) y las 15:15 (inicio de comer), no hay otra actividad especificada en el horario. Por lo tanto, a las 15:06, estaba **yendo a comer con sus padres** (en camino hacia la comida). \n\n**Respuesta:** Estaba yendo a comer con sus padres.",
-                    "tiempo": 37.62306261062622
-                },
-                "prueba 2": {
-                    "respuesta": "Julian estaba **en camino a comer con sus padres** a las 15:06. \n\n**Explicación:**  \n- Su actividad de correr terminó a las **14:45**.  \n- La comida con sus padres comenzó a las **15:15** (indicado como \"de 15:15 a 16:00\").  \n- Entre las **14:45** y **15:15**, no hay actividad especificada en su horario. Sin embargo, al decir *\"Después fue a comer con sus padres\"*, se infiere que el tiempo entre **14:45 y 15:15** corresponde al desplazamiento hacia el lugar donde comería.  \n- Por lo tanto, a las **15:06** (9 minutos antes de comenzar a comer), Julian aún estaba **en camino** a la comida.  \n\n**Respuesta:**  \n*En camino a comer con sus padres.*",
-                    "tiempo": 36.49608850479126
-                },
-                "t_byte_medio": 0.28344650760940887
-            },
-            {
-                "id_pregunta": "entender_ironia",
-                "resp_real": "El tono de Adela resulta irónico. Por lo tanto, parece que no tiene intención.",
-                "t_byte_indv": [
-                    0.11210817098617554,
-                    0.09412520422654994,
-                    0.0865302892292247
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.46756711602211,
-                        0.5447307825088501,
-                        0.5342031717300415
-                    ],
-                    "prediccion_continua": 0.5155003567536672,
-                    "rmse": 0.4857027628644123,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": "Adela va a sacar la basura. Su respuesta \"Sí\" confirma que acepta el favor, mientras que la frase \"a este paso, te hago la comida y todo\" es un comentario irónico expresando su frustración por tener que hacer más tareas por Diego, pero **no niega su intención de sacar la basura**. El \"Sí\" es una respuesta directa y afirmativa, incluso si su tono es sarcástico. Por lo tanto, **Adela sí sacará la basura**. \n\n**Respuesta:** Sí, Adela va a sacar la basura.",
-                    "tiempo": 7.6233556270599365
-                },
-                "prueba 1": {
-                    "respuesta": "Adela va a sacar la basura. Aunque su respuesta incluye un tono sarcástico («y a este paso, te hago la comida y todo»), ella responde directamente «Sí» a la petición de Diego. El sarcasmo refleja su frustración por la falta de responsabilidad de Diego, pero no niega su acuerdo inicial. Por lo tanto, sí, Adela cumplirá con el favor y sacará la basura. \n\n**Respuesta final:** Sí, Adela va a sacar la basura.",
-                    "tiempo": 6.4005138874053955
-                },
-                "prueba 2": {
-                    "respuesta": "Adela sí va a sacar la basura. Su respuesta \"Sí\" confirma directamente que acepta hacerlo, aunque su tono sarcástico (\"a este paso, te hago la comida y todo\") expresa frustración por la falta de responsabilidad de Diego. El sarcasmo no anula su acuerdo inicial, sino que refleja su molestia ante el patrón de conducta de él, como evitar tareas. Por lo tanto, **Adela va a sacar la basura**, pero lo hace con una crítica velada a Diego. \n\n**Respuesta final:** Sí, Adela va a sacar la basura.",
-                    "tiempo": 5.88405966758728
-                },
-                "t_byte_medio": 0.09758788814731673
-            },
-            {
-                "id_pregunta": "Adivinanza",
-                "resp_real": "La mujer fotografío a su marido y luego reveló la foto en un cuarto oscuro.",
-                "t_byte_indv": [
-                    0.2595005097060368,
-                    0.19638558502854972,
-                    0.20889536471202455
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.6418917179107666,
-                        0.5392999649047852,
-                        0.5402599573135376
-                    ],
-                    "prediccion_continua": 0.5738172133763632,
-                    "rmse": 0.4288927491759,
-                    "prediccion_binaria": 0
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "prediccion_continua": 0,
-                    "prediccion_binaria": 0,
-                    "rmse": 1
-                },
-                "prueba 0": {
-                    "respuesta": "La explicación es que la mujer **tomó una foto** de su marido (en español, \"disparar\" puede significar \"tomar una foto\" en el contexto fotográfico), luego **desarrolló la foto** (manteniéndola \"bajo el agua\" en el proceso químico de revelado, un término común en fotografía), y finalmente **colgó la foto** en la pared (\"ahorcar\" se refiere a colgar la imagen, no al marido). Por lo tanto, el marido está vivo, y después de terminar el proceso fotográfico, disfrutan de una cena juntos. \n\n**Respuesta:**  \nEs una trampa de palabras: \"disparar\" se refiere a tomar una foto, \"mantener bajo el agua\" al proceso de revelado fotográfico, y \"ahorcar\" a colgar la foto en la pared. El marido no sufrió daño alguno. ✨",
-                    "tiempo": 10.034019708633423
-                },
-                "prueba 1": {
-                    "respuesta": "La explicación es que se trata de una broma basada en el uso de palabras con doble significado. La mujer \"dispara\" a su marido (es decir, **toma una foto** con una cámara, ya que \"disparar\" en español puede referirse a disparar un disparador de cámara). Luego, \"lo mantiene bajo el agua durante cinco minutos\" se refiere a **desarrollar la foto** en un baño químico (bajo el agua, durante el proceso de revelado). Finalmente, \"lo ahorca\" significa **colgar la foto** para que se seque. Por lo tanto, todo fue parte del proceso fotográfico, y luego, sin ningún daño, disfrutaron de una cena encantadora. \n\n**Respuesta:** Ella tomó una foto de su marido, desarrolló la imagen en un proceso que involucró mantenerla bajo el agua (revelado), colgó la foto para secarla y luego salieron a cenar. No hubo daño real, solo un juego de palabras. ✨",
-                    "tiempo": 7.593575954437256
-                },
-                "prueba 2": {
-                    "respuesta": "La explicación se basa en un juego de palabras con los términos utilizados. La mujer no dañó a su marido, sino que realizó acciones relacionadas con **tomar una foto**:\n\n1. **\"Dispara a su marido\"**: \"Disparar\" aquí se refiere a **tomar una foto** con una cámara (como se dice comúnmente en español: *disparar una foto*).  \n2. **\"Lo mantiene bajo el agua durante cinco minutos\"**: Se refiere a **desarrollar la foto en un recipiente con agua** (proceso químico de revelado fotográfico).  \n3. **\"Lo ahorca\"**: Se refiere a **colgar la foto para que se seque** después del revelado.  \n\nDespués de procesar la foto, ella y su marido disfrutan de una cena normal, ya que **nadie fue lastimado**. El acertijo aprovecha la ambigüedad de los términos para crear una ilusión de violencia que, en realidad, solo describe el proceso fotográfico. \n\n**Respuesta**: La mujer tomó una foto de su marido (disparó), desarrolló la foto sumergiéndola en agua (manteniéndolo bajo el agua) y luego colgó la foto para que se secara (lo ahorcó). Después, disfrutaron de una cena normal, ya que todo fue un proceso fotográfico y no un acto violento. 😊",
-                    "tiempo": 8.077287435531616
-                },
-                "t_byte_medio": 0.22159381981553702
-            },
-            {
-                "id_pregunta": "tonos",
-                "resp_real": "Alfredo estaría muy molesto, pero ha mantenido sus modales.",
-                "t_byte_indv": [
-                    0.26957276463508606,
-                    0.36625394225120544,
-                    0.2685788820187251
-                ],
-                "SBert": {
-                    "accuracy": [
-                        0.518480658531189,
-                        0.6108350157737732,
-                        0.6892973184585571
-                    ],
-                    "prediccion_continua": 0.6062043309211731,
-                    "rmse": 0.3999360021609291,
-                    "prediccion_binaria": 0.6062043309211731
-                },
-                "Bleurt": {
-                    "accuracy": [
-                        0.3821653535321601,
-                        0.3603017060138256,
-                        0.3945203975897128
-                    ],
-                    "prediccion_continua": 0.3789958190452329,
-                    "rmse": 0.621165331357061,
-                    "prediccion_binaria": 0
-                },
-                "prueba 0": {
-                    "respuesta": "Alfredo, al solicitar a sus vecinos que bajaran el volumen a las 2 de la madrugada, probablemente estaba **agotado**. El hecho de que fuera tan tarde (horas en las que la mayoría duerme) y su necesidad de descansar para trabajar al día siguiente sugiere que llevaba rato sin poder conciliar el sueño debido al ruido. Su tono, aunque respetuoso al hacer la solicitud, probablemente reflejaba **cansancio y frustración silenciosa**, ya que no es común molestar a los vecinos a esas horas a menos que la situación haya llegado a un punto de extremo. \n\n**Respuesta:** Alfredo tenía un **tono cansado**.",
-                    "tiempo": 12.93949270248413
-                },
-                "prueba 1": {
-                    "respuesta": "Alfredo, al llamar a las 2 de la mañana (horario muy tardío y poco común para interrumpir), teniendo que trabajar al día siguiente, probablemente estaba **enojado** o **frustrado**. El hecho de que la hora fuera tan inapropiada (muy avanzada) y que necesitara descansar para su trabajo sugiere que su estado de ánimo no era tranquilo. Aunque podría haber intentado ser educado, la situación (ser molestado en plena noche) suele generar irritación, lo que se refleja en un tono de voz firme o exasperado. Por lo tanto, el tono que usó es **enojado**. \n\n**Respuesta:** Enojado.",
-                    "tiempo": 17.58018922805786
-                },
-                "prueba 2": {
-                    "respuesta": "Alfredo tenía un tono **educado**. A pesar de que era muy tarde (2 de la mañana), al pedir amablemente a sus vecinos que bajaran el volumen para poder descansar antes de su trabajo, demostró respeto y consideración. Aunque la situación podría generar molestia, su forma de preguntar refleja cortesía, no irritación. El hecho de usar una pregunta (\"¿Pueden bajar el volumen?\") en lugar de una orden directa confirma que su tono era **educado**. \n\nRespuesta: **Educado**.",
-                    "tiempo": 12.891786336898804
-                },
-                "t_byte_medio": 0.30146852963500553
-            }
-        ],
         "lim_dominio": {
             "Salud": [
                 {
@@ -1833,12 +949,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.27485899337935615,
-                            0.30153500292927504,
-                            0.29859699239573234
+                            0.550325947847532,
+                            0.5711422588712752,
+                            0.5731157628835826
                         ],
-                        "prediccion_continua": 0.2916636629014545,
-                        "rmse": 0.708437014535548,
+                        "prediccion_continua": 0.5648613232007965,
+                        "rmse": 0.43526079048608646,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -1875,12 +991,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.4250016383727491,
-                            0.4348403716234933,
-                            0.438018900927028
+                            0.5250569350990318,
+                            0.5226793631802299,
+                            0.5257577792912769
                         ],
-                        "prediccion_continua": 0.4326203036410902,
-                        "rmse": 0.5674067550813847,
+                        "prediccion_continua": 0.5244980258568462,
+                        "rmse": 0.47550379919067504,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -1959,12 +1075,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.412477911766166,
-                            0.4198590336993935,
-                            0.39484578265503234
+                            0.5321606201789107,
+                            0.5273519452923948,
+                            0.5208420333106352
                         ],
-                        "prediccion_continua": 0.4090609093735306,
-                        "rmse": 0.5910322528461671,
+                        "prediccion_continua": 0.5267848662606469,
+                        "rmse": 0.4732378633668807,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2001,12 +1117,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.3799834059603603,
-                            0.38312218406362547,
-                            0.37833643815982115
+                            0.5255744187848984,
+                            0.5243401024750606,
+                            0.5387204738859905
                         ],
-                        "prediccion_continua": 0.38048067606126895,
-                        "rmse": 0.6195225045142334,
+                        "prediccion_continua": 0.5295449983819832,
+                        "rmse": 0.47050000759358407,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2043,12 +1159,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.3756497219546566,
-                            0.395899763985705,
-                            0.43227472623407454
+                            0.5607219983983275,
+                            0.5713053639278808,
+                            0.5643588016316345
                         ],
-                        "prediccion_continua": 0.4012747373914787,
-                        "rmse": 0.5991834308235444,
+                        "prediccion_continua": 0.5654620546526142,
+                        "rmse": 0.4345601252623129,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2085,12 +1201,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.332814537576062,
-                            0.35421273330418307,
-                            0.3565674401221871
+                            0.5533338701910839,
+                            0.5461565115427446,
+                            0.5430093285571219
                         ],
-                        "prediccion_continua": 0.3478649036674774,
-                        "rmse": 0.6522226343325856,
+                        "prediccion_continua": 0.5474999034303168,
+                        "rmse": 0.4525207241366001,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2127,12 +1243,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.35615692876525684,
-                            0.3882138078568034,
-                            0.3699768315257155
+                            0.5448924816497958,
+                            0.5352296850033248,
+                            0.5248459027106857
                         ],
-                        "prediccion_continua": 0.3714491893825919,
-                        "rmse": 0.6286879029874933,
+                        "prediccion_continua": 0.5349893564546021,
+                        "rmse": 0.46508268624400306,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2169,12 +1285,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.35132417236425356,
-                            0.37808132802174377,
-                            0.3442156173844804
+                            0.5267240693215373,
+                            0.5318400252638948,
+                            0.5254672037224557
                         ],
-                        "prediccion_continua": 0.3578737059234926,
-                        "rmse": 0.6422918133259308,
+                        "prediccion_continua": 0.5280104327692959,
+                        "rmse": 0.4719976141350226,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2211,12 +1327,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.4402681969907791,
-                            0.39077264553646496,
-                            0.3986756760617079
+                            0.5396386654921422,
+                            0.5361988630617295,
+                            0.5350724392201299
                         ],
-                        "prediccion_continua": 0.4099055061963173,
-                        "rmse": 0.5904937491304586,
+                        "prediccion_continua": 0.5369699892580005,
+                        "rmse": 0.4630340843133861,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2253,12 +1369,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.412228974565496,
-                            0.36433515936694144,
-                            0.4036054187355374
+                            0.5586263938734746,
+                            0.5327849938854097,
+                            0.5320222392615008
                         ],
-                        "prediccion_continua": 0.39338985088932493,
-                        "rmse": 0.6069681662489925,
+                        "prediccion_continua": 0.5411445423401283,
+                        "rmse": 0.45902204256063417,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2295,12 +1411,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.3629266479666115,
-                            0.4149046263705569,
-                            0.4046710380956513
+                            0.5359745977150183,
+                            0.5395792609053082,
+                            0.5340681680094365
                         ],
-                        "prediccion_continua": 0.3941674374776066,
-                        "rmse": 0.6062495704454134,
+                        "prediccion_continua": 0.5365406755432544,
+                        "rmse": 0.4634649584079772,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2337,12 +1453,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.4515713332802883,
-                            0.46380426460488794,
-                            0.4662207740984143
+                            0.5224847550466829,
+                            0.5248067869788812,
+                            0.5319426513066929
                         ],
-                        "prediccion_continua": 0.4605321239945302,
-                        "rmse": 0.5395059873439657,
+                        "prediccion_continua": 0.526411397777419,
+                        "rmse": 0.47360570116570205,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2421,12 +1537,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.4277946735671074,
-                            0.43488382569237005,
-                            0.44988146714493904
+                            0.5615428331438201,
+                            0.5403788752192421,
+                            0.5612967884971999
                         ],
-                        "prediccion_continua": 0.4375199888014721,
-                        "rmse": 0.5625553680165979,
+                        "prediccion_continua": 0.5544061656200875,
+                        "rmse": 0.44570422677494226,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2463,12 +1579,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.4985818514444392,
-                            0.4880366010364751,
-                            0.4837885568684572
+                            0.5829640591811279,
+                            0.5874330128501274,
+                            0.5964518544515317
                         ],
-                        "prediccion_continua": 0.49013566978312384,
-                        "rmse": 0.5099022571693266,
+                        "prediccion_continua": 0.5889496421609289,
+                        "rmse": 0.4110886362640108,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2505,12 +1621,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.44123107157857283,
-                            0.39799113507080086,
-                            0.37656142866360287
+                            0.5348371765853944,
+                            0.5384214431260627,
+                            0.5618413856581148
                         ],
-                        "prediccion_continua": 0.40526121177099217,
-                        "rmse": 0.5953466892079328,
+                        "prediccion_continua": 0.5450333351231906,
+                        "rmse": 0.4551242276473809,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2547,12 +1663,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.35966902848439664,
-                            0.39813257474083114,
-                            0.39578195764735874
+                            0.5702855749167745,
+                            0.5454360966740028,
+                            0.5657202737866561
                         ],
-                        "prediccion_continua": 0.38452785362419545,
-                        "rmse": 0.6157238540597768,
+                        "prediccion_continua": 0.5604806484591446,
+                        "rmse": 0.4396520252546364,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2589,12 +1705,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.3154040775486695,
-                            0.33370922617932675,
-                            0.33678320972463843
+                            0.54028093053858,
+                            0.537144316883424,
+                            0.5362198265072275
                         ],
-                        "prediccion_continua": 0.3286321711508782,
-                        "rmse": 0.6714341574120013,
+                        "prediccion_continua": 0.5378816913097438,
+                        "rmse": 0.462121576912675,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2631,12 +1747,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.44532346294018654,
-                            0.4929102964148501,
-                            0.48103763156368307
+                            0.558360513734081,
+                            0.5545532140850852,
+                            0.5427849677128139
                         ],
-                        "prediccion_continua": 0.47309046363957324,
-                        "rmse": 0.5272975023961879,
+                        "prediccion_continua": 0.5518995651773267,
+                        "rmse": 0.44814947679709327,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2673,12 +1789,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.38743669082374027,
-                            0.44245407074405396,
-                            0.44516107440553526
+                            0.5254390410562881,
+                            0.5349857471776432,
+                            0.5381668391334044
                         ],
-                        "prediccion_continua": 0.42501727865777644,
-                        "rmse": 0.575597516885328,
+                        "prediccion_continua": 0.5328638757891119,
+                        "rmse": 0.4671674316407844,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2715,12 +1831,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5545396350432409,
-                            0.5514340963338104,
-                            0.5243998925705057
+                            0.6657088098242034,
+                            0.6617989911587335,
+                            0.6562466839820984
                         ],
-                        "prediccion_continua": 0.5434578746491856,
-                        "rmse": 0.45674273169412005,
+                        "prediccion_continua": 0.6612514949883451,
+                        "rmse": 0.33877075064793905,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2759,12 +1875,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.36718422762296127,
-                            0.40548656086682716,
-                            0.3994287570720312
+                            0.5393340306494466,
+                            0.541473466150714,
+                            0.5379235712832809
                         ],
-                        "prediccion_continua": 0.3906998485206065,
-                        "rmse": 0.6095320196432522,
+                        "prediccion_continua": 0.5395770226944805,
+                        "rmse": 0.4604252901890898,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2801,12 +1917,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.3321275788895992,
-                            0.32538157022358083,
-                            0.31046066366276875
+                            0.5629433303613085,
+                            0.5654432160758248,
+                            0.5461925898431055
                         ],
-                        "prediccion_continua": 0.3226566042586496,
-                        "rmse": 0.6774038906074326,
+                        "prediccion_continua": 0.5581930454267462,
+                        "rmse": 0.4418896153428269,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2927,12 +2043,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.39324712173863524,
-                            0.39140224754614505,
-                            0.33737697425298824
+                            0.5198484236326488,
+                            0.5264418757035191,
+                            0.5362478269782405
                         ],
-                        "prediccion_continua": 0.3740087811792561,
-                        "rmse": 0.6265273481183028,
+                        "prediccion_continua": 0.5275127087714694,
+                        "rmse": 0.47253532896410944,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -2969,12 +2085,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.34588276490355196,
-                            0.3575991788058746,
-                            0.37133339897739226
+                            0.548100648125276,
+                            0.5450610616258926,
+                            0.5559429694162259
                         ],
-                        "prediccion_continua": 0.35827178089560635,
-                        "rmse": 0.6418125031405011,
+                        "prediccion_continua": 0.5497015597224649,
+                        "rmse": 0.45032177691240377,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -3011,12 +2127,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.29244231694723716,
-                            0.30933626547026893,
-                            0.35217397231035946
+                            0.5337412305916162,
+                            0.5401298807462048,
+                            0.5359793969889872
                         ],
-                        "prediccion_continua": 0.31798418490928854,
-                        "rmse": 0.6824790182840026,
+                        "prediccion_continua": 0.5366168361089361,
+                        "rmse": 0.4633907230589984,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -3053,12 +2169,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.3861911866578257,
-                            0.4095353441836112,
-                            0.3851442373054991
+                            0.555168532386212,
+                            0.5581110015873081,
+                            0.5256230698774775
                         ],
-                        "prediccion_continua": 0.39362358938231207,
-                        "rmse": 0.6064809362278781,
+                        "prediccion_continua": 0.5463008679503325,
+                        "rmse": 0.45393626326834224,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -3095,12 +2211,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.3643980119334045,
-                            0.324958742109727,
-                            0.40547630882245744
+                            0.5261681634597232,
+                            0.5220255002599071,
+                            0.5292556211784712
                         ],
-                        "prediccion_continua": 0.3649443542885296,
-                        "rmse": 0.63590591716586,
+                        "prediccion_continua": 0.5258164282993673,
+                        "rmse": 0.47419282361819526,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -3137,12 +2253,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.4616605932622782,
-                            0.4663139459999706,
-                            0.4883599920216258
+                            0.5394972542966768,
+                            0.5277682035365261,
+                            0.5252928058719885
                         ],
-                        "prediccion_continua": 0.47211151042795824,
-                        "rmse": 0.5280169248691926,
+                        "prediccion_continua": 0.5308527545683971,
+                        "rmse": 0.4691881529295431,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -3179,12 +2295,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.39301639531221666,
-                            0.40154983388652704,
-                            0.3824039356326826
+                            0.5434485626756794,
+                            0.5320578626170555,
+                            0.5329801708400762
                         ],
-                        "prediccion_continua": 0.392323388277142,
-                        "rmse": 0.6077270759156663,
+                        "prediccion_continua": 0.5361621987109371,
+                        "rmse": 0.46386656834697126,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -3221,12 +2337,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.3557516149448304,
-                            0.339255905483666,
-                            0.35652909656340753
+                            0.5245434836815657,
+                            0.5196306757403205,
+                            0.5160572483174541
                         ],
-                        "prediccion_continua": 0.350512205663968,
-                        "rmse": 0.6495366409099923,
+                        "prediccion_continua": 0.5200771359131134,
+                        "rmse": 0.47993547257433017,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -3263,12 +2379,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.448099730700198,
-                            0.4462507319008523,
-                            0.43722412195542193
+                            0.527636968912402,
+                            0.5208517654478017,
+                            0.5206727243244518
                         ],
-                        "prediccion_continua": 0.44385819485215744,
-                        "rmse": 0.5561621010947503,
+                        "prediccion_continua": 0.5230538195615518,
+                        "rmse": 0.47695719619944044,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -3305,12 +2421,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.44549704239617877,
-                            0.41104510514598935,
-                            0.4246848026456937
+                            0.5248062295607796,
+                            0.535195345078141,
+                            0.529716138155053
                         ],
-                        "prediccion_continua": 0.42707565006262066,
-                        "rmse": 0.5730994603820841,
+                        "prediccion_continua": 0.5299059042646579,
+                        "rmse": 0.4701132478502983,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -3347,12 +2463,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.4095751112505062,
-                            0.3847211041353487,
-                            0.4138951479868099
+                            0.5402039908552384,
+                            0.5534133827217255,
+                            0.5438571878546505
                         ],
-                        "prediccion_continua": 0.40273045445755495,
-                        "rmse": 0.5974078915070451,
+                        "prediccion_continua": 0.5458248538105381,
+                        "rmse": 0.4542092916374452,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -3389,12 +2505,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.46798299556654693,
-                            0.4547464080093483,
-                            0.4644651402959159
+                            0.5912005215702802,
+                            0.5835161017027524,
+                            0.5621116771839931
                         ],
-                        "prediccion_continua": 0.4623981812906037,
-                        "rmse": 0.5376309634384681,
+                        "prediccion_continua": 0.5789427668190086,
+                        "rmse": 0.4212370806580298,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -3473,12 +2589,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.31506153744966514,
-                            0.3171686673582019,
-                            0.32689047398785237
+                            0.571431567196498,
+                            0.559372729838998,
+                            0.5484464245840907
                         ],
-                        "prediccion_continua": 0.31970689293190646,
-                        "rmse": 0.6803126144958381,
+                        "prediccion_continua": 0.5597502405398623,
+                        "rmse": 0.44034983224555974,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -3515,12 +2631,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.3211266628704549,
-                            0.3418254587322552,
-                            0.33549519239991055
+                            0.5479007422044364,
+                            0.5417859711389769,
+                            0.5569332274647393
                         ],
-                        "prediccion_continua": 0.33281577133420687,
-                        "rmse": 0.6672404299206405,
+                        "prediccion_continua": 0.5488733136027175,
+                        "rmse": 0.4511695911994226,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -3557,12 +2673,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.452305096469635,
-                            0.45197543543588276,
-                            0.45221342972415574
+                            0.5496741389788459,
+                            0.5323279691489713,
+                            0.5474975873936052
                         ],
-                        "prediccion_continua": 0.45216465387655785,
-                        "rmse": 0.5478353637402994,
+                        "prediccion_continua": 0.5431665651738075,
+                        "rmse": 0.45689858209431167,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -3641,12 +2757,12 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.36384310098164885,
-                            0.4440450345211648,
-                            0.4375489407183112
+                            0.5768736517150457,
+                            0.6033135132779971,
+                            0.6246369818243582
                         ],
-                        "prediccion_continua": 0.4151456920737083,
-                        "rmse": 0.5859842767789113,
+                        "prediccion_continua": 0.6016080489391337,
+                        "rmse": 0.3988706852998573,
                         "prediccion_binaria": 0
                     },
                     "prueba 0": {
@@ -3686,12 +2802,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.32122658246876595,
-                        0.34977651592066794,
-                        0.33911550827852244
+                        0.5607230004028975,
+                        0.5640079681010742,
+                        0.555618344711625
                     ],
-                    "prediccion_continua": 0.33670620222265213,
-                    "rmse": 0.6633983828221803,
+                    "prediccion_continua": 0.5601164377385323,
+                    "rmse": 0.4398971053216964,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -3728,12 +2844,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.26103484911945,
-                        0.26911301016645794,
-                        0.2787656654798879
+                        0.5835957403748819,
+                        0.5546872111890705,
+                        0.5415521161797554
                     ],
-                    "prediccion_continua": 0.2696378415885986,
-                    "rmse": 0.7303981223539482,
+                    "prediccion_continua": 0.5599450225812359,
+                    "rmse": 0.44040528663636286,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -3770,12 +2886,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.27063063916496444,
-                        0.2589237663532987,
-                        0.26704989347636576
+                        0.5623887896876071,
+                        0.5541130336214563,
+                        0.5690323755358552
                     ],
-                    "prediccion_continua": 0.265534766331543,
-                    "rmse": 0.7344815648364714,
+                    "prediccion_continua": 0.5618447329483062,
+                    "rmse": 0.43819776795171916,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -3896,12 +3012,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.27247475106166535,
-                        0.28721942721121496,
-                        0.2553750773729564
+                        0.5490575119003284,
+                        0.5765568609816675,
+                        0.5321564020453883
                     ],
-                    "prediccion_continua": 0.2716897518819456,
-                    "rmse": 0.728426479517145,
+                    "prediccion_continua": 0.5525902583091281,
+                    "rmse": 0.44778374680282806,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -3938,12 +3054,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.3547240369939788,
-                        0.3594337200460828,
-                        0.36232053282798093
+                        0.5697612541360185,
+                        0.5473012346939815,
+                        0.5453089354570771
                     ],
-                    "prediccion_continua": 0.3588260966226809,
-                    "rmse": 0.6411815474315468,
+                    "prediccion_continua": 0.5541238080956924,
+                    "rmse": 0.44601401873610125,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -4022,12 +3138,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.235068667492304,
-                        0.21903728969740138,
-                        0.21376386354078653
+                        0.5395082123278065,
+                        0.5729521681841906,
+                        0.5455829649733263
                     ],
-                    "prediccion_continua": 0.22262327357683062,
-                    "rmse": 0.7774295167643798,
+                    "prediccion_continua": 0.5526811151617744,
+                    "rmse": 0.44755535184471856,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -4148,12 +3264,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.3621790031708613,
-                        0.43862444780630905,
-                        0.37821278542683645
+                        0.5579057041282465,
+                        0.55203363858349,
+                        0.5968331088605341
                     ],
-                    "prediccion_continua": 0.39300541213466894,
-                    "rmse": 0.6078863585691932,
+                    "prediccion_continua": 0.5689241505240902,
+                    "rmse": 0.4315339961556334,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -4190,12 +3306,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.37862700930724014,
-                        0.3656356539386243,
-                        0.3432266794659502
+                        0.552790615232586,
+                        0.5583104659380563,
+                        0.5490693291123849
                     ],
-                    "prediccion_continua": 0.3624964475706049,
-                    "rmse": 0.6376712088220342,
+                    "prediccion_continua": 0.5533901367610091,
+                    "rmse": 0.4466259987472966,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -4232,12 +3348,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.4145825416483828,
-                        0.413802308205443,
-                        0.43777279770509364
+                        0.5684860281573239,
+                        0.5528814182290624,
+                        0.54434578064648
                     ],
-                    "prediccion_continua": 0.42205254918630647,
-                    "rmse": 0.57805442690935,
+                    "prediccion_continua": 0.5552377423442888,
+                    "rmse": 0.444874552233534,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -4316,12 +3432,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.28479413367061956,
-                        0.29587063121153623,
-                        0.30306203075441296
+                        0.5832943637045765,
+                        0.5958086717348099,
+                        0.5869418652868632
                     ],
-                    "prediccion_continua": 0.2945755985455229,
-                    "rmse": 0.7054644172927418,
+                    "prediccion_continua": 0.5886816335754166,
+                    "rmse": 0.4113519335953292,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -4358,12 +3474,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.32045363056176807,
-                        0.3603243052346458,
-                        0.39044881311353863
+                        0.5332380359623057,
+                        0.5113005278122403,
+                        0.5198749411804439
                     ],
-                    "prediccion_continua": 0.35707558296998415,
-                    "rmse": 0.6435632349466301,
+                    "prediccion_continua": 0.52147116831833,
+                    "rmse": 0.47861396319490546,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -4400,12 +3516,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.3005477053941226,
-                        0.33380864384594067,
-                        0.32382118903710716
+                        0.5351631881638801,
+                        0.5141282534633952,
+                        0.5231827752849729
                     ],
-                    "prediccion_continua": 0.31939251275905683,
-                    "rmse": 0.6807501303314855,
+                    "prediccion_continua": 0.5241580723040827,
+                    "rmse": 0.4759199097556365,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -4526,12 +3642,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.3811046869144085,
-                        0.3733995753946796,
-                        0.38200597621998333
+                        0.5838917325632612,
+                        0.5803287204600575,
+                        0.5535394481216358
                     ],
-                    "prediccion_continua": 0.37883674617635715,
-                    "rmse": 0.62117526085711,
+                    "prediccion_continua": 0.5725866337149849,
+                    "rmse": 0.42762799155474324,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -4568,12 +3684,12 @@
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.32584783738668405,
-                        0.3213934375118333,
-                        0.29255220715365843
+                        0.5601214556599938,
+                        0.5471454223761469,
+                        0.5575495794658226
                     ],
-                    "prediccion_continua": 0.3132644940173919,
-                    "rmse": 0.6868940686431393,
+                    "prediccion_continua": 0.5549388191673211,
+                    "rmse": 0.44509653517577197,
                     "prediccion_binaria": 0
                 },
                 "prueba 0": {
@@ -4590,30 +3706,956 @@
                 },
                 "t_byte_medio": 1.4346757155877574
             }
+        ],
+        "falta_contexto": [
+            {
+                "id_pregunta": "trampa_inicial",
+                "resp_real": "No se ha establecido ninguna conversación previa a esta pregunta, por lo que no sé de qué estábamos hablando.",
+                "t_byte_indv": [
+                    1.623678982257843,
+                    0.5364200949668885,
+                    0.4074573040008545
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.6465167999267578,
+                        0.670994222164154,
+                        0.6947401165962219
+                    ],
+                    "prediccion_continua": 0.6707503795623779,
+                    "rmse": 0.32983772323122673,
+                    "prediccion_binaria": 0.6707503795623779
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0.5455004102549157,
+                        0.5643362705502485,
+                        0.5653387440689221
+                    ],
+                    "prediccion_continua": 0.5583918082913621,
+                    "rmse": 0.4417024525039823,
+                    "prediccion_binaria": 0
+                },
+                "prueba 0": {
+                    "respuesta": "No hay un historial de conversación previo en esta sesión, ya que es el primer intercambio. ¿En qué puedo ayudarte hoy? 😊",
+                    "tiempo": 10.82452654838562
+                },
+                "prueba 1": {
+                    "respuesta": "No hay ningún historial de conversación previo en esta sesión, ya que es la primera interacción. ¿En qué tema o pregunta te gustaría que te ayudara? 😊",
+                    "tiempo": 3.576133966445923
+                },
+                "prueba 2": {
+                    "respuesta": "Lo siento, pero no hay un historial de conversación previo. Estamos comenzando una nueva conversación. ¿En qué puedo ayudarte?",
+                    "tiempo": 2.7163820266723633
+                },
+                "t_byte_medio": 0.8558521270751953
+            },
+            {
+                "id_pregunta": "contexto_inicial",
+                "resp_real": "Joaquín.",
+                "t_byte_indv": [
+                    2.5737408101558685,
+                    0.6038613021373749,
+                    0.8444352149963379
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.8084492087364197,
+                        0.6928023099899292,
+                        0.6928023099899292
+                    ],
+                    "prediccion_continua": 0.7313512762387594,
+                    "rmse": 0.2741243921584693,
+                    "prediccion_binaria": 0.7313512762387594
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0.6501401097354318,
+                        0.5702977568708085,
+                        0.5702977568708085
+                    ],
+                    "prediccion_continua": 0.5969118744923496,
+                    "rmse": 0.40484152385695044,
+                    "prediccion_binaria": 0
+                },
+                "prueba 0": {
+                    "respuesta": "Te llamas Joaquín. 😊",
+                    "tiempo": 20.58992648124695
+                },
+                "prueba 1": {
+                    "respuesta": "Te llamas Joaquín. 😊 ¿Necesitas ayuda con algo más?",
+                    "tiempo": 4.830890417098999
+                },
+                "prueba 2": {
+                    "respuesta": "Te llamas Joaquín. 😊 ¿Necesitas ayuda con algo más?",
+                    "tiempo": 6.755481719970703
+                },
+                "t_byte_medio": 1.340679109096527
+            },
+            {
+                "id_pregunta": "resumen",
+                "resp_real": "Estamos en 2028. Este año no es bisiesto. El siguiente es 2032",
+                "t_byte_indv": [
+                    0.02599177539693138,
+                    0.04448790891322097,
+                    0.04295401714440715
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.008448831737041473,
+                        0.0050654299557209015,
+                        -0.010948318988084793
+                    ],
+                    "prediccion_continua": 0.0008553142348925272,
+                    "rmse": 0.9991805011470929,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": "El aparato digestivo transforma los alimentos en nutrientes absorbibles mediante una secuencia de procesos. Comienza en la boca, donde los dientes muelen los alimentos y la saliva (con enzimas para carbohidratos) forma el bolo alimenticio, que se dirige a la faringe y esófago mediante peristaltismo. En el estómago, los jugos gástricos (ácido clorhídrico y enzimas) descomponen proteínas y convierten el alimento en quimo. Este pasa al intestino delgado, donde la bilis del hígado (para grasas) y las enzimas pancreáticas (con bicarbonato para neutralizar acidez) completan la digestión; las vellosidades intestinales absorben nutrientes. Los residuos llegan al intestino grueso, que absorbe agua y sales minerales, mientras la microbiota fermenta materiales y produce vitaminas. Finalmente, las heces se almacenan en el recto y se expulsan por el ano, completando el proceso digestivo.",
+                    "tiempo": 11.990872383117676
+                },
+                "prueba 1": {
+                    "respuesta": "El aparato digestivo transforma los alimentos en nutrientes absorbibles mediante un proceso que comienza en la boca, donde la masticación y la saliva (con enzimas para carbohidratos) forman el bolo alimenticio, que viaja al estómago a través del esófago. Allí, el ácido gástrico y las enzimas descomponen proteínas, formando quimo. Este pasa al intestino delgado, donde el hígado produce bilis para digerir grasas y el páncreas secreta enzimas y bicarbonato para neutralizar acidez, facilitando la absorción de nutrientes mediante las vellosidades. En el intestino grueso, se absorben agua y sales minerales, mientras la microbiota intestinal fermenta y produce vitaminas. Finalmente, los residuos se almacenan en el recto y se expulsan por el ano.",
+                    "tiempo": 20.523755311965942
+                },
+                "prueba 2": {
+                    "respuesta": "El aparato digestivo transforma los alimentos en nutrientes absorbibles mediante procesos de ingestión, digestión (mecánica y química), absorción y eliminación. Comienza en la boca, donde la masticación y la saliva (con amilasa) inician la digestión de carbohidratos. El alimento viaja por el esófago (gracias al peristaltismo) hacia el estómago, donde el ácido clorhídrico y enzimas descomponen proteínas, formando quimo. En el intestino delgado (duodeno, yeyuno e íleon), con la ayuda del hígado (bilis para digerir grasas) y el páncreas (enzimas y bicarbonato), ocurre la mayor parte de la digestión y absorción, facilitada por las vellosidades intestinales. El intestino grueso absorbe agua y sales minerales, mientras la microbiota intestinal fermenta residuos y produce vitaminas. Finalmente, las heces se almacenan en el recto y se expulsan por el ano, completando el recorrido digestivo.",
+                    "tiempo": 19.8161199092865
+                },
+                "t_byte_medio": 0.0378112338181865
+            },
+            {
+                "id_pregunta": "cambio_de_contexto",
+                "resp_real": "Si, las zanahorias son buenas para la vista.",
+                "t_byte_indv": [
+                    0.12642509828914295,
+                    0.2790753895586187,
+                    0.10160557248375633
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.45206379890441895,
+                        0.4985066056251526,
+                        0.5738072395324707
+                    ],
+                    "prediccion_continua": 0.508125881354014,
+                    "rmse": 0.49442558393472996,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": "La pregunta sobre las zanahorias y la vista es un mito popular que **tiene un fundamento parcial, pero también una historia curiosa**:\n\n1. **El mito**: Durante la Segunda Guerra Mundial, el gobierno británico difundió que los pilotos de la RAF comían zanahorias para mejorar su visión nocturna, lo que ayudaba a explicar su éxito en combates nocturnos. En realidad, esto era una estrategia para ocultar el uso de tecnología de radar.\n\n2. **La verdad científica**: Las zanahorias contienen **betacaroteno**, un precursor de la vitamina A, que **sí es esencial para la salud ocular** (mantiene la retina y previene la sequedad). Sin embargo, **comer zanahorias no \"mejora\" la visión por sí sola**, ni sustituye a un tratamiento médico para problemas oculares. La vitamina A es necesaria en la dieta, pero su exceso no tiene beneficios adicionales.\n\n3. **Curiosidad**: El Teatro Real en Madrid tiene un concierto con 5 violines, 3 tubas (¡muy pocas!), 8 trompetas, 5 trombones y un saxofón. Aunque es una información interesante, **no tiene relación con la pregunta sobre las zanahorias**. ¡Una distracción divertida! 🥕🔍\n\n**Conclusión**: Sí, las zanahorias son buenas para la vista *en el sentido de que aportan vitamina A*, pero el mito sobre \"ver mejor por la noche\" es una exageración. ¡Pero sigue comiendo zanahorias por su sabor y nutrientes! 😊",
+                    "tiempo": 5.56270432472229
+                },
+                "prueba 1": {
+                    "respuesta": "El concierto que describes en el Teatro Real suena increíblemente interesante, aunque los detalles sobre los instrumentos (5 violines, 3 tubas, etc.) no tienen relación con tu pregunta sobre las zanahorias. \n\nEn cuanto a si las zanahorias son buenas para la vista: **¡sí, lo son!** Contienen betacaroteno, un compuesto que el cuerpo transforma en **vitamina A**, esencial para mantener la salud ocular. La vitamina A ayuda a proteger la córnea y a prevenir problemas como la sequedad ocular o la ceguera nocturna en casos de deficiencia. \n\nSin embargo, hay un **mito popular** (difundido durante la Segunda Guerra Mundial por propaganda británica para ocultar el uso de radares) de que las zanahorias mejoran *directamente* la visión nocturna. En realidad, su efecto es parte de una **dieta equilibrada** (no una cura milagrosa). Si consumes zanahorias en cantidades moderadas, contribuirán a tu salud ocular, pero no sustituyen otros alimentos ricos en vitamina A o cuidados médicos si hay problemas específicos. \n\nEn resumen: **¡Sí, son buenas para los ojos, pero no \"mágicas\"!** 😊🥦",
+                    "tiempo": 12.279317140579224
+                },
+                "prueba 2": {
+                    "respuesta": "La pregunta sobre las zanahorias y la vista es una consulta independiente de los detalles del concierto. Aunque el contexto del concierto es interesante, no está relacionado con la pregunta. Aquí la respuesta:\n\n**Sí, las zanahorias son buenas para la vista**, pero con matices. Contienen betacaroteno (que el cuerpo convierte en vitamina A), esencial para la salud ocular, especialmente para la visión en penumbra. Sin embargo, la idea de que \"comer zanahorias mejora drásticamente la visión nocturna\" es un **mito popular**, originado durante la Segunda Guerra Mundial (los británicos usaron esta historia para ocultar el uso de radares en combate nocturno). \n\nEn resumen:  \n- Las zanahorias contribuyen a la salud ocular por su contenido de vitamina A.  \n- No son un \"remedio mágico\" para mejorar la visión más allá de lo normal.  \n- Una dieta equilibrada (con otros alimentos ricos en antioxidantes, como espinacas o pescado) es clave para la salud visual.  \n\n¡El concierto sonó genial! 🎻🎹 (Pero las zanahorias siempre serán más útiles en la sopa que en el escenario 😄).",
+                    "tiempo": 4.470645189285278
+                },
+                "t_byte_medio": 0.16903535344383933
+            },
+            {
+                "id_pregunta": "contexto_detallado",
+                "resp_real": "El caballo de Santiago es blanco.",
+                "t_byte_indv": [
+                    0.21078124128538986,
+                    0.14992416316065296,
+                    0.18086464651699724
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.7338290214538574,
+                        0.7534942626953125,
+                        0.6109373569488525
+                    ],
+                    "prediccion_continua": 0.6994202136993408,
+                    "rmse": 0.3071274483349886,
+                    "prediccion_binaria": 0.6994202136993408
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0.5440334043401456,
+                        0.5450165508924314,
+                        0.5487849332923285
+                    ],
+                    "prediccion_continua": 0.5459449628416352,
+                    "rmse": 0.454059655311012,
+                    "prediccion_binaria": 0
+                },
+                "prueba 0": {
+                    "respuesta": "El caballo de Santiago es **blanco**. \n\n**Explicación:**  \nEl enunciado afirma claramente que Santiago tiene \"un caballo grande y **blanco** que no es rojo\". Aunque menciona que nació en la \"Selva Negra\" (un lugar geográfico, no una descripción del color del caballo), esto es solo un dato adicional y no afecta al color del animal. La palabra \"blanco\" se usa directamente para describir al caballo, por lo que la respuesta es **blanco**. \n\n*Truco común en acertijos:* Algunos podrían asociar \"Selva Negra\" con el color negro, pero el texto especifica que el caballo es blanco, por lo que no hay ambigüedad.",
+                    "tiempo": 8.150207996368408
+                },
+                "prueba 1": {
+                    "respuesta": "El caballo de Santiago es **blanco**. El enunciado indica claramente que \"tiene un caballo grande y **blanco** que no es rojo\", por lo que color del caballo es blanco. La mención de la \"Selva Negra\" (bosque negro) es un detalle contextual que no afecta al color del animal, ya que se especifica directamente que es blanco. La información adicional sobre que nació en la Selva Negra y es cariñoso no cambia el color del caballo. \n\n**Respuesta:** Blanco.",
+                    "tiempo": 5.797067642211914
+                },
+                "prueba 2": {
+                    "respuesta": "El caballo de Santiago es **blanco**. Aunque la Selva Negra (Black Forest en alemán) incluye la palabra \"negra\" (negro), el enunciado claramente indica que el caballo es \"blanco\" y \"no es rojo\". La mención de la Selva Negra es un distractor, pero el color del caballo está directamente especificado. \n\n**Respuesta:** Blanco.",
+                    "tiempo": 6.993432998657227
+                },
+                "t_byte_medio": 0.18052335032101338
+            },
+            {
+                "id_pregunta": "error_contexto",
+                "resp_real": "No has comprado cajas de pimientos. Lo que sí has comprado son 3 cajas de toamtes.",
+                "t_byte_indv": [
+                    0.12568734373365129,
+                    0.1463206708431244,
+                    0.15331345796585083
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.6810085773468018,
+                        0.6279510259628296,
+                        0.713642954826355
+                    ],
+                    "prediccion_continua": 0.6742008527119955,
+                    "rmse": 0.32770735121904293,
+                    "prediccion_binaria": 0.6742008527119955
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0.5501012994225354,
+                        0.5359264934272773,
+                        0.5530494662942801
+                    ],
+                    "prediccion_continua": 0.5463590863813642,
+                    "rmse": 0.4537024869022364,
+                    "prediccion_binaria": 0
+                },
+                "prueba 0": {
+                    "respuesta": "La respuesta es **0**. En la lista de compras mencionadas (dos peras verdes, una manzana amarilla, un aguacate sin madurar y 3 cajas de tomates), **no se mencionan pimientos** (pimientos son \"pimientos\" en español, mientras que \"tomates\" son tomates). Por lo tanto, no se compró ninguna caja de pimientos. \n\n**Respuesta:** 0 cajas de pimientos.",
+                    "tiempo": 4.692327499389648
+                },
+                "prueba 1": {
+                    "respuesta": "La respuesta es **0 cajas de pimientos**. \n\nEl texto menciona únicamente:  \n- 2 peras verdes  \n- 1 manzana amarilla  \n- 1 aguacate sin madurar  \n- 3 cajas de tomates  \n\n**No hay mención de pimientos (pimientos en español)**, por lo que no se compró ninguna caja de pimientos. La pregunta es un juego de palabras para verificar si se confunden los términos (tomates ≠ pimientos). \n\n**Respuesta final: 0**.",
+                    "tiempo": 5.4626383781433105
+                },
+                "prueba 2": {
+                    "respuesta": "La pregunta menciona que se compraron \"dos peras verdes, una manzana amarilla, un aguacate sin madurar y 3 cajas de tomates\". No se menciona **ningún pimiento** (o \"pimientos\") en la lista. Por lo tanto, **no se compraron cajas de pimientos**, y la respuesta es:\n\n**0 cajas de pimientos.**",
+                    "tiempo": 5.723702430725098
+                },
+                "t_byte_medio": 0.1417738241808755
+            },
+            {
+                "id_pregunta": "contexto_errores_gramaticales",
+                "resp_real": "El 13 de marzo saliste al parque.",
+                "t_byte_indv": [
+                    0.5951843389442989,
+                    0.6308459682124001,
+                    0.5413840285369328
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.3591004014015198,
+                        0.524713397026062,
+                        0.595794141292572
+                    ],
+                    "prediccion_continua": 0.4932026465733846,
+                    "rmse": 0.516408115952105,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": "¡Hola! Parece que hay un error de escritura o mezcla de idiomas. Te corrijo y explico:\n\n- **\"marzoh\"** → Debe ser **\"marzo\"** (español) o **\"martie\"** (rumano, en español sería \"marzo\").\n- **\"treze\"** → Debería ser **\"13\"** (fecha: *13 de marzo*).\n- **\"sali al parke\"** → Correcto sería **\"salí al parque\"** (español, \"fui al parque\").\n\n**Frase corregida:**  \n*«El 13 de marzo salí al parque. ¿Me puedes repetir qué sucedió ese día?»*  \n\n**Respuesta:**  \nComo inteligencia artificial, no tengo acceso a tus recuerdos personales ni a eventos pasados. No puedo recordar lo que sucedió el 13 de marzo (o cualquier otro día) porque no guardo información sobre tu vida privada. Si quieres describir lo que ocurrió, ¡con gusto te ayudo a reflexionar o escribirlo! 😊  \n\n¿Te gustaría contar más detalles? 🌳",
+                    "tiempo": 11.110107660293579
+                },
+                "prueba 1": {
+                    "respuesta": "Tu mensaje tiene algunos errores de escritura. Aquí está la corrección:  \n**\"El trece de marzo salí al parque. ¿Me puede repetir qué sucedió ese día?\"**  \n\nPero como inteligencia artificial, no tengo acceso a eventos personales o a tu memoria. Si quieres recordar lo que pasó ese día, necesitarás revisar un diario, fotos o pedirle a alguien más que te ayude. Si te refieres a un evento histórico o conocido en el mundo (por ejemplo, algo que ocurrió el 13 de marzo en otro contexto), ¡avísame y haré lo posible por ayudarte! 😊",
+                    "tiempo": 11.77579140663147
+                },
+                "prueba 2": {
+                    "respuesta": "¡Hola! Parece que hay algunos errores de escritura en tu consulta. Corrijo los términos para ayudarte:\n\n- **\"Un treze de marzoh\"** → Correcto sería **\"El trece de marzo\"** (en español: **\"El 13 de marzo\"**).  \n- **\"sali al parke\"** → Sería **\"salí al parque\"** (en singular, si te refieres a ti mismo).  \n- **\"Me puede repetil ke ize ese dia?\"** → Debería ser: **\"¿Me puedes repetir qué pasó ese día?\"**.\n\nAhora, el **13 de marzo** es una fecha que podría referirse a muchos eventos históricos, personales o culturales, dependiendo del año. Por ejemplo:  \n- En **1917**, se fundó la **Universidad de Princeton** (en EE.UU.).  \n- En **1999**, el **papa Juan Pablo II** visitó Argentina.  \n\nPero sin especificar el **año** o dar más contexto (¿es un evento personal, histórico, cultural?), es imposible saber exactamente qué quieres preguntar.  \n\n¿Podrías aclarar:  \n✅ ¿Año?  \n✅ ¿Qué quieres saber? (Ej: un hecho importante, un suceso personal, etc.)?  \n\nDe todos modos, si **\"sali al parque\"** es algo que tú hiciste, ¿te refieres a qué hiciste ese día en el parque? 😊 ¡Cuéntame más!",
+                    "tiempo": 10.105835199356079
+                },
+                "t_byte_medio": 0.5891381118978772
+            },
+            {
+                "id_pregunta": "calculos_matematicos",
+                "resp_real": "Siguiendo el enunciado, María tendrá 1 año y Juana 5.",
+                "t_byte_indv": [
+                    0.23956542053530294,
+                    0.2664030732647065,
+                    0.17510942874416227
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.6416034698486328,
+                        0.6099075078964233,
+                        0.6281248927116394
+                    ],
+                    "prediccion_continua": 0.6265452901522318,
+                    "rmse": 0.3736804876900624,
+                    "prediccion_binaria": 0.6265452901522318
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0.6061047056046919,
+                        0.6064849269806437,
+                        0.5984053543868821
+                    ],
+                    "prediccion_continua": 0.603664995657406,
+                    "rmse": 0.39635248412884605,
+                    "prediccion_binaria": 1
+                },
+                "prueba 0": {
+                    "respuesta": "Para resolver el problema, definimos las edades actuales de María y Juana. Sea $ M $ la edad actual de María. Entonces, la edad actual de Juana es $ 5M $, ya que Juana tiene 5 veces la edad de María.\n\nEl año que viene, las edades serán:\n- María: $ M + 1 $\n- Juana: $ 5M + 1 $\n\nSegún el problema, el año que viene Juana tendrá 3 veces la edad de María, por lo que establecemos la ecuación:\n$$\n5M + 1 = 3(M + 1)\n$$\n\nDesarrollamos y resolvemos la ecuación:\n$$\n5M + 1 = 3M + 3\n$$\n$$\n5M - 3M = 3 - 1\n$$\n$$\n2M = 2\n$$\n$$\nM = 1\n$$\n\nPor lo tanto, la edad actual de María es $ M = 1 $ año. La edad actual de Juana es $ 5M = 5 \\times 1 = 5 $ años.\n\nVerificamos con los años siguientes:\n- El año que viene, María tendrá $ 1 + 1 = 2 $ años.\n- El año que viene, Juana tendrá $ 5 + 1 = 6 $ años.\n- Comprobamos que $ 6 = 3 \\times 2 $, lo cual es correcto.\n\n**Respuesta Final:**\nLa edad de María es \\boxed{1} año y la edad de Juana es \\boxed{5} años.",
+                    "tiempo": 9.902037382125854
+                },
+                "prueba 1": {
+                    "respuesta": "Para resolver el problema, definimos las edades actuales de María y Juana:\n\n- Sea $ M $ la edad actual de María.\n- Entonces, la edad actual de Juana es $ 5M $, ya que Juana tiene 5 veces la edad de María.\n\nEl año que viene, las edades serán:\n- María: $ M + 1 $\n- Juana: $ 5M + 1 $\n\nSegún el problema, el año que viene, Juana tendrá 3 veces la edad de María. Por lo tanto, planteamos la ecuación:\n$$\n5M + 1 = 3(M + 1)\n$$\n\nResolvemos la ecuación:\n$$\n5M + 1 = 3M + 3\n$$\n$$\n5M - 3M = 3 - 1\n$$\n$$\n2M = 2\n$$\n$$\nM = 1\n$$\n\nAsí, María tiene actualmente $ 1 $ año. Juana, teniendo 5 veces la edad de María, tiene:\n$$\n5 \\times 1 = 5\n$$\n\nVerificación:\n- Actualmente: María tiene 1 año y Juana tiene 5 años (5 = 5 × 1).\n- El año que viene: María tendrá $ 1 + 1 = 2 $ años y Juana tendrá $ 5 + 1 = 6 $ años (6 = 3 × 2).\n\nPor lo tanto, las edades actuales son:\n\nLa edad actual de María es $\\boxed{1}$ año y la edad actual de Juana es $\\boxed{5}$ años.",
+                    "tiempo": 11.011327028274536
+                },
+                "prueba 2": {
+                    "respuesta": "Para resolver el problema, denotamos la edad actual de María como $ M $ y la edad actual de Juana como $ 5M $ (ya que Juana tiene 5 veces la edad de María).\n\nEl año que viene, las edades serán:\n- María: $ M + 1 $\n- Juana: $ 5M + 1 $\n\nSegún el problema, el año que viene Juana tendrá 3 veces la edad de María. Por lo tanto, establecemos la ecuación:\n\n$$\n5M + 1 = 3(M + 1)\n$$\n\nResolviendo la ecuación:\n$$\n5M + 1 = 3M + 3\n$$\n$$\n5M - 3M = 3 - 1\n$$\n$$\n2M = 2\n$$\n$$\nM = 1\n$$\n\nAsí, María tiene actualmente 1 año y Juana tiene $ 5 \\times 1 = 5 $ años.\n\nVerificación:\n- Actualmente: María tiene 1 año, Juana tiene 5 años.\n- El año que viene: María tendrá $ 1 + 1 = 2 $ años, Juana tendrá $ 5 + 1 = 6 $ años. Y $ 6 = 3 \\times 2 $, lo cual cumple con el enunciado.\n\n**Respuesta Final**\nMaría tiene \\boxed{1} año y Juana tiene \\boxed{5} años.",
+                    "tiempo": 7.237856388092041
+                },
+                "t_byte_medio": 0.2270259741813906
+            },
+            {
+                "id_pregunta": "pregunta_ambigua",
+                "resp_real": "No me has indicado el color de tu rotulador.",
+                "t_byte_indv": [
+                    0.4825088381767273,
+                    0.20154056765816428,
+                    0.31336827169765125
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.24855923652648926,
+                        0.35487914085388184,
+                        0.3813973665237427
+                    ],
+                    "prediccion_continua": 0.3282785813013713,
+                    "rmse": 0.6741694549737574,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": "El rotulador es **rojo**. \n\n**Explicación:** La palabra \"rotulador\" en español contiene la sílaba \"rot\", que es una referencia a \"roto\" (rompido). En la cultura de los acertijos, esta combinación suele llevar a la palabra \"rojo\" como juego de palabras (\"rot\" → \"roto\" → \"rojo\"). Aunque el resto de las pistas (como que no atraviesa el papel o su precio de 1€) son secundarias, el juego de palabras es la clave para resolver el enigma. \n\n**Respuesta:** Rojo.",
+                    "tiempo": 21.230388879776
+                },
+                "prueba 1": {
+                    "respuesta": "El rotulador es **rojo**. \n\n**Explicación:** La palabra \"rotulador\" suena similar a \"rojo\" (color en español). Es un juego de palabras común en los rompecabezas: al pronunciar \"rotulador\", se parece a \"rojo\", por lo que el color del rotulador es **rojo**. 😊",
+                    "tiempo": 8.867784976959229
+                },
+                "prueba 2": {
+                    "respuesta": "El rotulador es de color **rojo**. \n\n**Explicación:** La palabra \"rotulador\" en español comienza con \"ro\", que es la misma inicial que \"rojo\" (color rojo). Es un juego de palabras típico en acertijos, donde se relaciona el nombre del objeto con el color que menciona su nombre. Por lo tanto, el color del rotulador es **rojo**. 😊",
+                    "tiempo": 13.788203954696655
+                },
+                "t_byte_medio": 0.3324725591775143
+            },
+            {
+                "id_pregunta": "error_contexto",
+                "resp_real": "El caballo de Santiago es blanco, no negro.",
+                "t_byte_indv": [
+                    0.5551987290382385,
+                    0.601640502611796,
+                    0.6419495940208435
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.5702593922615051,
+                        0.7384185791015625,
+                        0.6511452794075012
+                    ],
+                    "prediccion_continua": 0.653274416923523,
+                    "rmse": 0.3534597788425942,
+                    "prediccion_binaria": 0.653274416923523
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0.560686021334908,
+                        0.5721921001783729,
+                        0.5616842256928427
+                    ],
+                    "prediccion_continua": 0.5648541157353745,
+                    "rmse": 0.4351770095822416,
+                    "prediccion_binaria": 0
+                },
+                "prueba 0": {
+                    "respuesta": "Sí, es correcto. \"El caballo negro de Santiago\" se refiere a la representación simbólica de San Santiago (Santiago Apóstol o Santiago Matamoros), que en algunos contextos históricos o artísticos se asocia con un caballo de color negro. Sin embargo, **\"negro\" y \"rojo\" son colores distintos** en español. Por lo tanto, si el caballo es negro, **no es rojo**. La afirmación es correcta. 😊",
+                    "tiempo": 6.662384748458862
+                },
+                "prueba 1": {
+                    "respuesta": "El caballo asociado a Santiago (Santiago Matamoros) en la tradición histórica y heraldica es **blanco**, no negro. La representación clásica, como en el escudo de la Orden de Santiago, muestra un **caballo blanco** sobre un fondo negro, no un caballo negro. Por lo tanto, la premisa de que \"el caballo negro de Santiago\" es incorrecta: el caballo en cuestión es **blanco**. \n\nAdemás, el caballo **no es rojo** (la pregunta asume una posible confusión con otros colores, como el rojo que sí aparece en símbolos relacionados con la Cruz de Calatrava o otros órdenes militares). Así que, para aclarar:  \n✅ El caballo de Santiago es **blanco** (no negro, ni rojo).  \n✅ Por lo tanto, **no es rojo** (lo cual es cierto, pero la descripción del color principal está equivocada).  \n\n**Respuesta clara:**  \nEl caballo de Santiago es blanco, no negro, y tampoco es rojo. La confusión surge porque a veces se mezcla con otras representaciones. La tradición correcta es **caballo blanco**. 😊",
+                    "tiempo": 7.219686031341553
+                },
+                "prueba 2": {
+                    "respuesta": "El caballo negro de Santiago no es rojo, ¿verdad?  \n**Sí, es correcto.**  \nEl caballo descrito como \"negro\" (en español, *negro* significa color negro) no puede ser rojo (*rojo* en español). Son dos colores distintos, por lo que si se trata de un caballo negro, definitivamente no es rojo. La afirmación es lógica y correcta. \n\n*Nota:* En la tradición, San Santiago (Santiago Matamoros) suele asociarse con un *caballo blanco* (no negro), pero en este caso, la pregunta se refiere específicamente a un \"caballo negro\", por lo que la lógica de los colores predomina. 🐴⬛",
+                    "tiempo": 7.703395128250122
+                },
+                "t_byte_medio": 0.599596275223626
+            },
+            {
+                "id_pregunta": "busqueda_exhaustiva",
+                "resp_real": "Sí, su abuelo estaba.",
+                "t_byte_indv": [
+                    0.11848025619983674,
+                    0.12159755825996399,
+                    0.09166669249534606
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.5057111978530884,
+                        0.5079150199890137,
+                        0.6741985082626343
+                    ],
+                    "prediccion_continua": 0.5626082420349121,
+                    "rmse": 0.44445309444999714,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": "La pregunta se centra en determinar si el abuelo de María estaba en la competición de castillos de arena. Según el texto, la familia que acompañaba a María incluye a \"sus abuelos\" (plural), lo que indica que son dos personas: el abuelo y la abuela. El texto afirma que \"todos iban a hacer castillos de arena en la competición anual\", donde \"todos\" se refiere a todos los miembros mencionados: padres, tíos, tías y abuelos. Dado que los abuelos están incluidos en el grupo que participa en la competición, **el abuelo (como parte de \"sus abuelos\") sí estaba en la competición**.\n\n**Respuesta:** Sí, su abuelo estaba en la competición.",
+                    "tiempo": 9.478420495986938
+                },
+                "prueba 1": {
+                    "respuesta": "La pregunta plantea si el abuelo de María estaba en la competición de castillos de arena. Según el texto, María estaba acompañada por su familia, que incluía específicamente a **\"sus abuelos\"** (plural, referido a ambos abuelos: abuelo y abuela). El texto también menciona que **\"todos iban a hacer castillos de arena\"**, lo que indica que **todos los miembros de la familia mencionada**, incluyendo a los abuelos, participaron en la competición.\n\nAunque la pregunta usa **\"su abuelo\"** (singular), en español \"abuelos\" se refiere a ambos (abuelo y abuela), por lo que **el abuelo (uno de los abuelos) estaba presente en la competición**. La mención de \"abuelos\" en plural confirma que el abuelo formaba parte del grupo.\n\n**Respuesta:** Sí, su abuelo estaba en la competición. ✅",
+                    "tiempo": 9.72780466079712
+                },
+                "prueba 2": {
+                    "respuesta": "Sí, su abuelo estaba en la competición. El texto menciona que María y toda su familia, incluyendo a sus \"abuelos\", iban a hacer castillos de arena. En español, \"abuelos\" es un término plural que incluye tanto al abuelo como a la abuela. Por lo tanto, al referirse a \"sus abuelos\", se incluye al abuelo, quien formaba parte del grupo que participaba en la competición. Aunque nunca ganaban, todos estaban presentes, incluido el abuelo.\n\n**Respuesta:** Sí, su abuelo estaba en la competición.",
+                    "tiempo": 7.3333353996276855
+                },
+                "t_byte_medio": 0.11058150231838226
+            },
+            {
+                "id_pregunta": "prediccion",
+                "resp_real": "Siguiendo su rutina, el 14 de julio de un año bisiesto es día par. Por tanto, se despertará pronto, saldrá a correr, comerá con su familia e irá al cine.",
+                "t_byte_indv": [
+                    0.1669881187952482,
+                    0.29602843798123873,
+                    0.22215460813962495
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.5026291608810425,
+                        0.4939047694206238,
+                        0.46759194135665894
+                    ],
+                    "prediccion_continua": 0.4880419572194417,
+                    "rmse": 0.5121746039940739,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": "Para determinar qué hará Juan el 14 de julio de un año bisiesto, primero calculamos el día del año correspondiente a esa fecha.\n\n**Cálculo del día del año:**\n- **Enero:** 31 días (días 1-31)\n- **Febrero (año bisiesto):** 29 días (días 32-60)\n- **Marzo:** 31 días (días 61-91)\n- **Abril:** 30 días (días 92-121)\n- **Mayo:** 31 días (días 122-152)\n- **Junio:** 30 días (días 153-182)\n- **Julio 14:** 182 (hasta el 30 de junio) + 14 = **196**\n\n**Determinar si es día par o impar:**\n- **196 es par** (196 ÷ 2 = 98).\n\n**Interpretación de la rutina:**\n- **Días pares (pares):** Se despierta temprano, sale a correr, come con su familia y va al cine.\n- **Días impares (impares):** Se despierta tarde, va a clases de inglés y cena con amigos.\n\n*Dado que el enunciado original tiene un error tipográfico (ambos mencionan \"días pares\"), se asume que el segundo punto debe ser \"días impares\".*\n\n**Conclusión:**\nEl 14 de julio es el día **196** (par), por lo que Juan realizará su rutina de **días pares**.\n\n**Respuesta:**  \nSe despierta pronto, sale a correr, come con su familia y va al cine.",
+                    "tiempo": 14.472303628921509
+                },
+                "prueba 1": {
+                    "respuesta": "Para determinar qué hará Juan el 14 de julio de un año bisiesto, debemos calcular el día del año correspondiente a esa fecha y determinar si es par o impar.\n\n**Cálculo del día del año:**\n- **Enero:** 31 días\n- **Febrero (año bisiesto):** 29 días\n- **Marzo:** 31 días\n- **Abril:** 30 días\n- **Mayo:** 31 días\n- **Junio:** 30 días\n- **Julio (hasta el 14):** 14 días\n\nSumando los días:\n$$\n31 + 29 + 31 + 30 + 31 + 30 + 14 = 196\n$$\n\nEl 14 de julio corresponde al **día 196** del año. Como 196 es un número par, Juan seguirá su rutina para días pares.\n\n**Rutina para días pares:**\n- Se despierta pronto.\n- Sale a correr.\n- Come con su familia.\n- Va al cine.\n\nPor lo tanto, el 14 de julio Juan hará lo siguiente:\n\n$$\n\\boxed{se despierta pronto, sale a correr, come con su familia y va al cine}\n$$",
+                    "tiempo": 25.655797958374023
+                },
+                "prueba 2": {
+                    "respuesta": "Para determinar qué hará Juan el 14 de julio de un año bisiesto, seguimos estos pasos:\n\n1. **Identificar el día del año correspondiente a 14 de julio en un año bisiesto**:\n   - **Enero**: 31 días\n   - **Febrero**: 29 días (año bisiesto)\n   - **Marzo**: 31 días\n   - **Abril**: 30 días\n   - **Mayo**: 31 días\n   - **Junio**: 30 días\n   - **Julio**: 14 días\n\n   Sumando:\n   $$\n   31 + 29 + 31 + 30 + 31 + 30 + 14 = 196\n   $$\n   Por lo tanto, el 14 de julio es el **día 196** del año.\n\n2. **Determinar si el día 196 es par o impar**:\n   - $196 \\div 2 = 98$ (resultado entero), por lo tanto, **196 es un día par**.\n\n3. **Aplicar la rutina de Juan**:\n   - En **días pares**, Juan:\n     - Se despierta pronto.\n     - Sale a correr.\n     - Come con su familia.\n     - Va al cine.\n   - *(Nota: El problema original contenía un error tipográfico al mencionar \"días pares\" dos veces. Se asume que la segunda parte debe ser \"días impares\", pero esto no afecta la solución, ya que 196 es par).*\n\n**Conclusión**:\nEl 14 de julio (día 196, que es par), Juan realizará su rutina de **días pares**.\n\n**Respuesta**:\nSe despierta pronto, sale a correr, come con su familia y va al cine.",
+                    "tiempo": 19.25339937210083
+                },
+                "t_byte_medio": 0.22839038830537062
+            },
+            {
+                "id_pregunta": "pregunta_básica",
+                "resp_real": "La capital de España es Madrid.",
+                "t_byte_indv": [
+                    0.24793028831481934,
+                    0.22286835312843323,
+                    0.5084476470947266
+                ],
+                "SBert": {
+                    "accuracy": [
+                        1.0,
+                        0.877539336681366,
+                        1.0
+                    ],
+                    "prediccion_continua": 0.9591797788937887,
+                    "rmse": 0.07070269693215349,
+                    "prediccion_binaria": 0.9591797788937887
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0.7292718621623167,
+                        0.611173223447779,
+                        0.7292718621623167
+                    ],
+                    "prediccion_continua": 0.6899056492574708,
+                    "rmse": 0.31505222392386006,
+                    "prediccion_binaria": 1
+                },
+                "prueba 0": {
+                    "respuesta": "La capital de España es Madrid.",
+                    "tiempo": 1.9834423065185547
+                },
+                "prueba 1": {
+                    "respuesta": "La capital de España es **Madrid**. Ha sido la ciudad capital desde 1561, cuando el rey Felipe II estableció su residencia en la ciudad, reemplazando a Toledo. Madrid es la ciudad más poblada del país y el centro político, económico y cultural de España.",
+                    "tiempo": 1.7829468250274658
+                },
+                "prueba 2": {
+                    "respuesta": "La capital de España es Madrid.",
+                    "tiempo": 4.0675811767578125
+                },
+                "t_byte_medio": 0.3264154295126597
+            },
+            {
+                "id_pregunta": "entener_contexto.",
+                "resp_real": "Gris",
+                "t_byte_indv": [
+                    0.3405247271060944,
+                    0.4762436556816101,
+                    0.25307175993919373
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.3599150478839874,
+                        0.2259865403175354,
+                        0.1969892829656601
+                    ],
+                    "prediccion_continua": 0.2609636237223943,
+                    "rmse": 0.7424355849425549,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": "Coche de golf",
+                    "tiempo": 22.701648473739624
+                },
+                "prueba 1": {
+                    "respuesta": "El aparato del que estás hablando es un **coche**. \n\n**Explicación:**  \n- **\"Aparato rojo grande\"**: Un coche común, que puede ser de color rojo y tiene el tamaño adecuado para un garaje.  \n- **\"Ella y hasta 4 personas más\"**: Un coche estándar suele tener capacidad para 5 personas (asientos traseros + conductor).  \n- **\"Llevar personas a todas partes donde haya tierra\"**: Un coche se usa para transportar personas por carreteras, caminos o cualquier terreno sólido.  \n- **\"Terrenos especializados\"**: Se refiere a superficies adecuadas para el vehículo (como asfaltos o pistas preparadas), ya que en terrenos accidentados o con obstáculos, es más fácil que se pinche un neumático.  \n- **\"Si se pincha toca arreglarlo\"**: Los coches tienen neumáticos inflados, que pueden sufrir pinchazos y requieren reparación (cambiar rueda o reparar el neumático).  \n\nAunque podría parecer una aclaración obvia, el \"aparato\" en cuestión es claramente un **coche** (en español, \"coche\" es el término común para este vehículo, no \"automóvil\" o \"car\"). \n\n**Respuesta:** Coche.",
+                    "tiempo": 31.749577045440674
+                },
+                "prueba 2": {
+                    "respuesta": "El aparato al que te refieres es un **carro de golf**. \n\n**Explicación:**  \n- Es un vehículo pequeño pero \"grande\" en comparación con otros dispositivos similares, a menudo rojo y usado para transportar personas en terrenos especializados como campos de golf (donde se evita uso en calles comunes).  \n- Puede acomodar a 1 persona (la conductora) + 4 pasajeros (hasta 5 en total), como en un carro de golf estándar.  \n- Si se pincha una llanta (común en terrenos irregulares), requiere reparación o cambio de neumático, típico de estos vehículos.  \n- Se almacena con frecuencia en garajes, especialmente en zonas residenciales o clubes privados.  \n\n*Respuesta:* **Carro de golf**.",
+                    "tiempo": 16.871450662612915
+                },
+                "t_byte_medio": 0.35661338090896605
+            },
+            {
+                "id_pregunta": "homonimas",
+                "resp_real": "La palabra más repeteida es llamas y tiene estos tres significados en la frase en orden: 1. Segunda persona del presente del verbo llamar. 2. El animal mamífero peludo. 3. Hce referencia a fuego, combistión o algo ardiendo.",
+                "t_byte_indv": [
+                    0.5904537568921628,
+                    0.46712839085122815,
+                    0.37263380962869397
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.6638044714927673,
+                        0.7593045234680176,
+                        0.8161028623580933
+                    ],
+                    "prediccion_continua": 0.7464039524396261,
+                    "rmse": 0.2612660859762846,
+                    "prediccion_binaria": 0.7464039524396261
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0.5626661932727348,
+                        0.567102653053758,
+                        0.5455284656924505
+                    ],
+                    "prediccion_continua": 0.5584324373396478,
+                    "rmse": 0.4416655397452972,
+                    "prediccion_binaria": 0
+                },
+                "prueba 0": {
+                    "respuesta": "Los significados distintos de la palabra **\"llamas\"** (más repetida en la frase) son:\n\n1. **Verbo**: Forma conjugada de *llamar* (segunda persona de singular), que significa **\"llamar\"** o **\"a llamar\"** (ej.: *Tú llamas a tus llamas* → \"Tú llamas a tus llamas\").\n2. **Sustantivo (animal)**: Plural de *llama* (referido al **animal** camelido, *Lama glama*), usado como **\"llamas\"** (ej.: *a tus llamas* → \"a tus animales llama\").\n3. **Sustantivo (fuego)**: Plural de *llama* (referido a **llamas o fuego**), usado como **\"llamas\"** (ej.: *en llamas* → \"en llamas\", es decir, \"ardiendo\").\n\n**Explicación adicional**:  \nLa palabra \"llamas\" es un **homografía** (misma escritura, distinto significado) y **homófono** (misma pronunciación). En el contexto de la frase, se explotan ambas acepciones de \"llamas\" (sustantivo), además de su uso como verbo, generando una **juego de palabras** (punning):\n- *\"Tu llamas\"*: verbo (\"tú llamas\" = \"tú llamas\").\n- *\"a tus llamas\"*: sustantivo animal (\"a tus llamas\" = *animales*).\n- *\"en llamas\"*: sustantivo de fuego (\"en llamas\" = *en llamas*). \n\nEsto da lugar a una frase que se puede interpretar como: **\"Tú llamas a tus llamas (animales) en llamas (fuego)\"**.",
+                    "tiempo": 18.107248544692993
+                },
+                "prueba 1": {
+                    "respuesta": "Los significados distintos de la palabra \"llamas\" (que se repite tres veces en la frase) son:\n\n1. **Verbo (conjugación)**: *\"llamas\"* (segunda persona del singular de *llamar*), significando **\"tú llamas\"** (ej.: \"Tu llamas a tus llamas\").  \n2. **Sustantivo (animal)**: *\"llamas\"* (plural de *llama*, animal camélido, como el guanaco o vicuña), significando **\"llamas\"** (animales).  \n3. **Sustantivo (incendio)**: *\"llamas\"* (plural de *llama*, referido al fuego), significando **\"llamas\"** (flamas o incendio).  \n\nEstos son los tres significados distintos presentes en la frase.",
+                    "tiempo": 14.325270652770996
+                },
+                "prueba 2": {
+                    "respuesta": "Los significados distintos presentes en la palabra que más se repite (\"llamas\") en la frase son:\n\n1. **Verbo**: \"Llamar\" (en presente de segundo persona singular), que significa \"tú llamas\" (ej.: \"Tú llamas a tus llamas\").  \n2. **Sustantivo**: \"Llamas\" (plural de \"llama\"), que significa \"llamas\" como fuego o llamaradas (ej.: \"tus llamas\" y \"en llamas\").\n\nEstos son los dos sentidos distintos que aparecen, aprovechando la homografía de la palabra en español (mismo escritura, diferente significado según el contexto).",
+                    "tiempo": 11.427436828613281
+                },
+                "t_byte_medio": 0.4767386524573616
+            },
+            {
+                "id_pregunta": "coloquiales",
+                "resp_real": "Si, los helados están chulos.",
+                "t_byte_indv": [
+                    1.3966895937919617,
+                    1.5146026611328125,
+                    1.8596605956554413
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.6107954978942871,
+                        0.5780347585678101,
+                        0.7203953266143799
+                    ],
+                    "prediccion_continua": 0.636408527692159,
+                    "rmse": 0.3686523126268442,
+                    "prediccion_binaria": 0.636408527692159
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0.5336077358678198,
+                        0.5487029182056886,
+                        0.5174053549247702
+                    ],
+                    "prediccion_continua": 0.5332386696660928,
+                    "rmse": 0.46693625244198295,
+                    "prediccion_binaria": 0
+                },
+                "prueba 0": {
+                    "respuesta": "¡Tronco! ¿Tú crees que los helados están guapos? 😂 Jaja, \"guapos\" se usa para personas, no para helados. Más bien, ¡están **bonitos** o **deliciosos**! 🍦 (Y si quieres ser poético, puedes decir \"¡Qué helados tan *guapos*!\" pero eso ya es un poema 🤷‍♂️)",
+                    "tiempo": 11.173516750335693
+                },
+                "prueba 1": {
+                    "respuesta": "¡Hola! Creo que \"Tronco\" es un error, ¿querías decir algo como \"Tron\" o quizás \"¡Hola!\"? 😄  \nY sobre los helados: si hablas de su apariencia, mejor dirías \"bonitos\" (¡no \"guapos\"! 🍦✨), porque \"guapos\" se usa más para personas. Si quieres decir que están ricos, dirías \"deliciosos\". ¡Espero que te gusten esos helados! 😋",
+                    "tiempo": 12.1168212890625
+                },
+                "prueba 2": {
+                    "respuesta": "¡Tronco aquí, papi! 🍦 Los helados no son *guapos*, son *bonitos* o *lindos* (¡aunque si son con chispas de chocolate, quizás sí se vean *guapos* en tu imaginación! 😜). Pero ojo: *guapos* es para gente, y los helados… ¡son fríos, no modelos! 😂  \n*¿O acaso tú quieres que el helado se ponga un traje?* 👔",
+                    "tiempo": 14.87728476524353
+                },
+                "t_byte_medio": 1.590317616860072
+            },
+            {
+                "id_pregunta": "refranes",
+                "resp_real": "Si, mucha suerte y a por todas.",
+                "t_byte_indv": [
+                    0.29145448858087714,
+                    0.2501056600700725,
+                    0.43481317162513733
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.25587743520736694,
+                        0.38998252153396606,
+                        0.42886054515838623
+                    ],
+                    "prediccion_continua": 0.35824016729990643,
+                    "rmse": 0.6460237333990139,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": "¡Estudiar tanto es un gran esfuerzo! Aunque el examen parezca difícil, confía en que tu dedicación ya ha preparado tu mente. Recuerda: no se trata de si el examen será fácil, sino de cómo respondes ante los desafíos. Respira profundo, toma tu tiempo y enfócate en lo que sí sabes. ¡Tú ya has dado el paso más importante: ¡estudiar! El resto es cuestión de aplicar lo aprendido. ¡Mucho ánimo, lo vas a hacer genial! 💪📚",
+                    "tiempo": 8.549331665039062
+                },
+                "prueba 1": {
+                    "respuesta": "¡Exacto! Aunque el examen sea difícil, tu esfuerzo ya está hecho. Confía en lo que has preparado: cada hora estudiada te da más seguridad. En lugar de pensar en lo complicado, enfócate en lo que **sí** sabes y respira hondo antes de empezar. El examen mide tu capacidad, no tu miedo. ¡Tú has llegado hasta aquí, y eso es un logro! **¡Confía, actúa y demuestra lo que sabes!** 🌟",
+                    "tiempo": 7.336432695388794
+                },
+                "prueba 2": {
+                    "respuesta": "¡Lo has estudiado mucho y eso es realmente admirable! Aunque el examen sea complicado, recuerda que ya hiciste tu parte: ¡tú estás preparado/a! Como dicen, *\"a estas alturas, de perdidos al río\"* — así que confía en tu esfuerzo, respira hondo y enfócate en resolver cada pregunta con calma. El hecho de haber preparado tanto ya es un gran logro. ¡Tú puedes, y seguro que lo harás genial! 💪📚✨ ¡Éxito!",
+                    "tiempo": 12.754519701004028
+                },
+                "t_byte_medio": 0.3254577734253623
+            },
+            {
+                "id_pregunta": "entender_proceso",
+                "resp_real": "Yendo a comer con sus padres.",
+                "t_byte_indv": [
+                    0.1611434674781302,
+                    0.2470415357662284,
+                    0.39363638862319617
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.5644081830978394,
+                        0.46033817529678345,
+                        0.31142768263816833
+                    ],
+                    "prediccion_continua": 0.44539134701093036,
+                    "rmse": 0.5642419552612672,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": "A las 15:06 exactamente, Julian estaba de camino a comer con sus padres. Esto se debe a que su actividad de \"comer con sus padres\" comenzó a las 15:15, por lo que entre las 14:45 (final de la carrera) y las 15:15, se encontraba en tránsito o preparándose para la comida. Dado que el tiempo de 15:06 está dentro de este intervalo (14:45 a 15:15), no estaba realizando ninguna actividad específica lista en el horario, sino que se encontraba en el movimiento hacia el lugar donde comería con sus padres.\n\n**Respuesta:** Estaba de camino a comer con sus padres.",
+                    "tiempo": 19.766932010650635
+                },
+                "prueba 1": {
+                    "respuesta": "A las 15:06, Julian estaba **yendo a comer con sus padres**. \n\nExplicación:  \n- Terminó de correr a las 14:45.  \n- Su comida con sus padres estaba programada para iniciar a las **15:15** (marcada en el horario como \"de 15:15 a 16:00\").  \n- Por lo tanto, entre las **14:45 y las 15:15**, estaba en tránsito o preparándose para la comida, sin actividades específicas listadas en el horario.  \n- A las **15:06** (9 minutos antes de que comenzara la comida), aún no había llegado a la comida, por lo que estaba **en el camino**.  \n\n**Respuesta:** *Estaba yendo a comer con sus padres.*",
+                    "tiempo": 30.30376172065735
+                },
+                "prueba 2": {
+                    "respuesta": "A las 15:06, Julian no se encontraba en ninguno de los horarios especificados de actividades en su día. Según el horario proporcionado:\n\n- Terminó de correr a las **14:45**.\n- La comida con sus padres comenzó a las **15:15**.\n\nPor lo tanto, entre las 14:45 y las 15:15, Julian estaba **entre la actividad de correr y la comida** (en transición o preparándose para comer). Dado que el problema no menciona una actividad específica durante este intervalo, la respuesta más precisa es que **estaba entre la carrera y la comida**.\n\n**Respuesta:**  \nEstaba entre la carrera y la comida.",
+                    "tiempo": 48.28606367111206
+                },
+                "t_byte_medio": 0.26727379728918493
+            },
+            {
+                "id_pregunta": "entender_ironia",
+                "resp_real": "El tono de Adela resulta irónico. Por lo tanto, parece que no tiene intención.",
+                "t_byte_indv": [
+                    0.11345314628937665,
+                    0.17341986123253317,
+                    0.10204309575697955
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.46465468406677246,
+                        0.5048712491989136,
+                        0.44622814655303955
+                    ],
+                    "prediccion_continua": 0.4719180266062419,
+                    "rmse": 0.5286493333113402,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": "Adela responde \"Sí\" a la petición de Diego, lo que significa que está de acuerdo en sacar la basura. La parte sarcástica de su respuesta (\"a este paso, te hago la comida y todo\") refleja su frustración por la falta de responsabilidad de Diego, pero **no niega su compromiso de sacar la basura**. En español, cuando se dice \"Sí\" seguido de un comentario irónico, la aceptación se mantiene, aunque la persona exprese molestia. Por lo tanto, **Adela sí va a sacar la basura**, aunque lo haga con desgana. \n\n**Respuesta: Sí, Adela va a sacar la basura.**",
+                    "tiempo": 7.714813947677612
+                },
+                "prueba 1": {
+                    "respuesta": "Adela sí va a sacar la basura. Su respuesta \"Sí\" confirma que acepta el favor, aunque lo acompaña con una observación sarcástica (\"a este paso, te hago la comida y todo\"), expresando su frustración por la repetición de la situación. El \"Sí\" es una aceptación directa a la petición de Diego, y la sarcasmo no anula su compromiso, sino que refleja su molestia ante la falta de responsabilidad de Diego. Por lo tanto, **Adela sacará la basura**. \n\n**Respuesta:** Sí, Adela va a sacar la basura.",
+                    "tiempo": 11.792550563812256
+                },
+                "prueba 2": {
+                    "respuesta": "Adela sí va a sacar la basura. Su respuesta \"Sí\" confirma directamente que acepta hacerlo, mientras que la parte sarcástica (\"a este paso, te hago la comida y todo\") refleja su frustración por la falta de responsabilidad de Diego, pero no invalida su acuerdo. En español, el \"sí\" es una confirmación clara, y el comentario adicional es una expresión de exasperación, no una negación. Por lo tanto, **Adela va a sacar la basura**.",
+                    "tiempo": 6.938930511474609
+                },
+                "t_byte_medio": 0.12963870109296313
+            },
+            {
+                "id_pregunta": "Adivinanza",
+                "resp_real": "La mujer fotografío a su marido y luego reveló la foto en un cuarto oscuro.",
+                "t_byte_indv": [
+                    0.36313556597150604,
+                    0.4073701624212594,
+                    0.334320434208574
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.6204525232315063,
+                        0.5014002323150635,
+                        0.6341143846511841
+                    ],
+                    "prediccion_continua": 0.585322380065918,
+                    "rmse": 0.41893925533263354,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": "La explicación está en el juego de palabras con términos fotográficos. La mujer no dispara con un arma, sino que **toma una foto** de su marido (\"dispara\" como en disparar una cámara). Luego, **mantiene la foto bajo el agua** durante cinco minutos para revelarla (proceso fotográfico tradicional, sumergiendo el papel en químicos), y **la ahorca** para secarla (colgarla en un soporte). Finalmente, después de terminar con la foto, disfrutan de una cena juntos. \n\n¡Ninguna violencia real: todo es parte de una sesión fotográfica! 😊\n\n**Respuesta:**  \nLa mujer era fotógrafa. \"Disparar\" se refiere a tomar una foto, \"mantenerlo bajo el agua\" al revelado de la imagen y \"ahorcarlo\" al colgarla para secar. Después de terminar, cenaron tranquilamente. 📸✨",
+                    "tiempo": 14.041241884231567
+                },
+                "prueba 1": {
+                    "respuesta": "La explicación se basa en una juego de palabras con el verbo \"disparar\". En español, \"disparar\" puede significar **tirar un disparo con un arma** o **tomar una foto con una cámara** (como en \"disparar una foto\"). \n\nLa mujer **toma una foto de su marido** (\"dispara una foto de su marido\", aunque la pregunta omite \"una foto\" y dice \"dispara a su marido\", creando confusión). Luego, **desarrolla la fotografía** (lo que implica sumergirla en químicos o agua durante unos minutos, \"manteniéndola bajo el agua\"). Posteriormente, **cuelga la foto para secarla** (\"lo ahorca\" como metáfora de colgar una foto). Finalmente, **disfrutan de una cena juntos** porque el \"marido\" sigue vivo y no ha sido dañado.\n\n**Respuesta:**  \nLa mujer tomó una foto de su marido (disparó \"una foto\", no a su marido), después desarrolló la foto (sumergida en agua) y la colgó para secarla (\"la ahorcó\"). Luego, ambos disfrutaron de una cena, ya que no hubo ningún daño real. 📸",
+                    "tiempo": 15.751646280288696
+                },
+                "prueba 2": {
+                    "respuesta": "La explicación se basa en un juego de palabras relacionado con la fotografía. La mujer \"dispara\" a su marido (toma una foto con una cámara), lo mantiene bajo el agua durante cinco minutos (durante una sesión fotográfica subacuática, por ejemplo, en una piscina o en el mar), y luego \"lo ahorca\" (cuelga la foto en la pared). Todo esto ocurre en un contexto pacífico, sin peligro real para su marido. Por último, disfrutan de una cena encantadora. \n\n**Respuesta:**  \nLa mujer tomó una foto de su marido (disparar = fotografiar), luego realizaron una sesión fotográfica bajo el agua (sosteniendo al marido en el agua durante cinco minutos), colgaron la foto (ahorcar = colgar la imagen), y después salieron a cenar. Las acciones son literales en un contexto fotográfico, no violento. 😊",
+                    "tiempo": 12.927056789398193
+                },
+                "t_byte_medio": 0.3682753875337798
+            },
+            {
+                "id_pregunta": "tonos",
+                "resp_real": "Alfredo estaría muy molesto, pero ha mantenido sus modales.",
+                "t_byte_indv": [
+                    0.22484929859638214,
+                    0.20937387645244598,
+                    0.4693875163793564
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.5955251455307007,
+                        0.2870780825614929,
+                        0.6094991564750671
+                    ],
+                    "prediccion_continua": 0.49736746152242023,
+                    "rmse": 0.5241973156028947,
+                    "prediccion_binaria": 0
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "prediccion_continua": 0,
+                    "prediccion_binaria": 0,
+                    "rmse": 1
+                },
+                "prueba 0": {
+                    "respuesta": "Alfredo utilizó un tono **educado** al pedir a sus vecinos que bajaran el volumen. Aunque la hora (2 de la mañana) es inusitadamente temprana para una solicitud así, el modo en que formuló su petición —usando \"¿Pueden bajar el volumen?\" en lugar de una orden directa— demuestra respeto y una explicación razonable (\"porque mañana trabajo\"). Aunque el acto de interrumpir a las 2 de la mañana puede considerarse inoportuno, el tono de su voz reflejaba consideración, no agresividad o impaciencia. \n\n**Respuesta:** Alfredo tenía un tono **educado**.",
+                    "tiempo": 10.792766332626343
+                },
+                "prueba 1": {
+                    "respuesta": "frustrado",
+                    "tiempo": 10.049946069717407
+                },
+                "prueba 2": {
+                    "respuesta": "El tono de Alfredo probablemente era **frustrado o irritado**. El hecho de que sea a las 2 de la mañana, hora en la que la mayoría de las personas ya están durmiendo, evidencia que la situación lo había afectado considerablemente. Pedir a los vecinos que bajen el volumen a esa hora, especialmente si están realizando una actividad ruidosa (como una fiesta), implica que Alfredo no podía más con el ruido y necesitaba resolverlo urgentemente para descansar, ya que tenía que trabajar al día siguiente. \n\nEste contexto sugiere que su tono no fue tranquilo ni amable, sino más bien **impaciente, cansado y con cierta irritación**, ya que la hora intempestiva y la falta de consideración de los vecinos lo habían colocado en una situación de estrés. Además, la posible errata en la frase (\"podeís\" en lugar de \"pueden\") podría reflejar que habló de manera apresurada, en un estado de fatiga o frustración. \n\n**Respuesta:** Alfredo tenía un tono **frustrado** (o **irritado**).",
+                    "tiempo": 22.530600786209106
+                },
+                "t_byte_medio": 0.30120356380939484
+            },
+            {
+                "id_pregunta": "mentira",
+                "resp_real": "Hoy en día, la Tierra se considera como un planeta esférico o redondo, es decir, no es plana. Por tanto, sí lo entiendo, pero no estás diciendo la verdad.",
+                "t_byte_indv": [
+                    0.22159950172199921,
+                    0.339465832009035,
+                    0.2367158847696641
+                ],
+                "SBert": {
+                    "accuracy": [
+                        0.8549566268920898,
+                        0.7486884593963623,
+                        0.7518945932388306
+                    ],
+                    "prediccion_continua": 0.7851798931757609,
+                    "rmse": 0.2204173037575314,
+                    "prediccion_binaria": 0.7851798931757609
+                },
+                "Bleurt": {
+                    "accuracy": [
+                        0.5332973581957177,
+                        0.5375073274415038,
+                        0.5495389583834909
+                    ],
+                    "prediccion_continua": 0.5401145480069042,
+                    "rmse": 0.45993694424766063,
+                    "prediccion_binaria": 0
+                },
+                "prueba 0": {
+                    "respuesta": "No, es un error. **La Tierra no es plana**, sino que tiene forma de esfera (más precisamente, un *esferoide oblato*, un poco achatado en los polos). Los astronautas que han observado la Tierra desde el espacio **han confirmado que es redonda**, no plana. De hecho, imágenes históricas como la famosa *\"The Blue Marble\"* (capturada por la misión Apollo 17 en 1972) muestran claramente su curvatura esférica.\n\nSi alguien afirma que \"los astronautas vieron que la Tierra es plana\", se trata de un **malentendido o una desinformación**, posiblemente confundido con teorías erróneas de la conspiración sobre la Tierra plana. La ciencia y la observación espacial han validado repetidamente que la Tierra es esférica desde hace siglos.\n\n¿Quieres que te explique más detalles sobre cómo sabemos que la Tierra es redonda? 😊",
+                    "tiempo": 5.022922039031982
+                },
+                "prueba 1": {
+                    "respuesta": "No, no es correcto. Los astronautas, al observar la Tierra desde el espacio, ven claramente que es **esférica**, no plana. Esto es un hecho ampliamente documentado y confirmado por fotografías, videos y mediciones científicas desde décadas de misiones espaciales (desde Apolo hasta la Estación Espacial Internacional).\n\nLo que quizás confunde a algunas personas es que, **desde el suelo**, el horizonte parece plano debido a la escala de nuestro entorno (la curvatura es imperceptible a simple vista). Sin embargo, cuando se observa desde una altura suficiente (como desde el espacio), la curvatura terrestre es evidente, como se muestra en miles de imágenes oficiales de NASA, SpaceX o otros programas espaciales.\n\n**¿Por qué existe la idea de que la Tierra es plana?**  \nEs una teoría falsa, respaldada por ideas erróneas o malentendidos de la física y la observación. La ciencia ha demostrado repetidamente que la Tierra es un **planeta esférico** (más precisamente, un geoide ligeramente achatado en los polos). \n\nSi alguien menciona que \"los astronautas vieron la Tierra plana\", probablemente está refiriéndose a una **mentira, un malentendido o un engaño** (como los *deepfakes* o teorías conspirativas). La evidencia científica es abrumadora: desde el espacio, la Tierra siempre se ve curva.\n\n¿Quieres que te muestre ejemplos de imágenes reales de astronautas viendo la curvatura terrestre? 🌍✨",
+                    "tiempo": 7.69455885887146
+                },
+                "prueba 2": {
+                    "respuesta": "No, hay un error importante aquí. Los astronautas *no* han visto que la Tierra es plana, sino que han observado su **curvatura** desde el espacio, lo que confirma que es una esfera ligeramente achatada en los polos (un *esferoide oblato*), no un plano. \n\nPor ejemplo:\n- Fotografías tomadas desde la Estación Espacial Internacional (ISS) muestran claramente la curvatura de la Tierra.\n- Los astronautas, como Chris Hadfield, han descrito cómo el horizonte parece curvo cuando están en órbita.\n- La forma esférica de la Tierra es una evidencia científica sólida, confirmada por siglos de observación, física y navegación.\n\nEl mito de que la Tierra es plana **no tiene base científica** y contradice las observaciones directas desde el espacio. Si alguien afirma lo contrario, probablemente está replicando información errónea o engañosa. ¿Necesitas más explicación? 😊",
+                    "tiempo": 5.365560054779053
+                },
+                "t_byte_medio": 0.26592707283356615
+            }
         ]
     },
     "notas": {
         "lim_temporal": {
-            "SBert": 6.253682613255197,
-            "Bleurt": 1.1537464837174456
+            "SBert": 6.5613470719836435,
+            "Bleurt": 2.6532712730419354
         },
         "falta_contexto": {
-            "SBert": 4.975106626069847,
-            "Bleurt": 1.3034619584895295
+            "SBert": 4.770915947022626,
+            "Bleurt": 2.054179085137054
         },
         "lim_dominio": {
             "Salud": {
-                "SBert": 7.477779800441075,
-                "Bleurt": 1.6070739703606152
+                "SBert": 7.587393051854598,
+                "Bleurt": 3.2568025181182803
             },
             "Deportes": {
-                "SBert": 6.987268760153585,
-                "Bleurt": 1.3993576032473987
+                "SBert": 7.206575348343157,
+                "Bleurt": 2.9293150679963254
             }
         },
         "alucinaciones": {
-            "SBert": 4.955297067877955,
-            "Bleurt": 0.5005507806766534
+            "SBert": 5.253114188976108,
+            "Bleurt": 1.9384319850649634
         }
     }
 }
