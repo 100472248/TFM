@@ -1,0 +1,14 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.main iframe {
+    height: 120vh ; /* ajusta según tu header */
+    border: 4px solid black;
+    background-color: beige;
+    display: block;
+}

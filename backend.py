@@ -402,5 +402,3 @@ def procesar_solicitudes():
     solicitudes.to_csv("./datos/Solicitudes.csv", index=False)
     return True
 
-process("qwen3:30b", "falta_contexto")
-

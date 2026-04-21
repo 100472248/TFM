@@ -1,12 +1,36 @@
+const titulos = {
+    alucinaciones: "Alucinaciones",
+    lim_temporal: "Limitaciones temporales",
+    falta_contexto: "Limitaciones de conversación",
+    lim_dominio: "Limitaciones de dominio"
+};
+
 async function cargarDescripcion(riesgo) {
     try {
         const response = await fetch("datos/descripciones.json");
         const descripciones = await response.json();
-        return descripciones[riesgo] || "Descripción no disponible.";
+
+        const definicion = descripciones[riesgo] || "Descripción no disponible.";
+
+        // 👇 generar título bonito
+        const titulo = titulos[riesgo] || formatearTitulo(riesgo);
+
+        // 👇 insertar en el HTML
+        document.getElementById("titulo-riesgo").textContent = titulo;
+        document.getElementById("definicion-riesgo").textContent = definicion;
+
     } catch (error) {
         console.error("Error cargando descripciones:", error);
-        return "Descripción no disponible.";
+
+        document.getElementById("titulo-riesgo").textContent = "Error";
+        document.getElementById("definicion-riesgo").textContent = "No se pudo cargar la descripción.";
     }
+}
+
+function formatearTitulo(texto) {
+    return texto
+        .replaceAll("_", " ")
+        .replace(/\b\w/g, l => l.toUpperCase());
 }
 
 async function cargarRutasModelos() {
@@ -202,7 +226,6 @@ async function initRisksPage() {
     const riesgo = params.get("riesgo") || "alucinaciones";
 
     const descripcion = await cargarDescripcion(riesgo);
-    document.getElementById("descripcion-texto").textContent = descripcion;
 
     const contenedor = document.getElementById("contenedor-tablas");
 
