@@ -63,12 +63,30 @@ function ordenarResultados(resultados, riesgo) {
 
         try {
             const nota = notas[riesgo];
-            const score = (nota.SBert + nota.Bleurt) / 2;
+
+            const sbert = nota?.SBert?.nota_final;
+            const bleurt = nota?.Bleurt?.nota_final;
+
+            if (typeof sbert !== "number" || typeof bleurt !== "number") continue;
+
+            const score = (sbert + bleurt) / 2;
+
             datos.push({
                 modelo: modelo,
-                calificacion_sbert: Number(nota.SBert.toFixed(2)),
-                calificacion_bleurt: Number(nota.Bleurt.toFixed(2)),
-                score: score
+                calificacion_sbert: Number(sbert.toFixed(2)),
+                calificacion_bleurt: Number(bleurt.toFixed(2)),
+                score: score,
+
+                // opcional, por si luego quieres mostrarlo
+                sbert_std: nota?.SBert?.std ?? null,
+                sbert_max_valor: nota?.SBert?.max_accuracy?.valor ?? null,
+                sbert_max_pregunta: nota?.SBert?.max_accuracy?.pregunta ?? null,
+                sbert_min_valor: nota?.SBert?.min_accuracy?.valor ?? null,
+                sbert_min_pregunta: nota?.SBert?.min_accuracy?.pregunta ?? null,
+
+                bleurt_std: nota?.Bleurt?.std ?? null,
+                bleurt_max_valor: nota?.Bleurt?.max_accuracy?.valor ?? null,
+                bleurt_max_pregunta: nota?.Bleurt?.max_accuracy?.pregunta ?? null
             });
         } catch (error) {
             console.error(`Error procesando ${modelo}:`, error);
@@ -96,10 +114,27 @@ function construirTablasLimDominio(resultados) {
             }
 
             const nota = notasLimDominio[tema];
+
+            const sbert = nota?.SBert?.nota_final;
+            const bleurt = nota?.Bleurt?.nota_final;
+
+            if (typeof sbert !== "number" || typeof bleurt !== "number") continue;
+
             tablas[tema].push({
                 modelo: modelo,
-                calificacion_sbert: Number(Number(nota.SBert).toFixed(2)),
-                calificacion_bleurt: Number(Number(nota.Bleurt).toFixed(2))
+                calificacion_sbert: Number(sbert.toFixed(2)),
+                calificacion_bleurt: Number(bleurt.toFixed(2)),
+
+                // opcional
+                sbert_std: nota?.SBert?.std ?? null,
+                sbert_max_valor: nota?.SBert?.max_accuracy?.valor ?? null,
+                sbert_max_pregunta: nota?.SBert?.max_accuracy?.pregunta ?? null,
+                sbert_min_valor: nota?.SBert?.min_accuracy?.valor ?? null,
+                sbert_min_pregunta: nota?.SBert?.min_accuracy?.pregunta ?? null,
+
+                bleurt_std: nota?.Bleurt?.std ?? null,
+                bleurt_max_valor: nota?.Bleurt?.max_accuracy?.valor ?? null,
+                bleurt_max_pregunta: nota?.Bleurt?.max_accuracy?.pregunta ?? null
             });
         }
     }
@@ -125,10 +160,22 @@ function crearTablaHTML(filas) {
             <table>
                 <thead>
                     <tr>
-                        <th>Modelo</th>
-                        <th>SBert</th>
-                        <th>Bleurt</th>
+                        <th rowspan="2">Modelo</th>
+                        <th colspan="6">SBert</th>
+                        <th colspan="4">Bleurt</th>
                     </tr>
+                       <tr>
+                            <th>Nota final</th>
+                            <th>STD</th>
+                            <th>Mayor precisión promedio</th>
+                            <th>Pregunta con mayor prec.</th>
+                            <th>Menor precisión promedio</th>
+                            <th>Pregunta con menor prec.</th>
+                            <th>Nota final</th>
+                            <th>STD</th>
+                            <th>Mayor precisión promedio</th>
+                            <th>Pregunta con mayor prec.</th>
+                        </tr>
                 </thead>
                 <tbody>
     `;
@@ -137,8 +184,18 @@ function crearTablaHTML(filas) {
         html += `
             <tr>
                 <td>${fila.modelo}</td>
-                <td>${fila.calificacion_sbert}</td>
-                <td>${fila.calificacion_bleurt}</td>
+
+                <td><strong>${fila.calificacion_sbert}</strong></td>
+                <td>${fila.sbert_std != null ? fila.sbert_std.toFixed(3) : "-"}</td>
+                <td>${fila.sbert_max_valor != null ? fila.sbert_max_valor.toFixed(3) : "-"}</td>
+                <td>${fila.sbert_max_pregunta ?? "-"}</td>
+                <td>${fila.sbert_min_valor != null ? fila.sbert_min_valor.toFixed(3) : "-"}</td>
+                <td>${fila.sbert_min_pregunta ?? "-"}</td>
+
+                <td><strong>${fila.calificacion_bleurt}</strong></td>
+                <td>${fila.bleurt_std != null ? fila.bleurt_std.toFixed(3) : "-"}</td>
+                <td>${fila.bleurt_max_valor != null ? fila.bleurt_max_valor.toFixed(3) : "-"}</td>
+                <td>${fila.bleurt_max_pregunta ?? "-"}</td>
             </tr>
         `;
     }
@@ -168,9 +225,21 @@ function crearTablasPorTemaHTML(tablasPorTema) {
                 <table>
                     <thead>
                         <tr>
-                            <th>Modelo</th>
-                            <th>SBert</th>
-                            <th>Bleurt</th>
+                            <th rowspan="2">Modelo</th>
+                            <th colspan="6">SBert</th>
+                            <th colspan="4">Bleurt</th>
+                        </tr>
+                        <tr>
+                            <th>Nota final</th>
+                            <th>STD</th>
+                            <th>Mayor precisión promedio</th>
+                            <th>Pregunta con mayor prec.</th>
+                            <th>Menor precisión promedio</th>
+                            <th>Pregunta con menor prec.</th>
+                            <th>Nota final</th>
+                            <th>STD</th>
+                            <th>Mayor precisión promedio</th>
+                            <th>Pregunta con mayor prec.</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -180,8 +249,18 @@ function crearTablasPorTemaHTML(tablasPorTema) {
             html += `
                 <tr>
                     <td>${fila.modelo}</td>
-                    <td>${fila.calificacion_sbert}</td>
-                    <td>${fila.calificacion_bleurt}</td>
+
+                    <td><strong>${fila.calificacion_sbert}</strong></td>
+                    <td>${fila.sbert_std != null ? fila.sbert_std.toFixed(3) : "-"}</td>
+                    <td>${fila.sbert_max_valor != null ? fila.sbert_max_valor.toFixed(3) : "-"}</td>
+                    <td>${fila.sbert_max_pregunta ?? "-"}</td>
+                    <td>${fila.sbert_min_valor != null ? fila.sbert_min_valor.toFixed(3) : "-"}</td>
+                    <td>${fila.sbert_min_pregunta ?? "-"}</td>
+
+                    <td><strong>${fila.calificacion_bleurt}</strong></td>
+                    <td>${fila.bleurt_std != null ? fila.bleurt_std.toFixed(3) : "-"}</td>
+                    <td>${fila.bleurt_max_valor != null ? fila.bleurt_max_valor.toFixed(3) : "-"}</td>
+                    <td>${fila.bleurt_max_pregunta ?? "-"}</td>
                 </tr>
             `;
         }

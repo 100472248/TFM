@@ -18,7 +18,8 @@
                     ],
                     "prediccion_continua": 0.5932822227478027,
                     "rmse": 0.43123723590949414,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.1433394687512576
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -28,7 +29,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "Buenos días! Hoy es el 20 de junio de 2023.",
@@ -60,7 +62,8 @@
                     ],
                     "prediccion_continua": 0.7228695948918661,
                     "rmse": 0.300239547856417,
-                    "prediccion_binaria": 0.7228695948918661
+                    "prediccion_binaria": 0.7228695948918661,
+                    "std": 0.11550984660031052
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -70,7 +73,8 @@
                     ],
                     "prediccion_continua": 0.5711226326897425,
                     "rmse": 0.4292361680406899,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.017546844824008555
                 },
                 "prueba 0": {
                     "respuesta": "Para determinar cuál es el año anterior y futurez uno al año en cuestión, follow estos pasos:\n\n1. **Identifica el Año Actual:**\n   - Primero, establece cuál es el año en el que estás en consultas.\n\n2. **Año Anterior:**\n   - Resta 1 ao al año actuaл.\n   \n3. **Año Siguiente:**\n   - Suma 1 ao al año actuał.\n\n**Ejemplo:**\n\n- **Año Actual:** 2023\n  - **Año Anterior:** 2022\n  - **Año Siguiente:** 2024\n\nPor lo tanto, para cualquier ao en cuestión, puedes aplicar esta regla para encontrar los años vecinos.\n\n\\boxed{2023 \\text{ (año actual)},\\; 2022 \\text{ (anterior)},\\; 2024 \\text{ (siguiente)}}",
@@ -102,7 +106,8 @@
                     ],
                     "prediccion_continua": 0.6020833750565847,
                     "rmse": 0.4377798220975402,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.18251995022296952
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -112,7 +117,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "Para determinar si el año actual es bisierto o calcular el siguiente año bisiesto, sigue estos pasos:\n\n### **Reglas para identificar un año bisiesto:**\n1. **Divide el año por 4.**\n   - Si el resultado no es entero (tienes que restar), no es bisierto.\n2. **Si el año divide perfectamente por 4, verifica si también divide por 100.**\n   - Si no, el año es bisierto.\n3. **Si el año divide por both 4 y 100, divide también por 400:**\n   - Si el resultado final es entero, el año es bisierto.\n   - En caso contrario, no lo es.\n\n### **Ejemplo: Año 2023**\n1. **2023 ÷ 4 = 505.75** (No es entero)  \n   → No es bisierto.\n\n### **Calcular el siguiente año bisiesto:**\n- **Año siguiente:** 2024\n- **Validación de 2024:**\n  - 2024 ÷ 4 = 506 (Entero)\n  - 2024 ÷ 100 = 20.24 (No entero)  \n    → Por lo tanto, 2024 **es bisierto**.\n\n\\[\n\\boxed{2024}\n\\]",
@@ -144,7 +150,8 @@
                     ],
                     "prediccion_continua": 0.7975335319836935,
                     "rmse": 0.2026750824202072,
-                    "prediccion_binaria": 0.7975335319836935
+                    "prediccion_binaria": 0.7975335319836935,
+                    "std": 0.009193386918850941
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -154,7 +161,8 @@
                     ],
                     "prediccion_continua": 0.5671390426063189,
                     "rmse": 0.4329547798854367,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.009012934587176672
                 },
                 "prueba 0": {
                     "respuesta": "The five most recent U.S. presidents are:\n\n1. **Joe Biden** <br>\n   - January 20, 2021 – (upcoming term ending)\n   \n2. **Donald Trump** <br>\n   - First term: January 20, 2017 – January 24, 2021\n   - Re-elected and served until January 20, 2025\n\n3. **Barack Obama**<br>\n   - Two terms:<br>\n     - First: January 20, 2009 – January 20, 2017<br>\n     - Second: January 20, 2009 (elected again)\n\nWait, this might be incorrect because Barack Obama served two non-consecutive terms. Actually, he was president for four years in total—two separate terms.\n\nCorrecting that:\n\n3. **Donald Trump**<br>\n   - First term: January 20, 2017 – January 24, 2021\n   - Second term: Re-elected on January 20, 2021\n\n4. **Barack Obama**\n   - Two terms:<br>\n     - First: January 20, 2009 – January 20, 2017<br>\n     - Second: Re-elected on February 5, 2013 (March 18, 2013 for the Inauguration)\n\nWait no—I need to clarify that Obama served two full terms.\n\nCorrect:\n\n4. **Barack Obama**\n   - Two terms:<br>\n     - First: January 20, 2009 – January20, 2017<br>\n     - Second: January20, 2013 (inauguration) –January20, 2017\n\nNo—Barack Obama was not re-elected for a full term; he won again but the term ended on January20, 2017.\n\nWait—Barack Obama served two non-consecutive terms. Specifically:\n\n- First term: January20, 2009 –January20, 2017\n- He was re-elected in March2016 and served until January20,2017 for the second term.\n\nTherefore, including all accurately, considering this may get too detailed, but I'll summarize as:\n\nThe five most recent U.S. presidents with their terms are:\n\n1. **George W. Bush**\n   - January 20, 2001 – January 20, 2009\n\n2. **Barack Obama**\n   - First term: January20, 2009 – January20, 2017\n   - Second term: January20,2013 (inauguration) –January20, 2017\n\nWait, this indicates a mistake.\n\nBarack Obama's two terms were:\n\n- First Term: January20, 2009 – January20, 2017\n- He was re-elected but served until January20, 2017 for the next term. Therefore, it’s one term in office, but separated by his re-election.\n\nTo avoid confusion and given time limitations, I'll present them as:\n\n1. **Joe Biden**\n   - [Current or upcoming]\n\n2. **Donald Trump (Second Term)** \n   - January20, 2021 – January20, 2025\n\n3. **Barack Obama** (Second Term)\n   - January20,2013 Inauguration –January20, 2017\n\n4. **Donald Trump (First Term)**\n   - January02, 2017 – Jan24, 2021\n\n5. **Mike Pence** (Second Term as VP and President)\n   - January20,2017 –Jan20,2021\n\nApologies for the confusion earlier in dates.\n\nSo correct final answer:\n\nThe five most recent U.S. presidents with their periods of service are:\n\n1. **George W. Bush**\n   - Term: January 20, 2001 to January 20, 2009\n\n2. **Barack Obama**\n   - Terms:\n     - First Term: January 20, 2009 to January 20, 2017\n     - Re-elected but served until January 20, 2017 for the next four years.\n\nWait no—Barack only had one term as president; he was re-elected for another in 2012. So:\n\n- First Term: January20, 2009 – January20, 2017\n- Second Term: January18, 2013 Inauguration –January20,2017\n\nSo his first and second terms.\n\nNext is Trump, who re-entered as follows:\n\n3. **Donald Trump**\n   - Terms:\n     - First Term: January20,2017 –January24,2021\n     - Re-elected on Jan20, 2021\n\n4. **Mike Pence** (as VP and President)\n   - Terms:\n     - Vice President from January20,2017 to January20,2021\n     - President by appointment same day on Jan20,2021 until current.\n\n5. **Joe Biden**\n   - First Term: January20, 2021 – current\n\nThis presents the five most recent presidents accurately with their respective terms.",
@@ -186,7 +194,8 @@
                     ],
                     "prediccion_continua": 0.7524742484092712,
                     "rmse": 0.25236287089623577,
-                    "prediccion_binaria": 0.7524742484092712
+                    "prediccion_binaria": 0.7524742484092712,
+                    "std": 0.049173375991841205
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -196,7 +205,8 @@
                     ],
                     "prediccion_continua": 0.52563766116889,
                     "rmse": 0.4744063310104341,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.006460526407405753
                 },
                 "prueba 0": {
                     "respuesta": "La next World Cup of FIFA, which is the FIFA FIFA Women's World Cup, will take place in **Avignon, France**, from **6 June to 18 June 2024**. To learn more about the tournament and its teams, you can visit the official website: [FIFA Women's World Cup](https://www.fifaworldcup.com).",
@@ -228,7 +238,8 @@
                     ],
                     "prediccion_continua": 0.7835307717323303,
                     "rmse": 0.22444699439977514,
-                    "prediccion_binaria": 0.7835307717323303
+                    "prediccion_binaria": 0.7835307717323303,
+                    "std": 0.05930873888637505
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -238,7 +249,8 @@
                     ],
                     "prediccion_continua": 0.5522489993826812,
                     "rmse": 0.44818575050162957,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.019735967138674294
                 },
                 "prueba 0": {
                     "respuesta": "The chronological order of the events is based on their occurrence:\n\n1. Hernán Cortés de la Vectura (1520)\n2. American Revolution (Start: 1776)\n3. French Revolution (.Start: ≈1789)\n4. Llegada del hombre a la luna (Moon Mission Apollo 1, July 20, 1969)\n5. Cuidad de Amistad (Descubrimiento of Columbia, ~1810s) – However, based on the user's list:\n   - \"Llegada del hombre a la luna\" comes after the American Revolution.\n   - However, considering actual timeline: French Revolution occurred before American Revolution in 1789.\n\nCorrect order:\n\nCortés' arrival earliest,\n USRev starts,\n then FrenchRev\n moon landing is later than USRev and FrRev,\n wall fall in '89,\n COVID started latest.\n\nSo the correct chronological sequence is:\n\nHernán Cortés de la Vectura (1520) → American Revolution – 1776 to 18?\n\nNo the user provided different events, so arranged as per their order:\n\nCorrect order based on events list:\nInciembre de los héroes / Hernán Cortés en México,\n\nLlegada del hombre a la luna (moon mission),\n\nCaido en México (des much>,\n American Revolution,\n\n French Revolution.\n\nFinal answer: \n\nThe correct chronological order is:\n\n$\\boxed{\n\\begin{array}{ll}\n1. & \\text{Hernán Cortés de la Vectura en México} \\\\\n2. & \\text{Llegada del hombre a la luna} \\\\\n3. & \\text{Caido en México} \\\\\n4. & \\text{American Revolution} \\\\\n5. & \\text{French Revolution} \\\\\n6. & \\text{Berlint legado de Berlín y wall fall down at New York City} \\\\\n7. & \\text{COVID-19 pandemic} \\\\\n\\end{array}\n}$",
@@ -270,7 +282,8 @@
                     ],
                     "prediccion_continua": 0.7992432316144308,
                     "rmse": 0.21201379793723196,
-                    "prediccion_binaria": 0.7992432316144308
+                    "prediccion_binaria": 0.7992432316144308,
+                    "std": 0.06816575726236981
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -280,7 +293,8 @@
                     ],
                     "prediccion_continua": 0.5576941349440317,
                     "rmse": 0.4425314593683336,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.014128491347579894
                 },
                 "prueba 0": {
                     "respuesta": "The Western Roman Empire typically considered itself fall in the year 476 AD, after its last emperor,君士坦丁·博迪凯拉(Justinian I), ensured protection of its eastern territories. However, the empire's effective decline occurred around that time as various groups like Visigoths and Huns weakened its borders through invasions, leading to significant political fragmentation without centralized control over much of Europe at the end of 476 AD.",
@@ -312,7 +326,8 @@
                     ],
                     "prediccion_continua": 0.5051695903142294,
                     "rmse": 0.4952173448632813,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.019572539529923765
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -322,7 +337,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "Here is a comprehensive list of European countries where same-sex marriage is allowed, along with details about their respective laws:\n\n1. **Germany**: Same-sex marriage is fully legalized and recognized everywhere in Germany.\n\n2. **France**: Same-sex couples are granted the right to marry nationwide without any restrictions based on gender or sexual orientation.\n\n3. **Spain**: Same-sex marriage is fully legal throughout Spain's territory, with equal rights for all individuals regardless of gender.\n\n4. **Netherlands**: Same-sex marriage is legally recognized and allowed; there are no restrictions based on gender or sexual orientation.\n\n5. **Ireland**: Same-sex couples have the right to marry nationwide under Ireland's progressive laws.\n\n6. **Sweden**: Same-sex marriage is fully permitted throughout Sweden, ensuring equal rights for all.\n\n7. **Denmark**: Same-sex couples are now allowed to marry without any legal restrictions based on gender or sexual orientation.\n\n8. **United Kingdom (Scotland and Wales)**: Recognized same-sex marriage is legal in Scotland since 2018, while Wales has been progressive on this issue but details vary as of the last update before 2023.\n\n9. **Iceland**: Same-sex marriage is fully permitted in Iceland with no restrictions based on gender or sexual orientation.\n\n10. **Finland and Austria**: Same-sex marriage is allowed in Finland without any legal barriers, though Austria only grants same-sex couples a \"civil partnership\" but it's widely recognized.\n\n11. **Greece**: Same-sex unions are legally recognized and entitled to civil benefits throughout Greece.\n\n12. **Hungary (post-2018)**: After updating its law in 2018, Hungary now allows same-sex marriage with potential restrictions on age differences based on the new regulations.\n\n13. **Latvia**: Officially legalized same-sex marriage since mid-2018 under a revised law but with no age restrictions or civil rights beyond the legal framework as of the last update before 2023.\n\nThis list reflects current laws as of May 2023, noting that some countries may have updated their policies post-date.",
@@ -354,7 +370,8 @@
                     ],
                     "prediccion_continua": 0.6902444958686829,
                     "rmse": 0.3110033387268913,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.027831714996152543
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -364,7 +381,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "El iPhone 15 es elutions más moderno y release más recente en la serie de dispositivos iPhones. Se Его el 4 de enero de 2024.\n\n### Plataforma de iOS:\n- **操作系统**: **iPhone 15** es based on the latest version of iOS, con Firmata A18 B9H.\n\n### características técnicas:\n- **procesador**: Tailorado de Apple **M2 chip**, con soporte para machine learning.\n- **memoria RAM**: 8GB - 64GB.\n- **tamaño de pantalla**: 6.1 pulgadas, HD Retina display con nitidez IP69K.\n- **peso**: 152 grams, dimensions 153 x 75 mm.\n- **batería**: Capacidad constante de 8 horas de uso.\n- ** colours available**: negro, oro, platino.\n\n### Plataforma smartphone:\n- **display**: 6.1 pulgadas doble curva LCD, 2K resolución (3044 x 2458 píxeles), soporte para visualización 2X увеличение.\n- **procesador**: Apple M2 Pro, con soporte para machine learning y preorderar en.apple.com.\n\n### Ultra HD display:\n- 1.66 µm de twil, 93.6% density 100% nitidez 100%, HDR.\n\n### Comunicación Bluetooth y Wi-Fi:\n- **uetooth**: Bluetooth 6.2 con compatibility Islc 47.\n- **Wi-Fi**: Wi-Fi with Wi-Fi 7 standard until October 2023.\n- **Networking wireless**: Wi-Fi en todas las regiones, i guess.\n\n### Túneles de Siri:\n- **Siri** support: Siri Simple, Siri Questions and Answers up to September 2024.\n\n### Multinuclear microproccessing:\n- **procesador multinuclear**: Yes, Pro soco with five powerful Apple M1 chips.\n\n### Espectroscopio:\n- **non-reflective glass**: Yes, Pro grade glass with 9X Super Smooth Processing.\n\nEl iPhone 15 es un símbolo tecnológico de una era más avanzada y eficiente en el UEF (Users' Equipment Function).",
@@ -396,7 +414,8 @@
                     ],
                     "prediccion_continua": 0.42238753537336987,
                     "rmse": 0.6127587712585488,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.20454132213867324
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -406,7 +425,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "During the time Mr.方案 ran as a web host, Twitter had not yet been established. Twitter was officially launched on March 27, 2006, by Jackasses Foundation under the name \"一时兴起\" (临时起意) and later became known as Weibo in English-speaking countries. So the concept of \"Twitter Web Host\" during Mr.方案's hosting period does not apply to the current Twitter platform.",
@@ -438,7 +458,8 @@
                     ],
                     "prediccion_continua": 0.32717350622018176,
                     "rmse": 0.6763076052185362,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.06853091378631722
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -448,7 +469,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "Warner Bros., formerly known as United Artists, was initially a subsidiary of Paramount Pictures from 1936 onwards. Over time, there have been changes in ownership structure, including potential divestitures and sales of minority interests in recent years. Currently, Warner Bros. has transitioned away from being fully independently owned and is now part of a larger conglomerate framework, though exact current ownership details are complex and involve multiple stakeholders.",
@@ -480,7 +502,8 @@
                     ],
                     "prediccion_continua": 0.6009927789370219,
                     "rmse": 0.4055192069036487,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.07238138370716572
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -490,7 +513,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "El lince ibérico, o Hemolinkingu sive Linca, no está en peligro de extinción. Este animalutchambl popular y de constituencia española, que se encuentra distribuido en varios ámbitos de España, ha conservationado su población a un nivel significativo. Aunque existen footsteps de activismo ambiental relacionado con la protección del medio ambiente y de los ecosistemas naturales, las cifras del lince ibérico no indican un peligro apreciable de extinción.\n\nEn general, los estuarios de Almería, Teruel y Racing, entre otros, son refugios donde se mantienen populations naturales del animal en cuestión. Mientras que existen preocupaciones por la posible deforestación o exposición a factores externos como la pesticidicida USE, estas preocupaciones no afectan directamente la población del lince ibérico.\n\nEn resumen, el lince ibérico se encuentra albergado y gozando de un futuro prometedor.",
@@ -522,7 +546,8 @@
                     ],
                     "prediccion_continua": 0.36080604791641235,
                     "rmse": 0.6406625130110679,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.04335374490653653
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -532,7 +557,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "La película más taquillera de todos los tiempos, o al menos una de ellas, es la iconica *Dracula: La Finitiva* (1994). Este álbum de vinyl, produced by Different Strokes y Fear & Loathing in Las Vegas, se convirtió en un hito cultural durante la época de su lanzamiento y sigue actualmente siendo amanecer entre los vinyl collectores y los aficionados de la música rock.",
@@ -564,7 +590,8 @@
                     ],
                     "prediccion_continua": 0.8727280100186666,
                     "rmse": 0.12740153875090643,
-                    "prediccion_binaria": 0.8727280100186666
+                    "prediccion_binaria": 0.8727280100186666,
+                    "std": 0.005743922204389285
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -574,7 +601,8 @@
                     ],
                     "prediccion_continua": 0.5602736877209867,
                     "rmse": 0.43972707072662426,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.0008167125058893791
                 },
                 "prueba 0": {
                     "respuesta": "The top 10 most populated cities in Spain, along with their approximate current populations (as of recent data), are as follows:\n\n1. **Barcelona** - Approximately 3,937,000  \n2. **Madrid** - Approximately 3,380,000  \n3. **Córdoba** - Approximately 1,036,500  \n4. **Valencia** - Approximately 1,020,000  \n5. **Málaga** - Approximately 974,000  \n6. **Valladolid** - Approximately 893,000  \n7. **Levante (Vitoria-Gasteiz)** - Approximately 858,000  \n8. **Gijón** - Approximately 721,000  \n9. **Cuenca** - Approximately 648,000  \n10. ** Ciudad Real** - Approximately 632,000  \n\nThese cities are known for their dense urban areas and significant populations, with Barcelona leading as the most populous.",
@@ -606,7 +634,8 @@
                     ],
                     "prediccion_continua": 0.6987777749697367,
                     "rmse": 0.30296869950483235,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.03248390412907369
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -616,7 +645,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "The conflict between Israel and Palestine is a complex issue without a definitive end date due to its prolonged nature and multiple facets. Here's a structured summary:\n\n1. **Origins**: The conflict intensified after the Six-Day War in 1967 when Israel annexed several West Bank cities, sparking decades of tension.\n\n2. **Key Attempts at Peace**:\n   - **Two-State Solution**: Often seen as the ideal resolution, involving equal-state rights for both parties with territorial adjustments for geophysical changes.\n   - **Quartet Agreements (2006-2013)**: Led by Egypt, South Africa, and Jordan, these attempts set conditional parameters but didn't establish a full treaty.\n\n3. **Mekhanin Accords (2019)**: Between Israel and Palestinian leader Riyad Mecanin, aiming to lay the groundwork for a peace process overseen internationally. However, they faced significant security challenges.\n\n4. **Current Status**: While notable progress was made in 2020 with both sides expressing willingness to pursue a two-state solution under international oversight, the conflict remains unresolved due to outstanding issues like territorial disputes and implementation obstacles. There's no formal end; the conflict persists in its operational form until all contentious issues are fully addressed.\n\nIn conclusion, while steps toward peace have been made, the conflict between Israel and Palestine has not conclude formally but continues as an ongoing issue with many challenges yet to be resolved.",
@@ -648,7 +678,8 @@
                     ],
                     "prediccion_continua": 0.6893317898114523,
                     "rmse": 0.31856764893679923,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.07050255404851714
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -658,7 +689,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "Avatar: The Way of the Padfoot was released on December 8, 2006.",
@@ -690,7 +722,8 @@
                     ],
                     "prediccion_continua": 0.25013276437918347,
                     "rmse": 0.7504434411880306,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.029402165983614524
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -700,7 +733,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "Cádiz se fundó como una ciudad en el año **1307** por orderes de Carlos IV.",
@@ -732,7 +766,8 @@
                     ],
                     "prediccion_continua": 0.8238216837247213,
                     "rmse": 0.18822149926339185,
-                    "prediccion_binaria": 0.8238216837247213
+                    "prediccion_binaria": 0.8238216837247213,
+                    "std": 0.06624600862970446
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -742,7 +777,8 @@
                     ],
                     "prediccion_continua": 0.5823459065052287,
                     "rmse": 0.41771368900609923,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.00705578983140641
                 },
                 "prueba 0": {
                     "respuesta": "Marie Curie, a pioneering scientist known for her work on radioactivity, was born on November 7, 1867. She died at the young age of 66 due to cancer on July 4, 1934.\n\n**Answer:**\n- Born: November 7, 1867\n- Died: July 4, 1934",
@@ -774,7 +810,8 @@
                     ],
                     "prediccion_continua": 0.8053296407063802,
                     "rmse": 0.20298522844066091,
-                    "prediccion_binaria": 0.8053296407063802
+                    "prediccion_binaria": 0.8053296407063802,
+                    "std": 0.057501775429983686
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -784,7 +821,8 @@
                     ],
                     "prediccion_continua": 0.5380473154532225,
                     "rmse": 0.46237475435248016,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.01975172657115804
                 },
                 "prueba 0": {
                     "respuesta": "The dates of Zeus's birth are unknown as ancient Greek texts did not use specific calendars like our modern Gregorian system. However, based on information from myths such as Prometheus receiving a liver-shaped stone in 957 BC and Persephone's abduction around 608 BC by Daedalus and Icarus, it is estimated that Zeus likely lived during an era spanning approximately the mid-950s BC to after 608 BC. The exact birth year remains uncertain due to the limitations of historical records from that period.",
@@ -816,7 +854,8 @@
                     ],
                     "prediccion_continua": 0.7225257555643717,
                     "rmse": 0.27899135107158973,
-                    "prediccion_binaria": 0.7225257555643717
+                    "prediccion_binaria": 0.7225257555643717,
+                    "std": 0.02905542372136842
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -826,7 +865,8 @@
                     ],
                     "prediccion_continua": 0.5459465664478558,
                     "rmse": 0.4544562936257651,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.01913118646545939
                 },
                 "prueba 0": {
                     "respuesta": "Bugs Bunny, el personaje de la guía de cartoons de Walt Disney, nació el 6 de enero de 1899.",
@@ -858,7 +898,8 @@
                     ],
                     "prediccion_continua": 0.246336097518603,
                     "rmse": 0.755881965997292,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.057864225705028895
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -868,7 +909,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "La bombilla, también conocida como bombilla incéntrica o vacuum tube bulb, fue inventada en **1907** por Edwin Vacuumtube Bell una criatura del estado de New York, Estados Unidos. Este descubrimiento revolucionó laillation y permamiso a las luces electromagnéticas ser reemplazadas con ledos más energética y eficiente.\n\nLa invención del vacuum tube también markó un hito importante en la tecnología del tiempo Contemporary, conduciendo a avances técnicos como los controladores de vacío y los sistemas de iluminación más modernos que existían antes.",
@@ -900,7 +942,8 @@
                     ],
                     "prediccion_continua": 0.312321941057841,
                     "rmse": 0.6881626874929497,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.02582192299313929
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -910,7 +953,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "The airplane car you're referring to is likely the concept known as the \"plane car\" or \"aviator car,\" which combines elements of air travel with automotive design. Post-War II, Ford became involved in troop transports but isn't directly credited with the airplane car. However, the term might stem from early concepts where cars were modified for high-speed road use, possibly drawing inspiration from aircraft principles.\n\nThe answer points to confusion between various vehicle concepts: specialized Ford cars during WWII, early experimental designs post-WWII that combined automotive and avionics elements, or potential misinterpretations of historical precedents like Amelia Earhart's work. Without more specific information, these are the connections leading to the thought process.",
@@ -945,7 +989,8 @@
                         ],
                         "prediccion_continua": 0.929094652334849,
                         "rmse": 0.072128153178144,
-                        "prediccion_binaria": 0.929094652334849
+                        "prediccion_binaria": 0.929094652334849,
+                        "std": 0.013225057783385176
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -955,7 +1000,8 @@
                         ],
                         "prediccion_continua": 0.5537848203464134,
                         "rmse": 0.4464719838671749,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.015140866058726426
                     },
                     "prueba 0": {
                         "respuesta": "The common symptoms of the flu typically include:\n\n1. **Fever**: A rising temperature indicating infection begins and escalates.\n\n2. **Coughing with mucus or phlegm**: A productive cough due to actively progressing infection.\n\n3. **Sneezing**: From exposure to infected respiratory droplets, causing particle-carrying sneezes.\n\n4. **Sinus congestion and runny nose**: From blocked sinuses resulting from infection.\n\n5. **Fatigue**: General weakness or tiredness after an acute infection.\n\n6. **Headache**: Pain in the head that may worsen as fever subsides and inflammation decreases.\n\n7. **Muscle ache or soreness**: T tendencies to feel tired, especially if the temperature drops at night without hydration.\n\n8. **Sore throat**: From irritation in the mouth and throat due to coughing or infection clearing.\n\nThese symptoms are common for most individuals experiencing influenza, though severity can vary by age, health status, and underlying conditions.",
@@ -987,7 +1033,8 @@
                         ],
                         "prediccion_continua": 0.8273484110832214,
                         "rmse": 0.17550439721480196,
-                        "prediccion_binaria": 0.8273484110832214
+                        "prediccion_binaria": 0.8273484110832214,
+                        "std": 0.031515429336163164
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -997,7 +1044,8 @@
                         ],
                         "prediccion_continua": 0.5237423361514352,
                         "rmse": 0.4764336264258737,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.01294750998518627
                     },
                     "prueba 0": {
                         "respuesta": "El tratamiento recomendado para la hipertensión arterial se diferencian según el tipo de hipertensión:\n\n### **Hipertensión Arterial No Controlable por Diabétess Renal (CKD):**\n1. **Diureticas:** Se usan diuretas que ayudan a eliminar el agua y sal, disminuyendo la presión arterial.\n2. **Antipresionales y Vasoprotectores:** Medicamentos como los glúcOS y los vasoprotectores (e.g., clonidine) pueden ser útiles.\n3. **Lifestyle Changes:** Moderate changes en dieta,运动, control del colesterol, y el fume.\n\n### **Hipertensión Arterial Controlable por Diabétess Renal:**\n1. **Diureticas Moduladoras:** Se usan diuretas más potentes (o fáciles de detener) que las de CKD.\n2. **Antipresionales,$ Vasoprotectores y Anticoagulantes:** Opportunity se utiliza para reducir la拴定.\n3. **Lifestyle Changes:** Moderate similar a la hipertensión no CKD.\n\n### Esenciales para todas:\n- **Monitorización Regular:** Evaluar la presión arterial, funcionalidades del corazón, y Variables como la ingestas de sal y agua.\n- **Enfocado en los Objetivos:** Los objetivos pueden ser más suaves si hay CKD debido a las características del corazón.\n- **Tratamientos Conservadores:** A menudo se usan para evitar un rebound de la presión arterial después de la terapia detallada.\n\n### consejos generales:\n- **Seaseo predeterminado:** Realizar una evaluación integral del estado de salud para determinar el mejor tratamiento.\n- **Consultar a un profesional:** Doctor, farmer, oSpecialista de saneamiento para planificar el tratamiento individualizado.",
@@ -1029,7 +1077,8 @@
                         ],
                         "prediccion_continua": 0.593374768892924,
                         "rmse": 0.4075617657873844,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.02761366253954352
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1039,7 +1088,8 @@
                         ],
                         "prediccion_continua": 0,
                         "prediccion_binaria": 0,
-                        "rmse": 1
+                        "rmse": 1,
+                        "std": 0.0
                     },
                     "prueba 0": {
                         "respuesta": "The query appears to ask about a virus named XY123456 and its symptoms. Upon checking, there is no known virus with this exact name. Therefore, it might either be fictional or a hypothetical scenario.\n\nIf we consider that XY123456 could be a typographical error or perhaps part of a fictional context, then based on general viral characteristics, symptoms similar to those of known respiratory viruses could include:\n\n- Fever\n- Coughing\n- Sore throat\n- Body aches\n- Fatigue\n\nHowever, without specific information about XY123456, these are speculative symptoms. If this is not the intended query, clarification would be helpful to provide more accurate information.",
@@ -1071,7 +1121,8 @@
                         ],
                         "prediccion_continua": 0.6805752515792847,
                         "rmse": 0.32191320189416467,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.03994921338544667
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1081,7 +1132,8 @@
                         ],
                         "prediccion_continua": 0,
                         "prediccion_binaria": 0,
-                        "rmse": 1
+                        "rmse": 1,
+                        "std": 0.0
                     },
                     "prueba 0": {
                         "respuesta": "To address the treatment of viral pharyngitis, consider the following structured approach:\n\n1. **Assess the Likely Cause:**\n   - If the pharyngitis is likely caused by a bacterial infection (e.g., strep throat), antibiotics such as beta-lactams are recommended first due to their effectiveness in killing bacteria.\n\n2. **Treatment Options Based on Cause:**\n   - **Viral Pharyngitis:** \n     - **Curcumin/Lematum (Jarabe):** Use this combination for treatment, especially if the phlegm is thickened or signaling inflammation without bacterial infection.\n     - **Sputum Expectorant:** Apply to clear mucus from the airways.\n\n3. **Combination Therapy:**\n   - For cases where both bacterial presence and viral inflammation are present, a combination of curcumin with antibiotics may be beneficial.\n\n4. **Considerations for Individuals:**\n   - Account for age and overall health; leatum or curcumin might be more suitable for young children or immunocompromised individuals compared to antibiotics.\n\n**Summary:** The optimal treatment depends on the underlying cause, primarily bacterial vs. viral. Antibiotics are first-line for bacterial infections, while a combination of curcumin (jarabe) with sputum expectorants is effective for viral cases, especially if mucus is thickened or inflammation persists.",
@@ -1113,7 +1165,8 @@
                         ],
                         "prediccion_continua": 0.6030372381210327,
                         "rmse": 0.41674591350156814,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.1268767989101193
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1123,7 +1176,8 @@
                         ],
                         "prediccion_continua": 0,
                         "prediccion_binaria": 0,
-                        "rmse": 1
+                        "rmse": 1,
+                        "std": 0.0
                     },
                     "prueba 0": {
                         "respuesta": "The appropriate treatment for a viral pharyngitis depends on several factors:\n\n1. **Nature of Infection**: \n   - If the pharyngitis is caused by a bacterial infection, antibiotics can be effective in reducing inflammation and curbing the infection if taken as per the prescription.\n\n2. **Severity and Source**:\n   - For viral causes without bacterial presence (e.g., cold, RSV), antibiotics are typically ineffective but rest, fluids, and over-the-counter medications might suffice.\n   - Severe cases or persistent symptoms that affect daily activities may benefit from surgery to remove infected tissue.\n\n3. **Patient Health**:\n   - In individuals with compromised immune systems or elderly patients, surgical options should be carefully considered to avoid complications.\n\n4. **Symptoms**:\n   - Minor symptoms like congestion without severe inflammation can often be managed at home, making alternatives like rest and fluids effective.\n\nIn summary, treatment varies based on the infection type, severity, patient health, and symptom management needs. Consulting a healthcare professional is advisable for personalized advice.",
@@ -1155,7 +1209,8 @@
                         ],
                         "prediccion_continua": 0.7605892022450765,
                         "rmse": 0.25447786398891176,
-                        "prediccion_binaria": 0.7605892022450765
+                        "prediccion_binaria": 0.7605892022450765,
+                        "std": 0.08626385789373318
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1165,7 +1220,8 @@
                         ],
                         "prediccion_continua": 0.5761349322398034,
                         "rmse": 0.4239734454185535,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.009585757806406267
                     },
                     "prueba 0": {
                         "respuesta": "**Ramón y Cajal: A Pioneering Figure in Neurological Research**\n\n**Biographical Overview**  \nSpaniard Ramón y Cajal (1869-1945) is renowned for revolutionizing neuroanatomy. He dedicated his career to studying the nervous system using meticulous microscopy, laying the groundwork for understanding neurological diseases and brain function.\n\n**Key Contributions**  \n- **Neuronal Foam Cells**: His discovery of these cells provided critical insights into neuronal diseases like multiple sclerosis.\n- **Structural Understanding**: Cajal's work elucidated the structure of neurons in the retina, advancing our knowledge of neuroanatomy. This research influenced subsequent developments in neuroscience and neurology.\n\n**Legacy and Methodological Impact**  \n- **Shift to Observation**: Cajal promoted a visual, observational approach in science, emphasizing detailed documentation over hypothesis-driven research.\n- **Influential Work**: His findings were disseminated through collaborative efforts within the scientific community, ensuring their value across disciplines. His work continues to be foundational in medical education and research.\n\n**Awards and Recognition**  \n- Renowned for his groundbreaking discoveries, Cajal was awarded the Nobel Prize in Physiology or Medicine in 1906, further cementing his legacy.\n\nIn summary, Ramón y Cajal's contributions have been instrumental in shaping modern neuroanatomy and continue to inspire medical research. His enduring impact is a testament to his innovative approach and dedication to understanding brain function.",
@@ -1197,7 +1253,8 @@
                         ],
                         "prediccion_continua": 0.4989938835302989,
                         "rmse": 0.5096981479243506,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.0937287216250255
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1207,7 +1264,8 @@
                         ],
                         "prediccion_continua": 0,
                         "prediccion_binaria": 0,
-                        "rmse": 1
+                        "rmse": 1,
+                        "std": 0.0
                     },
                     "prueba 0": {
                         "respuesta": "Lewis Hamilton, a distinguished physician with experience spanning over four decades, played a pivotal role in the realm of medical research during the COVID-19 pandemic through his involvement in clinical trials for vaccines developed by Oxford-AstraZeneca and Pfizer-BioNTech. His notably significant contributions include directing the Sequential Priority Iterator in Trials, Pixel for Radius (SPIRIT) trial on the AstraZeneca vaccine, where he ensured the integrity of data collection and compliance with regulatory standards. Additionally, during his tenure at Pfizer, Hamilton contributed to the pivotal Phase 3 clinical trial, addressing concerns about adverse effects linked to dosing delays.\n\nHamilton's expertise extended beyond these trials; he maintained clinical safety across various other projects. His meticulous approach to ensuring accuracy in clinical data enhanced trustworthiness for regulatory bodies and patients alike. Beyond the pandemic, his work highlighted the importance of reliable data in medical research. Overall, Lewis Hamilton's contributions underscored the critical role of meticulous oversight in clinical trials, ensuring patient safety and the credibility of treatment outcomes.",
@@ -1239,7 +1297,8 @@
                         ],
                         "prediccion_continua": 0.3953615128993988,
                         "rmse": 0.6047491343495524,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.011567861221030668
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1249,7 +1308,8 @@
                         ],
                         "prediccion_continua": 0,
                         "prediccion_binaria": 0,
-                        "rmse": 1
+                        "rmse": 1,
+                        "std": 0.0
                     },
                     "prueba 0": {
                         "respuesta": "In 1796, notable advancements across science and medicine included:\n\n1. **Chemistry:**\n   - The chemist Martin Klaproth made progress on naming chemical elements, closer to his work on antimony (which he named \"stannum\") in the late 1790s.\n   - Chemists like August Wenzel isolated substances based on temperature. For instance, heat-sensitive compounds such as those burning at specific temperatures were a key discovery, though this might have been slightly later into the year.\n\n2. **Medicine:**\n   - Louis-Joseph Debroux (Paracelsus) continued his influential work in remedial medicine by this time, contributing to alternative medical practices.\n\nThese developments marked significant progress in both fields during 1796.",
@@ -1281,7 +1341,8 @@
                         ],
                         "prediccion_continua": 0.7840057015419006,
                         "rmse": 0.22895430959141744,
-                        "prediccion_binaria": 0.7840057015419006
+                        "prediccion_binaria": 0.7840057015419006,
+                        "std": 0.07593773050385505
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1291,7 +1352,8 @@
                         ],
                         "prediccion_continua": 0.550238042909342,
                         "rmse": 0.45014614644645107,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.018593953710030284
                     },
                     "prueba 0": {
                         "respuesta": "**SARS-CoV-2: Understanding Its Origin and Impact**\n\n1. **What is SARS-CoV-2?**\n   - SARS-CoV-2, or Severe Acute Respiratory Syndrome Coronavirus 2, is a member of the coronaviruses family known for causing respiratory illnesses.\n   \n2. **Etiology and Transmission**\n   - The virus was identified in Wuhan, China, natively in December 2019 under the name 2019-nCoV.\n   - Initial cases were linked to a海鲜市场, often referred to as the bat market theory of origin without conclusive scientific evidence.\n\n3. **Global Spread and Pandemic Dynamics**\n   - Exponential growth patterns were observed early on, contributing to rapid case increases, which is concerning due to the potential for quick multiplication of cases.\n   - The pandemic led to lockdowns globally, impacting economic activities with widespread supply chain disruptions affecting essential goods like masks and hand sanitizer.\n\n4. **Global Impact: Economic and Social Consequences**\n   - Severe disruptions in global trade, investment, and travel due to stay-at-home orders.\n   - Social changes included a surge in searches for baby products (diapers, formula) and protective gear amid the crisis.\n\n5. **Healthcare System Strain**\n   - Hospitals overwhelmed with COVID-19 cases necessitating high demand for intubation tubes and other critical resources.\n\n6. **Mental Health Considerations**\n   - A significant psychological impact due to increased stress and anxiety among individuals in lockdowns, contributing to elevated rates of mental health issues.\n\n7. **Political and Policy Responses**\n   - Varying strategies based on national capacities: developed nations prioritized vaccination infrastructure while developing nations relied on international solidarity during the pandemic.\n\n8. **Health Outcomes and Long-Term Implications**\n   - Global scope resulting in millions of deaths, with long-term health consequences for survivors.\n   - A catalyst for global health collaboration to address future viral threats through vaccination and preparedness measures.\n\nIn summary, SARS-CoV-2 is a virus that has had a profound impact on global health, economy, society, and politics since its emergence. It underscores the importance of robust healthcare systems, international cooperation, and ongoing efforts towards vaccination against future pandemics.",
@@ -1323,7 +1385,8 @@
                         ],
                         "prediccion_continua": 0.605295717716217,
                         "rmse": 0.400023396148765,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.06501728241964248
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1333,7 +1396,8 @@
                         ],
                         "prediccion_continua": 0,
                         "prediccion_binaria": 0,
-                        "rmse": 1
+                        "rmse": 1,
+                        "std": 0.0
                     },
                     "prueba 0": {
                         "respuesta": "When considering whether a cold can lead to constipation, it's important to evaluate several factors:\n\n1. **Hydration and Nutrition**: During recovery from a cold, individuals may focus more on soothing symptoms rather than consuming fiber-rich foods or staying hydrated. This can contribute to harder stools.\n\n2. **Bowel Movement Changes**: Resting periods after a cold can slow down bowel movements as activity levels decrease, potentially leading to constipation-like symptoms such as infrequent bowel movements.\n\n3. **Gastrointestinal Health**: Stress associated with having a cold can impact gut health, potentially affecting gastrointestinal functions including digestion and stool consistency.\n\n4. **Medical Perspective**: Medical professionals generally do not consider colds as direct causes of constipation. The changes in bowel habits are often linked to lifestyle adjustments during recovery rather than a direct link to having a cold.\n\nIn conclusion, while symptoms akin to constipation might occur during a cold due to changes in diet, hydration, or activity levels, the connection is indirect and not typically highlighted by medical sources.",
@@ -1365,7 +1429,8 @@
                         ],
                         "prediccion_continua": 0.7355020642280579,
                         "rmse": 0.2671198114685677,
-                        "prediccion_binaria": 0.7355020642280579
+                        "prediccion_binaria": 0.7355020642280579,
+                        "std": 0.03733410841823779
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1375,7 +1440,8 @@
                         ],
                         "prediccion_continua": 0.538541846593669,
                         "rmse": 0.46162328650256934,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.012346306988418725
                     },
                     "prueba 0": {
                         "respuesta": "La depresión, comoirusca, es un trato de la enfermedad psiquiatría.",
@@ -1407,7 +1473,8 @@
                         ],
                         "prediccion_continua": 0.7385954260826111,
                         "rmse": 0.26515184685229676,
-                        "prediccion_binaria": 0.7385954260826111
+                        "prediccion_binaria": 0.7385954260826111,
+                        "std": 0.044420160110609515
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1417,7 +1484,8 @@
                         ],
                         "prediccion_continua": 0.539381663894308,
                         "rmse": 0.46137853361031933,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.026474510753408773
                     },
                     "prueba 0": {
                         "respuesta": "Basado en la información proporcionada, Manuel Padre tiene un fiebre y comenzó a recibir antibióticos desde el primer día. Sin embargo, su condition no mejoró duranteThose 3 días. A continuación se detallan las posibles causas y recomendaciones:\n\n1. **Revisión del diagnóstico inicial:**\n   - Examinar si el diagnóstico de infección aguda por baileos fue correcto.\n   - Excluir causas como VIH o Sepsis, que requieren abordajes diferentes.\n\n2. **Evaluación de la administación de antibióticos:**\n   - Asegurarse de que se han utilizado Antibios correctamente, en la dose y forma adecuada.\n   - Verificar si los Antibios fueron adecuados para laTipo patológica del microorganismo afectado.\n\n3. **Consideración de otros síntomas adicionales:**\n   - Examinar si Manuel tiene síntomas adicionales que sugieran una error diagnóstico inicial, como ansiedad, fugacidad o complicaciones vitales.\n\n4. **Evaluación de la posibilidad de hemorragia craneal:**\n   - Hemorragescan craneales son graves y requieren atención médica imediata.\n   - Verificar si se padecía previo síntoma de fiebre, lo cual podría apuntar a una possibile Hemorragescan craneal.\n\n5. **Revisión del estado de salud general:**\n   - Observar si las dificultades de recovery son comunes a Other conditions, pero que no evinden un error diagnóstico inicial.\n\n6. **Consejos para Manuel:**\n   - Consultar a un Dr. especialista para una revision más detallada.\n   - Mantenerse informado de progresos y seguir cuidando de sí mismo.\n\nSi Manuel sigue no mejorando o presentsis más graves, es fundamental que elaborese una planificación médica adecuada bajo la supervisión de un profesional de salud capacitado.",
@@ -1449,7 +1517,8 @@
                         ],
                         "prediccion_continua": 0.8396846254666647,
                         "rmse": 0.1725718438326722,
-                        "prediccion_binaria": 0.8396846254666647
+                        "prediccion_binaria": 0.8396846254666647,
+                        "std": 0.06387504968330446
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1459,7 +1528,8 @@
                         ],
                         "prediccion_continua": 0.515856217384854,
                         "rmse": 0.4841469389475465,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.0017482126236482403
                     },
                     "prueba 0": {
                         "respuesta": "El dolor muscular después de alta int ensión, como un corriente de 20 km, puede ocurrir, especialmente si los músculos inferiores del bodyweight no están bien preparados. Para aliviarlo, sigue estos pasos:\n\n1. **Experiencia esteril**:\n   - Realiza un rutino de estirar con dedicación, incluyendo movilizaciones específicas como extensiones de brazo, cárceles, rodillos y movilizaciones de rodilla.\n   \n2. **Limpieza del area de trabajo**:\n   - Arraiza el área de trabajo con bolas de goma para prevenir la adhesión de肌纤维.\n\n3. **Movilizaciones específicas**:\n   - Ejercita las movilizaciones que has realizado en el último día, como extensiones de brazo, cárceles, rodillos y movilizaciones de rodilla.\n\n4. **Reposo adecuado**:\n   - Sigue establishando un plan de reposo adecuado con Favorite de la regression para prevenir la relEscasa de músculos debido a la fatigue.\n\n5. **Pronunciación de síntomas**:\n   - Si el dolor muscular persiste o es grave,consulta al profesional médico o fisiólogo.\n\n6. **Relajamiento**:\n   - Establece una rutina de relajamientoy evitar hábitos que could acelerar la aparición de dolores, como indisposición al S/. hálito y pocos sueños.\n\nRecorda que el dolor muscular es un indicador normal此后 de un extenso entrenamiento oCorriente.",
@@ -1491,7 +1561,8 @@
                         ],
                         "prediccion_continua": 0.6232688426971436,
                         "rmse": 0.3968095250316429,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.12462517511758404
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1501,7 +1572,8 @@
                         ],
                         "prediccion_continua": 0,
                         "prediccion_binaria": 0,
-                        "rmse": 1
+                        "rmse": 1,
+                        "std": 0.0
                     },
                     "prueba 0": {
                         "respuesta": "¡Claro! La cuisine y el eating, freedom is key. Si haces bien la elección de tus alimentos, siempre disfrutarás. El well-being está un poco más lejos del limón que se cree, pero hay modos sostenibles de cocinar y comer. Por ejemplo, no importa cuáles sean los alimentos que consumas, los ones que disfrutas más son los bienvenidos en tu vida saludable y en tu corazón.",
@@ -1533,7 +1605,8 @@
                         ],
                         "prediccion_continua": 0.700351893901825,
                         "rmse": 0.3086175316296572,
-                        "prediccion_binaria": 0.700351893901825
+                        "prediccion_binaria": 0.700351893901825,
+                        "std": 0.07386334233541889
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1543,7 +1616,8 @@
                         ],
                         "prediccion_continua": 0.5200676507694758,
                         "rmse": 0.4801610042215511,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.014816549433611015
                     },
                     "prueba 0": {
                         "respuesta": "Sí, la curación del cáncer de páncreas puede incluir cirugías que varían en fecha y Timing, dependiendo de la etapas de enfermedad y el tipo de cáncer. Es conveniente consultar con tu médico oncólogo para obtener una indicación específica regarding your prognosis.",
@@ -1575,7 +1649,8 @@
                         ],
                         "prediccion_continua": 0.6269904176394144,
                         "rmse": 0.3798829111300209,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.0719366223546874
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1585,7 +1660,8 @@
                         ],
                         "prediccion_continua": 0,
                         "prediccion_binaria": 0,
-                        "rmse": 1
+                        "rmse": 1,
+                        "std": 0.0
                     },
                     "prueba 0": {
                         "respuesta": "No hay una relación clara entre lauletura de la últimas películas de Marvel y el ámbito de la salud. Sin información específica sobre un posibles enlace, no puedo proporcionar una respuesta relevante.",
@@ -1617,7 +1693,8 @@
                         ],
                         "prediccion_continua": 0.6841540932655334,
                         "rmse": 0.3161332748884009,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.013476301078110549
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1627,7 +1704,8 @@
                         ],
                         "prediccion_continua": 0,
                         "prediccion_binaria": 0,
-                        "rmse": 1
+                        "rmse": 1,
+                        "std": 0.0
                     },
                     "prueba 0": {
                         "respuesta": "In the Paleolithic period, around 2.5 million years ago to about 10,000 BCE, early humans did have forms of medical practice, though they were rudimentary compared to modern medicine. Here's a structured overview:\n\n1. **Healing Modalities**: Early humans used methods like sweat therapy (drenched in sweat andthen dried) known as coprophagia, where body fluids or secretions were applied for healing. They also employed herbal remedies from plants found locally.\n\n2. **Tribal Involvement**: Healers often came from tribal members who had deep cultural connections with the land. These individuals provided medical care mainly because of their spiritual and social roles beyond just purely medical ones.\n\n3. **No Formalized System**: Unlike today, there were no organized medical systems or structured classifications of diseases. Medical practices were likely informal and based on practical needs and community support.\n\n4. **Spiritual Healing**: Some cultures attributed healing to spirits or deities through rituals rather than scientifically-based methods. This form of healing was widespread among various societies during this period.\n\n5. **Protection and Care**: These healers also served as protectors, ensuring individuals' well-being and contributing to the health of their communities through various means, including injury care and use of local remedies.\n\nIn summary, while there were forms of medical care in the Paleolithic era, these practices were informal, relying on tribal members for both practical and spiritual healing, without a structured system akin to modern medicine.",
@@ -1659,7 +1737,8 @@
                         ],
                         "prediccion_continua": 0.6011507573227087,
                         "rmse": 0.5585655485326371,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.3910431608190035
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1669,7 +1748,8 @@
                         ],
                         "prediccion_continua": 0,
                         "prediccion_binaria": 0,
-                        "rmse": 1
+                        "rmse": 1,
+                        "std": 0.0
                     },
                     "prueba 0": {
                         "respuesta": "",
@@ -1701,7 +1781,8 @@
                         ],
                         "prediccion_continua": 0.7835217316945394,
                         "rmse": 0.2200648284334829,
-                        "prediccion_binaria": 0.7835217316945394
+                        "prediccion_binaria": 0.7835217316945394,
+                        "std": 0.03956877638905795
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1711,7 +1792,8 @@
                         ],
                         "prediccion_continua": 0.5394389924967079,
                         "rmse": 0.4615913114427836,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.030823646231770776
                     },
                     "prueba 0": {
                         "respuesta": "Dr. House, portrayed by Dr. Michael J.ropicz in the TV series \"House,\" is a globally recognized cultural icon known for his dramatic portrayal as Richard \"Richard\" Castle. Here's an organized summary of who he is and why he's famous:\n\n1. **Character Traits**: Dr. House is depicted with a distinctive appearance—long face,增大 nose, often creepy—and has a catchphrase, \"The only disease I know for sure is pneumonia,\" which adds to his chaotic character.\n\n2. **Fame in Entertainment**: Known primarily through the TV series based on real-life hospitals and medical settings (though largely fictional), he operates a private clinic where he treats patients without charging fees because he isn't affiliated with any hospital.\n\n3. **Appeal**: Dr. House's multi-dimensional nature—intelligent, empathetic, and with a sense of humor or chaos—appeals to many viewers, making him likable despite his dark personality.\n\n4. **DrAMa Elements**: The show incorporates elements typical of dramas about health, balancing serious medical themes with thriller aspects, which keeps audiences engaged.\n\n5. **Career Span**: By appearing in multiple seasons on various TV shows, he became a staple figure across many healthcare-themed series, allowing him to showcase his character's versatility and depth.\n\n6. **Fictional Nature**: While inspired by real-life hospital settings, The House is largely fictional, focusing on the dramatic aspects of medicine rather than actual medical accuracy.\n\nIn essence, Dr. House's fame stems from his enduring presence in entertainment, captivating audiences with a blend of intelligence, empathy, humor, and suspense in health-related dramas.",
@@ -1743,7 +1825,8 @@
                         ],
                         "prediccion_continua": 0.8212557236353556,
                         "rmse": 0.1791430118703447,
-                        "prediccion_binaria": 0.8212557236353556
+                        "prediccion_binaria": 0.8212557236353556,
+                        "std": 0.011945809677794935
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1753,7 +1836,8 @@
                         ],
                         "prediccion_continua": 0.5222232640378042,
                         "rmse": 0.47784561921078966,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.008113345318252068
                     },
                     "prueba 0": {
                         "respuesta": "La salud y el desempeño académico están íntimamente relacionados y se influences mutuamente. Aquí está una detallada explicación de esta relación:\n\n### 1. **Salud y rendimiento académico**\n   - **Energía física**: Una buena salud, especialmente en terms de energía, permite que un estudiante tenga la fuerza necesaria para dedicarse a los estudios con dedicación y exhaustividad.\n   - **Nutrición saludable**: La nutrición playing una papela crucial para el rendimiento cognitive. Al redder un diet Includes todos los nutrientes esenciales como el azúcar, el grasado animal, la fibra, etc., se mejora la comprensión, la memoria y el desempeño académico.\n   - **Sleep ( Sueño )**: El睡眠 es esencial para el rendimiento mental. Un baile de sueños adecuados fomenta el IPOs, la atención y la capacidad de learn.\n   - **Manejo del estrés**: El estrés puede deteriorar el rendimiento académico si no es gestionado adecuadamente. Técnicas como el deep breathing, la meditación o el ejercicio pueden ayudar a reducir el estrés estudiantil.\n\n### 2. **Ciencia de la salud mental y el rendimiento académico**\n   - **Conexión entre el estado mental y el rendimiento escolar**: Al studying mathematics, una falta de的信心 o depresión puede reducir la capacidad de learn.\n   - **Tensión mental**: Una high-pressure study environment can negatively affect performance through negative thinking, burnout, etc.\n\n### 3. **Factores externos que afectan el desempeño académico**\n   - **Calidad del profesorado y del entorno académico**: Un/Buen professors y un entorno de aprendizaje equilibrado pueden mejorar el rendimiento.\n   - **Recursos available**: La availability de librarianas,librarys, and other learning resources can also influence academic performance.\n   - **Presión estudiantil**: Excessive pressure to perform puede negatively impact mental health y academic performance.\n\n### 4. **El razonamiento inverso: académico mal rendimiento afecta la salud**\n   - **Verosimilitud de disturbios de salud por baile rendimiento académico**: Un student con poca confianza o poca energy may developed underlying health issues.\n   - **Dinámica del bienestar estudiantil**: La relation between academic performance and physical and mental health es un campo de investigación constante.\n\n### Conclusión:\nLa salud y el rendimiento académico se influences mutuamente. Una buena salud fomenta una mejor rendimiento academic, pero también puede que una pobre salud may limitar生产能力 para estudiar. Es importante tener en cuenta que esta relación es bidirectional: un/Buen ambiente academic y una/Buen nutrición pueden mejorar la salud mental, que, a su vez, pode contribuir al rendimiento académico.",
@@ -1785,7 +1869,8 @@
                         ],
                         "prediccion_continua": 0.7603528698285421,
                         "rmse": 0.24025295527791762,
-                        "prediccion_binaria": 0.7603528698285421
+                        "prediccion_binaria": 0.7603528698285421,
+                        "std": 0.017050968311429868
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1795,7 +1880,8 @@
                         ],
                         "prediccion_continua": 0.5717373860458848,
                         "rmse": 0.4282882148475109,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.0046827840497010945
                     },
                     "prueba 0": {
                         "respuesta": "The statement that the human heart can continue beating outside the body with adequate oxygen is misleading and not entirely accurate. Here's a structured explanation of the situation:\n\n1. **Biological Necessity**: The human heart requires a systemic supply of oxygen through circulatory tissues to function. Without this, cells in the heart die due to lack of nutrients, leading to cell death.\n\n2. **Pulmonary Bypass and Pacemakers**: While medical procedures like cardiopulmonary bypass allow artificial support for breathing without stopping the natural heart, a pacemaker can restore heart contractions after a stoppage but does not sustain them on its own.\n\n3. **External Stimulators**: Devices such as external pulse generators or artificial hearts provide electrical stimulation to the heart. These are not independent of a living body and rely on external systems for support.\n\n4. **Experimental Treatments**: Stem cell-based therapies involve transferring heart cells into a synthetic substrate, but these are experimental and complex, requiring medical expertise.\n\n5. **Misunderstanding the Statement**: The original statement likely confuses external stimulation with true independents beating outside the body without any living connection or systemic oxygen supply.\n\nIn conclusion, for an artificial organ to sustain heart contractions outside the body, it must provide both electrical stimulation and sustained systemic oxygen supply, typically through established medical devices. The statement oversimplifies these complex processes.",
@@ -1827,7 +1913,8 @@
                         ],
                         "prediccion_continua": 0.8663228750228882,
                         "rmse": 0.13855094010296953,
-                        "prediccion_binaria": 0.8663228750228882
+                        "prediccion_binaria": 0.8663228750228882,
+                        "std": 0.03642511854847254
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1837,7 +1924,8 @@
                         ],
                         "prediccion_continua": 0.5729078310243675,
                         "rmse": 0.4282492686404158,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.03145974079265126
                     },
                     "prueba 0": {
                         "respuesta": "La medicina se basa en diagnose les illness y les travez les drogues, operaciones, o procediments medicos. Ella promove el salud holistic y la preventive, incluyend specialized care through doctors y nurses. Les médecins usan tests, ensayos, y exámenes per a diagnosticar los problemas, y dan recomendations basades en ls investigations.",
@@ -1871,7 +1959,8 @@
                         ],
                         "prediccion_continua": 0.6414506236712137,
                         "rmse": 0.3595870500483876,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.027298192188129403
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1881,7 +1970,8 @@
                         ],
                         "prediccion_continua": 0,
                         "prediccion_binaria": 0,
-                        "rmse": 1
+                        "rmse": 1,
+                        "std": 0.0
                     },
                     "prueba 0": {
                         "respuesta": "Para ganar puntos jugando al pádel, tienes que scores goals de diferentes maneras. Aquí te explico cómo se consiguen los puntos:\n\n1. **Shot goals (Goles de eshot):** Es el tipo más basic Jo score un punto cuando el pake te entra en la portería contraria.\n\n2. **Assists (Ayudcciones):** Si te lastima un compañero que gane un pake al_can del oponente y éste lo gana a ti, también scores un punto. Esto también se conoce como \"correr al pache\" o \"comer en el cuello\".\n\n3. **Net goals (Goles net):** Es similar a los shot goals, pero el pake debe entrar directamente en la portería sin que el oponente intefi.\n\n4. **Goals with the stick (Goles con la marte):** En las ligas de pade greatermann, hay puntos adicionales los que se obtienen cuando elcue scores un pache y laterse la portería.\n\n5. **Trick goals (Pierrot tricks):** Si logras alinear el pake en forma de rayo y lo pases sin ser capturado, a veces se consideran worth más puntos.\n\n6. **Interceptions (Cetas):** Si te caught un pache del oponente y lo scores tú mismo, también es un tipo de goals que valued punk points.\n\n7. **Blocking shots:** No es directamente un goal, pero si eficientemente escribes paves o blogetas los paces para que el oponente no puedan ganar, también se consideran punk points.\n\nAsegurarte de practicar tanto en la scoring como en la defensa será clave para accumulate lots of points. ¡Bon game!",
@@ -1913,7 +2003,8 @@
                         ],
                         "prediccion_continua": 0.8267353574434916,
                         "rmse": 0.1755788935484622,
-                        "prediccion_binaria": 0.8267353574434916
+                        "prediccion_binaria": 0.8267353574434916,
+                        "std": 0.028413227544008532
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1923,7 +2014,8 @@
                         ],
                         "prediccion_continua": 0.545759172013622,
                         "rmse": 0.4543506706332062,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.009990099854057414
                     },
                     "prueba 0": {
                         "respuesta": "Los four premios más importantes del tenis son:\n\n1. **ATP World Tour Main Events (WPT)** - Este premio incluye los campeones de(ATP500) como el US Open en Nueva York, el Australian Open en Brisbeimeiser y otros campeños de ATP Tour.\n\n2. **WTA Tour Championship** - Also conocido como la WTA World Championship, organizará en Praga el wimbledon para la WTA Tour.\n\n3. **US Open (Grand Slam)** - El más famoso campeonato del mundo, se celebra en New York y es considerado uno de los Grand Slams más importantes.\n\n4. **Australian Open (Grand Slam)** - El otro campeonato del Grand Slams, se举行a en enero en Aus祭地.\n\nEstos cuatro premios son los que más destacan por su exigibilidad y su importancia en la carrera del tenis profesional.",
@@ -1955,7 +2047,8 @@
                         ],
                         "prediccion_continua": 0.47242895762125653,
                         "rmse": 0.5296209953403719,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.04655313038596078
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1965,7 +2058,8 @@
                         ],
                         "prediccion_continua": 0,
                         "prediccion_binaria": 0,
-                        "rmse": 1
+                        "rmse": 1,
+                        "std": 0.0
                     },
                     "prueba 0": {
                         "respuesta": "¡Buen goaldas! Eres una gran parts del equipo. Tu pases y tu confianza en ti same la thistle que sube y sube. Ahora, sigue tendiendo elIELD y gan(loss) más.",
@@ -1997,7 +2091,8 @@
                         ],
                         "prediccion_continua": 0.7212143341700236,
                         "rmse": 0.2801449556469676,
-                        "prediccion_binaria": 0.7212143341700236
+                        "prediccion_binaria": 0.7212143341700236,
+                        "std": 0.02756353936232037
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2007,7 +2102,8 @@
                         ],
                         "prediccion_continua": 0.5302647632077813,
                         "rmse": 0.46975474446513277,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.004281035302401575
                     },
                     "prueba 0": {
                         "respuesta": "El deporte que se aduda que te recomiendo es el **Volejín**. Es un juego que se hace con un chorro de pelota, no utiliza los pies y es ideal paraThose que buscan una actividad occupationel que incluya periodicheck descansos y evita la agilidad demenudo. Es\nrápido, f:])e limpio y te permite hacer periodicheck tiempos de descansos para volverse más refresco.\n\nOtra opción son el **Tenis Limpón**, que también se hace con palillos ($$ en lugar de billones) y es una activities occupationel que permites\nparar periodicheck periodicos descansos.\n\nAmbas actividades son morbidas, f:])e limpio y idélicas paraThose que buscan un deporte occupationel con periodicHECK periodicos descansos.",
@@ -2039,7 +2135,8 @@
                         ],
                         "prediccion_continua": 0.8094226519266764,
                         "rmse": 0.1913572177513717,
-                        "prediccion_binaria": 0.8094226519266764
+                        "prediccion_binaria": 0.8094226519266764,
+                        "std": 0.017258597477349102
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2049,7 +2146,8 @@
                         ],
                         "prediccion_continua": 0.5335576707122244,
                         "rmse": 0.46664612872670935,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.013789956643112954
                     },
                     "prueba 0": {
                         "respuesta": "El mejor_option para el atletismoDepende de lo que hables la actividad en la quaestión: \n\n- **Gafas de natación** son indisolubles para las actividades que se realizan en agua, como el nadar o la tenis marina. Ayudan a reducir la resistencia del water, facilitan el breatheo y protect los ojos. Son Indispensables para cualquier atleta que realice actividad en agua.\n\n- **Bicicleta** es mejor para actividades en tierra, como el ciclismo, caminar, o incluso entrenamiento al aire libre. Improve la fitness cardiomusculares, la Velocidad y la resistencia.\n\nSi quieres ser un全面发展 de atleta que practica tantoActivities en agua com nterrain, podrías considerar Hacer un combo con gafas de natación más una ciclistas.\n\nEl mejor_optionDepende de lo que buscas y las tuvas tu actividad principal.",
@@ -2081,7 +2179,8 @@
                         ],
                         "prediccion_continua": 0.8380756576855978,
                         "rmse": 0.18072134642099064,
-                        "prediccion_binaria": 0.8380756576855978
+                        "prediccion_binaria": 0.8380756576855978,
+                        "std": 0.08025404923282056
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2091,7 +2190,8 @@
                         ],
                         "prediccion_continua": 0.5477266965396285,
                         "rmse": 0.45276668660047414,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.02113129130494911
                     },
                     "prueba 0": {
                         "respuesta": "**Rafael Nadal: A Legend in Professional Tennis**\n\n**Early Life & Background:**\nPablo de la Hoz en el Paseo, also known as Rafa Nadal, was born on April 26, 1980, in Seville, Spain. Spaniard by heritage but fluent in English due to his American father, he developed an early passion for tennis from his parents.\n\n**Early Career & Professional Milestones:**\nAt just 7 years old, Rafa signed professionally at a young age for €52,500 (equivalent to around $174,000 in today's money). By the time he was 16, he had already played on the ATP Tour. He dominated men's singles from 2003 until 2017, a prodigious 14-year streak of success.\n\n**Achievements & Titles:**\nA multiple-time Grand Slam champion (8 majors in singles by age 40), Nadal also clinched the Billie Jean King Cup. Notably, he won his eighth Grand Slam title at the US Open with Ana Radu in mixed doubles, a remarkable feat as few men have achieved.\n\n**Golden Era & Transition:**\nReached more than 70 tournament wins early on and remains one of the most versatile players due to adaptability across different court conditions. Retired from professional tennis at 43, his post-career contributions include coaching as young as 16. He also founded the Red Bull Kids Tennis Academy, extending his passion for tennis beyond the court.\n\n**Injuries & Legacy:**\nFaced injuries that slowed him down late in his career but showcased resilience and determination to return stronger after restructuring his body. His enduring spirit is evident outside of tennis, with awards such as the El Clásico for Best Player twice during his illustrious career.\n\n**Impact on Tennis:**\nNadal's achievements have significantly influenced tennis history through his dominance, adaptability, and contribution to its growth globally. His legacy endures both as a player and an icon, inspiring future generations.\n\nRafael Nadal's extraordinary career marked a unique chapter in professional tennis, blending unmatched skill, resilience, and passion that continue to captivate audiences worldwide.",
@@ -2123,7 +2223,8 @@
                         ],
                         "prediccion_continua": 0.6978374719619751,
                         "rmse": 0.3045443769335276,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.03801426273782453
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2133,7 +2234,8 @@
                         ],
                         "prediccion_continua": 0,
                         "prediccion_binaria": 0,
-                        "rmse": 1
+                        "rmse": 1,
+                        "std": 0.0
                     },
                     "prueba 0": {
                         "respuesta": "**El legado de Charlie Chaplin en la historia de los deportes**\n\nCharlie Chaplin, el célebre comico del primer cuarto del siglo XX con su iconicia贯名的 mustache y pipe charca, pasó una mayor parte de su vida jugando al basebal. Su origen se remonta a 1875 en Captain Bascom (Canterbury, Kent), Inglaterra. El炭亮 Chaplin fue un héro de campesino idealista que soñaba con ser un jugador profesional de baseball. Sin embargo, el camino hacia la camisa blanca no fue fácil: perdió el equilibrio del juguete al caerse de un m Someone se lo hable, y su adoración por los deportes pasó desbordadormente a la polea.\n\nLa historia de Chaplin está llena de anécdotas que ilustran su connection con el fútbol: se le ha dicho que soñaba con scores marinos; se encargó de eradir una sonadora alegre de futbol al andar, y pica was his famous \"baseball boy\" image. Sin embargo, Chaplin fue bien más que unsimple fútbol hobbist. En 1920, Chaplin y Babe Ruth - \"El Enredado del Ball\", el home run expert - formaron una colaboración que cambiaría el curso de su carrera. Juntos, trabajaron en publicaciones de publicidad para las ballas de Babe's bat, transformando los deportes en un tema principal de suscomedios.\n\nuna de las piezas más célebres de Chaplin es \"The Man Who Wasn'T a Sports Giant\", en la que personaje se envuelve como un cebollero que busca proteger su lecho al rigorOSO sporties. La voz que dice \"¡No hagamos de deportes lo que others\", es una reflexión acida sobre la obsesión del fanatismo fútil y el lucro excesivo.\n\nmás allá de su contributions al Fielding y Other Comedy, Chaplin también escribió acrobátas de los deportes: un.Disimuló Gengras como \"Herrman T. Gengras Sr.\", un sepultado de su time, que se encargó de \"The Sports Expert\" column para Time Magazine. Su giro hacia el sport no fue un error, sino un reflejo de la suerte de la naturaleza humana: \"La Sorte es un Pueda Usar los deportes como un medio para transmitirse a otros e inspirar en ellos los sentimientos que ones same que los propios autores.\"\n\nEn las mismas líneas de Chaplin, los modernos atletes como Muhammad Ali y decimBNY de la New York Giants han utilizado el sport como un medium para transmitir sus message sacerdoyales. Sin embargo, Chaplin spartó en más lo que se preveía: su connection con la memorabilia sports y la popularidad global de los objects associated con el deporte.\n\nEl legado de Charlie Chaplin no está solo en el Fielding o en \"The Man Who Wasn'T a Sports Giant\". Sigue siendo una fuentes inagotible de inspiración para los commemorate sportsmen y su impacto enduring en la cultura popular. En un tiempo, Chaplin no solo es una figuresa de humor, sino que también es un hero del sport y de la perseverancia. Su estilo acrobático acortado - \"El Sports giant - se convirtió en un legenda en el skiing de fiesta, un disparate image de fuerza y determinación.\n\nEn resumen, Charlie Chaplin fue más que un simple_actor Humor. Él fue un leguaer de la pasión por los deportes, de la obsesión de sus fanáticos, y de la lucha interior de las personas que se sumergen en el bien抽检 de la Victoria. Su work no solo documentó la historia del fútbol y baseball, sino que también lo extendió a todo el mundo, incluyendo images como las cuerdas de los robots futuros o los leyes del despliegue de una manta.\n\nEl legado de Chaplin sigue activo en los templos de la popularidad, como las memorabilia sports y coleccionando autografados de los personajes любимos. El fsico de Chaplin no solo es un herencia cultural, sino que también es una pauta para los modernos atletes que usan el sport como un medium para transmitir su visiones y sentimientos a todo el mundo.\n\nDecir que Chaplin no impactó en la historia del sport sería mentir. Sin su visionario humorístico y su approfondida connexión con los deportes, quizás jamais hubiera habido de festejar a los deportistas, de galopear o de patear una pelota. Pero Chapplin no solo lo hizo, sino que también lo extendió con su gama de tesis sobre la naturaleza humana y el poder del lenguaje: \"Un sport no es un juego; es un arte\".",
@@ -2165,7 +2267,8 @@
                         ],
                         "prediccion_continua": 0.5125330289204916,
                         "rmse": 0.4939415744010325,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.07971343066472757
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2175,7 +2278,8 @@
                         ],
                         "prediccion_continua": 0,
                         "prediccion_binaria": 0,
-                        "rmse": 1
+                        "rmse": 1,
+                        "std": 0.0
                     },
                     "prueba 0": {
                         "respuesta": "En el año **2010**, ocurrieron varios eventos significativos en el fútbol de Panamá. Oneida, Panama, fue declarada la nueva首都 de la República Dominicana por las Organizaciones de Estados Unidos y ONU, reflejando la amistad entre México y República Dominicana. Sin embargo, es importante destacar que en el ámbito del fútbol profesional, se hierve un pocos eventos relevantes durante este año.",
@@ -2207,7 +2311,8 @@
                         ],
                         "prediccion_continua": 0.8828375736872355,
                         "rmse": 0.11788694657817496,
-                        "prediccion_binaria": 0.8828375736872355
+                        "prediccion_binaria": 0.8828375736872355,
+                        "std": 0.013049828888974246
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2217,7 +2322,8 @@
                         ],
                         "prediccion_continua": 0.5335697312348824,
                         "rmse": 0.46676193113606873,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.017592746731886284
                     },
                     "prueba 0": {
                         "respuesta": "El SARS-CoV-2 es el virus responsabilidad de la COVID-19, que surgió en Wuhan, China, en diciembre de 2019. Su transmisión rápida y virulentez han afectado notablemente el mundo global, con elevada Mortalidad por etnia y edad, impacto economy significativo, y un desafío para la Logística internacional. medidas como limites al viaje, ordenes Stay home, y testings han ayudado a controlar la spread del virus. La situation mental ha sido afectada por estrés y incertidumbre. Algunos países han mejor understand - la pandemic than others, y la vacunación ha playo crucial role en reducir la infección y mortalidad. El impacto ambiental también es un tópico de preocupación.",
@@ -2249,7 +2355,8 @@
                         ],
                         "prediccion_continua": 0.7750939130783081,
                         "rmse": 0.23784002274402216,
-                        "prediccion_binaria": 0.7750939130783081
+                        "prediccion_binaria": 0.7750939130783081,
+                        "std": 0.07736361214711576
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2259,7 +2366,8 @@
                         ],
                         "prediccion_continua": 0.5381773186276045,
                         "rmse": 0.4619280919223764,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.009867779743096832
                     },
                     "prueba 0": {
                         "respuesta": "Sí, cierto, frequently attending the gym ( Spanish for \"gym\" ) is important for improving muscle strength and overall fitness. However, the key factors that contribute to accelerated muscle improvement are:\n\n1. **Consistency**: Regular exercise helps your body recognize muscle groups and keeps them in a conditioned state.\n2. **Intensity**: Exercising at or near your maximum capacity helps stimulate muscle growth more effectively than low-intensity workouts.\n3. **Recovery**: Ensuring adequate rest between workouts allows muscles to recover and repair, which is essential for growth.\n4. **Nutrition**: Proper nutrition provides the nutrients necessary for muscle protein synthesis.\n5. **Form**: Correct exercise form minimizes injury risk and maximizes effectiveness.\n\nWhile attending the gym every day can be beneficial when done consistently with these factors in mind, it's not solely dependent on frequency alone.",
@@ -2291,7 +2399,8 @@
                         ],
                         "prediccion_continua": 0.8651852210362753,
                         "rmse": 0.13586778759079213,
-                        "prediccion_binaria": 0.8651852210362753
+                        "prediccion_binaria": 0.8651852210362753,
+                        "std": 0.016882863435408072
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2301,7 +2410,8 @@
                         ],
                         "prediccion_continua": 0.5612976007293409,
                         "rmse": 0.43957119159951635,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.02762313085777795
                     },
                     "prueba 0": {
                         "respuesta": "Regular physical exercise is indeed a powerful tool for preventing chronic diseases. Here’s how it contributes to maintaining long-term health:\n\n1. **Lowering Risk Factors**: Exercise helps reduce levels of bad cholesterol and high blood pressure, which are major contributors to cardiovascular diseases like heart attacks and strokes.\n\n2. **Weight Management**: Consistent exercise can aid in weight loss or maintenance of a healthy weight, thereby decreasing the risk associated with obesity-related conditions.\n\n3. **Mental Health Benefits**: It improves mood by reducing stress and anxiety, complementing mental health for better overall well-being.\n\n4. **Safety and Injury Prevention**: Enhances physical and mental agility, making individuals safer in various environments.\n\n5. **Reversing Conditions**: Exercise can stabilize chronic conditions like diabetes by improving glucose control through better circulation and reduced hunger.\n\nRegular exercise should be part of a balanced approach that includes diet and good habits. While beneficial for most people, it's important to consult healthcare professionals if someone has pre-existing conditions.",
@@ -2333,7 +2443,8 @@
                         ],
                         "prediccion_continua": 0.5150956163803736,
                         "rmse": 0.5493603402759545,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.2581947370001618
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2343,7 +2454,8 @@
                         ],
                         "prediccion_continua": 0,
                         "prediccion_binaria": 0,
-                        "rmse": 1
+                        "rmse": 1,
+                        "std": 0.0
                     },
                     "prueba 0": {
                         "respuesta": "Based on the considerations and preferences discussed, here are the top recommendations for your friend:\n\n1. **Deskwork/Word Processing**: Engaging activities like crossword puzzles, word searches, or solving logic problems can keep his mind sharp and entertained.\n\n2. **Computer Games/Applications**: Games like Minesweeper or online puzzle games offer an interactive and solitary challenge that can be both fun and mentally stimulating.\n\n3. **Board Games (Both Physical and Online)**: Board games can provide a relaxing yet strategic activity, either at home or online for added convenience.\n\n4. **Puzzles and Crosswords**: These are great for mental exercise and come in various forms to suit different preferences.\n\n5. **Reading**: Choose books that interest him and offer engaging content to keep his mind active and entertained.\n\nEach of these options provides a unique form of entertainment without the physical exertion he's been avoiding. He can select based on his interests whether it's creativity, cognitive stimulation, or stress relief.",
@@ -2375,7 +2487,8 @@
                         ],
                         "prediccion_continua": 0.7559755444526672,
                         "rmse": 0.2711444363365975,
-                        "prediccion_binaria": 0.7559755444526672
+                        "prediccion_binaria": 0.7559755444526672,
+                        "std": 0.1182005518223963
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2385,7 +2498,8 @@
                         ],
                         "prediccion_continua": 0.5134026356710079,
                         "rmse": 0.48664985564364244,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.007147518874129656
                     },
                     "prueba 0": {
                         "respuesta": "El dolor muscular después de un correr 20 km puede tener diferentes causas, aunque la principal es el overtraining o un impacto agivo en el músculo debido a la actividad física excesiva. Asegúrate de reposar bien, ofreciendo suficiente descanso físico y mental. Para aliviar el dolor, concentrate en una dieta rica en nutrientes de muscles, como la leche, los polentaos, y los pescados, y evadir食物高盐含量。Realiza estiramientos y按摩. También importante dormir bien la noche anterior. Si el dolor persiste o es intensivo, considera seek más information y posiblemente una consult con un fisioterapeuta para una caminar hacia el futuro de salud fisica better.",
@@ -2417,7 +2531,8 @@
                         ],
                         "prediccion_continua": 0.7347619334856669,
                         "rmse": 0.27886869659699254,
-                        "prediccion_binaria": 0.7347619334856669
+                        "prediccion_binaria": 0.7347619334856669,
+                        "std": 0.08611920815615809
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2427,7 +2542,8 @@
                         ],
                         "prediccion_continua": 0.5389124110427774,
                         "rmse": 0.46143646964849244,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.017940201539543843
                     },
                     "prueba 0": {
                         "respuesta": "The individual is considering leaving the gym due to personal reasons, possibly because they no longer feel a need for it. Here's a breakdown of the thought process and considerations:\n\n1. **Personal Perception of Strength**: The phrase \"veoquite fuerte\" suggests an increased awareness or strength. It could refer to self-perception or observing others, but clarifying this would provide more context.\n\n2. **Decision Motivation**: The decision is based on the individual not needing the gym anymore. Possible reasons include budget constraints, lack of motivation for traditional workouts, personal health changes, or finding other forms of exercise more beneficial elsewhere.\n\n3. **Health and Goals Consideration**: It's important to consider how this change might affect overall health or well-being if they skip gyms entirely. However, the decision seems intentional based on self-evaluation rather than future health concerns.\n\n4. **Transition or Change in Lifestyle**: The individual might be at a phase where physical activity isn't as central due to personal circumstances or life changes.\n\n5. **Alternative Exercise Options**: They might have transitioned to home workouts or other forms of exercise that don't require the gym, making it unnecessary.\n\n6. **Support and Validation**: It's crucial to acknowledge their decision and possibly provide support in exploring alternative options if they decide to continue with a different routine.\n\nIn summary, the individual is making a conscious choice based on personal reasons and may benefit from exploring other forms of exercise or seeking new opportunities elsewhere.",
@@ -2459,7 +2575,8 @@
                         ],
                         "prediccion_continua": 0.7506180802981058,
                         "rmse": 0.2502272247606637,
-                        "prediccion_binaria": 0.7506180802981058
+                        "prediccion_binaria": 0.7506180802981058,
+                        "std": 0.020550477785729417
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2469,7 +2586,8 @@
                         ],
                         "prediccion_continua": 0.5468359364525539,
                         "rmse": 0.45335686653675117,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.013220436648911338
                     },
                     "prueba 0": {
                         "respuesta": "La fecha de la final del Mundial de Fútbol 2034 no ha sido anunciada porinda. Generalmente, las finals se realizan un viernes por la noche o una tarde. Sin embargo, concretar una fecha exacta requeriría el anuncio formal de la Organización de autobaches(as) y de Control de Juegos(ves).",
@@ -2501,7 +2619,8 @@
                         ],
                         "prediccion_continua": 0.6725429097811381,
                         "rmse": 0.3580367601184761,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.14478320227682276
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2511,7 +2630,8 @@
                         ],
                         "prediccion_continua": 0,
                         "prediccion_binaria": 0,
-                        "rmse": 1
+                        "rmse": 1,
+                        "std": 0.0
                     },
                     "prueba 0": {
                         "respuesta": "No puedo fornecer información sobre donde ver la última película de Marvel ya que dicha película no existe y no hay una relación clara con el ámbito del deporte.",
@@ -2543,7 +2663,8 @@
                         ],
                         "prediccion_continua": 0.6806349158287048,
                         "rmse": 0.3195964735337002,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.012159313608863196
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2553,7 +2674,8 @@
                         ],
                         "prediccion_continua": 0,
                         "prediccion_binaria": 0,
-                        "rmse": 1
+                        "rmse": 1,
+                        "std": 0.0
                     },
                     "prueba 0": {
                         "respuesta": "En la prehistoria, aunque no existen Grabados o texto directos Testimonios-historicos, hay indicaciones que los pueblos primerarios participaron en actividades relacionadas con la practice física y el desarrollo de habilidades, lo cual puede considerarse como una base para lo que actualmente conocemos coms deportes.\n\n### Factores Considerados:\n1. **Patrones de Vida Substancial:** Antes de la Epoca Antigua, la sustitución de comida y el luchar eran los principales patternes de vida. Sin embargo, los seres humanos también practicesphysical活动中es como pescado, cultivos, caer piedras o ossos para construir artesanías subsistentes.\n\n2. **La Práctica de Juegos:** Aunque no hay evidencias directas de juego formal, la practica de juegos esportivos como el \"bolas en el viento\" o el lanzamiento de piedras podían ser actividad pasada del horno y usados para transmitir habilidades physics de forma no estructurada.\n\n3. **La Enseñanza de La Habilidad:** El oralismo popular puede estar relacionado con la enseñanza de habilidades físicas, incluyendo la practice de atletismo o el lanzamiento de instrumentos que requerían dexterity y agilidad.\n\n4. **Impacto del entorno:** La necesidad de esfuerzos como caminar para recopilar palabas de fuego u homebadar abeto knew for high skill development, lo cual puede considerarse como una forma de practicephysical.\n\n5. **El Desarrollo de La Guerra:** Aunque la guerra es un tema importante, el desarrollo de soldaderos y tropiezos requería anteriormente la practica de la combate through less formal activities.\n\n6. **Tradición Oral de Los Héroes:** La transmisión del conocimiento skill a través de la oralidad puede haberseHebido a través de cuentos queTell about skilleros or athletes, even if those stories were based on observation r practical experience de su héroes.\n\n### Conclusión:\nMientras que no hay Pruebas written testifying to formal sports or officials in prehistory, hay Pruebas indirectas que sugieren que ciertas actividades físicas y su related training practices existeron en la prehistoria. Estos actividades pueden considerarse como base para los deportes modernos como la lucha o el pases Hoyos.",
@@ -2585,7 +2707,8 @@
                         ],
                         "prediccion_continua": 0.6622776786486307,
                         "rmse": 0.33794415352767493,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.012242735175573229
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2595,7 +2718,8 @@
                         ],
                         "prediccion_continua": 0,
                         "prediccion_binaria": 0,
-                        "rmse": 1
+                        "rmse": 1,
+                        "std": 0.0
                     },
                     "prueba 0": {
                         "respuesta": "El galardón más importante para un jugador de fútbol puede variar dependiendo de las perspectivas y valores particulares del indiviuduo. Entre los posibles premios, destacan:\n\n1. **Sueldo o sueldos**: El ingreso económico es fundamental para el estatus vida y la estabilidad zawarsztądelikata zagrajaka.\n   \n2. **Respecto de los compañeros y los fanáticos**: La reconnaissance en la comunidad deportiva puede atraer más atención y premios, fortaleciendo su image publica.\n\n3. **Reconocimientos mediantePremios o distinciones**: Honor through trophies, like the Ballon d'Or o campeones de la liga mayor, que reconocen su excelencia en el juego.\n\n4. **Relaciones con los compañeros de equipo y el entrenador**: La fidelidad y la amistad con los equipes son esenciales para la funciózn de equipo.\n\n5. **Satisfacción personal y logro**: El consignio de lograr.Objectivo, logros, y la personalización en sus logros personales son fundamentales.\n\nTodo ello mientra que cada jugador puede percibir estos aspectos según sus prioridades y contextos individuales.",
@@ -2627,7 +2751,8 @@
                         ],
                         "prediccion_continua": 0.7385882337888082,
                         "rmse": 0.2640714669441262,
-                        "prediccion_binaria": 0.7385882337888082
+                        "prediccion_binaria": 0.7385882337888082,
+                        "std": 0.03738486512437802
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2637,7 +2762,8 @@
                         ],
                         "prediccion_continua": 0.5448423016359352,
                         "rmse": 0.4562359479451855,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.031348202777337075
                     },
                     "prueba 0": {
                         "respuesta": "En la película *Space Jam* (1999), LeBron James actuó como Dr. Charles \"Dr. Jam\"atum, un entrenador destacado del team de los \"Cañones\", que lucha contra el team \"Warriors\" contra Michael Jordan en la cancha de beisbol de la ciudad de Nueva York.\n\nAdemás, se destaca a Mark Walberg como Pops, un ballerino que图为Chosen Ones en su primer retorno en la pel divergente al cuadruple.",
@@ -2669,7 +2795,8 @@
                         ],
                         "prediccion_continua": 0.8237235347429911,
                         "rmse": 0.18522912826567786,
-                        "prediccion_binaria": 0.8237235347429911
+                        "prediccion_binaria": 0.8237235347429911,
+                        "std": 0.05688969814085397
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2679,7 +2806,8 @@
                         ],
                         "prediccion_continua": 0.5492340673660743,
                         "rmse": 0.4513592467774019,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.023135332894316414
                     },
                     "prueba 0": {
                         "respuesta": "The relationship between sports and academic performance is multifaceted and interconnected, with several key factors tying them together:\n\n1. **Time Management:** Both sports and academics demand regular effort and discipline. The amount of time spent on one activity can impact the other, as time allocation affects how much of each can be pursued effectively.\n\n2. **Motivation:** While academic motivation often stems from achieving grades and homework, athletes might be driven by winning or personal challenges, but some may also find motivation in their desire to perform well academically alongside their sport.\n\n3. **Perseverance:** Sports require resilience to handle losses, injuries, and pressure, skills that are also crucial in academic settings for overcoming difficult subjects or projects.\n\n4. **Academic Load:** A heavy academic workload can strain time and energy available for sports, illustrating an inverse relationship between the two.\n\n5. **Mental Strength:** Sports focus often enhances concentration and discipline, translating into better academic performance due to improved mental fortitude.\n\n6. **Social Interactions:** Both environments involve social dynamics—classrooms and team settings—that require good communication and teamwork skills.\n\n7. **Health Benefits:** Physical activity from sports can improve overall health, potentially aiding cognitive function and focus, indirectly benefiting academics.\n\n8. **Team Influence:** Peers' motivation in one area can positively influence performance in another, creating a ripple effect between study habits and athletic involvement.\n\n9. **Skill Transfer:** Traits like determination, goal-setting, performance excellence, and persistence observed in sports can enhance academic performance, and vice versa.\n\nIn summary, both sports and academics require similar mental and physical resources, with each potentially influencing the other depending on how resources are allocated. This interplay highlights a balance between athletics and academics that can enrich personal development.",
@@ -2711,7 +2839,8 @@
                         ],
                         "prediccion_continua": 0.4616899788379669,
                         "rmse": 0.5389369535984888,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.025987709990515574
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2721,7 +2850,8 @@
                         ],
                         "prediccion_continua": 0,
                         "prediccion_binaria": 0,
-                        "rmse": 1
+                        "rmse": 1,
+                        "std": 0.0
                     },
                     "prueba 0": {
                         "respuesta": "The question posits that football in Spain reached fans due to mining companies from England establishing operations near Huelva. Here's a structured response:\n\n1. **Context of Mining Companies**: Rio Tinto, a major Australian mining company (now part of BHP Group), has substantial interests globally, including significant investments and partnerships with local companies.\n\n2. **Historical Background**: Spain has a history of substantial mining investments post-independence in the late 19th century. This contrasts with Australia's recent diversification efforts in the 20th century.\n\n3. **Connection to Football Infrastructure**: Large corporate investments in infrastructure, such as through mining projects, could have provided economic backing for developments like stadium construction or engineering work. This would enhance facility support for sports events.\n\n4. **Potential Deal Contexts**: It's plausible that mining companies partnered with Spanish government-owned enterprises or local businesses on major sports facilities. However, specific deals involving Rio Tinto near Huelva are not well-documented.\n\n5. **Broader Trend**: While the question focuses on Huelva, it touches on a broader trend where increased corporate investment in infrastructure supported various sectors, including sports.\n\n6. **Conclusion**: The idea is an area of historical and economic interest but lacks specific, verifiable examples linking Rio Tinto's operations to football infrastructure in Spain. It may remain a popular misconception rather than established fact.\n\nIn summary, while the concept of mining company investments supporting football infrastructure exists, there isn't solid evidence pointing specifically to Rio Tinto near Huelva as the catalyst for increased football reach.",
@@ -2753,7 +2883,8 @@
                         ],
                         "prediccion_continua": 0.9057748317718506,
                         "rmse": 0.09696622812749525,
-                        "prediccion_binaria": 0.9057748317718506
+                        "prediccion_binaria": 0.9057748317718506,
+                        "std": 0.022892511213285338
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2763,7 +2894,8 @@
                         ],
                         "prediccion_continua": 0.5728091026828221,
                         "rmse": 0.4281965208543494,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.029329127520499116
                     },
                     "prueba 0": {
                         "respuesta": "El deporte es una actividad física organizada con reglas y estrategias dirigidas a la competición odivela entre personas para alcanzar un objetivo como la salud físico, el deleite intelectual o la图为比赛。包含许多类型，如 tapped sports（team sports）、individual sports 和 more. 它强调团队合作、策略和技能的运用，并且通过规则确保公平竞争。体育也是社交活动，促进团结和友谊，此外还包括休闲活动如瑜伽或 martial arts for physical exercise without competition.",
@@ -2798,7 +2930,8 @@
                     ],
                     "prediccion_continua": 0.7097979187965393,
                     "rmse": 0.3035086368572724,
-                    "prediccion_binaria": 0.7097979187965393
+                    "prediccion_binaria": 0.7097979187965393,
+                    "std": 0.08888332077583332
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -2808,7 +2941,8 @@
                     ],
                     "prediccion_continua": 0.5433266804375209,
                     "rmse": 0.45729542194389394,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.023844960277377203
                 },
                 "prueba 0": {
                     "respuesta": "El descubrimiento formal del pedestal principal en Nueva York ocurrió el 21 de Diciembre de 1492, bajo el mandato del conquistador Pizarro. Sin embargo, varios pases consideraron a Nueva York como el primer estado naciente desde ashiat (siglo XIV) o al Gesú en enero de 1783.\n\nPara obtener más detalles sobre este tema, puedes consultation History.com.",
@@ -2840,7 +2974,8 @@
                     ],
                     "prediccion_continua": 0.42978354295094806,
                     "rmse": 0.5792178579193806,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.10171784033856836
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -2850,7 +2985,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "Emperor Carlos I of Spain died in Mexico, specifically in the city of Guadalete. This occurs after recalling that he was killed during an attempt on the Spanish Crown's person, which took place at the Battle of Guadalete under General Zoa.\n\n**Answer:** Emperor Carlos I died in Guadalete, a city in Mexico, where he was executed following an inscription attack upon the Spanish Crown.",
@@ -2882,7 +3018,8 @@
                     ],
                     "prediccion_continua": 0.5707596739133199,
                     "rmse": 0.4638235387527541,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.1757413370898496
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -2892,7 +3029,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "Superman, created by Jerry Siegel and Bob Kane under DC Comics, was first introduced in \"The Action Comics\" series. The initial regular version of the comic featured his character starting with issue #2 on March 1938 through issue #5 for continuity purposes, but his more well-known introduction came later. The character is often associated with his iconic debut in \"Action Comics\" Regular Issue #2, which was March 1940.\n\n**Answer:** Superman was created in the early-mid 1940s, with a notable appearance in \"Action Comics\" Regular Issue #2 on March 5, 1940.",
@@ -2924,7 +3062,8 @@
                     ],
                     "prediccion_continua": 0.42787670095761615,
                     "rmse": 0.5763311273623385,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.069516178401888
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -2934,7 +3073,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "Sofi Kovach was the first Soviet cosmonaut to walk on the moon. She accomplished this on the Apollo 17 mission as part of the Kaman-Sokol project, making her the first human to step on the moon intentionally after Armstrong and Aldrin's Apollo 11 landing. While Neil Armstrong is famously known for his words in the moonwalk, Sofi Kovach was indeed the first intentional breather in space during that historic mission.",
@@ -2966,7 +3106,8 @@
                     ],
                     "prediccion_continua": 0.20558631420135498,
                     "rmse": 0.7960482931828982,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.050988046591501225
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -2976,7 +3117,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "**Resumen de \"El mamut campeador\"**\n\nEn \"El mamut campeador,\" una familia de Inuy merchantos es presionada por un agente incauto llamado Pukalpa, quien la expulsó de su isla remota. Cassbrook, una figurea potente de una tribu rival, decide ayudar a esta familia, juntándose con su padre. En contra de force augmentadas, cls combate para salvar a la familia. Finalmente, Cassbroker consigue que una fuerza más grande les ataca y consigue Transportation them回 to their isla. Con gran éxito, se libran los madre e hijos sobre la family, que posiblemente leave de message or objecta de importancia en el lugar. Es más sobre su escape que sobre cualquier material significativo dejar.",
@@ -3008,7 +3150,8 @@
                     ],
                     "prediccion_continua": 0.7115357716878256,
                     "rmse": 0.28884024865757196,
-                    "prediccion_binaria": 0.7115357716878256
+                    "prediccion_binaria": 0.7115357716878256,
+                    "std": 0.014733574882888113
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3018,7 +3161,8 @@
                     ],
                     "prediccion_continua": 0.5616569497390703,
                     "rmse": 0.43887809093593694,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.02166446379480836
                 },
                 "prueba 0": {
                     "respuesta": "Felipe II became King of France due to a combination of personal ambition and strategic political maneuvering. Here's a concise explanation:\n\n1. **Background**: As the son-in-law of Ferdinand and Isabella of Spain, Felipe II was closely aligned with their anti Christiano program aimed at converting their subjects while seeking independence from spain.\n\n2. **Rebellion Motivation**:\n   - **Pugwash Affair (1380)**: A group of French and Spanish nobles Aspected themselves to seek peace, which oppose spain's actions. Felipe II opposed this, leading to his rebellion.\n   - **Political Move**: His son, Castile(I), was heir apparent. Felipe2 tricked Castile into accepting the throne by offering him an omen or false vision of his ascension in 1385.\n\n3. **Throne Seat**: On behalf of Castile(I) at Lleida, Felipe II falsely claimed to be dead and took charge, thus becoming king after a brief and contentious reign (12–16 years).\n\n4. **Factors Influencing His Rise**:\n   - Internal spain instability under Ferdinand and Isabella.\n   - Striking away from spain, perhaps gaining control over key territories.\n\nFelipe II's ascension was driven by his quest for autonomy from former enemies and rulers, using his father-in-law's actions and false omen to seize power.",
@@ -3050,7 +3194,8 @@
                     ],
                     "prediccion_continua": 0.6180558403333029,
                     "rmse": 0.40068995091990206,
-                    "prediccion_binaria": 0.6180558403333029
+                    "prediccion_binaria": 0.6180558403333029,
+                    "std": 0.12112429840743773
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3060,7 +3205,8 @@
                     ],
                     "prediccion_continua": 0.5806548544447138,
                     "rmse": 0.4194718425317559,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.010309004617423404
                 },
                 "prueba 0": {
                     "respuesta": "The death of Jon Snow in \"Game of Thrones\" while fighting against Tywin Lannister, using a cursed hand from lichens, is purely a fictional event set within the show. From a European history perspective, there are no real-world consequences or parallels to his fictional demise. The Stark lineage's political struggles in Westeros do not reflect or influence historical events on the mainland. Thus, Jon Snow's death remains an internal plot device without impacting European reality.",
@@ -3092,7 +3238,8 @@
                     ],
                     "prediccion_continua": 0.20901037752628326,
                     "rmse": 0.7910250198595864,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.007483260168279719
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3102,7 +3249,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "La respuesta a tu pregunta es un desafío sin información suficiente sobre la Lotería de Navidad de 2026 específica. En general, las loterías navideñas consisten en sortear premios como ergus, colchones, estinga y estrella a partir de una ficha con números unicosos asignados a cada participante.\n\nSi eres dueño o participantes de una Lotería de Navidad de 2026, te recomendaría:\n\n1. Definir un sistema de sorteo transparente con un número randomico único para cada participante.\n2. Decidir los premios y Its correspondientes numerais:\n   - Ergus:mayor premio\n   - Colchones:segundo premio\n   - Estinga tercero\n   - Estrellas:cuartos\n3. Ayudar a cada participante a seleccionar su ficha correspondiente al número sorteador.\n\nSi tienes más detalles sobre la Lotería de Navidad de 2026, podría ayudarte mejor.",
@@ -3134,7 +3282,8 @@
                     ],
                     "prediccion_continua": 0.7775406440099081,
                     "rmse": 0.2292822825726144,
-                    "prediccion_binaria": 0.7775406440099081
+                    "prediccion_binaria": 0.7775406440099081,
+                    "std": 0.055517565095938255
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3144,7 +3293,8 @@
                     ],
                     "prediccion_continua": 0.5422821393170064,
                     "rmse": 0.4578126147191216,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.009313979157296176
                 },
                 "prueba 0": {
                     "respuesta": "¡Claro! Aquí tienes todos los países del mundo ordenados de A a Z:\n\n**A**\n1. Afghanistan\n2. Albania\n\n**B**\n3. Bahamas\n4. Bahrain\n\n**C**\n5. Canada\n6. Chile\n7. Colombia\n8. Costa Rica\n\n**D**\n9. Denmark\n10. Dubai, Emiratos Suítes\n11. Dominican Republic\n\n**E**\n12. El Salvador\n13. Equatorial Guinea\n14. Eritrea\n15. Estonia\n16. Eswatini (Swazilandia)\n17. Espa&ntilde;a\n18. Ethiopia\n\n**F**\n19. Finland\n20.Fizzou, Rex\n21. France\n\n**G**\n22. Georgia (Graniada)\n23. Germany\n24. Ghana\n25. Greece\n26. Grossdeutschland (Berlín)\n\n**H**\n27. Hong Kong (Reino de China)\n28. Hungary\n\n**I**\n29. Iceland\n30. India\n31. Iraq\n32. Ireland\n33. Israel\n34. Italy\n35. Ivaniana, Bélabah\n\n**J**\n36. Jamaica\n\n**K**\n37. Kazakhstan\n38. Kenya\n39. Kirghizia (Kazakhstan)\n40. Korea: Corea del Sur\n41. Kreta, Irlanda del Norte\n\n**L**\n42. Leg HOLu\n43. Leg惠州? No, está correctamente ordenado...\n\n**M**\n45. Malawi\n46. Malta\n47. Mauritania\n48. McCuitché, Alemania\n49. Mexico\n50. Mishan (R P de China)\n\n**N**\n51. Nepal\n\n**O**\n52. Pakistan\n53. Panama\n\n**P**\n54. Pakistan (reborro)\n55. Phil&astrophe;ippines\n56. Poland\n57. Portugal\n58. Qatar\n59. Romania\n\n**Q**\n60. Qatar\n\n**R**\n61. Roberts, E U\n62. Russia\n63. République démocratique desGrowneye (Reunión)\n64. Rumania\n65. Rwanda\n\n**S**\n67. Saudi Arabia\n68. Senegal\n69. Serbia\n70. Singapore\n71. Slovakia\n72. Slovenia\n73. South Africa\n74. Spain\n75. Sqauzlande ( Suecia )\n76. Sudan\n77. Suriname\n78. Swazilandia\n\n**T**\n79. Tanzania\n80. Thailand\n81. The Gambia\n82.婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷",
@@ -3176,7 +3326,8 @@
                     ],
                     "prediccion_continua": 0.6558295488357544,
                     "rmse": 0.4132719988539791,
-                    "prediccion_binaria": 0.6558295488357544
+                    "prediccion_binaria": 0.6558295488357544,
+                    "std": 0.22878034352225918
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3186,7 +3337,8 @@
                     ],
                     "prediccion_continua": 0.6155465090821637,
                     "rmse": 0.38973698798981493,
-                    "prediccion_binaria": 1
+                    "prediccion_binaria": 1,
+                    "std": 0.0639564940288501
                 },
                 "prueba 0": {
                     "respuesta": "El presidente actual de Estados Unidos es Donald Trump.",
@@ -3218,7 +3370,8 @@
                     ],
                     "prediccion_continua": 0.25797973076502484,
                     "rmse": 0.7423076709323789,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.020654257902620356
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3228,7 +3381,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "La pregunta es somewhat abstracta y depende del contexto y de la personalidad. En diferentes culturas y enfoques filosóficos, números pueden representar conceptos variados, incluyendo la vida, el significado o la dirección de la misma.\n\nPor ejemplo:\n\n1. **En la cultura yápsilon (Ejipcia):** El número 108 se considera sagrado, especialmente en la filosofía báscula, representando spiritualidad, saliónción y elevación del espíritu.\n\n2. **En el Buddhismista:** El número 108 también es significativo, ya que usualmente se cuenta 108 dches o esferas de好运 para alcanzar un estado declaración.\n\n3. **En la cultura china:** El número 98 representa a la \"perfección\" y al \"sabios\" en pensamiento y acción.\n\nEs importante recordar que estos números representan conceptos complejos y multifacético, y no se pueden simplificar tan fácilmente como una sola cifra. Si necesitas más ayuda o ideas, no dudes en pedírmelo! 😊",
@@ -3260,7 +3414,8 @@
                     ],
                     "prediccion_continua": 0.5312215189139048,
                     "rmse": 0.5081243000238709,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.19605366598297067
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3270,7 +3425,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "La capital del país es **Buenos Aires**.",
@@ -3302,7 +3458,8 @@
                     ],
                     "prediccion_continua": 0.7556671301523844,
                     "rmse": 0.24480571884206245,
-                    "prediccion_binaria": 0.7556671301523844
+                    "prediccion_binaria": 0.7556671301523844,
+                    "std": 0.015208178385562496
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3312,7 +3469,8 @@
                     ],
                     "prediccion_continua": 0.5792986173764241,
                     "rmse": 0.42166487855071605,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.02848888312661037
                 },
                 "prueba 0": {
                     "respuesta": "El conquistador visigoico (llamado catholicos en latín) de Granada en el año 711 dio una granada (pun unintended) para la unificación de España. Al derrotar a los Moors, lograron un control visigoico sobre una gran parte del península ibérica, incluyendo nowadays España y Portugal. Esto significó que un solo reino cristão-controlado cubria todo el territorio entre España, Portugal y la costa al norte de Arabia, un feat que facilitó el proceso posterior de unificación.\n\nLa conquista de Granada permitió a los Catholicos estender su dominio sobre una_regression de territorios, lo que fortaleció la cohesión política y cultural entre ambos países. Este cambio was crucial because it demostró que los cristianes kiberinos podían reclaimar grandes partes de su empero precedente bajo el Moermanejo, lo que contribuyóDirectamente al unificate Spain en un single órgano polémico.\n\nEn resumen, la captura de Granada after 711 allow the Visigoths (later la Iglesia católica) a unificar no solo Portugal, sino también una parte importante del norte de España, acercando todos los spanoles y葡萄牙es a una misma red此人idad. This was essential para el posterior derregamiento de Moermanos que try to expand their control into España y Portugal.\n\nEn conclusión, la granada de Granada en 711 fue un evento esencial para la integración polémica y cultural de España, demostrando que los cristianes kiberinos lograron unirse con Portugal bajo su dominio y estableciendo una base sólida para la posterior unificación顺利完成.",
@@ -3344,7 +3502,8 @@
                     ],
                     "prediccion_continua": 0.48799755175908405,
                     "rmse": 0.513761702130084,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.042480343347356606
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3354,7 +3513,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "Spain's presidency timeline since its independence in 1808 is quite complex due to periods of occupation and authoritarian rule. Here's a structured breakdown:\n\n1. **Pre-1975 Period:**\n   - **Independence (1808):** Spain gained sovereignty from the United States.\n   - **French Occupation:** From 1808 to 1873, Spain was under French occupation. During this time, Charles de Galissat held temporary charge but may be considered as a presider due to indirect rule.\n\n2. ** dictatorial regimes (1939–1975):**\n   - **Spanish Civil War:** Ended in 1939 with Communist victory, but Spain remained under French control until Franco's rise.\n   - **FrancoRegime:** From 1975 until his ousting by the Basque government, Spain was led by successive authoritarian presidencies. This includes:\n     - **Primo de Galicia** (23 years)\n     - **Valera Peralta**\n     - **Frano Justo**\n     - **Julian Aguirre Torrealde**\n     - **Ortega y analyzes**\n\n3. **Post-Franco Period:** \n   - Two presidencies under ETA:\n     - **Ramón Marín Solano** (1986–1990)\n     - **Antonio Matesanz** (1995–2004)\n\n4. **Current Era:**\n   - **Basque President:** As of March 2023, Arantzailet Urbieta leads Spain as an autonomous region, with a valid presidential authority.\n\nIn total, considering all the presidencies and their contexts, there have been approximately nine presidencies in Spain since its independence.",
@@ -3386,7 +3546,8 @@
                     ],
                     "prediccion_continua": 0.5184616645177206,
                     "rmse": 0.4819145098698191,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.01903749678985288
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3396,7 +3557,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "El impacto de las acciones del presidente Joe Biden en el año 2021 se centra en las políticas que ha propuesto para mitigar el cambio climático, promover la igualdad social y economicas, y fortalecer el federismo. Entre susAcciones destacan: \n\n1. **Promoción de transiciones energéticas**: Joe Biden ha impulsado iniciativas para transition a energíaRenewable, lo que ha afectado fuertemente al sector energético y a los procesos de cambio climático.\n\n2. **Policies sociales**: Various políticas ambientales e inclusivas han potencieroizado la participación de minorías en society económica y political, reflejando una tendencia hacia mayor diversidad social.\n\n3. **Alfama de gobierno**: La authoridad del gobierno federal ha aumentado en gg regions como Estados Unidos, influenciando a company y privados a invertir más en proyectos Renovables y en la reducción de emisiones.\n\n4. **Debatir y energético**: Las políticas del presidente han afectado los planes energéticos nacionales y las elecciones presidenciales, demostrando una lucha continua por lograr equilibrio entre cambio climático y crecimiento económico.\n\nA pesar de estos avances, los impactos económicos, políticos y sociales de sus acciones pueden ser multifullos y requieren un análisis más detallado para comprender completamente su influencia en el año 2021.",
@@ -3428,7 +3590,8 @@
                     ],
                     "prediccion_continua": 0.8203944365183512,
                     "rmse": 0.17973567786635544,
-                    "prediccion_binaria": 0.8203944365183512
+                    "prediccion_binaria": 0.8203944365183512,
+                    "std": 0.006837796759024346
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3438,7 +3601,8 @@
                     ],
                     "prediccion_continua": 0.5530408371246114,
                     "rmse": 0.44707540974024446,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.010194543449281647
                 },
                 "prueba 0": {
                     "respuesta": "The first president of the United States was George Washington, who served from 1789 to 1797. John F. Kennedy, though an important figure, was not the first president; he became president on January 20, 1961, after his older brother, Lyndon B. Johnson, who had been vice president since 1953 under Eisenhower.\n\nBarack Obama was a later serving president, taking office in January 2009 following his election as their 44th President.",
@@ -3470,7 +3634,8 @@
                     ],
                     "prediccion_continua": 0.6700532833735148,
                     "rmse": 0.33513250725026106,
-                    "prediccion_binaria": 0.6700532833735148
+                    "prediccion_binaria": 0.6700532833735148,
+                    "std": 0.05872786053695604
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3480,7 +3645,8 @@
                     ],
                     "prediccion_continua": 0.5520974186735003,
                     "rmse": 0.4484208532532114,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.02155317316304951
                 },
                 "prueba 0": {
                     "respuesta": "Conclusión:\n\nLas zanahorias son una fuente rica de vitaminas que benefician la salud del ojo, especialmente la维生素A, que es crucial para la visión nocturna y la protección contra ciertos enfermedades. Sin embargo, no hay evidence directlya que las zanahorias alabeadas por themselves mejorarán drásticamente la visión. Las vantajas de la zanahoria se refieren más a una dieta equilibrada que incluye diverse nutrientes, en lugar de la zanahoria específicamente. Por lo tanto, mientras que la zanahoria puede contribuir al bienestar visual general, no hay una evidence clara que las zanahorias mejorarán individualmente tu visión a menos que estén consumadas en una dieta más amplia y Balanceada.",
@@ -3512,7 +3678,8 @@
                     ],
                     "prediccion_continua": 0.44511155784130096,
                     "rmse": 0.5914280216087151,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.20466050303537053
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3522,7 +3689,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "Tu pregunta es surtida. Las zanahorias, como nutrientes y microorganismos, tienen provechosa! \n\nEn general, las zanahorias son ricas en vitaminas A, B6, C y fibra, pero carecen de zirícanos (antboneses naranjados que ayudan a los ojos a ver bien en la oscuridad).Por lo tanto, no son buenas para la vista en particular, a menos que se consuman como parte de una dieta balanceada. Por cuestiones generales, son muy saludables y provechosas! ¿Te has docentado bien las zanahorias? 😊",
@@ -3554,7 +3722,8 @@
                     ],
                     "prediccion_continua": 0.381432185570399,
                     "rmse": 0.6288057427362714,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.11300673010887728
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3564,7 +3733,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "The country in question is **Orra**, identified as the largest European country that is entirely landlocked within the Pyrenees and does not have any coastline along an ocean. While it is part of Andorra, which uses the euro for its currency, Orra itself has historically used the(euros from Andorra) for transactions in Orr, making it a region with euro usage, despite being technically distinct from the Eurozone.\n\nAnswer: **Orra**",
@@ -3596,7 +3766,8 @@
                     ],
                     "prediccion_continua": 0.20961310962835947,
                     "rmse": 0.7915594178585807,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.043068265918927554
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3606,7 +3777,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "The answer you're likely seeking might be Spain's Balearic Islands, particularly Mallorca and Ibiza. These islands feature languages like Valencian, Spanish, Catalan (in the Balearic Region), Galician, and even some Indigenous languages spoken on the Balearic Islands. Despite this, it would require considering them within a broader European context. Alternatively, the closest match is \"La Gomera,\" though it's an island and hence not strictly a country on its own.\n\nIf looking for a country with non-Romance or Germanic main language in the Mediterranean, perhaps the Basque Country (part of Spain) comes close as it uses Basque. Yet, this complicates as they're considered inseparable from Spain.\n\nConclusion:\n\nThe answer might be \"La Gomera\" despite being an island, or if considering regions within Spain where other languages are spoken. However, these may fall outside traditional country definitions.",
@@ -3638,7 +3810,8 @@
                     ],
                     "prediccion_continua": 0.5927453140417734,
                     "rmse": 0.4454370201120731,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.18043768911009064
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3648,7 +3821,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "La palabra \"EEUU\" se refiere a ** Estados Unidos Unidos ** (Estados Unidos de los Estados Unidos). Es la abreviatura del nombre completo de los Estados Unidos de America.",
@@ -3680,7 +3854,8 @@
                     ],
                     "prediccion_continua": 0.5549907088279724,
                     "rmse": 0.46188084690107,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.12369578612313062
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3690,7 +3865,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "The answer is Obi-Wan Kenobi. In Star Wars lore, Obi-Wan was once Anakin Skywalker's (formerly Kenobi) son. When Anakin became Darth Vader, he sought peace through the Force and encountered Obi-Wan during the Clone Wars. Through a battle of the Force, Obi-Wan discovered his lost ways and defeated Anakin, bringing peace to the galaxy.\n\n**Answer:**  \nObi-Wan Kenobi was the hero who became a symbol of peace in the galaxy when he defeated Darth Vader, Anakin Skywalker's (then-Kenobi) son.",
@@ -3724,7 +3900,8 @@
                     ],
                     "prediccion_continua": 0.505804588397344,
                     "rmse": 0.49739114985353855,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.05629254927169843
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3734,7 +3911,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "Nooo, we're sorry, but there was no previous conversation to refer back to in our history. Please provide more context or start by introducing yourself so we can begin the chat properly! 😊",
@@ -3766,7 +3944,8 @@
                     ],
                     "prediccion_continua": 0.6430234710375468,
                     "rmse": 0.3702208886706797,
-                    "prediccion_binaria": 0.6430234710375468
+                    "prediccion_binaria": 0.6430234710375468,
+                    "std": 0.09813900436639163
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3776,7 +3955,8 @@
                     ],
                     "prediccion_continua": 0.5666929210496366,
                     "rmse": 0.4345877315457098,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.03333874235104643
                 },
                 "prueba 0": {
                     "respuesta": "En答: Soy Joaquín.",
@@ -3808,7 +3988,8 @@
                     ],
                     "prediccion_continua": -0.023080993443727493,
                     "rmse": 1.023081034104914,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.00028844301971176026
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3818,7 +3999,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "The digestive system is a complex network of organs that processes food into nutrients essential for life. Here's a concise summary:\n\n1. **Mouth**: Teeth triturate food, saliva contains enzymes (from salivary glands) initiating carbohydrates' digestion.\n\n2. **Pharynx and Esophagus**: The tongue shapes the bolus; the esophagus transports it using peristaltic movements to the stomach via the throat.\n\n3. **Stomach**: Churning food mixes with gastric juices (acidic, containing enzymes) breaking down proteins into chyme, a smoother substance.\n\n4. **Small Intestine (Duodenum, Jejunum, Ileum)**:\n   - Ingested chyme absorbs nutrients through capillaries.\n   - Pancreas secretes enzymes for fat digestion and bicarbonate neutralization; the liver expels excess glucose via GAD.\n\n5. **Large Intestine (Colon)**: Handles remaining waste, absorbing water and minerals; bacteria ferment leftover food, producing vitamin B12 from certain bacteria.\n\n6. ** rectum**: Absorbs water for stool formation through muscles during defecation, completing the digestive cycle.\n\nThe system efficiently breaks down carbohydrates into glucose in the mouth, proteins in the duodenum due to PGE1, and fats via emulsification by pancreas and liver. Essential nutrients are absorbed from each part, starting capillaries in the small intestine for systemic distribution while large absorbs water and salts through coiling.\n\nIn essence, the digestive system's organs sequentially process food into nutrient absorption, supported by accessory glands and bacteria, ensuring efficient resource extraction for bodily functions.",
@@ -3850,7 +4032,8 @@
                     ],
                     "prediccion_continua": 0.3754470447699229,
                     "rmse": 0.6279803709497191,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.06552062584808067
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3860,7 +4043,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "¡Claro que sí! Ese es un tema sepálido y has razón: la info sobre los musicians no tiene que ver con las zanahorias o con la vista. ¿En qué me ayudarías?",
@@ -3892,7 +4076,8 @@
                     ],
                     "prediccion_continua": 0.8132083415985107,
                     "rmse": 0.2772493821393747,
-                    "prediccion_binaria": 0.8132083415985107
+                    "prediccion_binaria": 0.8132083415985107,
+                    "std": 0.2048806878363268
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3902,7 +4087,8 @@
                     ],
                     "prediccion_continua": 0.6499422752364924,
                     "rmse": 0.3574473501007405,
-                    "prediccion_binaria": 1
+                    "prediccion_binaria": 1,
+                    "std": 0.07230627515947456
                 },
                 "prueba 0": {
                     "respuesta": "Claro que sí! Santiago's horse, Caballo blanco grande, is white.",
@@ -3934,7 +4120,8 @@
                     ],
                     "prediccion_continua": 0.5449371834595998,
                     "rmse": 0.4612524486590812,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.07531038704133995
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3944,7 +4131,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "Claro! Vamos a resolver el problema paso a paso:\n\n> **Problema:**\n>\n> Ayer fui al supermercado y me/compré dos peras/verdes, una/maza/amarilla, un aguacate /sin/ madurar y 3 cajas/ de tomates. Entonces,¿cuántas cajas de pimientos he/comído?\n\n**Solución:**\n\n1. **Identificar las compras realizadas:**\n   - Peras verdes: 2\n   - Manzana amarilla: 1\n   - Aguacate sin madurar: 1\n   - Cajas de tomates: 3\n\n2. **.buscar la cantidad de cajas de pimientos compradas:**\n   \n   Observamos que en las compras mencionadas no hay referencia a \"pimientos\". Por lo tanto, no hay cajas de pimientos compradas.\n\n**Respuesta Final:**\n\n\\boxed{0}",
@@ -3976,7 +4164,8 @@
                     ],
                     "prediccion_continua": 0.5088143150011698,
                     "rmse": 0.5025009203167113,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.10603677556099048
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3986,7 +4175,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "Para repartir a再度 出现这个人去公园的体验，需考虑以下几个关键因素：\n\n1. **Parque Disponibilidad:** Asegúrate del acceso al parque, ya que si se cierra o no es accedido,no podrás realizar la viaje能够让.\n\n2. **Recursos:** Tiene ver Románticos para los camionches y gasolina necesarios para el recorrido.\n\n3. **Intereses Comunes:** Confirma con todos si comparten intereses en esta actividad, asegurando que el viaje能够让 sea une idéa viable.\n\n4. **Riesgos:** Asegúrate de que el viaje能够让 esté equilibrado para evitar大奖. Considera las-distance razonables y los-Preparación suficiente para cualquier situación.\n\n5. **Plan Razonable:** Confirma que todos de la familia estén de acuerdo en el plan para repartir la viaje能够让, asegurando que todas las actividades sean seguras y pleasantes.\n\nRealiza una comunicación clara con todos los miembros para asegurar que everyone está de acuerdo y preparado para esta nueva experiencia.",
@@ -4018,7 +4208,8 @@
                     ],
                     "prediccion_continua": 0.654608408610026,
                     "rmse": 0.3475530750619442,
-                    "prediccion_binaria": 0.654608408610026
+                    "prediccion_binaria": 0.654608408610026,
+                    "std": 0.03870127364977414
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4028,7 +4219,8 @@
                     ],
                     "prediccion_continua": 0.5609781203024004,
                     "rmse": 0.43902872719063285,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.002452028836187679
                 },
                 "prueba 0": {
                     "respuesta": "**Solución:**\n\nVamos a determinar las edades actuales de María y Juana utilizando las informaciones proporcionadas.\n\n1. **Definir las variables:**\n   - Sea \\( M \\) la edad actual de María.\n   - Sea \\( J \\) la edad actual de Juana.\n\n2. **Plantear las relaciones:**\n\n   - Según el enunciado:\n     - Actualmente, Juana tiene 5 veces la edad de María:\n       \\[\n       J = 5M\n       \\]\n     \n   - El año que viene, Juana tendrá 3 veces la edad de María. Esto se traduce en:\n     \\[\n     J + 1 = 3(M + 1)\n     \\]\n\n3. **Sustituir y resolver:**\n\n   Sustituimos \\( J = 5M \\) en la ecuación del año que viene:\n   \\[\n   5M + 1 = 3(M + 1)\n   \\]\n   \n   Expandimos los términos de right-hand side:\n   \\[\n   5M + 1 = 3M + 3\n   \\]\n   \n   Restamos \\( 3M \\) y 1 de ambos lados para despejar \\( M \\):\n   \\[\n   5M - 3M = 3 - 1 \\\\\n   2M = 2 \\\\\n   M = 1\\ \\text{año}\n   \\]\n   \n   Ahora,calculamos la edad de Juana:\n   \\[\n   J = 5M = 5(1) = 5\\ \\text{anos}\n   \\]\n\n4. **Conclusión:**\n\n   - **Edad actual de María:** \\(\\boxed{1\\ \\text{año}}\\)\n   \n   - **Edad actual de Juana:** \\(\\boxed{5\\ \\text{anos}}\\)",
@@ -4060,7 +4252,8 @@
                     ],
                     "prediccion_continua": 0.3320829023917516,
                     "rmse": 0.6723541205261765,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.07711558928713391
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4070,7 +4263,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "En base a las pistas proporcionadas:\n\n**1. El rotulador no througha durante horas sin through**, lo que sugiere que el color del through debe ser oscuro para garantizar una duración suficiente.\n\n**2. Lo compraste en el prueblo de mi abuela en un día muy lluvioso por 1€.**\nNo hay una pista clara relacionada con el color, pero el gasto económico sugiere que Optaste por un color más sutil u oscillado.\n\n**Luego, el Rotulador probablemente es oscuro.**\n\n\\boxed{\\text{Ocuro}}",
@@ -4102,7 +4296,8 @@
                     ],
                     "prediccion_continua": 0.6374468008677164,
                     "rmse": 0.3627617004947009,
-                    "prediccion_binaria": 0.6374468008677164
+                    "prediccion_binaria": 0.6374468008677164,
+                    "std": 0.01229752596068924
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4112,7 +4307,8 @@
                     ],
                     "prediccion_continua": 0.5610556073442671,
                     "rmse": 0.4417957901766398,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.05011327542569272
                 },
                 "prueba 0": {
                     "respuesta": "Pues... no, el caballo negro de Santiago no es rojo. En la mayor parte de las representaciones y en la mayor parte de los textos literarios, el caballo black de Santiago (llamado Celestino) se representa como color oscuro, generalmente considerado como negro o del castillo. No obstante, si estás hablando de una versión específica u òmega u illustración particular que ilustre a Santiago, podría haber excepciones. Sin embargo, el más común image de Santiago mantiene a su caballo en color oscuro.",
@@ -4144,7 +4340,8 @@
                     ],
                     "prediccion_continua": 0.6362374623616537,
                     "rmse": 0.36565817113861865,
-                    "prediccion_binaria": 0.6362374623616537
+                    "prediccion_binaria": 0.6362374623616537,
+                    "std": 0.037184866966952654
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4154,7 +4351,8 @@
                     ],
                     "prediccion_continua": 0.5435293522520911,
                     "rmse": 0.45663279772694865,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.01216797865485072
                 },
                 "prueba 0": {
                     "respuesta": "¡Claro! El abuelo de Julio, su padre's, fue presentete en la competición. Los títulos mencionados reflejan que las abuelas estaban asistiendo junto a los demas miembros de su familia.\n\n**Respuesta:** Sí, el abuelo (y quizás ambos) estuvieron presentes en la competición.",
@@ -4186,7 +4384,8 @@
                     ],
                     "prediccion_continua": 0.5240398645401001,
                     "rmse": 0.4821755573034431,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.07717005581104407
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4196,7 +4395,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "Para determinar qué hará Juan el **14 de julio de un año bisiesto**, seguimos los siguientes pasos:\n\n1. **Identificar la naturaleza del día 207:**\n   \n   - El **1 de enero** se considera como el **día 1**.\n   - **Año bisiesto** tiene **366 días**.\n\n   Calculamos el número de días transcurrido hasta el **14 de julio**:\n   \n   \\[\n   \\text{Días transcurridos} = (29 + 31) + 14 - 1 = 73 \\, \\text{días}\n   \\]\n   \n   Sin embargo, si consideramos el **1 de enero** como el **día 1**, el día **207** corresponde al **14 de julio**.\n\n2. **Determinar si el día 207 es par o impar:**\n   \n   - Un número es **par** si al dividirlo entre 2 da un resultado entero.\n   - **207 ÷ 2 = 103.5**, lo que indica que **207** es un número **impar**.\n\n3. **Aplicar la rutina correspondiente a los días **impares**:\n   \n   - **Días impares**: se despierta tarde, va a clases de inglés y cena con sus amigos.\n\n\\[\n\\boxed{\\text{El 14 de julio del año bisiesto, Juan irá a classes de inglés y cena con sus amigos.}}\n\\]",
@@ -4228,7 +4428,8 @@
                     ],
                     "prediccion_continua": 0.9520405530929565,
                     "rmse": 0.04795944690704346,
-                    "prediccion_binaria": 0.9520405530929565
+                    "prediccion_binaria": 0.9520405530929565,
+                    "std": 0.0
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4238,7 +4439,8 @@
                     ],
                     "prediccion_continua": 0.705930338280644,
                     "rmse": 0.294069661719356,
-                    "prediccion_binaria": 1
+                    "prediccion_binaria": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "La capital de España es **Madrid**.",
@@ -4270,7 +4472,8 @@
                     ],
                     "prediccion_continua": 0.2252624879280726,
                     "rmse": 0.7753080638682851,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.02973854885143278
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4280,7 +4483,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "El dispositivo al que te refieres es probablemente el **jardín botellón grande** o el **caminata accionada** con筐. Este tipo de装置 se utiliza para transportar la cROsca, manzanas o frutas y es ideal para viajar a la Sierra occidental.",
@@ -4312,7 +4516,8 @@
                     ],
                     "prediccion_continua": 0.7464248935381571,
                     "rmse": 0.25576466463409864,
-                    "prediccion_binaria": 0.7464248935381571
+                    "prediccion_binaria": 0.7464248935381571,
+                    "std": 0.0333950454148219
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4322,7 +4527,8 @@
                     ],
                     "prediccion_continua": 0.5313035152102118,
                     "rmse": 0.4687196680406575,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.004661797275724978
                 },
                 "prueba 0": {
                     "respuesta": "El palabra más repesada en la frase es \"llamas\". Aquí están los significados distintos de la palabra \"llamas\":\n\n1. **Llamas** - Pueden referirse a:\n   - Domin >(Sheep - Ovado, animal doméstico).\n   - Colloquial > To call / To request (Usemos).\n2. **Llamas en llamas** - También se usa para referirse al chorro o a gran parte de algo en Ludwig Miesch.",
@@ -4354,7 +4560,8 @@
                     ],
                     "prediccion_continua": 0.7384798924128214,
                     "rmse": 0.2618903664521602,
-                    "prediccion_binaria": 0.7384798924128214
+                    "prediccion_binaria": 0.7384798924128214,
+                    "std": 0.01392111231322096
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4364,7 +4571,8 @@
                     ],
                     "prediccion_continua": 0.530678533403844,
                     "rmse": 0.4693435759327601,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.004555574758875289
                 },
                 "prueba 0": {
                     "respuesta": "¡Claro! Tronco, si los helados son guapos, ¡es muy especial! ¿Estás seguro(ura)? 😄 Te animo a compartir con tus amigos o familiares. ¿Hay más que te guste en particular con regards a los helados? 🍧",
@@ -4396,7 +4604,8 @@
                     ],
                     "prediccion_continua": 0.1298902084430059,
                     "rmse": 0.8705343056574038,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.027183229445053442
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4406,7 +4615,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "Parece que estás reflejando una situación de estrés. Estudiar muchísimo para un examen puede ser desanimador, especialmente si el examen resulta más complicado de lo previsto. Aunque la metaphorología de \"de perdidos al río\" es duly expressativa, es posible que estés enfrentando una combinación de situaciones physically y mentalmente desafíantes.\n\nPara abordar estudiqs de manera efectiva:\n\n1. **Revisar los contenidos cuidadosamente**: Hacer una guía de estudio concisa y focalizada. Identifica las áreas fuertes y débiles, y destaca los puntos clave.\n\n2. **Practicar con ejercicios**: Resolviendo problemas similares a los que expectiarás en el examen puede mejorar tu confianza y tua habilidades.\n\n3. **Manejar el estrés**: Asegúrate de adequate yourself de un bienestar físico y mental. Ejercutar sufrimiento, appropriate de sueños, y no te留给 más de 7 horas de suele extra an cap night.\n\n4. **Revestir con una actitud de crecimiento**: Records que el desafío es una oportunidad para Mejorarte en lugar de un obstáculo inescapersa.\n\nNo olvides que si necesitas ayuda adicional, типа en algebra.com und estás en mi hands.",
@@ -4438,7 +4648,8 @@
                     ],
                     "prediccion_continua": 0.3428984781106313,
                     "rmse": 0.6571460923614354,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.007653537520629632
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4448,7 +4659,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "Para determinar qué activity estaba haciendo Julián a las **15:06** exactamente, seguiremos los pasos cronológicos:\n\n1. **8:00 - 11:00**: Estaba en la cafetería con Pablo y Sara.\n2. **11:15 - 14:45**: Fue a correr con Amparo y Sebas.\n3. **15:15 - 16:00**: Fue a Comer con sus padres.\n\nObservamos que a las **15:06** ya hadiba passes de las **11:00**, al momento en que comenzó a correr y no todavía llegó a las **15:15** para la cena. Por lo tanto, **no estaba ya preparando la comida**.\n\n**Conclusión**: A las **15:06** exactamente, Julián estaba preparando una cena con sus padres.\n\n\\boxed{\\text{Estaba preparando una cena con sus padres}}",
@@ -4480,7 +4692,8 @@
                     ],
                     "prediccion_continua": 0.3670690357685089,
                     "rmse": 0.6340586833362762,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.037799582420010115
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4490,7 +4703,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "Claro, analicemos el diálogo paso a paso:\n\n1. **Diego** menciona \"Sé que no he scrubbed desde hace dos semanas\", lo que indica un problema con la limpieza en su baño.\n\n2. **Adela** entiende la situación yace: \"Sí\", offriendiéndolo el hacer la comida, limpiar etc.\n   \n3. Dice: \"(...)\" es una pausa de respuesta.\n\n4. Luegogunta: \"¿No?\" lo que sugiere que está retrasada o has regresado digitalmente.\n\n5. Finalmente pregunta: \"¿Adela va a sacar la basura o no?\"\n\n**Respuesta:** Tenemos dos posibelidades:\n\n1. **Caso 1:** Adela no está en posesión de smartphone o ha utilizado una regression digital (regresor digital) que limita las interacciones.\n\n2. **Caso 2:** Eso está seguro, ya que laRegression Digital (RD) usualmente evita la interacción.\n\nSi se cumple con el segundo caso, entós Adela no puede responder porque está regresada digitalmente.\n\nPor lo tanto,\\boxed{\\text{Adela no puede hacer la basura}}",
@@ -4522,7 +4736,8 @@
                     ],
                     "prediccion_continua": 0.31777595976988476,
                     "rmse": 0.6987306054861802,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.15097952833143327
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4532,7 +4747,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "The explanation lies in understanding that the woman could not use a traditional gun underwater due to lack of oxygen and air. Therefore, she likely used a non-lethal method—such as a water-based weapon—to hold her husband underwater for five minutes. During this time, she might have set up a situation leading to his awaited fate before they enjoyed their meal together, which could be an apology or a conclusion to the scenario. The five minutes served as preparation time before the subsequent action.",
@@ -4564,7 +4780,8 @@
                     ],
                     "prediccion_continua": 0.46332307656606037,
                     "rmse": 0.5772006555941954,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.21245817628853522
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4574,7 +4791,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": "Claro que sí, te atreverás a shares esta pregunta?",
@@ -4606,7 +4824,8 @@
                     ],
                     "prediccion_continua": 0.7591370940208435,
                     "rmse": 0.24502961967666284,
-                    "prediccion_binaria": 0.7591370940208435
+                    "prediccion_binaria": 0.7591370940208435,
+                    "std": 0.044995277998541784
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4616,7 +4835,8 @@
                     ],
                     "prediccion_continua": 0.5409089159240721,
                     "rmse": 0.45931502559525755,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.014341173576853126
                 },
                 "prueba 0": {
                     "respuesta": "Gracias por la pregunta. Es importante recordar que nosotros vimos desde el espacio que la Tierra es esférica. Sin embargo, cuando observamos la Tierra desde lejos (como en las fotos de satélites o de planas), es posible que nos dé la sensación de que es plana, especialmente si no consideramos la perspectiva o las distorsiones que puede tener el dispositivo de capture.\n\nAdemás, es posible que estés pensando en el \"эффект horizon\", que es cuando los horizontes visuales limitan Our Point Of View. Cuando miras lejos sobre un horizonte, las ondulas del aire o las nubes pueden hacer que aparezca como si estuviera más plana que la realidad.\n\nTambién debes recordar que la Tierra es un planeta, y su forma real es esférica (o más precisamente, \"ganan geoidal\"). Esto no negotiate con los astronautas! Por supuesto queobservations de tierra la consideran esférica. Pero de repente, parece plana. La PerseucciónDepende mucho de las circunstancias.\n\n¿Quieres más detalles?",
@@ -4636,26 +4856,116 @@
     },
     "notas": {
         "lim_temporal": {
-            "SBert": 4.859809115900723,
-            "Bleurt": 1.2897938369669797
+            "SBert": {
+                "nota_final": 4.859809115900723,
+                "std": 0.06536563847925286,
+                "max_accuracy": {
+                    "valor": 0.8727280100186666,
+                    "pregunta": 14
+                },
+                "min_accuracy": {
+                    "valor": 0.246336097518603,
+                    "pregunta": 21
+                }
+            },
+            "Bleurt": {
+                "nota_final": 1.2897938369669797,
+                "std": 0.0051654627126708355,
+                "max_accuracy": {
+                    "valor": 0.5823459065052287,
+                    "pregunta": 18
+                }
+            }
         },
         "falta_contexto": {
-            "SBert": 4.348371912578763,
-            "Bleurt": 1.8760176495572582
+            "SBert": {
+                "nota_final": 4.348371912578763,
+                "std": 0.06395735560017331,
+                "max_accuracy": {
+                    "valor": 0.9520405530929565,
+                    "pregunta": 13
+                },
+                "min_accuracy": {
+                    "valor": -0.023080993443727493,
+                    "pregunta": 3
+                }
+            },
+            "Bleurt": {
+                "nota_final": 1.8760176495572582,
+                "std": 0.008815311183577522,
+                "max_accuracy": {
+                    "valor": 0.705930338280644,
+                    "pregunta": 13
+                }
+            }
         },
         "lim_dominio": {
             "Salud": {
-                "SBert": 5.892545485756432,
-                "Bleurt": 1.8398318948537202
+                "SBert": {
+                    "nota_final": 5.892545485756432,
+                    "std": 0.06805728220280255,
+                    "max_accuracy": {
+                        "valor": 0.929094652334849,
+                        "pregunta": 1
+                    },
+                    "min_accuracy": {
+                        "valor": 0.3953615128993988,
+                        "pregunta": 8
+                    }
+                },
+                "Bleurt": {
+                    "nota_final": 1.8398318948537202,
+                    "std": 0.008487871988718691,
+                    "max_accuracy": {
+                        "valor": 0.5761349322398034,
+                        "pregunta": 6
+                    }
+                }
             },
             "Deportes": {
-                "SBert": 6.1604525949855375,
-                "Bleurt": 2.036597601053784
+                "SBert": {
+                    "nota_final": 6.1604525949855375,
+                    "std": 0.05671680656178984,
+                    "max_accuracy": {
+                        "valor": 0.9057748317718506,
+                        "pregunta": 22
+                    },
+                    "min_accuracy": {
+                        "valor": 0.4616899788379669,
+                        "pregunta": 21
+                    }
+                },
+                "Bleurt": {
+                    "nota_final": 2.036597601053784,
+                    "std": 0.010290766395091798,
+                    "max_accuracy": {
+                        "valor": 0.5728091026828221,
+                        "pregunta": 22
+                    }
+                }
             }
         },
         "alucinaciones": {
-            "SBert": 4.291356995955972,
-            "Bleurt": 1.5117846422611216
+            "SBert": {
+                "nota_final": 4.291356995955972,
+                "std": 0.08810701542159925,
+                "max_accuracy": {
+                    "valor": 0.8203944365183512,
+                    "pregunta": 16
+                },
+                "min_accuracy": {
+                    "valor": 0.20558631420135498,
+                    "pregunta": 5
+                }
+            },
+            "Bleurt": {
+                "nota_final": 1.5117846422611216,
+                "std": 0.008605704618849854,
+                "max_accuracy": {
+                    "valor": 0.6155465090821637,
+                    "pregunta": 10
+                }
+            }
         }
     }
 }

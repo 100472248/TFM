@@ -1,7 +1,6 @@
 
 
-#contenedor-tablas table {
-    width: 60%;              /* 👈 no ocupa toda la pantalla */
+#contenedor-tablas table {             /* 👈 no ocupa toda la pantalla */
     margin: 20px auto;      /* 👈 centra horizontalmente */
     border-collapse: collapse;
 }
@@ -37,7 +36,7 @@
 }
 
 .bloque {
-    width: min(800px, 90%);
+    width: 80%;
     margin: 30px auto;
     padding: 20px;
     border: 1px solid black;

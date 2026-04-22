@@ -2,10 +2,10 @@ import requests
 import json
 import time
 import pandas as pd
+import numpy as np
 import re
 from sentence_transformers import SentenceTransformer
 import os, math
-from bleurt import score
 from datetime import date
 import torch
 from bleurt_pytorch import BleurtConfig, BleurtForSequenceClassification, BleurtTokenizer
@@ -225,6 +225,7 @@ def sbert_correction(risk, archivo, ruta, theme=None):
         contenido[i]["SBert"]["prediccion_continua"] = suma_acc/3
         contenido[i]["SBert"]["rmse"] = math.sqrt(rmse/3)
         contenido[i]["SBert"]["prediccion_binaria"] = contenido[i]["SBert"]["prediccion_continua"] if contenido[i]["SBert"]["prediccion_continua"] > t_risk[risk] else 0
+        contenido[i]["SBert"]["std"] = np.std(contenido[i]["SBert"]["accuracy"])
         print(f"Test {risk}, pregunta {i+1}. Resultado: {predicciones}")
     if theme is not None:
         archivo["tests"][risk][theme] = contenido.copy()
@@ -268,6 +269,7 @@ def bleurt_correction(risk, archivo, ruta, theme=None):
             contenido[i]["Bleurt"]["rmse"] = math.sqrt(rmse/3)
             contenido[i]["Bleurt"]["prediccion_binaria"] = 1 if contenido[i]["Bleurt"]["prediccion_continua"] > t_risk[risk] else 0
             print(f"Test {risk}, pregunta {i+1}. Resultado: {contenido[i]["Bleurt"]["accuracy"]}")
+        contenido[i]["Bleurt"]["std"] = np.std(contenido[i]["Bleurt"]["accuracy"])
     if theme is not None:
         archivo["tests"][risk][theme] = contenido.copy()
     else:
@@ -286,18 +288,33 @@ def calification_test(risk, archivo, ruta, theme=None):
     tiempo_test = 0
     rmse_test = [0, 0]
     pred_bin_test = [0, 0]
+    std_test = [0, 0]
+    max_accuracy = {"SBert": {"valor": 0, "pregunta": None}, "Bleurt": {"valor": 0, "pregunta": None}}
+    min_accuracy = {"valor": 2, "pregunta": None}
     for i in range(len(contenido)):
         tiempo_test += contenido[i]["t_byte_medio"] 
         rmse_test[0] += contenido[i]["SBert"]["rmse"]
         rmse_test[1] += contenido[i]["Bleurt"]["rmse"]
         pred_bin_test[0] += contenido[i]["SBert"]["prediccion_binaria"]
         pred_bin_test[1] += contenido[i]["Bleurt"]["prediccion_binaria"]
+        std_test[0] += contenido[i]["SBert"]["std"]
+        std_test[1] += contenido[i]["Bleurt"]["std"]
+        if max_accuracy["SBert"]["valor"] < contenido[i]["SBert"]["prediccion_continua"]:
+            max_accuracy["SBert"]["valor"] = contenido[i]["SBert"]["prediccion_continua"]
+            max_accuracy["SBert"]["pregunta"] = i+1
+        if max_accuracy["Bleurt"]["valor"] < contenido[i]["Bleurt"]["prediccion_continua"]:
+            max_accuracy["Bleurt"]["valor"] = contenido[i]["Bleurt"]["prediccion_continua"]
+            max_accuracy["Bleurt"]["pregunta"] = i+1
+        if min_accuracy["valor"] > contenido[i]["SBert"]["prediccion_continua"]:
+            min_accuracy["valor"] = contenido[i]["SBert"]["prediccion_continua"]
+            min_accuracy["pregunta"] = i+1
     tiempo_test = tiempo_test/22
     rmse_test = [rmse_test[n]/22 for n in range(len(rmse_test))]
     pred_bin_test = [pred_bin_test[n]/22 for n in range(len(pred_bin_test))]
+    std_test = [std_test[n]/22 for n in range(len(std_test))]
     calificaciones_finales = [pred_bin_test[n]*alpha + (1-rmse_test[n])*(1-alpha) - tiempo_test*beta for n in range(len(rmse_test))]
-    notas["SBert"] = calificaciones_finales[0]*10
-    notas["Bleurt"] = calificaciones_finales[1]*10
+    notas["SBert"] = {"nota_final": calificaciones_finales[0]*10, "std": std_test[0], "max_accuracy": max_accuracy["SBert"], "min_accuracy": min_accuracy}
+    notas["Bleurt"] = {"nota_final": calificaciones_finales[1]*10, "std": std_test[1], "max_accuracy": max_accuracy["Bleurt"]}
     if theme is not None:
         try:
             archivo["notas"][risk][theme] = notas.copy()
@@ -402,3 +419,11 @@ def procesar_solicitudes():
     solicitudes.to_csv("./datos/Solicitudes.csv", index=False)
     return True
 
+process("nemotron-3-nano:30b", "alucinaciones")
+process("nemotron-3-nano:30b", "lim_temporal")
+process("nemotron-3-nano:30b", "lim_dominio")
+process("nemotron-3-nano:30b", "falta_contexto")
+process("qwen3:30b", "alucinaciones")
+process("qwen3:30b", "lim_temporal")
+process("qwen3:30b", "lim_dominio")
+process("qwen3:30b", "falta_contexto")

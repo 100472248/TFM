@@ -18,7 +18,8 @@
                     ],
                     "prediccion_continua": 0.7295747995376587,
                     "rmse": 0.27262899220863435,
-                    "prediccion_binaria": 0.7295747995376587
+                    "prediccion_binaria": 0.7295747995376587,
+                    "std": 0.034594484352250814
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -28,7 +29,8 @@
                     ],
                     "prediccion_continua": 0.5750532664853701,
                     "rmse": 0.4252179431318038,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.015184625003209839
                 },
                 "prueba 0": {
                     "respuesta": " Hoy es el viernes, 23 de Marzo del 2023.\n\nRecuerda que para obtener información más precisa y actualizada sobre la fecha, puedes utilizar un calendario electrónico o una aplicación específica que te ayude a determinar cuál es el día actual en cualquier momento del año.",
@@ -60,7 +62,8 @@
                     ],
                     "prediccion_continua": 0.8843974471092224,
                     "rmse": 0.15818411578485472,
-                    "prediccion_binaria": 0.8843974471092224
+                    "prediccion_binaria": 0.8843974471092224,
+                    "std": 0.10797344234473262
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -70,7 +73,8 @@
                     ],
                     "prediccion_continua": 0.6216464464477659,
                     "rmse": 0.38418801369801703,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.0667009623890424
                 },
                 "prueba 0": {
                     "respuesta": " Estamos en el año 2022. El año anterior fue el 2021 y el próximo será el 2023.",
@@ -102,7 +106,8 @@
                     ],
                     "prediccion_continua": 0.6844383180141449,
                     "rmse": 0.3693194269734814,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.19187929539759818
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -112,7 +117,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": " Desafortunadamente, en el año de 2023 no es un año bisiesto. El siguiente año bisiesto será en 2024. De acuerdo con las reglas del calendario gregoriano, un año puede ser bisiesto solo si es divisible por 4, excepto a menos que es también:\n\n1. Divisible por 400 (solo existe cada 400 años) y\n2. No es divisble por 100.\n\nEntonces para el año 2024 verificamos las siguientes cosas:\n\n- Es divisible por 4 (4*565=2260, el cual es impar)\n- Verificamos que no sea un multiple de 100, y así lo es (porque no hay una cifra del orden de los cientos a la derecha de 2), y por lo tanto el año 2024 sí es bisiesto.",
@@ -144,7 +150,8 @@
                     ],
                     "prediccion_continua": 0.7722853024800619,
                     "rmse": 0.22916355070601702,
-                    "prediccion_binaria": 0.7722853024800619
+                    "prediccion_binaria": 0.7722853024800619,
+                    "std": 0.025728379381381516
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -154,7 +161,8 @@
                     ],
                     "prediccion_continua": 0.577280473657766,
                     "rmse": 0.4228252529586789,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.009454976920554364
                 },
                 "prueba 0": {
                     "respuesta": " Aquí tienes una lista con los cinco últimos presidentes de Estados Unidos y el período de tiempo de sus mandatos. A continuación se proporciona la fecha de inicio y fin de cada mandato:\n\n1. Barack Obama (2009-2017)\n   - Inicio del primer mandato: 20 gennaio 2009\n   - Fin del primer mandato: 20 janvier 2017\n\n2. George W. Bush (2001-2009)\n   - Inicio del primer mandato: 20 januari 2001\n   - Fin del primer mandato: 20 enero 2005\n   - Inicio del segundo mandato: 20 januari 2005\n   - Fin del segundo mandato: 20 januari 2009\n\n3. Bill Clinton (1993-2001)\n   - Inicio del primer mandato: 20 gennaio 1993\n   - Fin del primer mandato: 20 gennaio 2001\n\n4. George H. W. Bush (1989-1993)\n   - Inicio del primer mandato: 20 januari 1989\n   - Fin del primer mandato: 20 janvier 1993\n\n5. Ronald Reagan (1981-1989)\n   - Inicio del primer mandato: 20 januari 1981\n   - Fin del primer mandato: 20 januari 1985\n   - Inicio del segundo mandato: 20 janvier 1985\n   - Fin del segundo mandato: 20 januari 1989\n\nEspero que esta información te sea útil. Por favor, revisa si las fechas de inicio y fin son correctas.",
@@ -186,7 +194,8 @@
                     ],
                     "prediccion_continua": 0.8228935400644938,
                     "rmse": 0.17868933197626588,
-                    "prediccion_binaria": 0.8228935400644938
+                    "prediccion_binaria": 0.8228935400644938,
+                    "std": 0.023731397161505303
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -196,7 +205,8 @@
                     ],
                     "prediccion_continua": 0.5596188705324167,
                     "rmse": 0.44056973460190046,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.012889990537028096
                 },
                 "prueba 0": {
                     "respuesta": " La próxima Copa Mundial de la FIFA se llevará a cabo en Catar en el año 2022. Lamentablemente, el torneo realizado en Rusia en junio-julio del 2018 fue el último.",
@@ -228,7 +238,8 @@
                     ],
                     "prediccion_continua": 0.8352203170458475,
                     "rmse": 0.18044967289636912,
-                    "prediccion_binaria": 0.8352203170458475
+                    "prediccion_binaria": 0.8352203170458475,
+                    "std": 0.07355093836203333
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -238,7 +249,8 @@
                     ],
                     "prediccion_continua": 0.5886054960868177,
                     "rmse": 0.41203356734065677,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.022939545886835496
                 },
                 "prueba 0": {
                     "respuesta": " Los siguientes son los eventos cronológicos según su fecha de ocurrencia (de más reciente a más antigua):\n\n1. Llegada del hombre a la luna: 20 de julio de 1969 (Apolo 11)\n2. Caída del muro de Berlín: 9 de novembro de 1989\n3. Guerra Civil Española: Comienzo en 1936 y finalización en 1939\n4. Revolución Francesa: 1789 - 1799\n5. Descubrimiento de América: Cristóbal Colón arriba a la isla Guanahani (actual Bahamas) el 12 de octubre de 1492, que se considera el origen del descubrimiento de América por los europeos\n6. Inicio de la pandemia del COVID-19: La Organización Mundial de la Salud confirmó que el COVID-19 es un brote pandémico mundial el 11 de marzo de 2020 (aunque el primer caso se dio a conocer en noviembre de 2019).",
@@ -270,7 +282,8 @@
                     ],
                     "prediccion_continua": 0.7690499822298685,
                     "rmse": 0.2388324507366975,
-                    "prediccion_binaria": 0.7690499822298685
+                    "prediccion_binaria": 0.7690499822298685,
+                    "std": 0.060852516931290714
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -280,7 +293,8 @@
                     ],
                     "prediccion_continua": 0.5717373857394143,
                     "rmse": 0.4283739480728275,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.009765890342942823
                 },
                 "prueba 0": {
                     "respuesta": " El Imperio Romano de Occidente cayó en el año 476 d.C., con la coronación del rey ostrogodo Odoacro como \"Rex Italiae\" (Rey de Italia), marcando efectivamente el fin del imperio occidental después de casi quinientos años de existencia. Sin embargo, es importante mencionar que, a partir del año 395 d.C., el Imperio Romano se dividió en dos partes: el Imperio Romano de Oriente (Imperio Bizantino) al este y el Imperio Romano de Occidente al oeste. Aunque formalmente el Imperio Occidental no finalizó hasta la invasión barbara, la creación del Imperio Romano de Oriente fue un gran factor en su ruina.",
@@ -312,7 +326,8 @@
                     ],
                     "prediccion_continua": 0.5250341494878134,
                     "rmse": 0.477633801181883,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.05041318159657881
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -322,7 +337,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": " En la Unión Europea, todos los países reconocen el matrimonio entre personas del mismo sexo. La legislación varía en cada país sobre la edad mínima para casarse y si se requiere o no algún tipo de consentimiento previo (por ejemplo, de padres o guardianes legales). Los países miembros donde el matrimonio homosexual es legal son:\n\n1. Alemania\n2. Austria\n3. Bélgica\n4. Chipre\n5. Croacia\n6. Dinamarca\n7. Eslovaquia\n8. Eslovenia\n9. Espartañat\n10. Estonia\n11. Finlandia\n12. Francia\n13. Grecia\n14. Hungría\n15. Irlanda\n16. Italia\n17. Letonia\n18. Liechtenstein (como parte del sistema jurídico suizo)\n19. Luxemburgo\n20. Malta\n21. Países Bajos\n22. Polonia\n23. Portugal\n24. Reino Unido (Inglaterra y Gales, Escocia, Irlanda del Norte)\n25. República Checa\n26. Rumania\n27. Suecia\n28. Suiza\n29. España (como resultado de la integración con la Unión Europea después de la disolución de Espanya y Portugal como Estados independientes).",
@@ -354,7 +370,8 @@
                     ],
                     "prediccion_continua": 0.7143428126970927,
                     "rmse": 0.28965089595273497,
-                    "prediccion_binaria": 0.7143428126970927
+                    "prediccion_binaria": 0.7143428126970927,
+                    "std": 0.047933421204978045
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -364,7 +381,8 @@
                     ],
                     "prediccion_continua": 0.5778853369215814,
                     "rmse": 0.4222632517456155,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.011201115523651103
                 },
                 "prueba 0": {
                     "respuesta": " El modelo más reciente de iPhone hasta ahora es el iPhone 13 y su familia, que incluye variantes estándar (iPhone 13), mini (iPhone 13 Mini), Pro (iPhone 13 Pro) y Pro Max (iPhone 13 Pro Max). Este modelo fue presentado en septiembre de 2021. Recuerde que la tecnología se actualiza rápidamente, así que puedes consultar los detalles más recientes desde la página oficial de Apple para tener información actualizada sobre sus productos.",
@@ -396,7 +414,8 @@
                     ],
                     "prediccion_continua": 0.7146501143773397,
                     "rmse": 0.28585755942774443,
-                    "prediccion_binaria": 0.7146501143773397
+                    "prediccion_binaria": 0.7146501143773397,
+                    "std": 0.017029006345677014
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -406,7 +425,8 @@
                     ],
                     "prediccion_continua": 0.5672683907228132,
                     "rmse": 0.43275106286963205,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.004103260553799966
                 },
                 "prueba 0": {
                     "respuesta": " El nombre de Twitter se registró como marca el 15 de marzo del 2003, y el servicio comenzó a operar en octubre del mismo año. Así que desde entonces hasta la actualidad, hace casi 19 años, cuenta con ese nombre.",
@@ -438,7 +458,8 @@
                     ],
                     "prediccion_continua": 0.3419382671515147,
                     "rmse": 0.6583221101798855,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.01851368445626111
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -448,7 +469,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": " Sí, Warner Bros. sigue siendo una compañía propia desde el año 1923 cuando fue fundada por los hermanos Warner. Desde abril del 2021 pasó a formar parte de AT&T Inc., que posee la división de entretenimiento y medios WarmerMedia, lo que incluye a los estudios cinematográficos Warner Bros., HBO (Home Box Office), Cartoon Network, Turner Broadcasting System, y muchos otros. Sin embargo, en mayo del 2021 se anunció una fusión entre AT&T y Discovery Inc., que podría tener implicaciones para la propiedad de la compañía Warner Bros. en el futuro.",
@@ -480,7 +502,8 @@
                     ],
                     "prediccion_continua": 0.7074151833852133,
                     "rmse": 0.29649238601413724,
-                    "prediccion_binaria": 0.7074151833852133
+                    "prediccion_binaria": 0.7074151833852133,
+                    "std": 0.04797770368460473
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -490,7 +513,8 @@
                     ],
                     "prediccion_continua": 0.5462272904184577,
                     "rmse": 0.4538216033088222,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.006661506497429877
                 },
                 "prueba 0": {
                     "respuesta": " Sí, el lince ibérico se encuentra en peligro de extinción según la Lista Roja de la Unión Internacional para la Conservación de la Naturaleza (UICN). Es una especie Prioritario Europeo para la Acción con Conservación y está incluida en la Ley Española 44/2007, de 10 de octubre con respecto a la protección de los especies en peligro de extinción. Su población ha sufrido una gran reducción debido a la pérdida de hábitat y amenazas como la caza furtiva. Por eso, hay programas para proteger a este felino en el norte de Portugal e iniciativas voluntarias en España, entre otras medidas, con fines de aumentar su número y expandir sus áreas de distribución.",
@@ -522,7 +546,8 @@
                     ],
                     "prediccion_continua": 0.7001275420188904,
                     "rmse": 0.30600522293788934,
-                    "prediccion_binaria": 0.7001275420188904
+                    "prediccion_binaria": 0.7001275420188904,
+                    "std": 0.06095658626953274
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -532,7 +557,8 @@
                     ],
                     "prediccion_continua": 0.5771403079976708,
                     "rmse": 0.4238549798714799,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.029029723414939885
                 },
                 "prueba 0": {
                     "respuesta": " Actualmente, según datos de Box Office Mojo en mayo del 2021, la película más taquillera de todos los tiempos es \"Avatar\" (dirigida por James Cameron) con un total de recaudación global de aproximadamente 2.8 billones de dólares. Sin embargo, es importante tener en cuenta que estos datos pueden cambiar debido a las reediciones y reinicios de algunas películas.",
@@ -564,7 +590,8 @@
                     ],
                     "prediccion_continua": 0.9071650703748068,
                     "rmse": 0.09291347627789495,
-                    "prediccion_binaria": 0.9071650703748068
+                    "prediccion_binaria": 0.9071650703748068,
+                    "std": 0.0038196747935341237
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -574,7 +601,8 @@
                     ],
                     "prediccion_continua": 0.6091038533610119,
                     "rmse": 0.39090419524741754,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.002508466627624025
                 },
                 "prueba 0": {
                     "respuesta": " Aquí tienes la lista de las 10 ciudades más pobladas de España y su población actual (según datos del INE del año 2020):\n\n1. Madrid - Población: 3,314,478 habitantes\n2. Barcelona - Población: 1,653,606 habitantes\n3. Valencia - Población: 809,217 habitantes\n4. Sevilla - Población: 704,922 habitantes\n5. Málaga - Población: 577,718 habitantes\n6. Zaragoza - Población: 702,333 habitantes\n7. Bilbao - Población: 359,749 habitantes\n8. Alicante - Población: 339,515 habitantes\n9. Gijón - Población: 276,908 habitantes\n10. Vigo - Población: 308,715 habitantes",
@@ -606,7 +634,8 @@
                     ],
                     "prediccion_continua": 0.7575708031654358,
                     "rmse": 0.2430021789916826,
-                    "prediccion_binaria": 0.7575708031654358
+                    "prediccion_binaria": 0.7575708031654358,
+                    "std": 0.016677635229668593
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -616,7 +645,8 @@
                     ],
                     "prediccion_continua": 0.552194820697407,
                     "rmse": 0.4478978079076979,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.009108661718033732
                 },
                 "prueba 0": {
                     "respuesta": " El conflicto entre Israel y Palestina no tiene un final definido, ya que ha continuado desde la fundación de Israel en 1948. Las negociaciones de paz han abordado distintos aspectos del conflicto, pero no se han logrado acuerdos definitivos en todos ellos. Sin embargo, hubo algunos períodos de calma relativa como el Acuerdo de Oslo (1993-2000) y los Acuerdos de Camp David (2000), aunque estos no llegaron a consensuar un acuerdo definitivo. La situación presenta actualmente una escalada en la violencia con episodios esporádicos de enfrentamientos, incursiones militares y crisis humanitarias constantes.",
@@ -648,7 +678,8 @@
                     ],
                     "prediccion_continua": 0.8222271998723348,
                     "rmse": 0.18018672522370632,
-                    "prediccion_binaria": 0.8222271998723348
+                    "prediccion_binaria": 0.8222271998723348,
+                    "std": 0.029395364968182413
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -658,7 +689,8 @@
                     ],
                     "prediccion_continua": 0.5569092026425296,
                     "rmse": 0.443345361249354,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.015021805432148929
                 },
                 "prueba 0": {
                     "respuesta": " El estreno de la tercera película de Avatar está programado para el 22 de diciembre de 2024. Sin embargo, debido a las complicaciones del rodaje y la posproducción causadas por la pandemia de COVID-19, existen rumores sobre una posible nueva fecha de estreno, pero no se han confirmado oficialmente. Por favor, revisa la actualización más reciente en el sitio web oficial de la película para obtener información más precisa.",
@@ -690,7 +722,8 @@
                     ],
                     "prediccion_continua": 0.37132073442141217,
                     "rmse": 0.6293698934325574,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.029476156311095344
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -700,7 +733,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": " La ciudad de Cádiz se fundó el 30 de agosto del año 1104, siendo conocida originalmente como Gades o Gadir. Esto es mucho antes de la fundación de España en 1492 y se considera como uno de los asentamientos con mayor continuidad histórica.",
@@ -732,7 +766,8 @@
                     ],
                     "prediccion_continua": 0.8268677194913229,
                     "rmse": 0.18963622799632948,
-                    "prediccion_binaria": 0.8268677194913229
+                    "prediccion_binaria": 0.8268677194913229,
+                    "std": 0.07737643319862049
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -742,7 +777,8 @@
                     ],
                     "prediccion_continua": 0.6183606159445856,
                     "rmse": 0.38572609600095237,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.056000014945889416
                 },
                 "prueba 0": {
                     "respuesta": " Marie Curie, la científica polaca que nació en el seno de una familia polaca-belga, fue conocida por su labor pionera en diversos campos como la física y la química, por descubrir los elementos radio y polonio, y por obtener dos premios Nobel: uno en física (compartido con su esposo Pierre Curie) y otro en química.\n\nMarie Curie nació el 7 de noviembre de 1867 en Varsovia, Polonia. Lamentablemente, Marie Curie murió el 4 de julio de 1934 a los 66 años en Sainte-Hélène en Francia debido a uno de los efectos del trabajo que hizo en su laboratorio con radiosctivo, el síndrome de la fuente interna.",
@@ -774,7 +810,8 @@
                     ],
                     "prediccion_continua": 0.8819910486539205,
                     "rmse": 0.1208380893008118,
-                    "prediccion_binaria": 0.8819910486539205
+                    "prediccion_binaria": 0.8819910486539205,
+                    "std": 0.025994830795171696
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -784,7 +821,8 @@
                     ],
                     "prediccion_continua": 0.5806496505340154,
                     "rmse": 0.41973467736058456,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.017957833436989354
                 },
                 "prueba 0": {
                     "respuesta": " Zeus no es una persona real, es un dios de la mitología griega. El mito del dios Zeus fue desarrollado entre los pueblos griegos desde la Edad de Bronce hasta la Edda griega clásica (siglo V a. C.), por lo que Zeus no tiene una fecha específica de nacimiento en el tiempo histórico. Su existencia solo está basada en mitología, por lo tanto no se puede determinar en qué año o siglo nació.",
@@ -816,7 +854,8 @@
                     ],
                     "prediccion_continua": 0.7648387352625529,
                     "rmse": 0.2352643639608652,
-                    "prediccion_binaria": 0.7648387352625529
+                    "prediccion_binaria": 0.7648387352625529,
+                    "std": 0.006964231256553915
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -826,7 +865,8 @@
                     ],
                     "prediccion_continua": 0.5704047443234636,
                     "rmse": 0.43006447604577697,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.020084069725531454
                 },
                 "prueba 0": {
                     "respuesta": " Bugs Bunny no es una persona real, sino un personaje de dibujos animados creado por Tex Avery en 1940 para los estudios Leon Schlesinger Productions (posteriormente pasó a formar parte de Warner Bros. Cartoons).",
@@ -858,7 +898,8 @@
                     ],
                     "prediccion_continua": 0.33415934443473816,
                     "rmse": 0.6677691595785317,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.050713626183115944
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -868,7 +909,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": " La bomba eléctrica más antigua que se utiliza como objeto iluminante moderno es la lámpara de arcano, inventada en Inglaterra por Humphry Davy en 1802. Sin embargo, la lámpara incandescente moderna, adecuada para uso doméstico y industrial, fue inventada por Thomas Edison en los Estados Unidos en 1879. La primera bomba eléctrica iluminante se produjo el 22 de octubre de 1879 en Menlo Park, con su famosa demostración en la oficina de correos de New York dos días después.",
@@ -900,7 +942,8 @@
                     ],
                     "prediccion_continua": 0.5652767419815063,
                     "rmse": 0.43791241765467337,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.052753904821797794
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -910,7 +953,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": " El automóvil volador, como especie de vehículo convencional con capacidad para volar es puramente ficticio y no ha sido creado aún en la realidad. Si se refiere a los aviones o naves espaciales de uso civil, son obviamente invenciones humanas que han estado en desarrollo durante siglos pero no corresponden exactamente con el término de \"coche volador\".",
@@ -945,7 +989,8 @@
                         ],
                         "prediccion_continua": 0.9526196320851644,
                         "rmse": 0.04748072836243634,
-                        "prediccion_binaria": 0.9526196320851644
+                        "prediccion_binaria": 0.9526196320851644,
+                        "std": 0.003085498676435066
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -955,7 +1000,8 @@
                         ],
                         "prediccion_continua": 0.5526303937385485,
                         "rmse": 0.4474990851361399,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.010764134482437841
                     },
                     "prueba 0": {
                         "respuesta": " Los síntomas comunes de la gripe son:\n\n1. Sensación de calor o fiebre.\n2. Aumento del tono y dolor en músculos y articulaciones (mialgias).\n3. Pírrosis, que es un dolor agudo en el pecho.\n4. Fresquedad, acompañada de una secreción nasal (rinorrhea) o tos.\n5. Debilidad y cansancio generalizado.\n6. Dolor de garganta, especialmente al hablar o tragar.\n7. Pérdida del apetito o náuseas.\n8. Vomito (en algunos casos).\n9. Dolores en la cabeza, incluso cefalea intensa.\n10. En algunos casos la gripe también puede producir complicaciones como una fuerte pérdida de apetito, dolor abdominal o problemas respiratorios.",
@@ -987,7 +1033,8 @@
                         ],
                         "prediccion_continua": 0.7880817254384359,
                         "rmse": 0.21290386021816338,
-                        "prediccion_binaria": 0.7880817254384359
+                        "prediccion_binaria": 0.7880817254384359,
+                        "std": 0.02046212605387756
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -997,7 +1044,8 @@
                         ],
                         "prediccion_continua": 0.542026117434646,
                         "rmse": 0.4583426109022745,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.018381290942945324
                     },
                     "prueba 0": {
                         "respuesta": " El tratamiento de la hipertensión arterial depende en gran medida del nivel de la presión arterial, la edad y la salud general del paciente. La hipertensión se trata mediante la combinación de dos o más medicamentos, ya sea entre ellos los siguientes tipos:\n\n1. Diuréticos: Los diuréticos ayudan a aumentar la cantidad de orina que se produce en el cuerpo para reducir su volumen de sangre y así disminuir la presión arterial.\n2. Medicamentos que inhiben la angiotensina-conversión enzimática (ACE): estos medicamentos iniben una enzima llamada Angiotensin I-Converting enzima, lo que disminuye la cantidad de Angiotensin II en el cuerpo y así se reduce la resistencia a la vena y se aumenta la capacidad del corazón.\n3. Medicamentos que bloquean los receptores de la angiotensina: estos medicamentos inhiben la acción de Angiotensin II en el cuerpo, lo que conduce a una disminución de la resistencia vascular y un aumento del flujo sanguíneo.\n4. Medicamentos que relajan las arterias: estos medicamentos hacen que los músculos dentro de las paredes de los vasos se relaxen y permitan que el vaso se dilate, lo que disminuye la resistencia vascular.\n5. Medicamentos beta bloqueantes: Estos medicamentos bloquean el receptor alfa y beta en las células del corazón y los vasos sanguíneos para reducir de esta manera la frecuencia cardiaca, así como las contracciones uterinas.\n6. Calcio antagonistas: Estos medicamentos bloquean los canales de calcio en las células del corazón y los vasos sanguíneos para relajar la musculatura arterial y disminuir de esta forma la presión sanguínea.",
@@ -1029,7 +1077,8 @@
                         ],
                         "prediccion_continua": 0.6274016300837199,
                         "rmse": 0.37526189179383296,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.04463117933034328
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1039,7 +1088,8 @@
                         ],
                         "prediccion_continua": 0,
                         "prediccion_binaria": 0,
-                        "rmse": 1
+                        "rmse": 1,
+                        "std": 0.0
                     },
                     "prueba 0": {
                         "respuesta": " El XY123456 no es un virus conocido en la medicina. La designación de un virus se basa usualmente en su nombre genético o etiqueta genética, que se basan en características físicas o biológicas. Por lo tanto, si el virus XY123456 no tiene referencia médica documentada, no se sabe qué síntomas causa. Si este es un error, por favor verifique la información y corrija su consulta.",
@@ -1071,7 +1121,8 @@
                         ],
                         "prediccion_continua": 0.8414753278096517,
                         "rmse": 0.16367885406526275,
-                        "prediccion_binaria": 0.8414753278096517
+                        "prediccion_binaria": 0.8414753278096517,
+                        "std": 0.04075163279011268
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1081,7 +1132,8 @@
                         ],
                         "prediccion_continua": 0.582708189044235,
                         "rmse": 0.4176354566643053,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.016938688628726387
                     },
                     "prueba 0": {
                         "respuesta": " Para una faringitis viral, el mejor tratamiento son los remedios sintomáticos, como medicamentos contra la tos y aliviar la congestión, la dolor de garganta y los efectos de la fiebre. Los antibióticos no son útiles para la faringitis viral ya que no puedan curarla porque tratan solo las bacterias, no los virus. El jarabe para la tos es solo una parte del tratamiento sintomático y no tiene efecto sobre el virus propio de la faringitis.",
@@ -1113,7 +1165,8 @@
                         ],
                         "prediccion_continua": 0.7477321227391561,
                         "rmse": 0.2537135362409321,
-                        "prediccion_binaria": 0.7477321227391561
+                        "prediccion_binaria": 0.7477321227391561,
+                        "std": 0.027045823599708904
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1123,7 +1176,8 @@
                         ],
                         "prediccion_continua": 0.5617976792245355,
                         "rmse": 0.43827095312599135,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.007755928117371201
                     },
                     "prueba 0": {
                         "respuesta": " Para una faringitis viral, el mejor tratamiento suele ser sintomático. Por lo tanto, no se necesitan antibióticos, ya que estos pueden causar efectos secundarios y laresistencia a los antimicrobianos en casos de infecciones bacterianas posteriores. En cambio, se recomienda el descanso, beber abundante líquido, tomar paracetamol o ibuprofeno para controlar la fiebre y las dolorinas, y mantener la higiene nasal (limpieza de nariz) en caso de infecciones nasales asociadas, como el rinitis viral. La cirugía no tiene ningún papel en el tratamiento de una faringitis viral.",
@@ -1155,7 +1209,8 @@
                         ],
                         "prediccion_continua": 0.8832395474116007,
                         "rmse": 0.11677935552618497,
-                        "prediccion_binaria": 0.8832395474116007
+                        "prediccion_binaria": 0.8832395474116007,
+                        "std": 0.0021010922072293905
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1165,7 +1220,8 @@
                         ],
                         "prediccion_continua": 0.5996554789107608,
                         "rmse": 0.40042010646202086,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.007779851726332325
                     },
                     "prueba 0": {
                         "respuesta": " Ramón y Cajal (Santiago Ramón y Cajal) fue un científico español y neuroanatomista considerado el fundador de la histología moderna del sistema nervioso central. Nacido en Petrileja (España) en 1852 y fallecido en 1934, recibió el Premio Nobel de Fisiología o Medicina en 1906.\n\nImportancia de Ramón y Cajal en la historia de la medicina:\n- Su trabajo pionero en el campo de la neurohistología estableció la identidad celular de los grupos neuronales y las glias del encéfalo humano.\n- Desarrolló nuevas técnicas histológicas, como la coloración con acido fuchsina para diferenciar neuronas de gliales, que ha continuado siendo usada en laboratorios alrededor del mundo hasta hoy en día.\n- Su trabajo \"Aportes a la anatomía del sistema nervioso del hombre y los vertebrados\" (1899) es considerado un clásico de la neurohistología y continúa siendo estudiado hoy en día.\n- Por su investigación pionera, Ramón y Cajal influyó significativamente en el desarrollo de la ciencia del cérebro humano y ayudó a dar forma al campo de la neurociencia actual.",
@@ -1197,7 +1253,8 @@
                         ],
                         "prediccion_continua": 0.7813618977864584,
                         "rmse": 0.2189338837180246,
-                        "prediccion_binaria": 0.7813618977864584
+                        "prediccion_binaria": 0.7813618977864584,
+                        "std": 0.011376541667766376
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1207,7 +1264,8 @@
                         ],
                         "prediccion_continua": 0.5659148714886902,
                         "rmse": 0.4342830541066603,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.013110007228377275
                     },
                     "prueba 0": {
                         "respuesta": " Lewis Hamilton no es un científico o médico, sino que es un piloto británico de Fórmula 1. No tiene ninguna relación directa con la historia de la medicina. Suele ser conocido por sus logros en el deporte automovilístico y no por avances científicos o médicos. Por lo tanto, es imposible atribuirle importancia en la historia de la medicina. En cambio, su trabajo para promover la diversidad y la igualdad social puede ser destacado en otros campos como los derechos humanos.",
@@ -1239,7 +1297,8 @@
                         ],
                         "prediccion_continua": 0.8211343288421631,
                         "rmse": 0.18000691638610083,
-                        "prediccion_binaria": 0.8211343288421631
+                        "prediccion_binaria": 0.8211343288421631,
+                        "std": 0.020237629013529476
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1249,7 +1308,8 @@
                         ],
                         "prediccion_continua": 0.556275179160014,
                         "rmse": 0.4443369887812297,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.02331615254910014
                     },
                     "prueba 0": {
                         "respuesta": " En el año 1796, se produjo un acontecimiento histórico de gran importancia en el campo de la medicina. Edward Jenner, un médico inglés, desarrolló una vacuna contra la viruela mediante el procedimiento de la variante o inoculación, lo que marcó un hito significativo en la historia de la salud pública y la epidemiología.\n\nEl experimento clave realizado por Jenner se conoce como el caso del niño del pastor. Jenner observó que los pastores no sufrían mucho de la viruela, mientras que otros miembros menos expuestos de la comunidad sí que lo hacían debido a que trabajaban más cerca de los cerdos donde se producía el virus. Luego realizó una investigación para encontrar un mecanismo por el cual las personas sin contacto directo con los animales enfermos pudieran obtener inmunidad.\n\nUna investigación previa había llevado a pensar que la viruela vacuna podía transmitirse a través de la leche desde ovejas infectadas hasta vacas no infectadas. Jenner obtuvo muestra del pus de una granja que hacían la leche una vaca llamada \"Blossom\" al cuidarle una niña de once años llamada Sarah Nelmes que estaba enferma de viruela vacuna, que en este caso era mucho menos letal para los humanos que el virus original.\n\nEl 14 de mayo de 1796, Jenner practicó la inoculación de vejiga o variante utilizando el pus del pie de Sarah Nelmes en la espalda de un pequeño niño llamado James Phipps cuyos padres lo habían consentido como parte de una investigación. Al mes siguiente, Jenner le inyectó a James Phipps vírionas reales del cuello infectado de una vaca muerta. Los resultados revelaron que se produjo una pequeña reactivación aguda y menor en la piel, pero Phipps no desarrolló síntomas más graves de la viruela ni se contagiaba con él. Jenner consideró que esa era la evidencia de la inmunidad contra la viruela.\n\nEste experimento fue un avance revolucionario en el campo de la medicina y dio lugar a la adopción generalizada de la vacuna y los años posteriores. Los acontecimientos que llevaron a la creación de la vacuna contra la viruela marcaron también un punto clave en la lucha contra las epidemias, y su desarrollo permitió reducir el sufrimiento y muerte causados por esta terrible enfermedad. Jenner se considera el padre del saneamiento moderno al crear la primera vacuna eficaz para prevenir una enfermedad infecciosa.",
@@ -1281,7 +1341,8 @@
                         ],
                         "prediccion_continua": 0.8859023650487264,
                         "rmse": 0.11559991125873915,
-                        "prediccion_binaria": 0.8859023650487264
+                        "prediccion_binaria": 0.8859023650487264,
+                        "std": 0.0185760378324948
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1291,7 +1352,8 @@
                         ],
                         "prediccion_continua": 0.5581631564465547,
                         "rmse": 0.4419489605904101,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.009954267711499636
                     },
                     "prueba 0": {
                         "respuesta": " El SARS-CoV-2 es un virus perteneciente a la familia Coronaviridae, que causó una pandemia mundial que comenzó en diciembre de 2019 en Wuhan, China. La enfermedad que provoca se denomina COVID-19 (Enfermedad por coronavirus 2019).\n\nEl virus se propaga principalmente entre personas mediante gotas respiratorias durante la habla, tos o cóough y toco las superficies contaminadas con el virus. El SARS-CoV-2 también puede infectar a personas después de que haya tocado partes de su cuerpo, como la boca, el nariz o los ojos, lo que se conoce como transmisión por contacto directo.\n\nEl virus causa una amplia gama de síntomas que van del asintomático (permanecer sin desarrollar síntomas) a enfermedades más graves, tales como neumonía. La mayoría de las personas infectadas desarrollan fiebre y tos seca. Algunas personas pueden desarrollar dificultad para respirar o enrojecimiento en la cara y/o bajos niveles de oxígeno en la sangre.\n\nEl SARS-CoV-2 afectó al mundo severamente en 2020, ya que se extendió rápidamente a través de las fronteras. Las medidas impuestas por los gobiernos incluyeron el cierre de escolares y empresas no esenciales, la implementación de restricciones de movimiento nacionales e internacionales y el uso generalizado de mascarillas para protección.\n\nEn marzo de 2020, la Organización Mundial de la Salud (OMS) declaró una pandemia por COVID-19 y desde entonces se han implementado esfuerzos globales para controlar la extensión del virus y desarrollar vacunas y tratamiento efectivos.\n\nAlrededor del mundo, miles de personas han muerto debido a COVID-19 y millones más han contraído el virus. Sin embargo, grandes naciones como China y Corea del Sur han contenido la mayoría de los casos, mientras que países como Estados Unidos, India y Brasil han sido particularmente duramente afectados ya que tienen las mayores cantidades de casos confirmados.\n\nLa prevención incluye practicas de higiene personal, el uso de mascarillas y evitar la interacción en grupos muy grandes. También hay vacunas disponibles en todo el mundo, pero no se ha logrado distribuir suficientemente a todos los países.",
@@ -1323,7 +1385,8 @@
                         ],
                         "prediccion_continua": 0.6497913002967834,
                         "rmse": 0.3533208324324373,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.046791850603846906
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1333,7 +1396,8 @@
                         ],
                         "prediccion_continua": 0,
                         "prediccion_binaria": 0,
-                        "rmse": 1
+                        "rmse": 1,
+                        "std": 0.0
                     },
                     "prueba 0": {
                         "respuesta": " Existe una relación entre el frío y la constipación, pero no es causal directa. Al ser expuestos a la temperatura baja, mucha gente presenta una reducción en su metabolismo, lo cual puede reducir sus movimientos intestinales y aumentar la probabilidad de constipación. Sin embargo, esto depende individualmente y puede estar relacionado con ciertos factores como el nivel general de actividad física, la dieta y los hábitos alimentarios. Así mismo, cuando se siente frío, algunas personas son propensas a reducir considerablemente su fluido líquido al comer mucho o beber menos agua, lo que también puede contribuir a las costipaciones. En definitiva, aunque el frío no es una causa directa de constipación, puede aumentar la probabilidad de ocurrirla.",
@@ -1365,7 +1429,8 @@
                         ],
                         "prediccion_continua": 0.8158140778541565,
                         "rmse": 0.18809744655894994,
-                        "prediccion_binaria": 0.8158140778541565
+                        "prediccion_binaria": 0.8158140778541565,
+                        "std": 0.03816012952391944
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1375,7 +1440,8 @@
                         ],
                         "prediccion_continua": 0.560165568591558,
                         "rmse": 0.4400226839149519,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.01286993812457251
                     },
                     "prueba 0": {
                         "respuesta": " Sí, la depresión es considerada una enfermedad mental de tipo afectivo. Es un trastorno que implica alteraciones del humor, la actitud y el rendimiento emocional, y los síntomas pueden incluir sensations de tristeza prolongada, pérdida de interés o placer en las actividades, fatiga, insomnio o somnolencia excesiva, cambios en el apetito o peso, sensaciones de inutilidad o falta de éxito, pensamientos negativos o ideales pasivos (es decir, deseos de maldar a sí mismo u otras personas), y cambios en la cognición que incluyen dificultad para concentrarse, recordar cosas o tomar decisiones. La depresión se considera un trastorno crónico, pero puede ser tratado eficazmente con medicamentos y terapias especializadas como la terapia cognitiva conductual y psicoterapias basadas en el comportamiento. Siendo una enfermedad mental significa que tiene causas físicas relacionadas con el cerebro y no es algo que se puede solucionar simplemente deseando o concentrándose para alejarse de él.",
@@ -1407,7 +1473,8 @@
                         ],
                         "prediccion_continua": 0.7155956625938416,
                         "rmse": 0.2975825755179085,
-                        "prediccion_binaria": 0.7155956625938416
+                        "prediccion_binaria": 0.7155956625938416,
+                        "std": 0.08757603619961167
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1417,7 +1484,8 @@
                         ],
                         "prediccion_continua": 0.5450777882946752,
                         "rmse": 0.4549787559413719,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.007172841493728309
                     },
                     "prueba 0": {
                         "respuesta": " La continua fiebre a pesar de estársele administrando antibióticos durante tres días es un signo preocupante. Esto suele indicar una infección que no es susceptible a los antimicrobianos utilizados en el momento o puede encontrarse una segunda infección secundaria al tratamiento inicial.\n\nEs importante consultar con un médico para realizar pruebas adicionales y establecer un protocolo terapéutico apropiado en función de los resultados. Existen diversas posibilidades, como una bacteriemia (infección del torrente sanguíneo), meningitis o una infección viral compleja.\n\nEs recomendable que se haga un seguimiento médico urgente para prevenir complicaciones posteriores.",
@@ -1449,7 +1517,8 @@
                         ],
                         "prediccion_continua": 0.8704041838645935,
                         "rmse": 0.13071895742281622,
-                        "prediccion_binaria": 0.8704041838645935
+                        "prediccion_binaria": 0.8704041838645935,
+                        "std": 0.017098838261880665
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1459,7 +1528,8 @@
                         ],
                         "prediccion_continua": 0.5325374756673127,
                         "rmse": 0.46752001938043247,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.007331907391100037
                     },
                     "prueba 0": {
                         "respuesta": " Si realiza una actividad intensiva como una carrera de 20 km, es normal sentir dolor muscular por un tiempo después de la carrera. Este tipo de dolor se produce porque has usado y agotado músculos que no son comunmente utilizados diariamente.\n\nPara aliviar el dolor podrías considerar:\n\n* Descansarte (reposo adecuado es una parte importante de la recuperación)\n* Estiramiento para ayudar a reducir tensión en los músculos\n* Hidratarse con suficiente agua para reemplazar lo que hayas perdido mientras corrías\n* Consumir alimentos ricos en proteínas, como carne y verduras, para ayudar en la reparación de tejidos dañados\n* Aplicar calor al área afectada con un envase de calidad médica para facilitar el flujo sanguíneo y su posterior recuperación.\n* Evite tareas físicas extremadamente intensivas durante los siguientes días, especialmente cualquier actividad que requiera del mismo muslo o grupo de músculos usados en la carrera.",
@@ -1491,7 +1561,8 @@
                         ],
                         "prediccion_continua": 0.8246454993883768,
                         "rmse": 0.18513252600190946,
-                        "prediccion_binaria": 0.8246454993883768
+                        "prediccion_binaria": 0.8246454993883768,
+                        "std": 0.0593704581344623
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1501,7 +1572,8 @@
                         ],
                         "prediccion_continua": 0.541337695622054,
                         "rmse": 0.45881320093054334,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.011766218204828122
                     },
                     "prueba 0": {
                         "respuesta": " Claro! Cocinar y compartir tiempo con la familia o amigos mientras disfrutan de la comida es una parte importante de la vida. Sin embargo, siempre hay que hacerlo en moderación y tomar en cuenta la nutrición y la salud en la elección de los ingredientes. Además, es importante limpiar bien la cocina después de utilizar para mantenerla en buenas condiciones de higiene. ¡Que tengas una gran comida!",
@@ -1533,7 +1605,8 @@
                         ],
                         "prediccion_continua": 0.8201098640759786,
                         "rmse": 0.18078491427573565,
-                        "prediccion_binaria": 0.8201098640759786
+                        "prediccion_binaria": 0.8201098640759786,
+                        "std": 0.017964526905048003
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1543,7 +1616,8 @@
                         ],
                         "prediccion_continua": 0.5821575161945524,
                         "rmse": 0.41808171124156723,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.014141287139842414
                     },
                     "prueba 0": {
                         "respuesta": " Actualmente, no hay una cura definitiva para el cáncer de páncreas. Los enfermos suelen tratarse con quimioterapia, cirugía o radiación terapéutica como medidas paliativas que intentan extendérsela y mejorar la calidad de vida del paciente. Sin embargo, hay avances y investigaciones en curso sobre diferentes formas de tratamiento para el cáncer de páncreas, incluyendo la terapia inmunoterápica y el uso de células madre. Es posible que con los próximos años sean desarrolladas nuevas técnicas y terapias más eficaces para tratar este cáncer. Es recomendable consultar con un médico para obtener información más actualizada sobre el tratamiento del cáncer de páncreas, incluida la disponibilidad de ensayos clínicos y nuevos fármacos en su área.",
@@ -1575,7 +1649,8 @@
                         ],
                         "prediccion_continua": 0.6199978788693746,
                         "rmse": 0.38502071094582513,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.061962374014026676
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1585,7 +1660,8 @@
                         ],
                         "prediccion_continua": 0,
                         "prediccion_binaria": 0,
-                        "rmse": 1
+                        "rmse": 1,
+                        "std": 0.0
                     },
                     "prueba 0": {
                         "respuesta": " No puedo contestar, la pregunta se refiere al ámbito de la salud y la salida de una película de Marvel no tiene ninguna relación con este tema.",
@@ -1617,7 +1693,8 @@
                         ],
                         "prediccion_continua": 0.671178142229716,
                         "rmse": 0.3363618850500778,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.07082022004301351
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1627,7 +1704,8 @@
                         ],
                         "prediccion_continua": 0,
                         "prediccion_binaria": 0,
-                        "rmse": 1
+                        "rmse": 1,
+                        "std": 0.0
                     },
                     "prueba 0": {
                         "respuesta": " Si, en la prehistoria existieron personas que se dedican a la atención de las enfermedades y lesiones debido a su conocimiento tradicional de los remedios y prácticas médicas. Estas personas eran llamadas guaritadores, sanadores o chamanes en algunas culturas.\n\nEn el Paleolítico superior y en la Edad de Bronce se han encontrado evidencias arqueológicas que sugieren el uso de medicinas naturales, como plantas medicinales y minerales, para tratar problemas de salud. Por ejemplo, los restos de espárragos crescentes, conocido por sus propiedades inflamatorias y analgésicas, se encontraron en un fósil humano de unos 60.000 años de antigüedad en la cueva de Krapina, Croacia.\n\nA medida que avanzaba la civilización, surgieron títulos más específicos para los que se dedicaban a la salud como médicos, cirujanos, dentistas e incluso barberos (que eran responsables de la higiene en general, incluyendo la practica de la medicina rudimentaria). La medicina desarrollada con el tiempo y fue influyendo en cómo se abordaban las enfermedades a través del uso de plantas medicinales, minerales y técnicas mágicas.\n\nSin embargo, es importante notar que la medicina en la prehistoria era muy diferente de la actual y muchos de los tratamientos eran más basados en creencias religiosas y supersticiones que en el conocimiento de los procesos fisiológicos del cuerpo humano. Algunas prácticas pueden parecer extrañas y arriesgadas para nosotros, pero fueron cruciales en la sobrevivencia y desarrollo de la humanidad. Es importante entender y reconocer su papel histórico para mejorar nuestra comprensión de cómo la medicina ha evolucionado a lo que es actualmente.",
@@ -1659,7 +1737,8 @@
                         ],
                         "prediccion_continua": 0.8320082426071167,
                         "rmse": 0.1783756166063944,
-                        "prediccion_binaria": 0.8320082426071167
+                        "prediccion_binaria": 0.8320082426071167,
+                        "std": 0.05997191048951203
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1669,7 +1748,8 @@
                         ],
                         "prediccion_continua": 0.574252351408869,
                         "rmse": 0.42596615511123126,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.013642031350509887
                     },
                     "prueba 0": {
                         "respuesta": " El Premio Nobel es el galardón más prestigioso que se otorga a nivel mundial en cualquier disciplina, incluida la medicina y la fisiología. Este premio reconoce trabajo académico y descubrimientos excepcionales en estas áreas de conocimiento. Sin embargo, en el campo de la salud más específico, se otorga el Premio Nobel de Fisiología o Medicina a científicos que realicen descubrimientos y avances relevantes en relación con este tema. El más importante entre los principales premios médicos no-Nobel es probablemente el Premio Lasker, ya que muchos ganadores han sido previamente galardonados con el Premio Nobel de Fisiología o Medicina.",
@@ -1701,7 +1781,8 @@
                         ],
                         "prediccion_continua": 0.8329429427782694,
                         "rmse": 0.1680168447531563,
-                        "prediccion_binaria": 0.8329429427782694
+                        "prediccion_binaria": 0.8329429427782694,
+                        "std": 0.017933202536682336
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1711,7 +1792,8 @@
                         ],
                         "prediccion_continua": 0.5819933383039466,
                         "rmse": 0.4182339820098383,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.013787475676384197
                     },
                     "prueba 0": {
                         "respuesta": " El Dr. Gregory House es un personaje ficticio principal de la popular serie de televisión estadounidense \"Dr. House\", emitida desde el año 2004 hasta su finalización en 2012. Interpretado por el actor Hugh Laurie, el Dr. House es un médico diagnostico-clínico especializado en medicina interna con problemas adictivos y una personalidad muy compleja.\n\nElDr. House posee un nivel extraordinario de inteligencia, habilidad diagnóstica y observación clínica que lo han convertido en uno de los médicos más reconocidos de todo Estados Unidos. Sin embargo, debido a sus problemas mentales y adictivos, es visto por muchos como un genio anti-social e irrascible. Es famoso por su técnica única de diagnóstico para los casos más difíciles que involucran enfermedades raras o con complicaciones severas, a menudo diagnosticándolas mediante patrones de síntomas inusuales e involucrando terapias riesgosas.\n\nEl Dr. House y su serie han sido muy influyentes en el tema de la salud al mostrar casos complejos que atraen la atención del espectador y al mismo tiempo presentan información educativa sobre diferentes trastornos médicos. Además, la serie explora muchas facetas relacionadas con la Medicina, incluyendo el proceso diagnóstico, la etica, y los problemas relacionados con la adición y la salud mental. Por estas razones, el Dr. House tiene una gran importancia cultural en relación al tema de la salud.",
@@ -1743,7 +1825,8 @@
                         ],
                         "prediccion_continua": 0.8517817258834839,
                         "rmse": 0.15655362286409336,
-                        "prediccion_binaria": 0.8517817258834839
+                        "prediccion_binaria": 0.8517817258834839,
+                        "std": 0.050402182986395205
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1753,7 +1836,8 @@
                         ],
                         "prediccion_continua": 0.5806176101740917,
                         "rmse": 0.4201424523152166,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.025260469935333173
                     },
                     "prueba 0": {
                         "respuesta": " La salud y el desempeño académico están fuertemente relacionados, ya que la salud física, emotional y mental de un individuo influyen en su capacidad de concentración, aprendizaje y memoria. Una persona que tiene una buena salud tiene mayores posibilidades de tener mejores resultados académicos.\n\n1. Salud física: La salud física es crucial para el desempeño académico ya que se necesita energía para aprender y concentrarse durante las jornadas escolares. Una buena alimentación, ejercicio físico regular y descanso suficiente contribuyen a mantener la salud física en buenas condiciones.\n2. Salud mental: La salud mental también influye en el desempeño académico ya que puede ayudar a mejorar la concentración, la memoria y la capacidad de resolver problemas. Una persona con un estado de ánimo positivo generalmente tendrá mejores resultados académicos que una persona que sufre de la depresión o estrés crónico.\n3. Salud emocional: La salud emocional se refiere a cómo una persona maneja sus emociones y como es capaz de resolver conflictos. Una persona con una buena salud emocional estará en mejor estado para aprender, concentrarse y comprender, por lo tanto tendrá mejores resultados académicos.\n4. Salud social: La salud social se refiere al grado de apoyo que una persona recibe de su familia, amigos o comunidad. Una persona con una buena red social estará en mejor estado para gestionar los desafíos del proceso escolar y tendrá mejores resultados académicos.\n5. Salud ambiental: La salud ambiental se refiere a cómo las circunstancias y condiciones en la que una persona está involucrado influyen en su desempeño académico. En general, la presencia de contaminación y factores estresantes en el entorno pueden tener efectos negativos sobre el desempeño académico.\n\nEn resumen, la salud de un individuo tiene una gran influencia en su desempeño académico ya que depende de la salud física, mental y emocional, además de factores sociales y ambientales. Por lo tanto, al mantenerse saludable tanto a nivel individual como colectivo se pueden lograr mejores resultados en el proceso escolar.",
@@ -1785,7 +1869,8 @@
                         ],
                         "prediccion_continua": 0.7192411422729492,
                         "rmse": 0.28451976510435056,
-                        "prediccion_binaria": 0.7192411422729492
+                        "prediccion_binaria": 0.7192411422729492,
+                        "std": 0.04610813965924522
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1795,7 +1880,8 @@
                         ],
                         "prediccion_continua": 0.5467131057771389,
                         "rmse": 0.4533987249153181,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.01006952236349883
                     },
                     "prueba 0": {
                         "respuesta": " El hecho de que el corazón pueda latiendar fuera del cuerpo es una afirmación exagerada o inexacta en la mayoría de los casos. La capacidad de ser sustituido y mantener su función es posible parcialmente después de ser colocado en un recipiente especial adecuado, pero nunca fuera del cuerpo real. Sin embargo, el corazón ha sido trasplantado a otro cuerpo en un procedimiento médico llamado trasplante cardiaco, que es una operación de alto riesgo y solo se lleva a cabo en casos excepcionales. Por otro lado, si el corazón fuera colocado y nutrido en un medio artificial fuera del cuerpo humano, sin lugar a dudas no podría latiendar sin la ayuda de un mecanismo que repita su contracción, por ejemplo, una bomba cardiaca.",
@@ -1827,7 +1913,8 @@
                         ],
                         "prediccion_continua": 0.8908615708351135,
                         "rmse": 0.11078861089848059,
-                        "prediccion_binaria": 0.8908615708351135
+                        "prediccion_binaria": 0.8908615708351135,
+                        "std": 0.019050448399866905
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1837,7 +1924,8 @@
                         ],
                         "prediccion_continua": 0.6040035972988788,
                         "rmse": 0.39667083252954216,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.0231213846352579
                     },
                     "prueba 0": {
                         "respuesta": " La medicina es una ciencia y profesión que se dedica al estudio y práctica del cuidado, la prevención y el tratamiento de enfermedades y lesiones humanas. Aunque hay varias ramas dentro de la medicina, las más comunes incluyen medicina interna, pediatría, cirugía y medicina familiar. La medicina también se basa en la investigación médica, lo que incluye la exploración de causas e implicaciones de diferentes fenómenos del cuerpo humano y el desarrollo de nuevos tratamientos para enfermedades y otros desafíos de salud humana.",
@@ -1871,7 +1959,8 @@
                         ],
                         "prediccion_continua": 0.8159159223238627,
                         "rmse": 0.19474185023113724,
-                        "prediccion_binaria": 0.8159159223238627
+                        "prediccion_binaria": 0.8159159223238627,
+                        "std": 0.06354085754514605
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1881,7 +1970,8 @@
                         ],
                         "prediccion_continua": 0.5297046612507033,
                         "rmse": 0.47031685605576723,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.004498826609854372
                     },
                     "prueba 0": {
                         "respuesta": " Para obtener puntos jugando al padel, los siguientes son los pasos básicos:\n\n1. Servicio: El servicio es lanzado por el equipo que inicia la partida. Debe colocarse dentro del tercio derecho o izquierdo del campo contrario y debe superar la red (la cual tiene 76 cm de altura). Si se comete una falta al servir, se le otorga un punto al equipo contrario.\n2. Volada: Se efectúa por remate rápido sobre la red desde una posición detrás de ella. Si el equipo contrario no consigue devolverla, se obtiene un punto.\n3. Disparo con rebote en la pared: Un jugador de un equipo golpea la pelota contra una de las cuatro paredes del campo para que vuelva a caer dentro del campo del otro equipo. El otro equipo tiene que devolverla o pierde el punto.\n4. Falta: La falta también se concede puntos en el padel, y puede ser por varias razones. Algunas de las faltas más comunes son:\n  - Pisa la red o se mueve mientras se coloca su rodilla sobre ella para golpear la pelota (se le conoce como \"falta de pierna\").\n  - Toca la red cuando toca la pelota. Si lo hace más de una vez, la falta es automática.\n  - Encasaja la pelota en el poste (parte vertical del campo). Dos encasajes valen una falta.\n  - Salta sobre la red varias veces seguidas o por mucho tiempo para atacar la pelota, se le llama \"saltando encima de la red\".\n5. Encasaje en el suelo opuesto: Si al hacer un disparo con rebote la pelota finalmente cae entre las piernas del adversario antes de que pueda ser devuelta por él (en lugar de encasajarse contra las paredes), se le concede un punto.\n6. Al terminar un partido, el ganador es aquel que haya logrado más sets, que se ganan al ganar dos juegos seguidos (con excepción del último set, donde el primer jugador en lograr 7 juegos o con una ventaja de dos juegos obtiene el set).",
@@ -1913,7 +2003,8 @@
                         ],
                         "prediccion_continua": 0.9112176895141602,
                         "rmse": 0.08954345320897793,
-                        "prediccion_binaria": 0.9112176895141602
+                        "prediccion_binaria": 0.9112176895141602,
+                        "std": 0.011650380139049267
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1923,7 +2014,8 @@
                         ],
                         "prediccion_continua": 0.55597873305907,
                         "rmse": 0.44404701121657225,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.00478149291978787
                     },
                     "prueba 0": {
                         "respuesta": " Los cuatro premios más importantes del tenis son:\n\n1. Abierto de Australia (Australian Open): Es el torneo del Gran Slam que comienza el calendario año a año, es organizado en Melbourne Park, en la ciudad de Melbourne desde 1905. El torneo se disputa en cancha dura mojada.\n2. Torneo de Roland Garros (Roland Garros): Se disputa anualmente en el Stade Roland-Garros en París desde 1891, es conocido por ser la única vez que se utiliza el terreno de tenis de tierra batida dentro del circuito ATP.\n3. Wimbledon: Es un torneo histórico disputado desde 1877 en Londres, Inglaterra en su mayoría en el All England Lawn Tennis and Croquet Club. Es el único Grand Slam que se disputa solamente en canchas de césped y es también conocido como \"la Cena de Wimbledon\".\n4. Abierto de Estados Unidos (US Open): Es el torneo del Gran Slam anual, organizado por la United States Tennis Association (USTA). Se juega desde 1881 en Nueva York y es disputado en canchas duras.\n\nTambién es importante destacar el Davis Cup que es un torneo masculino de tenis a nivel internacional, organizado por la Federación Internacional de Tenis (ITF).",
@@ -1955,7 +2047,8 @@
                         ],
                         "prediccion_continua": 0.5349496404329935,
                         "rmse": 0.4680411842139175,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.052827201203208475
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1965,7 +2058,8 @@
                         ],
                         "prediccion_continua": 0,
                         "prediccion_binaria": 0,
-                        "rmse": 1
+                        "rmse": 1,
+                        "std": 0.0
                     },
                     "prueba 0": {
                         "respuesta": " Felicidades, ya casi has marcado el gol! Recuerda que manteniendo la concentración será importante para tener las mejores posibilidades de convertirla. No olvides protegerte bien en el momento del intento y no te sorprendas con cualquier contragolpe o movimiento inesperado por parte del equipo rival.\n\nSi quieres marcar, el impacto del balón debe ser fuerte pero controlado, así puedes mandarlo al arco contrario y que entre antes que lo puedan llegar los jugadores que defienden su portería. Deseo buena suerte en tu siguiente jugada!",
@@ -1997,7 +2091,8 @@
                         ],
                         "prediccion_continua": 0.6141742666562399,
                         "rmse": 0.38602252642351526,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.012324544459865807
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2007,7 +2102,8 @@
                         ],
                         "prediccion_continua": 0,
                         "prediccion_binaria": 0,
-                        "rmse": 1
+                        "rmse": 1,
+                        "std": 0.0
                     },
                     "prueba 0": {
                         "respuesta": " Un juego que cumpla tus requisitos podría ser el fútbol americano, o futbolín en caso de querer algo menos intenso pero similar. Ambos se juegan con manos y suelen tener varios períodos de tiempo de jugada intercalados con descansos.\nAdditional suggestions could be Handball (deporte), Ultimate Frisbee, or Lacrosse, which are fast-paced team sports where feet aren't used and there are breaks in the game for rest.",
@@ -2039,7 +2135,8 @@
                         ],
                         "prediccion_continua": 0.8396522402763367,
                         "rmse": 0.17124795437041593,
-                        "prediccion_binaria": 0.8396522402763367
+                        "prediccion_binaria": 0.8396522402763367,
+                        "std": 0.06012036117368546
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2049,7 +2146,8 @@
                         ],
                         "prediccion_continua": 0.537711081784818,
                         "rmse": 0.462320584274282,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.005410983196264424
                     },
                     "prueba 0": {
                         "respuesta": " Para atletismo, más específicamente en las carreras, una bicicleta no está directamente relacionada. La natación sí pueden ser relevantes si el deporte también incluye ese elemento, como en triatlones o pruebas de natividad acuática.\n\nSin embargo, para correr fuera del agua, la mejor opción es apoyar tu desarrollo como atleta a través de los entrenamientos y las mejores técnicas. No existen gafas específicas diseñadas para el físico o el rendimiento atlético. La bicicleta solo puede servir para ejercicios de entrenamiento fuera del campo de deporte en ciclocrós o otra forma de entrenamiento cardiovascular, que pueden beneficiar tu desarrollo como corredor.",
@@ -2081,7 +2179,8 @@
                         ],
                         "prediccion_continua": 0.8470255136489868,
                         "rmse": 0.1570165820960475,
-                        "prediccion_binaria": 0.8470255136489868
+                        "prediccion_binaria": 0.8470255136489868,
+                        "std": 0.03539793184309646
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2091,7 +2190,8 @@
                         ],
                         "prediccion_continua": 0.573100588855859,
                         "rmse": 0.42694360541578646,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.006142879635521374
                     },
                     "prueba 0": {
                         "respuesta": " Rafael \"Rafa\" Nadal Margall es un tenista profesional español, considerado uno de los mejores jugadores de la historia del deporte. Nacido el 3 de junio de 1986 en Manacor, Islas Baleares (España), comenzó su carrera sénior en 2001 y está bajo la representación de la Real Federación Española de Tenis.\n\nEn el panorama de los deportes, Rafa Nadal ha logrado récords impresionantes:\n- Es el tenista masculino con más Grand Slams en el circuito profesional ATP, con un total de 21 títulos (dos veces en singles) en Roland Garros, siete títulos en Wimbledon, cuatro títulos en el Abierto de Australia y dos títulos en el US Open.\n- Fue número uno del ranking mundial ATP durante un total de 209 semanas consecutivas desde 2008 hasta 2014, cifra que lo sitúa como tercero en la historia en cuanto a más tiempo por detrás únicamente de Roger Federer y Pete Sampras.\n- Es el tenista con más Grand Slams disputados (60) y ganados (52), también tiene una victoria significativa ante Roger Federer en Wimbledon 2008, que se le conoció como la batalla de las camisetas blancas.\n- Además de su éxito en los Grand Slams, Rafa Nadal es el tenista español con más títulos individuales de la ATP Tour (91), además de haber sido premiado durante varias veces como Jugador del Año por la ATP.\n\nEn resumen, la importancia de Rafael Nadal en la historia de los deportes es evidente, ya sea en el ámbito de lo nacional o internacional, tanto por sus éxitos deportivos como por su influencia en popularizar y promover el tenis desde España.",
@@ -2123,7 +2223,8 @@
                         ],
                         "prediccion_continua": 0.8360407948493958,
                         "rmse": 0.16432489514037746,
-                        "prediccion_binaria": 0.8360407948493958
+                        "prediccion_binaria": 0.8360407948493958,
+                        "std": 0.010956742639950732
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2133,7 +2234,8 @@
                         ],
                         "prediccion_continua": 0.557125090919461,
                         "rmse": 0.44292202606982256,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.006460347103753589
                     },
                     "prueba 0": {
                         "respuesta": " Charlie Chaplin es conocido por ser un famoso actor, comediante, y cineasta británico que vivió entre 1889 y 1977. A diferencia de lo que podría parecer a primera vista, Charlie Chaplin no fue importante en la historia de los deportes sino que fue una figura relevante en el mundo del cine mudo.\n\nChaplin es más conocido por su personaje cómico del Tramp, un trajeron con monóculo y camisa larga. A pesar de que este personaje no tenía ninguna relación directa con los deportes, Chaplin interpretó a su personaje en numerosas situaciones absurdis y en gran parte del humor de Chaplin provenía de la parodia e irónica de actividades diarias. A menudo se utilizaban técnicas cómicas como el slow motion o el speed up, que tenían implicaciones en cierta manera al mundo del deporte.\n\nA pesar de no ser un deportista, Chaplin tuvo una gran influencia en la cultura popular y la comedia, y aún hoy se le recuerda como uno de los grandes cómicos y directores de cine de todos los tiempos. La relevancia de su trabajo en el mundo del cine silencioso fue importante para el desarrollo del lenguaje cinematográfico y para la comedia visual en general.",
@@ -2165,7 +2267,8 @@
                         ],
                         "prediccion_continua": 0.7032982707023621,
                         "rmse": 0.306052884331922,
-                        "prediccion_binaria": 0.7032982707023621
+                        "prediccion_binaria": 0.7032982707023621,
+                        "std": 0.07507630677970259
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2175,7 +2278,8 @@
                         ],
                         "prediccion_continua": 0.5546864804679575,
                         "rmse": 0.44534676141686635,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.0054412522893628225
                     },
                     "prueba 0": {
                         "respuesta": " En el año 2010 hubo varios acontecimientos importantes relacionados con el fútbol:\n\n1. Copa del Mundo de la FIFA 2010: Esta copa se celebró en Sudáfrica entre el 11 de junio y el 11 de julio. El ganador fue España después de vencer a Holanda luego de una prórroga (1-0) en la final.\n\n2. Copa Mundial Sub-20 de la FIFA 2010: Esta competencia tuvo lugar en Egipto entre el 30 de septiembre y el 19 de octubre. El ganador fue Brasil, que venció a Brasil en la definición por penales después de un empate sin goles (1-1) en el tiempo reglamentario.\n\n3. Copa Mundial Femenina FIFA 2011: Aunque esta copa se celebró en 2011, las eliminatorias de las selecciones nacionales comenzaron en 2010. El torneo tuvo lugar entre el 26 de junio y el 25 de julio y ganó los Estados Unidos, que derrotaron a Japón en la final (2-2, 3 - 1 por penales).\n\n4. Juegos Olímpicos de Verano: En estos juegos celebrados en agosto de 2012 en Londres, el fútbol fue un deporte olímico. España fue el ganador al vencer a la selección británica (2-0) en la final.\n\n5. Champions League 2010: El Real Madrid se proclamó campeón de la Liga de Campeones, derrotando al Bayern de Múnich con un resultado global de 2-0 para el conjunto blanco y luego jugando una prórroga después de que el partido finalizase 1-1.\n\n6. Premios FIFA Balón de Oro: El ganador del trofeo de ese año fue Lionel Messi, seguido por Diego Forlán y Xavi Hernández. Messi también ganó el premio al Jugador Mundial FIFA.",
@@ -2207,7 +2311,8 @@
                         ],
                         "prediccion_continua": 0.856390635172526,
                         "rmse": 0.14609607965163834,
-                        "prediccion_binaria": 0.856390635172526
+                        "prediccion_binaria": 0.856390635172526,
+                        "std": 0.02684054439513739
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2217,7 +2322,8 @@
                         ],
                         "prediccion_continua": 0.5509326418792911,
                         "rmse": 0.44921840845599487,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.011648449090935346
                     },
                     "prueba 0": {
                         "respuesta": " El SARS-CoV-2 (se pronuncia \"Sars-Co-VIe-dos\") es un virus perteneciente a la familia de coronavirus, y fue identificado por primera vez en China a finales de 2019. Es el responsable de la Enfermedad por coronavirus 2019 (COVID-19), una pandemia que ha afectado al mundo desde principios del año 2020.\n\nEl SARS-CoV-2 se transmite principalmente por gotas respiratorias que son emitidas cuando las personas hablan, tosen o estornudan. Es ampliamente conocido porque es muy contagioso y puede afectar a una gran cantidad de personas en un corto período de tiempo.\n\nLas personas infectadas con el SARS-CoV-2 pueden presentar síntomas que van desde ser casi imperceptibles hasta fuertes, como fiebre, tos y dolor de garganta. También pueden desarrollar más graves, como pneumonia o neumonía. Algunas personas también pueden tener síntomas menos comunes, como sudoración profusión, pérdida del gusto o olfato o incluso una enfermedad cardíaca inflamatoria o cerebral.\n\nLa pandemia de COVID-19 ha causado un gran impacto mundial, con aproximadamente 62 millones de personas infectadas y más de 1,4 millones de muertes confirmadas a través del mundo hasta la fecha. El SARS-CoV-2 también ha provocado una crisis económica mundial debido a las medidas restrictivas de salud pública implementadas para limitar su transmisión, como cierres de empresas y límites en el viaje internacional.\n\nEl mundo sigue luchando contra la pandemia de COVID-19 y se espera que la vacunación generalizada sea una de las claves para controlarla. Se han desarrollado varias vacunas eficaces contra el SARS-CoV-2, pero aún hay mucho trabajo por hacer para lograr distribuirlas a personas en todo el mundo de manera equitativa y eficiente.",
@@ -2249,7 +2355,8 @@
                         ],
                         "prediccion_continua": 0.8572941422462463,
                         "rmse": 0.14765699685549097,
-                        "prediccion_binaria": 0.8572941422462463
+                        "prediccion_binaria": 0.8572941422462463,
+                        "std": 0.037916050468738104
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2259,7 +2366,8 @@
                         ],
                         "prediccion_continua": 0.5641795152315648,
                         "rmse": 0.4359494351827911,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.010602598379679758
                     },
                     "prueba 0": {
                         "respuesta": " Sí, en general, el entrenamiento de resistance física regular y el ejercicio adecuado pueden ayudar a mejorar la fitness muscular. Sin embargo, es importante no olvidar también otras factores como la alimentación balanceada, el descanso y la hidratación para mejorar el rendimiento y la recuperación.\n\nEs recomendable consultar a un entrenador físico o una nutricionista para establecer un plan personalizado de entrenamiento y alimentación según sus características personales, objetivos y necesidades.",
@@ -2291,7 +2399,8 @@
                         ],
                         "prediccion_continua": 0.8724109133084615,
                         "rmse": 0.1277644138617524,
-                        "prediccion_binaria": 0.8724109133084615
+                        "prediccion_binaria": 0.8724109133084615,
+                        "std": 0.0066910691713828385
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2301,7 +2410,8 @@
                         ],
                         "prediccion_continua": 0.576189209648196,
                         "rmse": 0.42398352218796764,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.012101283745704133
                     },
                     "prueba 0": {
                         "respuesta": " Sí, el ejercicio regular si puede ayudar a prevenir enfermedades crónicas. Al practicar ejercicios físicos diariamente, se mejora la salud en general y se reducen los riesgos de padecer enfermedades como diabetes tipo 2, obesidad, presión alta, corazón, cáncer y osteoporosis. Además, el ejercicio contribuye a la mejoría del estado mental, aumentando el bienestar general y reduciendo los niveles de estrés. Es importante recordar que lo ideal es mantener una rutina de ejercicios físicos balanciada e incluir actividades aeróbicas y anábolas en la dieta para obtener resultados óptimos en la salud.",
@@ -2333,7 +2443,8 @@
                         ],
                         "prediccion_continua": 0.5762895743052164,
                         "rmse": 0.4242123232374744,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.02062935636613027
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2343,7 +2454,8 @@
                         ],
                         "prediccion_continua": 0,
                         "prediccion_binaria": 0,
-                        "rmse": 1
+                        "rmse": 1,
+                        "std": 0.0
                     },
                     "prueba 0": {
                         "respuesta": " En base a tus descripciones, un deporte que podría encajar con las preferencias de tu amigo podría ser el Yoga. El yoga es uno de los mejores deportes para mantener la flexibilidad y fuerza sin tener que correr o sentir mucha sensación de sudor, ya que típicamente se practica en ambientes cálidos y bien ventilados. Además, el yoga es solitario y puede ser adaptado según las habilidades físicas y nivel del individual, lo cual le ofrece la oportunidad de entrenar todo su cuerpo con movimientos lentos y complejos. Otra opción podría ser el Taijiquán, también conocido como \"Artes Marciales Chi Kung\", este deporte puede combinar aspectos del yoga, la medicina tradicional china y artes marciales en un único entrenamiento para obtener flexibilidad y estabilidad física.",
@@ -2375,7 +2487,8 @@
                         ],
                         "prediccion_continua": 0.8381366531054179,
                         "rmse": 0.16653938635541018,
-                        "prediccion_binaria": 0.8381366531054179
+                        "prediccion_binaria": 0.8381366531054179,
+                        "std": 0.03918704045626258
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2385,7 +2498,8 @@
                         ],
                         "prediccion_continua": 0.5330943829921302,
                         "rmse": 0.4669606405507318,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.0071683073350805575
                     },
                     "prueba 0": {
                         "respuesta": " Sí, es normal que después de correr una carrera larga como la de 20 km, el cuerpo experimente dolor muscular, sobre todo en los músculos del cuero cabelludo, las piernas y en especial las muslos.\n\nPara aliviar el dolor muscular y speed up recovery, tienen estas recomendaciones:\n1. Reposar: Da tiempo a que el cuerpo se descongestione después de la carrera. Recomiendo descansarte por al menos 24 horas para que los músculos recuperen su fuerza y reduzcan la inflamación.\n2. Higiene personal: Aseguraré tener bien limpios pies y zapatos para evitar infecciones bacterianas y fungicas, es una buena idea después de correr a regañadientes dejar los zapatos secar en un lugar soleado y ventilado.\n3. Estiramiento: Trabajar el estiramiento y masajes sobre las áreas dolorosas para ayudarte a relajar los músculos contráctiles, especialmente tras ejercicios intensos o largos corrimientos. Recomiendo hacer algunos ejercicios de flexibilidad sobre la espalda y piernas, así como recibir una terapia de masaje profesional si tienes que correr más competiciones.\n4. Nutrición: Relevantes para el crecimiento y recuperación de tejidos celulares, lo ideal es ingerir proteínas y carbohidratos en mayor cantidad a través de una dieta saludable o comiendo post-entrenamiento. Al igual que los nutrientes, la hidratación es fundamental para sostener el desempeño físico y evitar cansancio muscular.\n5. Desconexión: Pensar en disminuir la presión de tus entrenamientos, te ayudará a evitar futuros dolores musculares si tu proxima carrera es más corta que esta. Si vas a continuar corriendo largas distancias, puedes reforzar o incluso aumentar tu entrenamiento gradualmente en vez de hacer un cambio drástico.",
@@ -2417,7 +2531,8 @@
                         ],
                         "prediccion_continua": 0.8949793577194214,
                         "rmse": 0.10881555226681122,
-                        "prediccion_binaria": 0.8949793577194214
+                        "prediccion_binaria": 0.8949793577194214,
+                        "std": 0.028486647926807173
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2427,7 +2542,8 @@
                         ],
                         "prediccion_continua": 0.5653186026291465,
                         "rmse": 0.43474289587377635,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.0073122016136904725
                     },
                     "prueba 0": {
                         "respuesta": " Parece que estás en un buen estado físico y te sientes satisfecho con tu entrenamiento actual. Sin embargo, es importante tener en cuenta que continuar ejerciciendo se debe hacer por amor a la salud y la fuerza física, no solo por un aspecto estético. El gimnasio puede ofrecerte muchas más oportunidades para mejorar tu adaptabilidad, resistencia, velocidad y flexibilidad además de mantener tu metabolismo y tus huesos fuertes. De cualquier forma, si te sientes contento con lo que has logrado en el gimnasio, continúa practicando lo que te hace feliz. ¡Buena suerte en tus siguientes actividades!",
@@ -2459,7 +2575,8 @@
                         ],
                         "prediccion_continua": 0.8041850924491882,
                         "rmse": 0.19678459368268955,
-                        "prediccion_binaria": 0.8041850924491882
+                        "prediccion_binaria": 0.8041850924491882,
+                        "std": 0.019511491273817728
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2469,7 +2586,8 @@
                         ],
                         "prediccion_continua": 0.5621539489599591,
                         "rmse": 0.43792073783642627,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.008087534596025455
                     },
                     "prueba 0": {
                         "respuesta": " Aún no se ha determinado cuándo se jugará la final del Mundial de Fútbol 2034, ya que aún no se han realizado las elecciones para los Países Organizadores. La FIFA determina después de seleccionar estos países la fecha en la que se lleva a cabo el torneo.",
@@ -2501,7 +2619,8 @@
                         ],
                         "prediccion_continua": 0.6527633666992188,
                         "rmse": 0.35098926082188164,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.051187710499978514
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2511,7 +2630,8 @@
                         ],
                         "prediccion_continua": 0,
                         "prediccion_binaria": 0,
-                        "rmse": 1
+                        "rmse": 1,
+                        "std": 0.0
                     },
                     "prueba 0": {
                         "respuesta": " No puedo contestar sobre asuntos relacionados con cine, dado que mi habilidad se centra en el deporte y actividades relacionadas.",
@@ -2543,7 +2663,8 @@
                         ],
                         "prediccion_continua": 0.6803294022878011,
                         "rmse": 0.32153048871373524,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.03453352184210193
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2553,7 +2674,8 @@
                         ],
                         "prediccion_continua": 0,
                         "prediccion_binaria": 0,
-                        "rmse": 1
+                        "rmse": 1,
+                        "std": 0.0
                     },
                     "prueba 0": {
                         "respuesta": " Sí, hay pruebas que sugieren que algunas formas de deportes han sido practicados porhumanos en tiempos de la prehistoria. Se ha descubierto evidencia arqueológica de jugadores de pelota en cámaras sepulcrales de África y Euroasia datadas del período Paleolítico Inferior, más de 40.000 años atrás. En Europa se han encontrado artefactos como bolas hechas de hueso y piedra que sugieren que se jugaba al juego del catch en el periodo Epipaleolítico (12.000 a 7.500 AC). También hay evidencia de que los romanos entrenaban a sus esclavos para ejecutar combates de gladiadores y carreras de carros entre equino y bicarro, pero la mayoría de estas prácticas no se consideran deportes modernos porque no hay reglas ni codificaciones escritas.\n\nA medida que avanza la historia, en la antigua Grecia surgió una idea de competición de deportes entre atletas libres como ocurría en los Juegos Olímpicos Antiguos (que tuvieron lugar cada cuatro años desde el siglo VIII aC hasta el siglo IV dC), donde se practicaban disciplinas tales como la carrera, el lanzamiento del disco y la lucha. También hubo otras olimpiadas como los Juegos Píticos, Nemeos y Istmicos entre otros. En China los juegos Olímipcos anteriores al imperio han sido sustituidos por los Juegos de los Seis Reinos (que datan del período de los Reinos combatientes en la antigua China) alrededor del siglo V aC, que incluían disciplinas tipo carrera y lanzamiento de jabalina, entre otras actividades.\n\nA partir de estas raíces, se han desarrollado diferentes deportes a lo largo de la historia hasta los actuales con mayor codificación reglamentaria, organización, equipos, federaciones y competencias internacionales.",
@@ -2585,7 +2707,8 @@
                         ],
                         "prediccion_continua": 0.8073739608128866,
                         "rmse": 0.19323875550984654,
-                        "prediccion_binaria": 0.8073739608128866
+                        "prediccion_binaria": 0.8073739608128866,
+                        "std": 0.015376139244910752
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2595,7 +2718,8 @@
                         ],
                         "prediccion_continua": 0.5726619857192451,
                         "rmse": 0.4273834349849589,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.006230734316583523
                     },
                     "prueba 0": {
                         "respuesta": " El galardón más importante para un jugador de fútbol varía según la perspectiva, los criterios reconocidos y las preferencias particulares. Sin embargo, algunos premios son considerados ampliamente importantes:\n\n1. Balón de Oro FIFA - Otorgado anualmente desde 1956 al mejor jugador masculino de fútbol del mundo, elegido por un jurado internacional, entre otros factores, desde los resultados en sus ligas respectivas y en encuentros internacionales.\n\n2. Balón de Plata y Bronce FIFA - El premio también incluye a los jugadores que destacan pero no reciben el Balón de Oro, es decir, los segundo y tercer lugares del ranking global.\n\n3. The Best FIFA Men's Player Award - Este galardón recientemente creado en 2016 combina las votaciones de las distintas ediciones del Balón de Oro FIFA.\n\n4. Jugador Mundial de la FIFA - Un premio similar al Balón de Oro, pero otorgado por primera vez en 2003 y con algunos cambios en su organización desde entonces.\n\n5. The Ballon d'Or - Otorgado anualmente desde 1956 hasta 2019, este premio lo decidía una organización francesa y era considerado equivalente al Balón de Oro FIFA hasta que se descontinuó su edición.",
@@ -2627,7 +2751,8 @@
                         ],
                         "prediccion_continua": 0.8679014245669047,
                         "rmse": 0.13227438883402845,
-                        "prediccion_binaria": 0.8679014245669047
+                        "prediccion_binaria": 0.8679014245669047,
+                        "std": 0.006817646952034357
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2637,7 +2762,8 @@
                         ],
                         "prediccion_continua": 0.5614537336285029,
                         "rmse": 0.4386107145736249,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.007518722657851134
                     },
                     "prueba 0": {
                         "respuesta": " La deportista que protagoniza la película Space Jam es Michael Jordan, el famoso jugador de baloncesto profesional estadounidense. En esta película animada-live-action del año 1996, Michael Jordan se une a los Looney Tunes para enfrentarse a un equipo de aliens que quieren dominar el mundo del deporte. Su misión es participar en una partida de baloncesto contra ellos con la ayuda de la magia de la auténtica estrella del cine y música Mike Tyson. En resumen, Michael Jordan interpreta a sí mismo junto a los populares personajes de Looney Tunes para derrotar a los extraterrestres en una partida de baloncesto aparentemente ficticia en la popular película Space Jam.",
@@ -2669,7 +2795,8 @@
                         ],
                         "prediccion_continua": 0.8214176297187805,
                         "rmse": 0.18165982844578132,
-                        "prediccion_binaria": 0.8214176297187805
+                        "prediccion_binaria": 0.8214176297187805,
+                        "std": 0.033296100307575335
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2679,7 +2806,8 @@
                         ],
                         "prediccion_continua": 0.5682252471101837,
                         "rmse": 0.43199650761692543,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.013839991335201291
                     },
                     "prueba 0": {
                         "respuesta": " La relación entre el deporte y el desempeño académico puede verse desde diferentes ángulos.\n\n1. Beneficios del deporte en el desempeño académico: La práctica regular de deportes puede tener un efecto positivo en la atención, memoria, disciplina, autodisciplina y autoestima del estudiante, que pueden a su vez mejorar el rendimiento académico.\n2. Balance entre deporte y estudio: es importante para los estudiantes mantener un equilibrio entre sus actividades educativas e intelectuales, como la práctica de deportes, amigos, familiares y otras actividades extracurriculares.\n3. Posibilidades de becas deportivas: Las universidades pueden ofrecer becas deportivas a los estudiantes destacados en ciertos deportes, lo que les permite financiar sus estudios de grado o posgrado.\n4. Desafíos del balance entre el deporte y el estudio: La práctica regular de deportes puede requerir mucho tiempo y dedicación, lo que pueden impactar negativamente en la calidad y cantidad de horas dedicadas al estudio, lo que podría influir en los resultados académicos.\n5. Importancia del apoyo familiar: El apoyo familiar es crucial para el equilibrio entre el deporte y el estudio, ya que puede ayudar a los estudiantes a mejorar su organización, responsabilidad y autoestima, lo que aumenta sus posibilidades de éxito en ambos aspectos.\n6. Desempeño académico y desarrollo personal: Estudiar deportes, como el fútbol o el baloncesto, puede ayudar a los estudiantes a desarrollar habilidades sociales, problemas soluciones y autodisciplina, que se extienden en otras áreas de la vida, incluyendo su desempeño académico.\n7. Importancia de la motivación intrínseca: El interés personal por el deporte puede ser más importante para el éxito en ambos aspectos, ya que los estudiantes aprenden a desarrollar y perseguir metas personales y progresar constantemente, lo cual los insta a mejorarse no solo como atletas, sino también en la educación.\n8. Importancia del bienestar físico: El deporte tiene muchos beneficios para la salud y el bienestar general de los estudiantes, incluyendo una mejor calidad de vida, energía, autoestima y capacidades cognitivas que pueden ayudar al rendimiento académico.\n9. Papel del coach: Los entrenadores también pueden jugar un papel importante en el equilibrio entre deporte y estudio, proporcionando asesoramiento sobre organización temporal, priorización de tareas y supervisión del rendimiento académico de los estudiantes.\n10. Programas escolares: Las escuelas pueden implementar programas escolares para promover la participación en deportes extracurriculares, como concursos o eventos deportivos que permitan a los estudiantes demostrar sus habilidades en ambos aspectos y ganar reconocimiento y incentivos.\n\nEn resumen, el desempeño académico y el deporte se relacionan directamente en muchas áreas, desde los beneficios cognitivos y físicos para los estudiantes hasta el apoyo familiar y educativo que puede ayudar a mejorar tanto en las competencias atléticas como en la calidad de vida estudiantil.",
@@ -2711,7 +2839,8 @@
                         ],
                         "prediccion_continua": 0.6053337653477987,
                         "rmse": 0.39553561019371486,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.026210344461069724
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2721,7 +2850,8 @@
                         ],
                         "prediccion_continua": 0,
                         "prediccion_binaria": 0,
-                        "rmse": 1
+                        "rmse": 1,
+                        "std": 0.0
                     },
                     "prueba 0": {
                         "respuesta": " Sí, es cierto que el deporte del fútbol llegó a España gracias a la presencia de empresas mineras inglesas. No fue por las minas de Rio Tinto sino por las minas de Vizcaya y más precisamente en la localidad vasca de Gernika, lugar donde se encontraba una empresa minera inglesa llamada Norte. Allí se asentaron trabajadores de distintos países y entre ellos estaba el escocés Charles Darwin Price, quien organizó los primeros partidos de fútbol en España en 1882. Estas partidas fueron la primera semilla en la que brotaron las bases del desarrollo del fútbol en el país peninsular.",
@@ -2753,7 +2883,8 @@
                         ],
                         "prediccion_continua": 0.8793749014536539,
                         "rmse": 0.12201390238215998,
-                        "prediccion_binaria": 0.8793749014536539
+                        "prediccion_binaria": 0.8793749014536539,
+                        "std": 0.018356959857437526
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2763,7 +2894,8 @@
                         ],
                         "prediccion_continua": 0.5829999189044317,
                         "rmse": 0.4170785374933078,
-                        "prediccion_binaria": 0
+                        "prediccion_binaria": 0,
+                        "std": 0.008089425433616758
                     },
                     "prueba 0": {
                         "respuesta": " El deporte es una actividad física organizada, reglamentada y competitiva en la que los participantes intentan ganar o lograr un objetivo, generalmente mediante la realización de ejercicios corpusco-intelectuales o técnicos dentro de un marco establecido por las normas del deporte en cuestión. El deporte tiene diferentes categorías como el físico (atletismo), el equipo (fútbol, baloncesto), el de pelota (tenis, squash) y el acuático (natación, waterpolo). Sus principales objetivos son la competitividad, la salud física, el entretenimiento y el desarrollo personal.",
@@ -2798,7 +2930,8 @@
                     ],
                     "prediccion_continua": 0.7602194945017496,
                     "rmse": 0.249101444149436,
-                    "prediccion_binaria": 0.7602194945017496
+                    "prediccion_binaria": 0.7602194945017496,
+                    "std": 0.06750436030611741
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -2808,7 +2941,8 @@
                     ],
                     "prediccion_continua": 0.543794857392721,
                     "rmse": 0.45649360544006323,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.01622589493188
                 },
                 "prueba 0": {
                     "respuesta": " El descubrimiento de América es considerado generalmente como lo ocurrido en 1492, cuando Cristóbal Colón realizó su primer viaje a las Islas Canarias y luego navegó hasta America del Norte, donde se estableció en la actual Bahía de Samaná (República Dominicana). Esto es conocido como el Viaje de los Tres Reyes Magos, aunque el nombre oficial de este primer viaje fue la Primera Voyage o Primer Viaje. En América se encuentra un pueblo indígena que dice vivir en esa fecha, por lo que se acepta que desde antiguo eran habitados y había quienes las habitaron antes del descubrimiento oficial de Colón.",
@@ -2840,7 +2974,8 @@
                     ],
                     "prediccion_continua": 0.44133825103441876,
                     "rmse": 0.5588404119883297,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.014129979264100862
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -2850,7 +2985,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": " El emperador Carlos I, quien reinó sobre España y las Indias entre los años 1516 y 1558, murió en la batalla de Mookerheyde, Países Bajos Españoles (hoy Bélgica), el 30 de agosto de 1558. Murió a manos de las tropas de Felipe II de España, quien era su hijo y heredero presunto, luego de un golpe de Estado conocido como la Guerra de Sucesión de Portugal por parte de Felipe para tomar el control de Portugal.",
@@ -2882,7 +3018,8 @@
                     ],
                     "prediccion_continua": 0.6888894240061442,
                     "rmse": 0.3121290322410542,
-                    "prediccion_binaria": 0.6888894240061442
+                    "prediccion_binaria": 0.6888894240061442,
+                    "std": 0.02519409201595378
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -2892,7 +3029,8 @@
                     ],
                     "prediccion_continua": 0.5617499388989281,
                     "rmse": 0.4382836334904552,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.005424696351167676
                 },
                 "prueba 0": {
                     "respuesta": " El personaje de Superman no fue creado hasta el año 1933. Los escritores Jerry Siegel y Joe Shuster lo crearon bajo la idea de tener un superhéroe fuertemente orientado a una filosofía positiva y moral, que defendiera los valores americanos como justicia, honestidad y democracia. El primer cómic en el que apareció Superman se publicó el 18 de abril de 1933 en la revista Action Comics #1, publicada por la editorial National Allied Publications (subsecuentemente conocida como DC Comics).",
@@ -2924,7 +3062,8 @@
                     ],
                     "prediccion_continua": 0.5268881420294443,
                     "rmse": 0.4753027413121997,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.04558361269733469
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -2934,7 +3073,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": " La primera persona en respirar en el espacio fue Yuri Gagarin, un cosmonauta soviético. Realizó este vuelo el 12 de abril de 1961 en la nave Vostok 1 durante un vuelo suborbital duración de 108 minutos. Antes del despegue, Gagarin fue conectado a una máscara que le proporcionaba oxígeno, pero no necesitó usarla mientras estaba en el espacio debido a la suficiente presión y composición de aire en su nave.",
@@ -2966,7 +3106,8 @@
                     ],
                     "prediccion_continua": 0.29489171504974365,
                     "rmse": 0.7051292311028003,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.005434983912994776
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -2976,7 +3117,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": " \"El Mamut Campeón\" es una película animada de Columbia Pictures y Reel FX Creative Studios estrenada en 2015. La historia se developmenta en un mundo prehistórico, donde un joven titánico mamut llamado Owen gracias a su inteligencia logra formar parte de los \"Army of One\", un equipo de superpoderosos animales que defienden la tierra contra invasiones alienígenas. Durante su aventura, Owen desarrolla una fuerte amistad con otros animales, entre ellos un león llamado Gideon y un pez volador llamado Dodo, además de descubrir sus propios poderes ocultos. La película es un agradable combate de efectos especiales, humor, un guion convincente y sobre todo, una profunda historia que se gira alrededor del tema de la amistad y el valor en el corazón salvaje de la tierra prehistórica.",
@@ -3008,7 +3150,8 @@
                     ],
                     "prediccion_continua": 0.8256457646687826,
                     "rmse": 0.17945617477626363,
-                    "prediccion_binaria": 0.8256457646687826
+                    "prediccion_binaria": 0.8256457646687826,
+                    "std": 0.04248669541627505
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3018,7 +3161,8 @@
                     ],
                     "prediccion_continua": 0.5554995897024748,
                     "rmse": 0.4447091208428183,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.013623046873739253
                 },
                 "prueba 0": {
                     "respuesta": " Felipe II nunca llegó a convertirse en Rey de Francia. Sin embargo, debido a una serie de eventos históricos conocidos como la Liga Católica o Guerra de las Religiones, Felipe II fue designado por el Papa Clemente VIII como el gobernante de los católicos franceses en 1593 y ostentó el título de Rey de Francia por derecho más que por herencia.\n\nLa motivación principal para designar a Felipe II como el gobernante de Francia fue la intención del Papa Clemente VIII de enfrentar la guerra civil en Francia con la ayuda del poderoso Reino de España de entonces. Los católicos franceses se encontraban en una rebelión contra Enrique IV, quien convertido al catolicismo pero originario del bando protestante, era rey de Francia pero no había sido coronado.\n\nPor otro lado, Felipe II quería preservar y apoyar la religión católica en el territorio francés como una opción para impedir más expansión del protestantismo en Europa occidental. Después de algunos triunfos militares y negociaciones, Felipe II recuperaba el control sobre las regiones fronterizas con España.\n\nEn 1597 Enrique IV finalmente aceptó una nueva corona para ser Rey de Francia en La Roche-l'Abeille mediante un tratado conocido como la Paz de Vervins o Paz de Vervins-París, y Felipe II se retractó como gobernante de la Liga Católica. Enrique IV fue coronado en 1594 como Rey de Francia y sus posesiones sobre las que había reclamado el control por Felipe II fueron entregadas de nuevo al reino francés, lo cual formalizó las hostilidades con esta guerra a su fin y Felipe II debió centrar todas sus atenciones nuevamente en el Imperio español.\n\nA pesar de la Paz de Vervins, Felipe II continuó manteniendo una fuerte presencia militar en el sur de Francia con el objetivo de detener cualquier intento de protestante tomar el control del país. La influencia española no disminuyó notablemente hasta la Revolución Francesa en 1789.",
@@ -3050,7 +3194,8 @@
                     ],
                     "prediccion_continua": 0.7976235151290894,
                     "rmse": 0.20719361975287484,
-                    "prediccion_binaria": 0.7976235151290894
+                    "prediccion_binaria": 0.7976235151290894,
+                    "std": 0.04441795174918549
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3060,7 +3205,8 @@
                     ],
                     "prediccion_continua": 0.5616828423952778,
                     "rmse": 0.43836889398870005,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.006734728368184456
                 },
                 "prueba 0": {
                     "respuesta": " La serie de libros y la serie de televisión basadas en \"A Song of Ice and Fire\" de George R.R. Martin no están directamente relacionados con la historia europea real, sino que son una obra ficticia de fantasía épica. Jon Snow, un personaje central de estos libros y series, no muere en Europa como tal, ya que su mundo es un continente ficticio conocido como Westeros. Por lo tanto, la muerte de Jon Snow en este contexto no tuvo ninguna consecuencia real en la historia europea.",
@@ -3092,7 +3238,8 @@
                     ],
                     "prediccion_continua": 0.3409072160720825,
                     "rmse": 0.659428605234789,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.021042518291465376
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3102,7 +3249,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": " Soy una máquina y no puedo hacer predicciones. El resultado de los sorteos loterios se determinan por un procedimiento aleatorio y nadie puede predecir con certeza cuáles son los números que saldrán en un sorteo futuro.",
@@ -3134,7 +3282,8 @@
                     ],
                     "prediccion_continua": 0.796034594376882,
                     "rmse": 0.20515697503603703,
-                    "prediccion_binaria": 0.796034594376882
+                    "prediccion_binaria": 0.796034594376882,
+                    "std": 0.022079350419204707
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3144,7 +3293,8 @@
                     ],
                     "prediccion_continua": 0.5528507964759729,
                     "rmse": 0.44717492982281304,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.004796629010669241
                 },
                 "prueba 0": {
                     "respuesta": " Aquí tienes una lista de todos los países del mundo ordenados alfabéticamente:\n\n1. Abu Dhabi (Emirato) - Emiratos Árabes Unidos\n2. Afganistán\n3. Albania\n4. Arabia Saudita\n5. Armenia\n6. Australia\n7. Austria\n8. Azerbaiyán\n9. Bahamas\n10. Bangladés\n11. Baréin\n12. Belice\n13. Bélgica\n14. Benín\n15. Bhután\n16. Birmania (Myanmar)\n17. Bolivia\n18. Bosnia y Herzegovina\n19. Botswana\n20. Brasil\n21. Brunéi Darussalam\n22. Bulgaria\n23. Burkina Faso\n24. Burundi\n25. Cabo Verde\n26. Camboya\n27. Campbell Islands (Nueva Zelanda)\n28. Canadá\n29. Chad\n30. Chile\n31. China\n32. Ciudad del Vaticano (Estado soberano)\n33. Colombia\n34. Comoras\n35. Costa Rica\n36. Croacia\n37. Cuba\n38. Dinamarca\n39. Djibouti\n40. Dominica\n41. República Domínica\n42. Ecuador\n43. Egipto\n44. El Salvador\n45. Emiratos Árabes Unidos\n46. Eritrea\n47. España\n48. Estonia\n49. Eswatini (antiguamente Sudáfrica)\n50. Estados Unidos de América\n51. Etiopía\n52. Fiji\n53. Filipinas\n54. Finlandia\n55. Francia\n56. Gabón\n57. Gambia\n58. Georgia\n59. Alejandro Garadilla y Bickerstaff (Islas Malvinas/Falkland)\n60. Alejandro Segundo (Georgia del Sur)\n61. Alejandro Tercer (Georgia del Sur con las Islas Sandwich del Sur en el Atlántico sur)\n62. Grecia\n63. Grenada\n64. Guatemala\n65. Guayana Francesa\n66. Guyana\n67. Haití\n68. Honduras\n69. Hungría\n70. India\n71. Indonesia\n72. Irak (República del Kurdistan)\n73. Irán (Juzestan)\n74. Islandia\n75. Israel\n76. Italia\n77. Jamaica\n78. Japón\n79. Jordania\n80. Kazajistán\n81. Kirguizistán\n82. Kosovo (Serbia/Kosovo)\n83. Kuwait\n84. Kyrgyzstan\n85. Laos\n86. Lesoto\n87. Letonia\n88. Libano\n89. Líbano Occidental (Siria)\n90. Liberia\n91. Libia\n92. Liechtenstein\n93. Lituania\n94. Luxemburgo\n95. Macao (China)\n96. Macedonia del Norte\n97. Madagascar (República del Sud)\n98. Malasia\n99. Malaui\n100. Maldivas\n101. Mali\n102. Malta\n103. Martín Lutero Reino de Hanover (Bosnia y Herzegovina en disputa territorial)\n104. Mauritania\n105. Mauricio\n106. Mayotte (Francia)\n107. México\n108. Moldavia\n109. Mongolia\n110. Montenegro (Serbia en disputa territorial)\n111. Marruecos Occidental Sahara Arab-Maghrebara (Marruecos/Sahara Occidental)\n112. Moscú (en calidad de ciudad independiente pero bajo soberanía rusa)\n113. Namibia\n114. Nauru\n115. Nepal\n116. Nederlands Midden-Onderdeel de Sovereine Orden van Malta (San Pietro y Málta)\n117. Neuviland en Zee (Rusia en disputa territorial)\n118. Niue (Nueva Zelanda)\n119. Niger\n120. Nigeria\n121. Norfolk Island (Australia)\n122. Norte Dakota América Central (EE.UU.)\n123. Noruega\n124. Nueva Caledonia (Francia)\n125. Nueva Guinea Occidental en disputa territorial (Indonesia/Papúa Nueva Guinea)\n126. Nueva Zelanda\n127. Ó Snagafjörður - Islote de la Cosa de Groenlandia (Danemark)\n128. Pakistán\n129. Palau\n130. Palestina (Territorios ocupados por Israel)\n131. Panamá\n132. Papúa Nueva Guinea\n133. Paraguay\n134. Perú\n135. Polonia\n136. Portugal (comprende Madeira, Azores y Timor Oriental en disputa territorial)\n137. Qatar\n138. Rumania\n139. Rusia - (Cazaquistán/Corea del Norte/Georgia/Mongolia/Siberia)\n140. San Cristóbal y Nieves\n141. Samoa\n142. Santa Elena (Reino Unido en disputa territorial con las Islas Malvinas/Falkland)\n143. Santo Tomé y Príncipe\n144. Serbia (Kosovo)\n145. Seychelles\n146. Shalamov Island (Siberia en disputa territorial)\n147. Arabia Eslémita de Somalilandia (Somalia)\n148. Sudáfrica\n149. Surinam\n150. Suazilandia (Eswatini)\n151. Sudán del Sur\n152. Suecia (Åland, Gotland en Öland - Islas Åland/Götaland/Oländ - parte de suecia y administradas por Finlandia)\n153. Suiza (Antigua Confederación Helvética - parte de suiza no integrada al territorio)\n154. Tadjikistán\n155. Tailandia\n156. Taiwán (República China)\n157. Tanzania\n158. Timor del Este parte de Timor Oriental en disputa territorial (Timor Leste/Indonesia)\n159. Togo\n160. Tokelau (Nueva Zelanda)\n161. Tokelau Isla Norte (Nueva Zelanda)\n162. Tonga\n163. Trinidad y Tobago\n164. Tunisia\n165. Turkmenistán\n166. Turquía (Antigua Cilicia en disputa territorial)\n167. Tuvalu\n168. Ucrania (Crimea - parte de la Ucrania ocupada por Rusia)\n169. Uganda\n170. Uzbekistán\n171. Vanuatu\n172. Venezuela (Isla Aves - parte de la isla perteneciente a Venezuela, pero bajo soberanía brasileña)\n173. Zaire (República Democrática del Congo en disputa territorial)\n174. Zimbabue",
@@ -3176,7 +3326,8 @@
                     ],
                     "prediccion_continua": 0.5543970266977946,
                     "rmse": 0.44905161054523685,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.055545828983867854
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3186,7 +3337,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": " El presidente actual de los Estados Unidos es Joe Biden, quien asumió el cargo el 20 de enero del año 2021.",
@@ -3218,7 +3370,8 @@
                     ],
                     "prediccion_continua": 0.23236332833766937,
                     "rmse": 0.7684328540570743,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.03497129556479203
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3228,7 +3381,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": " El problema está en que no existe un número definito para representar el significado o sentido de la vida. Es algo abstracto y personal a cada individuo según sus creencias, experiencias y valores.",
@@ -3260,7 +3414,8 @@
                     ],
                     "prediccion_continua": 0.48213738203048706,
                     "rmse": 0.531893317945562,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.12136231122099224
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3270,7 +3425,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": " Buenos días! La pregunta no especifica en qué país o continente se refiere. Por convención, la palabra \"capital\" generalmente hace referencia a una ciudad que sirve de sede para un gobierno nacional. Según este criterio, algunas capitales conocidas son:\n\n1. Madrid, España\n2. París, Francia\n3. Berlín, Alemania\n4. Londres, Reino Unido\n5. Roma, Italia\n6. Washington D.C., Estados Unidos\n7. Canberra, Australia\n8. Ottawa, Canadá\n9. Pretoria (ciudad oficial), Ciudad del Cabo (cabildo legislativo), Sudáfrica\n10. Nicosia (República de Chipre), Larnaca (Turquía de Chipre del Norte)",
@@ -3302,7 +3458,8 @@
                     ],
                     "prediccion_continua": 0.7910670240720113,
                     "rmse": 0.2156260633722604,
-                    "prediccion_binaria": 0.7910670240720113
+                    "prediccion_binaria": 0.7910670240720113,
+                    "std": 0.053306761065483606
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3312,7 +3469,8 @@
                     ],
                     "prediccion_continua": 0.5734004943558388,
                     "rmse": 0.4266323672482425,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.005295145701166114
                 },
                 "prueba 0": {
                     "respuesta": " La conquista del Reino de Granada por parte de los Reyes Católicos en el año 1492 tuvo varias consecuencias importantes en lo que respecta a la unificación de España. A continuación se enumeran algunas de ellas:\n\n1. El fin de las últimas dinastías musulmanas en la Península Ibérica: Granada fue uno de los últimos reinos musulmanes españoles, por lo que su conquista significó el final del dominio islámico en España continental. Esto marcó también el fin de las relaciones culturales y comerciales entre la Península Ibérica y África, ya que los moriscos, musulmanes conversionarios españoles, fueron expulsados de España a mediados del Siglo XVI.\n\n2. El aumento de la unificación política y territorial: La conquista de Granada consolidó el dominio real sobre la mayoría de los territorios españoles, incluyendo las regiones reconquistadas en lo que ahora es Portugal, Francia y Cataluña. Además, provocó el colapso del Califato de Granada y la desintegración de sus aliados musulmanes en el Magreb, facilitando la expulsión de los μoriscos y el fin de las relaciones culturalmente ricas con la región.\n\n3. El impulso hacia una política de cristianización activa: Después de conquistar Granada, los Reyes Católicos continuaron su lucha contra los musulmanes en las regiones del Sureste espiritualmente vinculadas al Califato, como Valencia y Aragón. Esto condujo a la intensificación de la política de expulsión de los moriscos que finalmente culminó en su expulsión el 31 de agosto de 1609.\n\n4. La extensión del poder real: La conquista de Granada permitió a Isabel I y Felipe II expandir su presencia militar, política e institucional por España, lo que contribuyó hacia la unificación final de la nación española alrededor del poder central en Madrid. Además, la conmemoración de la conquista se convirtió en un punto focal para legitimar la dinastía. Ellos utilizaron la victoria militar como parte de su imagen para asumir como líderes espirituales y políticos a gran escala.\n\nEn resumen, la conquista del Reino de Granada por parte de los Reyes Católicos fue una etapa crucial en la unificación de España, ya que marcó el final del dominio islámico, fortalecieron su presencia real en la mayoría de los territorios españoles y fomentaron políticas de cristianización activas, que condujeron a la final unificación de la nación alrededor del poder central en Madrid.",
@@ -3344,7 +3502,8 @@
                     ],
                     "prediccion_continua": 0.45984265208244324,
                     "rmse": 0.5402678158924598,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.010924851480926062
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3354,7 +3513,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": " Desde la independencia de España en 1808 hasta el presente, España ha contado con varios reyes y presidentes según diferentes períodos históricos.\n\nEn resumen:\n\n- Reyes de España (Monarquía absoluta): Don Fernando VII (1808-1833, 1835-1836), Isabel II (1833-1843, 1844-1868) y Alfonso XII (1874-1885).\n- Regencia de María Cristina (Madrid) (1833-1840): Selected by Isabel II's mother when she was a minor.\n- Primera República Española (1873): Presidente: Nicolás Salvo y Alonso, presidente provisional (febrero de 1873), Francisco Pi i Margall, presidente constituyente (abril-octubre de 1873) y Emilio Castelar, que asumió a partir del 25 de octubre de 1873 y se mantuvo en ejercicio hasta el triunfo de la Restauración en 1874.\n- Segunda República Española (1931-1939): Presidentes: Niceto Alcalá-Zamora (1931-1936), Diego Martínez Barrio (1936) y Manuel Azaña (1936-1939).\n- Dictadura de Francisco Franco (1939-1975): Cargo en España oficialmente desaparecido. Sin embargo, Francisco Franco ostentó el título de Jefe del Estado (*Caudillo*), y a partir de 1947 como *Generalísimo*.\n- Transición española a la democracia (1975-1978): Presidentes: Juan Carlos I desde julio de 1975 en calidad de Rey, Adolfo Suárez (1976-1981) y Leopoldo Calvo-Sotelo (1981).\n- España actual: Desde la aprobación de la Constitución Española en 1978 hasta el momento, los Presidentes del Gobierno son los encargados de la gobernanza. Durante este tiempo han sido designados por orden cronológico: Adolfo Suárez (1978-1982), Leopoldo Calvo-Sotelo (1982-1986), Felipe González (1986-1996), José María Aznar (1996-2004), José Luis Rodríguez Zapatero (2004-2011) y Mariano Rajoy (2011-2018). Desde 2018 hasta el momento, Pedro Sánchez se desempeña como Presidente del Gobierno de España.",
@@ -3386,7 +3546,8 @@
                     ],
                     "prediccion_continua": 0.4861818651358287,
                     "rmse": 0.5165916686648163,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.053459109781248945
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3396,7 +3557,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": " Los primeros seis meses del mandato de Joe Biden han sido importantes en varios aspectos. Aquí se destacan algunas de sus principales acciones y su impacto:\n\n1. Vacuna contra la COVID-19: Biden ha priorizado la distribución masiva de vacunas contra la COVID-19. Ha aumentado el suministro y lo ha dirigido hacia comunidades vulnerables. El índice de vacunación en los Estados Unidos se ha duplicado, lo que ha permittingo disminuir casos, hospitalizaciones y muertes por el virus.\n\n2. Aprovisionamiento de recursos económicos: También ha aprobado un paquete de estímulo económico total de 1.9 billones de dólares, lo que ha ayudado a mejorar los estándares de vida de muchas familias bajo la presión financiera, creando empleos y estimulando el consumo ya que las personas tienen mayores ganancias para gastar.\n\n3. Medidas ambientales: El presidente Biden ha revertido varias políticas del anterior mandato en materia de clima. Ha reintegrado a Estados Unidos en la Convención de las Naciones Unidas sobre el Cambio Climático y ha emitido un alto número de directivas para reducir las emisiones líquidas de carbono. También se han anunciado objetivos netos de cero emissions hasta 2050, y planes para crear millones de empleos en la industria del clima.\n\n4. Política migratoria: A continuación de un aumento de la llegada de inmigrantes, especialmente de niños no acompañados y familiares, se ha instalado campamentos para albergarlos mientras el cuerpo migratorio estadounidense trabaja en su reparto y redirección. Se ha también retomado el programa TPS (Temporary Protected Status) para algunas naciones.\n\n5. Política exterior: Joe Biden se ha enfocado especialmente en reestablecer la relación con socios internacionales y aliados, como Europa y América Latina después de años de reticencia del gobierno anterior hacia los estrechos vínculos internacionales. También ha declarado que los Estados Unidos permanecerán partes del Acuerdo de París sobre el clima cambiante y regresará a la Organización Mundial de la Salud (OMS).\n\nPero también han surgido críticas contra Biden. Algunas personas han dicho que sus políticas son demasiado liberales y no están en armonía con el movimiento conservador. Otros han expresado preocupación por los aumentos del gasto gubernamental, con una duda sobre si las empresas privadas estarán capaces de soportar la presión fiscal o si se podrán emplear todos los fondos en el estímulo económico.\n\nEn definitiva, hasta ahora el impacto de Biden ha sido amplio y variedado, con algunos grandes éxitos tanto para su administración como para la ciudadanía que lo apoya. Sin embargo, las cuestiones permanecen acerca de las políticas futuras de Biden en materia económica, clima, migracion y políticas exteriores.",
@@ -3428,7 +3590,8 @@
                     ],
                     "prediccion_continua": 0.846560557683309,
                     "rmse": 0.15395055953965656,
-                    "prediccion_binaria": 0.846560557683309
+                    "prediccion_binaria": 0.846560557683309,
+                    "std": 0.01253444550493433
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3438,7 +3601,8 @@
                     ],
                     "prediccion_continua": 0.5705298615846166,
                     "rmse": 0.4295028078289111,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.005297371271673322
                 },
                 "prueba 0": {
                     "respuesta": " El primer presidente de los Estados Unidos no fue ni Barack Obama ni John F. Kennedy (JFK). JFK sirvió como el 35º presidente, desde 1961 hasta 1963, mientras que Barack Obama fue elegido en 2008 y se desempeñó en el cargo entre 2009 y 2017. El primer presidente de los Estados Unidos fue George Washington, quien asumió el cargo el 30 de abril de 1789.",
@@ -3470,7 +3634,8 @@
                     ],
                     "prediccion_continua": 0.7433122396469116,
                     "rmse": 0.2578418174930856,
-                    "prediccion_binaria": 0.7433122396469116
+                    "prediccion_binaria": 0.7433122396469116,
+                    "std": 0.024367940681418628
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3480,7 +3645,8 @@
                     ],
                     "prediccion_continua": 0.5549518882223214,
                     "rmse": 0.44523742617237727,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.012982444597459553
                 },
                 "prueba 0": {
                     "respuesta": " Las zanahorias no tienen propiedades conocidas que mejoren la visión directamente. Sin embargo, son una verdura rica en betacaroteno (precursor del vitamina A), lo que puede ayudar a mantener la buena salud general de los ojos y prevenir enfermedades relacionadas con la visión como el xerofagia. Además, contienen antioxidantes importantes que pueden proporcionar beneficios para la retina y otros tejidos oculares. Por lo tanto, mientras que las zanahorias no mejoran la vista por sí solas, son una buena opción en tu dieta para mantener los ojos saludables.",
@@ -3512,7 +3678,8 @@
                     ],
                     "prediccion_continua": 0.3521163413921992,
                     "rmse": 0.6597246242826514,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.1244320890841921
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3522,7 +3689,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": " Estás mezclando metáforas o bromas en español! Las zanahorias no tienen relación con el tema de la pregunta. Además: ¡Enjoy the music you heard at the Royal Theater in Madrid!",
@@ -3554,7 +3722,8 @@
                     ],
                     "prediccion_continua": 0.4495842655499776,
                     "rmse": 0.5507303265885994,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.018612143730042736
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3564,7 +3733,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": " El país europeo más grande que no conecta con ningún mar y no ha adoptado el Euro hasta ahora es Rusia. Aunque mucha parte de Rusia se encuentra en Asia, la mayoría de su territorio pertenece a Europa continental. Esto incluye regiones importantes como Moscú, San Petersburgo, Siberia y las Montañas Urales.\n\nPor lo tanto, Rusia es el país más grande de Europa que no limita con un mar y no ha adoptado el Euro. Aun cuando hay planes para hacerlo eventualmente, por ahora la rubla sigue siendo su moneda oficial.",
@@ -3596,7 +3766,8 @@
                     ],
                     "prediccion_continua": 0.24098941683769226,
                     "rmse": 0.7593445459671248,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.022518306722141404
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3606,7 +3777,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": " El país europeo occidental mediterráneo más grande que no es una isla y cuya lengua principal no es románica ni germánica es Turquía. La lengua parlada en Turquía es el turco, la cual pertenece al grupo de las lenguas turcas.",
@@ -3638,7 +3810,8 @@
                     ],
                     "prediccion_continua": 0.7082246939341227,
                     "rmse": 0.29223532038061006,
-                    "prediccion_binaria": 0.7082246939341227
+                    "prediccion_binaria": 0.7082246939341227,
+                    "std": 0.016390645140488897
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3648,7 +3821,8 @@
                     ],
                     "prediccion_continua": 0.5790328629353844,
                     "rmse": 0.42148126362037364,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.020811657662184933
                 },
                 "prueba 0": {
                     "respuesta": " La palabra \"EE.UU\" es una sigla que representa Estados Unidos de América en español. Significa Estados Unidos Unidos, siendo las tres letras que inician cada palabra en su lengua original, Inglés.",
@@ -3680,7 +3854,8 @@
                     ],
                     "prediccion_continua": 0.7767268021901449,
                     "rmse": 0.2245256786105267,
-                    "prediccion_binaria": 0.7767268021901449
+                    "prediccion_binaria": 0.7767268021901449,
+                    "std": 0.02368247232192657
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3690,7 +3865,8 @@
                     ],
                     "prediccion_continua": 0.5504035426191252,
                     "rmse": 0.44961740771816106,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.004340372537732376
                 },
                 "prueba 0": {
                     "respuesta": " El héroe que se vuelve en el símbolo de la paz en todo el universo para derrotar al Imperio y enfrentarse a su padre, según el contexto de Star Wars, es Luke Skywalker.\n\nEn la saga estelar original, Luke Skywalker, un campesino humano entrenado para convertirse en Jedi durante la Guerra de las Estrellas, se enfrenta y enfrente a su padre, el Señor Sith Darth Vader, quien es el líder poderoso del Imperio. Finalmente, en Star Wars: Episode VI - Return of the Jedi (1983), Luke consigue salvarle la vida al Emperador Palpatine y convencer a su padre de dejar de lado lo malo, tras lo cual éste se reconcilia con Luke y muere destrozado por las energías del Halcón Milenario.\n\nEn el nuevo cicle de películas de Star Wars de Disney+ (Star Wars: The Mandalorian y a partir de 2022 Star Wars: The Book of Boba Fett), Luke Skywalker se presenta como un Jedi maestro que se retiró temporalmente del mundo, sin embargo, su papel como símbolo de paz y ayuda en la derrota del Imperio se mantiene intacto.",
@@ -3724,7 +3900,8 @@
                     ],
                     "prediccion_continua": 0.6334757208824158,
                     "rmse": 0.3751642480502844,
-                    "prediccion_binaria": 0.6334757208824158
+                    "prediccion_binaria": 0.6334757208824158,
+                    "std": 0.08005102018382114
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3734,7 +3911,8 @@
                     ],
                     "prediccion_continua": 0.5663999331430455,
                     "rmse": 0.43413880140107014,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.021621306704324356
                 },
                 "prueba 0": {
                     "respuesta": " La última vez que tuve interacción con el usuario, no había mencionado ningún tema específico en particular. Es posible que se le pidiera alguna información o servicio, pero la última conversación no fue registrada por mi. Por favor, símolo cualquier tema o cierta pregunta para comenzar una nueva interacción.",
@@ -3766,7 +3944,8 @@
                     ],
                     "prediccion_continua": 0.46105002363522846,
                     "rmse": 0.543221799885069,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.06799152040354835
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3776,7 +3955,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": " Hola Joaquín, me llamas tú. Es agradable conocerte. ¿De dónde eres y ¿qué te acabas de preguntar a mí aquí? ¡Espero que estés disfrutando de los avances tecnológicos!",
@@ -3808,7 +3988,8 @@
                     ],
                     "prediccion_continua": 0.021401951399942238,
                     "rmse": 0.9789450130577071,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.026061424878799682
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3818,7 +3999,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": " Este texto trata sobre el sistema digestivo humano. Comienza en la boca con la masticación de alimentos y mezcla con saliva que contiene enzimas que comienzan a digerir los carbohidratos. Posteriormente, las glándulas salivales lanzan el alimento hacia la faringe a través de un proceso llamado deglución. A continuación, el alimento pasa por el esófago, un tubo muscular que transporta el bolo alimenticio mediante movimientos rítmicos llamados peristaltismo hasta llegar al estómago, donde se produce mixtura con jugos gástricos, ayudando a descomponer las proteínas y formarla en una sustancia semi-líquida llamada quimo. El quimo luego pasa al intestino delgado, donde la mayoría de la digestión química e absorción de nutrientes ocurren. En este proceso también participan el hígado y el páncreas, que producen enzimas y fluidos para facilitar la digestión. Los desechos se transforman en heces que posteriormente se expulsan del cuerpo durante el defecación.",
@@ -3850,7 +4032,8 @@
                     ],
                     "prediccion_continua": 0.4331446389357249,
                     "rmse": 0.5682581658406618,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.03990416867049578
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3860,7 +4043,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": " Espera, está claro que te refieres a instrumentos musicales en lugar de verduras. Si te preguntan sobre las zanahorias y piensas en instrumentos, es probable que tengas confusión. En cuanto a tu pregunta original, no hay ninguna conexión entre la orquesta del concierto instrumental en el Teatro Real y las zanahorias en cuestión de la vista.",
@@ -3892,7 +4076,8 @@
                     ],
                     "prediccion_continua": 0.6290997664133707,
                     "rmse": 0.3869240631275913,
-                    "prediccion_binaria": 0.6290997664133707
+                    "prediccion_binaria": 0.6290997664133707,
+                    "std": 0.11019640353726676
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3902,7 +4087,8 @@
                     ],
                     "prediccion_continua": 0.5759202904728404,
                     "rmse": 0.42495594021265204,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.027275466804052604
                 },
                 "prueba 0": {
                     "respuesta": " El caballo de Santiago no se menciona que sea rojo: su color es grande y blanco.",
@@ -3934,7 +4120,8 @@
                     ],
                     "prediccion_continua": 0.7355226675669352,
                     "rmse": 0.27011804939357426,
-                    "prediccion_binaria": 0.7355226675669352
+                    "prediccion_binaria": 0.7355226675669352,
+                    "std": 0.05491357971649247
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3944,7 +4131,8 @@
                     ],
                     "prediccion_continua": 0.5635263747404787,
                     "rmse": 0.4372581173347915,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.026180825578602813
                 },
                 "prueba 0": {
                     "respuesta": " La pregunta no menciona la compra de cajas de pimientos. En el supermercado compraste un total de dos peras verdes, una manzana amarilla, un aguacate sin madurar y tres cajas de tomates, así que el número de cajas de pimientos es desconocido, ya que no se los menciona.",
@@ -3976,7 +4164,8 @@
                     ],
                     "prediccion_continua": 0.7079553008079529,
                     "rmse": 0.2924845101516604,
-                    "prediccion_binaria": 0.7079553008079529
+                    "prediccion_binaria": 0.7079553008079529,
+                    "std": 0.016033787839542187
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3986,7 +4175,8 @@
                     ],
                     "prediccion_continua": 0.5360663505024209,
                     "rmse": 0.46397803480758437,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.006417604519247765
                 },
                 "prueba 0": {
                     "respuesta": " El lunes 13 de marzo es el día a que se refiere \"Un trece de Marzo\" en español, que significa el 13 de marzo.\n\nTenga cuidado con el idioma que utilice cuando le pregunte algo.",
@@ -4018,7 +4208,8 @@
                     ],
                     "prediccion_continua": 0.6349619229634603,
                     "rmse": 0.37022232114196485,
-                    "prediccion_binaria": 0.6349619229634603
+                    "prediccion_binaria": 0.6349619229634603,
+                    "std": 0.061739528547029354
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4028,7 +4219,8 @@
                     ],
                     "prediccion_continua": 0.5734739760940158,
                     "rmse": 0.42662782154685747,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.009319283704720948
                 },
                 "prueba 0": {
                     "respuesta": " Para resolver este problema, necesitamos encontrar una relación matemática que permita calcular las Edades de María y Juana a partir del conocimiento de su distancia edad actual y futura.\n\nCuando Juana tendrá 3 veces la edad de María el año que viene, se cumplirá un año adicional para ambos, por lo tanto, también será una diferencia de cuatro años entre sus edades:\n\nActual Edad de Juana = 5 * Actual Edad de María + 4 o simplemente Juana (t) = 5 * Maria (t) + 4, donde t es el tiempo actual. Para abreviar, podemos reescribir lo anterior como:\n\nJuana (t) - 4 = 5 * María (t)\n\nEl año que viene, Juana tendrá 3 veces la edad de María, así que podemos escribir una nueva ecuación para ese momento el tiempo que sea un año adicional, o t + 1:\n\nJuana (t+1) =  3 * María (t+1)\n\nDe ambas ecuaciones en diferentes instantes de tiempo podemos obtener las edades actuales:\n\nSustituyendo t+1 por t en la primera ecuación, tenemos que Juana (t + 1) - 4 = 5 * María (t+1), y ya sabemos que es equivalente a 3 * María (t+1); por lo tanto:\n\nJuana (t + 1) - 4 =  3 * María (t+1), y Juana(t)- 4 = 5 * María (t)\n\nUna buena solución es restar ambas ecuaciones, ya que se cancelan los términos del lado derecho:\n\nJuana (t + 1) - Juana(t) =  2 * María (t+1) - 5 * María (t)\n4 = 7 * María (t); por lo tanto, María (t)=4/7\n\nDesconocemos el valor de t, pero podemos aplicar la ecuación para encontrar María (t+1):\n\nMaría(t+1) = Juana(t + 1)/6; conocemos que esto es equivalente a: 3*María (t+1) = Juana (t+1); como resultado podemos deducir que Juana (t+1)=18, por lo tanto María(t+1) = 3\n\nPodemos verificarla con la ecuación original: Juana (t + 1) - 4 =  5 * María (t+1), luego Juana (t+1) = 18 y es evidente que es cierto por el cálculo anterior.\n\nFinalmente, tenemos las edades actuales para María y Juana, respectivamente: María (t)=4/7 , y Juana(t)=26/7 . No tiene sentido obtener una edad con fracción entera ya que estamos trabajando en años reales. Así que podríamos redondearlas para convertirlos a enteros, aunque no se sabe cual será el valor preciso de t. Para este caso específico, Juana tiene 4 más edad que María.",
@@ -4060,7 +4252,8 @@
                     ],
                     "prediccion_continua": 0.6524519522984823,
                     "rmse": 0.365645274705629,
-                    "prediccion_binaria": 0.6524519522984823
+                    "prediccion_binaria": 0.6524519522984823,
+                    "std": 0.11360819272138106
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4070,7 +4263,8 @@
                     ],
                     "prediccion_continua": 0.5475520113608031,
                     "rmse": 0.4531627659598727,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.02544228819795061
                 },
                 "prueba 0": {
                     "respuesta": " Mi amigo, no sé cuál es el color de tu marcador que compraste en el pueblo de tu abuela porque en esta interacción no se proporcionó información sobre los colores de ese producto. ¡Espero que te guste este pequeño divertimento!",
@@ -4102,7 +4296,8 @@
                     ],
                     "prediccion_continua": 0.5859203934669495,
                     "rmse": 0.41772142868637563,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.05503881754926127
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4112,7 +4307,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": " Por supuesto, el caballo negro de Santiago no es rojo. En la leyenda tradicional del apóstol Santiago Matamoros, el caballo del santo siempre se describe como negro.",
@@ -4144,7 +4340,8 @@
                     ],
                     "prediccion_continua": 0.4955075879891713,
                     "rmse": 0.5052267142424117,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.027229377658695073
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4154,7 +4351,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": " Sí, se puede inferir que el abuelo de María también estaba presente en la competencia de castillos de arena en la playa de Torremolinos, ya que se menciona a todos los ancianos del grupo familiar (abuelos) como asistentes a la playa con su familia.",
@@ -4186,7 +4384,8 @@
                     ],
                     "prediccion_continua": 0.544226348400116,
                     "rmse": 0.45593883286333037,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.012271830347729598
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4196,7 +4395,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": " El 14 de julio es el número 202 del año, ya que contamos desde el 1 de enero como el primer día. Como tenemos un año bisiesto en cuenta (tiene 366 días), primero debemos averiguar cuál es su número en una rutina completa con un día adicional:\n\n- Un año común tiene 8 días pares y 4 días impares por semana, con el último día del año siempre par. Entonces, la cantidad total de días pares en un año común es de 52 + 14 = 66 días.\n- En un año bisiesto adicionalmente tiene 1 día adicional (el 29 de febrero), que es un día par, por lo tanto hay 53 + 14 = 67 días pares.\n- Para hallar el número de una semana para el 14 de julio, multiplicamos 67 (total de días pares en un año bisiesto) por la semana que deseamos averiguar y después le restamos la cantidad máxima posible de días pares disponibles en la semana correspondiente. Por ejemplo para calcular el número de semanas hasta el 14 de julio:\n  - Primera semana tiene un máximo de 7 días (1 día incompleto), entonces la primera semana solo puede tener un máximo de 6 días pares (semana completa con un día par menos)\n  - Segunda semana tiene un máximo de 14 días (2 días incompletos más uno en el año adicional), entonces la segunda semana puede tener un máximo de 8 días pares.\n- Para hallar el número de semanas hasta el 14 de julio, multiplicamos el total de días pares que tenemos (67) por el número de semanas y luego le restamos el número máximo posible (incompleto más un día adicional) de días pares en la semana correspondiente. Por ejemplo para hallar la cantidad de semanas en un año bisiesto desde el 14 de julio, multiplicamos 67 (total de días pares) x 52/7 (cantidad máxima de semanas por una completa con 1 día adicional), y luego restamos 8 (máximo de días pares en la segunda semana). La cantidad resultante es aproximadamente 39,14 que nos da como resultado 39 semanas.\n- Ahora debemos considerar el resto del año desde el 14 de julio:\n  - Debido a que tiene un 29 de febrero (en un año bisiesto) la semana final tiene un máximo de 8 días pares adicionales al día adicional (un día más en total), entonces tendríamos 39 x 7 + 8 = 266 días.\n  - Para hallar el número del día, restamos 1 (el 1 de enero) a 202 y obtenemos 201. Entonces, el día 14 de julio se encuentra al: 266 total de días - 201 = 65 en la rutina completa del año bisiesto.\n- Finalmente para saber qué hará Juan el 14 de julio en un año bisiesto, debemos encontrar a qué categoría la semana que contiene el día pertenece (en este caso sería la cuadragésimo segunda o la cuadrágsima tercera) y ver su rutina de acuerdo con los días pares. Por lo tanto, Juan se levantaría tarde esa mañana 14 de julio (perteneciendo a la semana 27) y asistiría a clases de inglés y cenar con sus amigos.",
@@ -4228,7 +4428,8 @@
                     ],
                     "prediccion_continua": 1.0000001192092896,
                     "rmse": 1.1920928955078125e-07,
-                    "prediccion_binaria": 1.0000001192092896
+                    "prediccion_binaria": 1.0000001192092896,
+                    "std": 0.0
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4238,7 +4439,8 @@
                     ],
                     "prediccion_continua": 0.7248563204378317,
                     "rmse": 0.27514367956216834,
-                    "prediccion_binaria": 1
+                    "prediccion_binaria": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": " La capital de España es Madrid.",
@@ -4270,7 +4472,8 @@
                     ],
                     "prediccion_continua": 0.1341954916715622,
                     "rmse": 0.8658611924510007,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.009907469445874997
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4280,7 +4483,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": " El aparato de donde hablas es un helicóptero. Este aparato rojo grande es utilizado para transportar personas en tierra, aunque es preferible ir a lugares con terreno especializado como helipuertos, por seguridad y facilitar el despegue y aterrizaje. Si se produce algún daño en la estructura del helicóptero (por ejemplo, pinchando), será necesario repararlo para poder utilizarlo de nuevo.",
@@ -4312,7 +4516,8 @@
                     ],
                     "prediccion_continua": 0.7657676140467325,
                     "rmse": 0.2363047438152721,
-                    "prediccion_binaria": 0.7657676140467325
+                    "prediccion_binaria": 0.7657676140467325,
+                    "std": 0.031226932610183826
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4322,7 +4527,8 @@
                     ],
                     "prediccion_continua": 0.5253493887514477,
                     "rmse": 0.47472831360030693,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.00858888672453834
                 },
                 "prueba 0": {
                     "respuesta": " En la frase \"Tu llamas a tus llamas en llamas\", la palabra más repetidamente utilizada es \"lamas\". El significado principal de esta palabra, particularmente en este contexto, es \"fuego\", ya que se trata de un error ortográfico de «llamas» que ha ganado popularidad en memes y internet en español. No obstante, \"llama\" también puede significar \"animales domésticos tipo perro o gato\" o \"teléfono móvil\". En este caso, debido al contexto de la frase y la forma en que es utilizada la palabra, el significado más adecuado para \"llamas\" es el primer significado anteriormente mencionado: \"fuego\".",
@@ -4354,7 +4560,8 @@
                     ],
                     "prediccion_continua": 0.7026353677113851,
                     "rmse": 0.3175920933375349,
-                    "prediccion_binaria": 0.7026353677113851
+                    "prediccion_binaria": 0.7026353677113851,
+                    "std": 0.11153032419200763
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4364,7 +4571,8 @@
                     ],
                     "prediccion_continua": 0.5472865924621834,
                     "rmse": 0.45372536917382755,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.030286651637723393
                 },
                 "prueba 0": {
                     "respuesta": " Claro que sí, los helados siempre tienen un aspecto agradable, especialmente cuando están bien preparados. ¿Qué tipo de helmete te gusta más?",
@@ -4396,7 +4604,8 @@
                     ],
                     "prediccion_continua": 0.27435723940531415,
                     "rmse": 0.7305262252241566,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.08432763329288047
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4406,7 +4615,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": " Si eres un alumno y deseas obtener buenas calificaciones, la persistencia es clave. A pesar de que el examen pueda parecer complicado, no eres un náufrago al río, porque todos tenemos problemas que enfrentar en nuestras vidas. El camino para superarlos puede ser complejo, pero con la determinación y tus esfuerzos previos de estudiar, puedes confiar en llegar a una resolución positiva. Mantente firme y continúa dando el mejor de ti dentro del examen.",
@@ -4438,7 +4648,8 @@
                     ],
                     "prediccion_continua": 0.48231064279874164,
                     "rmse": 0.5296964660758986,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.11214310328256272
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4448,7 +4659,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": " A las 15:06 exactamente, Julian estaba en su casa o se iba a su casa desde que no se especifica ninguna actividad que estuviera realizando en ese momento. Sin embargo, tomando como referencia el horario de sus actividades anteriores y posteriores, es probable que estuviese transitiendo entre alguna de ellas o tomando un descanso corto en su casa antes de marcharse a comer con sus padres posteriormente. Pero sin más información determinada no puedo especificar con precisión lo que exactamente estaba haciendo Julian a ese horario.",
@@ -4480,7 +4692,8 @@
                     ],
                     "prediccion_continua": 0.37220726410547894,
                     "rmse": 0.6277941395389308,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.0013275531999340717
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4490,7 +4703,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": " Si se analyze la conversación, vemos que Adela expresó su acuerdo en sacar la basura pero también propuso hacerle una compra por favor. A este nivel, es posible que se haga la tarea de sacar la basura pero no se especifica explícitamente si terminará realizando solo esta task o también la de comprar los alimentos. Sin embargo, generalmente cuando alguien hace una promesa doble, como ofrecer a cambio otra acción (en este caso, hacerle la comida y todo), es probable que cumpla con ambas partes de la promesa ya que el objetivo principal parece ser demostrar buena voluntad en lugar solo de realizar la tarea solicitada inicialmente. Por lo tanto, es probable que Adela siga sin sacar la basura o no haga la compra, pero generalmente es posible esperar que realice ambas tareas como resultado de su promesa.",
@@ -4522,7 +4736,8 @@
                     ],
                     "prediccion_continua": 0.3822443087895711,
                     "rmse": 0.6229637067845368,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.08038461263112225
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4532,7 +4747,8 @@
                     ],
                     "prediccion_continua": 0,
                     "prediccion_binaria": 0,
-                    "rmse": 1
+                    "rmse": 1,
+                    "std": 0.0
                 },
                 "prueba 0": {
                     "respuesta": " Esto sucede en un escenario de teatro o cine. En una representación, una actriz está interpretando al personaje de la mujer que asesina a su marido ficticio en una escena dramática. La mujer simula que dispara a su marido con una pistola pero no lo hace realmente. Luego, para continuar la escena, la mujer la saca del agua y lo hace parecer como si se estaba ahogando, pero esto también es parte de la actuación. Después de completar la escena, en la vida real, la mujer se siente a cómodo junto a su marido para disfrutar de una cena encantadora.\n\nEs importante destacar que no condono los asesinatos ni el maltrato doméstico en la vida real, y este ejercicio es específicamente un ejercicio teatral que no debería interpretarse como algo real o alentado.",
@@ -4564,7 +4780,8 @@
                     ],
                     "prediccion_continua": 0.6753040750821432,
                     "rmse": 0.32512898827777703,
-                    "prediccion_binaria": 0.6753040750821432
+                    "prediccion_binaria": 0.6753040750821432,
+                    "std": 0.01677543919748014
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4574,7 +4791,8 @@
                     ],
                     "prediccion_continua": 0.5412709545110533,
                     "rmse": 0.45874172715681366,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.003411020318963133
                 },
                 "prueba 0": {
                     "respuesta": " Alfredo parece mostrar un tono solicitoso y responsable; quizás se molesto de que los vecinos hicieran demasiada ruido en horario nocturno debido a que tiene que trabajar la mañana siguiente y desea mantener el tranquilidad necesaria para la concentración.",
@@ -4606,7 +4824,8 @@
                     ],
                     "prediccion_continua": 0.7503015597661337,
                     "rmse": 0.2504354353707459,
-                    "prediccion_binaria": 0.7503015597661337
+                    "prediccion_binaria": 0.7503015597661337,
+                    "std": 0.01919886022943334
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4616,7 +4835,8 @@
                     ],
                     "prediccion_continua": 0.5409267573709801,
                     "rmse": 0.4594408664529465,
-                    "prediccion_binaria": 0
+                    "prediccion_binaria": 0,
+                    "std": 0.0183757358794496
                 },
                 "prueba 0": {
                     "respuesta": " Sí, entiendo que has mencionado que los astronautas mirando desde el espacio observaron la tierra como plana. Es un fenómeno llamado perspectiva aérea o efecto tierra plana, causado por los limitados límites de la percepción visual humana en distancias grandes. Pero para que sea claro, es importante destacar que las observaciones científicas demuestran que la Tierra es esférica y no plana.\n\nEspero esto te haya ayudado a entender lo que hablaste sobre los astronautas y su perspectiva desde el espacio de nuestra Tierra, aun así, es importante tener una comprensión científica correcta de las características físicas de nuestro planeta.\n\nAdemás, quiero mencionar que una discusión sobre estos temas puede ser interesante para profundizar en el aprendizaje y la exploración del mundo que nos rodea.",
@@ -4636,26 +4856,116 @@
     },
     "notas": {
         "lim_temporal": {
-            "SBert": 6.375428853199958,
-            "Bleurt": 2.738610566498994
+            "SBert": {
+                "nota_final": 6.375428853199958,
+                "std": 0.04792299522937115,
+                "max_accuracy": {
+                    "valor": 0.9071650703748068,
+                    "pregunta": 14
+                },
+                "min_accuracy": {
+                    "valor": 0.33415934443473816,
+                    "pregunta": 21
+                }
+            },
+            "Bleurt": {
+                "nota_final": 2.738610566498994,
+                "std": 0.014027838588893216,
+                "max_accuracy": {
+                    "valor": 0.6216464464477659,
+                    "pregunta": 2
+                }
+            }
         },
         "falta_contexto": {
-            "SBert": 4.876034718102097,
-            "Bleurt": 2.115010920734492
+            "SBert": {
+                "nota_final": 4.876034718102097,
+                "std": 0.05144825364252465,
+                "max_accuracy": {
+                    "valor": 1.0000001192092896,
+                    "pregunta": 13
+                },
+                "min_accuracy": {
+                    "valor": 0.021401951399942238,
+                    "pregunta": 3
+                }
+            },
+            "Bleurt": {
+                "nota_final": 2.115010920734492,
+                "std": 0.008041775912253342,
+                "max_accuracy": {
+                    "valor": 0.7248563204378317,
+                    "pregunta": 13
+                }
+            }
         },
         "lim_dominio": {
             "Salud": {
-                "SBert": 7.418495507491576,
-                "Bleurt": 3.100159916839469
+                "SBert": {
+                    "nota_final": 7.418495507491576,
+                    "std": 0.03552172176950038,
+                    "max_accuracy": {
+                        "valor": 0.9526196320851644,
+                        "pregunta": 1
+                    },
+                    "min_accuracy": {
+                        "valor": 0.6199978788693746,
+                        "pregunta": 16
+                    }
+                },
+                "Bleurt": {
+                    "nota_final": 3.100159916839469,
+                    "std": 0.011234699895538434,
+                    "max_accuracy": {
+                        "valor": 0.6040035972988788,
+                        "pregunta": 22
+                    }
+                }
             },
             "Deportes": {
-                "SBert": 7.1136486360807005,
-                "Bleurt": 2.7007705995241595
+                "SBert": {
+                    "nota_final": 7.1136486360807005,
+                    "std": 0.031224315863958595,
+                    "max_accuracy": {
+                        "valor": 0.9112176895141602,
+                        "pregunta": 2
+                    },
+                    "min_accuracy": {
+                        "valor": 0.5349496404329935,
+                        "pregunta": 3
+                    }
+                },
+                "Bleurt": {
+                    "nota_final": 2.7007705995241595,
+                    "std": 0.0056970468299505864,
+                    "max_accuracy": {
+                        "valor": 0.5829999189044317,
+                        "pregunta": 22
+                    }
+                }
             }
         },
         "alucinaciones": {
-            "SBert": 4.865212851878603,
-            "Bleurt": 1.606951876819343
+            "SBert": {
+                "nota_final": 4.865212851878603,
+                "std": 0.03909007933432216,
+                "max_accuracy": {
+                    "valor": 0.846560557683309,
+                    "pregunta": 16
+                },
+                "min_accuracy": {
+                    "valor": 0.23236332833766937,
+                    "pregunta": 11
+                }
+            },
+            "Bleurt": {
+                "nota_final": 1.606951876819343,
+                "std": 0.004342363059357133,
+                "max_accuracy": {
+                    "valor": 0.5790328629353844,
+                    "pregunta": 21
+                }
+            }
         }
     }
 }
