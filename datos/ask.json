@@ -1,0 +1,9 @@
+{
+  "form_url": "https://docs.google.com/forms/d/e/TU_FORMULARIO/viewform?embedded=true",
+  "form_action_url": "https://docs.google.com/forms/d/e/TU_FORMULARIO/formResponse",
+  "campos": {
+    "nombre": "entry.111111111",
+    "correo": "entry.222222222",
+    "modelo": "entry.333333333"
+  }
+}
