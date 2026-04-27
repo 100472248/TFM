@@ -22,11 +22,25 @@
   <h2 class="subtitle">Introduce nuevos modelos</h2>
   <p>Si usted quiere que se evalúe un modelo, debe rellenar el siguiente formulario y le informaremos sobre si se ha aceptado su petición o no. Recuerde que sólo evaluamos modelos locales dispoibles en Ollama.</p>
 <div class="main">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScR04qEGh51bQ0qk3vq3doJIbky4L-kCNHJuCX2B9HChmbZDQ/viewform?embedded=true" width="640" height="764" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
-    <p id="form-mensaje"></p>
+<form id="formulario" class="form-card">
+  <h2>Solicitar modelo</h2>
+  <p>Indica tus datos y el modelo que quieres solicitar.</p>
+
+  <label for="nombre">Nombre</label>
+  <input id="nombre" type="text" placeholder="Tu nombre" required>
+
+  <label for="correo">Correo electrónico</label>
+  <input id="correo" type="email" placeholder="tu@email.com" required>
+
+  <label for="modelo">Modelo</label>
+  <input id="modelo" type="text" placeholder="deepseek-r1:7b" required>
+
+  <button type="submit">Enviar solicitud</button>
+</form>
 </div>
   <footer class="footer">
     <p>Model tester</p>
   </footer>
+  <script src="./js/ask.js"></script>
 </body>
 </html>
