@@ -1,3 +1,5 @@
+const API_URL = "http://localhost:5000";
+
 document.getElementById("formulario").addEventListener("submit", async function (e) {
   e.preventDefault();
 
@@ -9,7 +11,7 @@ document.getElementById("formulario").addEventListener("submit", async function 
 
     console.log("Enviando solicitud...");
 
-  const respuesta = await fetch("/solicitar", {
+  const respuesta = await fetch("http://localhost:5000/solicitar", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
@@ -24,6 +26,7 @@ document.getElementById("formulario").addEventListener("submit", async function 
 
   if (resultado.ok) {
     alert("Solicitud registrada correctamente");
+    window.location.href = "index.html";
   } else {
     alert("Error al registrar la solicitud");
   }

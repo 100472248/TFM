@@ -1,0 +1,9 @@
+[
+    "deepseek-r1_7b.json",
+    "qwen3_30b.json",
+    "llama3.json",
+    "mistral_7b.json",
+    "nemotron-3-nano_30b.json",
+    "gemma3_12b.json",
+    "gemma3_1b.json"
+]

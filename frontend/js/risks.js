@@ -1,3 +1,5 @@
+const API_URL = "http://localhost:5000";
+console.log("RISKS.JS CARGADO");
 const titulos = {
     alucinaciones: "Alucinaciones",
     lim_temporal: "Limitaciones temporales",
@@ -7,26 +9,15 @@ const titulos = {
 
 async function cargarDescripcion(riesgo) {
     try {
-        const response = await fetch("datos/descripciones.json");
+        const response = await fetch(`${API_URL}/api/descripciones`);
         const descripciones = await response.json();
 
-        const definicion = descripciones[riesgo] || "Descripción no disponible.";
-
-        // 👇 generar título bonito
-        const titulo = titulos[riesgo] || formatearTitulo(riesgo);
-
-        // 👇 insertar en el HTML
-        document.getElementById("titulo-riesgo").textContent = titulo;
-        document.getElementById("definicion-riesgo").textContent = definicion;
-
+        return descripciones[riesgo] || "Descripción no disponible.";
     } catch (error) {
         console.error("Error cargando descripciones:", error);
-
-        document.getElementById("titulo-riesgo").textContent = "Error";
-        document.getElementById("definicion-riesgo").textContent = "No se pudo cargar la descripción.";
+        return "Descripción no disponible.";
     }
 }
-
 function formatearTitulo(texto) {
     return texto
         .replaceAll("_", " ")
@@ -34,22 +25,13 @@ function formatearTitulo(texto) {
 }
 
 async function cargarRutasModelos() {
-    const response = await fetch("list.json");
-    console.log("URL:", response.url);
-    console.log("Status:", response.status);
+    const response = await fetch(`${API_URL}/api/modelos`);
 
     if (!response.ok) {
-        throw new Error(`No se pudo cargar list.json: HTTP ${response.status}`);
+        throw new Error("No se pudo cargar la lista de modelos");
     }
 
-    const texto = await response.text();
-    console.log("Contenido recibido:", texto);
-
-    try {
-        return JSON.parse(texto);
-    } catch (e) {
-        throw new Error("list.json existe, pero no es JSON válido: " + e.message);
-    }
+    return await response.json();
 }
 
 function ordenarResultados(resultados, riesgo) {
@@ -276,24 +258,27 @@ function crearTablasPorTemaHTML(tablasPorTema) {
 }
 
 async function cargarDatosModelos() {
-    const rutas = await cargarRutasModelos();
+    const modelos = await cargarRutasModelos();
     const resultados = [];
 
-    for (const ruta of rutas) {
+    for (const modelo of modelos) {
         try {
-            const response = await fetch(ruta);
+            const nombreArchivo = modelo.split("/").pop();
+            const response = await fetch(`${API_URL}/api/modelos/${nombreArchivo}`);
+
             if (!response.ok) {
-                console.error(`No se pudo cargar ${ruta}`);
+                console.error(`No se pudo cargar ${nombreArchivo}`);
                 continue;
             }
 
             const datos = await response.json();
+
             resultados.push({
-                modelo_nombre: ruta.split("/").pop().replace(".json", ""),
+                modelo_nombre: nombreArchivo.replace(".json", ""),
                 notas: datos.notas || {}
             });
         } catch (error) {
-            console.error(`Error leyendo ${ruta}:`, error);
+            console.error(`Error leyendo ${modelo}:`, error);
         }
     }
 
@@ -304,7 +289,17 @@ async function initRisksPage() {
     const params = new URLSearchParams(window.location.search);
     const riesgo = params.get("riesgo") || "alucinaciones";
 
-    const descripcion = await cargarDescripcion(riesgo);
+    const tituloElemento = document.getElementById("titulo-riesgo");
+    const definicionElemento = document.getElementById("definicion-riesgo");
+
+    if (tituloElemento) {
+        tituloElemento.textContent = (titulos[riesgo] || formatearTitulo(riesgo)).toUpperCase();
+    }
+
+    if (definicionElemento) {
+        const descripcion = await cargarDescripcion(riesgo);
+        definicionElemento.textContent = descripcion;
+    }
 
     const contenedor = document.getElementById("contenedor-tablas");
 
