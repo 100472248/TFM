@@ -15,9 +15,8 @@ Para ejecutar el proyecto es necesario tener instalado:
 1. Clonar el repositorio:
 
 ```bash
-git clone URL_DEL_REPOSITORIO
-cd NOMBRE_DEL_REPOSITORIO
-
+git clone https://github.com/100472248/TFM.git
+cd TFM
 2. Construir y arrancar los contenedores:
 
 docker compose up --build
