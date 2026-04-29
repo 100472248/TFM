@@ -3,6 +3,8 @@ import json, csv
 from flask import Flask, jsonify, request, send_from_directory
 from flask_cors import CORS
 from datetime import datetime
+import pandas as pd
+import traceback
 
 app = Flask(__name__)
 CORS(app)
@@ -15,42 +17,70 @@ LIST_JSON = os.path.join(DATOS_DIR, "list.json")
 SOLICITUDES_CSV = os.path.join(DATOS_DIR, "Solicitudes.csv")
 DESCRIPCIONES_JSON = os.path.join(DATOS_DIR, "descripciones.json")
 
-@app.route("/")
+def nombre_archivo_valido(model):
+    return model.replace(":", "_") 
+
+@app.route("/benchmark")
 def index():
     return send_from_directory(".", "index.html")
 
 @app.route("/solicitar", methods=["POST"])
-def solicitar_modelo():
-    data = request.json
+def solicitar():
+    try:
+        print("CONTENT TYPE:", request.content_type, flush=True)
+        print("FORM:", request.form.to_dict(), flush=True)
+        print("JSON:", request.get_json(silent=True), flush=True)
 
-    print("ESCRIBIENDO EN:", SOLICITUDES_CSV, flush=True)
-    os.makedirs(os.path.dirname(SOLICITUDES_CSV), exist_ok=True)
+        if request.is_json:
+            datos = request.get_json()
+            nombre = datos.get("nombre")
+            correo = datos.get("correo")
+            modelo = datos.get("modelo")
+        else:
+            nombre = request.form.get("nombre")
+            correo = request.form.get("correo")
+            modelo = request.form.get("modelo")
 
-    existe = os.path.exists(SOLICITUDES_CSV)
+        if not modelo:
+            return jsonify({"ok": False, "error": "Falta el modelo"}), 400
 
-    with open(SOLICITUDES_CSV, "a", newline="", encoding="utf-8") as f:
-        writer = csv.writer(f)
+        columnas = [
+            "Marca temporal",
+            "Nombre",
+            "Correo electrónico",
+            "Modelo",
+            "Realizado"
+        ]
 
-        if not existe:
-            writer.writerow([
-                "Marca temporal",
-                "Nombre",
-                "Correo electrónico",
-                "Modelo",
-                "Realizado"
-            ])
+        if os.path.exists(SOLICITUDES_CSV):
+            solicitudes = pd.read_csv(SOLICITUDES_CSV)
+        else:
+            solicitudes = pd.DataFrame(columns=columnas)
 
-        writer.writerow([
-            datetime.now().strftime("%d/%m/%Y %H:%M:%S"),
-            data.get("nombre", ""),
-            data.get("correo", ""),
-            data.get("modelo", ""),
-            0
-        ])
-    return jsonify({
-    "ok": True,
-    "mensaje": "Solicitud registrada"
-})
+        modelos_existentes = solicitudes["Modelo"].astype(str).str.lower().str.strip()
+
+        if modelo.lower().strip() in modelos_existentes.values:
+            return jsonify({
+                "ok": False,
+                "error": "Este modelo ya ha sido solicitado."
+            }), 400
+
+        nueva_solicitud = pd.DataFrame([{
+            "Marca temporal": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "Nombre": nombre,
+            "Correo electrónico": correo,
+            "Modelo": modelo,
+            "Realizado": 0
+        }])
+
+        solicitudes = pd.concat([solicitudes, nueva_solicitud], ignore_index=True)
+        solicitudes.to_csv(SOLICITUDES_CSV, index=False)
+
+        return jsonify({"ok": True, "mensaje": "Solicitud guardada correctamente"})
+
+    except Exception as e:
+        traceback.print_exc()
+        return jsonify({"ok": False, "error": str(e)}), 500
 
 @app.route("/api/modelos")
 def obtener_modelos():
