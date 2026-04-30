@@ -5,5 +5,14 @@
     "mistral_7b.json",
     "nemotron-3-nano_30b.json",
     "gemma3_12b.json",
-    "gemma3_1b.json"
+    "gemma3_1b.json",
+    "gpt-oss_120b.json",
+    "qwen3_4b.json",
+    "gemma3_4b.json",
+    "qwen3_8b.json",
+    "qwen3_14b.json",
+    "qwen3_1.7b.json",
+    "gemma3_27b.json",
+    "llama3.1_8b.json",
+    "llama3.1_70b.json"
 ]

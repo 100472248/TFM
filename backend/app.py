@@ -27,19 +27,15 @@ def index():
 @app.route("/solicitar", methods=["POST"])
 def solicitar():
     try:
+
         print("CONTENT TYPE:", request.content_type, flush=True)
         print("FORM:", request.form.to_dict(), flush=True)
         print("JSON:", request.get_json(silent=True), flush=True)
 
-        if request.is_json:
-            datos = request.get_json()
-            nombre = datos.get("nombre")
-            correo = datos.get("correo")
-            modelo = datos.get("modelo")
-        else:
-            nombre = request.form.get("nombre")
-            correo = request.form.get("correo")
-            modelo = request.form.get("modelo")
+        datos = request.get_json(silent=True) or {}
+        nombre = datos.get("nombre")
+        correo = datos.get("correo")
+        modelo = datos.get("modelo")
 
         if not modelo:
             return jsonify({"ok": False, "error": "Falta el modelo"}), 400

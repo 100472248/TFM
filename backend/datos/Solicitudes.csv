@@ -1,7 +1,12 @@
 Marca temporal,Nombre,Correo electrónico,Modelo,Realizado
-15/04/2026 8:32:05,Jaime,jaimevaquero2003@gmail.com,deepseek-r1:7b,1
-27/04/2026 10:37:42,Jaime,jaimevaquero2003@gmail.com,gemma3:12b,1
-27/04/2026 10:40:45,Jaime,jaimevaquero2003@gmail.com,gemma3:1b,1
-28/04/2026 14:42:10,Jaime,jaimevaquero2003@gmail.com,deepseek-v3.2:cloud,0
-28/04/2026 14:47:28,Jaime,jaimevaquero2003@gmail.com,qwen3.5,0
-2026-04-29 10:39:55,Jaime,jaimevaquero2003@gmail.com,gpt-oss:120b,0
+2026-04-30 08:14:38,Pepe,pepe@pepemail.com,qwen3:4b,2
+2026-04-30 08:18:28,Pepe,pepe@pepemail.com,gemma3:12b,1
+2026-04-30 08:19:37,Jaime,jjj@gmail.com,gemma3:4b,1
+2026-04-30 08:20:50,Maria,mmm@hotmail.com,qwen3:8b,1
+2026-04-30 08:21:02,Maria,mmm@hotmail.com,gemma3:1b,1
+2026-04-30 08:22:01,Maria,mmm@hotmail.com,qwen3:14b,1
+2026-04-30 08:22:19,Maria,mmm@hotmail.com,qwen3:30b,1
+2026-04-30 08:22:55,Jaime,jjj@gmail.com,qwen3:1.7b,1
+2026-04-30 08:24:00,Pepe,pepe@pepemail.com,gemma3:27b,1
+2026-04-30 08:24:57,Pepe,pepe@pepemail.com,llama3.1:8b,1
+2026-04-30 08:25:41,Pepe,pepe@pepemail.com,llama3.1:70b,1
