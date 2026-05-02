@@ -26,5 +26,43 @@ Una vez iniciado:
 
 Acceso principal: http://localhost:5000/benchmark
 
-3. Acceder al servicio web desde el navegador:
-. ├── docker-compose.yml ├── frontend/ │ ├── Dockerfile │ ├── index.html │ ├── risks.html │ ├── ask.html │ ├── js/ │ └── css/ ├── backend/ │ ├── Dockerfile │ ├── app.py │ ├── backend.py │ ├── requirements.txt │ ├── datos/ │ │ └── Solicitudes.csv │ └── model_data/
+3. Procesamiento de solicitudes:
+
+El procesamiento se realiza mediante un endpoint:
+```bash
+POST /procesar
+```
+Este endpoint ejecuta la función procesar_solicitudes() definida en backend.py.
+Ejemplo de ejecución:
+- En PowerShell:
+```bash
+Invoke-WebRequest -Uri http://localhost:5000/procesar -Method POST
+```
+- En sistemas Unix:
+```bash
+curl -X POST http://localhost:5000/procesar
+```
+4. Acceder al servicio web desde el navegador:
+```bash
+.
+|_backend/
+|   |_datos/ 
+|   |   |_ask.json
+|   |   |_descripciones.json
+|   |   |_list.json
+|   |   |_preguntas.json
+|   |   |_Solicitudes.csv
+|   |_model_data/
+|   |_Dockerfile
+|   |_requirements.txt
+|_frontend/
+|   |_images/
+|   |_js/
+|   |_style/
+|   |_Dockerfile
+|   |_ask.html
+|   |_index.html
+|   |_risks.html
+|_docker-compose.yml
+|_README.md
+```
