@@ -6,22 +6,25 @@ Para ejecutar el proyecto es necesario tener instalado:
 
 - Docker
 - Docker Compose
-- Flask
-- flask-cors
-- pandas
+- Torch
 
 ## Pasos de despliegue
 
 1. Clonar el repositorio:
 
 ```bash
-pip install git+https://github.com/lucadiliello/bleurt-pytorch.git
 git clone https://github.com/100472248/TFM.git
 cd TFM
+```
 2. Construir y arrancar los contenedores:
-
-docker compose build --no-cache
+```bash
 docker compose up
+```
+Una vez iniciado:
+- Frontend disponible en: http://localhost:8080
+- Backend disponible en: http://localhost:5000
+
+Acceso principal: http://localhost:5000/benchmark
 
 3. Acceder al servicio web desde el navegador:
 
