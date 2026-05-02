@@ -15,11 +15,13 @@ Para ejecutar el proyecto es necesario tener instalado:
 1. Clonar el repositorio:
 
 ```bash
+pip install git+https://github.com/lucadiliello/bleurt-pytorch.git
 git clone https://github.com/100472248/TFM.git
 cd TFM
 2. Construir y arrancar los contenedores:
 
-docker compose up --build
+docker compose build --no-cache
+docker compose up
 
 3. Acceder al servicio web desde el navegador:
 

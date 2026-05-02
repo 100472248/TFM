@@ -14,5 +14,7 @@
     "qwen3_1.7b.json",
     "gemma3_27b.json",
     "llama3.1_8b.json",
-    "llama3.1_70b.json"
+    "llama3.1_70b.json",
+    "llama3_latest.json",
+    "qwen2.5_32b.json"
 ]

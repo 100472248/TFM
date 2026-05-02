@@ -5,6 +5,7 @@ from flask_cors import CORS
 from datetime import datetime
 import pandas as pd
 import traceback
+from backend import procesar_solicitudes
 
 app = Flask(__name__)
 CORS(app)
@@ -110,6 +111,14 @@ def obtener_descripciones():
         descripciones = json.load(f)
 
     return jsonify(descripciones)
+
+@app.route("/procesar", methods=["POST"])
+def procesar():
+    try:
+        procesar_solicitudes()
+        return {"ok": True, "mensaje": "Solicitudes procesadas correctamente"}, 200
+    except Exception as e:
+        return {"ok": False, "error": str(e)}, 500
 
 @app.route("/<path:path>")
 def static_files(path):
