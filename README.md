@@ -27,24 +27,4 @@ Una vez iniciado:
 Acceso principal: http://localhost:5000/benchmark
 
 3. Acceder al servicio web desde el navegador:
-
-|_backend/
-|   |_datos/ 
-|   |   |_ask.json
-|   |   |_descripciones.json
-|   |   |_list.json
-|   |   |_preguntas.json
-|   |   |_Solicitudes.csv
-|   |_model_data/
-|   |_Dockerfile
-|   |_requirements.txt
-|_frontend/
-|   |_images/
-|   |_js/
-|   |_style/
-|   |_Dockerfile
-|   |_ask.html
-|   |_index.html
-|   |_risks.html
-|_docker-compose.yml
-|_README.md
+. ├── docker-compose.yml ├── frontend/ │ ├── Dockerfile │ ├── index.html │ ├── risks.html │ ├── ask.html │ ├── js/ │ └── css/ ├── backend/ │ ├── Dockerfile │ ├── app.py │ ├── backend.py │ ├── requirements.txt │ ├── datos/ │ │ └── Solicitudes.csv │ └── model_data/
