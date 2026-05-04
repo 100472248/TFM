@@ -27,8 +27,6 @@ cd TFM
 docker compose up
 ```
 Una vez iniciado:
-- Frontend disponible en: http://localhost:8080
-- Backend disponible en: http://localhost:5000
 
 Acceso principal: http://localhost:5000/benchmark
 
