@@ -13,3 +13,4 @@ services:
     volumes:
       - ./backend/datos:/app/datos
       - ./backend/model_data:/app/model_data
+      - ./frontend:/app/frontend

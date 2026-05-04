@@ -28,6 +28,6 @@ document.getElementById("formulario").addEventListener("submit", async function 
 
     if (data.ok) {
         alert("Solicitud enviada correctamente");
-        window.location.href = "index.html";
+        window.location.href = "/benchmark";
     }
 });

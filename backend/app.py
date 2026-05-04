@@ -10,6 +10,7 @@ from backend import procesar_solicitudes
 app = Flask(__name__)
 CORS(app)
 
+FRONTEND_DIR = "/app/frontend"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATOS_DIR = os.path.join(BASE_DIR, "datos")
 MODEL_DATA_DIR = os.path.join(BASE_DIR, "model_data")
@@ -23,7 +24,39 @@ def nombre_archivo_valido(model):
 
 @app.route("/benchmark")
 def index():
-    return send_from_directory(".", "index.html")
+    return send_from_directory(FRONTEND_DIR, "index.html")
+
+
+@app.route("/ask.html")
+def ask():
+    return send_from_directory("/app/frontend", "ask.html")
+
+@app.route("/risks.html")
+def risks():
+    return send_from_directory("/app/frontend", "risks.html")
+
+
+@app.route("/datos/<path:filename>")
+def datos_files(filename):
+    return send_from_directory(DATOS_DIR, filename)
+
+
+@app.route("/model_data/<path:filename>")
+def model_data_files(filename):
+    return send_from_directory(MODEL_DATA_DIR, filename)
+
+
+@app.route("/style/<path:filename>")
+def style_files(filename):
+    return send_from_directory("/app/frontend/style", filename)
+
+@app.route("/js/<path:filename>")
+def js_files(filename):
+    return send_from_directory("/app/frontend/js", filename)
+
+@app.route("/images/<path:filename>")
+def images_files(filename):
+    return send_from_directory("/app/frontend/images", filename)
 
 @app.route("/solicitar", methods=["POST"])
 def solicitar():
@@ -120,9 +153,6 @@ def procesar():
     except Exception as e:
         return {"ok": False, "error": str(e)}, 500
 
-@app.route("/<path:path>")
-def static_files(path):
-    return send_from_directory(".", path)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
