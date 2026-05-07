@@ -1,6 +1,8 @@
 services:
   frontend:
     build: ./frontend
+    environment:
+      API_URL: ${API_URL:-http://localhost:8050}
     ports:
       - "8080:80"
     depends_on:
@@ -9,7 +11,7 @@ services:
   backend:
     build: ./backend
     ports:
-      - "5000:5000"
+      - "8050:5000"
     volumes:
       - ./backend/datos:/app/datos
       - ./backend/model_data:/app/model_data

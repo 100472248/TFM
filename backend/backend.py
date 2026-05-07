@@ -24,12 +24,22 @@ SOLICITUDES_CSV = os.path.join(DATOS_DIR, "Solicitudes.csv")
 DOMINIOS = ["Salud", "Deportes"]
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-CORRECTOR1 = SentenceTransformer("sentence-transformers/paraphrase-multilingual-mpnet-base-v2")
-#NECESARIO INSTALAR: pip install git+https://github.com/lucadiliello/bleurt-pytorch.git
-CORRECTOR2 = BleurtForSequenceClassification.from_pretrained("lucadiliello/BLEURT-20-D12")
-TOKENIZER2 = BleurtTokenizer.from_pretrained("lucadiliello/BLEURT-20-D12")
-CORRECTOR2.to(DEVICE)
-CORRECTOR2.eval()
+CORRECTOR1 = None
+CORRECTOR2 = None
+TOKENIZER2 = None
+
+def cargar_correctores():
+    global CORRECTOR1, CORRECTOR2, TOKENIZER2
+
+    if CORRECTOR1 is None:
+        CORRECTOR1 = SentenceTransformer("sentence-transformers/paraphrase-multilingual-mpnet-base-v2")
+
+    if CORRECTOR2 is None or TOKENIZER2 is None:
+        #NECESARIO INSTALAR: pip install git+https://github.com/lucadiliello/bleurt-pytorch.git
+        CORRECTOR2 = BleurtForSequenceClassification.from_pretrained("lucadiliello/BLEURT-20-D12")
+        TOKENIZER2 = BleurtTokenizer.from_pretrained("lucadiliello/BLEURT-20-D12")
+        CORRECTOR2.to(DEVICE)
+        CORRECTOR2.eval()
 
 MESES = {"1": ["enero", 31], "2": ["febrero", 28], "3": ["marzo", 31], "4": ["abril", 30],
          "5": ["mayo", 31], "6": ["junio", 30], "7": ["julio", 31], "8": ["agosto", 31],
@@ -393,6 +403,8 @@ def process(model, risk):
     return True
 
 def procesar_solicitudes():
+    cargar_correctores()
+
     solicitudes = pd.read_csv(SOLICITUDES_CSV)
     json_test = pd.read_json(QUESTIONS)
     lista = list(pd.read_json(LIST_JSON))

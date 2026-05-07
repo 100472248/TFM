@@ -1,4 +1,9 @@
-const API_URL = "http://localhost:5000";
+const API_URL = window.APP_CONFIG?.API_URL;
+
+if (!API_URL) {
+    throw new Error("API_URL no configurada. Define API_URL en docker-compose.");
+}
+
 console.log("RISKS.JS CARGADO");
 const titulos = {
     alucinaciones: "Alucinaciones",

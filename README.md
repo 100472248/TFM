@@ -26,9 +26,15 @@ cd TFM
 ```bash
 docker compose up
 ```
+Si quieres cambiar la URL del backend consumida por el frontend, puedes pasarla por variable de entorno:
+```bash
+API_URL=http://localhost:8050 docker compose up
+```
+
 Una vez iniciado:
 
-Acceso principal: http://localhost:5000/benchmark
+Acceso principal (frontend): http://localhost:8080/benchmark
+Backend API: http://localhost:8050
 
 ## Procesamiento de solicitudes:
 
@@ -40,11 +46,11 @@ Este endpoint ejecuta la función procesar_solicitudes() definida en backend.py.
 Ejemplo de ejecución:
 - En PowerShell:
 ```bash
-Invoke-WebRequest -Uri http://localhost:5000/procesar -Method POST
+Invoke-WebRequest -Uri http://localhost:8050/procesar -Method POST
 ```
 - En sistemas Unix:
 ```bash
-curl -X POST http://localhost:5000/procesar
+curl -X POST http://localhost:8050/procesar
 ```
 ## Estructura del proyecto:
 ```bash

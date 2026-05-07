@@ -119,7 +119,16 @@ def obtener_modelos():
     with open(LIST_JSON, encoding="utf-8") as f:
         modelos = json.load(f)
 
-    return jsonify(modelos)
+    # Evita devolver referencias a ficheros inexistentes, que generan 404 en frontend.
+    modelos_disponibles = []
+    for nombre_archivo in modelos:
+        ruta_modelo = os.path.join(MODEL_DATA_DIR, nombre_archivo)
+        if os.path.exists(ruta_modelo):
+            modelos_disponibles.append(nombre_archivo)
+        else:
+            print("MODELO NO DISPONIBLE EN MODEL_DATA:", ruta_modelo)
+
+    return jsonify(modelos_disponibles)
 
 @app.route("/api/modelos/<path:nombre_archivo>")
 def obtener_modelo(nombre_archivo):
