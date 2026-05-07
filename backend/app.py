@@ -23,15 +23,18 @@ def nombre_archivo_valido(model):
     return model.replace(":", "_") 
 
 @app.route("/benchmark")
+@app.route("/benchmark/")
 def index():
     return send_from_directory(FRONTEND_DIR, "index.html")
 
 
 @app.route("/ask.html")
+@app.route("/benchmark/ask.html")
 def ask():
     return send_from_directory("/app/frontend", "ask.html")
 
 @app.route("/risks.html")
+@app.route("/benchmark/risks.html")
 def risks():
     return send_from_directory("/app/frontend", "risks.html")
 
@@ -47,14 +50,17 @@ def model_data_files(filename):
 
 
 @app.route("/style/<path:filename>")
+@app.route("/benchmark/style/<path:filename>")
 def style_files(filename):
     return send_from_directory("/app/frontend/style", filename)
 
 @app.route("/js/<path:filename>")
+@app.route("/benchmark/js/<path:filename>")
 def js_files(filename):
     return send_from_directory("/app/frontend/js", filename)
 
 @app.route("/images/<path:filename>")
+@app.route("/benchmark/images/<path:filename>")
 def images_files(filename):
     return send_from_directory("/app/frontend/images", filename)
 
