@@ -70,6 +70,7 @@ def fonts_files(filename):
     return send_from_directory("/app/frontend/fonts", filename)
 
 @app.route("/solicitar", methods=["POST"])
+@app.route("/benchmark/solicitar", methods=["POST"])
 def solicitar():
     try:
 
@@ -124,6 +125,7 @@ def solicitar():
         return jsonify({"ok": False, "error": str(e)}), 500
 
 @app.route("/api/modelos")
+@app.route("/benchmark/api/modelos")
 def obtener_modelos():
     print("LEYENDO LIST_JSON:", LIST_JSON)
 
@@ -142,6 +144,7 @@ def obtener_modelos():
     return jsonify(modelos_disponibles)
 
 @app.route("/api/modelos/<path:nombre_archivo>")
+@app.route("/benchmark/api/modelos/<path:nombre_archivo>")
 def obtener_modelo(nombre_archivo):
     ruta_modelo = os.path.join(MODEL_DATA_DIR, nombre_archivo)
 
@@ -155,6 +158,7 @@ def obtener_modelo(nombre_archivo):
     return jsonify(datos)
 
 @app.route("/api/descripciones")
+@app.route("/benchmark/api/descripciones")
 def obtener_descripciones():
     if not os.path.exists(DESCRIPCIONES_JSON):
         print("NO EXISTE DESCRIPCIONES:", DESCRIPCIONES_JSON)
@@ -166,6 +170,7 @@ def obtener_descripciones():
     return jsonify(descripciones)
 
 @app.route("/procesar", methods=["POST"])
+@app.route("/benchmark/procesar", methods=["POST"])
 def procesar():
     try:
         procesar_solicitudes()
