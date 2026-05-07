@@ -132,14 +132,20 @@ def obtener_modelos():
     with open(LIST_JSON, encoding="utf-8") as f:
         modelos = json.load(f)
 
-    # Evita devolver referencias a ficheros inexistentes, que generan 404 en frontend.
+    # Evita devolver referencias a ficheros inexistentes o JSON corruptos.
     modelos_disponibles = []
     for nombre_archivo in modelos:
         ruta_modelo = os.path.join(MODEL_DATA_DIR, nombre_archivo)
-        if os.path.exists(ruta_modelo):
-            modelos_disponibles.append(nombre_archivo)
-        else:
+        if not os.path.exists(ruta_modelo):
             print("MODELO NO DISPONIBLE EN MODEL_DATA:", ruta_modelo)
+            continue
+
+        try:
+            with open(ruta_modelo, encoding="utf-8") as f:
+                json.load(f)
+            modelos_disponibles.append(nombre_archivo)
+        except (json.JSONDecodeError, UnicodeDecodeError, OSError) as e:
+            print("MODELO INVALIDO EN MODEL_DATA:", ruta_modelo, "ERROR:", e)
 
     return jsonify(modelos_disponibles)
 
@@ -152,8 +158,12 @@ def obtener_modelo(nombre_archivo):
         print("NO EXISTE MODELO:", ruta_modelo)
         return jsonify({"error": "Modelo no encontrado"}), 404
 
-    with open(ruta_modelo, encoding="utf-8") as f:
-        datos = json.load(f)
+    try:
+        with open(ruta_modelo, encoding="utf-8") as f:
+            datos = json.load(f)
+    except (json.JSONDecodeError, UnicodeDecodeError, OSError) as e:
+        print("JSON INVALIDO EN MODELO:", ruta_modelo, "ERROR:", e)
+        return jsonify({"error": "Modelo con formato JSON invalido"}), 422
 
     return jsonify(datos)
 
