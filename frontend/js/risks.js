@@ -290,6 +290,15 @@ async function cargarDatosModelos() {
     return resultados;
 }
 
+function actualizarLinkTest(riesgo) {
+    const enlaceTest = document.getElementById("link-test");
+
+    if (enlaceTest) {
+        enlaceTest.href = `/benchmark/tests.html#${riesgo}`;
+        enlaceTest.textContent = `Ver test de ${titulos[riesgo] || formatearTitulo(riesgo)}`;
+    }
+}
+
 async function initRisksPage() {
     const params = new URLSearchParams(window.location.search);
     const riesgo = params.get("riesgo") || "alucinaciones";
@@ -300,6 +309,8 @@ async function initRisksPage() {
     if (tituloElemento) {
         tituloElemento.textContent = (titulos[riesgo] || formatearTitulo(riesgo)).toUpperCase();
     }
+
+    actualizarLinkTest(riesgo);
 
     if (definicionElemento) {
         const descripcion = await cargarDescripcion(riesgo);

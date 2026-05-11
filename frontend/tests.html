@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tests por riesgo</title>
+    <link rel="stylesheet" href="/benchmark/style/main.css">
+    <style>
+        .details-section {
+            margin: 24px 0;
+        }
+        .details-section details {
+            border: 1px solid var(--line);
+            border-radius: var(--radius-md);
+            background: var(--bg-1);
+            padding: 10px 14px;
+            margin-bottom: 16px;
+            box-shadow: 0 6px 14px rgba(0,0,0,0.06);
+        }
+        .details-section summary {
+            font-weight: 700;
+            cursor: pointer;
+            list-style: none;
+            outline: none;
+            padding: 6px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 12px;
+        }
+        .details-section summary::marker {
+            display: none;
+        }
+        .details-section summary:hover {
+            color: var(--accent-1);
+        }
+        .details-section table {
+            width: 100%;
+            margin-top: 12px;
+            border-collapse: collapse;
+            font-size: 0.95rem;
+        }
+        .details-section th,
+        .details-section td {
+            border: 1px solid var(--line);
+            padding: 10px 12px;
+            vertical-align: top;
+        }
+        .details-section th {
+            background: var(--bg-2);
+            text-align: left;
+        }
+        .details-section td {
+            background: var(--bg-1);
+        }
+        .details-section .summary-badge {
+            font-size: 0.95rem;
+            color: var(--ink-1);
+        }
+        .details-section .test-link {
+            margin-top: 12px;
+            display: inline-block;
+            color: var(--brand-1);
+            text-decoration: none;
+        }
+        .details-section .test-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+  <header>
+    <div class="home-button">
+      <a id="home-button" href="/benchmark"><img class="img_top" src="/benchmark/images/25694.png">MENÚ PRINCIPAL</a>
+    </div>
+    <div class="webtitle">
+      <img class="lupa" src="/benchmark/images/64673.png">
+      <h1>MODEL-TESTER</h1>
+      <img class="lupa" src="/benchmark/images/64673.png">
+    </div>
+    <aside class="userpanel">
+      <a id="up_button" href="/benchmark/ask.html"><img class="img_top" src="/benchmark/images/4301577.png">AÑADIR MÁS MODELOS</a>
+    </aside>
+  </header>
+
+  <main class="landing-main">
+    <section class="section-card">
+      <h2 class="subtitle section-title">Tests por riesgo</h2>
+      <p>Consulta los conjuntos de preguntas y respuestas esperadas que se utilizan en las evaluaciones de cada riesgo.</p>
+    </section>
+
+    <section class="section-card details-section">
+      <div id="contenedor-tests">
+        <p>Cargando tests...</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Model tester</p>
+  </footer>
+
+  <script src="/benchmark/js/env.js"></script>
+  <script src="/benchmark/js/tests.js"></script>
+</body>
+</html>

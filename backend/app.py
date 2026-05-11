@@ -18,6 +18,7 @@ MODEL_DATA_DIR = os.path.join(BASE_DIR, "model_data")
 LIST_JSON = os.path.join(DATOS_DIR, "list.json")
 SOLICITUDES_CSV = os.path.join(DATOS_DIR, "Solicitudes.csv")
 DESCRIPCIONES_JSON = os.path.join(DATOS_DIR, "descripciones.json")
+PREGUNTAS_JSON = os.path.join(DATOS_DIR, "preguntas.json")
 
 def nombre_archivo_valido(model):
     return model.replace(":", "_") 
@@ -37,6 +38,11 @@ def ask():
 @app.route("/benchmark/risks.html")
 def risks():
     return send_from_directory("/app/frontend", "risks.html")
+
+@app.route("/tests.html")
+@app.route("/benchmark/tests.html")
+def tests():
+    return send_from_directory("/app/frontend", "tests.html")
 
 
 @app.route("/datos/<path:filename>")
@@ -178,6 +184,19 @@ def obtener_descripciones():
         descripciones = json.load(f)
 
     return jsonify(descripciones)
+
+
+@app.route("/api/preguntas")
+@app.route("/benchmark/api/preguntas")
+def obtener_preguntas():
+    if not os.path.exists(PREGUNTAS_JSON):
+        print("NO EXISTE PREGUNTAS:", PREGUNTAS_JSON)
+        return jsonify({"error": "preguntas.json no encontrado"}), 404
+
+    with open(PREGUNTAS_JSON, encoding="utf-8") as f:
+        preguntas = json.load(f)
+
+    return jsonify(preguntas)
 
 @app.route("/procesar", methods=["POST"])
 @app.route("/benchmark/procesar", methods=["POST"])
