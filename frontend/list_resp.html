@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Respuestas del modelo</title>
+    <link rel="stylesheet" href="/benchmark/style/main.css">
+    <style>
+        .responses-section {
+            margin: 24px 0;
+            overflow-x: auto;
+        }
+        .responses-section table {
+            width: 95%;
+            margin: 12px auto;
+            border-collapse: collapse;
+            font-size: 0.95rem;
+            table-layout: fixed;
+            min-width: 1000px;
+        }
+        .responses-section th,
+        .responses-section td {
+            border: 1px solid var(--line);
+            padding: 10px 12px;
+            vertical-align: top;
+            word-break: break-word;
+        }
+        .responses-section th {
+            background: var(--bg-2);
+            text-align: left;
+        }
+        .responses-section td {
+            background: var(--bg-1);
+        }
+        .responses-section th:nth-child(1),
+        .responses-section td:nth-child(1) {
+            width: 15%;
+        }
+        .responses-section th:nth-child(2),
+        .responses-section td:nth-child(2) {
+            width: 12%;
+        }
+        .responses-section th:nth-child(3),
+        .responses-section td:nth-child(3) {
+            width: 8%;
+        }
+        .responses-section th:nth-child(4),
+        .responses-section td:nth-child(4) {
+            width: 8%;
+        }
+        .responses-section th:nth-child(5),
+        .responses-section td:nth-child(5) {
+            width: 8%;
+        }
+        .responses-section th:nth-child(6),
+        .responses-section td:nth-child(6) {
+            width: 49%;
+        }
+        .responses-section .model-responses {
+            display: block;
+            width: 100%;
+        }
+        .responses-section .model-response {
+            width: 100%;
+            padding: 12px;
+            background: var(--bg-2);
+            border-radius: var(--radius-sm);
+            font-size: 0.95rem;
+            margin-bottom: 12px;
+        }
+        .responses-section .model-response p {
+            margin: 8px 0 0;
+            line-height: 1.6;
+        }
+        .responses-section .model-response strong {
+            color: var(--accent-1);
+        }
+        .response-header {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: center;
+            margin-bottom: 8px;
+            font-size: 0.92rem;
+        }
+        .response-score {
+            display: inline-flex;
+            padding: 2px 8px;
+            border-radius: 999px;
+            background: rgba(59, 130, 246, 0.12);
+            color: #1d4ed8;
+            font-weight: 700;
+        }
+        .responses-section .correct-answer {
+            background: rgba(34, 197, 94, 0.1);
+            border-left: 3px solid var(--brand-1);
+        }
+        .resumen-notas {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            align-items: center;
+            padding: 12px 14px;
+            margin-bottom: 16px;
+            border: 1px solid var(--line);
+            border-radius: var(--radius-sm);
+            background: rgba(15, 118, 110, 0.06);
+            color: var(--ink-1);
+            font-weight: 600;
+        }
+        .resumen-notas span {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .resumen-empty {
+            color: var(--ink-2);
+        }
+        .question-number {
+            display: inline-block;
+            margin-bottom: 10px;
+            padding: 4px 10px;
+            border-radius: 999px;
+            background: rgba(59, 130, 246, 0.12);
+            color: #1d4ed8;
+            font-size: 0.85rem;
+            font-weight: 700;
+        }
+        .question-number.top-question-1 {
+            background: rgba(249, 115, 22, 0.16);
+            color: #c2410c;
+        }
+        .question-number.top-question-2 {
+            background: rgba(148, 163, 184, 0.18);
+            color: #334155;
+        }
+        .question-number.top-question-3 {
+            background: rgba(245, 158, 11, 0.14);
+            color: #78350f;
+        }
+        .responses-section .question-text {
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .back-button {
+            margin-bottom: 20px;
+            display: inline-block;
+            padding: 8px 16px;
+            background: var(--bg-2);
+            color: var(--ink-1);
+            text-decoration: none;
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--line);
+        }
+        .back-button:hover {
+            background: var(--bg-3);
+        }
+    </style>
+</head>
+<body>
+  <header>
+    <div class="home-button">
+      <a id="home-button" href="/benchmark"><img class="img_top" src="/benchmark/images/25694.png">MENÚ PRINCIPAL</a>
+    </div>
+    <div class="webtitle">
+      <img class="lupa" src="/benchmark/images/64673.png">
+      <h1>MODEL-TESTER</h1>
+      <img class="lupa" src="/benchmark/images/64673.png">
+    </div>
+    <aside class="userpanel">
+      <a id="up_button" href="/benchmark/ask.html"><img class="img_top" src="/benchmark/images/4301577.png">AÑADIR MÁS MODELOS</a>
+    </aside>
+  </header>
+
+  <main class="landing-main">
+    <section class="section-card">
+      <a href="#" class="back-button" onclick="history.back()">← Volver</a>
+      <h2 class="subtitle section-title" id="titulo-pagina">Cargando...</h2>
+      <p id="descripcion-pagina">Cargando información del modelo...</p>
+    </section>
+
+    <section class="section-card responses-section">
+      <div id="contenedor-respuestas">
+        <p>Cargando respuestas...</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Model tester</p>
+  </footer>
+  <script src="/benchmark/js/env.js"></script>
+  <script src="/benchmark/js/list_resp.js"></script>
+</body>
+</html>

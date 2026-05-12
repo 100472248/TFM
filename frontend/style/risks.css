@@ -72,6 +72,26 @@
     background: #edf7f6;
 }
 
+#contenedor-tablas tbody tr.top-row td.model-name {
+    font-weight: 700;
+}
+
+#contenedor-tablas tbody tr.top-row.top-1 td.model-name {
+    background: rgba(249, 115, 22, 0.08);
+    color: #c2410c;
+}
+
+#contenedor-tablas tbody tr.top-row.top-2 td.model-name {
+    background: rgba(148, 163, 184, 0.12);
+    color: #475569;
+}
+
+#contenedor-tablas tbody tr.top-row.top-3 td.model-name {
+    background: rgba(245, 158, 11, 0.08);
+    color: #92400e;
+}
+
+
 #contenedor-tablas .tabla-riesgo {
     width: 100%;
     padding: 4px;

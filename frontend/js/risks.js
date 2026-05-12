@@ -137,7 +137,7 @@ function construirTablasLimDominio(resultados) {
     return tablas;
 }
 
-function crearTablaHTML(filas) {
+function crearTablaHTML(filas, riesgo) {
     if (!filas || filas.length === 0) {
         return "<p>No hay resultados disponibles para este riesgo.</p>";
     }
@@ -167,10 +167,15 @@ function crearTablaHTML(filas) {
                 <tbody>
     `;
 
-    for (const fila of filas) {
+    filas.forEach((fila, index) => {
+        const posicion = index + 1;
+        const filaClase = posicion <= 3 ? `top-row top-${posicion}` : "";
+        const nombreArchivoModelo = fila.modelo.replace(/:/g, '_') + '.json';
+        const enlaceModelo = `<a href="/benchmark/list_resp.html?riesgo=${riesgo}&modelo=${encodeURIComponent(fila.modelo)}" style="color: var(--brand-1); text-decoration: none;">${fila.modelo}</a>`;
+
         html += `
-            <tr>
-                <td>${fila.modelo}</td>
+            <tr class="${filaClase}">
+                <td class="model-name">${enlaceModelo}</td>
 
                 <td><strong>${fila.calificacion_sbert}</strong></td>
                 <td>${fila.sbert_std != null ? fila.sbert_std.toFixed(3) : "-"}</td>
@@ -185,7 +190,7 @@ function crearTablaHTML(filas) {
                 <td>${fila.bleurt_max_pregunta ?? "-"}</td>
             </tr>
         `;
-    }
+    });
 
     html += `
                 </tbody>
@@ -196,7 +201,7 @@ function crearTablaHTML(filas) {
     return html;
 }
 
-function crearTablasPorTemaHTML(tablasPorTema) {
+function crearTablasPorTemaHTML(tablasPorTema, riesgo) {
     const temas = Object.keys(tablasPorTema);
 
     if (temas.length === 0) {
@@ -232,10 +237,16 @@ function crearTablasPorTemaHTML(tablasPorTema) {
                     <tbody>
         `;
 
-        for (const fila of tablasPorTema[tema]) {
+        tablasPorTema[tema].forEach((fila, index) => {
+            const posicion = index + 1;
+            const filaClase = posicion <= 3 ? `top-row top-${posicion}` : "";
+
+            const nombreArchivoModelo = fila.modelo.replace(/:/g, '_') + '.json';
+            const enlaceModelo = `<a href="/benchmark/list_resp.html?riesgo=${riesgo}&dominio=${encodeURIComponent(tema)}&modelo=${encodeURIComponent(fila.modelo)}" style="color: var(--brand-1); text-decoration: none;">${fila.modelo}</a>`;
+
             html += `
-                <tr>
-                    <td>${fila.modelo}</td>
+                <tr class="${filaClase}">
+                    <td class="model-name">${enlaceModelo}</td>
 
                     <td><strong>${fila.calificacion_sbert}</strong></td>
                     <td>${fila.sbert_std != null ? fila.sbert_std.toFixed(3) : "-"}</td>
@@ -250,7 +261,7 @@ function crearTablasPorTemaHTML(tablasPorTema) {
                     <td>${fila.bleurt_max_pregunta ?? "-"}</td>
                 </tr>
             `;
-        }
+        });
 
         html += `
                     </tbody>
@@ -324,10 +335,10 @@ async function initRisksPage() {
 
         if (riesgo === "lim_dominio") {
             const tablasPorTema = construirTablasLimDominio(resultados);
-            contenedor.innerHTML = crearTablasPorTemaHTML(tablasPorTema);
+            contenedor.innerHTML = crearTablasPorTemaHTML(tablasPorTema, riesgo);
         } else {
             const filas = ordenarResultados(resultados, riesgo);
-            contenedor.innerHTML = crearTablaHTML(filas);
+            contenedor.innerHTML = crearTablaHTML(filas, riesgo);
         }
     } catch (error) {
         console.error(error);

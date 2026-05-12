@@ -44,6 +44,16 @@ def risks():
 def tests():
     return send_from_directory("/app/frontend", "tests.html")
 
+@app.route("/list_resp.html")
+@app.route("/benchmark/list_resp.html")
+def list_resp():
+    return send_from_directory("/app/frontend", "list_resp.html")
+
+@app.route("/js/list_resp.js")
+@app.route("/benchmark/js/list_resp.js")
+def list_resp_js():
+    return send_from_directory("/app/frontend/js", "list_resp.js")
+
 
 @app.route("/datos/<path:filename>")
 def datos_files(filename):
