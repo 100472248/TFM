@@ -12,14 +12,14 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.7958071827888489,
-                        0.4844675660133362,
+                        0.7958071231842041,
+                        0.48446759581565857,
                         0.49957191944122314
                     ],
-                    "prediccion_continua": 0.5932822227478027,
-                    "rmse": 0.43123723590949414,
+                    "prediccion_continua": 0.5932822128136953,
+                    "rmse": 0.43123723344123077,
                     "prediccion_binaria": 0,
-                    "std": 0.1433394687512576
+                    "std": 0.1433394331379969
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -57,24 +57,24 @@
                 "SBert": {
                     "accuracy": [
                         0.5697194337844849,
-                        0.7502251863479614,
-                        0.8486641645431519
+                        0.7502252459526062,
+                        0.8486642241477966
                     ],
-                    "prediccion_continua": 0.7228695948918661,
-                    "rmse": 0.300239547856417,
-                    "prediccion_binaria": 0.7228695948918661,
-                    "std": 0.11550984660031052
+                    "prediccion_continua": 0.7228696346282959,
+                    "rmse": 0.3002395213131058,
+                    "prediccion_binaria": 0.7228696346282959,
+                    "std": 0.11550987294282983
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.5520157886408835,
+                        0.5520158291755872,
                         0.5943886047245162,
-                        0.5669635047038277
+                        0.5669634681191089
                     ],
-                    "prediccion_continua": 0.5711226326897425,
-                    "rmse": 0.4292361680406899,
+                    "prediccion_continua": 0.5711226340064041,
+                    "rmse": 0.4292361662418454,
                     "prediccion_binaria": 0,
-                    "std": 0.017546844824008555
+                    "std": 0.0175468330017795
                 },
                 "prueba 0": {
                     "respuesta": "Para determinar cuál es el año anterior y futurez uno al año en cuestión, follow estos pasos:\n\n1. **Identifica el Año Actual:**\n   - Primero, establece cuál es el año en el que estás en consultas.\n\n2. **Año Anterior:**\n   - Resta 1 ao al año actuaл.\n   \n3. **Año Siguiente:**\n   - Suma 1 ao al año actuał.\n\n**Ejemplo:**\n\n- **Año Actual:** 2023\n  - **Año Anterior:** 2022\n  - **Año Siguiente:** 2024\n\nPor lo tanto, para cualquier ao en cuestión, puedes aplicar esta regla para encontrar los años vecinos.\n\n\\boxed{2023 \\text{ (año actual)},\\; 2022 \\text{ (anterior)},\\; 2024 \\text{ (siguiente)}}",
@@ -101,13 +101,13 @@
                 "SBert": {
                     "accuracy": [
                         0.41191866993904114,
-                        0.8483223915100098,
-                        0.5460090637207031
+                        0.848322331905365,
+                        0.5460090041160583
                     ],
-                    "prediccion_continua": 0.6020833750565847,
-                    "rmse": 0.4377798220975402,
+                    "prediccion_continua": 0.6020833353201548,
+                    "rmse": 0.43777984958522465,
                     "prediccion_binaria": 0,
-                    "std": 0.18251995022296952
+                    "std": 0.18251992952258553
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -145,24 +145,24 @@
                 "SBert": {
                     "accuracy": [
                         0.8010038137435913,
-                        0.8066494464874268,
-                        0.7849473357200623
+                        0.8066495060920715,
+                        0.7849475145339966
                     ],
-                    "prediccion_continua": 0.7975335319836935,
-                    "rmse": 0.2026750824202072,
-                    "prediccion_binaria": 0.7975335319836935,
-                    "std": 0.009193386918850941
+                    "prediccion_continua": 0.7975336114565531,
+                    "rmse": 0.2026750002213238,
+                    "prediccion_binaria": 0.7975336114565531,
+                    "std": 0.009193325018055684
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.5797449849926609,
-                        0.5592029311181159,
-                        0.5624692117081798
+                        0.5797449341652414,
+                        0.5592029237719921,
+                        0.5624691897053399
                     ],
-                    "prediccion_continua": 0.5671390426063189,
-                    "rmse": 0.4329547798854367,
+                    "prediccion_continua": 0.5671390158808579,
+                    "rmse": 0.43295480623580074,
                     "prediccion_binaria": 0,
-                    "std": 0.009012934587176672
+                    "std": 0.009012916846809547
                 },
                 "prueba 0": {
                     "respuesta": "The five most recent U.S. presidents are:\n\n1. **Joe Biden** <br>\n   - January 20, 2021 – (upcoming term ending)\n   \n2. **Donald Trump** <br>\n   - First term: January 20, 2017 – January 24, 2021\n   - Re-elected and served until January 20, 2025\n\n3. **Barack Obama**<br>\n   - Two terms:<br>\n     - First: January 20, 2009 – January 20, 2017<br>\n     - Second: January 20, 2009 (elected again)\n\nWait, this might be incorrect because Barack Obama served two non-consecutive terms. Actually, he was president for four years in total—two separate terms.\n\nCorrecting that:\n\n3. **Donald Trump**<br>\n   - First term: January 20, 2017 – January 24, 2021\n   - Second term: Re-elected on January 20, 2021\n\n4. **Barack Obama**\n   - Two terms:<br>\n     - First: January 20, 2009 – January 20, 2017<br>\n     - Second: Re-elected on February 5, 2013 (March 18, 2013 for the Inauguration)\n\nWait no—I need to clarify that Obama served two full terms.\n\nCorrect:\n\n4. **Barack Obama**\n   - Two terms:<br>\n     - First: January 20, 2009 – January20, 2017<br>\n     - Second: January20, 2013 (inauguration) –January20, 2017\n\nNo—Barack Obama was not re-elected for a full term; he won again but the term ended on January20, 2017.\n\nWait—Barack Obama served two non-consecutive terms. Specifically:\n\n- First term: January20, 2009 –January20, 2017\n- He was re-elected in March2016 and served until January20,2017 for the second term.\n\nTherefore, including all accurately, considering this may get too detailed, but I'll summarize as:\n\nThe five most recent U.S. presidents with their terms are:\n\n1. **George W. Bush**\n   - January 20, 2001 – January 20, 2009\n\n2. **Barack Obama**\n   - First term: January20, 2009 – January20, 2017\n   - Second term: January20,2013 (inauguration) –January20, 2017\n\nWait, this indicates a mistake.\n\nBarack Obama's two terms were:\n\n- First Term: January20, 2009 – January20, 2017\n- He was re-elected but served until January20, 2017 for the next term. Therefore, it’s one term in office, but separated by his re-election.\n\nTo avoid confusion and given time limitations, I'll present them as:\n\n1. **Joe Biden**\n   - [Current or upcoming]\n\n2. **Donald Trump (Second Term)** \n   - January20, 2021 – January20, 2025\n\n3. **Barack Obama** (Second Term)\n   - January20,2013 Inauguration –January20, 2017\n\n4. **Donald Trump (First Term)**\n   - January02, 2017 – Jan24, 2021\n\n5. **Mike Pence** (Second Term as VP and President)\n   - January20,2017 –Jan20,2021\n\nApologies for the confusion earlier in dates.\n\nSo correct final answer:\n\nThe five most recent U.S. presidents with their periods of service are:\n\n1. **George W. Bush**\n   - Term: January 20, 2001 to January 20, 2009\n\n2. **Barack Obama**\n   - Terms:\n     - First Term: January 20, 2009 to January 20, 2017\n     - Re-elected but served until January 20, 2017 for the next four years.\n\nWait no—Barack only had one term as president; he was re-elected for another in 2012. So:\n\n- First Term: January20, 2009 – January20, 2017\n- Second Term: January18, 2013 Inauguration –January20,2017\n\nSo his first and second terms.\n\nNext is Trump, who re-entered as follows:\n\n3. **Donald Trump**\n   - Terms:\n     - First Term: January20,2017 –January24,2021\n     - Re-elected on Jan20, 2021\n\n4. **Mike Pence** (as VP and President)\n   - Terms:\n     - Vice President from January20,2017 to January20,2021\n     - President by appointment same day on Jan20,2021 until current.\n\n5. **Joe Biden**\n   - First Term: January20, 2021 – current\n\nThis presents the five most recent presidents accurately with their respective terms.",
@@ -190,23 +190,23 @@
                     "accuracy": [
                         0.739189624786377,
                         0.8182322978973389,
-                        0.7000008225440979
+                        0.7000008821487427
                     ],
-                    "prediccion_continua": 0.7524742484092712,
-                    "rmse": 0.25236287089623577,
-                    "prediccion_binaria": 0.7524742484092712,
-                    "std": 0.049173375991841205
+                    "prediccion_continua": 0.7524742682774862,
+                    "rmse": 0.2523628472776749,
+                    "prediccion_binaria": 0.7524742682774862,
+                    "std": 0.049173354790263885
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.5195195216597602,
-                        0.5228201776052845,
-                        0.5345732842416253
+                        0.5195195086411155,
+                        0.5228201850403452,
+                        0.5345733324388489
                     ],
-                    "prediccion_continua": 0.52563766116889,
-                    "rmse": 0.4744063310104341,
+                    "prediccion_continua": 0.5256376753734365,
+                    "rmse": 0.4744063171510555,
                     "prediccion_binaria": 0,
-                    "std": 0.006460526407405753
+                    "std": 0.006460551656842623
                 },
                 "prueba 0": {
                     "respuesta": "La next World Cup of FIFA, which is the FIFA FIFA Women's World Cup, will take place in **Avignon, France**, from **6 June to 18 June 2024**. To learn more about the tournament and its teams, you can visit the official website: [FIFA Women's World Cup](https://www.fifaworldcup.com).",
@@ -232,25 +232,25 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.715828001499176,
+                        0.7158279418945312,
                         0.8602603673934937,
                         0.7745039463043213
                     ],
-                    "prediccion_continua": 0.7835307717323303,
-                    "rmse": 0.22444699439977514,
-                    "prediccion_binaria": 0.7835307717323303,
-                    "std": 0.05930873888637505
+                    "prediccion_continua": 0.7835307518641154,
+                    "rmse": 0.2244470195548931,
+                    "prediccion_binaria": 0.7835307518641154,
+                    "std": 0.05930876156656271
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.5358883393584325,
-                        0.5800127203429142,
-                        0.5408459384466971
+                        0.5358883615950204,
+                        0.5800126913037736,
+                        0.5408459532484144
                     ],
-                    "prediccion_continua": 0.5522489993826812,
-                    "rmse": 0.44818575050162957,
+                    "prediccion_continua": 0.5522490020490695,
+                    "rmse": 0.4481857468420919,
                     "prediccion_binaria": 0,
-                    "std": 0.019735967138674294
+                    "std": 0.0197359445264097
                 },
                 "prueba 0": {
                     "respuesta": "The chronological order of the events is based on their occurrence:\n\n1. Hernán Cortés de la Vectura (1520)\n2. American Revolution (Start: 1776)\n3. French Revolution (.Start: ≈1789)\n4. Llegada del hombre a la luna (Moon Mission Apollo 1, July 20, 1969)\n5. Cuidad de Amistad (Descubrimiento of Columbia, ~1810s) – However, based on the user's list:\n   - \"Llegada del hombre a la luna\" comes after the American Revolution.\n   - However, considering actual timeline: French Revolution occurred before American Revolution in 1789.\n\nCorrect order:\n\nCortés' arrival earliest,\n USRev starts,\n then FrenchRev\n moon landing is later than USRev and FrRev,\n wall fall in '89,\n COVID started latest.\n\nSo the correct chronological sequence is:\n\nHernán Cortés de la Vectura (1520) → American Revolution – 1776 to 18?\n\nNo the user provided different events, so arranged as per their order:\n\nCorrect order based on events list:\nInciembre de los héroes / Hernán Cortés en México,\n\nLlegada del hombre a la luna (moon mission),\n\nCaido en México (des much>,\n American Revolution,\n\n French Revolution.\n\nFinal answer: \n\nThe correct chronological order is:\n\n$\\boxed{\n\\begin{array}{ll}\n1. & \\text{Hernán Cortés de la Vectura en México} \\\\\n2. & \\text{Llegada del hombre a la luna} \\\\\n3. & \\text{Caido en México} \\\\\n4. & \\text{American Revolution} \\\\\n5. & \\text{French Revolution} \\\\\n6. & \\text{Berlint legado de Berlín y wall fall down at New York City} \\\\\n7. & \\text{COVID-19 pandemic} \\\\\n\\end{array}\n}$",
@@ -276,25 +276,25 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.8598288297653198,
-                        0.7040128111839294,
+                        0.8598288893699646,
+                        0.704012930393219,
                         0.833888053894043
                     ],
-                    "prediccion_continua": 0.7992432316144308,
-                    "rmse": 0.21201379793723196,
-                    "prediccion_binaria": 0.7992432316144308,
-                    "std": 0.06816575726236981
+                    "prediccion_continua": 0.7992432912190756,
+                    "rmse": 0.21201372932648757,
+                    "prediccion_binaria": 0.7992432912190756,
+                    "std": 0.06816571940775085
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.5546356289126255,
-                        0.5421235178643262,
-                        0.5763232580551434
+                        0.5546355626580525,
+                        0.5421235585516739,
+                        0.5763232507781684
                     ],
-                    "prediccion_continua": 0.5576941349440317,
-                    "rmse": 0.4425314593683336,
+                    "prediccion_continua": 0.5576941239959649,
+                    "rmse": 0.4425314698841469,
                     "prediccion_binaria": 0,
-                    "std": 0.014128491347579894
+                    "std": 0.014128477983374941
                 },
                 "prueba 0": {
                     "respuesta": "The Western Roman Empire typically considered itself fall in the year 476 AD, after its last emperor,君士坦丁·博迪凯拉(Justinian I), ensured protection of its eastern territories. However, the empire's effective decline occurred around that time as various groups like Visigoths and Huns weakened its borders through invasions, leading to significant political fragmentation without centralized control over much of Europe at the end of 476 AD.",
@@ -321,13 +321,13 @@
                 "SBert": {
                     "accuracy": [
                         0.5044636726379395,
-                        0.5294861197471619,
-                        0.48155897855758667
+                        0.5294861793518066,
+                        0.4815589189529419
                     ],
                     "prediccion_continua": 0.5051695903142294,
-                    "rmse": 0.4952173448632813,
+                    "rmse": 0.4952173467861298,
                     "prediccion_binaria": 0,
-                    "std": 0.019572539529923765
+                    "std": 0.019572588181083275
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -365,13 +365,13 @@
                 "SBert": {
                     "accuracy": [
                         0.6848238706588745,
-                        0.6591928601264954,
+                        0.6591928005218506,
                         0.7267167568206787
                     ],
-                    "prediccion_continua": 0.6902444958686829,
-                    "rmse": 0.3110033387268913,
+                    "prediccion_continua": 0.6902444760004679,
+                    "rmse": 0.3110033604991009,
                     "prediccion_binaria": 0,
-                    "std": 0.027831714996152543
+                    "std": 0.027831737162976322
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -408,14 +408,14 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.48169416189193726,
-                        0.1475449651479721,
-                        0.6379234790802002
+                        0.48169422149658203,
+                        0.1475449800491333,
+                        0.6379234194755554
                     ],
-                    "prediccion_continua": 0.42238753537336987,
-                    "rmse": 0.6127587712585488,
+                    "prediccion_continua": 0.4223875403404236,
+                    "rmse": 0.6127587592828957,
                     "prediccion_binaria": 0,
-                    "std": 0.20454132213867324
+                    "std": 0.20454130028903203
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -453,13 +453,13 @@
                 "SBert": {
                     "accuracy": [
                         0.39794641733169556,
-                        0.23444487154483795,
-                        0.34912922978401184
+                        0.23444488644599915,
+                        0.3491293787956238
                     ],
-                    "prediccion_continua": 0.32717350622018176,
-                    "rmse": 0.6763076052185362,
+                    "prediccion_continua": 0.3271735608577728,
+                    "rmse": 0.6763075517936571,
                     "prediccion_binaria": 0,
-                    "std": 0.06853091378631722
+                    "std": 0.06853092297876255
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -496,14 +496,14 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.6452527642250061,
-                        0.49892914295196533,
-                        0.6587964296340942
+                        0.6452528834342957,
+                        0.49892908334732056,
+                        0.658796489238739
                     ],
-                    "prediccion_continua": 0.6009927789370219,
-                    "rmse": 0.4055192069036487,
+                    "prediccion_continua": 0.6009928186734518,
+                    "rmse": 0.40551917997494186,
                     "prediccion_binaria": 0,
-                    "std": 0.07238138370716572
+                    "std": 0.0723814518878442
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -540,14 +540,14 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.42137324810028076,
+                        0.421373188495636,
                         0.3222743272781372,
                         0.3387705683708191
                     ],
-                    "prediccion_continua": 0.36080604791641235,
-                    "rmse": 0.6406625130110679,
+                    "prediccion_continua": 0.36080602804819745,
+                    "rmse": 0.6406625309554316,
                     "prediccion_binaria": 0,
-                    "std": 0.04335374490653653
+                    "std": 0.043353717149715434
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -584,25 +584,25 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.8743512630462646,
-                        0.8650234341621399,
-                        0.8788093328475952
+                        0.8743513226509094,
+                        0.8650236129760742,
+                        0.8788094520568848
                     ],
-                    "prediccion_continua": 0.8727280100186666,
-                    "rmse": 0.12740153875090643,
-                    "prediccion_binaria": 0.8727280100186666,
-                    "std": 0.005743922204389285
+                    "prediccion_continua": 0.8727281292279562,
+                    "rmse": 0.12740141820817247,
+                    "prediccion_binaria": 0.8727281292279562,
+                    "std": 0.005743889939564183
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.5602134155418936,
-                        0.5613027254194191,
-                        0.5593049222016474
+                        0.5602134816246414,
+                        0.5613027474351672,
+                        0.5593049001643564
                     ],
-                    "prediccion_continua": 0.5602736877209867,
-                    "rmse": 0.43972707072662426,
+                    "prediccion_continua": 0.5602737097413883,
+                    "rmse": 0.4397270487365999,
                     "prediccion_binaria": 0,
-                    "std": 0.0008167125058893791
+                    "std": 0.0008167288407244533
                 },
                 "prueba 0": {
                     "respuesta": "The top 10 most populated cities in Spain, along with their approximate current populations (as of recent data), are as follows:\n\n1. **Barcelona** - Approximately 3,937,000  \n2. **Madrid** - Approximately 3,380,000  \n3. **Córdoba** - Approximately 1,036,500  \n4. **Valencia** - Approximately 1,020,000  \n5. **Málaga** - Approximately 974,000  \n6. **Valladolid** - Approximately 893,000  \n7. **Levante (Vitoria-Gasteiz)** - Approximately 858,000  \n8. **Gijón** - Approximately 721,000  \n9. **Cuenca** - Approximately 648,000  \n10. ** Ciudad Real** - Approximately 632,000  \n\nThese cities are known for their dense urban areas and significant populations, with Barcelona leading as the most populous.",
@@ -628,14 +628,14 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.7121711373329163,
-                        0.7301372289657593,
+                        0.7121713161468506,
+                        0.730137288570404,
                         0.6540249586105347
                     ],
-                    "prediccion_continua": 0.6987777749697367,
-                    "rmse": 0.30296869950483235,
+                    "prediccion_continua": 0.6987778544425964,
+                    "rmse": 0.3029686251815589,
                     "prediccion_binaria": 0,
-                    "std": 0.03248390412907369
+                    "std": 0.03248394788504521
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -672,14 +672,14 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.594757080078125,
-                        0.7639620304107666,
-                        0.7092762589454651
+                        0.5947569608688354,
+                        0.7639619708061218,
+                        0.7092763185501099
                     ],
-                    "prediccion_continua": 0.6893317898114523,
-                    "rmse": 0.31856764893679923,
+                    "prediccion_continua": 0.6893317500750223,
+                    "rmse": 0.3185676960740421,
                     "prediccion_binaria": 0,
-                    "std": 0.07050255404851714
+                    "std": 0.07050259194153732
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -716,14 +716,14 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.28343862295150757,
-                        0.21192128956317902,
-                        0.25503838062286377
+                        0.2834385633468628,
+                        0.21192127466201782,
+                        0.25503841042518616
                     ],
-                    "prediccion_continua": 0.25013276437918347,
-                    "rmse": 0.7504434411880306,
+                    "prediccion_continua": 0.2501327494780223,
+                    "rmse": 0.7504434555138226,
                     "prediccion_binaria": 0,
-                    "std": 0.029402165983614524
+                    "std": 0.02940215159025226
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -761,24 +761,24 @@
                 "SBert": {
                     "accuracy": [
                         0.812202513217926,
-                        0.9101393222808838,
-                        0.749123215675354
+                        0.910139262676239,
+                        0.7491233348846436
                     ],
-                    "prediccion_continua": 0.8238216837247213,
-                    "rmse": 0.18822149926339185,
-                    "prediccion_binaria": 0.8238216837247213,
-                    "std": 0.06624600862970446
+                    "prediccion_continua": 0.8238217035929362,
+                    "rmse": 0.18822145578496616,
+                    "prediccion_binaria": 0.8238217035929362,
+                    "std": 0.06624593793521792
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.5843219842329035,
-                        0.5898282627223841,
-                        0.5728874725603984
+                        0.584321948039502,
+                        0.5898282194617703,
+                        0.5728874142223712
                     ],
-                    "prediccion_continua": 0.5823459065052287,
-                    "rmse": 0.41771368900609923,
+                    "prediccion_continua": 0.5823458605745478,
+                    "rmse": 0.4177137350551725,
                     "prediccion_binaria": 0,
-                    "std": 0.00705578983140641
+                    "std": 0.0070557972283635815
                 },
                 "prueba 0": {
                     "respuesta": "Marie Curie, a pioneering scientist known for her work on radioactivity, was born on November 7, 1867. She died at the young age of 66 due to cancer on July 4, 1934.\n\n**Answer:**\n- Born: November 7, 1867\n- Died: July 4, 1934",
@@ -804,25 +804,25 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.8404385447502136,
+                        0.8404386043548584,
                         0.724251925945282,
-                        0.851298451423645
+                        0.8512985110282898
                     ],
-                    "prediccion_continua": 0.8053296407063802,
-                    "rmse": 0.20298522844066091,
-                    "prediccion_binaria": 0.8053296407063802,
-                    "std": 0.057501775429983686
+                    "prediccion_continua": 0.8053296804428101,
+                    "rmse": 0.20298519826785016,
+                    "prediccion_binaria": 0.8053296804428101,
+                    "std": 0.05750180344423982
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.5646638792417689,
-                        0.5320783082424836,
-                        0.517399758875415
+                        0.5646638279600157,
+                        0.5320782822727864,
+                        0.5173997979435939
                     ],
-                    "prediccion_continua": 0.5380473154532225,
-                    "rmse": 0.46237475435248016,
+                    "prediccion_continua": 0.5380473027254653,
+                    "rmse": 0.46237476561482643,
                     "prediccion_binaria": 0,
-                    "std": 0.01975172657115804
+                    "std": 0.019751692538812614
                 },
                 "prueba 0": {
                     "respuesta": "The dates of Zeus's birth are unknown as ancient Greek texts did not use specific calendars like our modern Gregorian system. However, based on information from myths such as Prometheus receiving a liver-shaped stone in 957 BC and Persephone's abduction around 608 BC by Daedalus and Icarus, it is estimated that Zeus likely lived during an era spanning approximately the mid-950s BC to after 608 BC. The exact birth year remains uncertain due to the limitations of historical records from that period.",
@@ -848,25 +848,25 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.757695198059082,
-                        0.7233437299728394,
-                        0.6865383386611938
+                        0.7576950788497925,
+                        0.7233436703681946,
+                        0.6865382194519043
                     ],
-                    "prediccion_continua": 0.7225257555643717,
-                    "rmse": 0.27899135107158973,
-                    "prediccion_binaria": 0.7225257555643717,
-                    "std": 0.02905542372136842
+                    "prediccion_continua": 0.7225256562232971,
+                    "rmse": 0.278991449930718,
+                    "prediccion_binaria": 0.7225256562232971,
+                    "std": 0.029055424280716172
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.5694723546123454,
-                        0.5226118785637004,
-                        0.5457554661675215
+                        0.5694723911460571,
+                        0.5226118543988364,
+                        0.5457554292265834
                     ],
-                    "prediccion_continua": 0.5459465664478558,
-                    "rmse": 0.4544562936257651,
+                    "prediccion_continua": 0.545946558257159,
+                    "rmse": 0.45445630285838523,
                     "prediccion_binaria": 0,
-                    "std": 0.01913118646545939
+                    "std": 0.01913121138853386
                 },
                 "prueba 0": {
                     "respuesta": "Bugs Bunny, el personaje de la guía de cartoons de Walt Disney, nació el 6 de enero de 1899.",
@@ -892,14 +892,14 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.24943451583385468,
-                        0.17396879196166992,
+                        0.24943456053733826,
+                        0.17396876215934753,
                         0.3156049847602844
                     ],
-                    "prediccion_continua": 0.246336097518603,
-                    "rmse": 0.755881965997292,
+                    "prediccion_continua": 0.24633610248565674,
+                    "rmse": 0.7558819620569757,
                     "prediccion_binaria": 0,
-                    "std": 0.057864225705028895
+                    "std": 0.05786423892692883
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -937,13 +937,13 @@
                 "SBert": {
                     "accuracy": [
                         0.2815376818180084,
-                        0.34472596645355225,
-                        0.3107021749019623
+                        0.34472599625587463,
+                        0.3107021450996399
                     ],
                     "prediccion_continua": 0.312321941057841,
-                    "rmse": 0.6881626874929497,
+                    "rmse": 0.6881626879841072,
                     "prediccion_binaria": 0,
-                    "std": 0.02582192299313929
+                    "std": 0.025821936082645137
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -983,25 +983,25 @@
                     ],
                     "SBert": {
                         "accuracy": [
-                            0.9170823693275452,
-                            0.9475157856941223,
-                            0.9226858019828796
+                            0.9170824289321899,
+                            0.9475158452987671,
+                            0.9226859211921692
                         ],
-                        "prediccion_continua": 0.929094652334849,
-                        "rmse": 0.072128153178144,
-                        "prediccion_binaria": 0.929094652334849,
-                        "std": 0.013225057783385176
+                        "prediccion_continua": 0.9290947318077087,
+                        "rmse": 0.07212807328724777,
+                        "prediccion_binaria": 0.9290947318077087,
+                        "std": 0.01322504815529357
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5632393652423198,
-                            0.5324194162990014,
-                            0.5656956794979189
+                            0.5632393579109252,
+                            0.5324193569449386,
+                            0.5656956648540067
                         ],
-                        "prediccion_continua": 0.5537848203464134,
-                        "rmse": 0.4464719838671749,
+                        "prediccion_continua": 0.5537847932366234,
+                        "rmse": 0.4464720117261734,
                         "prediccion_binaria": 0,
-                        "std": 0.015140866058726426
+                        "std": 0.015140888611090876
                     },
                     "prueba 0": {
                         "respuesta": "The common symptoms of the flu typically include:\n\n1. **Fever**: A rising temperature indicating infection begins and escalates.\n\n2. **Coughing with mucus or phlegm**: A productive cough due to actively progressing infection.\n\n3. **Sneezing**: From exposure to infected respiratory droplets, causing particle-carrying sneezes.\n\n4. **Sinus congestion and runny nose**: From blocked sinuses resulting from infection.\n\n5. **Fatigue**: General weakness or tiredness after an acute infection.\n\n6. **Headache**: Pain in the head that may worsen as fever subsides and inflammation decreases.\n\n7. **Muscle ache or soreness**: T tendencies to feel tired, especially if the temperature drops at night without hydration.\n\n8. **Sore throat**: From irritation in the mouth and throat due to coughing or infection clearing.\n\nThese symptoms are common for most individuals experiencing influenza, though severity can vary by age, health status, and underlying conditions.",
@@ -1027,25 +1027,25 @@
                     ],
                     "SBert": {
                         "accuracy": [
-                            0.7944891452789307,
+                            0.794489324092865,
                             0.869855523109436,
-                            0.8177005648612976
+                            0.8177006244659424
                         ],
-                        "prediccion_continua": 0.8273484110832214,
-                        "rmse": 0.17550439721480196,
-                        "prediccion_binaria": 0.8273484110832214,
-                        "std": 0.031515429336163164
+                        "prediccion_continua": 0.8273484905560812,
+                        "rmse": 0.17550430678194517,
+                        "prediccion_binaria": 0.8273484905560812,
+                        "std": 0.03151536110768087
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5230101345206486,
+                            0.5230102051512603,
                             0.5082637238800084,
-                            0.5399531500536489
+                            0.5399531870686912
                         ],
-                        "prediccion_continua": 0.5237423361514352,
-                        "rmse": 0.4764336264258737,
+                        "prediccion_continua": 0.52374237203332,
+                        "rmse": 0.47643359094087606,
                         "prediccion_binaria": 0,
-                        "std": 0.01294750998518627
+                        "std": 0.012947524101904829
                     },
                     "prueba 0": {
                         "respuesta": "El tratamiento recomendado para la hipertensión arterial se diferencian según el tipo de hipertensión:\n\n### **Hipertensión Arterial No Controlable por Diabétess Renal (CKD):**\n1. **Diureticas:** Se usan diuretas que ayudan a eliminar el agua y sal, disminuyendo la presión arterial.\n2. **Antipresionales y Vasoprotectores:** Medicamentos como los glúcOS y los vasoprotectores (e.g., clonidine) pueden ser útiles.\n3. **Lifestyle Changes:** Moderate changes en dieta,运动, control del colesterol, y el fume.\n\n### **Hipertensión Arterial Controlable por Diabétess Renal:**\n1. **Diureticas Moduladoras:** Se usan diuretas más potentes (o fáciles de detener) que las de CKD.\n2. **Antipresionales,$ Vasoprotectores y Anticoagulantes:** Opportunity se utiliza para reducir la拴定.\n3. **Lifestyle Changes:** Moderate similar a la hipertensión no CKD.\n\n### Esenciales para todas:\n- **Monitorización Regular:** Evaluar la presión arterial, funcionalidades del corazón, y Variables como la ingestas de sal y agua.\n- **Enfocado en los Objetivos:** Los objetivos pueden ser más suaves si hay CKD debido a las características del corazón.\n- **Tratamientos Conservadores:** A menudo se usan para evitar un rebound de la presión arterial después de la terapia detallada.\n\n### consejos generales:\n- **Seaseo predeterminado:** Realizar una evaluación integral del estado de salud para determinar el mejor tratamiento.\n- **Consultar a un profesional:** Doctor, farmer, oSpecialista de saneamiento para planificar el tratamiento individualizado.",
@@ -1072,13 +1072,13 @@
                     "SBert": {
                         "accuracy": [
                             0.5685806274414062,
-                            0.6319005489349365,
+                            0.6319004893302917,
                             0.5796431303024292
                         ],
-                        "prediccion_continua": 0.593374768892924,
-                        "rmse": 0.4075617657873844,
+                        "prediccion_continua": 0.5933747490247091,
+                        "rmse": 0.4075617837318533,
                         "prediccion_binaria": 0,
-                        "std": 0.02761366253954352
+                        "std": 0.027613634819987434
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1117,12 +1117,12 @@
                         "accuracy": [
                             0.6320849657058716,
                             0.729928731918335,
-                            0.6797120571136475
+                            0.6797119379043579
                         ],
-                        "prediccion_continua": 0.6805752515792847,
-                        "rmse": 0.32191320189416467,
+                        "prediccion_continua": 0.6805752118428549,
+                        "rmse": 0.3219132414299802,
                         "prediccion_binaria": 0,
-                        "std": 0.03994921338544667
+                        "std": 0.03994921424408298
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1159,14 +1159,14 @@
                     ],
                     "SBert": {
                         "accuracy": [
-                            0.6141610741615295,
-                            0.4423825144767761,
-                            0.7525681257247925
+                            0.61416095495224,
+                            0.44238242506980896,
+                            0.7525680661201477
                         ],
-                        "prediccion_continua": 0.6030372381210327,
-                        "rmse": 0.41674591350156814,
+                        "prediccion_continua": 0.6030371487140656,
+                        "rmse": 0.4167460019635934,
                         "prediccion_binaria": 0,
-                        "std": 0.1268767989101193
+                        "std": 0.12687680974701598
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1204,24 +1204,24 @@
                     "SBert": {
                         "accuracy": [
                             0.8681116700172424,
-                            0.7567415833473206,
-                            0.6569143533706665
+                            0.7567415237426758,
+                            0.656914472579956
                         ],
-                        "prediccion_continua": 0.7605892022450765,
-                        "rmse": 0.25447786398891176,
-                        "prediccion_binaria": 0.7605892022450765,
-                        "std": 0.08626385789373318
+                        "prediccion_continua": 0.7605892221132914,
+                        "rmse": 0.25447782940874936,
+                        "prediccion_binaria": 0.7605892221132914,
+                        "std": 0.08626381102333491
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5876179897177668,
-                            0.5766331689053028,
-                            0.5641536380963406
+                            0.5876179969395575,
+                            0.5766331834564271,
+                            0.564153645424264
                         ],
-                        "prediccion_continua": 0.5761349322398034,
-                        "rmse": 0.4239734454185535,
+                        "prediccion_continua": 0.5761349419400829,
+                        "rmse": 0.4239734357226249,
                         "prediccion_binaria": 0,
-                        "std": 0.009585757806406267
+                        "std": 0.009585757889173239
                     },
                     "prueba 0": {
                         "respuesta": "**Ramón y Cajal: A Pioneering Figure in Neurological Research**\n\n**Biographical Overview**  \nSpaniard Ramón y Cajal (1869-1945) is renowned for revolutionizing neuroanatomy. He dedicated his career to studying the nervous system using meticulous microscopy, laying the groundwork for understanding neurological diseases and brain function.\n\n**Key Contributions**  \n- **Neuronal Foam Cells**: His discovery of these cells provided critical insights into neuronal diseases like multiple sclerosis.\n- **Structural Understanding**: Cajal's work elucidated the structure of neurons in the retina, advancing our knowledge of neuroanatomy. This research influenced subsequent developments in neuroscience and neurology.\n\n**Legacy and Methodological Impact**  \n- **Shift to Observation**: Cajal promoted a visual, observational approach in science, emphasizing detailed documentation over hypothesis-driven research.\n- **Influential Work**: His findings were disseminated through collaborative efforts within the scientific community, ensuring their value across disciplines. His work continues to be foundational in medical education and research.\n\n**Awards and Recognition**  \n- Renowned for his groundbreaking discoveries, Cajal was awarded the Nobel Prize in Physiology or Medicine in 1906, further cementing his legacy.\n\nIn summary, Ramón y Cajal's contributions have been instrumental in shaping modern neuroanatomy and continue to inspire medical research. His enduring impact is a testament to his innovative approach and dedication to understanding brain function.",
@@ -1247,14 +1247,14 @@
                     ],
                     "SBert": {
                         "accuracy": [
-                            0.3806960880756378,
-                            0.5063563585281372,
-                            0.6099292039871216
+                            0.380696177482605,
+                            0.5063564777374268,
+                            0.6099293231964111
                         ],
-                        "prediccion_continua": 0.4989938835302989,
-                        "rmse": 0.5096981479243506,
+                        "prediccion_continua": 0.49899399280548096,
+                        "rmse": 0.5096980428183163,
                         "prediccion_binaria": 0,
-                        "std": 0.0937287216250255
+                        "std": 0.09372873416315695
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1291,14 +1291,14 @@
                     ],
                     "SBert": {
                         "accuracy": [
-                            0.3792107105255127,
-                            0.40569230914115906,
-                            0.40118151903152466
+                            0.37921077013015747,
+                            0.40569227933883667,
+                            0.40118154883384705
                         ],
-                        "prediccion_continua": 0.3953615128993988,
-                        "rmse": 0.6047491343495524,
+                        "prediccion_continua": 0.3953615327676137,
+                        "rmse": 0.604749113880263,
                         "prediccion_binaria": 0,
-                        "std": 0.011567861221030668
+                        "std": 0.011567829607745519
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1335,25 +1335,25 @@
                     ],
                     "SBert": {
                         "accuracy": [
-                            0.6788162589073181,
-                            0.8178602457046509,
+                            0.6788161396980286,
+                            0.8178603649139404,
                             0.8553406000137329
                         ],
                         "prediccion_continua": 0.7840057015419006,
-                        "rmse": 0.22895430959141744,
+                        "rmse": 0.2289543337233767,
                         "prediccion_binaria": 0.7840057015419006,
-                        "std": 0.07593773050385505
+                        "std": 0.07593780326233336
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5585321186914288,
-                            0.5244806162655047,
-                            0.5677013937710921
+                            0.5585320856232795,
+                            0.5244806274145848,
+                            0.5677013864571099
                         ],
-                        "prediccion_continua": 0.550238042909342,
-                        "rmse": 0.45014614644645107,
+                        "prediccion_continua": 0.5502380331649914,
+                        "rmse": 0.45014615567215627,
                         "prediccion_binaria": 0,
-                        "std": 0.018593953710030284
+                        "std": 0.018593941355338123
                     },
                     "prueba 0": {
                         "respuesta": "**SARS-CoV-2: Understanding Its Origin and Impact**\n\n1. **What is SARS-CoV-2?**\n   - SARS-CoV-2, or Severe Acute Respiratory Syndrome Coronavirus 2, is a member of the coronaviruses family known for causing respiratory illnesses.\n   \n2. **Etiology and Transmission**\n   - The virus was identified in Wuhan, China, natively in December 2019 under the name 2019-nCoV.\n   - Initial cases were linked to a海鲜市场, often referred to as the bat market theory of origin without conclusive scientific evidence.\n\n3. **Global Spread and Pandemic Dynamics**\n   - Exponential growth patterns were observed early on, contributing to rapid case increases, which is concerning due to the potential for quick multiplication of cases.\n   - The pandemic led to lockdowns globally, impacting economic activities with widespread supply chain disruptions affecting essential goods like masks and hand sanitizer.\n\n4. **Global Impact: Economic and Social Consequences**\n   - Severe disruptions in global trade, investment, and travel due to stay-at-home orders.\n   - Social changes included a surge in searches for baby products (diapers, formula) and protective gear amid the crisis.\n\n5. **Healthcare System Strain**\n   - Hospitals overwhelmed with COVID-19 cases necessitating high demand for intubation tubes and other critical resources.\n\n6. **Mental Health Considerations**\n   - A significant psychological impact due to increased stress and anxiety among individuals in lockdowns, contributing to elevated rates of mental health issues.\n\n7. **Political and Policy Responses**\n   - Varying strategies based on national capacities: developed nations prioritized vaccination infrastructure while developing nations relied on international solidarity during the pandemic.\n\n8. **Health Outcomes and Long-Term Implications**\n   - Global scope resulting in millions of deaths, with long-term health consequences for survivors.\n   - A catalyst for global health collaboration to address future viral threats through vaccination and preparedness measures.\n\nIn summary, SARS-CoV-2 is a virus that has had a profound impact on global health, economy, society, and politics since its emergence. It underscores the importance of robust healthcare systems, international cooperation, and ongoing efforts towards vaccination against future pandemics.",
@@ -1379,14 +1379,14 @@
                     ],
                     "SBert": {
                         "accuracy": [
-                            0.524848222732544,
+                            0.5248482823371887,
                             0.6069575548171997,
-                            0.6840813755989075
+                            0.6840814352035522
                         ],
-                        "prediccion_continua": 0.605295717716217,
-                        "rmse": 0.400023396148765,
+                        "prediccion_continua": 0.6052957574526469,
+                        "rmse": 0.40002335685817225,
                         "prediccion_binaria": 0,
-                        "std": 0.06501728241964248
+                        "std": 0.0650172819118184
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1423,25 +1423,25 @@
                     ],
                     "SBert": {
                         "accuracy": [
-                            0.7749481797218323,
-                            0.6853856444358826,
-                            0.7461723685264587
+                            0.7749481201171875,
+                            0.6853854656219482,
+                            0.746172308921814
                         ],
-                        "prediccion_continua": 0.7355020642280579,
-                        "rmse": 0.2671198114685677,
-                        "prediccion_binaria": 0.7355020642280579,
-                        "std": 0.03733410841823779
+                        "prediccion_continua": 0.7355019648869833,
+                        "rmse": 0.2671199172898377,
+                        "prediccion_binaria": 0.7355019648869833,
+                        "std": 0.03733416175948096
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5414178819493228,
-                            0.5221892970809775,
-                            0.5520183607507065
+                            0.5414178930485075,
+                            0.5221892803501867,
+                            0.5520183496957992
                         ],
-                        "prediccion_continua": 0.538541846593669,
-                        "rmse": 0.46162328650256934,
+                        "prediccion_continua": 0.5385418410314978,
+                        "rmse": 0.4616232921757804,
                         "prediccion_binaria": 0,
-                        "std": 0.012346306988418725
+                        "std": 0.012346311214549025
                     },
                     "prueba 0": {
                         "respuesta": "La depresión, comoirusca, es un trato de la enfermedad psiquiatría.",
@@ -1468,24 +1468,24 @@
                     "SBert": {
                         "accuracy": [
                             0.7090262770652771,
-                            0.8013797402381897,
-                            0.7053802609443665
+                            0.8013797998428345,
+                            0.7053802013397217
                         ],
                         "prediccion_continua": 0.7385954260826111,
-                        "rmse": 0.26515184685229676,
+                        "rmse": 0.26515185404568226,
                         "prediccion_binaria": 0.7385954260826111,
-                        "std": 0.044420160110609515
+                        "std": 0.044420203049188416
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5295186722289165,
-                            0.5130339233871434,
-                            0.5755923960668643
+                            0.529518636962008,
+                            0.5130338731298989,
+                            0.5755923378245923
                         ],
-                        "prediccion_continua": 0.539381663894308,
-                        "rmse": 0.46137853361031933,
+                        "prediccion_continua": 0.5393816159721664,
+                        "rmse": 0.4613785811377858,
                         "prediccion_binaria": 0,
-                        "std": 0.026474510753408773
+                        "std": 0.026474505251347244
                     },
                     "prueba 0": {
                         "respuesta": "Basado en la información proporcionada, Manuel Padre tiene un fiebre y comenzó a recibir antibióticos desde el primer día. Sin embargo, su condition no mejoró duranteThose 3 días. A continuación se detallan las posibles causas y recomendaciones:\n\n1. **Revisión del diagnóstico inicial:**\n   - Examinar si el diagnóstico de infección aguda por baileos fue correcto.\n   - Excluir causas como VIH o Sepsis, que requieren abordajes diferentes.\n\n2. **Evaluación de la administación de antibióticos:**\n   - Asegurarse de que se han utilizado Antibios correctamente, en la dose y forma adecuada.\n   - Verificar si los Antibios fueron adecuados para laTipo patológica del microorganismo afectado.\n\n3. **Consideración de otros síntomas adicionales:**\n   - Examinar si Manuel tiene síntomas adicionales que sugieran una error diagnóstico inicial, como ansiedad, fugacidad o complicaciones vitales.\n\n4. **Evaluación de la posibilidad de hemorragia craneal:**\n   - Hemorragescan craneales son graves y requieren atención médica imediata.\n   - Verificar si se padecía previo síntoma de fiebre, lo cual podría apuntar a una possibile Hemorragescan craneal.\n\n5. **Revisión del estado de salud general:**\n   - Observar si las dificultades de recovery son comunes a Other conditions, pero que no evinden un error diagnóstico inicial.\n\n6. **Consejos para Manuel:**\n   - Consultar a un Dr. especialista para una revision más detallada.\n   - Mantenerse informado de progresos y seguir cuidando de sí mismo.\n\nSi Manuel sigue no mejorando o presentsis más graves, es fundamental que elaborese una planificación médica adecuada bajo la supervisión de un profesional de salud capacitado.",
@@ -1512,24 +1512,24 @@
                     "SBert": {
                         "accuracy": [
                             0.7600955963134766,
-                            0.916482150554657,
-                            0.8424761295318604
+                            0.9164822697639465,
+                            0.8424762487411499
                         ],
-                        "prediccion_continua": 0.8396846254666647,
-                        "rmse": 0.1725718438326722,
-                        "prediccion_binaria": 0.8396846254666647,
-                        "std": 0.06387504968330446
+                        "prediccion_continua": 0.8396847049395243,
+                        "rmse": 0.1725717883303725,
+                        "prediccion_binaria": 0.8396847049395243,
+                        "std": 0.06387509919534777
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5133976820769381,
-                            0.5173114809923668,
-                            0.5168594890852568
+                            0.5133976746317069,
+                            0.5173115051777266,
+                            0.5168595114115854
                         ],
-                        "prediccion_continua": 0.515856217384854,
-                        "rmse": 0.4841469389475465,
+                        "prediccion_continua": 0.5158562304070062,
+                        "rmse": 0.48414692597773595,
                         "prediccion_binaria": 0,
-                        "std": 0.0017482126236482403
+                        "std": 0.0017482270955363245
                     },
                     "prueba 0": {
                         "respuesta": "El dolor muscular después de alta int ensión, como un corriente de 20 km, puede ocurrir, especialmente si los músculos inferiores del bodyweight no están bien preparados. Para aliviarlo, sigue estos pasos:\n\n1. **Experiencia esteril**:\n   - Realiza un rutino de estirar con dedicación, incluyendo movilizaciones específicas como extensiones de brazo, cárceles, rodillos y movilizaciones de rodilla.\n   \n2. **Limpieza del area de trabajo**:\n   - Arraiza el área de trabajo con bolas de goma para prevenir la adhesión de肌纤维.\n\n3. **Movilizaciones específicas**:\n   - Ejercita las movilizaciones que has realizado en el último día, como extensiones de brazo, cárceles, rodillos y movilizaciones de rodilla.\n\n4. **Reposo adecuado**:\n   - Sigue establishando un plan de reposo adecuado con Favorite de la regression para prevenir la relEscasa de músculos debido a la fatigue.\n\n5. **Pronunciación de síntomas**:\n   - Si el dolor muscular persiste o es grave,consulta al profesional médico o fisiólogo.\n\n6. **Relajamiento**:\n   - Establece una rutina de relajamientoy evitar hábitos que could acelerar la aparición de dolores, como indisposición al S/. hálito y pocos sueños.\n\nRecorda que el dolor muscular es un indicador normal此后 de un extenso entrenamiento oCorriente.",
@@ -1555,14 +1555,14 @@
                     ],
                     "SBert": {
                         "accuracy": [
-                            0.7994434237480164,
-                            0.5308181643486023,
+                            0.7994434833526611,
+                            0.5308182239532471,
                             0.539544939994812
                         ],
-                        "prediccion_continua": 0.6232688426971436,
-                        "rmse": 0.3968095250316429,
+                        "prediccion_continua": 0.6232688824335734,
+                        "rmse": 0.39680949149790634,
                         "prediccion_binaria": 0,
-                        "std": 0.12462517511758404
+                        "std": 0.12462518846516649
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1599,25 +1599,25 @@
                     ],
                     "SBert": {
                         "accuracy": [
-                            0.6813062429428101,
-                            0.6209273338317871,
-                            0.7988221049308777
+                            0.6813063621520996,
+                            0.6209272742271423,
+                            0.7988221645355225
                         ],
-                        "prediccion_continua": 0.700351893901825,
-                        "rmse": 0.3086175316296572,
-                        "prediccion_binaria": 0.700351893901825,
-                        "std": 0.07386334233541889
+                        "prediccion_continua": 0.7003519336382548,
+                        "rmse": 0.30861750204839067,
+                        "prediccion_binaria": 0.7003519336382548,
+                        "std": 0.07386337994064147
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5410117945596842,
-                            0.5101454300808509,
-                            0.5090457276678925
+                            0.5410118093605923,
+                            0.5101454617327813,
+                            0.5090456718068272
                         ],
-                        "prediccion_continua": 0.5200676507694758,
-                        "rmse": 0.4801610042215511,
+                        "prediccion_continua": 0.5200676476334003,
+                        "rmse": 0.4801610077807363,
                         "prediccion_binaria": 0,
-                        "std": 0.014816549433611015
+                        "std": 0.014816563193745698
                     },
                     "prueba 0": {
                         "respuesta": "Sí, la curación del cáncer de páncreas puede incluir cirugías que varían en fecha y Timing, dependiendo de la etapas de enfermedad y el tipo de cáncer. Es conveniente consultar con tu médico oncólogo para obtener una indicación específica regarding your prognosis.",
@@ -1643,14 +1643,14 @@
                     ],
                     "SBert": {
                         "accuracy": [
-                            0.7249266505241394,
-                            0.6018694639205933,
+                            0.7249267101287842,
+                            0.601869523525238,
                             0.5541751384735107
                         ],
-                        "prediccion_continua": 0.6269904176394144,
-                        "rmse": 0.3798829111300209,
+                        "prediccion_continua": 0.6269904573758444,
+                        "rmse": 0.37988287592085895,
                         "prediccion_binaria": 0,
-                        "std": 0.0719366223546874
+                        "std": 0.0719366424655817
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1687,14 +1687,14 @@
                     ],
                     "SBert": {
                         "accuracy": [
-                            0.6650964617729187,
-                            0.6938279867172241,
-                            0.6935378313064575
+                            0.6650963425636292,
+                            0.6938279271125793,
+                            0.6935377717018127
                         ],
-                        "prediccion_continua": 0.6841540932655334,
-                        "rmse": 0.3161332748884009,
+                        "prediccion_continua": 0.6841540137926737,
+                        "rmse": 0.3161333554867462,
                         "prediccion_binaria": 0,
-                        "std": 0.013476301078110549
+                        "std": 0.01347632917492408
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1731,14 +1731,14 @@
                     ],
                     "SBert": {
                         "accuracy": [
-                            0.0528731532394886,
+                            0.0528731569647789,
                             0.9378665685653687,
-                            0.812712550163269
+                            0.8127126693725586
                         ],
-                        "prediccion_continua": 0.6011507573227087,
-                        "rmse": 0.5585655485326371,
+                        "prediccion_continua": 0.601150798300902,
+                        "rmse": 0.5585655331034007,
                         "prediccion_binaria": 0,
-                        "std": 0.3910431608190035
+                        "std": 0.391043180576108
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1775,25 +1775,25 @@
                     ],
                     "SBert": {
                         "accuracy": [
-                            0.7505100965499878,
-                            0.7608969211578369,
+                            0.7505099773406982,
+                            0.7608968019485474,
                             0.8391581773757935
                         ],
-                        "prediccion_continua": 0.7835217316945394,
-                        "rmse": 0.2200648284334829,
-                        "prediccion_binaria": 0.7835217316945394,
-                        "std": 0.03956877638905795
+                        "prediccion_continua": 0.7835216522216797,
+                        "rmse": 0.2200649166572202,
+                        "prediccion_binaria": 0.7835216522216797,
+                        "std": 0.0395688322612365
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5829194265284464,
+                            0.5829194120371047,
                             0.5150090463419175,
-                            0.5203885046197598
+                            0.5203885194961438
                         ],
-                        "prediccion_continua": 0.5394389924967079,
-                        "rmse": 0.4615913114427836,
+                        "prediccion_continua": 0.5394389926250555,
+                        "rmse": 0.46159131065505393,
                         "prediccion_binaria": 0,
-                        "std": 0.030823646231770776
+                        "std": 0.030823636353076528
                     },
                     "prueba 0": {
                         "respuesta": "Dr. House, portrayed by Dr. Michael J.ropicz in the TV series \"House,\" is a globally recognized cultural icon known for his dramatic portrayal as Richard \"Richard\" Castle. Here's an organized summary of who he is and why he's famous:\n\n1. **Character Traits**: Dr. House is depicted with a distinctive appearance—long face,增大 nose, often creepy—and has a catchphrase, \"The only disease I know for sure is pneumonia,\" which adds to his chaotic character.\n\n2. **Fame in Entertainment**: Known primarily through the TV series based on real-life hospitals and medical settings (though largely fictional), he operates a private clinic where he treats patients without charging fees because he isn't affiliated with any hospital.\n\n3. **Appeal**: Dr. House's multi-dimensional nature—intelligent, empathetic, and with a sense of humor or chaos—appeals to many viewers, making him likable despite his dark personality.\n\n4. **DrAMa Elements**: The show incorporates elements typical of dramas about health, balancing serious medical themes with thriller aspects, which keeps audiences engaged.\n\n5. **Career Span**: By appearing in multiple seasons on various TV shows, he became a staple figure across many healthcare-themed series, allowing him to showcase his character's versatility and depth.\n\n6. **Fictional Nature**: While inspired by real-life hospital settings, The House is largely fictional, focusing on the dramatic aspects of medicine rather than actual medical accuracy.\n\nIn essence, Dr. House's fame stems from his enduring presence in entertainment, captivating audiences with a blend of intelligence, empathy, humor, and suspense in health-related dramas.",
@@ -1819,25 +1819,25 @@
                     ],
                     "SBert": {
                         "accuracy": [
-                            0.8187717795372009,
+                            0.8187716603279114,
                             0.836969256401062,
-                            0.808026134967804
+                            0.8080260753631592
                         ],
-                        "prediccion_continua": 0.8212557236353556,
-                        "rmse": 0.1791430118703447,
-                        "prediccion_binaria": 0.8212557236353556,
-                        "std": 0.011945809677794935
+                        "prediccion_continua": 0.8212556640307108,
+                        "rmse": 0.17914307336055543,
+                        "prediccion_binaria": 0.8212556640307108,
+                        "std": 0.011945839943814351
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5157468510498142,
-                            0.5336640076080061,
-                            0.5172589334555922
+                            0.5157468454674211,
+                            0.533663996482796,
+                            0.5172589483389989
                         ],
-                        "prediccion_continua": 0.5222232640378042,
-                        "rmse": 0.47784561921078966,
+                        "prediccion_continua": 0.5222232634297387,
+                        "rmse": 0.47784561970365863,
                         "prediccion_binaria": 0,
-                        "std": 0.008113345318252068
+                        "std": 0.008113338538770503
                     },
                     "prueba 0": {
                         "respuesta": "La salud y el desempeño académico están íntimamente relacionados y se influences mutuamente. Aquí está una detallada explicación de esta relación:\n\n### 1. **Salud y rendimiento académico**\n   - **Energía física**: Una buena salud, especialmente en terms de energía, permite que un estudiante tenga la fuerza necesaria para dedicarse a los estudios con dedicación y exhaustividad.\n   - **Nutrición saludable**: La nutrición playing una papela crucial para el rendimiento cognitive. Al redder un diet Includes todos los nutrientes esenciales como el azúcar, el grasado animal, la fibra, etc., se mejora la comprensión, la memoria y el desempeño académico.\n   - **Sleep ( Sueño )**: El睡眠 es esencial para el rendimiento mental. Un baile de sueños adecuados fomenta el IPOs, la atención y la capacidad de learn.\n   - **Manejo del estrés**: El estrés puede deteriorar el rendimiento académico si no es gestionado adecuadamente. Técnicas como el deep breathing, la meditación o el ejercicio pueden ayudar a reducir el estrés estudiantil.\n\n### 2. **Ciencia de la salud mental y el rendimiento académico**\n   - **Conexión entre el estado mental y el rendimiento escolar**: Al studying mathematics, una falta de的信心 o depresión puede reducir la capacidad de learn.\n   - **Tensión mental**: Una high-pressure study environment can negatively affect performance through negative thinking, burnout, etc.\n\n### 3. **Factores externos que afectan el desempeño académico**\n   - **Calidad del profesorado y del entorno académico**: Un/Buen professors y un entorno de aprendizaje equilibrado pueden mejorar el rendimiento.\n   - **Recursos available**: La availability de librarianas,librarys, and other learning resources can also influence academic performance.\n   - **Presión estudiantil**: Excessive pressure to perform puede negatively impact mental health y academic performance.\n\n### 4. **El razonamiento inverso: académico mal rendimiento afecta la salud**\n   - **Verosimilitud de disturbios de salud por baile rendimiento académico**: Un student con poca confianza o poca energy may developed underlying health issues.\n   - **Dinámica del bienestar estudiantil**: La relation between academic performance and physical and mental health es un campo de investigación constante.\n\n### Conclusión:\nLa salud y el rendimiento académico se influences mutuamente. Una buena salud fomenta una mejor rendimiento academic, pero también puede que una pobre salud may limitar生产能力 para estudiar. Es importante tener en cuenta que esta relación es bidirectional: un/Buen ambiente academic y una/Buen nutrición pueden mejorar la salud mental, que, a su vez, pode contribuir al rendimiento académico.",
@@ -1864,24 +1864,24 @@
                     "SBert": {
                         "accuracy": [
                             0.7770248651504517,
-                            0.7369292378425598,
-                            0.7671045064926147
+                            0.7369292974472046,
+                            0.7671046257019043
                         ],
-                        "prediccion_continua": 0.7603528698285421,
-                        "rmse": 0.24025295527791762,
-                        "prediccion_binaria": 0.7603528698285421,
-                        "std": 0.017050968311429868
+                        "prediccion_continua": 0.7603529294331869,
+                        "rmse": 0.2402528950031929,
+                        "prediccion_binaria": 0.7603529294331869,
+                        "std": 0.01705095675204527
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5687097391997309,
-                            0.5783519658457585,
+                            0.5687097684392627,
+                            0.5783519149723951,
                             0.5681504530921649
                         ],
-                        "prediccion_continua": 0.5717373860458848,
-                        "rmse": 0.4282882148475109,
+                        "prediccion_continua": 0.5717373788346075,
+                        "rmse": 0.4282882217275586,
                         "prediccion_binaria": 0,
-                        "std": 0.0046827840497010945
+                        "std": 0.004682753794720068
                     },
                     "prueba 0": {
                         "respuesta": "The statement that the human heart can continue beating outside the body with adequate oxygen is misleading and not entirely accurate. Here's a structured explanation of the situation:\n\n1. **Biological Necessity**: The human heart requires a systemic supply of oxygen through circulatory tissues to function. Without this, cells in the heart die due to lack of nutrients, leading to cell death.\n\n2. **Pulmonary Bypass and Pacemakers**: While medical procedures like cardiopulmonary bypass allow artificial support for breathing without stopping the natural heart, a pacemaker can restore heart contractions after a stoppage but does not sustain them on its own.\n\n3. **External Stimulators**: Devices such as external pulse generators or artificial hearts provide electrical stimulation to the heart. These are not independent of a living body and rely on external systems for support.\n\n4. **Experimental Treatments**: Stem cell-based therapies involve transferring heart cells into a synthetic substrate, but these are experimental and complex, requiring medical expertise.\n\n5. **Misunderstanding the Statement**: The original statement likely confuses external stimulation with true independents beating outside the body without any living connection or systemic oxygen supply.\n\nIn conclusion, for an artificial organ to sustain heart contractions outside the body, it must provide both electrical stimulation and sustained systemic oxygen supply, typically through established medical devices. The statement oversimplifies these complex processes.",
@@ -1907,25 +1907,25 @@
                     ],
                     "SBert": {
                         "accuracy": [
-                            0.8168939352035522,
-                            0.9035979509353638,
+                            0.816893994808197,
+                            0.9035978317260742,
                             0.8784767389297485
                         ],
-                        "prediccion_continua": 0.8663228750228882,
-                        "rmse": 0.13855094010296953,
-                        "prediccion_binaria": 0.8663228750228882,
-                        "std": 0.03642511854847254
+                        "prediccion_continua": 0.8663228551546732,
+                        "rmse": 0.13855094149368957,
+                        "prediccion_binaria": 0.8663228551546732,
+                        "std": 0.036425050923633955
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5310340910170028,
-                            0.6068645074574069,
-                            0.5808248945986928
+                            0.531034053907615,
+                            0.606864493236932,
+                            0.5808249018545849
                         ],
-                        "prediccion_continua": 0.5729078310243675,
-                        "rmse": 0.4282492686404158,
+                        "prediccion_continua": 0.572907816333044,
+                        "rmse": 0.42824928417040714,
                         "prediccion_binaria": 0,
-                        "std": 0.03145974079265126
+                        "std": 0.03145975274946124
                     },
                     "prueba 0": {
                         "respuesta": "La medicina se basa en diagnose les illness y les travez les drogues, operaciones, o procediments medicos. Ella promove el salud holistic y la preventive, incluyend specialized care through doctors y nurses. Les médecins usan tests, ensayos, y exámenes per a diagnosticar los problemas, y dan recomendations basades en ls investigations.",
@@ -1954,13 +1954,13 @@
                     "SBert": {
                         "accuracy": [
                             0.6502829194068909,
-                            0.6044878959655762,
+                            0.6044880151748657,
                             0.6695810556411743
                         ],
-                        "prediccion_continua": 0.6414506236712137,
-                        "rmse": 0.3595870500483876,
+                        "prediccion_continua": 0.6414506634076437,
+                        "rmse": 0.35958700634203733,
                         "prediccion_binaria": 0,
-                        "std": 0.027298192188129403
+                        "std": 0.027298138383588248
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -1997,25 +1997,25 @@
                     ],
                     "SBert": {
                         "accuracy": [
-                            0.8660205602645874,
-                            0.8144052028656006,
-                            0.7997803092002869
+                            0.8660204410552979,
+                            0.814405083656311,
+                            0.7997802495956421
                         ],
-                        "prediccion_continua": 0.8267353574434916,
-                        "rmse": 0.1755788935484622,
-                        "prediccion_binaria": 0.8267353574434916,
-                        "std": 0.028413227544008532
+                        "prediccion_continua": 0.826735258102417,
+                        "rmse": 0.17557898852996923,
+                        "prediccion_binaria": 0.826735258102417,
+                        "std": 0.02841320869544675
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5431591343379049,
+                            0.5431591787083094,
                             0.5590855367514078,
-                            0.5350328449515535
+                            0.535032796760526
                         ],
-                        "prediccion_continua": 0.545759172013622,
-                        "rmse": 0.4543506706332062,
+                        "prediccion_continua": 0.5457591707400811,
+                        "rmse": 0.45435067220103564,
                         "prediccion_binaria": 0,
-                        "std": 0.009990099854057414
+                        "std": 0.009990113252317644
                     },
                     "prueba 0": {
                         "respuesta": "Los four premios más importantes del tenis son:\n\n1. **ATP World Tour Main Events (WPT)** - Este premio incluye los campeones de(ATP500) como el US Open en Nueva York, el Australian Open en Brisbeimeiser y otros campeños de ATP Tour.\n\n2. **WTA Tour Championship** - Also conocido como la WTA World Championship, organizará en Praga el wimbledon para la WTA Tour.\n\n3. **US Open (Grand Slam)** - El más famoso campeonato del mundo, se celebra en New York y es considerado uno de los Grand Slams más importantes.\n\n4. **Australian Open (Grand Slam)** - El otro campeonato del Grand Slams, se举行a en enero en Aus祭地.\n\nEstos cuatro premios son los que más destacan por su exigibilidad y su importancia en la carrera del tenis profesional.",
@@ -2041,14 +2041,14 @@
                     ],
                     "SBert": {
                         "accuracy": [
-                            0.42746472358703613,
+                            0.4274646043777466,
                             0.4532642960548401,
-                            0.5365578532218933
+                            0.5365577936172485
                         ],
-                        "prediccion_continua": 0.47242895762125653,
-                        "rmse": 0.5296209953403719,
+                        "prediccion_continua": 0.47242889801661175,
+                        "rmse": 0.5296210556821587,
                         "prediccion_binaria": 0,
-                        "std": 0.04655313038596078
+                        "std": 0.04655314139687605
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2086,24 +2086,24 @@
                     "SBert": {
                         "accuracy": [
                             0.713982105255127,
-                            0.7580026388168335,
-                            0.6916582584381104
+                            0.7580025792121887,
+                            0.6916583180427551
                         ],
                         "prediccion_continua": 0.7212143341700236,
-                        "rmse": 0.2801449556469676,
+                        "rmse": 0.2801449509417491,
                         "prediccion_binaria": 0.7212143341700236,
-                        "std": 0.02756353936232037
+                        "std": 0.02756349154029177
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5254740831986536,
-                            0.529454181554191,
-                            0.5358660248704992
+                            0.5254740497580689,
+                            0.529454137005837,
+                            0.5358660471072303
                         ],
-                        "prediccion_continua": 0.5302647632077813,
-                        "rmse": 0.46975474446513277,
+                        "prediccion_continua": 0.5302647446237121,
+                        "rmse": 0.4697547632761152,
                         "prediccion_binaria": 0,
-                        "std": 0.004281035302401575
+                        "std": 0.004281060286024344
                     },
                     "prueba 0": {
                         "respuesta": "El deporte que se aduda que te recomiendo es el **Volejín**. Es un juego que se hace con un chorro de pelota, no utiliza los pies y es ideal paraThose que buscan una actividad occupationel que incluya periodicheck descansos y evita la agilidad demenudo. Es\nrápido, f:])e limpio y te permite hacer periodicheck tiempos de descansos para volverse más refresco.\n\nOtra opción son el **Tenis Limpón**, que también se hace con palillos ($$ en lugar de billones) y es una activities occupationel que permites\nparar periodicheck periodicos descansos.\n\nAmbas actividades son morbidas, f:])e limpio y idélicas paraThose que buscan un deporte occupationel con periodicHECK periodicos descansos.",
@@ -2130,24 +2130,24 @@
                     "SBert": {
                         "accuracy": [
                             0.79231858253479,
-                            0.8028956651687622,
-                            0.833053708076477
+                            0.8028955459594727,
+                            0.8330535888671875
                         ],
-                        "prediccion_continua": 0.8094226519266764,
-                        "rmse": 0.1913572177513717,
-                        "prediccion_binaria": 0.8094226519266764,
-                        "std": 0.017258597477349102
+                        "prediccion_continua": 0.8094225724538168,
+                        "rmse": 0.19135729334859372,
+                        "prediccion_binaria": 0.8094225724538168,
+                        "std": 0.01725855809675338
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5198805407408824,
-                            0.5524356062436784,
-                            0.5283568651521124
+                            0.5198805277229795,
+                            0.5524356136123176,
+                            0.5283568670087666
                         ],
-                        "prediccion_continua": 0.5335576707122244,
-                        "rmse": 0.46664612872670935,
+                        "prediccion_continua": 0.5335576694480212,
+                        "rmse": 0.4666461302100102,
                         "prediccion_binaria": 0,
-                        "std": 0.013789956643112954
+                        "std": 0.01378996407596633
                     },
                     "prueba 0": {
                         "respuesta": "El mejor_option para el atletismoDepende de lo que hables la actividad en la quaestión: \n\n- **Gafas de natación** son indisolubles para las actividades que se realizan en agua, como el nadar o la tenis marina. Ayudan a reducir la resistencia del water, facilitan el breatheo y protect los ojos. Son Indispensables para cualquier atleta que realice actividad en agua.\n\n- **Bicicleta** es mejor para actividades en tierra, como el ciclismo, caminar, o incluso entrenamiento al aire libre. Improve la fitness cardiomusculares, la Velocidad y la resistencia.\n\nSi quieres ser un全面发展 de atleta que practica tantoActivities en agua com nterrain, podrías considerar Hacer un combo con gafas de natación más una ciclistas.\n\nEl mejor_optionDepende de lo que buscas y las tuvas tu actividad principal.",
@@ -2173,25 +2173,25 @@
                     ],
                     "SBert": {
                         "accuracy": [
-                            0.7284491658210754,
-                            0.9183367490768433,
+                            0.7284490466117859,
+                            0.9183368682861328,
                             0.8674410581588745
                         ],
                         "prediccion_continua": 0.8380756576855978,
-                        "rmse": 0.18072134642099064,
+                        "rmse": 0.18072138817288463,
                         "prediccion_binaria": 0.8380756576855978,
-                        "std": 0.08025404923282056
+                        "std": 0.08025414325243728
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5682522720972359,
-                            0.5562740860418509,
-                            0.5186537314797984
+                            0.5682523013442368,
+                            0.5562740933980542,
+                            0.5186537072991143
                         ],
-                        "prediccion_continua": 0.5477266965396285,
-                        "rmse": 0.45276668660047414,
+                        "prediccion_continua": 0.5477267006804684,
+                        "rmse": 0.4527666834699572,
                         "prediccion_binaria": 0,
-                        "std": 0.02113129130494911
+                        "std": 0.0211313128558023
                     },
                     "prueba 0": {
                         "respuesta": "**Rafael Nadal: A Legend in Professional Tennis**\n\n**Early Life & Background:**\nPablo de la Hoz en el Paseo, also known as Rafa Nadal, was born on April 26, 1980, in Seville, Spain. Spaniard by heritage but fluent in English due to his American father, he developed an early passion for tennis from his parents.\n\n**Early Career & Professional Milestones:**\nAt just 7 years old, Rafa signed professionally at a young age for €52,500 (equivalent to around $174,000 in today's money). By the time he was 16, he had already played on the ATP Tour. He dominated men's singles from 2003 until 2017, a prodigious 14-year streak of success.\n\n**Achievements & Titles:**\nA multiple-time Grand Slam champion (8 majors in singles by age 40), Nadal also clinched the Billie Jean King Cup. Notably, he won his eighth Grand Slam title at the US Open with Ana Radu in mixed doubles, a remarkable feat as few men have achieved.\n\n**Golden Era & Transition:**\nReached more than 70 tournament wins early on and remains one of the most versatile players due to adaptability across different court conditions. Retired from professional tennis at 43, his post-career contributions include coaching as young as 16. He also founded the Red Bull Kids Tennis Academy, extending his passion for tennis beyond the court.\n\n**Injuries & Legacy:**\nFaced injuries that slowed him down late in his career but showcased resilience and determination to return stronger after restructuring his body. His enduring spirit is evident outside of tennis, with awards such as the El Clásico for Best Player twice during his illustrious career.\n\n**Impact on Tennis:**\nNadal's achievements have significantly influenced tennis history through his dominance, adaptability, and contribution to its growth globally. His legacy endures both as a player and an icon, inspiring future generations.\n\nRafael Nadal's extraordinary career marked a unique chapter in professional tennis, blending unmatched skill, resilience, and passion that continue to captivate audiences worldwide.",
@@ -2218,13 +2218,13 @@
                     "SBert": {
                         "accuracy": [
                             0.727159857749939,
-                            0.722199022769928,
-                            0.6441535353660583
+                            0.7221989035606384,
+                            0.6441535949707031
                         ],
-                        "prediccion_continua": 0.6978374719619751,
-                        "rmse": 0.3045443769335276,
+                        "prediccion_continua": 0.6978374520937601,
+                        "rmse": 0.3045443899654145,
                         "prediccion_binaria": 0,
-                        "std": 0.03801426273782453
+                        "std": 0.03801420921465803
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2262,13 +2262,13 @@
                     "SBert": {
                         "accuracy": [
                             0.4312898516654968,
-                            0.4854714870452881,
-                            0.6208377480506897
+                            0.48547130823135376,
+                            0.6208376884460449
                         ],
-                        "prediccion_continua": 0.5125330289204916,
-                        "rmse": 0.4939415744010325,
+                        "prediccion_continua": 0.5125329494476318,
+                        "rmse": 0.4939416517412914,
                         "prediccion_binaria": 0,
-                        "std": 0.07971343066472757
+                        "std": 0.07971342390520034
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2305,25 +2305,25 @@
                     ],
                     "SBert": {
                         "accuracy": [
-                            0.8984372019767761,
+                            0.8984373807907104,
                             0.8835780024528503,
-                            0.8664975166320801
+                            0.8664975762367249
                         ],
-                        "prediccion_continua": 0.8828375736872355,
-                        "rmse": 0.11788694657817496,
-                        "prediccion_binaria": 0.8828375736872355,
-                        "std": 0.013049828888974246
+                        "prediccion_continua": 0.8828376531600952,
+                        "rmse": 0.11788687272718813,
+                        "prediccion_binaria": 0.8828376531600952,
+                        "std": 0.013049875262319866
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5325106238604521,
+                            0.5325106386986147,
                             0.5125721897851424,
-                            0.5556263800590525
+                            0.5556263947757794
                         ],
-                        "prediccion_continua": 0.5335697312348824,
-                        "rmse": 0.46676193113606873,
+                        "prediccion_continua": 0.5335697410865121,
+                        "rmse": 0.46676192151202733,
                         "prediccion_binaria": 0,
-                        "std": 0.017592746731886284
+                        "std": 0.017592752584421126
                     },
                     "prueba 0": {
                         "respuesta": "El SARS-CoV-2 es el virus responsabilidad de la COVID-19, que surgió en Wuhan, China, en diciembre de 2019. Su transmisión rápida y virulentez han afectado notablemente el mundo global, con elevada Mortalidad por etnia y edad, impacto economy significativo, y un desafío para la Logística internacional. medidas como limites al viaje, ordenes Stay home, y testings han ayudado a controlar la spread del virus. La situation mental ha sido afectada por estrés y incertidumbre. Algunos países han mejor understand - la pandemic than others, y la vacunación ha playo crucial role en reducir la infección y mortalidad. El impacto ambiental también es un tópico de preocupación.",
@@ -2360,14 +2360,14 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5334398389699123,
-                            0.5519138564163513,
-                            0.5291782604965498
+                            0.5334398538044223,
+                            0.5519138306204344,
+                            0.5291782790595692
                         ],
-                        "prediccion_continua": 0.5381773186276045,
-                        "rmse": 0.4619280919223764,
+                        "prediccion_continua": 0.5381773211614753,
+                        "rmse": 0.4619280889621243,
                         "prediccion_binaria": 0,
-                        "std": 0.009867779743096832
+                        "std": 0.00986775975634956
                     },
                     "prueba 0": {
                         "respuesta": "Sí, cierto, frequently attending the gym ( Spanish for \"gym\" ) is important for improving muscle strength and overall fitness. However, the key factors that contribute to accelerated muscle improvement are:\n\n1. **Consistency**: Regular exercise helps your body recognize muscle groups and keeps them in a conditioned state.\n2. **Intensity**: Exercising at or near your maximum capacity helps stimulate muscle growth more effectively than low-intensity workouts.\n3. **Recovery**: Ensuring adequate rest between workouts allows muscles to recover and repair, which is essential for growth.\n4. **Nutrition**: Proper nutrition provides the nutrients necessary for muscle protein synthesis.\n5. **Form**: Correct exercise form minimizes injury risk and maximizes effectiveness.\n\nWhile attending the gym every day can be beneficial when done consistently with these factors in mind, it's not solely dependent on frequency alone.",
@@ -2394,24 +2394,24 @@
                     "SBert": {
                         "accuracy": [
                             0.8496121168136597,
-                            0.8572983741760254,
-                            0.8886451721191406
+                            0.8572981357574463,
+                            0.8886450529098511
                         ],
-                        "prediccion_continua": 0.8651852210362753,
-                        "rmse": 0.13586778759079213,
-                        "prediccion_binaria": 0.8651852210362753,
-                        "std": 0.016882863435408072
+                        "prediccion_continua": 0.8651851018269857,
+                        "rmse": 0.1358679036282649,
+                        "prediccion_binaria": 0.8651851018269857,
+                        "std": 0.016882845344883657
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.571482765515697,
+                            0.5714827509191027,
                             0.5888662009737369,
-                            0.5235438356985889
+                            0.5235437873771933
                         ],
-                        "prediccion_continua": 0.5612976007293409,
-                        "rmse": 0.43957119159951635,
+                        "prediccion_continua": 0.5612975797566776,
+                        "rmse": 0.4395712138013956,
                         "prediccion_binaria": 0,
-                        "std": 0.02762313085777795
+                        "std": 0.027623151078101094
                     },
                     "prueba 0": {
                         "respuesta": "Regular physical exercise is indeed a powerful tool for preventing chronic diseases. Here’s how it contributes to maintaining long-term health:\n\n1. **Lowering Risk Factors**: Exercise helps reduce levels of bad cholesterol and high blood pressure, which are major contributors to cardiovascular diseases like heart attacks and strokes.\n\n2. **Weight Management**: Consistent exercise can aid in weight loss or maintenance of a healthy weight, thereby decreasing the risk associated with obesity-related conditions.\n\n3. **Mental Health Benefits**: It improves mood by reducing stress and anxiety, complementing mental health for better overall well-being.\n\n4. **Safety and Injury Prevention**: Enhances physical and mental agility, making individuals safer in various environments.\n\n5. **Reversing Conditions**: Exercise can stabilize chronic conditions like diabetes by improving glucose control through better circulation and reduced hunger.\n\nRegular exercise should be part of a balanced approach that includes diet and good habits. While beneficial for most people, it's important to consult healthcare professionals if someone has pre-existing conditions.",
@@ -2437,14 +2437,14 @@
                     ],
                     "SBert": {
                         "accuracy": [
-                            0.15714605152606964,
-                            0.756527304649353,
-                            0.6316134929656982
+                            0.15714609622955322,
+                            0.7565272450447083,
+                            0.6316133737564087
                         ],
-                        "prediccion_continua": 0.5150956163803736,
-                        "rmse": 0.5493603402759545,
+                        "prediccion_continua": 0.51509557167689,
+                        "rmse": 0.5493603528655657,
                         "prediccion_binaria": 0,
-                        "std": 0.2581947370001618
+                        "std": 0.25819467983135663
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2481,25 +2481,25 @@
                     ],
                     "SBert": {
                         "accuracy": [
-                            0.8303213715553284,
-                            0.5891431570053101,
+                            0.8303214311599731,
+                            0.5891432762145996,
                             0.8484621047973633
                         ],
-                        "prediccion_continua": 0.7559755444526672,
-                        "rmse": 0.2711444363365975,
-                        "prediccion_binaria": 0.7559755444526672,
-                        "std": 0.1182005518223963
+                        "prediccion_continua": 0.755975604057312,
+                        "rmse": 0.271144363691938,
+                        "prediccion_binaria": 0.755975604057312,
+                        "std": 0.11820050823373048
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5183937394560412,
-                            0.503294777863768,
-                            0.5185193896932142
+                            0.5183937487566631,
+                            0.5032947890391537,
+                            0.5185193934133939
                         ],
-                        "prediccion_continua": 0.5134026356710079,
-                        "rmse": 0.48664985564364244,
+                        "prediccion_continua": 0.5134026437364035,
+                        "rmse": 0.4866498475465788,
                         "prediccion_binaria": 0,
-                        "std": 0.007147518874129656
+                        "std": 0.007147516658741391
                     },
                     "prueba 0": {
                         "respuesta": "El dolor muscular después de un correr 20 km puede tener diferentes causas, aunque la principal es el overtraining o un impacto agivo en el músculo debido a la actividad física excesiva. Asegúrate de reposar bien, ofreciendo suficiente descanso físico y mental. Para aliviar el dolor, concentrate en una dieta rica en nutrientes de muscles, como la leche, los polentaos, y los pescados, y evadir食物高盐含量。Realiza estiramientos y按摩. También importante dormir bien la noche anterior. Si el dolor persiste o es intensivo, considera seek más information y posiblemente una consult con un fisioterapeuta para una caminar hacia el futuro de salud fisica better.",
@@ -2526,24 +2526,24 @@
                     "SBert": {
                         "accuracy": [
                             0.6129789352416992,
-                            0.7968588471412659,
-                            0.7944480180740356
+                            0.7968586683273315,
+                            0.7944479584693909
                         ],
-                        "prediccion_continua": 0.7347619334856669,
-                        "rmse": 0.27886869659699254,
-                        "prediccion_binaria": 0.7347619334856669,
-                        "std": 0.08611920815615809
+                        "prediccion_continua": 0.7347618540128072,
+                        "rmse": 0.2788687546605602,
+                        "prediccion_binaria": 0.7347618540128072,
+                        "std": 0.08611915140785084
                     },
                     "Bleurt": {
                         "accuracy": [
                             0.5629588972135456,
-                            0.5198819485339368,
-                            0.5338963873808499
+                            0.5198819466742367,
+                            0.5338963762563418
                         ],
-                        "prediccion_continua": 0.5389124110427774,
-                        "rmse": 0.46143646964849244,
+                        "prediccion_continua": 0.5389124067147081,
+                        "rmse": 0.46143647403916477,
                         "prediccion_binaria": 0,
-                        "std": 0.017940201539543843
+                        "std": 0.01794020323390941
                     },
                     "prueba 0": {
                         "respuesta": "The individual is considering leaving the gym due to personal reasons, possibly because they no longer feel a need for it. Here's a breakdown of the thought process and considerations:\n\n1. **Personal Perception of Strength**: The phrase \"veoquite fuerte\" suggests an increased awareness or strength. It could refer to self-perception or observing others, but clarifying this would provide more context.\n\n2. **Decision Motivation**: The decision is based on the individual not needing the gym anymore. Possible reasons include budget constraints, lack of motivation for traditional workouts, personal health changes, or finding other forms of exercise more beneficial elsewhere.\n\n3. **Health and Goals Consideration**: It's important to consider how this change might affect overall health or well-being if they skip gyms entirely. However, the decision seems intentional based on self-evaluation rather than future health concerns.\n\n4. **Transition or Change in Lifestyle**: The individual might be at a phase where physical activity isn't as central due to personal circumstances or life changes.\n\n5. **Alternative Exercise Options**: They might have transitioned to home workouts or other forms of exercise that don't require the gym, making it unnecessary.\n\n6. **Support and Validation**: It's crucial to acknowledge their decision and possibly provide support in exploring alternative options if they decide to continue with a different routine.\n\nIn summary, the individual is making a conscious choice based on personal reasons and may benefit from exploring other forms of exercise or seeking new opportunities elsewhere.",
@@ -2569,25 +2569,25 @@
                     ],
                     "SBert": {
                         "accuracy": [
-                            0.7795983552932739,
+                            0.7795982360839844,
                             0.7380229234695435,
-                            0.7342329621315002
+                            0.734233021736145
                         ],
-                        "prediccion_continua": 0.7506180802981058,
-                        "rmse": 0.2502272247606637,
-                        "prediccion_binaria": 0.7506180802981058,
-                        "std": 0.020550477785729417
+                        "prediccion_continua": 0.750618060429891,
+                        "rmse": 0.25022723865867474,
+                        "prediccion_binaria": 0.750618060429891,
+                        "std": 0.02055040590829917
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5297589388165995,
-                            0.5619662507706815,
-                            0.5487826197703807
+                            0.5297589480968343,
+                            0.561966287451407,
+                            0.5487825754924281
                         ],
-                        "prediccion_continua": 0.5468359364525539,
-                        "rmse": 0.45335686653675117,
+                        "prediccion_continua": 0.5468359370135564,
+                        "rmse": 0.453356866204151,
                         "prediccion_binaria": 0,
-                        "std": 0.013220436648911338
+                        "std": 0.013220444473131225
                     },
                     "prueba 0": {
                         "respuesta": "La fecha de la final del Mundial de Fútbol 2034 no ha sido anunciada porinda. Generalmente, las finals se realizan un viernes por la noche o una tarde. Sin embargo, concretar una fecha exacta requeriría el anuncio formal de la Organización de autobaches(as) y de Control de Juegos(ves).",
@@ -2613,14 +2613,14 @@
                     ],
                     "SBert": {
                         "accuracy": [
-                            0.8317552208900452,
-                            0.7044349312782288,
-                            0.4814385771751404
+                            0.8317551612854004,
+                            0.7044349908828735,
+                            0.4814385175704956
                         ],
-                        "prediccion_continua": 0.6725429097811381,
-                        "rmse": 0.3580367601184761,
+                        "prediccion_continua": 0.6725428899129232,
+                        "rmse": 0.35803678182927606,
                         "prediccion_binaria": 0,
-                        "std": 0.14478320227682276
+                        "std": 0.14478321102974848
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2659,12 +2659,12 @@
                         "accuracy": [
                             0.6974890828132629,
                             0.6751618385314941,
-                            0.6692538261413574
+                            0.6692537069320679
                         ],
-                        "prediccion_continua": 0.6806349158287048,
-                        "rmse": 0.3195964735337002,
+                        "prediccion_continua": 0.680634876092275,
+                        "rmse": 0.319596514656412,
                         "prediccion_binaria": 0,
-                        "std": 0.012159313608863196
+                        "std": 0.012159350802143495
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2701,14 +2701,14 @@
                     ],
                     "SBert": {
                         "accuracy": [
-                            0.6449945569038391,
+                            0.6449944972991943,
                             0.6718120574951172,
-                            0.670026421546936
+                            0.6700263619422913
                         ],
-                        "prediccion_continua": 0.6622776786486307,
-                        "rmse": 0.33794415352767493,
+                        "prediccion_continua": 0.6622776389122009,
+                        "rmse": 0.33794419379856183,
                         "prediccion_binaria": 0,
-                        "std": 0.012242735175573229
+                        "std": 0.012242750648534166
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2745,25 +2745,25 @@
                     ],
                     "SBert": {
                         "accuracy": [
-                            0.7160707116127014,
+                            0.7160708904266357,
                             0.7912735939025879,
                             0.7084203958511353
                         ],
-                        "prediccion_continua": 0.7385882337888082,
-                        "rmse": 0.2640714669441262,
-                        "prediccion_binaria": 0.7385882337888082,
-                        "std": 0.03738486512437802
+                        "prediccion_continua": 0.738588293393453,
+                        "rmse": 0.2640714028573042,
+                        "prediccion_binaria": 0.738588293393453,
+                        "std": 0.0373848292235931
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5228489307682158,
-                            0.5225030686864688,
-                            0.589174905453121
+                            0.5228489233331942,
+                            0.5225030872751913,
+                            0.5891748910259456
                         ],
-                        "prediccion_continua": 0.5448423016359352,
-                        "rmse": 0.4562359479451855,
+                        "prediccion_continua": 0.544842300544777,
+                        "rmse": 0.4562359483825444,
                         "prediccion_binaria": 0,
-                        "std": 0.031348202777337075
+                        "std": 0.0313481932995933
                     },
                     "prueba 0": {
                         "respuesta": "En la película *Space Jam* (1999), LeBron James actuó como Dr. Charles \"Dr. Jam\"atum, un entrenador destacado del team de los \"Cañones\", que lucha contra el team \"Warriors\" contra Michael Jordan en la cancha de beisbol de la ciudad de Nueva York.\n\nAdemás, se destaca a Mark Walberg como Pops, un ballerino que图为Chosen Ones en su primer retorno en la pel divergente al cuadruple.",
@@ -2789,25 +2789,25 @@
                     ],
                     "SBert": {
                         "accuracy": [
-                            0.763253927230835,
-                            0.8999173045158386,
-                            0.8079993724822998
+                            0.7632541656494141,
+                            0.8999173641204834,
+                            0.8079994916915894
                         ],
-                        "prediccion_continua": 0.8237235347429911,
-                        "rmse": 0.18522912826567786,
-                        "prediccion_binaria": 0.8237235347429911,
-                        "std": 0.05688969814085397
+                        "prediccion_continua": 0.8237236738204956,
+                        "rmse": 0.1852289747651404,
+                        "prediccion_binaria": 0.8237236738204956,
+                        "std": 0.05688962929394064
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5817121511486589,
-                            0.5364222689086252,
-                            0.5295677820409389
+                            0.581712122142282,
+                            0.536422294847284,
+                            0.5295677653357559
                         ],
-                        "prediccion_continua": 0.5492340673660743,
-                        "rmse": 0.4513592467774019,
+                        "prediccion_continua": 0.5492340607751073,
+                        "rmse": 0.4513592526611761,
                         "prediccion_binaria": 0,
-                        "std": 0.023135332894316414
+                        "std": 0.02313531926634507
                     },
                     "prueba 0": {
                         "respuesta": "The relationship between sports and academic performance is multifaceted and interconnected, with several key factors tying them together:\n\n1. **Time Management:** Both sports and academics demand regular effort and discipline. The amount of time spent on one activity can impact the other, as time allocation affects how much of each can be pursued effectively.\n\n2. **Motivation:** While academic motivation often stems from achieving grades and homework, athletes might be driven by winning or personal challenges, but some may also find motivation in their desire to perform well academically alongside their sport.\n\n3. **Perseverance:** Sports require resilience to handle losses, injuries, and pressure, skills that are also crucial in academic settings for overcoming difficult subjects or projects.\n\n4. **Academic Load:** A heavy academic workload can strain time and energy available for sports, illustrating an inverse relationship between the two.\n\n5. **Mental Strength:** Sports focus often enhances concentration and discipline, translating into better academic performance due to improved mental fortitude.\n\n6. **Social Interactions:** Both environments involve social dynamics—classrooms and team settings—that require good communication and teamwork skills.\n\n7. **Health Benefits:** Physical activity from sports can improve overall health, potentially aiding cognitive function and focus, indirectly benefiting academics.\n\n8. **Team Influence:** Peers' motivation in one area can positively influence performance in another, creating a ripple effect between study habits and athletic involvement.\n\n9. **Skill Transfer:** Traits like determination, goal-setting, performance excellence, and persistence observed in sports can enhance academic performance, and vice versa.\n\nIn summary, both sports and academics require similar mental and physical resources, with each potentially influencing the other depending on how resources are allocated. This interplay highlights a balance between athletics and academics that can enrich personal development.",
@@ -2833,14 +2833,14 @@
                     ],
                     "SBert": {
                         "accuracy": [
-                            0.42493781447410583,
-                            0.4800456464290619,
+                            0.4249378442764282,
+                            0.4800455868244171,
                             0.48008647561073303
                         ],
-                        "prediccion_continua": 0.4616899788379669,
-                        "rmse": 0.5389369535984888,
+                        "prediccion_continua": 0.46168996890385944,
+                        "rmse": 0.5389369621669048,
                         "prediccion_binaria": 0,
-                        "std": 0.025987709990515574
+                        "std": 0.025987681908241193
                     },
                     "Bleurt": {
                         "accuracy": [
@@ -2877,25 +2877,25 @@
                     ],
                     "SBert": {
                         "accuracy": [
-                            0.8755404949188232,
-                            0.9309176802635193,
-                            0.9108663201332092
+                            0.8755406141281128,
+                            0.9309176206588745,
+                            0.9108664989471436
                         ],
-                        "prediccion_continua": 0.9057748317718506,
-                        "rmse": 0.09696622812749525,
-                        "prediccion_binaria": 0.9057748317718506,
-                        "std": 0.022892511213285338
+                        "prediccion_continua": 0.9057749112447103,
+                        "rmse": 0.0969661364892886,
+                        "prediccion_binaria": 0.9057749112447103,
+                        "std": 0.022892450168497093
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5435892842135267,
-                            0.561924929503376,
-                            0.6129130943315638
+                            0.5435893359712142,
+                            0.5619249184989294,
+                            0.612913080190324
                         ],
-                        "prediccion_continua": 0.5728091026828221,
-                        "rmse": 0.4281965208543494,
+                        "prediccion_continua": 0.5728091115534891,
+                        "rmse": 0.42819651047897367,
                         "prediccion_binaria": 0,
-                        "std": 0.029329127520499116
+                        "std": 0.029329105248039132
                     },
                     "prueba 0": {
                         "respuesta": "El deporte es una actividad física organizada con reglas y estrategias dirigidas a la competición odivela entre personas para alcanzar un objetivo como la salud físico, el deleite intelectual o la图为比赛。包含许多类型，如 tapped sports（team sports）、individual sports 和 more. 它强调团队合作、策略和技能的运用，并且通过规则确保公平竞争。体育也是社交活动，促进团结和友谊，此外还包括休闲活动如瑜伽或 martial arts for physical exercise without competition.",
@@ -2924,25 +2924,25 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.5980215072631836,
-                        0.8154846429824829,
-                        0.7158876061439514
+                        0.5980217456817627,
+                        0.8154845833778381,
+                        0.7158876657485962
                     ],
-                    "prediccion_continua": 0.7097979187965393,
-                    "rmse": 0.3035086368572724,
-                    "prediccion_binaria": 0.7097979187965393,
-                    "std": 0.08888332077583332
+                    "prediccion_continua": 0.709797998269399,
+                    "rmse": 0.3035085250805809,
+                    "prediccion_binaria": 0.709797998269399,
+                    "std": 0.08888319857060653
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.5212032924404513,
-                        0.5764290181107055,
-                        0.5323477307614056
+                        0.5212032905811558,
+                        0.5764290617696657,
+                        0.5323477418904999
                     ],
-                    "prediccion_continua": 0.5433266804375209,
-                    "rmse": 0.45729542194389394,
+                    "prediccion_continua": 0.5433266980804404,
+                    "rmse": 0.4572954053193455,
                     "prediccion_binaria": 0,
-                    "std": 0.023844960277377203
+                    "std": 0.023844979347260056
                 },
                 "prueba 0": {
                     "respuesta": "El descubrimiento formal del pedestal principal en Nueva York ocurrió el 21 de Diciembre de 1492, bajo el mandato del conquistador Pizarro. Sin embargo, varios pases consideraron a Nueva York como el primer estado naciente desde ashiat (siglo XIV) o al Gesú en enero de 1783.\n\nPara obtener más detalles sobre este tema, puedes consultation History.com.",
@@ -2968,14 +2968,14 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.5027806758880615,
-                        0.2859381437301636,
-                        0.5006318092346191
+                        0.5027808547019958,
+                        0.2859382629394531,
+                        0.5006318688392639
                     ],
-                    "prediccion_continua": 0.42978354295094806,
-                    "rmse": 0.5792178579193806,
+                    "prediccion_continua": 0.4297836621602376,
+                    "rmse": 0.579217740636389,
                     "prediccion_binaria": 0,
-                    "std": 0.10171784033856836
+                    "std": 0.10171784075831113
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3013,13 +3013,13 @@
                 "SBert": {
                     "accuracy": [
                         0.6828488707542419,
-                        0.322609543800354,
-                        0.7068206071853638
+                        0.32260948419570923,
+                        0.7068206667900085
                     ],
                     "prediccion_continua": 0.5707596739133199,
-                    "rmse": 0.4638235387527541,
+                    "rmse": 0.46382355521071367,
                     "prediccion_binaria": 0,
-                    "std": 0.1757413370898496
+                    "std": 0.17574138052634755
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3056,14 +3056,14 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.3819046914577484,
-                        0.526120126247406,
-                        0.3756052851676941
+                        0.3819047510623932,
+                        0.5261201858520508,
+                        0.3756053149700165
                     ],
-                    "prediccion_continua": 0.42787670095761615,
-                    "rmse": 0.5763311273623385,
+                    "prediccion_continua": 0.4278767506281535,
+                    "rmse": 0.5763310789554413,
                     "prediccion_binaria": 0,
-                    "std": 0.069516178401888
+                    "std": 0.06951618587165899
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3100,14 +3100,14 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.13375627994537354,
-                        0.23602356016635895,
-                        0.24697910249233246
+                        0.13375625014305115,
+                        0.23602353036403656,
+                        0.24697913229465485
                     ],
-                    "prediccion_continua": 0.20558631420135498,
-                    "rmse": 0.7960482931828982,
+                    "prediccion_continua": 0.20558630426724753,
+                    "rmse": 0.7960483041297116,
                     "prediccion_binaria": 0,
-                    "std": 0.050988046591501225
+                    "std": 0.05098806272079297
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3144,25 +3144,25 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.6943367123603821,
-                        0.7303216457366943,
-                        0.7099489569664001
+                        0.6943367719650269,
+                        0.7303217053413391,
+                        0.7099490761756897
                     ],
-                    "prediccion_continua": 0.7115357716878256,
-                    "rmse": 0.28884024865757196,
-                    "prediccion_binaria": 0.7115357716878256,
-                    "std": 0.014733574882888113
+                    "prediccion_continua": 0.7115358511606852,
+                    "rmse": 0.2888401691790227,
+                    "prediccion_binaria": 0.7115358511606852,
+                    "std": 0.014733572743096262
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.5654928356801622,
-                        0.5860636714683841,
-                        0.5334143420686646
+                        0.5654928722939075,
+                        0.5860636425490393,
+                        0.5334143939898046
                     ],
-                    "prediccion_continua": 0.5616569497390703,
-                    "rmse": 0.43887809093593694,
+                    "prediccion_continua": 0.5616569696109172,
+                    "rmse": 0.43887806954516395,
                     "prediccion_binaria": 0,
-                    "std": 0.02166446379480836
+                    "std": 0.02166443253365677
                 },
                 "prueba 0": {
                     "respuesta": "Felipe II became King of France due to a combination of personal ambition and strategic political maneuvering. Here's a concise explanation:\n\n1. **Background**: As the son-in-law of Ferdinand and Isabella of Spain, Felipe II was closely aligned with their anti Christiano program aimed at converting their subjects while seeking independence from spain.\n\n2. **Rebellion Motivation**:\n   - **Pugwash Affair (1380)**: A group of French and Spanish nobles Aspected themselves to seek peace, which oppose spain's actions. Felipe II opposed this, leading to his rebellion.\n   - **Political Move**: His son, Castile(I), was heir apparent. Felipe2 tricked Castile into accepting the throne by offering him an omen or false vision of his ascension in 1385.\n\n3. **Throne Seat**: On behalf of Castile(I) at Lleida, Felipe II falsely claimed to be dead and took charge, thus becoming king after a brief and contentious reign (12–16 years).\n\n4. **Factors Influencing His Rise**:\n   - Internal spain instability under Ferdinand and Isabella.\n   - Striking away from spain, perhaps gaining control over key territories.\n\nFelipe II's ascension was driven by his quest for autonomy from former enemies and rulers, using his father-in-law's actions and false omen to seize power.",
@@ -3188,25 +3188,25 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.733084499835968,
+                        0.7330846190452576,
                         0.45061904191970825,
-                        0.6704639792442322
+                        0.670464038848877
                     ],
-                    "prediccion_continua": 0.6180558403333029,
-                    "rmse": 0.40068995091990206,
-                    "prediccion_binaria": 0.6180558403333029,
-                    "std": 0.12112429840743773
+                    "prediccion_continua": 0.6180558999379476,
+                    "rmse": 0.4006899081098454,
+                    "prediccion_binaria": 0.6180558999379476,
+                    "std": 0.12112434474070538
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.5663138868639174,
+                        0.5663138575858214,
                         0.5855524873957486,
-                        0.5900981890744754
+                        0.5900982034917849
                     ],
-                    "prediccion_continua": 0.5806548544447138,
-                    "rmse": 0.4194718425317559,
+                    "prediccion_continua": 0.5806548494911183,
+                    "rmse": 0.41947184792569986,
                     "prediccion_binaria": 0,
-                    "std": 0.010309004617423404
+                    "std": 0.010309022596000838
                 },
                 "prueba 0": {
                     "respuesta": "The death of Jon Snow in \"Game of Thrones\" while fighting against Tywin Lannister, using a cursed hand from lichens, is purely a fictional event set within the show. From a European history perspective, there are no real-world consequences or parallels to his fictional demise. The Stark lineage's political struggles in Westeros do not reflect or influence historical events on the mainland. Thus, Jon Snow's death remains an internal plot device without impacting European reality.",
@@ -3232,14 +3232,14 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.20306865870952606,
+                        0.2030685991048813,
                         0.2195654809474945,
-                        0.20439699292182922
+                        0.2043970823287964
                     ],
-                    "prediccion_continua": 0.20901037752628326,
-                    "rmse": 0.7910250198595864,
+                    "prediccion_continua": 0.20901038746039072,
+                    "rmse": 0.7910250099013524,
                     "prediccion_binaria": 0,
-                    "std": 0.007483260168279719
+                    "std": 0.007483257570968294
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3278,23 +3278,23 @@
                     "accuracy": [
                         0.8550819158554077,
                         0.7281016707420349,
-                        0.7494383454322815
+                        0.7494384050369263
                     ],
-                    "prediccion_continua": 0.7775406440099081,
-                    "rmse": 0.2292822825726144,
-                    "prediccion_binaria": 0.7775406440099081,
-                    "std": 0.055517565095938255
+                    "prediccion_continua": 0.7775406638781229,
+                    "rmse": 0.22928226086045944,
+                    "prediccion_binaria": 0.7775406638781229,
+                    "std": 0.05551755503890202
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.5300820232433711,
-                        0.5526825679722929,
-                        0.5440818267353553
+                        0.5300820269551768,
+                        0.5526826121794863,
+                        0.5440818673950318
                     ],
-                    "prediccion_continua": 0.5422821393170064,
-                    "rmse": 0.4578126147191216,
+                    "prediccion_continua": 0.5422821688432317,
+                    "rmse": 0.45781258555407595,
                     "prediccion_binaria": 0,
-                    "std": 0.009313979157296176
+                    "std": 0.009313996610060696
                 },
                 "prueba 0": {
                     "respuesta": "¡Claro! Aquí tienes todos los países del mundo ordenados de A a Z:\n\n**A**\n1. Afghanistan\n2. Albania\n\n**B**\n3. Bahamas\n4. Bahrain\n\n**C**\n5. Canada\n6. Chile\n7. Colombia\n8. Costa Rica\n\n**D**\n9. Denmark\n10. Dubai, Emiratos Suítes\n11. Dominican Republic\n\n**E**\n12. El Salvador\n13. Equatorial Guinea\n14. Eritrea\n15. Estonia\n16. Eswatini (Swazilandia)\n17. Espa&ntilde;a\n18. Ethiopia\n\n**F**\n19. Finland\n20.Fizzou, Rex\n21. France\n\n**G**\n22. Georgia (Graniada)\n23. Germany\n24. Ghana\n25. Greece\n26. Grossdeutschland (Berlín)\n\n**H**\n27. Hong Kong (Reino de China)\n28. Hungary\n\n**I**\n29. Iceland\n30. India\n31. Iraq\n32. Ireland\n33. Israel\n34. Italy\n35. Ivaniana, Bélabah\n\n**J**\n36. Jamaica\n\n**K**\n37. Kazakhstan\n38. Kenya\n39. Kirghizia (Kazakhstan)\n40. Korea: Corea del Sur\n41. Kreta, Irlanda del Norte\n\n**L**\n42. Leg HOLu\n43. Leg惠州? No, está correctamente ordenado...\n\n**M**\n45. Malawi\n46. Malta\n47. Mauritania\n48. McCuitché, Alemania\n49. Mexico\n50. Mishan (R P de China)\n\n**N**\n51. Nepal\n\n**O**\n52. Pakistan\n53. Panama\n\n**P**\n54. Pakistan (reborro)\n55. Phil&astrophe;ippines\n56. Poland\n57. Portugal\n58. Qatar\n59. Romania\n\n**Q**\n60. Qatar\n\n**R**\n61. Roberts, E U\n62. Russia\n63. République démocratique desGrowneye (Reunión)\n64. Rumania\n65. Rwanda\n\n**S**\n67. Saudi Arabia\n68. Senegal\n69. Serbia\n70. Singapore\n71. Slovakia\n72. Slovenia\n73. South Africa\n74. Spain\n75. Sqauzlande ( Suecia )\n76. Sudan\n77. Suriname\n78. Swazilandia\n\n**T**\n79. Tanzania\n80. Thailand\n81. The Gambia\n82.婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷婷",
@@ -3321,24 +3321,24 @@
                 "SBert": {
                     "accuracy": [
                         0.9786565899848938,
-                        0.513062596321106,
-                        0.4757694602012634
+                        0.5130627751350403,
+                        0.4757692813873291
                     ],
                     "prediccion_continua": 0.6558295488357544,
-                    "rmse": 0.4132719988539791,
+                    "rmse": 0.41327200423265165,
                     "prediccion_binaria": 0.6558295488357544,
-                    "std": 0.22878034352225918
+                    "std": 0.22878035323836812
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.703559323274616,
-                        0.5534857923581185,
-                        0.5895944116137567
+                        0.703559360568693,
+                        0.5534858218194151,
+                        0.5895943827683459
                     ],
-                    "prediccion_continua": 0.6155465090821637,
-                    "rmse": 0.38973698798981493,
+                    "prediccion_continua": 0.615546521718818,
+                    "rmse": 0.3897369774082774,
                     "prediccion_binaria": 1,
-                    "std": 0.0639564940288501
+                    "std": 0.06395650550835941
                 },
                 "prueba 0": {
                     "respuesta": "El presidente actual de Estados Unidos es Donald Trump.",
@@ -3364,14 +3364,14 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.23691901564598083,
-                        0.25098204612731934,
-                        0.2860381305217743
+                        0.23691898584365845,
+                        0.25098198652267456,
+                        0.2860381007194519
                     ],
-                    "prediccion_continua": 0.25797973076502484,
-                    "rmse": 0.7423076709323789,
+                    "prediccion_continua": 0.25797969102859497,
+                    "rmse": 0.7423077107470722,
                     "prediccion_binaria": 0,
-                    "std": 0.020654257902620356
+                    "std": 0.02065426126831108
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3408,14 +3408,14 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.29335883259773254,
-                        0.7735285758972168,
+                        0.2933587431907654,
+                        0.7735284566879272,
                         0.5267771482467651
                     ],
-                    "prediccion_continua": 0.5312215189139048,
-                    "rmse": 0.5081243000238709,
+                    "prediccion_continua": 0.5312214493751526,
+                    "rmse": 0.5081243591800964,
                     "prediccion_binaria": 0,
-                    "std": 0.19605366598297067
+                    "std": 0.19605365302960048
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3452,25 +3452,25 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.7365254163742065,
-                        0.7737308740615845,
-                        0.7567451000213623
+                        0.7365254759788513,
+                        0.7737309336662292,
+                        0.7567452192306519
                     ],
-                    "prediccion_continua": 0.7556671301523844,
-                    "rmse": 0.24480571884206245,
-                    "prediccion_binaria": 0.7556671301523844,
-                    "std": 0.015208178385562496
+                    "prediccion_continua": 0.7556672096252441,
+                    "rmse": 0.24480563961019555,
+                    "prediccion_binaria": 0.7556672096252441,
+                    "std": 0.015208179793865994
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.5390462094638402,
+                        0.5390462390844152,
                         0.5979306875931487,
-                        0.6009189550722833
+                        0.6009189693663929
                     ],
-                    "prediccion_continua": 0.5792986173764241,
-                    "rmse": 0.42166487855071605,
+                    "prediccion_continua": 0.5792986320146523,
+                    "rmse": 0.421664863247707,
                     "prediccion_binaria": 0,
-                    "std": 0.02848888312661037
+                    "std": 0.028488872792100495
                 },
                 "prueba 0": {
                     "respuesta": "El conquistador visigoico (llamado catholicos en latín) de Granada en el año 711 dio una granada (pun unintended) para la unificación de España. Al derrotar a los Moors, lograron un control visigoico sobre una gran parte del península ibérica, incluyendo nowadays España y Portugal. Esto significó que un solo reino cristão-controlado cubria todo el territorio entre España, Portugal y la costa al norte de Arabia, un feat que facilitó el proceso posterior de unificación.\n\nLa conquista de Granada permitió a los Catholicos estender su dominio sobre una_regression de territorios, lo que fortaleció la cohesión política y cultural entre ambos países. Este cambio was crucial because it demostró que los cristianes kiberinos podían reclaimar grandes partes de su empero precedente bajo el Moermanejo, lo que contribuyóDirectamente al unificate Spain en un single órgano polémico.\n\nEn resumen, la captura de Granada after 711 allow the Visigoths (later la Iglesia católica) a unificar no solo Portugal, sino también una parte importante del norte de España, acercando todos los spanoles y葡萄牙es a una misma red此人idad. This was essential para el posterior derregamiento de Moermanos que try to expand their control into España y Portugal.\n\nEn conclusión, la granada de Granada en 711 fue un evento esencial para la integración polémica y cultural de España, demostrando que los cristianes kiberinos lograron unirse con Portugal bajo su dominio y estableciendo una base sólida para la posterior unificación顺利完成.",
@@ -3496,14 +3496,14 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.5439217686653137,
-                        0.47904151678085327,
-                        0.4410293698310852
+                        0.5439218282699585,
+                        0.4790416657924652,
+                        0.44102945923805237
                     ],
-                    "prediccion_continua": 0.48799755175908405,
-                    "rmse": 0.513761702130084,
+                    "prediccion_continua": 0.4879976511001587,
+                    "rmse": 0.5137616017014801,
                     "prediccion_binaria": 0,
-                    "std": 0.042480343347356606
+                    "std": 0.042480326080616075
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3540,14 +3540,14 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.5110450387001038,
+                        0.511044979095459,
                         0.5445839166641235,
-                        0.4997560381889343
+                        0.49975597858428955
                     ],
-                    "prediccion_continua": 0.5184616645177206,
-                    "rmse": 0.4819145098698191,
+                    "prediccion_continua": 0.5184616247812907,
+                    "rmse": 0.48191455065219185,
                     "prediccion_binaria": 0,
-                    "std": 0.01903749678985288
+                    "std": 0.019037524051973984
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3585,24 +3585,24 @@
                 "SBert": {
                     "accuracy": [
                         0.8292992115020752,
-                        0.8192073106765747,
-                        0.8126767873764038
+                        0.8192074298858643,
+                        0.8126769065856934
                     ],
-                    "prediccion_continua": 0.8203944365183512,
-                    "rmse": 0.17973567786635544,
-                    "prediccion_binaria": 0.8203944365183512,
-                    "std": 0.006837796759024346
+                    "prediccion_continua": 0.8203945159912109,
+                    "rmse": 0.17973559648234494,
+                    "prediccion_binaria": 0.8203945159912109,
+                    "std": 0.006837745010816714
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.546501462691951,
-                        0.5674379908419488,
-                        0.5451830578399344
+                        0.5465014848503603,
+                        0.5674379542667327,
+                        0.5451830504501954
                     ],
-                    "prediccion_continua": 0.5530408371246114,
-                    "rmse": 0.44707540974024446,
+                    "prediccion_continua": 0.5530408298557629,
+                    "rmse": 0.4470754165498504,
                     "prediccion_binaria": 0,
-                    "std": 0.010194543449281647
+                    "std": 0.010194523392344647
                 },
                 "prueba 0": {
                     "respuesta": "The first president of the United States was George Washington, who served from 1789 to 1797. John F. Kennedy, though an important figure, was not the first president; he became president on January 20, 1961, after his older brother, Lyndon B. Johnson, who had been vice president since 1953 under Eisenhower.\n\nBarack Obama was a later serving president, taking office in January 2009 following his election as their 44th President.",
@@ -3628,25 +3628,25 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.6798160076141357,
-                        0.5937439203262329,
-                        0.7365999221801758
+                        0.6798158884048462,
+                        0.5937439799308777,
+                        0.7366000413894653
                     ],
-                    "prediccion_continua": 0.6700532833735148,
-                    "rmse": 0.33513250725026106,
-                    "prediccion_binaria": 0.6700532833735148,
-                    "std": 0.05872786053695604
+                    "prediccion_continua": 0.6700533032417297,
+                    "rmse": 0.3351324898983547,
+                    "prediccion_binaria": 0.6700533032417297,
+                    "std": 0.058727873141948925
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.5336996266502911,
-                        0.5823426884012026,
-                        0.5402499409690069
+                        0.5336996044000856,
+                        0.5823427318922701,
+                        0.5402498928540623
                     ],
-                    "prediccion_continua": 0.5520974186735003,
-                    "rmse": 0.4484208532532114,
+                    "prediccion_continua": 0.5520974097154726,
+                    "rmse": 0.44842086390672103,
                     "prediccion_binaria": 0,
-                    "std": 0.02155317316304951
+                    "std": 0.021553208653489513
                 },
                 "prueba 0": {
                     "respuesta": "Conclusión:\n\nLas zanahorias son una fuente rica de vitaminas que benefician la salud del ojo, especialmente la维生素A, que es crucial para la visión nocturna y la protección contra ciertos enfermedades. Sin embargo, no hay evidence directlya que las zanahorias alabeadas por themselves mejorarán drásticamente la visión. Las vantajas de la zanahoria se refieren más a una dieta equilibrada que incluye diverse nutrientes, en lugar de la zanahoria específicamente. Por lo tanto, mientras que la zanahoria puede contribuir al bienestar visual general, no hay una evidence clara que las zanahorias mejorarán individualmente tu visión a menos que estén consumadas en una dieta más amplia y Balanceada.",
@@ -3672,14 +3672,14 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.726496696472168,
-                        0.3631189465522766,
-                        0.2457190304994583
+                        0.7264965772628784,
+                        0.363118976354599,
+                        0.2457190454006195
                     ],
-                    "prediccion_continua": 0.44511155784130096,
-                    "rmse": 0.5914280216087151,
+                    "prediccion_continua": 0.4451115330060323,
+                    "rmse": 0.5914280229523249,
                     "prediccion_binaria": 0,
-                    "std": 0.20466050303537053
+                    "std": 0.20466043958317923
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3716,14 +3716,14 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.2814628779888153,
-                        0.5394001007080078,
-                        0.3234335780143738
+                        0.28146302700042725,
+                        0.5394002199172974,
+                        0.32343360781669617
                     ],
-                    "prediccion_continua": 0.381432185570399,
-                    "rmse": 0.6288057427362714,
+                    "prediccion_continua": 0.3814322849114736,
+                    "rmse": 0.6288056461821238,
                     "prediccion_binaria": 0,
-                    "std": 0.11300673010887728
+                    "std": 0.11300673661635359
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3760,14 +3760,14 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.2626323997974396,
-                        0.15714138746261597,
-                        0.2090655416250229
+                        0.2626323699951172,
+                        0.15714141726493835,
+                        0.2090655267238617
                     ],
-                    "prediccion_continua": 0.20961310962835947,
-                    "rmse": 0.7915594178585807,
+                    "prediccion_continua": 0.20961310466130575,
+                    "rmse": 0.7915594214977961,
                     "prediccion_binaria": 0,
-                    "std": 0.043068265918927554
+                    "std": 0.043068241649568094
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3804,14 +3804,14 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.7577930688858032,
-                        0.3416804373264313,
+                        0.7577930092811584,
+                        0.3416803181171417,
                         0.6787624359130859
                     ],
-                    "prediccion_continua": 0.5927453140417734,
-                    "rmse": 0.4454370201120731,
+                    "prediccion_continua": 0.5927452544371287,
+                    "rmse": 0.4454370896426411,
                     "prediccion_binaria": 0,
-                    "std": 0.18043768911009064
+                    "std": 0.18043772622660506
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3848,14 +3848,14 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.6176424026489258,
+                        0.6176425218582153,
                         0.6651111245155334,
-                        0.382218599319458
+                        0.3822185695171356
                     ],
-                    "prediccion_continua": 0.5549907088279724,
-                    "rmse": 0.46188084690107,
+                    "prediccion_continua": 0.5549907386302948,
+                    "rmse": 0.46188082729337954,
                     "prediccion_binaria": 0,
-                    "std": 0.12369578612313062
+                    "std": 0.12369582012503937
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3894,14 +3894,14 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.57872474193573,
-                        0.4416810870170593,
-                        0.49700793623924255
+                        0.5787246227264404,
+                        0.44168102741241455,
+                        0.4970077872276306
                     ],
-                    "prediccion_continua": 0.505804588397344,
-                    "rmse": 0.49739114985353855,
+                    "prediccion_continua": 0.5058044791221619,
+                    "rmse": 0.49739125604091644,
                     "prediccion_binaria": 0,
-                    "std": 0.05629254927169843
+                    "std": 0.05629252819196113
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -3938,25 +3938,25 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.7775536179542542,
-                        0.5462096929550171,
+                        0.7775535583496094,
+                        0.5462095737457275,
                         0.6053071022033691
                     ],
-                    "prediccion_continua": 0.6430234710375468,
-                    "rmse": 0.3702208886706797,
-                    "prediccion_binaria": 0.6430234710375468,
-                    "std": 0.09813900436639163
+                    "prediccion_continua": 0.643023411432902,
+                    "rmse": 0.37022094931453053,
+                    "prediccion_binaria": 0.643023411432902,
+                    "std": 0.0981390163306575
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.6073995238958154,
-                        0.5257377513649845,
-                        0.5669414878881099
+                        0.6073995096821733,
+                        0.5257377959500158,
+                        0.5669414952051415
                     ],
-                    "prediccion_continua": 0.5666929210496366,
-                    "rmse": 0.4345877315457098,
+                    "prediccion_continua": 0.5666929336124434,
+                    "rmse": 0.43458771717698347,
                     "prediccion_binaria": 0,
-                    "std": 0.03333874235104643
+                    "std": 0.033338718327366575
                 },
                 "prueba 0": {
                     "respuesta": "En答: Soy Joaquín.",
@@ -3982,14 +3982,14 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        -0.022760741412639618,
-                        -0.02345992997288704,
-                        -0.023022308945655823
+                        -0.022760745137929916,
+                        -0.023459888994693756,
+                        -0.023022279143333435
                     ],
-                    "prediccion_continua": -0.023080993443727493,
-                    "rmse": 1.023081034104914,
+                    "prediccion_continua": -0.023080971091985703,
+                    "rmse": 1.023081011748295,
                     "prediccion_binaria": 0,
-                    "std": 0.00028844301971176026
+                    "std": 0.0002884257174618847
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4026,14 +4026,14 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.28398606181144714,
-                        0.4340459108352661,
-                        0.4083091616630554
+                        0.28398630023002625,
+                        0.43404582142829895,
+                        0.4083092212677002
                     ],
-                    "prediccion_continua": 0.3754470447699229,
-                    "rmse": 0.6279803709497191,
+                    "prediccion_continua": 0.3754471143086751,
+                    "rmse": 0.6279802884745906,
                     "prediccion_binaria": 0,
-                    "std": 0.06552062584808067
+                    "std": 0.06552049822207559
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4070,25 +4070,25 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.9116346836090088,
-                        0.5279902219772339,
-                        1.0000001192092896
+                        0.911634624004364,
+                        0.5279901027679443,
+                        1.0
                     ],
-                    "prediccion_continua": 0.8132083415985107,
-                    "rmse": 0.2772493821393747,
-                    "prediccion_binaria": 0.8132083415985107,
-                    "std": 0.2048806878363268
+                    "prediccion_continua": 0.8132082422574362,
+                    "rmse": 0.2772494561220189,
+                    "prediccion_binaria": 0.8132082422574362,
+                    "std": 0.20488069738117992
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.5544762552888588,
-                        0.6659424092348322,
-                        0.729408161185786
+                        0.5544762773752707,
+                        0.6659424887938378,
+                        0.7294081258929394
                     ],
-                    "prediccion_continua": 0.6499422752364924,
-                    "rmse": 0.3574473501007405,
+                    "prediccion_continua": 0.649942297354016,
+                    "rmse": 0.3574473250459072,
                     "prediccion_binaria": 1,
-                    "std": 0.07230627515947456
+                    "std": 0.07230625837844352
                 },
                 "prueba 0": {
                     "respuesta": "Claro que sí! Santiago's horse, Caballo blanco grande, is white.",
@@ -4114,14 +4114,14 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.4456823170185089,
-                        0.6280136108398438,
-                        0.5611156225204468
+                        0.4456822872161865,
+                        0.6280134916305542,
+                        0.5611157417297363
                     ],
-                    "prediccion_continua": 0.5449371834595998,
-                    "rmse": 0.4612524486590812,
+                    "prediccion_continua": 0.5449371735254923,
+                    "rmse": 0.4612524548343743,
                     "prediccion_binaria": 0,
-                    "std": 0.07531038704133995
+                    "std": 0.07531036483624731
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4158,14 +4158,14 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.35886436700820923,
-                        0.582390546798706,
-                        0.5851880311965942
+                        0.35886433720588684,
+                        0.5823906064033508,
+                        0.585188090801239
                     ],
-                    "prediccion_continua": 0.5088143150011698,
-                    "rmse": 0.5025009203167113,
+                    "prediccion_continua": 0.5088143448034922,
+                    "rmse": 0.502500900078706,
                     "prediccion_binaria": 0,
-                    "std": 0.10603677556099048
+                    "std": 0.10603681770539433
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4202,25 +4202,25 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.6575159430503845,
-                        0.6058223843574524,
-                        0.7004868984222412
+                        0.6575161218643188,
+                        0.6058224439620972,
+                        0.7004868388175964
                     ],
-                    "prediccion_continua": 0.654608408610026,
-                    "rmse": 0.3475530750619442,
-                    "prediccion_binaria": 0.654608408610026,
-                    "std": 0.03870127364977414
+                    "prediccion_continua": 0.6546084682146708,
+                    "rmse": 0.3475530109150481,
+                    "prediccion_binaria": 0.6546084682146708,
+                    "std": 0.03870122952955717
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.5575712012260414,
-                        0.5621218076319091,
-                        0.5632413520492505
+                        0.5575711865224363,
+                        0.562121814967479,
+                        0.5632413447178634
                     ],
-                    "prediccion_continua": 0.5609781203024004,
-                    "rmse": 0.43902872719063285,
+                    "prediccion_continua": 0.5609781154025929,
+                    "rmse": 0.4390287321221698,
                     "prediccion_binaria": 0,
-                    "std": 0.002452028836187679
+                    "std": 0.0024520345309331283
                 },
                 "prueba 0": {
                     "respuesta": "**Solución:**\n\nVamos a determinar las edades actuales de María y Juana utilizando las informaciones proporcionadas.\n\n1. **Definir las variables:**\n   - Sea \\( M \\) la edad actual de María.\n   - Sea \\( J \\) la edad actual de Juana.\n\n2. **Plantear las relaciones:**\n\n   - Según el enunciado:\n     - Actualmente, Juana tiene 5 veces la edad de María:\n       \\[\n       J = 5M\n       \\]\n     \n   - El año que viene, Juana tendrá 3 veces la edad de María. Esto se traduce en:\n     \\[\n     J + 1 = 3(M + 1)\n     \\]\n\n3. **Sustituir y resolver:**\n\n   Sustituimos \\( J = 5M \\) en la ecuación del año que viene:\n   \\[\n   5M + 1 = 3(M + 1)\n   \\]\n   \n   Expandimos los términos de right-hand side:\n   \\[\n   5M + 1 = 3M + 3\n   \\]\n   \n   Restamos \\( 3M \\) y 1 de ambos lados para despejar \\( M \\):\n   \\[\n   5M - 3M = 3 - 1 \\\\\n   2M = 2 \\\\\n   M = 1\\ \\text{año}\n   \\]\n   \n   Ahora,calculamos la edad de Juana:\n   \\[\n   J = 5M = 5(1) = 5\\ \\text{anos}\n   \\]\n\n4. **Conclusión:**\n\n   - **Edad actual de María:** \\(\\boxed{1\\ \\text{año}}\\)\n   \n   - **Edad actual de Juana:** \\(\\boxed{5\\ \\text{anos}}\\)",
@@ -4246,14 +4246,14 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.4213126599788666,
-                        0.23316554725170135,
-                        0.3417704999446869
+                        0.4213126301765442,
+                        0.23316550254821777,
+                        0.3417705297470093
                     ],
-                    "prediccion_continua": 0.3320829023917516,
-                    "rmse": 0.6723541205261765,
+                    "prediccion_continua": 0.3320828874905904,
+                    "rmse": 0.6723541363460304,
                     "prediccion_binaria": 0,
-                    "std": 0.07711558928713391
+                    "std": 0.07711559815438854
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4290,25 +4290,25 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.6313167810440063,
-                        0.6264171004295349,
-                        0.6546065211296082
+                        0.6313169002532959,
+                        0.6264171600341797,
+                        0.6546065807342529
                     ],
-                    "prediccion_continua": 0.6374468008677164,
-                    "rmse": 0.3627617004947009,
-                    "prediccion_binaria": 0.6374468008677164,
-                    "std": 0.01229752596068924
+                    "prediccion_continua": 0.6374468803405762,
+                    "rmse": 0.36276162073178303,
+                    "prediccion_binaria": 0.6374468803405762,
+                    "std": 0.01229751605689184
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.5213540217339947,
-                        0.5300649934432582,
-                        0.6317478068555485
+                        0.5213540161562515,
+                        0.5300649711723316,
+                        0.6317478484552711
                     ],
-                    "prediccion_continua": 0.5610556073442671,
-                    "rmse": 0.4417957901766398,
+                    "prediccion_continua": 0.5610556119279515,
+                    "rmse": 0.44179578852917006,
                     "prediccion_binaria": 0,
-                    "std": 0.05011327542569272
+                    "std": 0.050113301050379325
                 },
                 "prueba 0": {
                     "respuesta": "Pues... no, el caballo negro de Santiago no es rojo. En la mayor parte de las representaciones y en la mayor parte de los textos literarios, el caballo black de Santiago (llamado Celestino) se representa como color oscuro, generalmente considerado como negro o del castillo. No obstante, si estás hablando de una versión específica u òmega u illustración particular que ilustre a Santiago, podría haber excepciones. Sin embargo, el más común image de Santiago mantiene a su caballo en color oscuro.",
@@ -4336,23 +4336,23 @@
                     "accuracy": [
                         0.6820544004440308,
                         0.5909755229949951,
-                        0.6356824636459351
+                        0.6356826424598694
                     ],
-                    "prediccion_continua": 0.6362374623616537,
-                    "rmse": 0.36565817113861865,
-                    "prediccion_binaria": 0.6362374623616537,
-                    "std": 0.037184866966952654
+                    "prediccion_continua": 0.6362375219662985,
+                    "rmse": 0.3656581117525157,
+                    "prediccion_binaria": 0.6362375219662985,
+                    "std": 0.0371848660774255
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.5603820517597492,
-                        0.5320897905415969,
-                        0.5381162144549273
+                        0.5603820591016707,
+                        0.5320898053813798,
+                        0.5381162255658509
                     ],
-                    "prediccion_continua": 0.5435293522520911,
-                    "rmse": 0.45663279772694865,
+                    "prediccion_continua": 0.5435293633496339,
+                    "rmse": 0.45663278655584144,
                     "prediccion_binaria": 0,
-                    "std": 0.01216797865485072
+                    "std": 0.012167975746277378
                 },
                 "prueba 0": {
                     "respuesta": "¡Claro! El abuelo de Julio, su padre's, fue presentete en la competición. Los títulos mencionados reflejan que las abuelas estaban asistiendo junto a los demas miembros de su familia.\n\n**Respuesta:** Sí, el abuelo (y quizás ambos) estuvieron presentes en la competición.",
@@ -4378,14 +4378,14 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.4526006877422333,
-                        0.6312098503112793,
-                        0.4883090555667877
+                        0.4526006579399109,
+                        0.6312097311019897,
+                        0.4883091449737549
                     ],
-                    "prediccion_continua": 0.5240398645401001,
-                    "rmse": 0.4821755573034431,
+                    "prediccion_continua": 0.5240398446718851,
+                    "rmse": 0.48217556734698996,
                     "prediccion_binaria": 0,
-                    "std": 0.07717005581104407
+                    "std": 0.07716999602454608
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4422,23 +4422,23 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.9520405530929565,
-                        0.9520405530929565,
-                        0.9520405530929565
+                        0.9520406126976013,
+                        0.9520406126976013,
+                        0.9520406126976013
                     ],
-                    "prediccion_continua": 0.9520405530929565,
-                    "rmse": 0.04795944690704346,
-                    "prediccion_binaria": 0.9520405530929565,
+                    "prediccion_continua": 0.9520406126976013,
+                    "rmse": 0.04795938730239868,
+                    "prediccion_binaria": 0.9520406126976013,
                     "std": 0.0
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.705930338280644,
-                        0.705930338280644,
-                        0.705930338280644
+                        0.705930288786686,
+                        0.705930288786686,
+                        0.705930288786686
                     ],
-                    "prediccion_continua": 0.705930338280644,
-                    "rmse": 0.294069661719356,
+                    "prediccion_continua": 0.705930288786686,
+                    "rmse": 0.29406971121331404,
                     "prediccion_binaria": 1,
                     "std": 0.0
                 },
@@ -4467,13 +4467,13 @@
                 "SBert": {
                     "accuracy": [
                         0.2665789723396301,
-                        0.21140740811824799,
+                        0.2114073932170868,
                         0.19780108332633972
                     ],
-                    "prediccion_continua": 0.2252624879280726,
-                    "rmse": 0.7753080638682851,
+                    "prediccion_continua": 0.2252624829610189,
+                    "rmse": 0.775308068920447,
                     "prediccion_binaria": 0,
-                    "std": 0.02973854885143278
+                    "std": 0.029738551165565463
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4510,25 +4510,25 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.7445053458213806,
+                        0.7445054054260254,
                         0.7882512807846069,
-                        0.7065180540084839
+                        0.7065182328224182
                     ],
-                    "prediccion_continua": 0.7464248935381571,
-                    "rmse": 0.25576466463409864,
-                    "prediccion_binaria": 0.7464248935381571,
-                    "std": 0.0333950454148219
+                    "prediccion_continua": 0.7464249730110168,
+                    "rmse": 0.2557645763924026,
+                    "prediccion_binaria": 0.7464249730110168,
+                    "std": 0.033394973045678324
                 },
                 "Bleurt": {
                     "accuracy": [
                         0.5323398884516619,
-                        0.5251468023070047,
-                        0.5364238548719686
+                        0.5251467409951927,
+                        0.5364238104057167
                     ],
-                    "prediccion_continua": 0.5313035152102118,
-                    "rmse": 0.4687196680406575,
+                    "prediccion_continua": 0.5313034799508571,
+                    "rmse": 0.46871970340479807,
                     "prediccion_binaria": 0,
-                    "std": 0.004661797275724978
+                    "std": 0.004661807986740043
                 },
                 "prueba 0": {
                     "respuesta": "El palabra más repesada en la frase es \"llamas\". Aquí están los significados distintos de la palabra \"llamas\":\n\n1. **Llamas** - Pueden referirse a:\n   - Domin >(Sheep - Ovado, animal doméstico).\n   - Colloquial > To call / To request (Usemos).\n2. **Llamas en llamas** - También se usa para referirse al chorro o a gran parte de algo en Ludwig Miesch.",
@@ -4554,25 +4554,25 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.7381860613822937,
-                        0.7556747198104858,
-                        0.7215788960456848
+                        0.7381860017776489,
+                        0.7556746006011963,
+                        0.7215787768363953
                     ],
-                    "prediccion_continua": 0.7384798924128214,
-                    "rmse": 0.2618903664521602,
-                    "prediccion_binaria": 0.7384798924128214,
-                    "std": 0.01392111231322096
+                    "prediccion_continua": 0.7384797930717468,
+                    "rmse": 0.2618904656304973,
+                    "prediccion_binaria": 0.7384797930717468,
+                    "std": 0.01392111189389359
                 },
                 "Bleurt": {
                     "accuracy": [
-                        0.5360862763889447,
-                        0.5310073387702537,
-                        0.5249419850523334
+                        0.536086272683059,
+                        0.5310072998051367,
+                        0.5249419776202928
                     ],
-                    "prediccion_continua": 0.530678533403844,
-                    "rmse": 0.4693435759327601,
+                    "prediccion_continua": 0.5306785167028295,
+                    "rmse": 0.46934359263993525,
                     "prediccion_binaria": 0,
-                    "std": 0.004555574758875289
+                    "std": 0.004555575474644272
                 },
                 "prueba 0": {
                     "respuesta": "¡Claro! Tronco, si los helados son guapos, ¡es muy especial! ¿Estás seguro(ura)? 😄 Te animo a compartir con tus amigos o familiares. ¿Hay más que te guste en particular con regards a los helados? 🍧",
@@ -4598,14 +4598,14 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.15755736827850342,
-                        0.139171302318573,
-                        0.09294195473194122
+                        0.15755735337734222,
+                        0.1391713172197342,
+                        0.09294193983078003
                     ],
-                    "prediccion_continua": 0.1298902084430059,
-                    "rmse": 0.8705343056574038,
+                    "prediccion_continua": 0.12989020347595215,
+                    "rmse": 0.8705343107279467,
                     "prediccion_binaria": 0,
-                    "std": 0.027183229445053442
+                    "std": 0.02718323283683134
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4642,14 +4642,14 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.33843010663986206,
-                        0.35367023944854736,
-                        0.3365950882434845
+                        0.3384300470352173,
+                        0.3536701202392578,
+                        0.3365950584411621
                     ],
-                    "prediccion_continua": 0.3428984781106313,
-                    "rmse": 0.6571460923614354,
+                    "prediccion_continua": 0.3428984085718791,
+                    "rmse": 0.6571461614745092,
                     "prediccion_binaria": 0,
-                    "std": 0.007653537520629632
+                    "std": 0.007653501376012404
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4686,14 +4686,14 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.3840214014053345,
-                        0.3146875500679016,
-                        0.40249815583229065
+                        0.3840213418006897,
+                        0.31468746066093445,
+                        0.40249812602996826
                     ],
-                    "prediccion_continua": 0.3670690357685089,
-                    "rmse": 0.6340586833362762,
+                    "prediccion_continua": 0.36706897616386414,
+                    "rmse": 0.6340587442106819,
                     "prediccion_binaria": 0,
-                    "std": 0.037799582420010115
+                    "std": 0.03779960549751436
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4730,14 +4730,14 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.38043057918548584,
-                        0.10967753827571869,
-                        0.4632197618484497
+                        0.3804306089878082,
+                        0.10967755317687988,
+                        0.4632198214530945
                     ],
-                    "prediccion_continua": 0.31777595976988476,
-                    "rmse": 0.6987306054861802,
+                    "prediccion_continua": 0.31777599453926086,
+                    "rmse": 0.698730575085317,
                     "prediccion_binaria": 0,
-                    "std": 0.15097952833143327
+                    "std": 0.15097954474750283
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4774,14 +4774,14 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.16814982891082764,
-                        0.5623064041137695,
-                        0.659512996673584
+                        0.1681496798992157,
+                        0.5623062252998352,
+                        0.6595128774642944
                     ],
-                    "prediccion_continua": 0.46332307656606037,
-                    "rmse": 0.5772006555941954,
+                    "prediccion_continua": 0.4633229275544484,
+                    "rmse": 0.5772007958171057,
                     "prediccion_binaria": 0,
-                    "std": 0.21245817628853522
+                    "std": 0.21245818083371695
                 },
                 "Bleurt": {
                     "accuracy": [
@@ -4818,25 +4818,25 @@
                 ],
                 "SBert": {
                     "accuracy": [
-                        0.7014593482017517,
+                        0.7014592885971069,
                         0.7646989226341248,
-                        0.811253011226654
+                        0.8112530708312988
                     ],
                     "prediccion_continua": 0.7591370940208435,
-                    "rmse": 0.24502961967666284,
+                    "rmse": 0.2450296285792814,
                     "prediccion_binaria": 0.7591370940208435,
-                    "std": 0.044995277998541784
+                    "std": 0.044995326479275774
                 },
                 "Bleurt": {
                     "accuracy": [
                         0.5223947511431347,
-                        0.5573369930984162,
-                        0.5429950035306654
+                        0.5573369526590908,
+                        0.542994999832921
                     ],
-                    "prediccion_continua": 0.5409089159240721,
-                    "rmse": 0.45931502559525755,
+                    "prediccion_continua": 0.5409089012117155,
+                    "rmse": 0.45931503981271943,
                     "prediccion_binaria": 0,
-                    "std": 0.014341173576853126
+                    "std": 0.014341157956233686
                 },
                 "prueba 0": {
                     "respuesta": "Gracias por la pregunta. Es importante recordar que nosotros vimos desde el espacio que la Tierra es esférica. Sin embargo, cuando observamos la Tierra desde lejos (como en las fotos de satélites o de planas), es posible que nos dé la sensación de que es plana, especialmente si no consideramos la perspectiva o las distorsiones que puede tener el dispositivo de capture.\n\nAdemás, es posible que estés pensando en el \"эффект horizon\", que es cuando los horizontes visuales limitan Our Point Of View. Cuando miras lejos sobre un horizonte, las ondulas del aire o las nubes pueden hacer que aparezca como si estuviera más plana que la realidad.\n\nTambién debes recordar que la Tierra es un planeta, y su forma real es esférica (o más precisamente, \"ganan geoidal\"). Esto no negotiate con los astronautas! Por supuesto queobservations de tierra la consideran esférica. Pero de repente, parece plana. La PerseucciónDepende mucho de las circunstancias.\n\n¿Quieres más detalles?",
@@ -4857,44 +4857,44 @@
     "notas": {
         "lim_temporal": {
             "SBert": {
-                "nota_final": 4.859809115900723,
-                "std": 0.06536563847925286,
+                "nota_final": 4.859809250754247,
+                "std": 0.06536563800280026,
                 "max_accuracy": {
-                    "valor": 0.8727280100186666,
+                    "valor": 0.8727281292279562,
                     "pregunta": 14
                 },
                 "min_accuracy": {
-                    "valor": 0.246336097518603,
+                    "valor": 0.24633610248565674,
                     "pregunta": 21
                 }
             },
             "Bleurt": {
-                "nota_final": 1.2897938369669797,
-                "std": 0.0051654627126708355,
+                "nota_final": 1.2897938172071157,
+                "std": 0.005165461545984128,
                 "max_accuracy": {
-                    "valor": 0.5823459065052287,
+                    "valor": 0.5823458605745478,
                     "pregunta": 18
                 }
             }
         },
         "falta_contexto": {
             "SBert": {
-                "nota_final": 4.348371912578763,
-                "std": 0.06395735560017331,
+                "nota_final": 4.348371874207962,
+                "std": 0.06395734464108081,
                 "max_accuracy": {
-                    "valor": 0.9520405530929565,
+                    "valor": 0.9520406126976013,
                     "pregunta": 13
                 },
                 "min_accuracy": {
-                    "valor": -0.023080993443727493,
+                    "valor": -0.023080971091985703,
                     "pregunta": 3
                 }
             },
             "Bleurt": {
-                "nota_final": 1.8760176495572582,
-                "std": 0.008815311183577522,
+                "nota_final": 1.8760176277706697,
+                "std": 0.008815310429591725,
                 "max_accuracy": {
-                    "valor": 0.705930338280644,
+                    "valor": 0.705930288786686,
                     "pregunta": 13
                 }
             }
@@ -4902,44 +4902,44 @@
         "lim_dominio": {
             "Salud": {
                 "SBert": {
-                    "nota_final": 5.892545485756432,
-                    "std": 0.06805728220280255,
+                    "nota_final": 5.892545526191952,
+                    "std": 0.06805729057043723,
                     "max_accuracy": {
-                        "valor": 0.929094652334849,
+                        "valor": 0.9290947318077087,
                         "pregunta": 1
                     },
                     "min_accuracy": {
-                        "valor": 0.3953615128993988,
+                        "valor": 0.3953615327676137,
                         "pregunta": 8
                     }
                 },
                 "Bleurt": {
-                    "nota_final": 1.8398318948537202,
-                    "std": 0.008487871988718691,
+                    "nota_final": 1.8398318764599435,
+                    "std": 0.008487872734032441,
                     "max_accuracy": {
-                        "valor": 0.5761349322398034,
+                        "valor": 0.5761349419400829,
                         "pregunta": 6
                     }
                 }
             },
             "Deportes": {
                 "SBert": {
-                    "nota_final": 6.1604525949855375,
-                    "std": 0.05671680656178984,
+                    "nota_final": 6.160452543230624,
+                    "std": 0.056716786167977574,
                     "max_accuracy": {
-                        "valor": 0.9057748317718506,
+                        "valor": 0.9057749112447103,
                         "pregunta": 22
                     },
                     "min_accuracy": {
-                        "valor": 0.4616899788379669,
+                        "valor": 0.46168996890385944,
                         "pregunta": 21
                     }
                 },
                 "Bleurt": {
-                    "nota_final": 2.036597601053784,
-                    "std": 0.010290766395091798,
+                    "nota_final": 2.0365975946087103,
+                    "std": 0.010290768003124633,
                     "max_accuracy": {
-                        "valor": 0.5728091026828221,
+                        "valor": 0.5728091115534891,
                         "pregunta": 22
                     }
                 }
@@ -4947,22 +4947,22 @@
         },
         "alucinaciones": {
             "SBert": {
-                "nota_final": 4.291356995955972,
-                "std": 0.08810701542159925,
+                "nota_final": 4.2913572370574835,
+                "std": 0.0881070126526198,
                 "max_accuracy": {
-                    "valor": 0.8203944365183512,
+                    "valor": 0.8203945159912109,
                     "pregunta": 16
                 },
                 "min_accuracy": {
-                    "valor": 0.20558631420135498,
+                    "valor": 0.20558630426724753,
                     "pregunta": 5
                 }
             },
             "Bleurt": {
-                "nota_final": 1.5117846422611216,
-                "std": 0.008605704618849854,
+                "nota_final": 1.511784664599984,
+                "std": 0.00860570642878511,
                 "max_accuracy": {
-                    "valor": 0.6155465090821637,
+                    "valor": 0.615546521718818,
                     "pregunta": 10
                 }
             }
