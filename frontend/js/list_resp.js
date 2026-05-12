@@ -31,6 +31,68 @@ function nombreArchivoAModelo(nombreArchivo) {
     return nombreArchivo.replace('.json', '').replace(/_/g, ' ').replace(/:/g, ': ');
 }
 
+function buscarClavePorDominio(obj, dominio) {
+    if (!obj || typeof dominio !== 'string') {
+        return null;
+    }
+
+    const dominioNormalizado = dominio.trim().toLowerCase();
+    return Object.keys(obj).find(clave => clave.trim().toLowerCase() === dominioNormalizado) || null;
+}
+
+function normalizarTexto(texto) {
+    return typeof texto === 'string' ? texto.trim().toLowerCase() : '';
+}
+
+function buscarRespuestaModelo(respuestasModelo, pregunta) {
+    if (!Array.isArray(respuestasModelo) || !pregunta) {
+        return null;
+    }
+
+    const tipo = normalizarTexto(pregunta.tipo);
+    const objetivo = normalizarTexto(pregunta.objetivo);
+    const preguntaTexto = normalizarTexto(pregunta.pregunta).slice(0, 50);
+
+    const mapaRespuestas = new Map();
+    respuestasModelo.forEach(r => {
+        if (r && typeof r.id_pregunta === 'string') {
+            mapaRespuestas.set(normalizarTexto(r.id_pregunta), r);
+        }
+    });
+
+    if (tipo && mapaRespuestas.has(tipo)) {
+        return mapaRespuestas.get(tipo);
+    }
+    if (objetivo && mapaRespuestas.has(objetivo)) {
+        return mapaRespuestas.get(objetivo);
+    }
+    if (preguntaTexto && mapaRespuestas.has(preguntaTexto)) {
+        return mapaRespuestas.get(preguntaTexto);
+    }
+
+    if (tipo) {
+        const coincidenciaTipo = respuestasModelo.find(r => {
+            const id = normalizarTexto(r.id_pregunta);
+            return id.includes(tipo) || tipo.includes(id);
+        });
+        if (coincidenciaTipo) {
+            return coincidenciaTipo;
+        }
+    }
+
+    if (objetivo) {
+        const coincidenciaObjetivo = respuestasModelo.find(r => {
+            const id = normalizarTexto(r.id_pregunta);
+            return id.includes(objetivo) || objetivo.includes(id);
+        });
+        if (coincidenciaObjetivo) {
+            return coincidenciaObjetivo;
+        }
+    }
+
+    return null;
+}
+
 function obtenerNotasFinales(datosModelo, riesgo, dominio = null) {
     if (!datosModelo?.notas) {
         return null;
@@ -42,10 +104,9 @@ function obtenerNotasFinales(datosModelo, riesgo, dominio = null) {
     }
 
     if (riesgo === 'lim_dominio' && dominio) {
-        const notasDominio = notasRiesgo[dominio] || Object.values(notasRiesgo).find((valor, idx) => {
-            const clave = Object.keys(notasRiesgo)[idx];
-            return clave?.toLowerCase() === dominio.toLowerCase();
-        });
+        const claveDominio = buscarClavePorDominio(notasRiesgo, dominio);
+        const notasDominio = claveDominio ? notasRiesgo[claveDominio] : null;
+
         if (!notasDominio) {
             return null;
         }
@@ -124,7 +185,7 @@ function crearTablaRespuestas(preguntas, respuestasModelo, riesgo, dominio = nul
 
     let html = `
         ${resumenNotas}
-        <table>
+        <table class="response-table">
             <thead>
                 <tr>
                     <th>Pregunta</th>
@@ -149,17 +210,12 @@ function crearTablaRespuestas(preguntas, respuestasModelo, riesgo, dominio = nul
         let respuestasModeloParaPregunta = [];
         let respuestaModelo = null;
         if (respuestasModelo && Array.isArray(respuestasModelo)) {
-            // Intentar diferentes formas de matching
-            respuestaModelo = respuestasModelo.find(r =>
-                r.id_pregunta === pregunta.tipo ||
-                r.id_pregunta === pregunta.objetivo ||
-                r.id_pregunta === pregunta.pregunta?.substring(0, 50) // fallback por texto de pregunta
-            );
-            if (respuestaModelo) {
-                respuestasModeloParaPregunta = obtenerRespuestasClasificadas(respuestaModelo);
+                // Buscar la respuesta del modelo usando claves normalizadas y coincidencias más flexibles
+                respuestaModelo = buscarRespuestaModelo(respuestasModelo, pregunta);
+                if (respuestaModelo) {
+                    respuestasModeloParaPregunta = obtenerRespuestasClasificadas(respuestaModelo);
+                }
             }
-        }
-
         const sbContinuous = typeof respuestaModelo?.SBert?.prediccion_continua === 'number' ? respuestaModelo.SBert.prediccion_continua : null;
         const blContinuous = typeof respuestaModelo?.Bleurt?.prediccion_continua === 'number' ? respuestaModelo.Bleurt.prediccion_continua : null;
         const puntuacionMediaPregunta = obtenerPuntuacionPregunta(respuestaModelo);
@@ -240,9 +296,11 @@ async function cargarDatos() {
         if (riesgo === "lim_dominio" && dominio) {
             // Para lim_dominio, buscar en el dominio específico
             const seccionLimDominio = datosPreguntas.find(s => s.riesgo === "lim_dominio");
-            if (seccionLimDominio && seccionLimDominio.cuestiones && seccionLimDominio.cuestiones[dominio]) {
-                preguntas = seccionLimDominio.cuestiones[dominio];
-                nombreSeccion = `${titulos[riesgo]} - ${dominio}`;
+            const claveDominioPreguntas = seccionLimDominio?.cuestiones ? buscarClavePorDominio(seccionLimDominio.cuestiones, dominio) : null;
+
+            if (seccionLimDominio && claveDominioPreguntas) {
+                preguntas = seccionLimDominio.cuestiones[claveDominioPreguntas];
+                nombreSeccion = `${titulos[riesgo]} - ${claveDominioPreguntas}`;
             }
         } else {
             // Para otros riesgos
@@ -257,17 +315,12 @@ async function cargarDatos() {
         let respuestasModelo = [];
         if (datosModelo.tests) {
             if (riesgo === "lim_dominio" && dominio) {
-                // Para lim_dominio, buscar en el dominio específico
-                // Verificar si el dominio existe directamente o con variaciones
-                if (datosModelo.tests[dominio]) {
-                    respuestasModelo = datosModelo.tests[dominio];
+                const testsDominio = datosModelo.tests[riesgo] || {};
+                const dominioEncontrado = buscarClavePorDominio(testsDominio, dominio);
+                if (dominioEncontrado) {
+                    respuestasModelo = testsDominio[dominioEncontrado];
                 } else {
-                    // Intentar con otras variaciones del nombre del dominio
-                    const dominiosDisponibles = Object.keys(datosModelo.tests);
-                    const dominioEncontrado = dominiosDisponibles.find(d => d.toLowerCase() === dominio.toLowerCase());
-                    if (dominioEncontrado) {
-                        respuestasModelo = datosModelo.tests[dominioEncontrado];
-                    }
+                    console.warn(`Domino no encontrado en tests.lim_dominio: ${dominio}`, Object.keys(testsDominio));
                 }
             } else {
                 // Para otros riesgos

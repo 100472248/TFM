@@ -6,61 +6,81 @@
     <title>Respuestas del modelo</title>
     <link rel="stylesheet" href="/benchmark/style/main.css">
     <style>
-        .responses-section {
-            margin: 24px 0;
-            overflow-x: auto;
+        .landing-main {
+            width: calc(100% - 40px);
+            max-width: none;
+            margin: 8px auto 24px;
         }
-        .responses-section table {
-            width: 95%;
+        .section-card {
+            width: auto;
+            max-width: none;
+        }
+        .responses-section {
+            margin: 24px auto;
+            padding: 24px 16px;
+            overflow-x: auto;
+            width: 100%;
+            max-width: none;
+            background: rgba(255, 255, 255, 0.9);
+            border: 1px solid var(--line);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-soft);
+        }
+        .response-table {
+            width: 100%;
+            min-width: 980px;
             margin: 12px auto;
             border-collapse: collapse;
+            border-spacing: 0;
             font-size: 0.95rem;
             table-layout: fixed;
-            min-width: 1000px;
+            border: 1px solid black;
+            background: #fff;
         }
-        .responses-section th,
-        .responses-section td {
-            border: 1px solid var(--line);
+        .response-table th,
+        .response-table td {
+            border: 1px solid black;
             padding: 10px 12px;
             vertical-align: top;
             word-break: break-word;
+            white-space: normal;
         }
-        .responses-section th {
+        .response-table th {
             background: var(--bg-2);
             text-align: left;
         }
-        .responses-section td {
+        .response-table td {
             background: var(--bg-1);
         }
-        .responses-section th:nth-child(1),
-        .responses-section td:nth-child(1) {
-            width: 15%;
+        .response-table th:nth-child(1),
+        .response-table td:nth-child(1) {
+            width: 16%;
         }
-        .responses-section th:nth-child(2),
-        .responses-section td:nth-child(2) {
+        .response-table th:nth-child(2),
+        .response-table td:nth-child(2) {
+            width: 14%;
+        }
+        .response-table th:nth-child(3),
+        .response-table td:nth-child(3) {
             width: 12%;
         }
-        .responses-section th:nth-child(3),
-        .responses-section td:nth-child(3) {
-            width: 8%;
+        .response-table th:nth-child(4),
+        .response-table td:nth-child(4) {
+            width: 12%;
         }
-        .responses-section th:nth-child(4),
-        .responses-section td:nth-child(4) {
-            width: 8%;
+        .response-table th:nth-child(5),
+        .response-table td:nth-child(5) {
+            width: 10%;
         }
-        .responses-section th:nth-child(5),
-        .responses-section td:nth-child(5) {
-            width: 8%;
+        .response-table th:nth-child(6),
+        .response-table td:nth-child(6) {
+            width: 36%;
         }
-        .responses-section th:nth-child(6),
-        .responses-section td:nth-child(6) {
-            width: 49%;
-        }
-        .responses-section .model-responses {
+        .response-table .model-responses {
             display: block;
             width: 100%;
         }
-        .responses-section .model-response {
+        .response-table .model-response {
             width: 100%;
             padding: 12px;
             background: var(--bg-2);
@@ -68,11 +88,11 @@
             font-size: 0.95rem;
             margin-bottom: 12px;
         }
-        .responses-section .model-response p {
+        .response-table .model-response p {
             margin: 8px 0 0;
             line-height: 1.6;
         }
-        .responses-section .model-response strong {
+        .response-table .model-response strong {
             color: var(--accent-1);
         }
         .response-header {
