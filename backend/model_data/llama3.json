@@ -2008,14 +2008,14 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5695040436696603,
-                            0.5741399135941468,
-                            0.5964231464515475
+                            0.5695040655894937,
+                            0.5741399281676774,
+                            0.596423117757564
                         ],
-                        "prediccion_continua": 0.5800223679051183,
-                        "rmse": 0.42014198327487795,
+                        "prediccion_continua": 0.5800223705049117,
+                        "rmse": 0.42014198005179587,
                         "prediccion_binaria": 0,
-                        "std": 0.011750517015177113
+                        "std": 0.011750494692990195
                     },
                     "prueba 0": {
                         "respuesta": "En el tenis, los cuatro premios más importantes son conocidos como Grand Slam tournaments (torneos de gran Championship). A continuación, te presento los nombres y fechas de estos eventos:\n\n1. **Abierto de Australia** ( Australian Open ): El primer Grand Slam del año, se celebra en Melbourne, Australia, a finales de enero (segunda semana).\n2. **Roland Garros** (French Open): El segundo Grand Slam del año, se celebra en París, Francia, en mayo-junio.\n3. **Wimbledon**: El tercer Grand Slam del año, se celebra en Wimbledon, Londres, Reino Unido, en julio-agosto.\n4. **U.S. Open** (US Open): El cuarto y último Grand Slam del año, se celebra en Flushing Meadows, New York City, Estados Unidos, a finales de agosto-septiembre.\n\nEstos cuatro eventos son considerados los más importantes del tenis y llevan el nombre de las tierras que los hospedan.",
@@ -2140,14 +2140,14 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5372597876548612,
-                            0.5471187684684831,
+                            0.5372598765653352,
+                            0.5471186909321336,
                             0.550359401074509
                         ],
-                        "prediccion_continua": 0.5449126523992844,
-                        "rmse": 0.45512144247325237,
+                        "prediccion_continua": 0.5449126561906593,
+                        "rmse": 0.45512143805854255,
                         "prediccion_binaria": 0,
-                        "std": 0.005570767692107122
+                        "std": 0.005570716743355659
                     },
                     "prueba 0": {
                         "respuesta": "La elección entre comprar gafas de natación y una bicicleta depende del tipo de deportes o actividades que deseas practicar y mejorar.\n\n**Gafas de natación:**\n\n* Mejoran la visión bajo el agua, lo que es útil para nadadores y nadadoras.\n* Pueden ayudar a reducir el estrés ocular debido a la humedad del agua.\n* Son especialmente útiles para prácticar ejercicios de estilo libre o apnea en aguas profundas.\n\n**Una bicicleta:**\n\n* Es un medio de transporte eficiente y accesible para los atletas que buscan mejorar su coordinación, fuerza y resistencia cardiovascular.\n* Puede ser utilizado para entrenamientos intensivos en ruta, montaña, caminos o evenetes de ciclismo racing.\n* La bicicleta puede ser una excelente herramienta para mejorar la condición física, especialmente si se combina con un programa de entrenamiento inteligente.\n\nSi eres un atleta que no practica natación y te interesa mejorar tus habilidades en otros deportes o actividades, como el ciclismo, la bicicleta sería una mejor inversión. Si, por otro lado, tienes un enfoque más orientado a la natación o deportes acuáticos, las gafas de natación serían una mejor opción.\n\nEn cualquier caso, antes de tomar una decisión, considera lo siguiente:\n\n* Prioriza tus objetivos y necesidades dentro del atletismo.\n* Evalúa tu presupuesto y decides qué inversión te dará más valor a largo plazo.\n* Considera la posibilidad de alquilar o compartir equipo con otros atletas para ahorrar costos.\n\nRecuerda que, como atleta, lo más importante es encontrar el apoyo adecuado para alcanzar tus objetivos y disfrutar del ejercicio.",
@@ -2184,14 +2184,14 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5678042108162437,
-                            0.5706434463457241,
-                            0.5486365426066289
+                            0.5678042035026766,
+                            0.5706434609494284,
+                            0.5486365942672081
                         ],
-                        "prediccion_continua": 0.5623613999228655,
-                        "rmse": 0.43774772834900566,
+                        "prediccion_continua": 0.5623614195731044,
+                        "rmse": 0.4377477082255431,
                         "prediccion_binaria": 0,
-                        "std": 0.009773914120803301
+                        "std": 0.00977389270694338
                     },
                     "prueba 0": {
                         "respuesta": "Rafael \"Rafa\" Nadal is a Spanish professional tennis player who has had a profound impact on the sport and its history. Here's a summary of his impressive career:\n\n**Early Life and Rise to Fame**\nBorn on June 3, 1986, in Manacor, Spain, Nadal began playing tennis at the age of four. He was introduced to the sport by his uncle, Toni Nadal, who became his coach and mentor. Rafa's talent and dedication quickly earned him recognition, and he turned pro in 2002.\n\n**Career Highlights**\n\n1. **Grand Slam Titles:** Nadal has won a record-breaking 22 Grand Slam titles, including 13 French Open crowns (his favorite surface).\n2. **World Number One:** He has held the number one spot in the ATP rankings for a record 275 weeks.\n3. **Masters Titles:** With 35 ATP Masters titles, he is second all-time, behind only Roger Federer's 36.\n4. **Career Win-Loss Record:** Nadal boasts an impressive win-loss record of 1,061-221 (83.1%).\n5. **Head-to-Head Matches:** He has a strong head-to-head record against some of his greatest rivals, including Federer (16-11), Novak Djokovic (29-32), and Andy Murray (25-7).\n\n**Impact on Tennis**\n\nNadal's impact on tennis is multifaceted:\n\n1. **Clash of the Titans:** His rivalry with Roger Federer and Novak Djokovic has been one of the most iconic and enduring in sports history, sparking intense competition and driving innovation.\n2. **Diversity and Inclusivity:** He has helped popularize tennis globally, particularly among Latin American and Mediterranean communities, fostering a sense of belonging and inclusivity in the sport.\n3. **Inspiration and Role Models:** Rafa's dedication, perseverance, and humility have inspired countless young players and fans worldwide, showcasing the value of hard work, passion, and teamwork.\n\n**Legacy**\nAs one of the greatest tennis players of all time, Nadal has left an indelible mark on the sport:\n\n1. **Golden Era:** He contributed to a golden era in men's tennis, alongside Federer and Djokovic, helping to elevate the sport's global reputation.\n2. **Trailblazing:** His success has paved the way for other Spanish players, such as David Ferrer and Pablo Carreño Busta, inspiring a new generation of tennis enthusiasts.\n3. **Philanthropy and Social Impact:** Rafa is known for his charitable work, supporting organizations like the Rafael Nadal Foundation, which promotes education and disability inclusion.\n\nIn summary, Rafa Nadal is an extraordinary tennis champion who has rewritten the history books with his incredible achievements on court. His impact extends far beyond his impressive records to inspire fans, foster global connectivity, and drive diversity and inclusivity in the sport of tennis.",
@@ -2228,14 +2228,14 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5604617834690397,
+                            0.560461787139857,
                             0.5684108423363141,
-                            0.5690904776258112
+                            0.5690904995507693
                         ],
-                        "prediccion_continua": 0.5659877011437217,
-                        "rmse": 0.4340299764136185,
+                        "prediccion_continua": 0.5659877096756468,
+                        "rmse": 0.4340299679187079,
                         "prediccion_binaria": 0,
-                        "std": 0.003917252493113358
+                        "std": 0.003917256555801328
                     },
                     "prueba 0": {
                         "respuesta": "Lo siento, pero Charlie Chaplin no tiene absolutamente nada que ver con el mundo del deporte.\n\nCharlie Chaplin (1889-1977) fue un comediógrafo, actor, director, productor y guionista británico de cine mudo y posteriormente sonoro. Es considerado uno de los grandes maestros del género comedia de silencio, y su personaje más famoso es el \"Little Tramp\", un vagabundo que siempre llevaba una sombrerita y un par dezapatos que se convirtieron en icónicos.\n\nChaplin fue fundador de la United Artists, una empresa cinematográfica que produjo muchos de sus filmes. También dirigió, escribió, actuó y composó la música para aproximadamente 80 películas durante su carrera de más de 75 años.\n\nLa importancia de Chaplin en la historia del cine es incuestionable. Fue pionero en el género comedia de silencio, un estilo popularizado por otros como Buster Keaton y Harold Lloyd, y que influyó en muchos futuros comediantes y directores. Sus películas combinaban elementos de comedia, drama, política y socialmente comprometidas, y su personaje del Little Tramp se convirtió en una icona universal.\n\nNo hay evidencia de que Charlie Chaplin tenga alguna conexión con el mundo del deporte, aunque es posible que haya mencionado algún tema de interés deportivo en alguna entrevista o entrevistación. Su legado está firmemente establecido en la historia del cine y la comedia, pero no tiene relación directa con los deportes.",
@@ -2316,14 +2316,14 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5665729871794745,
-                            0.5620467266519834,
-                            0.5521898493344847
+                            0.5665729944979723,
+                            0.5620467046444401,
+                            0.5521898861815125
                         ],
-                        "prediccion_continua": 0.5602698543886476,
-                        "rmse": 0.439771143557585,
+                        "prediccion_continua": 0.5602698617746417,
+                        "rmse": 0.43977113595193873,
                         "prediccion_binaria": 0,
-                        "std": 0.006004810285493551
+                        "std": 0.0060047941484960374
                     },
                     "prueba 0": {
                         "respuesta": "En el año 1896, Atenas albergó los Juegos Olímpicos de la Primera Edición Histórica, que se celebraron del 6 al 15 de abril. Fue un acontecimiento importante en la historia de los deportes y marco el renacimiento de los Juegos Olímpicos después de muchos siglos de silencio.\n\nLos Juegos Olímpicos de Atenas de 1896 contaron con la participación de atletas de Grecia y otros países, principalmente Europa. Los eventos se celebraron en diversas ubicaciones de Atenas, incluyendo el Estadio Panathinaiko, que fue construido especialmente para los Juegos.\n\nFue un evento significativo, no solo por ser la primera edición moderna de los Judios Olímpicos, sino también porque revivió la tradición olímpica perdida después del Imperio Romano.",
@@ -2360,14 +2360,14 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5587902291498128,
-                            0.5573405480797765,
-                            0.5422206924429726
+                            0.558790258540113,
+                            0.5573405848427381,
+                            0.5422206554556955
                         ],
-                        "prediccion_continua": 0.5527838232241873,
-                        "rmse": 0.44727893858135065,
+                        "prediccion_continua": 0.5527838329461822,
+                        "rmse": 0.44727892940829156,
                         "prediccion_binaria": 0,
-                        "std": 0.007492671651998374
+                        "std": 0.007492704339505121
                     },
                     "prueba 0": {
                         "respuesta": "No es exactamente cierto que entrenar en el gym (o cualquier otro tipo de ejercicio físico) todos los días acelere significativamente la mejora muscular.\n\nLa respuesta a esta pregunta depende de varios factores, como la intensidad y duración del entrenamiento, tu nivel actual de condición física, y las metas individuales que estás persiguiendo.\n\nAquí hay algunas consideraciones importantes:\n\n1. **Rendimiento**: Si deseas mejorar tu rendimiento muscular, es importante darle un descanso a tus músculos para que puedan recuperarse y adaptarse al estrés del entrenamiento. Un período de descanso se conoce como \"overrecovery\" (recuperación sobreabundante) que te ayuda a reparar los tejidos dañados y a construir nueva masa muscular.\n2. **Fatiga**: Entrenar todos los días puede provocar fatiga, lo que reduce la intensidad y efectividad del entrenamiento a largo plazo. Algunos estudios han demostrado que entrenaos con frecuencia altas pero no demasiado, pueden ser más efectivos en el corto plazo.\n3. **Sobreentrenamiento**: Hacer ejercicio demasiado frequentemente puede llevar al sobreentrenamiento, lo que puede provocar lesiones y perjudicar tu progreso muscular en el largo plazo.\n\nEn lugar de entrenar todos los días, es más efectivo dividir tus entrenamientos en 3-4 días por semana, con un descanso de 1-2 días entre sesiones. Esto te permite:\n\n* Proporciona suficiente tiempo para la recuperación y adaptación muscular.\n* Reducir el riesgo de sobreentrenamiento y lesiones.\n* Establecer un patrón de entrenamiento más sostenible a largo plazo.\n\nRecuerda que la mejora muscular es un proceso gradual que requiere paciencia, disciplina y un enfoque saludable. Ajusta tu rutina de entrenamiento según tus objetivos y necesidades individuales, y no te preocupes por entrenar todos los días.",
@@ -2404,14 +2404,14 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5516037030149861,
+                            0.5516037472422981,
                             0.5552385531434139,
-                            0.542294148256438
+                            0.5422941667496138
                         ],
-                        "prediccion_continua": 0.549712134804946,
-                        "rmse": 0.4503208598618457,
+                        "prediccion_continua": 0.5497121557117753,
+                        "rmse": 0.4503208389169301,
                         "prediccion_binaria": 0,
-                        "std": 0.005451172790596971
+                        "std": 0.0054511695177431475
                     },
                     "prueba 0": {
                         "respuesta": "Sí, el ejercicio regular tiene numerous beneficios para la salud y puede ayudar a prevenir o controlar varios tipos de enfermedades crónicas. A continuación, te presento algunos ejemplos:\n\n1. **Enfermedad cardiovascular**: El ejercicio regular puede reducir significativamente el riesgo de padecer enfermedades cardiovasculares, como la enfermedad coronaria, la hipertensión y el derrame cerebral.\n2. **Diabetes tipo 2**: El ejercicio regular puede mejorar la tolerancia a la glucosa y reducir el riesgo de desarrollar diabetes tipo 2.\n3. **Cáncer**: Algunos estudios sugieren que el ejercicio regular puede reducir el riesgo de desarrollar cáncer en diferentes sitios del cuerpo, como el colon, el estómago, la mama y los testículos.\n4. **Enfermedad respiratoria crónica**: El ejercicio regular puede ayudar a controlar la enfermedad pulmonar obstructiva crónica (EPOC) y la asma.\n5. **Osteoporosis**: El ejercicio regular, especialmente el que implica actividades de fuerza y flexibilidad, como la resistencia pesa y el yoga, puede ayudar a prevenir la osteoporosis y reducir el riesgo de fracturas en personas mayores.\n6. **Enfermedad mental**: El ejercicio regular puede reducir el riesgo de padecer enfermedades mentales, como la depresión y el estrés.\n7. **Obesidad**: El ejercicio regular puede ayudar a controlar el peso corporal y reducir el riesgo de obesidad.\n8. **Hipertensión**: El ejercicio regular puede reducir la presión arterial y mejorar la función cardíaca.\n9. **Enfermedad renal crónica**: El ejercicio regular puede retrasar o prevenir la progresión de la enfermedad renal crónica.\n10. **Cerebro vascular**: El ejercicio regular puede reducir el riesgo de padecer un derrame cerebral o una hemorragia cerebral.\n\nEs importante destacar que, aunque el ejercicio regular tiene beneficios significativos para la salud, no todos los efectos son inevitables y pueden variar dependiendo de various factores, como la intensidad y duración del ejercicio, la condición física individual, las condiciones médicas previas y otros aspectos.\n\nEn general, es recomendable realizar al menos 150 minutos de actividades moderadas a vigorosas a la semana para obtener beneficios significativos. Es importante consultar con un profesional de la salud antes de iniciar cualquier programa de ejercicio para asegurarse de que él o ella sea adecuado para tus necesidades y condición física.",
@@ -2492,14 +2492,14 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5444427949107051,
-                            0.5458291623355356,
-                            0.5288867684796098
+                            0.5444428096941374,
+                            0.5458291106196301,
+                            0.5288867666231817
                         ],
-                        "prediccion_continua": 0.5397195752419502,
-                        "rmse": 0.4603445064323008,
+                        "prediccion_continua": 0.5397195623123164,
+                        "rmse": 0.4603445191964704,
                         "prediccion_binaria": 0,
-                        "std": 0.00768083243847146
+                        "std": 0.007680822629376245
                     },
                     "prueba 0": {
                         "respuesta": "Sí, es común experimentar dolor muscular después de realizar un ejercicio intenso como una carrera de 20 km. El dolor muscular se debe a la microtraumática causada por el estrés generado en los músculos durante el ejercicio, lo que puede provocar inflamación y dolor.\n\nLa intensidad del dolor muscular puede variar según factores como el nivel de condición física, la experiencia previa con el tipo de ejercicio, la hidratación y el estado general de fatiga. Sin embargo, en general, es normal sentir un cierto grado de dolor muscular después de una carrera larga.\n\nPara aliviar el dolor muscular, sigue estos consejos:\n\n1. **Hidratación**: Bebe suficiente líquido para reemplazar las pérdidas de líquidos por sudor y ayuda a reducir la inflamación.\n2. **Masajéalo**: Realiza un masaje suave en el músculo afectado con aceite o gel para ayudar a liberar el tensión y reduce la inflamación.\n3. **Calentamiento y estiramiento**: Haz un calentamiento breve y un estiramiento profundo de los músculos afectados para reducir la tensión y aumentar la circulación sanguínea.\n4. **Descanso activo**: Realiza ejercicio leve o active stretchings para mantener la circulación sanguínea y evitar contracturas musculares.\n5. **Aplicación de calor**: Aplica calor a través de un baño caliente, una toalla caliente o un apsador de calor para ayudar a reducir la inflamación y el dolor.\n6. **Electrostimulación**: Utiliza un dispositivo de terapia por corriente eléctrica para estimular la contracción muscular y reducir el dolor.\n7. **Medicamentos antiinflamatorios**: Si el dolor es intenso, considera tomar antinflamativos no esteroideos (AINEs) como ibuprofeno o acetaminofeno. Sin embargo, asegúrate de consultar con un médico antes de administrarles.\n8. **Recovery**: Asegúrate de dar tiempo para el músculo afectado para recuperarse. Evita hacer ejercicio intenso durante varios días después de la carrera larga.\n\nRecuerda que cada persona reacciona de manera diferente al estrés muscular y dolor, así que es importante escuchar a tu cuerpo y ajustar tus acciones según sea necesario.",
@@ -2536,14 +2536,14 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5612067711590668,
+                            0.5612067271254678,
                             0.5511190849982592,
-                            0.544851002050894
+                            0.5448510390040431
                         ],
-                        "prediccion_continua": 0.5523922860694067,
-                        "rmse": 0.44765842032496417,
+                        "prediccion_continua": 0.5523922837092567,
+                        "rmse": 0.4476584221883328,
                         "prediccion_binaria": 0,
-                        "std": 0.006737634426891155
+                        "std": 0.006737601437682542
                     },
                     "prueba 0": {
                         "respuesta": "No, no, no es esa la mejor forma de pensar. Como nadie, es importante reconocer y valorar los logros alcanzados, pero no hay nunca motivo para dejar de hacer algo que nos trae beneficios y nos hace felices solo porque \"ya no necesitamos\" hacerlo.\n\nLa práctica regular del ejercicio en el gimnasio o cualquier otro lugar puede tener efectos positivos en nuestra salud física y mental a largo plazo, como reducir el riesgo de enfermedades crónicas, mejorar la composición corporal, aumentar la resistencia cardiovascular, mejorar el estado psicológico y muchísimo más.\n\nAdemás, dejar de hacer algo que nos gusta puede llevar a una sensación de abandono o frustración. Si no encontraras otros desafíos o actividades para mantenerte activo, podrías experimentar un abatimiento en tu energía y motivación.\n\nMi consejo es celebrar tus logros y reconocer el progreso que has hecho, pero no descuides la importancia de mantener una rutina de ejercicio regular. Es posible que desees cambiar o agregar nuevos elementos a tu rutina, como trabajar diferentes partes del cuerpo o intentar nuevos desafíos en el gimnasio.\n\nRecuerda que es importante encontrar un equilibrio saludable y mantener una mente y cuerpo fuertes para enfrentar los desafíos de la vida con confianza y energía.",
@@ -2712,14 +2712,14 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5656621153500229,
+                            0.5656620860616727,
                             0.5649013868093731,
-                            0.5833860385275684
+                            0.5833860530142847
                         ],
-                        "prediccion_continua": 0.5713165135623214,
-                        "rmse": 0.4287685444527448,
+                        "prediccion_continua": 0.5713165086284435,
+                        "rmse": 0.42876854965032163,
                         "prediccion_binaria": 0,
-                        "std": 0.008540091788858
+                        "std": 0.008540105077396325
                     },
                     "prueba 0": {
                         "respuesta": "Una pregunta emocionante para los aficionados al fútbol!\n\nLa respuesta puede variar dependiendo de la perspectiva y la cultura futbolística. Sin embargo, en general, se considera que el galardón más importante que un jugador de fútbol puede recibir es el Golden Ball (Balón de Oro) o el Best Player in the World (Mejor Jugador del Mundo), otorgado anualmente por la Federación Internacional de Historiadores y Estadísticos de Fútbol (IFFHS) desde 1991.\n\nEl Ballon d'Or, en francés, es considerado el galardón más prestigioso en el fútbol. Se otorga cada año al mejor jugador del mundo según la votación de los periodistas y expertos internacionales. El primer galardonado fue Stanley Matthews en 1956.\n\nEn resumen, ambos galardones son muy importantes y reconocidos internacionalmente, pero si tuviera que elegir uno, me atrevería a decir que el Ballon d'Or es el más importante y prestigioso para un jugador de fútbol.",
@@ -2756,14 +2756,14 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5424968042627173,
-                            0.5558437796028525,
-                            0.5584154547070802
+                            0.5424968153578547,
+                            0.555843783281673,
+                            0.5584154289859854
                         ],
-                        "prediccion_continua": 0.55225201285755,
-                        "rmse": 0.447802349580281,
+                        "prediccion_continua": 0.5522520092085044,
+                        "rmse": 0.4478023530401456,
                         "prediccion_binaria": 0,
-                        "std": 0.006977413525414198
+                        "std": 0.006977401412414343
                     },
                     "prueba 0": {
                         "respuesta": "Excelente elección!\n\nEl deportista principal de Space Jam es Michael Jordan, considerado uno de los mejores baloncestistas de todos los tiempos.\n\nEn la película, Michael Jordan decide retirarse de la liga profesional después de ganar su tercer título NBA. Sin embargo, mientras se encuentra en Hawai, recibe una visita inesperada del personaje Looney Tunes, Bugs Bunny (una maravilla de la animación).\n\nBugs le explica que los Looney Tunes están siendo perseguidos por la malvada tecnología de los \"Acme Hunters\" y necesitan ayuda para vencer a este grupo en un partido de baloncesto. Jordan acepta el reto y decidió regresar al fútbol profesional para ayudar a los Looney Tunes.\n\nEn el partido crucial, Jordan y los Looney Tunes se enfrentan a los Acme Hunters liderados por la villana Valkyr (una gigante blonda). A medida que avanza la película, Jordan debe usar sus habilidades de básquetbol y su espiritualidad para ayudar a los Looney Tunes a ganar el partido y vencer a los Acme Hunters.\n\nEn resumen, Space Jam es una mezcla emocionante de comedia, acción y aventura que combina la lucha del deporte con la imaginación y la creatividad de las historietas estadounidenses.",
@@ -2800,14 +2800,14 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5788594609723307,
-                            0.5527129860084321,
-                            0.5603390166326878
+                            0.5788594755028216,
+                            0.5527130265311674,
+                            0.5603389982774968
                         ],
-                        "prediccion_continua": 0.5639704878711502,
-                        "rmse": 0.4361677073456649,
+                        "prediccion_continua": 0.5639705001038285,
+                        "rmse": 0.43616769498451,
                         "prediccion_binaria": 0,
-                        "std": 0.010978774241728991
+                        "std": 0.010978768983597918
                     },
                     "prueba 0": {
                         "respuesta": "La relación entre el deporte y el desempeño académico es un tema ampliamente estudiado y debatido. A continuación, te presento algunos puntos clave que podrían ilustrar esta conexión:\n\n**1. Mejora la memoria y el aprendizaje**: Participar en actividades deportivas puede mejorar la capacidad de aprendizaje y retención de información. El ejercicio físico aumenta la circulación sanguínea al cerebro, lo que puede contribuir a la formación de conexiones neuronales saludables.\n\n**2. Fomenta el desarrollo cognitivo**: El deporte puede influir positivamente en el desarrollo cognitivo, incluyendo la toma de decisiones, la planificación y la resolución de problemas.\n\n**3. Regula el estrés y promueve la autoestima**: Las actividades deportivas pueden ayudar a regular el estrés y fomentar una mayor autoestima en los estudiantes. Un buen rendimiento deportivo puede aumentar la confianza y la motivación general en la vida académica.\n\n**4. Aumenta la concentración y la atención**: El ejercicio físico ha sido demostrado que mejora la capacidad de mantener la concentración y la atención, lo que a su vez puede favorecer el rendimiento académico.\n\n**5. Establece una estructura saludable**: La práctica regular de juegos deportivos puede ayudar a establecer un horario saludable y disciplinado, lo que se traduce en una mayor productividad académica.\n\n**6. Favorece la socialización y el teamwork**: El deporte puede ofrecer oportunidades para desarrollar habilidades sociales y trabajar en equipo, lo que es valioso tanto en el mundo académico como en la profesión.\n\n**7. Influye en la salud física y mental**: La participación en deportes puede tener un impacto positivo en la salud física y mental, reducir la ansiedad y la depresión, y mejorar la calidad de vida general.\n\n**8. Proporciona oportunidades de liderazgo y toma de decisiones**: El deporte puede ofrecer oportunidades para desarrollar habilidades de liderazgo y tomar decisiones críticas, lo que es esencial en el mundo académico y profesional.\n\nEn resumen, la implicación en actividades deportivas puede tener un impacto positivo en el desempeño académico, desde el desarrollo cognitivo hasta la salud física y mental. Sin embargo, es importante destacar que cada individuo reacciona de manera diferente a la participación en deportes, y que otros factores como la motivación personal, la calidad de la educación y las habilidades intelectuales pueden tambien influir en el desempeño académico.",
@@ -2888,14 +2888,14 @@
                     },
                     "Bleurt": {
                         "accuracy": [
-                            0.5830618984720914,
-                            0.5792210679918203,
-                            0.5779314407969668
+                            0.5830618839821593,
+                            0.5792210825189039,
+                            0.577931418988221
                         ],
-                        "prediccion_continua": 0.5800714690869596,
-                        "rmse": 0.4199341848414524,
+                        "prediccion_continua": 0.5800714618297614,
+                        "rmse": 0.41993419209139826,
                         "prediccion_binaria": 0,
-                        "std": 0.002179110752275168
+                        "std": 0.0021791093735373437
                     },
                     "prueba 0": {
                         "respuesta": "¡Claro!\n\nEn resumen, el deporte es una actividad física y mentalmente desafía que busca mejorar la condición física, desarrollar habilidades y competir con otros. Las características clave del deporte son:\n\n1. Presupone un cierto nivel de esfuerzo y resistencia física.\n2. Se practica en un espacio definido (estadio, cancha, piscina, etc.).\n3. Involucra una o varias personas que compiten entre sí.\n4. Tiene reglas y normas establecidas para garantizar la igualdad y seguridad de los participantes.\n5. Puede ser individual o equipo-base.\n\nEspero que esto te haya ayudado a entender lo básico sobre el deporte!",
@@ -4924,22 +4924,22 @@
             },
             "Deportes": {
                 "SBert": {
-                    "nota_final": 6.77033269776779,
-                    "std": 0.03550464158336509,
+                    "nota_final": 6.770332735917128,
+                    "std": 0.03550464780103974,
                     "max_accuracy": {
-                        "valor": 0.9083032409350077,
+                        "valor": 0.9083032806714376,
                         "pregunta": 11
                     },
                     "min_accuracy": {
-                        "valor": 0.5529208183288574,
+                        "valor": 0.5529207984606425,
                         "pregunta": 3
                     }
                 },
                 "Bleurt": {
-                    "nota_final": 2.2953069629892693,
-                    "std": 0.004229771055587672,
+                    "nota_final": 2.2953069807457283,
+                    "std": 0.00422976534631089,
                     "max_accuracy": {
-                        "valor": 0.5800714690869596,
+                        "valor": 0.5800714618297614,
                         "pregunta": 22
                     }
                 }
