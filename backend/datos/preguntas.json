@@ -83,8 +83,8 @@
             {
                 "objetivo": "Pregunta con premisa falsa",
                 "tipo": "premisa_falsa",
-                "pregunta": "¿Cuántos presidentes ha tenido España desde su independencia en 1808?",
-                "respuesta_esperada": "España no se independizó en 1808; fue invadida por Napoleón. Por lo tanto, la premisa de la pregunta es incorrecta."
+                "pregunta": "¿Cuántos presidentes del Gobierno ha tenido España desde su independencia en 1808?",
+                "respuesta_esperada": "España no se independizó en 1808; fue invadida por Napoleón. Por lo tanto, la premisa de la pregunta es incorrecta. Si no tenemos en cuenta ese error, el término de presidente del Gobierno fue creado en 1967 y han habido desde entonces 11 presidentes. "
             },
             {
                 "objetivo": "Pregunta temporalmente incorrecta",
@@ -143,7 +143,7 @@
                 "objetivo": "Dia_a_dia",
                 "tipo": "dia_a_dia",
                 "pregunta": "¿Qué día es hoy?",
-                "respuesta_esperada": "El día de hoy es 12 de mayo de 2026"
+                "respuesta_esperada": "El día de hoy es 7 de junio de 2026"
             },
             {
                 "objetivo": "Posición_temporal",
@@ -173,7 +173,7 @@
                 "objetivo": "Orden cronológico de eventos",
                 "tipo": "orden_cronologico_eventos",
                 "pregunta": "Ordéname cronológicamente los siguientes eventos: Inicio de la pandemia del COVID 19, Descubrimiento de América, Revolución Francesa, Guerra Civil Española, Caida del muro de Berlín, Llegada del hombre a la luna.",
-                "respuesta_esperada": "1. Descubrimiento de América (1492). 2. Revolución Francesa (1789). 3. Llegada del hombre a la luna (1969). 4. Guerra Civil Española (1936-1939). 5. Caida del muro de Berlín (1989). 6. Inicio de la pandemia del COVID 19 (2019)."
+                "respuesta_esperada": "1. Descubrimiento de América (1492). 2. Revolución Francesa (1789). 3. Guerra Civil Española (1936-1939). 4. Llegada del hombre a la luna (1969) 5. Caida del muro de Berlín (1989). 6. Inicio de la pandemia del COVID 19 (2019)."
             },
             {
                 "objetivo": "Fechas de eventos históricos",
@@ -197,7 +197,7 @@
                 "objetivo": "Conceptos temporales específicos",
                 "tipo": "temporal_especifico",
                 "pregunta": "¿Durante cuanto tiempo la web Twitter tenia ese nombre?",
-                "respuesta_esperada": "Twitter mantuvo ese nombre desde su lanzamiento en marzo de 2006 hasta octubre de 2023, cuando fue renombrada a 'X'."
+                "respuesta_esperada": "Twitter mantuvo ese nombre desde su lanzamiento en marzo de 2006 hasta julio de 2023, cuando fue renombrada a 'X'."
             },
             {
                 "objetivo": "Contexto de eventos globales actuales",
@@ -239,7 +239,7 @@
                 "objetivo": "Exactitud temporal",
                 "tipo": "exactitud temporal",
                 "pregunta": "¿Cuándo se fundó Cádiz?",
-                "respuesta_esperada": "La idea aquí es que reponda el año correcto, 1105 a.C., y no 'hace más de 3000 años'; es decir, diferenciar entre 'cuándo' y 'hace cuánto tiempo'."
+                "respuesta_esperada": "1105 a.C."
             },
             {
                 "objetivo": "Vida de un personaje histórico",
@@ -251,7 +251,7 @@
                 "objetivo": "Trampa: Nacimiento de personaje inventado sin uno concreto",
                 "tipo": "trampa_personaje_inventado",
                 "pregunta": "¿En qué año nació Zeus?",
-                "respuesta_esperada": "Zeus no cuenta con una fecha de nacimeinto concreta, ya que es un personaje de la mitología griega."
+                "respuesta_esperada": "Zeus no cuenta con una fecha de nacimiento concreta, ya que es un personaje de la mitología griega."
             },
             {
                 "objetivo": "Nacimiento registrado personaje inventado",
@@ -292,7 +292,7 @@
                 "objetivo": "Resumen",
                 "tipo": "resumen",
                 "pregunta": "Me puedes resumir este texto: El aparato digestivo es el conjunto de órganos y estructuras del cuerpo humano encargado de transformar los alimentos que ingerimos en nutrientes que el organismo puede absorber y utilizar para obtener energía, crecer y reparar tejidos. Este sistema comienza en la boca, donde los alimentos son triturados por los dientes y mezclados con la saliva producida por las glándulas salivales, la cual contiene enzimas que inician la digestión de algunos componentes como los carbohidratos. La lengua ayuda a formar el bolo alimenticio y lo empuja hacia la faringe para iniciar el proceso de deglución. A continuación, el alimento pasa por el esófago, un tubo muscular que conecta la faringe con el estómago y que transporta el bolo alimenticio mediante movimientos rítmicos llamados peristaltismo. Una vez en el estómago, los alimentos se mezclan con los jugos gástricos, que contienen ácido clorhídrico y enzimas digestivas que ayudan a descomponer las proteínas y a convertir el bolo en una sustancia semilíquida llamada quimo. Posteriormente, el quimo pasa al intestino delgado, que es la parte más larga del aparato digestivo y donde ocurre la mayor parte de la digestión química y la absorción de nutrientes; aquí intervienen también el hígado, que produce la bilis para ayudar a digerir las grasas, y el páncreas, que secreta enzimas digestivas y bicarbonato para neutralizar la acidez del quimo. El intestino delgado está formado por tres partes principales: duodeno, yeyuno e íleon, y su superficie interna presenta numerosas vellosidades que aumentan la capacidad de absorción de nutrientes hacia la sangre. Los restos de alimentos que no han sido digeridos pasan al intestino grueso, donde se absorbe principalmente agua y algunas sales minerales, y donde la microbiota intestinal participa en procesos de fermentación y en la producción de ciertas vitaminas. Finalmente, los desechos se transforman en heces que se almacenan temporalmente en el recto y posteriormente se expulsan del cuerpo a través del ano durante el proceso de defecación, completando así el recorrido del alimento por el aparato digestivo y permitiendo al organismo aprovechar los nutrientes necesarios para su funcionamiento.",
-                "respuesta_esperada": "Estamos en 2028. Este año no es bisiesto. El siguiente es 2032"
+                "respuesta_esperada": "El aparato digestivo es el sistema encargado de transformar los alimentos en nutrientes que el cuerpo puede absorber y utilizar. El proceso comienza en la boca, donde los alimentos se mastican y se mezclan con la saliva. Después pasan por el esófago hasta el estómago, donde los jugos gástricos los descomponen. A continuación, llegan al intestino delgado, donde se completa la digestión y se absorben la mayoría de los nutrientes con ayuda de la bilis del hígado y las enzimas del páncreas. Los restos no digeridos pasan al intestino grueso, donde se absorben agua y sales minerales. Finalmente, los desechos se convierten en heces y son expulsados por el ano."
             },
             {
                 "objetivo": "Cambio de contexto repentino.",
@@ -310,7 +310,7 @@
                 "objetivo": "Detección de error de contexto.",
                 "tipo": "error_contexto",
                 "pregunta": "Ayer fui al supermercado y me compré dos peras verdes, una manzana amarilla, un aguacate sin madurar y 3 cajas de tomates. Entonces,¿cuantas cajas de pimientos he comprado?",
-                "respuesta_esperada": "No has comprado cajas de pimientos. Lo que sí has comprado son 3 cajas de toamtes."
+                "respuesta_esperada": "No has comprado cajas de pimientos. Lo que sí has comprado son 3 cajas de tomates."
             },
             {
                 "objetivo": "Entender contexto con errores gramaticales.",
@@ -331,10 +331,10 @@
                 "respuesta_esperada": "No me has indicado el color de tu rotulador."
             },
             {
-                "objetivo": "Error de contexto.",
-                "tipo": "error_contexto",
+                "objetivo": "Verdad indebatible.",
+                "tipo": "verdad_indebatible",
                 "pregunta": "El caballo negro de Santiago no es rojo, ¿verdad?",
-                "respuesta_esperada": "El caballo de Santiago es blanco, no negro."
+                "respuesta_esperada": "El caballo de Santiago es negro, no rojo."
             },
             {
                 "objetivo": "Búsqueda de un dato escondido entre el contexto.",
@@ -358,13 +358,13 @@
                 "objetivo": "Entender de qué se está hablando.",
                 "tipo": "entener_contexto.",
                 "pregunta": "Mi madre tiene es su garaje un aparato rojo grande donde puede se puede sentar ella y hasta 4 personas más. Con dicho aparato puede llevar personas a todas partes donde haya tierra, pero mejor ir por terrenos especializados porque si se pincha toca arregalrlo. ¿De qué aparato estoy hablando?",
-                "respuesta_esperada": "Gris"
+                "respuesta_esperada": "Está hablando de un coche rojo."
             },
             {
                 "objetivo": "Contexto con palabras homónimas.",
                 "tipo": "homonimas",
                 "pregunta": "Dictame todos los significados distintos presentes en la palabra que más se repite en esta frase: Tu llamas a tus llamas en llamas.",
-                "respuesta_esperada": "La palabra más repeteida es llamas y tiene estos tres significados en la frase en orden: 1. Segunda persona del presente del verbo llamar. 2. El animal mamífero peludo. 3. Hce referencia a fuego, combistión o algo ardiendo."
+                "respuesta_esperada": "La palabra más repetida es llamas y tiene estos tres significados en la frase en orden: 1. Segunda persona del presente del verbo llamar. 2. El animal mamífero peludo. 3. Hce referencia a fuego, combistión o algo ardiendo."
             },
             {
                 "objetivo": "Entender contexto: expresiones coloquiales.",
@@ -599,8 +599,8 @@
                 {
                     "objetivo": "Suceso histórico",
                     "tipo": "suceso_historico_deporte",
-                    "pregunta": "¿Qué es el SARS-CoV-2 y cómo afectó al mundo?",
-                    "respuesta_esperada": "El SARS-CoV-2 es el virus que causa la enfermedad de COVID-19. Afectó al mundo causando una pandemia global, con millones de casos y muertes, además de impactos significativos en la economía, la salud mental y la forma de vida de las personas."
+                    "pregunta": "¿Qué sucedió en el año 1896 en Atenas relacionado en los deportes?",
+                    "respuesta_esperada": "En el año 1896, se celebraron los primeros Juegos Olímpicos modernos en Atenas, Grecia."
                 },
                 {
                     "objetivo": "Dato falso que se cree real",

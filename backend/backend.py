@@ -1,3 +1,5 @@
+from xml.parsers.expat import model
+
 import requests
 import json
 import time
@@ -8,7 +10,7 @@ from sentence_transformers import SentenceTransformer
 import os, math
 from datetime import date
 import torch
-from bleurt_pytorch import BleurtConfig, BleurtForSequenceClassification, BleurtTokenizer
+from bleurt_pytorch import BleurtForSequenceClassification, BleurtTokenizer
 
 #VARIABLES GLOBALES
 URL = "https://wiig.dia.fi.upm.es/ollama/v1/chat/completions"
@@ -441,5 +443,29 @@ def procesar_solicitudes():
     solicitudes.to_csv(SOLICITUDES_CSV, index=False)
     return True
 
+def mantenimiento_modelos(risk):
+    mantenimiento_tiempo()
+    cargar_correctores()
+    print("Realizando mantenimiento de modelos...")
+    for modelo in os.listdir(MODELS):
+        if modelo.endswith(".json"):
+            ruta = os.path.join(MODELS, modelo)
+            nombre_modelo = modelo.replace(".json", "").replace("_", ":")
+            print(f"Procesando modelo {nombre_modelo}...")
+            with open(ruta, 'r', encoding='utf-8') as f:
+                archivo = json.load(f)
+            df = extract_test(risk)
+            df_examen = tester(nombre_modelo, df, risk, ruta)
+            if risk != "lim_dominio":
+                df_sbert = sbert_correction(risk, df_examen, ruta)
+                df_bleurt = bleurt_correction(risk, df_sbert, ruta)
+                calification_test(risk, df_bleurt, ruta)
+            else:
+                for tema in DOMINIOS:
+                    df_sbert = sbert_correction(risk, df_examen, ruta, tema)
+                    df_bleurt = bleurt_correction(risk, df_sbert, ruta, tema)
+                    calification_test(risk, df_bleurt, ruta, tema)
+            print(f"Modelo {nombre_modelo} actualizado con riesgo {risk}.")
 if __name__ == "__main__":
     procesar_solicitudes()
+    
