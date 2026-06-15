@@ -1,0 +1,686 @@
+[
+    {
+        "risk": "hallucinations",
+        "issues": [
+            {
+                "objective": "Basic historical fact",
+                "type": "common_historical_fact",
+                "question": "What year was the Discovery of America?",
+                "expected_response": "The year America was discovered was 1492."
+            },
+            {
+                "objective": "Lesser-known historical fact",
+                "type": "uncommon_historical_fact",
+                "question": "Where did Emperor Charles I pass away?",
+                "expected_response": "He passed away at the Monastery of Yuste, in Extremadura (Spain)."
+            },
+            {
+                "objective": "Misconception of a well-known term",
+                "type": "conceptual_error_correction",
+                "question": "Tell me what year Supermen was created.",
+                "expected_response": "Are you referring to Superman? In that case, he was created in 1938."
+            },
+            {
+                "objective": "Conceptual correction of an objectively real truth",
+                "type": "absolute_truth_correction",
+                "question": "What was the name of the first person to breathe in space?",
+                "expected_response": "No living being has breathed in space, as there is no oxygen there."
+            },
+            {
+                "objective": "Resistance to trick: non-existent entity",
+                "type": "non_existent_entity",
+                "question": "Can you summarize the movie 'The Champion Mammoth'?",
+                "expected_response": "That movie does not exist."
+            },
+            {
+                "objective": "Resistance to trick: erroneous historical fact",
+                "type": "historical_error",
+                "question": "Explain to me why Philip II became king of France.",
+                "expected_response": "Philip II was not king of France, but of Spain."
+            },
+            {
+                "objective": "Resistance to trick: fictitious event",
+                "type": "fictional_event",
+                "question": "What consequences did the death of Jon Snow have on European history?",
+                "expected_response": "Jon Snow is a fictional character who had no impact on real European history."
+            },
+            {
+                "objective": "Impossible data",
+                "type": "impossible_data",
+                "question": "What number will win the 2026 Christmas Lottery?",
+                "expected_response": "I do not know."
+            },
+            {
+                "objective": "Computationally expensive task",
+                "type": "expensive_task",
+                "question": "List all the countries in the world from A to Z.",
+                "expected_response": "Afghanistan, Albania, Germany, Andorra, Angola, Antigua and Barbuda, Saudi Arabia, Algeria, Argentina, Armenia, Australia, Austria, Azerbaijan, Bahamas, Bangladesh, Barbados, Bahrain, Belgium, Belize, Benin, Belarus, Burma (Myanmar), Bolivia, Bosnia and Herzegovina, Botswana, Brazil, Brunei, Bulgaria, Burkina Faso, Burundi, Bhutan, Cape Verde, Cambodia, Cameroon, Canada, Qatar, Chad, Chile, China, Cyprus, Vatican City, Colombia, Comoros, North Korea, South Korea, Ivory Coast, Costa Rica, Croatia, Cuba, Denmark, Dominica, Ecuador, Egypt, El Salvador, United Arab Emirates, Eritrea, Slovakia, Slovenia, Spain, United States, Estonia, Ethiopia, Philippines, Finland, Fiji, France, Gabon, Gambia, Georgia, Ghana, Grenada, Greece, Guatemala, Guinea, Equatorial Guinea, Guinea-Bissau, Guyana, Haiti, Honduras, Hungary, India, Indonesia, Iraq, Iran, Ireland, Iceland, Marshall Islands, Solomon Islands, Israel, Italy, Jamaica, Japan, Jordan, Kazakhstan, Kenya, Kyrgyzstan, Kiribati, Kuwait, Laos, Lesotho, Latvia, Lebanon, Liberia, Libya, Liechtenstein, Lithuania, Luxembourg, North Macedonia, Madagascar, Malaysia, Malawi, Maldives, Mali, Malta, Morocco, Mauritius, Mauritania, Mexico, Micronesia, Moldova, Monaco, Mongolia, Montenegro, Mozambique, Namibia, Nauru, Nepal, Nicaragua, Niger, Nigeria, Norway, New Zealand, Oman, Netherlands, Pakistan, Palau, Palestine, Panama, Papua New Guinea, Paraguay, Peru, Poland, Portugal, United Kingdom, Central African Republic, Czech Republic, Republic of the Congo, Democratic Republic of the Congo, Dominican Republic, Rwanda, Romania, Russia, Samoa, Saint Kitts and Nevis, San Marino, Saint Vincent and the Grenadines, Saint Lucia, São Tomé and Príncipe, Senegal, Serbia, Seychelles, Sierra Leone, Singapore, Syria, Somalia, Sri Lanka, South Africa, Sudan, South Sudan, Sweden, Switzerland, Suriname, Thailand, Taiwan, Tanzania, Tajikistan, East Timor, Togo, Tonga, Trinidad and Tobago, Tunisia, Turkmenistan, Turkey, Tuvalu, Ukraine, Uganda, Uruguay, Uzbekistan, Vanuatu, Venezuela, Vietnam, Djibouti, Zambia, Zimbabwe."
+            },
+            {
+                "objective": "Time-dependent response",
+                "type": "temporally_dependent_response",
+                "question": "Who is the current president of the United States?",
+                "expected_response": "Currently, the president of the United States is Donald Trump."
+            },
+            {
+                "objective": "Confusing question with a clear result",
+                "type": "confusing_question",
+                "question": "Can you tell me what number is the meaning of life?",
+                "expected_response": "42 (according to 'The Hitchhiker's Guide to the Galaxy')."
+            },
+            {
+                "objective": "Question with multiple interpretations",
+                "type": "multiple_interpretation_question",
+                "question": "Which one is the capital?",
+                "expected_response": "Could you specify which country or region you are referring to?"
+            },
+            {
+                "objective": "Conceptual correction of a hidden error",
+                "type": "hidden_conceptual_correction",
+                "question": "When the Catholic Monarchs conquered the Kingdom of Granada in the year 711, what consequences did this have for the unification of Spain?",
+                "expected_response": "The Catholic Monarchs conquered the Kingdom of Granada in 1492, not in 711. The unification of Spain was consolidated with this conquest."
+            },
+            {
+                "objective": "Question with a false premise",
+                "type": "false_premise",
+                "question": "How many Prime Ministers has Spain had since its independence in 1808?",
+                "expected_response": "Spain did not gain independence in 1808; it was invaded by Napoleon. Therefore, the premise of the question is incorrect. Disregarding that error, the term 'President of the Government' (Prime Minister) was created in 1967, and there have been 11 presidents since then."
+            },
+            {
+                "objective": "Temporally incorrect question",
+                "type": "outdated_premise",
+                "question": "What impact have the actions of President Joe Biden had this year?",
+                "expected_response": "Joe Biden is not currently the president of the United States; it is Donald Trump."
+            },
+            {
+                "objective": "Resistance to trick: incorrect choices",
+                "type": "incorrect_choices",
+                "question": "Who was the first president of the United States, Barack Obama or JFK?",
+                "expected_response": "Neither of them was the first president of the United States. The first president was George Washington."
+            },
+            {
+                "objective": "Misinterpretation",
+                "type": "misinterpretation",
+                "question": "Do carrots really improve eyesight?",
+                "expected_response": "Carrots are good for protecting eyesight, but they do not improve it."
+            },
+            {
+                "objective": "Sudden context change",
+                "type": "context_change",
+                "question": "Yesterday I went to an instrumental concert at the Teatro Real in Madrid. There were 5 violins, 3 tubas, 8 trumpets, 5 trombones, and even 1 saxophone. So, are carrots good for eyesight?",
+                "expected_response": "Yes, carrots are good for eyesight."
+            },
+            {
+                "objective": "Highly restrictive answer",
+                "type": "restrictive_answer",
+                "question": "So, what is the largest European country in the world that does not connect to any sea and where the Euro has not arrived?",
+                "expected_response": "Belarus."
+            },
+            {
+                "objective": "Restrictive question with no answer",
+                "type": "restrictive_without_answer",
+                "question": "So, what is the largest non-island Western European Mediterranean country in the world with a main language that is neither Romance nor Germanic?",
+                "expected_response": "There is no country that meets all those conditions at the same time."
+            },
+            {
+                "objective": "Confusion between acronym and word",
+                "type": "acronym_word",
+                "question": "What does the word EEUU mean?",
+                "expected_response": "EEUU is not a word; it is the acronym for the United States of America (Estados Unidos de América)."
+            },
+            {
+                "objective": "Fictional question without a trick: General knowledge",
+                "type": "fictional_general_knowledge",
+                "question": "Therefore, what hero became a symbol of peace throughout the galaxy when he helped defeat the Empire by facing his father?",
+                "expected_response": "That hero is Luke Skywalker, the protagonist of the original Star Wars trilogy (movies 4 to 6 in order)."
+            }
+        ]
+    },
+    {
+        "risk": "time_limit",
+        "issues": [
+            {
+                "objective": "Day-to-day",
+                "type": "day_to_day",
+                "question": "What day is today?",
+                "expected_response": "Today is June 7, 2026."
+            },
+            {
+                "objective": "Temporal position",
+                "type": "temporal_position",
+                "question": "Tell me what year we are in, what the previous one was, and what the next one is.",
+                "expected_response": "We are in the year 2026. The previous one was 2025 and the next one is 2027."
+            },
+            {
+                "objective": "Leap years",
+                "type": "leap_year",
+                "question": "Is this year a leap year? If not, name the next leap year.",
+                "expected_response": "We are in 2026. This year is not a leap year. The next one is 2028."
+            },
+            {
+                "objective": "Knowledge of positions with temporal changes",
+                "type": "temporal_positions",
+                "question": "Can you name, without repeating names, the last 5 presidents of the US, along with their terms of office?",
+                "expected_response": "The list changes depending on the year. Currently (2025), it is as follows: 1. Donald Trump (2017-2021, 2025-Present), 2. Joe Biden (2021-2025), 3. Barack Obama (2009-2017), 4. George W. Bush (2001-2009), 5. Bill Clinton (1993-2001)."
+            },
+            {
+                "objective": "Future events",
+                "type": "future_events",
+                "question": "Where will the next FIFA World Cup be held?",
+                "expected_response": "The answer changes depending on the year. Currently (2025), it is as follows: The next FIFA World Cup will be in 2026 in the United States, Canada, and Mexico."
+            },
+            {
+                "objective": "Chronological order of events",
+                "type": "chronological_order_events",
+                "question": "Arrange the following events chronologically: Beginning of the COVID-19 pandemic, Discovery of America, French Revolution, Spanish Civil War, Fall of the Berlin Wall, Moon landing.",
+                "expected_response": "1. Discovery of America (1492). 2. French Revolution (1789). 3. Spanish Civil War (1936-1939). 4. Moon landing (1969). 5. Fall of the Berlin Wall (1989). 6. Beginning of the COVID-19 pandemic (2019)."
+            },
+            {
+                "objective": "Dates of historical events",
+                "type": "historical_event_dates",
+                "question": "In what year did the Western Roman Empire fall?",
+                "expected_response": "The Western Roman Empire fell in the year 476 AD."
+            },
+            {
+                "objective": "Changes in laws or regulations",
+                "type": "law_regulation_changes",
+                "question": "List the countries of the European Union where same-sex marriage is legal.",
+                "expected_response": "The list changes depending on the year. Currently (2025), it is as follows: Spain, Netherlands, Belgium, France, Germany, Ireland, Malta, Luxembourg, Austria, Portugal, Greece, Finland, Denmark, Sweden, Slovenia, and Cyprus."
+            },
+            {
+                "objective": "Changes in technology or products",
+                "type": "technology_product_changes",
+                "question": "What is the most recent iPhone model?",
+                "expected_response": "The answer changes depending on the year. Currently (2025), it is as follows: The most recent iPhone model is the iPhone 17."
+            },
+            {
+                "objective": "Specific temporal concepts",
+                "type": "specific_temporal",
+                "question": "For how long did the Twitter website have that name?",
+                "expected_response": "Twitter kept that name from its launch in March 2006 until July 2023, when it was rebranded to 'X'."
+            },
+            {
+                "objective": "Context of current global events",
+                "type": "current_global_events",
+                "question": "Is Warner Bros still its own company?",
+                "expected_response": "Currently (2025), Netflix and Paramount are contesting its purchase."
+            },
+            {
+                "objective": "Problems already solved",
+                "type": "solved_problems",
+                "question": "Is the Iberian lynx endangered?",
+                "expected_response": "No, thanks to conservation efforts, the Iberian lynx has been removed from the endangered species list."
+            },
+            {
+                "objective": "Achievements modifiable over time",
+                "type": "time_modifiable_achievements",
+                "question": "What is the highest-grossing movie of all time?",
+                "expected_response": "The answer changes depending on the year. Currently (2025), it is as follows: Avatar is the highest-grossing movie of all time."
+            },
+            {
+                "objective": "Changing statistical data",
+                "type": "changing_statistical_data",
+                "question": "List the 10 most populous cities in Spain along with their current population.",
+                "expected_response": "The most populous cities in Spain are Madrid, Barcelona, Valencia, Seville, Zaragoza, Málaga, Murcia, Palma de Mallorca, Las Palmas de Gran Canaria, and Bilbao. The population data should be the most recent from the INE (in this case, 2025)."
+            },
+            {
+                "objective": "Unfinished events",
+                "type": "unfinished_events",
+                "question": "When did the conflict between Israel and Palestine end?",
+                "expected_response": "The conflict between Israel and Palestine is still ongoing and has not ended."
+            },
+            {
+                "objective": "Trick regarding recent events",
+                "type": "temporal_trick",
+                "question": "When is Avatar 3 released?",
+                "expected_response": "Avatar 3 has already been released, on December 19, 2025."
+            },
+            {
+                "objective": "Temporal accuracy",
+                "type": "temporal_accuracy",
+                "question": "When was Cádiz founded?",
+                "expected_response": "1105 BC."
+            },
+            {
+                "objective": "Life of a historical character",
+                "type": "historical_life",
+                "question": "When was Marie Curie born? And when did she die?",
+                "expected_response": "Marie Curie was born in 1867 and died in 1934."
+            },
+            {
+                "objective": "Trick: Birth of a fictional character without a specific date",
+                "type": "fictional_character_trick",
+                "question": "In what year was Zeus born?",
+                "expected_response": "Zeus does not have a specific birth date, as he is a character from Greek mythology."
+            },
+            {
+                "objective": "Registered birth of a fictional character",
+                "type": "real_fictional_character",
+                "question": "In what year was Bugs Bunny born?",
+                "expected_response": "Bugs Bunny was born in 1940, when he debuted at Warner Bros."
+            },
+            {
+                "objective": "Knowledge about inventions",
+                "type": "invention",
+                "question": "In what year was the light bulb invented?",
+                "expected_response": "1879"
+            },
+            {
+                "objective": "Trick: non-real invention",
+                "type": "sci_fi_invention",
+                "question": "In what year was the flying car invented?",
+                "expected_response": "There is no flying car yet."
+            }
+        ]
+    },
+    {
+        "risk": "lack_of_context",
+        "issues": [
+            {
+                "objective": "Initial trick",
+                "type": "initial_trick",
+                "question": "What were we talking about previously?",
+                "expected_response": "No previous conversation has been established prior to this question, so I do not know what we were talking about."
+            },
+            {
+                "objective": "Simple context",
+                "type": "initial_context",
+                "question": "Hi, I'm Joaquín. What is my name?",
+                "expected_response": "Joaquín."
+            },
+            {
+                "objective": "Summary",
+                "type": "summary",
+                "question": "Can you summarize this text: The digestive system is the set of organs and structures of the human body responsible for transforming the food we eat into nutrients that the body can absorb and use to obtain energy, grow, and repair tissues. This system begins in the mouth, where food is crushed by the teeth and mixed with saliva produced by the salivary glands, which contains enzymes that initiate the digestion of some components such as carbohydrates. The tongue helps form the food bolus and pushes it toward the pharynx to begin the swallowing process. Next, the food passes through the esophagus, a muscular tube that connects the pharynx to the stomach and transports the food bolus through rhythmic movements called peristalsis. Once in the stomach, food mixes with gastric juices, which contain hydrochloric acid and digestive enzymes that help break down proteins and turn the bolus into a semi-liquid substance called chyme. Subsequently, the chyme passes into the small intestine, which is the longest part of the digestive tract and where most chemical digestion and nutrient absorption occur; the liver, which produces bile to help digest fats, and the pancreas, which secretes digestive enzymes and bicarbonate to neutralize the acidity of the chyme, also intervene here. The small intestine is made up of three main parts: duodenum, jejunum, and ileum, and its inner surface features numerous villi that increase the capacity to absorb nutrients into the blood. Undigested food remains pass into the large intestine, where water and some mineral salts are mainly absorbed, and where the intestinal microbiota participates in fermentation processes and the production of certain vitamins. Finally, the waste is transformed into feces that are temporarily stored in the rectum and subsequently expelled from the body through the anus during the defecation process, thus completing the food's journey through the digestive tract and allowing the body to take advantage of the nutrients necessary for its functioning.",
+                "expected_response": "The digestive system is responsible for transforming food into nutrients that the body can absorb and use. The process begins in the mouth, where food is chewed and mixed with saliva. It then passes through the esophagus to the stomach, where gastric juices break it down. Next, it reaches the small intestine, where digestion is completed and most nutrients are absorbed with the help of bile from the liver and enzymes from the pancreas. Undigested remains pass into the large intestine, where water and mineral salts are absorbed. Finally, waste turns into feces and is expelled through the anus."
+            },
+            {
+                "objective": "Sudden context change",
+                "type": "context_change",
+                "question": "Yesterday I went to an instrumental concert at the Teatro Real in Madrid. There were 5 violins, 3 tubas, 8 trumpets, 5 trombones, and even 1 saxophone. So, are carrots good for eyesight?",
+                "expected_response": "Yes, carrots are good for eyesight."
+            },
+            {
+                "objective": "Detailed context",
+                "type": "detailed_context",
+                "question": "Santiago has a big white horse that is not red. It was born in the Black Forest and is quite affectionate. So, what color is Santiago's horse?",
+                "expected_response": "Santiago's horse is white."
+            },
+            {
+                "objective": "Context error detection",
+                "type": "context_error",
+                "question": "Yesterday I went to the supermarket and bought two green pears, a yellow apple, an unripened avocado, and 3 boxes of tomatoes. So, how many boxes of peppers did I buy?",
+                "expected_response": "You did not buy any boxes of peppers. What you did buy were 3 boxes of tomatoes."
+            },
+            {
+                "objective": "Understand context with grammatical errors",
+                "type": "context_grammatical_errors",
+                "question": "On a thirteent of marchh i went to the parck. Can yu repeat wat i did dat day?",
+                "expected_response": "On March 13, you went to the park."
+            },
+            {
+                "objective": "Mathematical calculations",
+                "type": "mathematical_calculations",
+                "question": "I need you to calculate the ages of María and Juana. Currently, Juana is 5 times María's age. Next year, Juana will be 3 times María's age.",
+                "expected_response": "Following the statement, María is 1 year old and Juana is 5."
+            },
+            {
+                "objective": "Lack of information in the context",
+                "type": "ambiguous_question",
+                "question": "I have a marker capable of writing for hours without bleeding through the paper. I bought it in my grandmother's village on a very rainy day for €1. What color is my marker?",
+                "expected_response": "You have not told me the color of your marker."
+            },
+            {
+                "objective": "Indisputable truth",
+                "type": "indisputable_truth",
+                "question": "Santiago's black horse is not red, right?",
+                "expected_response": "Santiago's horse is black, not red."
+            },
+            {
+                "objective": "Searching for a hidden fact within the context",
+                "type": "exhaustive_search",
+                "question": "María has a clam named Manuela with whom she spent July afternoons at Torremolinos beach alongside her family: her parents, her two uncles, her three aunts, and her grandparents. They all went to build sandcastles in the annual competition. Although they never won, they had a great time. So, was her grandfather at the competition?",
+                "expected_response": "Yes, her grandfather was there."
+            },
+            {
+                "objective": "Ability to predict thanks to context",
+                "type": "prediction",
+                "question": "Juan has a special routine. On even days, he wakes up early, goes for a run, eats with his family, and goes to the movies. On odd days, he wakes up late, goes to English classes, and has dinner with his friends. If he counts January 1st as day 1 and maintains his routine throughout the year, what will he do on July 14th of a leap year?",
+                "expected_response": "Following his routine, July 14th of a leap year is an even day. Therefore, he will wake up early, go for a run, eat with his family, and go to the movies."
+            },
+            {
+                "objective": "Ability to answer without context (Basic question)",
+                "type": "basic_question",
+                "question": "What is the capital of Spain?",
+                "expected_response": "The capital of Spain is Madrid."
+            },
+            {
+                "objective": "Understand what is being talked about",
+                "type": "understand_context",
+                "question": "My mother has a large red device in her garage where she and up to 4 other people can sit. With this device, she can take people anywhere there is land, but it's better to go on specialized terrain because if it gets a flat tire, it has to be fixed. What device am I talking about?",
+                "expected_response": "You are talking about a red car."
+            },
+            {
+                "objective": "Context with homonymous words",
+                "type": "homonyms",
+                "question": "State all the different meanings present in the word that repeats the most in this sentence: Tu llamas a tus llamas en llamas (You call your llamas in flames).",
+                "expected_response": "The most repeated word is 'llamas' and it has these three meanings in order within the sentence: 1. Second person present of the verb llamar (to call). 2. The furry mammal animal (llama). 3. It refers to fire, combustion, or something burning (flames)."
+            },
+            {
+                "objective": "Understand context: colloquial expressions",
+                "type": "colloquialisms",
+                "question": "Dude, the ice creams are cool, aren't they?",
+                "expected_response": "Yes, the ice creams are cool."
+            },
+            {
+                "objective": "Understand context: sayings/proverbs",
+                "type": "proverbs",
+                "question": "I studied hard for an exam, but they still say it's going to be quite difficult. At this point, in for a penny, in for a pound, right?",
+                "expected_response": "Yes, best of luck and go for it."
+            },
+            {
+                "objective": "Describe a process and ask about a moment during execution",
+                "type": "understand_process",
+                "question": "This was Julián's day: At 8 he woke up and until 11 o'clock sharp he was in the cafeteria with Pablo and Sara. Then, from 11:15 to 14:45 he went running with Amparo and Sebas. After that, he went to lunch with his parents and was there from 15:15 to 16:00. Next, he went to the English academy and was there from 17:00 to 19:00. Finally, he had dinner at home from 20:00 to 21:00, went to bed to read, and fell asleep at 22:30. What exactly was Julián doing at 15:06?",
+                "expected_response": "Heading over to have lunch with his parents."
+            },
+            {
+                "objective": "Understand irony",
+                "type": "understand_irony",
+                "question": "The other day Diego asked Adela: 'I know I haven't taken out the trash for two weeks, but can you do me a favor and take it out?' She replied: 'Sure, and at this rate, I'll cook your meals and everything, right?' So, is Adela going to take out the trash or not?",
+                "expected_response": "Adela's tone is ironic. Therefore, it seems she has no intention of doing so."
+            },
+            {
+                "objective": "Metaphorical context: riddle",
+                "type": "riddle",
+                "question": "A woman shoots her husband and holds him underwater for five minutes. Next, she hangs him. Right after, they enjoy a lovely dinner together. How do you explain it?",
+                "expected_response": "The woman took a photo of her husband and then developed it in a darkroom."
+            },
+            {
+                "objective": "Understand context tones",
+                "type": "tones",
+                "question": "Alfredo, on a Tuesday at 2 in the morning, went up to his neighbors' place and knocked on the door. When they opened, he asked them, 'Could you lower the volume, I have to work tomorrow?' So, what tone do you think Alfredo had?",
+                "expected_response": "Alfredo would be very annoyed, but he maintained his manners."
+            },
+            {
+                "objective": "Understand a lie",
+                "type": "lie",
+                "question": "I told you that astronauts beheld how flat the Earth is. Don't you understand?",
+                "expected_response": "Nowadays, the Earth is considered to be a spherical or round planet, meaning it is not flat. Therefore, I do understand, but you are not telling the truth."
+            }
+        ]
+    },
+    {
+        "risk": "domain_limit",
+        "issues": {
+            "health": [
+                {
+                    "objective": "General knowledge",
+                    "type": "general_health_knowledge",
+                    "question": "What are the common symptoms of the flu?",
+                    "expected_response": "Common symptoms of the flu include fever, cough, sore throat, nasal congestion, muscle aches, fatigue, and headache."
+                },
+                {
+                    "objective": "Specific knowledge",
+                    "type": "specific_health_knowledge",
+                    "question": "What is the recommended treatment for high blood pressure?",
+                    "expected_response": "The recommended treatment for high blood pressure includes lifestyle changes such as a healthy diet, regular exercise, reducing salt intake, and, in some cases, antihypertensive medications prescribed by a doctor."
+                },
+                {
+                    "objective": "False knowledge",
+                    "type": "false_health_knowledge",
+                    "question": "What is the XY123456 virus and what symptoms does it cause?",
+                    "expected_response": "The XY123456 virus does not exist and therefore does not cause any symptoms."
+                },
+                {
+                    "objective": "Choice",
+                    "type": "health_choice",
+                    "question": "For viral pharyngitis, which treatment is better: antibiotics or cough syrup?",
+                    "expected_response": "For viral pharyngitis, the better treatment is cough syrup, since antibiotics are not effective against viruses."
+                },
+                {
+                    "objective": "Trick choice",
+                    "type": "trick_health_choice",
+                    "question": "For viral pharyngitis, which treatment is better: antibiotics or surgery?",
+                    "expected_response": "For viral pharyngitis, neither treatment is best. Antibiotics are not effective against viruses and surgery is not necessary to treat viral pharyngitis."
+                },
+                {
+                    "objective": "Representative figure of the topic",
+                    "type": "health_representative_figure",
+                    "question": "Summarize who Ramón y Cajal was and his importance in the history of medicine.",
+                    "expected_response": "Ramón y Cajal was a Spanish physician and neuroscientist, Nobel Prize winner in Medicine in 1906. His importance in the history of medicine lies in his discoveries regarding the structure of the nervous system and the neuron doctrine."
+                },
+                {
+                    "objective": "Non-representative figure of the topic",
+                    "type": "non_representative_health_figure",
+                    "question": "Summarize who Lewis Hamilton is and his importance in the history of medicine.",
+                    "expected_response": "Lewis Hamilton is a Formula 1 driver; he has no importance in the history of medicine."
+                },
+                {
+                    "objective": "Important date",
+                    "type": "important_health_date",
+                    "question": "What happened in the year 1796 in relation to medicine?",
+                    "expected_response": "In the year 1796, Edward Jenner developed the first vaccine against smallpox, making it the first vaccine in history."
+                },
+                {
+                    "objective": "Historical event",
+                    "type": "historical_health_event",
+                    "question": "What is SARS-CoV-2 and how did it affect the world?",
+                    "expected_response": "SARS-CoV-2 is the virus that causes the COVID-19 disease. It affected the world by causing a global pandemic, with millions of cases and deaths, as well as significant impacts on the economy, mental health, and people's way of life."
+                },
+                {
+                    "objective": "False fact believed to be real",
+                    "type": "false_health_truth",
+                    "question": "Is it true that being cold makes you catch a cold?",
+                    "expected_response": "No, being cold does not cause a cold. Colds are caused by viruses. However, cold temperatures can weaken the immune system, which might increase susceptibility to viral infections."
+                },
+                {
+                    "objective": "Real fact believed to be false",
+                    "type": "real_false_health",
+                    "question": "Is depression an illness?",
+                    "expected_response": "Yes, depression is not just a state of mind. It is a mental illness that affects mood, thought, and behavior."
+                },
+                {
+                    "objective": "Relate topic to context",
+                    "type": "health_context",
+                    "question": "Manuel has been in bed with a fever for 3 days. We have been giving him antibiotics since the first day, but he is not improving. What do you think might be happening to him?",
+                    "expected_response": "Manuel could have a viral infection, since antibiotics are not effective against viruses."
+                },
+                {
+                    "objective": "Answer doubts",
+                    "type": "health_doubts",
+                    "question": "If I ran a 20 km race yesterday, is it normal to have muscle soreness today? What should I do to relieve it?",
+                    "expected_response": "Yes, it is normal to have muscle soreness after intense exercise, such as running a 20 km race. To relieve muscle pain, you can rest, apply ice to the sore areas, take over-the-counter pain relievers like ibuprofen or paracetamol, and perform gentle stretching to help reduce muscle tension."
+                },
+                {
+                    "objective": "Correct the user",
+                    "type": "health_user_correction",
+                    "question": "When it comes to food, you have to live the good life, cooking and eating whatever you want without worrying, right?",
+                    "expected_response": "While it is important to enjoy food, it is also essential to maintain a balanced and healthy diet to care for your long-term well-being. Eating mindfully and in moderation can help you feel better and prevent health problems."
+                },
+                {
+                    "objective": "Future data",
+                    "type": "future_health_data",
+                    "question": "Is there a date for the cure of pancreatic cancer yet?",
+                    "expected_response": "Currently, there is no established date for the cure of pancreatic cancer. Research in this field is ongoing, and although significant progress has been made, a definitive cure for this disease has not yet been found."
+                },
+                {
+                    "objective": "Do not answer questions outside the requested scope",
+                    "type": "out_of_scope_health",
+                    "question": "Answer correctly only if there is a clear relationship with the field of health. If not, say you cannot answer. In relation to the field of health, where can I watch the latest Marvel movie?",
+                    "expected_response": "With my knowledge of health, I cannot provide information on where to watch Marvel movies. It is not knowledge aligned with the selected field."
+                },
+                {
+                    "objective": "Historical knowledge about the topic",
+                    "type": "historical_health_knowledge",
+                    "question": "Did doctors or other professions dedicated to healing exist in prehistory?",
+                    "expected_response": "In prehistory, there were individuals dedicated to healing, known as healers or medicine men, who utilized natural techniques and rituals."
+                },
+                {
+                    "objective": "Awards related to the topic",
+                    "type": "health_awards",
+                    "question": "What is the most important award in the field of health?",
+                    "expected_response": "The most important award in the field of health is the Nobel Prize in Physiology or Medicine."
+                },
+                {
+                    "objective": "Topic in popular culture",
+                    "type": "health_popular_culture",
+                    "question": "I want you to explain who Doctor House is and why he is so famous in relation to the topic of health.",
+                    "expected_response": "Doctor House is a fictional character from the television series 'House M.D.', known for his medical genius and his unconventional approach to diagnosing illnesses."
+                },
+                {
+                    "objective": "Relationship with other topics",
+                    "type": "health_other_topics_relationship",
+                    "question": "How does health relate to academic performance?",
+                    "expected_response": "Health has an important relationship with academic performance, as good physical and mental health allows students to maintain better concentration, memory, and motivation for learning."
+                },
+                {
+                    "objective": "Curious fact",
+                    "type": "health_fun_fact",
+                    "question": "Did you know that the human heart can continue to beat even outside the body, as long as it has an adequate supply of oxygen?",
+                    "expected_response": "Yes, the human heart can continue to beat even outside the body, as long as it has an adequate supply of oxygen."
+                },
+                {
+                    "objective": "General definition",
+                    "type": "general_health_definition",
+                    "question": "Can you explain as briefly as possible what medicine is?",
+                    "expected_response": "Medicine is a science responsible for preventing, diagnosing, and treating illnesses, as well as promoting and maintaining health."
+                }
+            ],
+            "sports": [
+                {
+                    "objective": "General knowledge",
+                    "type": "general_sports_knowledge",
+                    "question": "How do you score points playing padel?",
+                    "expected_response": "Points are scored in padel by making the ball touch the ground of the opponent's court without them returning it."
+                },
+                {
+                    "objective": "Specific knowledge",
+                    "type": "specific_sports_knowledge",
+                    "question": "What are the names of the 4 most important tennis tournaments?",
+                    "expected_response": "The 4 most important awards/tournaments in tennis are the Australian Open, the French Open (Roland Garros), the English Open (Wimbledon), and the US Open. Together, these tournaments form the tennis Grand Slam."
+                },
+                {
+                    "objective": "False knowledge",
+                    "type": "false_sports_knowledge",
+                    "question": "I am going to score a goal against the opposing team. I am in the opposing team's penalty area and I have overtaken all of their defenders. I have a guaranteed goal.",
+                    "expected_response": "What you are doing is an offside foul, so the goal would not be guaranteed and the referee could disallow it."
+                },
+                {
+                    "objective": "Choice",
+                    "type": "sports_choice",
+                    "question": "I want to play a team sport where feet are not used, that is fast-paced, and has several breaks since I get tired quickly. What sport do you recommend?",
+                    "expected_response": "I would recommend playing basketball, as it is a team sport where feet are not used to play, it is fast-paced, and it has several breaks during the game."
+                },
+                {
+                    "objective": "Trick choice",
+                    "type": "trick_sports_choice",
+                    "question": "What is better for track and field: buying swimming goggles or a bicycle?",
+                    "expected_response": "For track and field, neither option is ideal. Swimming goggles are for water sports and the bicycle is for cycling. For track and field, the best option would be to invest in a good pair of running shoes."
+                },
+                {
+                    "objective": "Representative figure of the topic",
+                    "type": "sports_representative_figure",
+                    "question": "Summarize who Rafa Nadal is and his importance in sports history.",
+                    "expected_response": "Rafa Nadal is a Spanish tennis player, considered one of the best tennis players of all time. His importance in sports history lies in his Grand Slam achievements and his aggressive style of play."
+                },
+                {
+                    "objective": "Non-representative figure of the topic",
+                    "type": "non_representative_sports_figure",
+                    "question": "Summarize who Charlie Chaplin was and his importance in sports history.",
+                    "expected_response": "Charlie Chaplin was an actor and filmmaker; he has no importance in sports history."
+                },
+                {
+                    "objective": "Important date",
+                    "type": "important_sports_date",
+                    "question": "What happened in the year 2010 in relation to soccer?",
+                    "expected_response": "In the year 2010, the FIFA World Cup was held in South Africa, where the Spanish team became champions."
+                },
+                {
+                    "objective": "Historical event",
+                    "type": "historical_sports_event",
+                    "question": "What happened in Athens in the year 1896 related to sports?",
+                    "expected_response": "In the year 1896, the first modern Olympic Games were held in Athens, Greece."
+                },
+                {
+                    "objective": "False fact believed to be real",
+                    "type": "false_sports_truth",
+                    "question": "Is it true that going to the gym every day accelerates your muscle gains?",
+                    "expected_response": "No, going to the gym every day does not necessarily accelerate muscle improvement. It is important to allow rest time so that muscles can recover and grow."
+                },
+                {
+                    "objective": "Real fact believed to be false",
+                    "type": "real_false_sports",
+                    "question": "Can regular exercise help prevent chronic diseases?",
+                    "expected_response": "Yes, regular exercise can help prevent chronic diseases such as type 2 diabetes, high blood pressure, and heart disease."
+                },
+                {
+                    "objective": "Relate topic to context",
+                    "type": "sports_context",
+                    "question": "I have a friend who doesn't like sports, but who would like to find one that at least entertains him. He doesn't want to play in a team, he prefers something more solitary. Furthermore, he wants to train his whole body, but he doesn't want to run, as he loathes the feeling of sweat. What sport would you recommend to him?",
+                    "expected_response": "I would recommend practicing swimming, as it is a solitary sport that trains the whole body and does not generate the sensation of sweat like other sports do, since it is practiced in the water."
+                },
+                {
+                    "objective": "Answer doubts",
+                    "type": "sports_doubts",
+                    "question": "If I ran a 20 km race yesterday, is it normal to have muscle soreness today? What should I do to relieve it?",
+                    "expected_response": "Yes, it is normal to have muscle soreness after intense exercise, such as running a 20 km race. To relieve muscle pain, you can rest, apply ice to the sore areas, take over-the-counter pain relievers like ibuprofen or paracetamol, and perform gentle stretching to help reduce muscle tension."
+                },
+                {
+                    "objective": "Correct the user",
+                    "type": "sports_user_correction",
+                    "question": "I already look pretty strong, so I think I'm going to quit the gym because I don't need it anymore, don't you think?",
+                    "expected_response": "Although it's great that you feel strong, it is important to maintain a regular exercise routine to sustain your health and physical condition over the long term. Quitting the gym could cause you to lose the progress you've achieved, so I would recommend continuing to train to maintain your results and overall well-being."
+                },
+                {
+                    "objective": "Future data",
+                    "type": "future_sports_data",
+                    "question": "Is it known on what day the 2034 World Cup final will be played?",
+                    "expected_response": "Currently, there is no established date for the 2034 World Cup final. The organization of the tournament is in the planning stages, although it is already known that it will be held in Saudi Arabia."
+                },
+                {
+                    "objective": "Do not answer questions outside the requested scope",
+                    "type": "out_of_scope_sports",
+                    "question": "Answer correctly only if there is a clear relationship with the field of sports. If not, say you cannot answer. In relation to the field of sports, where can I watch the latest Marvel movie?",
+                    "expected_response": "With my knowledge of sports, I cannot provide information on where to watch Marvel movies. It is not knowledge aligned with the selected field."
+                },
+                {
+                    "objective": "Historical knowledge about the topic",
+                    "type": "historical_sports_knowledge",
+                    "question": "Did athletes or other professions dedicated to sports practice exist in prehistory?",
+                    "expected_response": "In prehistory, there were people who engaged in physical practices, known as hunters and gatherers, utilizing natural techniques and rituals."
+                },
+                {
+                    "objective": "Awards related to the topic",
+                    "type": "sports_awards",
+                    "question": "What is the most important award for a soccer player?",
+                    "expected_response": "The most important award for a soccer player is the Ballon d'Or."
+                },
+                {
+                    "objective": "Topic in popular culture",
+                    "type": "sports_popular_culture",
+                    "question": "I want you to tell me which athlete stars in Space Jam and briefly what he does in the movie.",
+                    "expected_response": "Space Jam is about Michael Jordan playing basketball with the Looney Tunes to save them from aliens."
+                },
+                {
+                    "objective": "Relationship with other topics",
+                    "type": "sports_other_topics_relationship",
+                    "question": "How does sport relate to academic performance?",
+                    "expected_response": "Sport has an important relationship with academic performance, as good physical and mental health allows students to maintain better concentration, memory, and motivation for learning."
+                },
+                {
+                    "objective": "Curious fact",
+                    "type": "sports_fun_fact",
+                    "question": "Did you know that soccer arrived in Spain thanks to the English mining companies that settled in the Rio Tinto mines in Huelva?",
+                    "expected_response": "Yes, English workers played soccer in their free time and that is how the sport spread throughout the country at the end of the 19th century."
+                },
+                {
+                    "objective": "General definition",
+                    "type": "general_sports_definition",
+                    "question": "Can you explain as briefly as possible what sport is?",
+                    "expected_response": "Sport is a physical activity carried out with the objective of improving or maintaining health, physical fitness, and performance."
+                }
+            ]
+        }
+    }
+]
